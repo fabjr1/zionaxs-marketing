@@ -5,142 +5,61 @@
 
 <style>
 :root{
-  --paper:#F5F6F7;
-  --surface:#FFFFFF;
-  --surface-2:#EDEFF1;
-  --ink:#14171B;
-  --ink-2:#5A6270;
-  --ink-3:#858D99;
-  --rule:#D8DCE1;
-  --rule-strong:#B9C0C8;
-  --accent:#F54502;
-  --accent-ink:#B23100;
-  --accent-wash:rgba(245,69,2,0.07);
-  --ok:#1F6B4A;
-  --warn:#8A5A00;
-  --crit:#A32218;
-  --ok-wash:rgba(31,107,74,0.10);
-  --warn-wash:rgba(138,90,0,0.10);
-  --crit-wash:rgba(163,34,24,0.10);
+  --paper:#F5F6F7; --surface:#FFFFFF; --surface-2:#EDEFF1;
+  --ink:#14171B; --ink-2:#5A6270; --ink-3:#858D99;
+  --rule:#D8DCE1; --rule-strong:#B9C0C8;
+  --accent:#F54502; --accent-ink:#B23100; --accent-wash:rgba(245,69,2,0.07);
+  --ok:#1F6B4A; --warn:#8A5A00; --crit:#A32218;
+  --ok-wash:rgba(31,107,74,0.10); --warn-wash:rgba(138,90,0,0.10); --crit-wash:rgba(163,34,24,0.10);
+  --new-wash:rgba(31,107,74,0.06);
   --shadow:0 1px 0 rgba(20,23,27,0.04);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --paper:#0A0B0D;
-    --surface:#14171B;
-    --surface-2:#1B1E24;
-    --ink:#E8EAEC;
-    --ink-2:#98A1AD;
-    --ink-3:#6D7683;
-    --rule:#262B31;
-    --rule-strong:#39404A;
-    --accent:#FF5A1F;
-    --accent-ink:#FF7A47;
-    --accent-wash:rgba(255,90,31,0.12);
-    --ok:#5BC48D;
-    --warn:#E0A83C;
-    --crit:#F1685C;
-    --ok-wash:rgba(91,196,141,0.12);
-    --warn-wash:rgba(224,168,60,0.12);
-    --crit-wash:rgba(241,104,92,0.12);
+    --paper:#0A0B0D; --surface:#14171B; --surface-2:#1B1E24;
+    --ink:#E8EAEC; --ink-2:#98A1AD; --ink-3:#6D7683;
+    --rule:#262B31; --rule-strong:#39404A;
+    --accent:#FF5A1F; --accent-ink:#FF7A47; --accent-wash:rgba(255,90,31,0.12);
+    --ok:#5BC48D; --warn:#E0A83C; --crit:#F1685C;
+    --ok-wash:rgba(91,196,141,0.12); --warn-wash:rgba(224,168,60,0.12); --crit-wash:rgba(241,104,92,0.12);
+    --new-wash:rgba(91,196,141,0.07);
     --shadow:0 1px 0 rgba(0,0,0,0.4);
   }
 }
 :root[data-theme="dark"]{
-  --paper:#0A0B0D;
-  --surface:#14171B;
-  --surface-2:#1B1E24;
-  --ink:#E8EAEC;
-  --ink-2:#98A1AD;
-  --ink-3:#6D7683;
-  --rule:#262B31;
-  --rule-strong:#39404A;
-  --accent:#FF5A1F;
-  --accent-ink:#FF7A47;
-  --accent-wash:rgba(255,90,31,0.12);
-  --ok:#5BC48D;
-  --warn:#E0A83C;
-  --crit:#F1685C;
-  --ok-wash:rgba(91,196,141,0.12);
-  --warn-wash:rgba(224,168,60,0.12);
-  --crit-wash:rgba(241,104,92,0.12);
+  --paper:#0A0B0D; --surface:#14171B; --surface-2:#1B1E24;
+  --ink:#E8EAEC; --ink-2:#98A1AD; --ink-3:#6D7683;
+  --rule:#262B31; --rule-strong:#39404A;
+  --accent:#FF5A1F; --accent-ink:#FF7A47; --accent-wash:rgba(255,90,31,0.12);
+  --ok:#5BC48D; --warn:#E0A83C; --crit:#F1685C;
+  --ok-wash:rgba(91,196,141,0.12); --warn-wash:rgba(224,168,60,0.12); --crit-wash:rgba(241,104,92,0.12);
+  --new-wash:rgba(91,196,141,0.07);
   --shadow:0 1px 0 rgba(0,0,0,0.4);
 }
 
 *{box-sizing:border-box}
-body{
-  margin:0;
-  background:var(--paper);
-  color:var(--ink);
-  font-family:Archivo,"Helvetica Neue",Arial,sans-serif;
-  font-size:16px;
-  line-height:1.62;
-  -webkit-font-smoothing:antialiased;
-}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1120px;margin:0 auto;padding:0 28px 120px}
 
-/* ---------- masthead ---------- */
-.mast{
-  border-bottom:2px solid var(--ink);
-  padding:56px 0 22px;
-  margin-bottom:0;
-}
-.mast .eyebrow{
-  font-family:"JetBrains Mono",ui-monospace,monospace;
-  font-size:11px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--accent);font-weight:700;margin:0 0 20px;
-  display:flex;flex-wrap:wrap;gap:10px;align-items:center;
-}
+.mast{border-bottom:2px solid var(--ink);padding:56px 0 22px}
+.mast .eyebrow{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 20px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .mast .eyebrow span.sep{color:var(--rule-strong)}
-h1{
-  font-family:Poppins,Archivo,sans-serif;font-weight:700;
-  font-size:clamp(38px,6.2vw,66px);line-height:1.02;letter-spacing:-.028em;
-  margin:0 0 18px;text-wrap:balance;max-width:16ch;
-}
-.deck{
-  font-size:clamp(17px,2.1vw,21px);line-height:1.5;color:var(--ink-2);
-  max-width:62ch;margin:0 0 30px;
-}
+h1{font-family:Poppins,Archivo,sans-serif;font-weight:700;font-size:clamp(38px,6.2vw,66px);line-height:1.02;letter-spacing:-.028em;margin:0 0 18px;text-wrap:balance;max-width:16ch}
+.deck{font-size:clamp(17px,2.1vw,21px);line-height:1.5;color:var(--ink-2);max-width:62ch;margin:0 0 30px}
 .deck strong{color:var(--ink);font-weight:600}
-
-.metastrip{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
-  gap:0;border-top:1px solid var(--rule);
-}
-.metastrip div{
-  padding:14px 18px 14px 0;border-right:1px solid var(--rule);
-}
+.metastrip{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:0;border-top:1px solid var(--rule)}
+.metastrip div{padding:14px 18px 14px 0;border-right:1px solid var(--rule)}
 .metastrip div:last-child{border-right:none}
-.metastrip dt{
-  font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--ink-3);margin:0 0 5px;
-}
+.metastrip dt{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin:0 0 5px}
 .metastrip dd{margin:0;font-size:14.5px;font-weight:500;line-height:1.35}
 
-/* ---------- sections ---------- */
 section{padding-top:64px;scroll-margin-top:20px}
-.sechead{
-  display:flex;align-items:baseline;gap:16px;
-  border-bottom:1px solid var(--ink);padding-bottom:10px;margin-bottom:30px;
-}
-.secnum{
-  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;
-  color:var(--accent);letter-spacing:.06em;flex:none;
-}
-h2{
-  font-family:Poppins,Archivo,sans-serif;font-weight:600;
-  font-size:clamp(23px,3.1vw,31px);line-height:1.15;letter-spacing:-.018em;
-  margin:0;text-wrap:balance;
-}
-h3{
-  font-family:Poppins,Archivo,sans-serif;font-weight:600;font-size:19px;
-  letter-spacing:-.012em;margin:38px 0 12px;line-height:1.25;text-wrap:balance;
-}
-h4{
-  font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11.5px;
-  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);
-  margin:26px 0 10px;
-}
+.sechead{display:flex;align-items:baseline;gap:16px;border-bottom:1px solid var(--ink);padding-bottom:10px;margin-bottom:30px;flex-wrap:wrap}
+.secnum{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.06em;flex:none}
+h2{font-family:Poppins,Archivo,sans-serif;font-weight:600;font-size:clamp(23px,3.1vw,31px);line-height:1.15;letter-spacing:-.018em;margin:0;text-wrap:balance}
+.skilltag{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ok);background:var(--ok-wash);border:1px solid var(--ok);padding:3px 8px;border-radius:3px;white-space:nowrap}
+h3{font-family:Poppins,Archivo,sans-serif;font-weight:600;font-size:19px;letter-spacing:-.012em;margin:38px 0 12px;line-height:1.25;text-wrap:balance}
+h4{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:26px 0 10px}
 p{margin:0 0 15px;max-width:70ch}
 ul,ol{margin:0 0 16px;padding-left:20px;max-width:70ch}
 li{margin-bottom:7px}
@@ -151,162 +70,105 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius
 code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.88em}
 code{background:var(--surface-2);padding:1px 5px;border-radius:3px}
 
-/* ---------- evidence chips ---------- */
-.tag{
-  display:inline-flex;align-items:center;gap:5px;
-  font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
-  letter-spacing:.09em;padding:2px 7px;border-radius:3px;
-  border:1px solid currentColor;white-space:nowrap;vertical-align:1px;
-}
+.tag{display:inline-flex;align-items:center;gap:5px;font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.09em;padding:2px 7px;border-radius:3px;border:1px solid currentColor;white-space:nowrap;vertical-align:1px}
 .t-E{color:var(--ok);background:var(--ok-wash)}
 .t-I{color:var(--ink-2);background:var(--surface-2)}
 .t-H{color:var(--warn);background:var(--warn-wash)}
 .t-NC{color:var(--crit);background:var(--crit-wash)}
-.src{
-  font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;
-  color:var(--accent-ink);white-space:nowrap;
-}
+.src{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;color:var(--accent-ink);white-space:nowrap}
 
-/* ---------- legend ---------- */
-.legend{
-  display:flex;flex-wrap:wrap;gap:20px;padding:16px 20px;
-  background:var(--surface);border:1px solid var(--rule);border-radius:4px;
-  margin:0 0 4px;box-shadow:var(--shadow);
-}
+.legend{display:flex;flex-wrap:wrap;gap:20px;padding:16px 20px;background:var(--surface);border:1px solid var(--rule);border-radius:4px;margin:0 0 4px;box-shadow:var(--shadow)}
 .legend div{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
 
-/* ---------- tables ---------- */
 .tablewrap{overflow-x:auto;margin:0 0 22px;border:1px solid var(--rule);border-radius:4px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:14px;min-width:600px}
-th{
-  font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--ink-3);font-weight:700;
-  text-align:left;padding:11px 14px;border-bottom:1px solid var(--rule-strong);
-  white-space:nowrap;background:var(--surface);
-}
+th{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:700;text-align:left;padding:11px 14px;border-bottom:1px solid var(--rule-strong);white-space:nowrap;background:var(--surface)}
 td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
 tr:last-child td{border-bottom:none}
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:"JetBrains Mono",monospace}
 td.id{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;color:var(--accent-ink);white-space:nowrap}
 
-/* ---------- callouts ---------- */
-.note{
-  border-left:3px solid var(--accent);background:var(--accent-wash);
-  padding:16px 20px;margin:0 0 22px;border-radius:0 4px 4px 0;
-}
+.note{border-left:3px solid var(--accent);background:var(--accent-wash);padding:16px 20px;margin:0 0 22px;border-radius:0 4px 4px 0}
 .note p:last-child{margin-bottom:0}
-.note .lbl{
-  font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
-  letter-spacing:.13em;text-transform:uppercase;color:var(--accent-ink);
-  display:block;margin-bottom:7px;
-}
+.note .lbl{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent-ink);display:block;margin-bottom:7px}
+.note.good{border-left-color:var(--ok);background:var(--new-wash)}
+.note.good .lbl{color:var(--ok)}
 
-/* ---------- blockers ---------- */
 .blocks{display:grid;gap:14px;margin-bottom:24px}
-.block{
-  display:grid;grid-template-columns:auto 1fr;gap:0 18px;
-  background:var(--surface);border:1px solid var(--rule);
-  border-left:4px solid var(--crit);border-radius:4px;padding:18px 22px;
-  box-shadow:var(--shadow);
-}
+.block{display:grid;grid-template-columns:auto 1fr;gap:0 18px;background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--crit);border-radius:4px;padding:18px 22px;box-shadow:var(--shadow)}
 .block.w{border-left-color:var(--warn)}
-.block .sev{
-  font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
-  letter-spacing:.12em;text-transform:uppercase;color:var(--crit);
-  padding-top:4px;white-space:nowrap;
-}
+.block .sev{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--crit);padding-top:4px;white-space:nowrap;grid-row:1;grid-column:1}
 .block.w .sev{color:var(--warn)}
 .block h3{margin:0 0 7px;font-size:17px;grid-column:2}
-.block .sev{grid-row:1;grid-column:1}
 .block .body{grid-column:2}
 .block .body p{margin-bottom:9px;font-size:14.5px}
 .block .body p:last-child{margin-bottom:0}
 
-/* ---------- brief card ---------- */
-.brief{
-  background:var(--surface);border:1px solid var(--rule);border-radius:4px;
-  margin:0 0 20px;overflow:hidden;box-shadow:var(--shadow);
-}
-.brief > header{
-  padding:16px 22px;border-bottom:1px solid var(--rule);background:var(--surface-2);
-  display:flex;flex-wrap:wrap;gap:10px 16px;align-items:baseline;
-}
-.brief > header .bid{
-  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;color:var(--accent);
-}
+.brief{background:var(--surface);border:1px solid var(--rule);border-radius:4px;margin:0 0 20px;overflow:hidden;box-shadow:var(--shadow)}
+.brief > header{padding:16px 22px;border-bottom:1px solid var(--rule);background:var(--surface-2);display:flex;flex-wrap:wrap;gap:10px 16px;align-items:baseline}
+.brief > header .bid{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;color:var(--accent)}
 .brief > header h3{margin:0;font-size:18px;flex:1 1 320px}
 .brief .inner{padding:20px 22px}
 .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0 26px}
 .fields div{padding:9px 0;border-bottom:1px solid var(--rule)}
-.fields dt{
-  font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--ink-3);margin:0 0 3px;
-}
+.fields dt{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:0 0 3px}
 .fields dd{margin:0;font-size:14px;line-height:1.42}
 
-/* ---------- slide script ---------- */
 .slides{border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:var(--surface);margin-bottom:22px}
-.slide{
-  display:grid;grid-template-columns:52px 1fr;gap:0 20px;
-  padding:18px 22px;border-bottom:1px solid var(--rule);
-}
+.slide{display:grid;grid-template-columns:52px 1fr;gap:0 20px;padding:18px 22px;border-bottom:1px solid var(--rule)}
 .slide:last-child{border-bottom:none}
-.slide .n{
-  font-family:"JetBrains Mono",monospace;font-size:22px;font-weight:700;
-  color:var(--rule-strong);line-height:1;padding-top:3px;font-variant-numeric:tabular-nums;
-}
+.slide .n{font-family:"JetBrains Mono",monospace;font-size:22px;font-weight:700;color:var(--rule-strong);line-height:1;padding-top:3px;font-variant-numeric:tabular-nums}
 .slide.cta .n{color:var(--accent)}
-.slide .role{
-  font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--ink-3);margin:0 0 7px;
-}
-.slide .copy{
-  font-size:16px;line-height:1.45;margin:0 0 8px;font-weight:500;max-width:60ch;
-}
+.slide .role{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:0 0 7px}
+.slide .copy{font-size:16px;line-height:1.45;margin:0 0 8px;font-weight:500;max-width:60ch}
 .slide .copy em{font-style:normal;color:var(--accent-ink);font-weight:600}
 .slide .dir{font-size:13.5px;color:var(--ink-2);margin:0;max-width:62ch}
 .slide .dir b{color:var(--ink);font-weight:600}
 
-/* ---------- caption block ---------- */
-.caption{
-  background:var(--surface-2);border:1px solid var(--rule);border-radius:4px;
-  padding:20px 22px;margin:0 0 22px;font-size:14.5px;line-height:1.6;
-}
+.caption{background:var(--surface-2);border:1px solid var(--rule);border-radius:4px;padding:20px 22px;margin:0 0 22px;font-size:14.5px;line-height:1.6}
 .caption p{max-width:64ch}
 .caption p:last-child{margin-bottom:0}
-.caption .lbl{
-  font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
-  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);
-  display:block;margin-bottom:10px;
-}
+.caption .lbl{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);display:block;margin-bottom:10px}
 
-/* ---------- swatches ---------- */
 .swatches{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 20px}
 .sw{border:1px solid var(--rule);border-radius:4px;overflow:hidden;width:132px;background:var(--surface)}
 .sw .chip{height:52px}
 .sw .lab{padding:8px 10px;font-family:"JetBrains Mono",monospace;font-size:10px;line-height:1.4;color:var(--ink-2)}
 .sw .lab b{display:block;color:var(--ink);font-size:11px;margin-bottom:2px}
 
-/* ---------- kpi grid ---------- */
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:22px}
 .kpi{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:16px 18px;box-shadow:var(--shadow)}
-.kpi .stage{
-  font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:9px;
-}
+.kpi .stage{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:9px}
 .kpi ul{margin:0;padding-left:16px;font-size:13.5px}
 .kpi li{margin-bottom:5px;color:var(--ink-2)}
 
-/* ---------- checklist ---------- */
 .gates{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .gate{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:18px 20px}
 .gate h4{margin:0 0 12px;color:var(--accent-ink)}
 .gate ul{list-style:none;padding:0;margin:0;font-size:13.5px}
 .gate li{padding-left:24px;position:relative;margin-bottom:8px;line-height:1.45}
-.gate li::before{
-  content:"";position:absolute;left:0;top:4px;width:13px;height:13px;
-  border:1.5px solid var(--rule-strong);border-radius:2px;
-}
+.gate li::before{content:"";position:absolute;left:0;top:4px;width:13px;height:13px;border:1.5px solid var(--rule-strong);border-radius:2px}
+
+/* value equation meter */
+.eq{border:1px solid var(--rule);border-radius:4px;background:var(--surface);overflow:hidden;margin-bottom:22px}
+.eq .row{display:grid;grid-template-columns:1fr 62px 130px;gap:0 16px;align-items:center;padding:13px 20px;border-bottom:1px solid var(--rule)}
+.eq .row:last-child{border-bottom:none}
+.eq .lv{font-weight:600;font-size:14.5px}
+.eq .lv small{display:block;font-weight:400;color:var(--ink-2);font-size:13px;line-height:1.4;margin-top:2px}
+.eq .sc{font-family:"JetBrains Mono",monospace;font-size:20px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.eq .bar{height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.eq .bar i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.eq .row.bind{background:var(--crit-wash)}
+.eq .row.bind .sc{color:var(--crit)}
+.eq .row.bind .bar i{background:var(--crit)}
+
+/* advisor */
+.adv{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--rule-strong);border-radius:0 4px 4px 0;padding:18px 22px;margin-bottom:14px}
+.adv h4{margin:0 0 4px;color:var(--ink);font-family:Poppins,sans-serif;font-size:16px;letter-spacing:-.01em;text-transform:none}
+.adv .lens{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:0 0 11px}
+.adv p{font-size:14.5px;margin-bottom:10px}
+.adv .bl{font-size:14px;font-weight:600;color:var(--accent-ink);margin:0}
+.adv.dissent{border-left-color:var(--accent)}
 
 hr.rule{border:none;border-top:1px solid var(--rule);margin:34px 0}
 
@@ -316,6 +178,8 @@ hr.rule{border:none;border-top:1px solid var(--rule);margin:34px 0}
   .block{grid-template-columns:1fr;gap:8px}
   .block .sev,.block h3,.block .body{grid-column:1}
   .metastrip div{border-right:none;border-bottom:1px solid var(--rule)}
+  .eq .row{grid-template-columns:1fr 50px;gap:0 10px}
+  .eq .bar{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -324,10 +188,8 @@ hr.rule{border:none;border-top:1px solid var(--rule);margin:34px 0}
 
 <header class="mast">
   <p class="eyebrow">
-    <span>Zionaxs</span><span class="sep">/</span>
-    <span>Campanha editorial</span><span class="sep">/</span>
-    <span>V2 Contabilidade BR</span><span class="sep">/</span>
-    <span>6 semanas</span>
+    <span>Zionaxs</span><span class="sep">/</span><span>Campanha editorial</span><span class="sep">/</span>
+    <span>V2 Contabilidade BR</span><span class="sep">/</span><span>6 semanas</span><span class="sep">/</span><span>v2</span>
   </p>
   <h1>Capacidade antes de oferta</h1>
   <p class="deck">
@@ -338,21 +200,75 @@ hr.rule{border:none;border-top:1px solid var(--rule);margin:34px 0}
   <dl class="metastrip">
     <div><dt>Público primário</dt><dd>V2 / C1 <span class="mono" style="color:var(--ink-3)">Sócio-operador contábil</span></dd></div>
     <div><dt>Recorte</dt><dd>Brasil, editorial</dd></div>
-    <div><dt>Canal</dt><dd>Instagram <span class="mono" style="color:var(--ink-3)">@zionaxs_</span></dd></div>
+    <div><dt>Estágio AARRR</dt><dd>Acquisition, dia zero</dd></div>
     <div><dt>Cadência</dt><dd>2 carrosséis/semana</dd></div>
-    <div><dt>Peças</dt><dd>12 carrosséis, 6 Reels, 1 lead asset</dd></div>
+    <div><dt>Peças</dt><dd>12 carrosséis, 6 Reels, 2 ativos</dd></div>
     <div><dt>Status</dt><dd style="color:var(--crit);font-weight:600">Bloqueada na publicação</dd></div>
   </dl>
 </header>
 
-<!-- ============ 01 ============ -->
-<section id="base">
-  <div class="sechead"><span class="secnum">01</span><h2>O que a memória sustenta, e o que ela não sustenta</h2></div>
-
+<!-- ============ 00 REVISÃO ============ -->
+<section id="revisao">
+  <div class="sechead"><span class="secnum">00</span><h2>O que a revisão mudou</h2></div>
   <p>
-    A memória tem 66 arquivos e cerca de 10.300 linhas, com uma disciplina rara: toda afirmação carrega um status de evidência,
-    e nenhum número existe sem entrada no ledger de fontes. Isso muda o que uma campanha pode dizer.
-    A tabela abaixo é a leitura direta da confiança declarada em <span class="mono">19d §18.2</span>.
+    A v1 foi construída só com o método da própria zionaxs-memory. Esta v2 passou as 12 peças pelas skills do
+    marketingskills. Sete coisas mudaram, e três delas estavam erradas na v1.
+  </p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Skill</th><th>O que a v1 tinha</th><th>O que mudou na v2</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="id">offers</td>
+          <td>"Não existe oferta confirmada", registrado como bloqueio e abandonado</td>
+          <td><b>Oferta desenhada.</b> Equação de valor pontuada, seis componentes, garantia de entrega e escassez por capacidade, ambas compatíveis com a proibição de promessa e de escassez artificial.</td>
+        </tr>
+        <tr>
+          <td class="id">lead-magnets</td>
+          <td>Planilha de 5 abas como isca de topo</td>
+          <td><b>Erro corrigido.</b> Cinco abas violam "consumível em menos de 10 minutos" e "um formato só". Virou ativo em dois passos.</td>
+        </tr>
+        <tr>
+          <td class="id">ab-testing</td>
+          <td>Teste B8 sem hipótese formal, sem amostra, sem métrica de guarda</td>
+          <td><b>Erro corrigido.</b> A conta de amostra mostra que a conta não alcança significância em 6 semanas. O teste vira leitura direcional marcada <span class="tag t-H">H</span>, não <span class="tag t-E">E</span>.</td>
+        </tr>
+        <tr>
+          <td class="id">ad-creative</td>
+          <td>Hooks como frase única</td>
+          <td><b>Matriz de hooks.</b> Três componentes por hook, cobertura por segmento × motivação × formato, mais a regra da rampa e o funil de diagnóstico.</td>
+        </tr>
+        <tr>
+          <td class="id">ads</td>
+          <td>Mídia paga sem economia</td>
+          <td><b>Matemática da trava.</b> CPL de equilíbrio, payback descontado, ordem de construção de baixo para cima, regras de morte e pontuação de qualidade de lead.</td>
+        </tr>
+        <tr>
+          <td class="id">marketing-plan</td>
+          <td>Funil de 4 fases de consciência</td>
+          <td><b>AARRR.</b> Diagnóstico de restrição vinculante e tratamento explícito dos três estágios que esta campanha não cobre.</td>
+        </tr>
+        <tr>
+          <td class="id">marketing-council</td>
+          <td>Recomendação minha sobre Brasil e Porto</td>
+          <td><b>Quatro lentes em conflito</b> sobre a mesma decisão, com o mapa de discordância e o que resolveria cada uma.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:13.5px;color:var(--ink-2)">
+    O que <b>não</b> mudou: tudo que veio da memória Zionaxs. Onde skill e memória conflitaram, a memória venceu,
+    e o conflito está registrado onde aparece.
+  </p>
+</section>
+
+<!-- ============ 01 BASE ============ -->
+<section id="base">
+  <div class="sechead"><span class="secnum">01</span><h2>O que a memória sustenta</h2></div>
+  <p>
+    66 arquivos, cerca de 10.300 linhas, e uma disciplina rara: toda afirmação carrega status de evidência e
+    nenhum número existe sem entrada no ledger de fontes. Isso define o que a campanha pode dizer.
   </p>
 
   <div class="legend">
@@ -361,996 +277,1124 @@ hr.rule{border:none;border-top:1px solid var(--rule);margin:34px 0}
     <div><span class="tag t-H">H</span> Hipótese, nunca publicável como fato</div>
     <div><span class="tag t-NC">NC</span> Não coberto pela pesquisa</div>
   </div>
-  <p style="font-size:13.5px;color:var(--ink-2);margin-top:10px">
-    Os códigos <span class="src">[S21]</span> e similares são as fontes reais do ledger em <span class="mono">19a §22</span>.
-    Eles aparecem aqui por um motivo prático: nenhuma peça vai a produção sem eles visíveis.
-  </p>
 
-  <h3>Por que a campanha é de contabilidade, e não de clínicas ou advocacia</h3>
-
+  <h3>Por que contabilidade, e não clínicas ou advocacia</h3>
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Vertical</th><th>Confiança</th><th>O que existe</th><th>Serve de base para campanha agora?</th></tr></thead>
+      <thead><tr><th>Vertical</th><th>Confiança</th><th>O que existe</th><th>Base para campanha agora?</th></tr></thead>
       <tbody>
-        <tr>
-          <td><b>V2 Contabilidade</b></td>
-          <td><span class="tag t-E">E</span> média</td>
-          <td>Economia de carteira <span class="src">[S21]</span> mais janela regulatória datada <span class="src">[S22][S23][S25]</span></td>
-          <td style="color:var(--ok);font-weight:600">Sim. Única com dor econômica medida e urgência com data.</td>
-        </tr>
-        <tr>
-          <td>V1 Clínicas</td>
-          <td><span class="tag t-E">E</span> alta em infra, <span class="tag t-I">I</span> em rotina</td>
-          <td>TIC Saúde 2024 forte em infraestrutura <span class="src">[S1–S9]</span>, mas dores são inferência</td>
-          <td>Sim para conteúdo. Sem gatilho temporal, campanha perde a urgência.</td>
-        </tr>
-        <tr>
-          <td>V3 Advocacia</td>
-          <td><span class="tag t-E">E</span> alta em perfil, <span class="tag t-NC">NC</span> em sócio decisor</td>
-          <td>Perfil ADV com 20.885 respostas <span class="src">[S17]</span>, mas rotina do sócio decisor sem estudo</td>
-          <td>Parcial. Provimento 205/2021 em revisão <span class="src">[S20]</span> trava o ângulo de marketing jurídico.</td>
-        </tr>
-        <tr>
-          <td>V4 a V8</td>
-          <td><span class="tag t-NC">NC</span> nula</td>
-          <td>Sem pesquisa própria. Backlog B1 a B5.</td>
-          <td>Não. Só peça transversal, sem afirmar dor do setor.</td>
-        </tr>
+        <tr><td><b>V2 Contabilidade</b></td><td><span class="tag t-E">E</span> média</td><td>Economia de carteira <span class="src">[S21]</span> mais janela regulatória datada <span class="src">[S22][S23][S25]</span></td><td style="color:var(--ok);font-weight:600">Sim. Única com dor econômica medida e urgência com data.</td></tr>
+        <tr><td>V1 Clínicas</td><td><span class="tag t-E">E</span> infra, <span class="tag t-I">I</span> rotina</td><td>TIC Saúde 2024 forte em infraestrutura <span class="src">[S1–S9]</span>, dores inferidas</td><td>Sim para conteúdo. Sem gatilho temporal.</td></tr>
+        <tr><td>V3 Advocacia</td><td><span class="tag t-E">E</span> perfil, <span class="tag t-NC">NC</span> sócio decisor</td><td>Perfil ADV, 20.885 respostas <span class="src">[S17]</span></td><td>Parcial. Provimento 205/2021 em revisão trava o ângulo <span class="src">[S20]</span>.</td></tr>
+        <tr><td>V4 a V8</td><td><span class="tag t-NC">NC</span> nula</td><td>Sem pesquisa. Backlog B1 a B5.</td><td>Não. Só peça transversal.</td></tr>
       </tbody>
     </table>
   </div>
 
-  <h3>Os cinco números que sustentam toda a campanha</h3>
-  <p>
-    Estes são os únicos dados de V2 com fonte rastreável. Tudo que a campanha afirma como fato sai daqui,
-    com o recorte declarado junto. Nada foi somado, arredondado ou extrapolado.
-  </p>
-
+  <h3>Os cinco números que sustentam tudo</h3>
   <div class="tablewrap">
     <table>
       <thead><tr><th class="num">Dado</th><th>Afirmação</th><th>Recorte e limite</th><th>Fonte</th></tr></thead>
       <tbody>
-        <tr>
-          <td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">33%</td>
-          <td>não cobravam por retrabalho</td>
-          <td>Sescon-SP / Vox Populi 2024, 255 associados, margem 5,9%. <b>Amostra estadual e associativa.</b> Não descreve o Brasil.</td>
-          <td class="id">[S21]</td>
-        </tr>
-        <tr>
-          <td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">79%</td>
-          <td>sem departamento comercial estruturado</td>
-          <td>Mesma amostra. Explica por que aquisição depende de indicação.</td>
-          <td class="id">[S21]</td>
-        </tr>
-        <tr>
-          <td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">150</td>
-          <td>clientes ativos na organização mediana (média 187)</td>
-          <td>Mesma amostra. 22% declararam especialização em nicho.</td>
-          <td class="id">[S21]</td>
-        </tr>
-        <tr>
-          <td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">61%</td>
-          <td>ainda não haviam mapeado o impacto da Reforma nos clientes</td>
-          <td>Omie / Fenacon, 13 mar 2026, n=633. <b>Sondagem de fornecedor com interesse comercial.</b></td>
-          <td class="id">[S22]</td>
-        </tr>
-        <tr>
-          <td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">68%</td>
-          <td>já procurados por clientes; 56% consumindo conteúdo sem plano definido</td>
-          <td>Fenacon, 15 jul 2026. <b>Amostra e metodologia não explicitadas na publicação.</b> Sinal, não censo.</td>
-          <td class="id">[S23]</td>
-        </tr>
+        <tr><td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">33%</td><td>não cobravam por retrabalho</td><td>Sescon-SP / Vox Populi 2024, 255 associados, margem 5,9%. <b>Amostra estadual e associativa.</b></td><td class="id">[S21]</td></tr>
+        <tr><td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">79%</td><td>sem departamento comercial estruturado</td><td>Mesma amostra. Explica a dependência de indicação.</td><td class="id">[S21]</td></tr>
+        <tr><td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">150</td><td>clientes ativos na organização mediana (média 187)</td><td>Mesma amostra. 22% com especialização em nicho.</td><td class="id">[S21]</td></tr>
+        <tr><td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">61%</td><td>sem mapeamento do impacto da Reforma nos clientes</td><td>Omie / Fenacon, 13 mar 2026, n=633. <b>Sondagem de fornecedor.</b></td><td class="id">[S22]</td></tr>
+        <tr><td class="num" style="font-size:19px;font-weight:700;color:var(--accent)">68%</td><td>já procurados por clientes; 56% sem plano definido</td><td>Fenacon, 15 jul 2026. <b>Amostra não explicitada.</b> Sinal, não censo.</td><td class="id">[S23]</td></tr>
       </tbody>
     </table>
   </div>
-
-  <div class="note">
-    <span class="lbl">A tensão que ninguém escreveu na memória</span>
-    <p>
-      A pesquisa editorial é <b>Brasil</b>. O experimento comercial de prospecção é <b>Portugal, Grande Porto</b>, com cinco nichos
-      que não incluem contabilidade <span class="src">[03 §Nichos]</span>. A própria memória declara que os recortes não se transferem.
-    </p>
-    <p>
-      Consequência prática: <b>esta campanha não alimenta o pipeline do Porto.</b> Ela constrói audiência e autoridade no Brasil.
-      São dois motores apontando para países diferentes, e isso é uma decisão de negócio pendente, não um detalhe de execução.
-      Ou o comercial abre uma frente Brasil, ou o conteúdo aceita ser investimento de marca sem conversão local no curto prazo.
-    </p>
-  </div>
 </section>
 
-<!-- ============ 02 ============ -->
+<!-- ============ 02 BLOQUEIOS ============ -->
 <section id="bloqueios">
-  <div class="sechead"><span class="secnum">02</span><h2>Quatro bloqueios antes de qualquer publicação</h2></div>
-  <p>
-    Nenhum deles é sobre conteúdo. Todos vêm da própria memória e precisam de decisão antes do primeiro slot.
-  </p>
-
+  <div class="sechead"><span class="secnum">02</span><h2>Quatro bloqueios antes de publicar</h2></div>
   <div class="blocks">
     <article class="block">
       <span class="sev">Crítico</span>
       <h3>A rota de publicação para @zionaxs_ não existe</h3>
       <div class="body">
-        <p>
-          O incidente de 20/08/2026 registra a causa confirmada: a conexão de Instagram disponível via Composio retorna a conta
-          <code>base3br</code>, não <code>zionaxs_</code>. A API do Make responde, mas não há webhook de publicação configurado e
-          descobrível no ambiente <span class="src">[23a §Execução bloqueada]</span>.
-        </p>
-        <p>
-          Enquanto isso valer, a campanha produz e não publica. O registro tem 5 dias na data desta análise, então o primeiro passo
-          é reverificar, não presumir. Se ainda estiver quebrado, corrigir a rota autenticada vem antes de escrever o primeiro slide.
-        </p>
+        <p>Incidente de 20/08/2026, causa confirmada: a conexão de Instagram via Composio retorna <code>base3br</code>, não <code>zionaxs_</code>. A API do Make responde, mas não há webhook de publicação descobrível <span class="src">[23a]</span>.</p>
+        <p>Enquanto isso valer, a campanha produz e não publica. O registro tem 5 dias, então reverificar vem antes de presumir.</p>
       </div>
     </article>
-
-    <article class="block">
-      <span class="sev">Crítico</span>
-      <h3>Não existe arquitetura de oferta confirmada</h3>
+    <article class="block w">
+      <span class="sev">Resolvido na v2</span>
+      <h3>Arquitetura de oferta</h3>
       <div class="body">
-        <p>
-          Diagnóstico, sprint e evolução contínua são a escada <b>recomendada</b>, não ofertas ativas. A memória declara que
-          preço, prazo, entregável, capacidade e garantias não estão confirmados <span class="src">[00 Índice §Lacunas]</span>.
-        </p>
-        <p>
-          Por isso a campanha para no lead asset e na conversa de diagnóstico. Nenhuma peça promete escopo, preço ou prazo.
-          Definir isso é o que destrava a Fase 3 e a mídia paga.
-        </p>
+        <p>Era bloqueio crítico na v1. A seção 03 traz a oferta desenhada com a skill <code>offers</code>. O que continua faltando é <b>só o preço</b>, que é decisão sua, e a seção 08 dá a regra de decisão para escolhê-lo.</p>
       </div>
     </article>
-
     <article class="block w">
       <span class="sev">Atenção</span>
       <h3>O calendário legal da Reforma não está na memória</h3>
       <div class="body">
-        <p>
-          Buscas por <code>CBS</code>, <code>IBS</code> e <code>2027</code> em todo o vault não retornam nada. A memória tem a
-          <b>demanda</b> pela Reforma, não as <b>datas</b> dela.
-        </p>
-        <p>
-          Regra aplicada: nenhuma peça desta campanha cita data, alíquota ou fase de transição. Se o roteiro precisar disso,
-          a data vai ao ledger primeiro, conferida na fonte primária, com data de consulta. Enquanto isso, o ângulo é capacidade,
-          que não depende do calendário.
-        </p>
+        <p>Busca por <code>CBS</code>, <code>IBS</code> e <code>2027</code> no vault inteiro retorna nada. Existe a demanda, não as datas. Nenhuma peça cita data ou alíquota até a fonte primária entrar no ledger.</p>
       </div>
     </article>
-
     <article class="block w">
       <span class="sev">Atenção</span>
-      <h3>As últimas quatro peças publicadas são todas do mesmo mundo</h3>
+      <h3>As últimas quatro peças são o mesmo mundo</h3>
       <div class="body">
-        <p>
-          <code>zx-11</code> antes de automatizar, <code>zx-16</code> AI Act, <code>zx-17</code> rota de exceção,
-          <code>zx-18</code> quem confere não escala. Quatro peças seguidas de governança de IA, transversais, 8 slides, campo escuro.
-        </p>
-        <p>
-          O anti-template do <span class="src">[18 §7]</span> e o limite de motivo do <span class="src">[18 §1.5]</span> reprovam
-          uma quinta no mesmo território. Esta campanha rompe nos três eixos ao mesmo tempo: <b>vertical em vez de transversal</b>,
-          <b>economia de operação em vez de governança de IA</b>, <b>papel claro em vez de grafite</b>.
-        </p>
+        <p><code>zx-11</code>, <code>zx-16</code>, <code>zx-17</code>, <code>zx-18</code>: quatro seguidas de governança de IA, transversais, 8 slides, campo escuro. Uma quinta reprova no anti-template <span class="src">[18 §7]</span>. Esta campanha rompe em público, tema, campo e motivo.</p>
       </div>
     </article>
   </div>
 </section>
 
-<!-- ============ 03 ============ -->
-<section id="decisoes">
-  <div class="sechead"><span class="secnum">03</span><h2>As decisões da campanha</h2></div>
-
-  <h3>Persona primária: C1, e apenas C1</h3>
+<!-- ============ 03 OFERTA ============ -->
+<section id="oferta">
+  <div class="sechead"><span class="secnum">03</span><h2>A oferta que faltava</h2><span class="skilltag">skill: offers</span></div>
   <p>
-    A regra do <span class="src">[19c §14]</span> é dura: público primário é um só, e dois primários significam duas peças.
-    A escolha é <b>C1, sócio-operador contábil generalista</b>, e não C3, o líder da transição consultiva.
+    A skill parte de uma tese: a oferta é a coisa, não a página. Copy melhor numa oferta fraca compõe devagar.
+    A v1 marcou a ausência de oferta como bloqueio e parou ali, o que foi um erro: a memória tem material suficiente
+    para desenhar uma.
   </p>
+
+  <h3>Equação de valor, pontuada na oferta atual</h3>
   <p>
-    O motivo é o caminho de decisão. C1 decide preço, contratação e tecnologia, e também executa a entrega
-    <span class="src">[19b §7.7]</span>. É o menor número de passos entre entender e agir. C3 é público secundário natural,
-    porque o trabalho consultivo que ele quer vender depende exatamente da capacidade operacional que C1 controla.
+    A oferta implícita hoje é "desenvolvimento de software com IA e automação". Pontuando os quatro níveis de 1 a 10,
+    com as objeções reais registradas em <span class="src">[19b §7.7]</span>:
+  </p>
+
+  <div class="eq">
+    <div class="row">
+      <div class="lv">Resultado desejado <small>"automação" é o pedido de superfície. O desejo real registrado é tempo de volta e sair da execução, JE1 e JE4.</small></div>
+      <div class="sc">4</div><div class="bar"><i style="width:40%"></i></div>
+    </div>
+    <div class="row bind">
+      <div class="lv">Probabilidade percebida <small>Zero caso publicado, zero prova nomeada, nenhuma metodologia com nome. "IA não assina declaração" é objeção literal do público.</small></div>
+      <div class="sc">2</div><div class="bar"><i style="width:20%"></i></div>
+    </div>
+    <div class="row">
+      <div class="lv">Tempo até resultado <small>"Projeto de software" lê como meses. O calendário do cliente é mensal e não espera.</small></div>
+      <div class="sc">3</div><div class="bar"><i style="width:30%"></i></div>
+    </div>
+    <div class="row bind">
+      <div class="lv">Esforço e sacrifício <small>"Não tenho tempo de implantar", "a equipe não vai usar", "não posso parar a operação". Mexer numa operação que funciona, durante o calendário fiscal, é o medo real.</small></div>
+      <div class="sc">2</div><div class="bar"><i style="width:20%"></i></div>
+    </div>
+  </div>
+
+  <p>
+    Dois níveis empatam em 2. A skill manda escolher o que destrava mais coisa a jusante:
+    <b>esforço e sacrifício</b>, porque é ele que aparece literalmente nas objeções do público.
+    <b>A conclusão prática é que a barreira da Zionaxs não é preço. Baixar preço não move nada aqui.</b>
+  </p>
+
+  <h3>A oferta: Diagnóstico de Retrabalho</h3>
+  <p>
+    Segue o padrão que a skill chama de troca-de-custo: quando a barreira é esforço e risco, e não preço,
+    a oferta compra o esforço de volta em vez de descontar.
   </p>
 
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Elemento</th><th>Decisão</th><th>Origem</th></tr></thead>
+      <thead><tr><th>Componente</th><th>O que é</th><th>Qual nível ele move</th></tr></thead>
       <tbody>
-        <tr><td><b>Tese</b></td><td>A Reforma não cria tempo. Ela cobra o tempo que o escritório já não tem. Medir a capacidade real precede empacotar qualquer oferta consultiva.</td><td><span class="src">[S22][S23]</span> mais R7 March</td></tr>
-        <tr><td><b>Inimigo narrativo</b></td><td>A hora invisível: trabalho que acontece, consome capacidade, e não aparece em contrato, em preço nem em número nenhum.</td><td><span class="src">[S21]</span> 33%</td></tr>
-        <tr><td><b>Promessa</b></td><td>Ao fim da campanha, o leitor sabe quantas horas livres tem por mês e de quem é a causa das que perde. Verificável, não transformadora.</td><td><span class="src">[04 §1]</span></td></tr>
-        <tr><td><b>Job principal</b></td><td>JF4: transformar a operação em rotina visível e delegável. Apoio em JO5 e JT1.</td><td><span class="src">[19b §8]</span></td></tr>
-        <tr><td><b>Repertório</b></td><td>R9 Deming na causa, R1 Drucker na eliminação, R7 March no experimento, R3 Porter na indiferenciação.</td><td><span class="src">[19c §12.2]</span></td></tr>
-        <tr><td><b>Categoria dominante</b></td><td>Educacional e diagnóstico. Comercial não passa de 2 das 12 peças.</td><td><span class="src">[18 §4]</span></td></tr>
+        <tr>
+          <td><b>1. Entrega central</b></td>
+          <td>Duas semanas, escopo fixo. A Zionaxs instrumenta o registro de causa em <b>uma</b> rotina escolhida pelo escritório, roda com a equipe deles, e entrega o mapa de causa mais três automações candidatas priorizadas por hora recuperada e por risco.</td>
+          <td>Tempo, de meses para 14 dias</td>
+        </tr>
+        <tr>
+          <td><b>2. Bônus</b></td>
+          <td>Sessão de handoff gravada com a equipe que vai operar depois. Ataca diretamente a objeção "a equipe não vai usar" e o critério de decisão "quem opera depois" <span class="src">[19b §7.3]</span>.</td>
+          <td>Esforço</td>
+        </tr>
+        <tr>
+          <td><b>3. Garantia</b></td>
+          <td><b>Garantia de entrega, não de resultado.</b> Se o mapa não estiver entregue e revisado com a equipe em 14 dias, não há cobrança.</td>
+          <td>Probabilidade percebida</td>
+        </tr>
+        <tr>
+          <td><b>4. Escassez</b></td>
+          <td><b>Real, por capacidade.</b> Um número fixo de diagnósticos por mês, porque cada um inclui a sessão de handoff conduzida por pessoa. Nenhum contador, nenhum prazo inventado.</td>
+          <td>Probabilidade percebida</td>
+        </tr>
+        <tr>
+          <td><b>5. Nome</b></td>
+          <td>Diagnóstico de Retrabalho. Usa a palavra que o próprio público usa: "retrabalho" está na lista de linguagem de C1 <span class="src">[19b §7.7]</span>.</td>
+          <td>Resultado desejado</td>
+        </tr>
+        <tr>
+          <td><b>6. Preço e estrutura</b></td>
+          <td>Preço fixo, creditado no sprint se o cliente seguir. Decisão sua. A seção 08 dá a regra: o preço precisa deixar o payback descontado dentro de 12 meses.</td>
+          <td>Todos</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3>O que a campanha deliberadamente não faz</h3>
-  <p>
-    Porter observou que eficácia operacional não é estratégia, e que escolha estratégica inclui o que não será feito
-    <span class="src">[S34]</span>. A lista abaixo é a aplicação disso aqui.
-  </p>
-  <ul>
-    <li><b>Não vende consultoria de Reforma Tributária.</b> Todo escritório está oferecendo isso. Entrar na mesma prateleira é a definição de indiferenciação.</li>
-    <li><b>Não usa medo.</b> Nada de multa, sanção, contagem regressiva ou concorrente que já saiu na frente. Onde caberia medo, entra critério de decisão <span class="src">[19b §10.3]</span>.</li>
-    <li><b>Não promete economia, percentual ou resultado.</b> Nem em peça, nem em legenda, nem em anúncio.</li>
-    <li><b>Não fala de IA como adjetivo.</b> IA entra quando há processo concreto, dado de entrada, controle humano e verificação, ou não entra.</li>
-    <li><b>Não cita data da Reforma</b> enquanto a fonte primária não estiver no ledger.</li>
-  </ul>
-</section>
-
-<!-- ============ 04 ============ -->
-<section id="funil">
-  <div class="sechead"><span class="secnum">04</span><h2>Funil, oferta e escada de CTA</h2></div>
-  <p>
-    A escada de CTA do <span class="src">[04 §7]</span> exige proporcionalidade: uma peça que pede mais do que entregou queima
-    confiança. As 12 peças ficam quase todas em descoberta e consideração, porque é lá que a evidência disponível permite falar.
-  </p>
-
-  <div class="tablewrap">
-    <table>
-      <thead><tr><th>Fase</th><th>Semanas</th><th>Mudança desejada</th><th>CTA proporcional</th><th class="num">Peças</th></tr></thead>
-      <tbody>
-        <tr><td><b>Descoberta</b></td><td class="mono">1 a 2</td><td>"Esse problema tem nome, e ele tem uma conta"</td><td>Salvar, medir uma semana, enviar a um sócio</td><td class="num">4</td></tr>
-        <tr><td><b>Consideração</b></td><td class="mono">3 a 4</td><td>"A Zionaxs entende o mecanismo, não só o sintoma"</td><td>Aplicar a cinco clientes, revisar o próprio processo</td><td class="num">4</td></tr>
-        <tr><td><b>Captura</b></td><td class="mono">5</td><td>"Vale usar o instrumento deles"</td><td>DM com a palavra <b>CAUSA</b> para receber a planilha</td><td class="num">2</td></tr>
-        <tr><td><b>Decisão</b></td><td class="mono">6</td><td>"Há método e o risco é baixo"</td><td>Conversa de diagnóstico, sem preço prometido</td><td class="num">2</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <h3>O lead asset: Planilha de Retrabalho por Causa</h3>
-  <p>
-    Um único ativo, entregue por DM na palavra <b>CAUSA</b>. Ele existe porque a campanha inteira pede uma ação que precisa de
-    instrumento: registrar a causa da correção no momento em que ela acontece.
-  </p>
-  <div class="tablewrap">
-    <table>
-      <thead><tr><th>Aba</th><th>O que faz</th><th>Por que é defensável</th></tr></thead>
-      <tbody>
-        <tr><td class="id">01_registro</td><td>Uma linha por correção: data, cliente, rotina, minutos, causa em quatro categorias, quem corrigiu</td><td>Taxonomia de causa, não de culpa. Deming: mapear entrada, dependência, variação e restrição antes de responsabilizar pessoa <span class="src">[S38]</span></td></tr>
-        <tr><td class="id">02_causas</td><td>Consolidação por causa: cliente, escritório, sistema, regra</td><td>Separa o que se renegocia do que se corrige internamente</td></tr>
-        <tr><td class="id">03_por_cliente</td><td>Minutos e ocorrências por cliente na janela medida</td><td>Insumo direto da conversa de reajuste ou de escopo</td></tr>
-        <tr><td class="id">04_capacidade</td><td>Horas do sócio fora do calendário obrigatório, por semana do mês</td><td>É a ponte para a tese: quanto cabe de consultoria no mês real</td></tr>
-        <tr><td class="id">05_limites</td><td>O que a planilha não prova</td><td>Uma janela não é padrão anual; pico fiscal distorce; sem rateio de custo indireto a margem é indicativa</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="note">
-    <span class="lbl">Regra de honestidade do ativo</span>
+  <div class="note good">
+    <span class="lbl">Duas reconciliações que valem registrar</span>
     <p>
-      A aba <code>05_limites</code> não é rodapé legal. Ela é o que diferencia este ativo de uma isca. O leitor precisa saber
-      onde o instrumento falha antes de decidir com ele, e essa é a forma de autoridade que o <span class="src">[04 §1]</span>
-      chama de reconhecer o limite: a mais rara e a que mais constrói confiança.
+      <b>Garantia.</b> A skill sugere garantias de resultado ("publique ou trabalhamos de graça"). A memória proíbe
+      promessa de resultado <span class="src">[19c §21.4]</span>. A saída não é abrir mão da garantia: é garantir o
+      <b>entregável e o prazo</b>, que estão sob controle da Zionaxs, e nunca o resultado de negócio, que não está.
+      Compatível com as duas fontes.
+    </p>
+    <p>
+      <b>Escassez.</b> A memória proíbe escassez artificial e contagem regressiva <span class="src">[19b §10.3]</span>.
+      A skill também proíbe: ela separa escassez falsa de escassez por capacidade, coorte ou sazonalidade real.
+      Capacidade de handoff é uma restrição verdadeira. Passa nos dois filtros.
+    </p>
+  </div>
+
+  <div class="note">
+    <span class="lbl">A jogada que só aparece cruzando as duas fontes</span>
+    <p>
+      A memória registra que a semana de um escritório é governada pelo calendário de obrigações e o mês pelo fechamento
+      <span class="src">[19b §9.2]</span>. Logo: <b>agende o diagnóstico deliberadamente fora da janela de fechamento</b>,
+      e diga isso na oferta.
+    </p>
+    <p>
+      É o movimento de menor custo e maior efeito no nível que está travando tudo. Nenhuma skill de oferta sugeriria isso,
+      porque depende de saber como o mês desse público é desenhado. E nenhuma leitura só da memória sugeriria isso,
+      porque é preciso saber que esforço percebido é um nível manipulável da oferta.
     </p>
   </div>
 </section>
 
-<!-- ============ 05 ============ -->
+<!-- ============ 04 AARRR ============ -->
+<section id="aarrr">
+  <div class="sechead"><span class="secnum">04</span><h2>AARRR: o que esta campanha cobre, e o que ela não cobre</h2><span class="skilltag">skill: marketing-plan</span></div>
+  <p>
+    A v1 organizou o funil por estágio de consciência, que é um funil de conteúdo. AARRR faz uma pergunta diferente
+    e mais útil: <b>qual estágio é a restrição vinculante agora?</b>
+  </p>
+
+  <h3>Diagnóstico da restrição</h3>
+  <p>
+    A regra da skill é direta: sem usuários, sem dados de funil, estágio dia zero, a alavanca é Acquisition.
+    O histórico confirma: quatro peças publicadas, e as duas com permalink verificado retornaram
+    <b>0 curtidas e 0 comentários</b> na resposta da API <span class="src">[23a]</span>. Não existe funil para consertar ainda.
+  </p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Estágio</th><th>Esta campanha</th><th>Por quê</th></tr></thead>
+      <tbody>
+        <tr><td><b>Acquisition</b></td><td style="color:var(--ok);font-weight:600">Coberto, é o foco</td><td>Restrição vinculante. 12 peças, 6 Reels, dois ativos. Alavanca é chegar aos primeiros escritórios.</td></tr>
+        <tr><td><b>Activation</b></td><td>Parcial</td><td>O "primeiro valor sentido" aqui é medir uma semana e ver o próprio dado. É a única ativação disponível antes de existir produto.</td></tr>
+        <tr><td><b>Retention</b></td><td style="color:var(--crit)">Não coberto</td><td>Não existe fluxo de ciclo de vida, nem lista, nem e-mail. Trimestre seguinte.</td></tr>
+        <tr><td><b>Referral</b></td><td style="color:var(--crit)">Não coberto</td><td>A regra da skill é começar por quem já levanta a mão. Ninguém levantou ainda. Prematuro.</td></tr>
+        <tr><td><b>Revenue</b></td><td>Bloqueado</td><td>Destrava quando o preço da seção 03 for definido.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    Uma seção de Acquisition desproporcional é o diagnóstico correto para um negócio dia zero, e a skill diz isso
+    explicitamente. O que a v1 fazia de errado era não <b>nomear</b> os três estágios ausentes, o que deixa a impressão
+    de que a campanha resolve mais do que resolve.
+  </p>
+
+  <div class="note">
+    <span class="lbl">Regra de sequenciamento que vale citar inteira</span>
+    <p>
+      "Construa o composto orgânico primeiro. Só sobreponha pago sobre uma linha de base orgânica que funcione.
+      Pago prematuro amplifica o que está quebrado."
+    </p>
+    <p>
+      É a mesma trava da seção 08, chegando por outro caminho. Duas fontes independentes dizendo a mesma coisa
+      é sinal de que a trava está certa.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 05 ATIVOS ============ -->
+<section id="ativos">
+  <div class="sechead"><span class="secnum">05</span><h2>Os dois ativos</h2><span class="skilltag">skill: lead-magnets</span></div>
+
+  <div class="note">
+    <span class="lbl">Erro da v1</span>
+    <p>
+      A v1 propunha uma planilha de cinco abas como isca de topo de funil. A skill é explícita: um lead magnet precisa ser
+      <b>consumível em menos de 10 minutos</b>, ter <b>um formato só</b>, e casar com o estágio do comprador.
+      Uma planilha de cinco abas que pede uma semana de medição não é isca de conscientização. É ferramenta de implementação,
+      que é estágio de decisão. O ativo estava certo e no lugar errado.
+    </p>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Passo</th><th>Ativo</th><th>Estágio</th><th>Formato</th><th>Tempo</th><th>Como se pede</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="num">1</td>
+          <td><b>Mapa de Retrabalho</b><br><span style="font-size:13px;color:var(--ink-2)">Uma página. As quatro causas, a regra de contagem, e para onde vai cada causa.</span></td>
+          <td>Conscientização</td>
+          <td>Cheat sheet, PDF de uma página</td>
+          <td class="num">5 min</td>
+          <td>DM com a palavra <b>CAUSA</b></td>
+        </tr>
+        <tr>
+          <td class="num">2</td>
+          <td><b>Planilha de Retrabalho por Causa</b><br><span style="font-size:13px;color:var(--ink-2)">Registro, consolidação por causa, por cliente, capacidade e a aba de limites.</span></td>
+          <td>Consideração para decisão</td>
+          <td>Planilha</td>
+          <td class="num">1 semana de uso</td>
+          <td>Entregue a quem responder que mediu</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    O segundo passo faz um trabalho que a v1 não fazia: <b>quem responde "medi" se qualifica sozinho.</b>
+    É sinal de urgência e de aderência ao perfil, coletado sem formulário, e alimenta direto a pontuação de qualidade
+    de lead da seção 08.
+  </p>
+
+  <p>
+    A aba de limites da planilha permanece obrigatória. Ela declara o que o instrumento não prova: uma janela não é padrão
+    anual, pico fiscal distorce, e margem sem rateio de custo indireto é indicativa. É o que separa este ativo de uma isca,
+    e é a forma de autoridade que a doutrina de copy da própria memória chama de reconhecer o limite <span class="src">[04 §1]</span>.
+  </p>
+</section>
+
+<!-- ============ 06 CALENDÁRIO ============ -->
 <section id="calendario">
-  <div class="sechead"><span class="secnum">05</span><h2>Calendário de 6 semanas</h2></div>
+  <div class="sechead"><span class="secnum">06</span><h2>Calendário de 6 semanas</h2></div>
   <p>
-    Cadência conforme o baseline canônico do <span class="src">[27 §3]</span>: 3 a 5 posts de feed por semana, 2 carrosséis,
-    nunca mais de 1 carrossel por dia. O plano de 3 carrosséis por dia <span class="src">[30]</span> está pausado e permanece pausado.
-    Janelas em BRT vindas da interseção dos estudos, tratadas como hipótese operacional, não como regra.
+    Cadência conforme o baseline canônico <span class="src">[27 §3]</span>: 3 a 5 posts de feed por semana, 2 carrosséis,
+    nunca mais de 1 por dia. O plano de 3 por dia <span class="src">[30]</span> segue pausado.
+  </p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th class="num">Sem</th><th>Terça 12h30</th><th>Quarta 18h30</th><th>Quinta 12h30</th><th>AARRR</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td><b>C1</b> A hora que sai de graça <span class="id">M08</span></td><td class="mono" style="color:var(--ink-2)">Reel: as 4 causas</td><td><b>C2</b> Fibra não é processo <span class="id">M20</span></td><td>Acq</td></tr>
+        <tr><td class="num">2</td><td><b>C3</b> O número que ninguém confia <span class="id">M18</span></td><td class="mono" style="color:var(--ink-2)">Reel: três telas, três números</td><td><b>C4</b> Capacidade antes de oferta <span class="id">M11</span></td><td>Acq</td></tr>
+        <tr><td class="num">3</td><td><b>C5</b> O relatório antes do reajuste <span class="id">M09</span></td><td class="mono" style="color:var(--ink-2)">Reel: a conversa de escopo</td><td><b>C6</b> Clientes por FTE sem autoengano <span class="id">M10</span></td><td>Acq</td></tr>
+        <tr><td class="num">4</td><td><b>C7</b> Nicho ou generalista <span class="id">M22 prop.</span></td><td class="mono" style="color:var(--ink-2)">Reel: 22% e o que não prova</td><td><b>C8</b> Quando "tira uma dúvida" vira produto <span class="id">M23 prop.</span></td><td>Acq</td></tr>
+        <tr><td class="num">5</td><td><b>C9</b> Comercial sem departamento <span class="id">M12</span></td><td class="mono" style="color:var(--ink-2)">Reel: o ritual de 30 min <b style="color:var(--accent)">+ par do teste</b></td><td><b>C10</b> Automatizar o processo errado <span class="id">M17</span></td><td>Activ</td></tr>
+        <tr><td class="num">6</td><td><b>C11</b> Seguro não previne erro <span class="id">M21 prop.</span></td><td class="mono" style="color:var(--ink-2)">Reel: o que medimos em 6 semanas</td><td><b>C12</b> O que a campanha aprendeu</td><td>Activ</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:13.5px;color:var(--ink-2)">
+    <span class="mono">M21</span>, <span class="mono">M22</span> e <span class="mono">M23</span> são <b>propostas de nova linha</b>
+    da matriz <span class="src">[19c §13]</span>. Precisam ser aprovadas e escritas antes de C7, C8 e C11 entrarem em produção.
+  </p>
+</section>
+
+<!-- ============ 07 HOOKS ============ -->
+<section id="hooks">
+  <div class="sechead"><span class="secnum">07</span><h2>Matriz de hooks</h2><span class="skilltag">skill: ad-creative</span></div>
+  <p>
+    A v1 escreveu hooks como frase única. A skill trata hook como <b>três componentes simultâneos</b> que precisam se
+    complementar, nunca se repetir: ação visual, linha falada e texto na tela. Um hook com uma coluna preenchida é um terço de hook.
+  </p>
+  <p>
+    E a regra de cobertura: gere <b>ao longo da matriz, não por uma coluna</b>. Dez hooks para dez células de
+    segmento × motivação valem mais que trinta reescritas da mesma célula. Diversidade de matriz é diversidade de audiência.
   </p>
 
   <div class="tablewrap">
     <table>
-      <thead>
-        <tr><th class="num">Sem</th><th>Terça 12h30</th><th>Quarta 18h30</th><th>Quinta 12h30</th><th>Fase</th></tr>
-      </thead>
+      <thead><tr><th class="num">#</th><th>Segmento</th><th>Motivação (linguagem do público)</th><th>Formato</th><th>Ação visual</th><th>Linha falada</th><th>Texto na tela</th></tr></thead>
       <tbody>
-        <tr><td class="num">1</td><td><b>C1</b> A hora que sai de graça <span class="id">M08</span></td><td class="mono" style="color:var(--ink-2)">Reel: as 4 causas</td><td><b>C2</b> Fibra não é processo <span class="id">M20</span></td><td>Descoberta</td></tr>
-        <tr><td class="num">2</td><td><b>C3</b> O número que ninguém confia <span class="id">M18</span></td><td class="mono" style="color:var(--ink-2)">Reel: três telas, três números</td><td><b>C4</b> Capacidade antes de oferta <span class="id">M11</span></td><td>Descoberta</td></tr>
-        <tr><td class="num">3</td><td><b>C5</b> O relatório antes do reajuste <span class="id">M09</span></td><td class="mono" style="color:var(--ink-2)">Reel: a conversa de escopo</td><td><b>C6</b> Clientes por FTE sem autoengano <span class="id">M10</span></td><td>Consideração</td></tr>
-        <tr><td class="num">4</td><td><b>C7</b> Nicho ou generalista, com a sua carteira <span class="id">M22</span></td><td class="mono" style="color:var(--ink-2)">Reel: 22% e o que isso não prova</td><td><b>C8</b> Quando "tira uma dúvida" vira produto <span class="id">M23</span></td><td>Consideração</td></tr>
-        <tr><td class="num">5</td><td><b>C9</b> Comercial sem departamento <span class="id">M12</span></td><td class="mono" style="color:var(--ink-2)">Reel: o ritual de 30 minutos</td><td><b>C10</b> Automatizar o processo errado <span class="id">M17</span></td><td>Captura</td></tr>
-        <tr><td class="num">6</td><td><b>C11</b> Seguro não previne erro <span class="id">M21</span></td><td class="mono" style="color:var(--ink-2)">Reel: o que medimos em 6 semanas</td><td><b>C12</b> O que a campanha aprendeu <span class="id">novo</span></td><td>Decisão</td></tr>
+        <tr>
+          <td class="num">1</td><td class="mono">C1 solo</td>
+          <td>"cliente que dá trabalho" <span class="src">[19b §7.7]</span></td>
+          <td>Gravação de tela</td>
+          <td>Planilha de honorários rolando, uma linha destacada</td>
+          <td>"Esse cliente aqui você atende há oito anos pelo mesmo valor."</td>
+          <td>O volume mudou. O contrato não.</td>
+        </tr>
+        <tr>
+          <td class="num">2</td><td class="mono">C1 solo</td>
+          <td>"horas invisíveis que não viram receita"</td>
+          <td>Confissão para câmera</td>
+          <td>Pessoa fecha o notebook às 21h, escritório vazio</td>
+          <td>"Ninguém anotou quem causou nenhuma dessas correções."</td>
+          <td>Retrabalho sem causa vira atendimento</td>
+        </tr>
+        <tr>
+          <td class="num">3</td><td class="mono">C1 com equipe</td>
+          <td>"não posso parar a operação para implantar"</td>
+          <td>Lado a lado</td>
+          <td>Calendário do mês, semana de fechamento em vermelho</td>
+          <td>"O problema não é implantar. É implantar nessa semana."</td>
+          <td>Existe uma janela. Não é essa.</td>
+        </tr>
+        <tr>
+          <td class="num">4</td><td class="mono">C3 consultivo</td>
+          <td>demanda de Reforma sem plano <span class="src">[S23]</span></td>
+          <td>Prova primeiro</td>
+          <td>O número 68% preenchendo a tela, depois encolhendo para dar lugar à ressalva</td>
+          <td>"Sessenta e oito por cento já foram procurados. E aí?"</td>
+          <td>O que falta não é informação</td>
+        </tr>
+        <tr>
+          <td class="num">5</td><td class="mono">C3 consultivo</td>
+          <td>"prometer economia que não posso garantir"</td>
+          <td>POV</td>
+          <td>Slide de proposta em branco, cursor piscando no campo de resultado</td>
+          <td>"Você não pode escrever um número aqui. E está certo."</td>
+          <td>Como vender sem prometer</td>
+        </tr>
+        <tr>
+          <td class="num">6</td><td class="mono">C2 escala</td>
+          <td>"crescer multiplicando erro"</td>
+          <td>Demonstração</td>
+          <td>Duas carteiras lado a lado com o mesmo número de clientes</td>
+          <td>"Mesmo número de clientes. Uma dá o dobro de trabalho."</td>
+          <td>Clientes por FTE mente sem segmento</td>
+        </tr>
+        <tr>
+          <td class="num">7</td><td class="mono">C1 solo</td>
+          <td>"já tenho sistema"</td>
+          <td>Contraste</td>
+          <td>Dois monitores mostrando o mesmo dado com números diferentes</td>
+          <td>"Os dois estão certos. As definições é que são duas."</td>
+          <td>Três telas, três números</td>
+        </tr>
+        <tr>
+          <td class="num">8</td><td class="mono">C1 solo</td>
+          <td>aquisição só por indicação <span class="src">[S21]</span></td>
+          <td>Pergunta</td>
+          <td>Agenda semanal com um bloco de 30 minutos vazio</td>
+          <td>"Quando foi a última vez que alguém chegou sem indicação?"</td>
+          <td>79% não têm comercial. Isso tem conserto barato.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
+  <h3>A regra da rampa</h3>
+  <p>
+    Rampa é o trecho entre o hook e o corpo. Ela precisa <b>estender a premissa do hook</b>, não pivotar para pitch.
+    Se o hook promete "ninguém anotou quem causou", o próximo bloco começa a explicar a causa, não a apresentar a Zionaxs.
+  </p>
+  <p>
+    Corolário que muda a operação de teste: <b>todo teste de hook é também teste de rampa.</b> Trocar um hook novo num corpo
+    existente costuma quebrar a ponte de premissa. Ao testar hooks, reescreva a rampa de cada um.
+  </p>
+
+  <h3>Funil de diagnóstico</h3>
+  <p>
+    Quando uma peça vai mal, o funil diz <b>qual componente</b> consertar, em vez de jogar a peça fora.
+  </p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Etapa</th><th>Métrica</th><th>Se está fraca, o problema é</th><th>O que trocar</th></tr></thead>
+      <tbody>
+        <tr><td>Parar</td><td>Retenção de 3 segundos</td><td>Ação visual e texto na tela</td><td>Nova abertura visual, resto igual</td></tr>
+        <tr><td>Ficar</td><td>Taxa de retenção até metade</td><td>A rampa, não o hook</td><td>Refazer os segundos 3 a 15</td></tr>
+        <tr><td>Clicar</td><td>Visita ao perfil, DM</td><td>Clareza da promessa no meio</td><td>Afiar promessa, prova ou CTA</td></tr>
+        <tr><td>Converter</td><td>Resposta com a palavra CAUSA</td><td>Congruência: a entrega não continua a peça</td><td>Corrigir o ativo ou o claim</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    A regra dura que essa tabela impõe: <b>uma retenção alta de 3 segundos não é uma boa peça.</b> Visual chamativo que atrai
+    o público errado aparece como retenção alta com conversão colapsada. Leia o funil inteiro antes de declarar vencedor.
+  </p>
+
   <div class="note">
-    <span class="lbl">Três linhas da matriz que ainda não existem</span>
+    <span class="lbl">Escada de fidelidade</span>
     <p>
-      <span class="mono">M21</span>, <span class="mono">M22</span> e <span class="mono">M23</span> são <b>propostas de nova linha</b>
-      para a matriz do <span class="src">[19c §13]</span>, não linhas existentes. Antes de produzir C7, C8 e C11, essas linhas
-      precisam ser aprovadas e escritas na matriz, com bloco §14 completo. Estão marcadas como proposta em todo lugar deste documento.
+      Palpite se testa barato: estático, texto na tela, voz sobre imagem existente. <b>Só ângulo já validado ganha produção alta.</b>
+      Como a Zionaxs ainda não tem nenhum ângulo validado, <b>as seis primeiras peças de vídeo devem ser de baixa fidelidade</b>.
+      Gastar produção em palpite e testar ângulo provado com estático descartável são os dois erros, e a escada corre num sentido só.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 08 PAGA ============ -->
+<section id="paga">
+  <div class="sechead"><span class="secnum">08</span><h2>Mídia paga, com a matemática</h2><span class="skilltag">skill: ads</span></div>
+  <p>
+    A v1 dizia "não subir verba antes de instrumentar" e parava. Agora tem número.
+  </p>
+
+  <h3>Mate o LTV/CAC antes de começar</h3>
+  <p>
+    A skill é categórica: LTV sobre CAC é métrica inútil e frequentemente destrutiva. Assume que todo cliente
+    eventualmente sai, esconde variância por plano sob um ticket médio, e ignora <b>quando o dinheiro volta</b>.
+    Um 3 para 1 saudável pode estar em cima de um canal que quebra o caixa.
+  </p>
+  <p>
+    A substituição é <b>Payback = CAC dividido pela receita mensal do cliente</b>, respondido em meses,
+    com alvo entre 3 e 12. E a versão honesta, descontada por retenção:
+  </p>
+  <div class="note">
+    <p class="mono" style="font-size:15px;margin:0">
+      Payback descontado = CAC / (receita mensal × retenção anual)
     </p>
   </div>
 
+  <h3>A regra de decisão para o preço do diagnóstico</h3>
   <p>
-    <b>C12 fecha a campanha publicando o que ela mediu.</b> Não é um post de agradecimento. É a leitura honesta dos seis testes,
-    incluindo o que não funcionou. Essa peça é o que transforma a campanha em ativo reutilizável, e é a única que pode
-    citar dado próprio da Zionaxs com denominador declarado.
+    Você ainda não fixou o preço. Mas o preço não é escolha livre: ele determina quanto se pode pagar por lead.
+    <b>CPL de equilíbrio = ticket × taxa de fechamento.</b> A tabela mostra o que cada combinação permite.
+  </p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th class="num">Ticket do diagnóstico</th><th class="num">Fecha 10%</th><th class="num">Fecha 20%</th><th class="num">Fecha 30%</th><th>Leitura</th></tr></thead>
+      <tbody>
+        <tr><td class="num">R$ 1.500</td><td class="num">R$ 150</td><td class="num">R$ 300</td><td class="num">R$ 450</td><td>Apertado. Só orgânico e indicação fecham a conta.</td></tr>
+        <tr><td class="num">R$ 3.000</td><td class="num">R$ 300</td><td class="num">R$ 600</td><td class="num">R$ 900</td><td>Viável para pago se o lead for qualificado.</td></tr>
+        <tr><td class="num">R$ 6.000</td><td class="num">R$ 600</td><td class="num">R$ 1.200</td><td class="num">R$ 1.800</td><td>Confortável, mas exige prova que ainda não existe.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:13.5px;color:var(--ink-2)">
+    Valores ilustrativos da fórmula, não recomendação de preço nem benchmark. O ticket real depende do custo de entrega
+    da Zionaxs, que não está na memória. <b>O alvo operacional fica abaixo do equilíbrio, pela margem exigida.</b>
+  </p>
+
+  <h3>Ordem de construção: de baixo para cima</h3>
+  <p>
+    A skill mapeia cinco estágios de demanda e recomenda construir <b>Expandir, Reviver, Acelerar, Capturar, Criar</b>,
+    nessa ordem, porque os de baixo são baratos, de audiência pequena e retornam rápido. A maioria constrói de cima
+    para baixo e queima meses esperando retorno.
+  </p>
+  <p>
+    <b>A Zionaxs não tem os estágios de baixo.</b> Sem base de clientes, não há Expandir nem Reviver. Sem pipeline aberto,
+    não há Acelerar. Sobra Criar, que a própria tabela da skill classifica como <b>verba alta, 90 dias ou mais até retorno,
+    dificuldade alta</b>. Isso não invalida a campanha. Significa que ela é o caminho mais lento disponível,
+    e é melhor entrar sabendo disso.
+  </p>
+
+  <h3>A armadilha de otimizar para qualidade</h3>
+  <p>
+    O lance inteligente compra aquilo que você chamar de conversão. Alimente com DM crua e ele compra DM crua barata:
+    o custo por lead melhora enquanto o pipeline morre. A ordem de correção:
+  </p>
+  <ol>
+    <li><b>Feche o ciclo de conversão offline.</b> Empurre mudança de estágio do CRM de volta para a plataforma. É o movimento de maior impacto numa conta B2B.</li>
+    <li><b>Valorize conversões diferente.</b> Pedido de diagnóstico não é download de planilha.</li>
+    <li><b>Até o dado offline fluir, um humano lê qualidade de lead toda semana.</b> Nome do escritório e tamanho da carteira, não custo por lead.</li>
+  </ol>
+  <p>Quando plataforma e CRM discordarem, <b>o CRM vence.</b></p>
+
+  <h3>Pontuação de qualidade de lead</h3>
+  <p>
+    Três eixos de 0 a 3, pontuados por quem faz a conversa, registrados contra a peça de origem.
+    Depois de cerca de 20 conversas, <b>ranqueie peças por qualidade média, não por custo por lead</b>.
+  </p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Eixo</th><th class="num">0</th><th class="num">3</th><th>Sinal específico de V2</th></tr></thead>
+      <tbody>
+        <tr><td><b>Urgência</b></td><td class="num">navegando</td><td class="num">necessidade com prazo</td><td>Já foi procurado por cliente sobre a Reforma</td></tr>
+        <tr><td><b>Orçamento</b></td><td class="num">sem autoridade</td><td class="num">aprovado</td><td>É sócio. Em escritório dessa faixa, sócio decide <span class="src">[19b §7.7]</span></td></tr>
+        <tr><td><b>Aderência</b></td><td class="num">fora do perfil</td><td class="num">perfil exato</td><td>Carteira recorrente, generalista, respondeu que mediu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Regras de morte</h3>
+  <ul>
+    <li><b>Peça nova:</b> pausar quando gastar 2 a 3 vezes o CPL alvo com zero conversão.</li>
+    <li><b>Peça com 7 a 14 dias:</b> pausar quando o CPL rodar 1,5 a 2 vezes acima do alvo.</li>
+    <li>Nunca pausar uma peça que produz sem ter substituta pronta.</li>
+  </ul>
+
+  <div class="note">
+    <span class="lbl">Antes de qualquer verba</span>
+    <p>
+      A skill pede uma nota de maturidade de medição de 1 a 3 em cinco itens: painel de pipeline, painel por canal,
+      rastreamento de conversão, analytics e processo de atribuição documentado. <b>Abaixo de 6 em 15, conserte a
+      visibilidade antes de adicionar verba.</b> Pelo que está na memória, a Zionaxs pontua perto do mínimo em quase todos.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 09 TESTE ============ -->
+<section id="teste">
+  <div class="sechead"><span class="secnum">09</span><h2>O teste B8, honestamente</h2><span class="skilltag">skill: ab-testing</span></div>
+  <p>
+    O backlog de pesquisa <span class="src">[19d §18.3]</span> lista como prioridade alta a hipótese B8:
+    "IA para o setor X" atrai audiência mas converte pouco. A v1 propôs testar isso e não disse como.
+  </p>
+
+  <h3>A hipótese, na estrutura da skill</h3>
+  <div class="note">
+    <p style="margin:0">
+      <b>Porque</b> a sondagem de julho indica 56% consumindo conteúdo sem plano <span class="src">[S23]</span>
+      e o backlog registra B8 como hipótese não testada,<br>
+      <b>acreditamos que</b> um hook que nomeia o processo, sem citar IA,<br>
+      <b>vai causar</b> uma taxa maior de DMs qualificadas<br>
+      <b>para</b> sócios de escritórios contábeis generalistas.<br>
+      <b>Saberemos que é verdade quando</b> a razão entre DMs com a palavra CAUSA e alcance de não seguidores
+      for maior na variante de processo, sustentada por duas semanas.
+    </p>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Papel</th><th>Métrica</th><th>Por quê</th></tr></thead>
+      <tbody>
+        <tr><td><b>Primária</b></td><td>DM com CAUSA sobre alcance de não seguidores</td><td>Única que liga atenção a intenção. É por ela que o teste é chamado.</td></tr>
+        <tr><td><b>Secundária</b></td><td>Salvamentos, retenção por slide</td><td>Explicam <i>por que</i> a primária se moveu</td></tr>
+        <tr><td><b>De guarda</b></td><td>Qualidade média do lead nos três eixos</td><td>Se a variante trouxer mais DM e leads piores, ela perdeu. Não continuar.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>A conta de amostra, que muda a conclusão</h3>
+  <p>
+    A tabela de referência da skill: com base de 5%, detectar um ganho de 20% pede cerca de 7.000 observações por variante.
+    Com base de 10% e ganho de 50%, ainda pede 550 por variante.
+  </p>
+  <p>
+    A conta da Zionaxs, pelo que está registrado, é de <b>4 publicações e 0 engajamento verificado</b> nos dois permalinks
+    com retorno de API <span class="src">[23a]</span>. <b>Não existe alcance para atingir significância estatística em seis semanas.</b>
+  </p>
+
+  <div class="note good">
+    <span class="lbl">Consequência, e por que ela é boa notícia</span>
+    <p>
+      Isto <b>não é um teste A/B</b> e não deve ser chamado assim. É uma <b>leitura direcional</b>.
+      O resultado entra no ledger marcado <span class="tag t-H">H</span>, nunca <span class="tag t-E">E</span>,
+      e a nota <span class="src">[19d]</span> registra que a hipótese continua aberta.
+    </p>
+    <p>
+      A taxonomia da própria memória já tinha a categoria certa para isso. O que faltava era alguém fazer a conta antes
+      de prometer uma conclusão. Uma leitura direcional bem rotulada vale mais que um falso positivo publicado como fato,
+      e é exatamente o tipo de rigor que o resto da base já pratica.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 10 CONSELHO ============ -->
+<section id="conselho">
+  <div class="sechead"><span class="secnum">10</span><h2>Conselho: Brasil ou Porto</h2><span class="skilltag">skill: marketing-council</span></div>
+  <p style="border-left:3px solid var(--rule-strong);padding-left:16px;color:var(--ink-2);font-size:14.5px">
+    Sessão simulada. Cada leitura é construída sobre os frameworks e posições publicados do conselheiro,
+    não sobre uma avaliação real dele. Sem citações fabricadas.
+  </p>
+
+  <h3>A questão</h3>
+  <p>
+    A pesquisa editorial da Zionaxs é Brasil. O experimento comercial é Portugal, Grande Porto, com cinco nichos que não
+    incluem contabilidade. Esta campanha constrói audiência num mercado que o comercial não atende.
+    <b>Manter os dois motores apontando para países diferentes, ou convergir?</b>
+  </p>
+  <p style="font-size:13.5px;color:var(--ink-2)">
+    Sentados: Halbert e Dunford pela aderência direta à questão de escolha de mercado e posicionamento;
+    Sharp e Godin como dissidentes, discordando entre si além de discordarem dos dois primeiros.
+  </p>
+
+  <div class="adv">
+    <h4>Gary Halbert</h4>
+    <p class="lens">A multidão faminta</p>
+    <p>
+      A pergunta dele é sempre a mesma: quem é a multidão faminta aqui, e o que essas pessoas já compraram?
+      A resposta está no seu próprio ledger. No Brasil, 68% dos escritórios <b>já procuraram alguém</b> sobre a Reforma.
+      Isso não é interesse declarado numa pesquisa de intenção. É comportamento de busca já acontecendo.
+    </p>
+    <p>
+      No Porto, o que existe é uma lista compilada por sinais observáveis: equipes externas, várias unidades, portal antigo.
+      A própria nota comercial diz que sinal não é prova. Na distinção dele entre lista de compradores e lista compilada,
+      isso é lista compilada, que é a que ele considera o pior ativo de resposta direta.
+    </p>
+    <p class="bl">Conclusão: vá onde a fome já foi demonstrada. O conteúdo está no mercado certo, o comercial é que não está.</p>
+  </div>
+
+  <div class="adv">
+    <h4>April Dunford</h4>
+    <p class="lens">Alternativas competitivas reais</p>
+    <p>
+      Ela começaria pela pergunta que ninguém respondeu: se a Zionaxs não existisse, o que esse contador faria?
+      Duas alternativas, e nenhuma é uma consultoria de automação. A primeira é não fazer nada, que ela considera
+      o concorrente mais forte na maioria dos casos. A segunda está no seu próprio dado: 97% dos escritórios pretendiam
+      intensificar a recomendação de ERPs aos clientes <span class="src">[S22]</span>. <b>O fornecedor de software já está
+      posicionado nessa conversa</b>, e chegou antes.
+    </p>
+    <p>
+      Isso muda o enquadramento. A Zionaxs não compete com outra consultoria de IA. Compete com a inércia e com um ERP
+      que promete resolver. O ângulo de capacidade funciona justamente porque nenhum dos dois responde
+      "quantas horas você tem", e é aí que a posição fica óbvia em vez de invisível.
+    </p>
+    <p class="bl">Conclusão: o mercado importa menos que a alternativa. Contra inércia e ERP, o Brasil dá o material de prova. O Porto não dá nenhum.</p>
+  </div>
+
+  <div class="adv dissent">
+    <h4>Byron Sharp <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);letter-spacing:.1em">DISSIDENTE</span></h4>
+    <p class="lens">Penetração e disponibilidade mental</p>
+    <p>
+      Ele desmontaria a premissa dos dois. A discussão sobre qual nicho perseguir é, na leitura dele, a armadilha clássica:
+      alvo estreito limita crescimento, e marcas crescem por penetração, alcançando compradores leves e não compradores,
+      não por fidelizar um segmento já engajado.
+    </p>
+    <p>
+      O argumento mais duro é sobre o estado atual: a conta tem quatro publicações e engajamento verificado zero.
+      Disponibilidade mental próxima de zero em qualquer um dos dois mercados. Discutir <i>qual</i> mercado, antes de existir
+      qualquer disponibilidade em algum, é otimizar a coisa errada. O que ele cobraria primeiro são ativos distintivos
+      consistentes, que a marca tem no design system e ainda não usa de forma reconhecível.
+    </p>
+    <p style="font-size:13.5px;color:var(--ink-3);border-left:2px solid var(--rule);padding-left:12px">
+      Ressalva registrada no próprio dossiê: as leis dele derivam majoritariamente de dados de bens de consumo, e críticos
+      apontam tradução imperfeita para B2B e para empresas com disponibilidade quase nula. Esta é exatamente essa situação.
+    </p>
+    <p class="bl">Conclusão: a pergunta do mercado é prematura. Construa reconhecimento consistente antes de escolher entre dois mercados onde você não existe.</p>
+  </div>
+
+  <div class="adv dissent">
+    <h4>Seth Godin <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);letter-spacing:.1em">DISSIDENTE</span></h4>
+    <p class="lens">Menor audiência viável</p>
+    <p>
+      Ele discorda de Sharp diretamente. A busca incessante por massa é o que torna a coisa entediante.
+      A pergunta dele é qual é o menor grupo que, se encantado, sustenta o negócio. E a resposta aqui é
+      desconfortavelmente precisa: escritórios contábeis generalistas de carteira mediana, com um sócio que decide e executa.
+      Isso é uma menor audiência viável quase de manual.
+    </p>
+    <p>
+      Ele também faria a pergunta que incomoda mais: alguém sentiria falta se a Zionaxs sumisse?
+      Hoje, não. Mas o gate de conteúdo de audiência da sua própria memória, que testa se a peça sobrevive à remoção da marca,
+      é o mecanismo certo para mudar isso. Ele reconheceria esse gate como a coisa mais valiosa que já está escrita na base.
+    </p>
+    <p class="bl">Conclusão: um mercado, escolhido de propósito, encantado até virar boca a boca. Dois mercados por conveniência territorial é o erro.</p>
+  </div>
+
+  <h3>Mapa de discordância</h3>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Conflito</th><th>O trade-off real</th><th>O que resolveria</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><b>Sharp contra Godin</b></td>
+          <td>Alcance contra ressonância. Penetração ampla, ou encantar o menor grupo viável?</td>
+          <td>A restrição de capacidade de entrega da Zionaxs. Se você entrega 2 diagnósticos por mês, alcance amplo é desperdício.</td>
+        </tr>
+        <tr>
+          <td><b>Halbert contra a operação atual</b></td>
+          <td>Fome comprovada contra conveniência territorial. O Porto foi escolhido por proximidade, não por evidência de demanda.</td>
+          <td>Rodar as 50 contas da Fase 1 do experimento comercial e comparar dores confirmadas por hora de prospecção.</td>
+        </tr>
+        <tr>
+          <td><b>Dunford contra os dois</b></td>
+          <td>Mercado contra alternativa. Talvez a pergunta não seja o país, e sim contra o que você está posicionado.</td>
+          <td>Cinco conversas em cada mercado perguntando o que fariam se a Zionaxs não existisse.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Síntese</h3>
+  <p>
+    Halbert e Dunford convergem, por caminhos diferentes, na mesma direção: o Brasil tem a fome demonstrada e a evidência
+    que sustenta o argumento. Godin concorda com a escolha deliberada de um mercado só. Sharp discorda de todos,
+    mas sua ressalva documentada sobre B2B e disponibilidade quase nula enfraquece a aplicação neste caso específico.
+  </p>
+  <p>
+    <b>A recomendação é rodar esta campanha no Brasil e parar de esperar que ela alimente o Porto.</b>
+    O Porto continua sendo um experimento comercial válido, com ICP e cadência próprios, e precisa de <b>material próprio</b>,
+    não do reaproveitamento deste. São dois trabalhos, e tratá-los como um é a origem da tensão.
+  </p>
+  <p>
+    <b>O aviso de Sharp fica como tripwire:</b> se em seis semanas o alcance de não seguidores não sair do lugar,
+    o problema não é o mercado escolhido. É que a marca não tem nenhum ativo distintivo em uso consistente,
+    e nenhuma escolha de nicho conserta isso.
   </p>
 </section>
 
-<!-- ============ 06 ============ -->
+<!-- ============ 11 BRIEFS ============ -->
 <section id="briefs">
-  <div class="sechead"><span class="secnum">06</span><h2>Briefs no formato obrigatório</h2></div>
+  <div class="sechead"><span class="secnum">11</span><h2>Briefs no formato obrigatório</h2></div>
   <p>
-    O bloco do <span class="src">[19c §14]</span> é pré-requisito de produção: sem ele preenchido, a peça não entra na fila.
-    Abaixo, os blocos completos das três peças âncora. As nove restantes têm o núcleo definido na tabela seguinte
-    e precisam do bloco completo antes de irem para roteiro.
+    O bloco de <span class="src">[19c §14]</span> é pré-requisito de produção. Blocos completos das três peças âncora;
+    as outras nove têm o núcleo definido e precisam do bloco antes do roteiro.
   </p>
 
-  <!-- BRIEF C1 -->
   <article class="brief">
     <header><span class="bid">C1</span><h3>A hora que sai de graça</h3><span class="src">M08 · Semana 1 · Terça</span></header>
-    <div class="inner">
-      <dl class="fields">
-        <div><dt>Público primário</dt><dd>V2 / C1</dd></div>
-        <div><dt>Público secundário</dt><dd>V2 / C2</dd></div>
-        <div><dt>Problema do público</dt><dd>Correção acontece, consome hora e não é registrada por causa. <span class="tag t-E">E</span> parcial <span class="src">[S21]</span> mais <span class="tag t-I">I</span></dd></div>
-        <div><dt>Valor esperado</dt><dd>Uma taxonomia de quatro causas e uma regra de contagem executável na segunda-feira</dd></div>
-        <div><dt>Resposta desejada</dt><dd>Registrar causa no momento da correção, por uma semana, antes de mexer em contrato</dd></div>
-        <div><dt>Lição principal</dt><dd>Retrabalho não cobrado não é falha de contrato, é falha de contagem</dd></div>
-        <div><dt>Categoria editorial</dt><dd>Educacional</dd></div>
-        <div><dt>Maturidade alvo</dt><dd>Inicial a intermediária</dd></div>
-        <div><dt>JTBD</dt><dd>JF4 principal, JO5 apoio</dd></div>
-        <div><dt>Repertório</dt><dd>R9 Deming <span class="src">[S38]</span>, paráfrase</dd></div>
-        <div><dt>Status das afirmações</dt><dd><span class="tag t-E">E</span> 33% <span class="src">[S21]</span> · <span class="tag t-I">I</span> mecanismo da não cobrança · <span class="tag t-H">H</span> objeções</dd></div>
-        <div><dt>CTA</dt><dd>Medir uma semana antes de mudar qualquer contrato</dd></div>
-      </dl>
-    </div>
+    <div class="inner"><dl class="fields">
+      <div><dt>Público primário</dt><dd>V2 / C1</dd></div>
+      <div><dt>Público secundário</dt><dd>V2 / C2</dd></div>
+      <div><dt>Problema do público</dt><dd>Correção consome hora e não é registrada por causa. <span class="tag t-E">E</span> parcial <span class="src">[S21]</span> + <span class="tag t-I">I</span></dd></div>
+      <div><dt>Valor esperado</dt><dd>Taxonomia de quatro causas e regra de contagem executável na segunda-feira</dd></div>
+      <div><dt>Resposta desejada</dt><dd>Registrar causa por uma semana antes de mexer em contrato</dd></div>
+      <div><dt>Lição principal</dt><dd>Retrabalho não cobrado não é falha de contrato, é falha de contagem</dd></div>
+      <div><dt>Categoria editorial</dt><dd>Educacional</dd></div>
+      <div><dt>Estágio AARRR</dt><dd>Acquisition</dd></div>
+      <div><dt>JTBD</dt><dd>JF4 principal, JO5 apoio</dd></div>
+      <div><dt>Repertório</dt><dd>R9 Deming <span class="src">[S38]</span>, paráfrase</dd></div>
+      <div><dt>Status das afirmações</dt><dd><span class="tag t-E">E</span> 33% <span class="src">[S21]</span> · <span class="tag t-I">I</span> mecanismo · <span class="tag t-H">H</span> objeções</dd></div>
+      <div><dt>CTA</dt><dd>Medir uma semana antes de mudar contrato</dd></div>
+    </dl></div>
   </article>
 
-  <!-- BRIEF C4 -->
   <article class="brief">
     <header><span class="bid">C4</span><h3>Capacidade antes de oferta</h3><span class="src">M11 · Semana 2 · Quinta</span></header>
-    <div class="inner">
-      <dl class="fields">
-        <div><dt>Público primário</dt><dd>V2 / C1</dd></div>
-        <div><dt>Público secundário</dt><dd>V2 / C3</dd></div>
-        <div><dt>Problema do público</dt><dd>Demanda regulatória chegou sem plano de execução e sem hora livre para executá-lo. <span class="tag t-E">E</span> <span class="src">[S22][S23]</span></dd></div>
-        <div><dt>Valor esperado</dt><dd>Três números a calcular antes de montar qualquer pacote consultivo</dd></div>
-        <div><dt>Resposta desejada</dt><dd>Marcar no calendário onde as horas do primeiro lote de clientes cabem</dd></div>
-        <div><dt>Lição principal</dt><dd>Oferta consultiva compete pelo mesmo par de mãos que fecha a folha</dd></div>
-        <div><dt>Categoria editorial</dt><dd>Notícia e análise</dd></div>
-        <div><dt>Maturidade alvo</dt><dd>Intermediária</dd></div>
-        <div><dt>JTBD</dt><dd>JF6 principal, JT4 apoio</dd></div>
-        <div><dt>Repertório</dt><dd>R7 March <span class="src">[S33]</span>, citação literal verificada</dd></div>
-        <div><dt>Status das afirmações</dt><dd><span class="tag t-E">E</span> com ressalva <span class="src">[S22][S23]</span> · <span class="tag t-I">I</span> competição por capacidade · <span class="tag t-NC">NC</span> calendário legal</dd></div>
-        <div><dt>CTA</dt><dd>Escolher os 20 primeiros clientes e localizar as horas no mês</dd></div>
-      </dl>
-    </div>
+    <div class="inner"><dl class="fields">
+      <div><dt>Público primário</dt><dd>V2 / C1</dd></div>
+      <div><dt>Público secundário</dt><dd>V2 / C3</dd></div>
+      <div><dt>Problema do público</dt><dd>Demanda regulatória sem plano e sem hora livre. <span class="tag t-E">E</span> <span class="src">[S22][S23]</span></dd></div>
+      <div><dt>Valor esperado</dt><dd>Três números a calcular antes de montar pacote consultivo</dd></div>
+      <div><dt>Resposta desejada</dt><dd>Marcar no calendário onde as horas cabem</dd></div>
+      <div><dt>Lição principal</dt><dd>Oferta consultiva disputa o mesmo par de mãos que fecha a folha</dd></div>
+      <div><dt>Categoria editorial</dt><dd>Notícia e análise</dd></div>
+      <div><dt>Estágio AARRR</dt><dd>Acquisition</dd></div>
+      <div><dt>JTBD</dt><dd>JF6 principal, JT4 apoio</dd></div>
+      <div><dt>Repertório</dt><dd>R7 March <span class="src">[S33]</span>, citação literal verificada</dd></div>
+      <div><dt>Status das afirmações</dt><dd><span class="tag t-E">E</span> com ressalva <span class="src">[S22][S23]</span> · <span class="tag t-NC">NC</span> calendário legal</dd></div>
+      <div><dt>CTA</dt><dd>Escolher os 20 primeiros clientes e localizar as horas</dd></div>
+    </dl></div>
   </article>
 
-  <!-- BRIEF C5 -->
   <article class="brief">
     <header><span class="bid">C5</span><h3>O relatório que antecede o reajuste</h3><span class="src">M09 · Semana 3 · Terça</span></header>
-    <div class="inner">
-      <dl class="fields">
-        <div><dt>Público primário</dt><dd>V2 / C1</dd></div>
-        <div><dt>Público secundário</dt><dd>V2 / C2</dd></div>
-        <div><dt>Problema do público</dt><dd>Cliente antigo com honorário antigo e volume atual, sem margem calculada. <span class="tag t-I">I</span></dd></div>
-        <div><dt>Valor esperado</dt><dd>Cálculo de margem por cliente com o que já existe, sem implantar sistema novo</dd></div>
-        <div><dt>Resposta desejada</dt><dd>Rodar o cálculo em cinco clientes antes de reajustar ou desligar qualquer um</dd></div>
-        <div><dt>Lição principal</dt><dd>Sem hora por cliente, reajuste é chute e desligamento é emoção</dd></div>
-        <div><dt>Categoria editorial</dt><dd>Educacional</dd></div>
-        <div><dt>Maturidade alvo</dt><dd>Intermediária</dd></div>
-        <div><dt>JTBD</dt><dd>JO5 principal, JT1 apoio</dd></div>
-        <div><dt>Repertório</dt><dd>R3 Porter <span class="src">[S34]</span>, citação literal verificada</dd></div>
-        <div><dt>Status das afirmações</dt><dd><span class="tag t-I">I</span> mecanismo de margem · <span class="tag t-E">E</span> 150 clientes medianos <span class="src">[S21]</span> · <span class="tag t-H">H</span> árvore de decisão</dd></div>
-        <div><dt>CTA</dt><dd>Rodar em cinco clientes antes de mexer em contrato</dd></div>
-      </dl>
-    </div>
+    <div class="inner"><dl class="fields">
+      <div><dt>Público primário</dt><dd>V2 / C1</dd></div>
+      <div><dt>Público secundário</dt><dd>V2 / C2</dd></div>
+      <div><dt>Problema do público</dt><dd>Cliente antigo, honorário antigo, volume atual, margem desconhecida. <span class="tag t-I">I</span></dd></div>
+      <div><dt>Valor esperado</dt><dd>Cálculo de margem por cliente sem implantar sistema novo</dd></div>
+      <div><dt>Resposta desejada</dt><dd>Rodar em cinco clientes antes de reajustar ou desligar</dd></div>
+      <div><dt>Lição principal</dt><dd>Sem hora por cliente, reajuste é chute e desligamento é emoção</dd></div>
+      <div><dt>Categoria editorial</dt><dd>Educacional</dd></div>
+      <div><dt>Estágio AARRR</dt><dd>Acquisition, ponte para Activation</dd></div>
+      <div><dt>JTBD</dt><dd>JO5 principal, JT1 apoio</dd></div>
+      <div><dt>Repertório</dt><dd>R3 Porter <span class="src">[S34]</span>, citação literal verificada</dd></div>
+      <div><dt>Status das afirmações</dt><dd><span class="tag t-I">I</span> mecanismo · <span class="tag t-E">E</span> 150 clientes <span class="src">[S21]</span> · <span class="tag t-H">H</span> árvore</dd></div>
+      <div><dt>CTA</dt><dd>Rodar em cinco clientes antes de mexer em contrato</dd></div>
+    </dl></div>
   </article>
 
-  <h3>Núcleo das nove peças restantes</h3>
+  <h3>Núcleo das nove restantes</h3>
   <div class="tablewrap">
     <table>
-      <thead><tr><th>ID</th><th>Matriz</th><th>Lição principal (uma frase)</th><th>CTA único</th><th>Repertório</th></tr></thead>
+      <thead><tr><th>ID</th><th>Matriz</th><th>Lição principal</th><th>CTA único</th><th>Rep.</th></tr></thead>
       <tbody>
         <tr><td class="id">C2</td><td class="mono">M20</td><td>Conectividade, presença e processo são três coisas diferentes, e só a terceira muda a operação</td><td>Mapear onde o dado é digitado duas vezes</td><td class="mono">R3</td></tr>
-        <tr><td class="id">C3</td><td class="mono">M18</td><td>Métrica sem fórmula, fonte, dono e frequência não é métrica, é opinião com número</td><td>Preencher o dicionário para três métricas</td><td class="mono">R9</td></tr>
-        <tr><td class="id">C6</td><td class="mono">M10</td><td>Clientes por FTE só compara quando o regime e o mix são comparáveis</td><td>Ajustar o modelo antes de contratar</td><td class="mono">R9</td></tr>
+        <tr><td class="id">C3</td><td class="mono">M18</td><td>Métrica sem fórmula, fonte, dono e frequência é opinião com número</td><td>Preencher o dicionário para três métricas</td><td class="mono">R9</td></tr>
+        <tr><td class="id">C6</td><td class="mono">M10</td><td>Clientes por FTE só compara quando regime e mix são comparáveis</td><td>Ajustar o modelo antes de contratar</td><td class="mono">R9</td></tr>
         <tr><td class="id">C7</td><td class="mono">M22 <span style="color:var(--warn)">prop.</span></td><td>A decisão entre nicho e generalista sai da sua carteira, não do dogma de mercado</td><td>Segmentar a carteira por margem e esforço</td><td class="mono">R3</td></tr>
         <tr><td class="id">C8</td><td class="mono">M23 <span style="color:var(--warn)">prop.</span></td><td>Orientação avulsa não é cortesia, é produto sem preço e sem limite de escopo</td><td>Definir o limite de uma orientação gratuita</td><td class="mono">R1</td></tr>
-        <tr><td class="id">C9</td><td class="mono">M12</td><td>Aquisição por indicação não é estratégia comercial, é a ausência dela funcionando por sorte</td><td>Marcar 30 minutos semanais no calendário</td><td class="mono">R4</td></tr>
+        <tr><td class="id">C9</td><td class="mono">M12</td><td>Aquisição por indicação não é estratégia, é a ausência dela funcionando por sorte</td><td>Marcar 30 minutos semanais no calendário</td><td class="mono">R4</td></tr>
         <tr><td class="id">C10</td><td class="mono">M17</td><td>Automatizar antes de decidir se o processo deveria existir é desperdício em alta velocidade</td><td>Listar um processo a eliminar</td><td class="mono">R1</td></tr>
-        <tr><td class="id">C11</td><td class="mono">M21 <span style="color:var(--warn)">prop.</span></td><td>Seguro não previne erro, ele revela onde o processo aceita erro sem avisar</td><td>Localizar a etapa sem conferência</td><td class="mono">R5</td></tr>
+        <tr><td class="id">C11</td><td class="mono">M21 <span style="color:var(--warn)">prop.</span></td><td>Seguro não previne erro, revela onde o processo aceita erro sem avisar</td><td>Localizar a etapa sem conferência</td><td class="mono">R5</td></tr>
         <tr><td class="id">C12</td><td class="mono">novo</td><td>O que seis semanas de medição própria mostraram, incluindo o que não funcionou</td><td>Comentar qual causa domina no seu escritório</td><td class="mono">R6</td></tr>
       </tbody>
     </table>
   </div>
 </section>
 
-<!-- ============ 07 ============ -->
+<!-- ============ 12 ROTEIROS ============ -->
 <section id="roteiros">
-  <div class="sechead"><span class="secnum">07</span><h2>Roteiros completos, slide a slide</h2></div>
+  <div class="sechead"><span class="secnum">12</span><h2>Roteiros, slide a slide</h2></div>
   <p>
-    Estrutura conforme <span class="src">[04 §3]</span>: abertura, diagnóstico, mecanismo, virada, critério, exemplo, limite, fechamento.
-    Oito unidades porque a narrativa pede oito, não porque oito é o padrão. Cada slide fecha a micropergunta anterior,
-    acrescenta uma peça causal e torna necessária a próxima.
+    Estrutura de <span class="src">[04 §3]</span>: abertura, diagnóstico, mecanismo, virada, critério, exemplo, limite, fechamento.
+    Cada slide fecha a micropergunta anterior, acrescenta uma peça causal e torna necessária a próxima.
   </p>
 
   <h3>C1 · A hora que sai de graça</h3>
   <div class="slides">
-    <div class="slide">
-      <span class="n">01</span>
-      <div>
-        <p class="role">Capa · abertura</p>
-        <p class="copy">Retrabalho não cobrado não é falha de contrato. É <em>falha de contagem</em>.</p>
-        <p class="dir"><b>Direção:</b> papel de trabalho em campo claro, uma linha de registro em branco atravessando o slide, cursor de caneta parado na coluna "causa". Sem pessoa. Poppins 700 em duas linhas, laranja só na palavra em destaque.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">02</span>
-      <div>
-        <p class="role">Evidência</p>
-        <p class="copy">Na amostra do Sescon-SP, 33% dos escritórios declararam não cobrar por retrabalho.</p>
-        <p class="dir"><b>Direção:</b> o número 33% em JetBrains Mono grande, e imediatamente abaixo, no mesmo peso visual, o recorte: 255 associados, São Paulo, 2024, margem 5,9%. <b>O denominador tem o mesmo tamanho do número.</b> Essa é a peça inteira de credibilidade.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">03</span>
-      <div>
-        <p class="role">Diagnóstico · a cena</p>
-        <p class="copy">O documento chega errado. Alguém corrige. Ninguém anota de quem foi a causa. No mês seguinte, a mesma hora sai de novo.</p>
-        <p class="dir"><b>Direção:</b> primeira presença humana, causal: mãos de duas pessoas sobre a mesma pilha de documentos, uma entregando e outra corrigindo. Enquadramento de mesa, luz lateral de escritório real. Sem rosto, porque o papel importa mais que o indivíduo.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">04</span>
-      <div>
-        <p class="role">Mecanismo</p>
-        <p class="copy">Correção sem causa registrada vira "atendimento". E atendimento é justamente o que o escritório dá de graça.</p>
-        <p class="dir"><b>Direção:</b> diagrama tipográfico, sem ícone. Duas colunas: à esquerda "o que aconteceu", à direita "como foi classificado". Setas finas do primeiro para o segundo, todas convergindo na mesma caixa: atendimento.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">05</span>
-      <div>
-        <p class="role">Virada</p>
-        <p class="copy">A pergunta não é quanto cobrar. É <em>de quem é a causa</em>.</p>
-        <p class="dir"><b>Direção:</b> ruptura de campo. Fundo inverte para grafite <code>#14171B</code> por um slide só. Frase única, centrada, respiro máximo. É o único slide escuro da peça, e por isso ele marca a virada.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">06</span>
-      <div>
-        <p class="role">Critério · a taxonomia</p>
-        <p class="copy">Quatro causas, e cada uma tem um dono diferente: cliente, escritório, sistema, regra.</p>
-        <p class="dir"><b>Direção:</b> quatro faixas horizontais rotuladas em mono, cada uma com a ação correspondente ao lado: renegociar escopo, corrigir processo, revisar integração, atualizar procedimento. Volta ao papel claro. Este é o slide que será salvo.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">07</span>
-      <div>
-        <p class="role">Regra de contagem e limite</p>
-        <p class="copy">Registre a causa no momento da correção, não no fechamento. E meça fora do pico: uma semana em fechamento não descreve o mês.</p>
-        <p class="dir"><b>Direção:</b> calendário simplificado de um mês com a janela de medição sugerida marcada e a semana de fechamento excluída, em hachura. A exclusão é o conteúdo, não o enfeite.</p>
-      </div>
-    </div>
-    <div class="slide cta">
-      <span class="n">08</span>
-      <div>
-        <p class="role">Fechamento · CTA único</p>
-        <p class="copy">Uma semana de registro custa menos que um reajuste errado. <em>Meça antes de mexer no contrato.</em></p>
-        <p class="dir"><b>Direção:</b> retorno à linha de registro da capa, agora preenchida. Logo Zionaxs vetorial em canto, escala pequena. Sem botão, sem "chame no direct". O CTA é a ação, não o contato.</p>
-      </div>
-    </div>
+    <div class="slide"><span class="n">01</span><div>
+      <p class="role">Capa · abertura</p>
+      <p class="copy">Retrabalho não cobrado não é falha de contrato. É <em>falha de contagem</em>.</p>
+      <p class="dir"><b>Direção:</b> papel de trabalho em campo claro, linha de registro em branco atravessando o slide, caneta parada na coluna "causa". Sem pessoa.</p>
+    </div></div>
+    <div class="slide"><span class="n">02</span><div>
+      <p class="role">Evidência</p>
+      <p class="copy">Na amostra do Sescon-SP, 33% dos escritórios declararam não cobrar por retrabalho.</p>
+      <p class="dir"><b>Direção:</b> 33% em mono grande e, no mesmo peso visual, o recorte: 255 associados, São Paulo, 2024, margem 5,9%. <b>O denominador tem o mesmo tamanho do número.</b></p>
+    </div></div>
+    <div class="slide"><span class="n">03</span><div>
+      <p class="role">Diagnóstico · a cena</p>
+      <p class="copy">O documento chega errado. Alguém corrige. Ninguém anota de quem foi a causa. No mês seguinte, a mesma hora sai de novo.</p>
+      <p class="dir"><b>Direção:</b> primeira presença humana, causal: mãos de duas pessoas sobre a mesma pilha, uma entregando e outra corrigindo. Sem rosto.</p>
+    </div></div>
+    <div class="slide"><span class="n">04</span><div>
+      <p class="role">Mecanismo</p>
+      <p class="copy">Correção sem causa registrada vira "atendimento". E atendimento é o que o escritório dá de graça.</p>
+      <p class="dir"><b>Direção:</b> diagrama tipográfico, sem ícone. Duas colunas, setas finas convergindo na mesma caixa: atendimento.</p>
+    </div></div>
+    <div class="slide"><span class="n">05</span><div>
+      <p class="role">Virada</p>
+      <p class="copy">A pergunta não é quanto cobrar. É <em>de quem é a causa</em>.</p>
+      <p class="dir"><b>Direção:</b> ruptura de campo. Fundo inverte para grafite <code>#14171B</code> por um slide só. Único slide escuro da peça.</p>
+    </div></div>
+    <div class="slide"><span class="n">06</span><div>
+      <p class="role">Critério · a taxonomia</p>
+      <p class="copy">Quatro causas, cada uma com dono diferente: cliente, escritório, sistema, regra.</p>
+      <p class="dir"><b>Direção:</b> quatro faixas rotuladas em mono, com a ação ao lado: renegociar escopo, corrigir processo, revisar integração, atualizar procedimento. Este é o slide que será salvo.</p>
+    </div></div>
+    <div class="slide"><span class="n">07</span><div>
+      <p class="role">Regra de contagem e limite</p>
+      <p class="copy">Registre a causa no momento da correção, não no fechamento. E meça fora do pico: uma semana em fechamento não descreve o mês.</p>
+      <p class="dir"><b>Direção:</b> calendário de um mês com a janela sugerida marcada e a semana de fechamento excluída em hachura. A exclusão é o conteúdo.</p>
+    </div></div>
+    <div class="slide cta"><span class="n">08</span><div>
+      <p class="role">Fechamento · CTA único</p>
+      <p class="copy">Uma semana de registro custa menos que um reajuste errado. <em>Meça antes de mexer no contrato.</em></p>
+      <p class="dir"><b>Direção:</b> retorno à linha de registro da capa, agora preenchida. Logo vetorial pequeno. Sem contato comercial.</p>
+    </div></div>
   </div>
 
   <div class="caption">
     <span class="lbl">Legenda C1</span>
-    <p>
-      Um terço dos escritórios da amostra do Sescon-SP declarou não cobrar por retrabalho. O número costuma ser lido como problema
-      de precificação. Provavelmente não é.
-    </p>
-    <p>
-      Quando a correção não tem causa registrada, ela não tem nome dentro do escritório. Sem nome, ela não entra em contrato,
-      não entra em preço e não entra em nenhum relatório. Ela só aparece como cansaço no fim do mês.
-    </p>
-    <p>
-      A taxonomia do slide 6 é a parte aplicável: cliente, escritório, sistema, regra. Cada causa tem um dono e uma ação diferente,
-      e é isso que impede a conversa de virar cobrança pessoal. A ideia de Deming, aqui em paráfrase, é que antes de responsabilizar
-      alguém por um indicador vale mapear entrada, dependência, variação normal, incentivo e restrição.
-    </p>
-    <p>
-      Meça uma semana antes de mudar qualquer contrato. E meça fora da semana de fechamento, ou o dado descreve o pico e não a rotina.
-    </p>
-    <p class="mono" style="font-size:12.5px;color:var(--ink-2)">
-      Fonte: Pesquisa de Preços e Serviços Contábeis do Estado de SP, Sescon-SP e Vox Populi, 2024, 255 associados,
-      margem de erro 5,9%. Recorte estadual e associativo: não descreve o Brasil. Referência de gestão: W. E. Deming,
-      System of Profound Knowledge, Deming Institute.
-    </p>
+    <p>Um terço dos escritórios da amostra do Sescon-SP declarou não cobrar por retrabalho. O número costuma ser lido como problema de precificação. Provavelmente não é.</p>
+    <p>Quando a correção não tem causa registrada, ela não tem nome dentro do escritório. Sem nome, não entra em contrato, não entra em preço e não entra em relatório nenhum. Só aparece como cansaço no fim do mês.</p>
+    <p>A taxonomia do slide 6 é a parte aplicável: cliente, escritório, sistema, regra. Cada causa tem um dono e uma ação diferente, e é isso que impede a conversa de virar cobrança pessoal. A ideia de Deming, aqui em paráfrase, é que antes de responsabilizar alguém por um indicador vale mapear entrada, dependência, variação normal, incentivo e restrição.</p>
+    <p>Meça uma semana antes de mudar qualquer contrato. E meça fora da semana de fechamento, ou o dado descreve o pico e não a rotina.</p>
+    <p class="mono" style="font-size:12.5px;color:var(--ink-2)">Fonte: Pesquisa de Preços e Serviços Contábeis do Estado de SP, Sescon-SP e Vox Populi, 2024, 255 associados, margem de erro 5,9%. Recorte estadual e associativo: não descreve o Brasil. Referência de gestão: W. E. Deming, System of Profound Knowledge, Deming Institute.</p>
   </div>
 
   <hr class="rule">
 
   <h3>C4 · Capacidade antes de oferta</h3>
   <div class="slides">
-    <div class="slide">
-      <span class="n">01</span>
-      <div>
-        <p class="role">Capa · abertura</p>
-        <p class="copy">68% dos escritórios já foram procurados por clientes sobre a Reforma. O que falta <em>não é informação</em>.</p>
-        <p class="dir"><b>Direção:</b> tipografia sozinha em papel claro, sem imagem. A segunda frase em peso menor cria a lacuna finita: se não é informação, é o quê. Ressalva de amostra já visível no rodapé do slide.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">02</span>
-      <div>
-        <p class="role">Evidência e ressalva</p>
-        <p class="copy">56% continuam consumindo conteúdo sem plano definido. Em março, 61% ainda não tinham mapeado a carteira.</p>
-        <p class="dir"><b>Direção:</b> dois números em mono, lado a lado, com data de cada um embaixo. Nota obrigatória no mesmo slide: sondagens de fornecedor, uma delas sem amostra explicitada. <b>A ressalva não vai para a legenda.</b></p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">03</span>
-      <div>
-        <p class="role">Diagnóstico</p>
-        <p class="copy">A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais.</p>
-        <p class="dir"><b>Direção:</b> presença humana causal. Uma pessoa em mesa de escritório contábil, telefone tocando fora de foco, pilha de trabalho em primeiro plano. Expressão de quem está entre duas tarefas, não de quem está em crise.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">04</span>
-      <div>
-        <p class="role">Mecanismo</p>
-        <p class="copy">Consultoria é trabalho não recorrente dentro de uma operação desenhada para recorrência. Ela disputa o mesmo par de mãos que fecha a folha.</p>
-        <p class="dir"><b>Direção:</b> um mês em barras, com o calendário obrigatório ocupando as faixas conhecidas e a consultoria tentando caber nos vãos. Escala real: os vãos são pequenos, e é isso que o slide precisa mostrar.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">05</span>
-      <div>
-        <p class="role">Virada</p>
-        <p class="copy">A pergunta não é qual pacote vender. É <em>quantas horas livres existem no mês em que ele seria entregue</em>.</p>
-        <p class="dir"><b>Direção:</b> slide de ruptura, campo grafite, frase única. Mesma gramática de virada usada em C1, para criar reconhecimento de série sem repetir composição.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">06</span>
-      <div>
-        <p class="role">Critério · os três números</p>
-        <p class="copy">Horas do sócio fora do calendário obrigatório. Quantos clientes cabem no primeiro lote. Em que semana do mês a entrega não colide com fechamento.</p>
-        <p class="dir"><b>Direção:</b> três campos numerados em mono, cada um com um espaço em branco para o leitor preencher. O slide funciona como formulário, e é por isso que ele é salvo.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">07</span>
-      <div>
-        <p class="role">Exemplo e limite</p>
-        <p class="copy">20 clientes por 2 horas de diagnóstico são 40 horas. A conta é simples. A pergunta é onde essas 40 horas estão no seu mês.</p>
-        <p class="dir"><b>Direção:</b> aritmética visível, em mono, com o resultado destacado. Abaixo, a citação verificada de James March sobre processos adaptativos que refinam a exploração corrente mais rápido que a exploratória, com autor, obra e ano.</p>
-      </div>
-    </div>
-    <div class="slide cta">
-      <span class="n">08</span>
-      <div>
-        <p class="role">Fechamento · CTA único</p>
-        <p class="copy">Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. <em>Se não couberem, o pacote ainda não existe.</em></p>
-        <p class="dir"><b>Direção:</b> calendário do slide 4 reaparece, agora com um bloco alocado. Fechamento resolve a promessa da capa: o que faltava era hora, não informação.</p>
-      </div>
-    </div>
+    <div class="slide"><span class="n">01</span><div>
+      <p class="role">Capa · abertura</p>
+      <p class="copy">68% dos escritórios já foram procurados por clientes sobre a Reforma. O que falta <em>não é informação</em>.</p>
+      <p class="dir"><b>Direção:</b> tipografia sozinha em papel claro. Ressalva de amostra já visível no rodapé do slide.</p>
+    </div></div>
+    <div class="slide"><span class="n">02</span><div>
+      <p class="role">Evidência e ressalva</p>
+      <p class="copy">56% continuam consumindo conteúdo sem plano definido. Em março, 61% ainda não tinham mapeado a carteira.</p>
+      <p class="dir"><b>Direção:</b> dois números em mono lado a lado, com a data de cada um. Nota obrigatória no mesmo slide: sondagens de fornecedor, uma sem amostra explicitada. <b>A ressalva não vai para a legenda.</b></p>
+    </div></div>
+    <div class="slide"><span class="n">03</span><div>
+      <p class="role">Diagnóstico</p>
+      <p class="copy">A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais.</p>
+      <p class="dir"><b>Direção:</b> presença humana causal. Pessoa em mesa de escritório, telefone tocando fora de foco, pilha em primeiro plano. Entre duas tarefas, não em crise.</p>
+    </div></div>
+    <div class="slide"><span class="n">04</span><div>
+      <p class="role">Mecanismo</p>
+      <p class="copy">Consultoria é trabalho não recorrente dentro de uma operação desenhada para recorrência. Ela disputa o mesmo par de mãos que fecha a folha.</p>
+      <p class="dir"><b>Direção:</b> um mês em barras, calendário obrigatório ocupando as faixas conhecidas, consultoria tentando caber nos vãos. Escala real: os vãos são pequenos.</p>
+    </div></div>
+    <div class="slide"><span class="n">05</span><div>
+      <p class="role">Virada</p>
+      <p class="copy">A pergunta não é qual pacote vender. É <em>quantas horas livres existem no mês em que ele seria entregue</em>.</p>
+      <p class="dir"><b>Direção:</b> ruptura, campo grafite, frase única.</p>
+    </div></div>
+    <div class="slide"><span class="n">06</span><div>
+      <p class="role">Critério · os três números</p>
+      <p class="copy">Horas do sócio fora do calendário obrigatório. Quantos clientes cabem no primeiro lote. Em que semana a entrega não colide com fechamento.</p>
+      <p class="dir"><b>Direção:</b> três campos numerados em mono, cada um com espaço em branco para preencher. O slide funciona como formulário.</p>
+    </div></div>
+    <div class="slide"><span class="n">07</span><div>
+      <p class="role">Exemplo e limite</p>
+      <p class="copy">20 clientes por 2 horas são 40 horas. A conta é simples. A pergunta é onde essas 40 horas estão no seu mês.</p>
+      <p class="dir"><b>Direção:</b> aritmética visível em mono, resultado destacado. Abaixo, a citação verificada de James March, com autor, obra e ano.</p>
+    </div></div>
+    <div class="slide cta"><span class="n">08</span><div>
+      <p class="role">Fechamento · CTA único</p>
+      <p class="copy">Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. <em>Se não couberem, o pacote ainda não existe.</em></p>
+      <p class="dir"><b>Direção:</b> o calendário do slide 4 reaparece com um bloco alocado. Fecha a promessa da capa.</p>
+    </div></div>
   </div>
 
   <div class="caption">
     <span class="lbl">Legenda C4</span>
-    <p>
-      A leitura mais comum das sondagens recentes é que o setor está atrasado em conhecimento. A leitura da Zionaxs é outra:
-      o gargalo é capacidade, não currículo.
-    </p>
-    <p>
-      Consultoria é trabalho não recorrente. Ela entra num mês que já está desenhado em torno de obrigações com data fixa,
-      e disputa exatamente as horas do sócio, que é quem também executa. Por isso o pacote que parece pronto na apresentação
-      não sai do papel: não existe janela onde ele caiba.
-    </p>
-    <p>
-      Antes de empacotar, três números. Horas do sócio fora do calendário obrigatório. Quantos clientes cabem no primeiro lote.
-      Em que semana do mês a entrega não colide com fechamento. Se os três não fecharem, o problema não é a oferta.
-    </p>
-    <p>
-      Vale uma ressalva sobre a métrica de qualquer experimento assim. James March escreveu, em 1991, que "adaptive processes,
-      by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive
-      in the long run". Em tradução editorial livre: a operação madura sempre parece mais eficiente que o experimento novo,
-      e é por isso que o experimento precisa de orçamento, métrica e cadência próprios.
-    </p>
-    <p>
-      Escolha os 20 primeiros clientes e marque as horas no calendário.
-    </p>
-    <p class="mono" style="font-size:12.5px;color:var(--ink-2)">
-      Fontes: sondagens do setor contábil sobre Reforma Tributária divulgadas pela Fenacon em 13/03/2026 (n=633) e 15/07/2026
-      (amostra não explicitada na publicação). Ambas patrocinadas por fornecedor de software, tratadas aqui como sinal e não como censo.
-      Referência: James G. March, Exploration and Exploitation in Organizational Learning, Organization Science 2(1), 1991.
-      Este conteúdo não substitui análise contábil ou jurídica profissional.
-    </p>
+    <p>A leitura mais comum das sondagens recentes é que o setor está atrasado em conhecimento. A leitura da Zionaxs é outra: o gargalo é capacidade, não currículo.</p>
+    <p>Consultoria é trabalho não recorrente. Ela entra num mês já desenhado em torno de obrigações com data fixa, e disputa exatamente as horas do sócio, que é quem também executa. Por isso o pacote que parece pronto na apresentação não sai do papel: não existe janela onde ele caiba.</p>
+    <p>Antes de empacotar, três números. Horas do sócio fora do calendário obrigatório. Quantos clientes cabem no primeiro lote. Em que semana do mês a entrega não colide com fechamento. Se os três não fecharem, o problema não é a oferta.</p>
+    <p>Vale uma ressalva sobre a métrica de qualquer experimento assim. James March escreveu, em 1991, que "adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run". Em tradução editorial livre: a operação madura sempre parece mais eficiente que o experimento novo, e é por isso que o experimento precisa de orçamento, métrica e cadência próprios.</p>
+    <p>Escolha os 20 primeiros clientes e marque as horas no calendário.</p>
+    <p class="mono" style="font-size:12.5px;color:var(--ink-2)">Fontes: sondagens do setor contábil sobre Reforma Tributária divulgadas pela Fenacon em 13/03/2026 (n=633) e 15/07/2026 (amostra não explicitada). Ambas patrocinadas por fornecedor de software, tratadas como sinal e não como censo. Referência: James G. March, Exploration and Exploitation in Organizational Learning, Organization Science 2(1), 1991. Este conteúdo não substitui análise contábil ou jurídica profissional.</p>
   </div>
 
   <hr class="rule">
 
   <h3>C5 · O relatório que antecede o reajuste</h3>
   <div class="slides">
-    <div class="slide">
-      <span class="n">01</span>
-      <div>
-        <p class="role">Capa · abertura</p>
-        <p class="copy">Antes de reajustar um cliente antigo, calcule uma coisa: <em>quanto ele custa para atender</em>.</p>
-        <p class="dir"><b>Direção:</b> um contrato antigo fotografado de topo, data visível e desfocada o bastante para não identificar ninguém. Papel envelhecido contra a mesa clara. A idade do documento é o argumento.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">02</span>
-      <div>
-        <p class="role">Diagnóstico · a cena</p>
-        <p class="copy">Cliente de oito anos. Honorário de oito anos atrás. Volume de hoje.</p>
-        <p class="dir"><b>Direção:</b> três linhas em mono, uma por vez, escala crescente na terceira. Sem imagem. O ritmo tipográfico faz o trabalho.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">03</span>
-      <div>
-        <p class="role">Mecanismo</p>
-        <p class="copy">Honorário é preço. Margem é preço menos hora consumida. Sem hora por cliente, reajuste é chute e desligamento é emoção.</p>
-        <p class="dir"><b>Direção:</b> equação tipográfica em três termos, com o termo ausente marcado em laranja. O que falta é o conteúdo.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">04</span>
-      <div>
-        <p class="role">Critério · como calcular sem sistema novo</p>
-        <p class="copy">Três fontes que já existem: horas estimadas por rotina, exceções do mês, tempo gasto em comunicação.</p>
-        <p class="dir"><b>Direção:</b> três blocos rotulados, cada um indicando onde o dado já está hoje: planilha de controle, registro de exceção, caixa de entrada. Concretude é o ponto: nada aqui pede implantação.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">05</span>
-      <div>
-        <p class="role">Virada</p>
-        <p class="copy">A conversa que você está adiando <em>não é sobre preço</em>. É sobre escopo.</p>
-        <p class="dir"><b>Direção:</b> slide de ruptura em grafite. Terceira aparição da mesma gramática de virada, e a última: em C7 em diante a série precisa de outro mecanismo, ou vira template.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">06</span>
-      <div>
-        <p class="role">Árvore de decisão</p>
-        <p class="copy">Margem baixa com causa no escritório se corrige. Margem baixa com causa no cliente se renegocia. Margem negativa persistente se encerra, com critério.</p>
-        <p class="dir"><b>Direção:</b> árvore real, três ramos, hairlines finas. Cada folha nomeia a ação, não o sentimento. É o slide de maior valor de salvamento da peça.</p>
-      </div>
-    </div>
-    <div class="slide">
-      <span class="n">07</span>
-      <div>
-        <p class="role">Limite</p>
-        <p class="copy">Margem por cliente sem rateio de custo indireto é indicativa, não contábil. Serve para priorizar. Não serve para demonstrar resultado.</p>
-        <p class="dir"><b>Direção:</b> campo mais silencioso da peça, texto pequeno, muito respiro. O limite ganha um slide inteiro porque é ele que sustenta a autoridade do resto.</p>
-      </div>
-    </div>
-    <div class="slide cta">
-      <span class="n">08</span>
-      <div>
-        <p class="role">Fechamento · CTA único</p>
-        <p class="copy">Rode em cinco clientes. <em>Cinco bastam para descobrir se o problema é o preço ou o escopo.</em></p>
-        <p class="dir"><b>Direção:</b> cinco linhas de registro em branco, numeradas. Convite físico ao preenchimento. Logo pequeno, sem contato comercial.</p>
-      </div>
-    </div>
+    <div class="slide"><span class="n">01</span><div>
+      <p class="role">Capa · abertura</p>
+      <p class="copy">Antes de reajustar um cliente antigo, calcule uma coisa: <em>quanto ele custa para atender</em>.</p>
+      <p class="dir"><b>Direção:</b> contrato antigo fotografado de topo, data visível e desfocada o bastante para não identificar ninguém. A idade do documento é o argumento.</p>
+    </div></div>
+    <div class="slide"><span class="n">02</span><div>
+      <p class="role">Diagnóstico · a cena</p>
+      <p class="copy">Cliente de oito anos. Honorário de oito anos atrás. Volume de hoje.</p>
+      <p class="dir"><b>Direção:</b> três linhas em mono, uma por vez, escala crescente na terceira. Sem imagem.</p>
+    </div></div>
+    <div class="slide"><span class="n">03</span><div>
+      <p class="role">Mecanismo</p>
+      <p class="copy">Honorário é preço. Margem é preço menos hora consumida. Sem hora por cliente, reajuste é chute e desligamento é emoção.</p>
+      <p class="dir"><b>Direção:</b> equação tipográfica em três termos, com o termo ausente marcado em laranja. O que falta é o conteúdo.</p>
+    </div></div>
+    <div class="slide"><span class="n">04</span><div>
+      <p class="role">Critério · sem sistema novo</p>
+      <p class="copy">Três fontes que já existem: horas estimadas por rotina, exceções do mês, tempo gasto em comunicação.</p>
+      <p class="dir"><b>Direção:</b> três blocos indicando onde o dado já está hoje: planilha de controle, registro de exceção, caixa de entrada. Nada aqui pede implantação.</p>
+    </div></div>
+    <div class="slide"><span class="n">05</span><div>
+      <p class="role">Virada</p>
+      <p class="copy">A conversa que você está adiando <em>não é sobre preço</em>. É sobre escopo.</p>
+      <p class="dir"><b>Direção:</b> ruptura em grafite. Terceira e última aparição desta gramática. De C7 em diante a série precisa de outro mecanismo, ou vira template.</p>
+    </div></div>
+    <div class="slide"><span class="n">06</span><div>
+      <p class="role">Árvore de decisão</p>
+      <p class="copy">Margem baixa com causa no escritório se corrige. Margem baixa com causa no cliente se renegocia. Margem negativa persistente se encerra, com critério.</p>
+      <p class="dir"><b>Direção:</b> árvore real, três ramos, hairlines finas. Cada folha nomeia a ação, não o sentimento.</p>
+    </div></div>
+    <div class="slide"><span class="n">07</span><div>
+      <p class="role">Limite</p>
+      <p class="copy">Margem por cliente sem rateio de custo indireto é indicativa, não contábil. Serve para priorizar. Não serve para demonstrar resultado.</p>
+      <p class="dir"><b>Direção:</b> campo mais silencioso da peça, texto pequeno, muito respiro. O limite ganha um slide inteiro porque sustenta a autoridade do resto.</p>
+    </div></div>
+    <div class="slide cta"><span class="n">08</span><div>
+      <p class="role">Fechamento · CTA único</p>
+      <p class="copy">Rode em cinco clientes. <em>Cinco bastam para descobrir se o problema é o preço ou o escopo.</em></p>
+      <p class="dir"><b>Direção:</b> cinco linhas de registro em branco, numeradas. Convite físico ao preenchimento.</p>
+    </div></div>
   </div>
 </section>
 
-<!-- ============ 08 ============ -->
+<!-- ============ 13 VISUAL ============ -->
 <section id="visual">
-  <div class="sechead"><span class="secnum">08</span><h2>Visual Bible e verificação anti-template</h2></div>
+  <div class="sechead"><span class="secnum">13</span><h2>Visual Bible e anti-template</h2></div>
   <p>
     O <span class="src">[18 §3]</span> é explícito: grafite, luz tonal e o laranja pertencem ao vocabulário da marca e
     <b>não obrigam fundo escuro em toda peça</b>. Fundos claros e fotografia editorial são válidos quando o assunto pede.
-    Este assunto pede.
   </p>
-
-  <h3>Direção: papel de trabalho</h3>
-  <p>
-    O mundo visual da campanha é o instrumento do próprio público: a folha de trabalho contábil. Régua fina, coluna,
-    número tabular, anotação de margem, marca de revisão. O laranja da marca entra como <b>marca de conferência</b>,
-    o traço que alguém faz ao verificar uma linha, e não como acento decorativo.
-  </p>
-
   <div class="swatches">
     <div class="sw"><div class="chip" style="background:#F5F6F7;border-bottom:1px solid var(--rule)"></div><div class="lab"><b>#F5F6F7</b>Papel, campo base</div></div>
     <div class="sw"><div class="chip" style="background:#D8DCE1"></div><div class="lab"><b>#D8DCE1</b>Régua, hairline</div></div>
-    <div class="sw"><div class="chip" style="background:#5A6270"></div><div class="lab"><b>#5A6270</b>Anotação, secundário</div></div>
+    <div class="sw"><div class="chip" style="background:#5A6270"></div><div class="lab"><b>#5A6270</b>Anotação</div></div>
     <div class="sw"><div class="chip" style="background:#14171B"></div><div class="lab"><b>#14171B</b>Grafite DS, virada</div></div>
     <div class="sw"><div class="chip" style="background:#F54502"></div><div class="lab"><b>#F54502</b>Marca de conferência</div></div>
   </div>
   <p style="font-size:13.5px;color:var(--ink-2)">
-    Grafites vindos da rampa declarada no <span class="src">[07 §Direção tonal]</span>. O laranja é o token confirmado
-    <code>--orange-500</code>. Nenhum token novo foi inventado.
+    Grafites da rampa declarada em <span class="src">[07]</span>. Laranja é o token confirmado <code>--orange-500</code>.
+    Nenhum token novo foi inventado. Poppins display, Archivo corpo, JetBrains Mono para todo dado.
   </p>
 
-  <h4>Tipografia, conforme o manifesto do Design System</h4>
+  <h4>Regras de composição desta campanha</h4>
   <ul>
-    <li><b>Poppins 700</b> para display, usado só em capa e virada. Tracking fechado, no máximo duas linhas.</li>
-    <li><b>Archivo</b> para corpo e legenda de slide.</li>
-    <li><b>JetBrains Mono</b> para tudo que é dado: número, denominador, data, rótulo de causa, numeração de slide. É a fonte que carrega o caráter da campanha.</li>
+    <li><b>O denominador tem o mesmo peso visual do número.</b> Assinatura da série e materialização do gate de evidência.</li>
+    <li><b>Um slide escuro por peça</b>, só na virada. Ruptura de campo marca ruptura de raciocínio.</li>
+    <li><b>Pessoas em mãos e mesa</b>, não em rosto e sorriso. Pessoa decorativa reprova <span class="src">[18 §3]</span>.</li>
+    <li><b>Limite de motivo:</b> a virada em grafite aparece em C1, C4 e C5, e para aí.</li>
   </ul>
 
-  <h4>Regra de composição própria desta campanha</h4>
-  <ul>
-    <li><b>O denominador tem o mesmo peso visual do número.</b> Sempre. É a assinatura da série e a materialização do gate de evidência.</li>
-    <li><b>Um slide escuro por peça</b>, e só no slide de virada. Ruptura de campo marca ruptura de raciocínio.</li>
-    <li><b>Pessoas em mãos e mesa</b>, não em rosto e sorriso. O papel profissional é o assunto, não o indivíduo. Pessoa decorativa reprova <span class="src">[18 §3]</span>.</li>
-    <li><b>Limite de motivo:</b> a gramática de virada em campo grafite aparece em C1, C4 e C5, e para aí. Da C7 em diante a série precisa de outro mecanismo de ruptura, ou ela mesma vira o template que o <span class="src">[18 §7]</span> proíbe.</li>
-  </ul>
-
-  <h3>Verificação contra o histórico recente</h3>
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Eixo</th><th>zx-11, zx-16, zx-17, zx-18</th><th>Esta campanha</th><th class="num">Rompe?</th></tr></thead>
+      <thead><tr><th>Eixo</th><th>zx-11, 16, 17, 18</th><th>Esta campanha</th><th class="num">Rompe?</th></tr></thead>
       <tbody>
-        <tr><td>Público</td><td>Transversal, gestores em geral</td><td>Vertical, V2 contabilidade</td><td class="num" style="color:var(--ok)">sim</td></tr>
-        <tr><td>Tema</td><td>Governança de IA e automação</td><td>Economia de operação e capacidade</td><td class="num" style="color:var(--ok)">sim</td></tr>
-        <tr><td>Campo</td><td>Grafite escuro</td><td>Papel claro, grafite só na virada</td><td class="num" style="color:var(--ok)">sim</td></tr>
-        <tr><td>Motivo</td><td>Rota, nó, fluxo, mapa</td><td>Linha de registro, coluna, calendário</td><td class="num" style="color:var(--ok)">sim</td></tr>
+        <tr><td>Público</td><td>Transversal</td><td>Vertical, V2</td><td class="num" style="color:var(--ok)">sim</td></tr>
+        <tr><td>Tema</td><td>Governança de IA</td><td>Economia de operação</td><td class="num" style="color:var(--ok)">sim</td></tr>
+        <tr><td>Campo</td><td>Grafite escuro</td><td>Papel claro</td><td class="num" style="color:var(--ok)">sim</td></tr>
+        <tr><td>Motivo</td><td>Rota, nó, fluxo</td><td>Linha de registro, coluna, calendário</td><td class="num" style="color:var(--ok)">sim</td></tr>
         <tr><td>Comprimento</td><td>8 slides</td><td>8 slides</td><td class="num" style="color:var(--warn)">não</td></tr>
       </tbody>
     </table>
   </div>
   <p>
-    Oito slides se repete, e isso é aceitável: o <span class="src">[18 §Decisões]</span> diz que o comprimento deriva da narrativa.
-    Estas narrativas têm oito tarefas cognitivas. Mas se as 12 peças saírem todas com oito, o comprimento vira template por inércia.
-    <b>Pelo menos três das 12 devem sair com contagem diferente</b>, por exigência da narrativa e não por cota.
+    Se as 12 saírem todas com oito, o comprimento vira template por inércia.
+    <b>Pelo menos três devem sair com contagem diferente</b>, por exigência da narrativa e não por cota.
   </p>
 
   <div class="note">
     <span class="lbl">Decisão pendente no Design System</span>
     <p>
-      A memória registra uma lacuna aberta: o projeto Claude Design ainda não declarou se <b>dark-first e o laranja como acento
-      único são invariantes de marca ou apenas vocabulário preferencial</b> <span class="src">[07 §Fronteira]</span>.
-      Esta direção clara é legítima pela leitura vigente do <span class="src">[18 §3]</span>, mas se o Design System declarar
-      dark-first como invariante, a Visual Bible inteira precisa ser refeita. <b>Vale resolver isso antes de produzir a primeira arte</b>,
-      não depois.
+      O projeto Claude Design ainda não declarou se <b>dark-first e o laranja como acento único são invariantes de marca
+      ou vocabulário preferencial</b> <span class="src">[07]</span>. Esta direção clara é legítima pela leitura vigente de
+      <span class="src">[18 §3]</span>, mas se o DS declarar dark-first invariante, a Visual Bible inteira é refeita.
+      Resolver antes de produzir a primeira arte.
     </p>
   </div>
 </section>
 
-<!-- ============ 09 ============ -->
-<section id="paga">
-  <div class="sechead"><span class="secnum">09</span><h2>Mídia paga, com trava</h2></div>
-  <p>
-    O <span class="src">[25 §9]</span> exige fundação antes de verba: evento de negócio definido, Pixel e Conversions API,
-    UTMs padronizados, CRM integrado e exclusões criadas. Nada disso está confirmado como existente na memória.
-  </p>
-
-  <div class="note">
-    <span class="lbl">Trava explícita</span>
-    <p>
-      <b>Não subir verba antes de três coisas:</b> a rota de publicação funcionando, o lead asset pronto e entregando,
-      e o evento de conversão definido no CRM. Anúncio para um funil sem instrumentação compra dado que ninguém vai conseguir ler.
-    </p>
-  </div>
-
-  <div class="tablewrap">
-    <table>
-      <thead><tr><th>Camada</th><th>Objetivo</th><th>Criativo</th><th>Critério de leitura</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><b>Prospecção</b></td><td>Lead qualificado, nunca clique</td>
-          <td>C1 e C4 recortados. O criativo pré-qualifica pelo problema: quem não tem carteira recorrente não deve clicar.</td>
-          <td>Custo por oportunidade qualificada, não CTR</td>
-        </tr>
-        <tr>
-          <td><b>Amplificação</b></td><td>Escalar vencedor orgânico</td>
-          <td>Só peça que moveu métrica de negócio, não a que teve mais salvamento</td>
-          <td>Engajamento orgânico não prevê conversão <span class="src">[25 §9]</span></td>
-        </tr>
-        <tr>
-          <td><b>Captura</b></td><td>Entrega da planilha</td>
-          <td>Oferta de baixo risco, sem preço, sem promessa de economia</td>
-          <td>Taxa de qualificação do lead, não volume</td>
-        </tr>
-        <tr>
-          <td><b>Retargeting</b></td><td>Separar por intenção</td>
-          <td>Quem viu, quem visitou, quem iniciou DM, quem baixou. Objeção específica por camada.</td>
-          <td>Frequência controlada, convertidos excluídos</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <h4>Matriz de teste do mês, conforme <span class="src">[25 §9]</span></h4>
-  <p>
-    3 dores por 3 mecanismos por 2 provas, com oferta, objetivo e audiência estáveis enquanto se testa conceito criativo.
-  </p>
-  <div class="tablewrap">
-    <table>
-      <thead><tr><th>Dores</th><th>Mecanismos</th><th>Provas</th></tr></thead>
-      <tbody>
-        <tr><td>Hora invisível não cobrada</td><td>Taxonomia de causa</td><td>Dado setorial com denominador</td></tr>
-        <tr><td>Demanda consultiva sem janela</td><td>Cálculo de capacidade</td><td>Aritmética aberta na tela</td></tr>
-        <tr><td>Cliente antigo com margem desconhecida</td><td>Árvore de decisão</td><td></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p>
-    Uma hipótese e um critério de decisão por teste, registrados antes de subir. Criativo que traz lead barato e desqualificado
-    é perdedor, mesmo com o melhor CTR da conta.
-  </p>
-</section>
-
-<!-- ============ 10 ============ -->
+<!-- ============ 14 MEDIÇÃO ============ -->
 <section id="medicao">
-  <div class="sechead"><span class="secnum">10</span><h2>Medição e os testes que a campanha resolve</h2></div>
-  <p>
-    Painel por estágio conforme <span class="src">[25 §10]</span>. Atribuição de plataforma é evidência, não verdade única.
-  </p>
-
+  <div class="sechead"><span class="secnum">14</span><h2>Medição</h2></div>
   <div class="kpis">
     <div class="kpi"><div class="stage">Atenção</div><ul><li>Alcance de não seguidores</li><li>Retenção por slide</li><li>Frequência</li></ul></div>
     <div class="kpi"><div class="stage">Valor</div><ul><li>Salvamentos sobre alcance</li><li>Compartilhamentos sobre alcance</li><li>Comentários substantivos</li></ul></div>
-    <div class="kpi"><div class="stage">Intenção</div><ul><li>DMs com a palavra CAUSA</li><li>Visitas qualificadas ao perfil</li><li>Downloads da planilha</li></ul></div>
-    <div class="kpi"><div class="stage">Qualidade</div><ul><li>Leads com carteira recorrente</li><li>Motivos de desqualificação</li><li>Conversas reais iniciadas</li></ul></div>
-  </div>
-
-  <p>
-    <b>North star da campanha:</b> número de escritórios que responderam ter medido uma semana. Não seguidores, não alcance.
-    É a única métrica que prova que a peça mudou um comportamento, e ela é coletável na própria DM.
-  </p>
-
-  <h3>Três hipóteses do backlog que estas seis semanas testam</h3>
-  <p>
-    O backlog do <span class="src">[19d §18.3]</span> lista B7, B8 e B6 como prioridade alta. A campanha pode resolver duas delas
-    de graça, se for desenhada para isso desde o começo.
-  </p>
-  <div class="tablewrap">
-    <table>
-      <thead><tr><th>ID</th><th>Hipótese em aberto</th><th>Como esta campanha testa</th><th>Critério de decisão</th></tr></thead>
-      <tbody>
-        <tr>
-          <td class="id">B8</td>
-          <td>"IA para o setor X" atrai audiência mas converte pouco sem fluxo concreto</td>
-          <td>Semana 5: C10 (processo, sem citar IA) contra um Reel pareado que usa "IA para contabilidade" no hook, mesmo dia, mesma verba</td>
-          <td>Comparar DM qualificada por alcance, não curtida por alcance</td>
-        </tr>
-        <tr>
-          <td class="id">B7</td>
-          <td>Formatos preferenciais por persona não são conhecidos</td>
-          <td>Mesma tese em três formatos ao longo das semanas 1 a 4: carrossel diagnóstico, Reel curto, estático com dado</td>
-          <td>Salvamento e DM por formato, com tema controlado</td>
-        </tr>
-        <tr>
-          <td class="id">B11</td>
-          <td>Familiaridade e adoção de IA nas verticais pesquisadas é <span class="tag t-NC">NC</span></td>
-          <td>Enquete em Stories, com pergunta sobre processo e não sobre ferramenta</td>
-          <td>Sinal exploratório apenas. Amostra autoselecionada não vira <span class="tag t-E">E</span> no ledger.</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="kpi"><div class="stage">Intenção</div><ul><li>DMs com a palavra CAUSA</li><li>Visitas qualificadas</li><li>Entregas da planilha</li></ul></div>
+    <div class="kpi"><div class="stage">Qualidade</div><ul><li>Pontuação Urgência, Orçamento, Aderência</li><li>Motivos de desqualificação</li><li>Conversas reais iniciadas</li></ul></div>
   </div>
   <p>
-    Registrar os resultados em <span class="src">[19d]</span> ao fim das seis semanas é o que faz esta campanha valer mais que
-    as peças que ela produziu. Uma hipótese resolvida serve para todas as campanhas seguintes.
+    <b>North star:</b> número de escritórios que responderam ter medido uma semana. Não seguidores, não alcance.
+    É a única métrica que prova que a peça mudou um comportamento, e é coletável na própria DM.
+  </p>
+  <p>
+    A distinção de sinal antecedente e consequente vale aqui: alcance e salvamento se movem em menos de um mês e servem
+    para otimizar. Pipeline e receita se movem em mais de um mês e são a verdade, revisada mensalmente.
+    <b>Se o salvamento subir e a DM qualificada não se mover, o indicador antecedente quebrou.</b> Conserte o indicador, não a peça.
   </p>
 </section>
 
-<!-- ============ 11 ============ -->
+<!-- ============ 15 GATES ============ -->
 <section id="gates">
-  <div class="sechead"><span class="secnum">11</span><h2>Gates de aprovação por peça</h2></div>
-  <p>
-    Nenhuma peça publica sem passar nos seis. Reprodução direta do <span class="src">[19c §21]</span>,
-    já aplicada ao contexto desta campanha.
-  </p>
-
+  <div class="sechead"><span class="secnum">15</span><h2>Gates de aprovação por peça</h2></div>
   <div class="gates">
-    <div class="gate">
-      <h4>Gate de público</h4>
-      <ul>
-        <li>Bloco §14 completo, com um único público primário</li>
-        <li>Problema específico de V2, não dor genérica de gestão</li>
-        <li>Linguagem de C1: carteira, obrigação, fechamento, honorário, retrabalho</li>
-        <li>Nada de funil, lead, stack ou jargão de performance</li>
-      </ul>
-    </div>
-    <div class="gate">
-      <h4>Gate de evidência</h4>
-      <ul>
-        <li>Todo <span class="tag t-E">E</span> com fonte, ano e recorte visíveis</li>
-        <li>Denominador com o mesmo peso visual do número</li>
-        <li>Ressalva de sondagem de fornecedor na peça, não só na legenda</li>
-        <li>Nenhum percentual criado, somado ou extrapolado</li>
-      </ul>
-    </div>
-    <div class="gate">
-      <h4>Gate anti-genérico</h4>
-      <ul>
-        <li>Passa em "isso eu não tinha pensado" ou "isso eu vou usar"</li>
-        <li>Sobrevive à remoção da marca e do produto</li>
-        <li>Nenhuma das 10 categorias proibidas do §3</li>
-        <li>Nenhuma frase que continue verdadeira depois de trocar o logo</li>
-      </ul>
-    </div>
-    <div class="gate">
-      <h4>Gate ético</h4>
-      <ul>
-        <li>Zero medo: sem multa, sanção, prazo fatal ou concorrente na frente</li>
-        <li>Zero promessa de resultado ou economia</li>
-        <li>Norma com fonte oficial e ressalva de não substituir análise profissional</li>
-        <li>Nenhum cliente identificável sem autorização</li>
-      </ul>
-    </div>
-    <div class="gate">
-      <h4>Gate de repertório</h4>
-      <ul>
-        <li>Citação literal entre aspas com autor, obra e ano</li>
-        <li>Tradução marcada como editorial</li>
-        <li>Paráfrase sem aspas, introduzida como ideia</li>
-        <li>Máximo de uma ideia-fonte por slide</li>
-      </ul>
-    </div>
-    <div class="gate">
-      <h4>Gate de CTA</h4>
-      <ul>
-        <li>Uma ação única, executável com o que o leitor tem em mãos</li>
-        <li>Coerente com a categoria: aplicar, salvar, medir, revisar</li>
-        <li>Não contradiz a lição principal</li>
-        <li>"Fale com a Zionaxs" não aparece em peça de audiência</li>
-      </ul>
-    </div>
+    <div class="gate"><h4>Público</h4><ul>
+      <li>Bloco §14 completo, um único público primário</li>
+      <li>Problema específico de V2, não dor genérica</li>
+      <li>Linguagem de C1: carteira, obrigação, fechamento, honorário, retrabalho</li>
+      <li>Sem funil, lead, stack ou jargão de performance</li>
+    </ul></div>
+    <div class="gate"><h4>Evidência</h4><ul>
+      <li>Todo <span class="tag t-E">E</span> com fonte, ano e recorte visíveis</li>
+      <li>Denominador com o mesmo peso visual do número</li>
+      <li>Ressalva de sondagem de fornecedor na peça, não só na legenda</li>
+      <li>Nenhum percentual criado, somado ou extrapolado</li>
+    </ul></div>
+    <div class="gate"><h4>Anti-genérico</h4><ul>
+      <li>Passa em "isso eu não tinha pensado" ou "isso eu vou usar"</li>
+      <li>Sobrevive à remoção da marca e do produto</li>
+      <li>Nenhuma das 10 categorias proibidas do §3</li>
+      <li>Nenhuma frase que continue verdadeira trocando o logo</li>
+    </ul></div>
+    <div class="gate"><h4>Ético</h4><ul>
+      <li>Zero medo: sem multa, sanção, prazo fatal ou concorrente na frente</li>
+      <li>Zero promessa de resultado ou economia</li>
+      <li>Norma com fonte oficial e ressalva profissional</li>
+      <li>Nenhum cliente identificável sem autorização</li>
+    </ul></div>
+    <div class="gate"><h4>Repertório</h4><ul>
+      <li>Citação literal entre aspas com autor, obra e ano</li>
+      <li>Tradução marcada como editorial</li>
+      <li>Paráfrase sem aspas, introduzida como ideia</li>
+      <li>Máximo de uma ideia-fonte por slide</li>
+    </ul></div>
+    <div class="gate"><h4>CTA</h4><ul>
+      <li>Uma ação única, executável com o que o leitor tem em mãos</li>
+      <li>Coerente com a categoria: aplicar, salvar, medir, revisar</li>
+      <li>Não contradiz a lição principal</li>
+      <li>"Fale com a Zionaxs" não aparece em peça de audiência</li>
+    </ul></div>
   </div>
 </section>
 
-<!-- ============ 12 ============ -->
+<!-- ============ 16 PENDÊNCIAS ============ -->
 <section id="pendencias">
-  <div class="sechead"><span class="secnum">12</span><h2>O que depende de você antes da primeira peça</h2></div>
-  <p>
-    Cinco decisões que eu não posso tomar a partir da memória, em ordem de dependência.
-  </p>
-
+  <div class="sechead"><span class="secnum">16</span><h2>O que depende de você</h2></div>
   <div class="tablewrap">
     <table>
-      <thead><tr><th class="num">#</th><th>Decisão</th><th>Trava o quê</th><th>Custo de não decidir</th></tr></thead>
+      <thead><tr><th class="num">#</th><th>Decisão</th><th>Trava</th><th>Custo de não decidir</th></tr></thead>
       <tbody>
-        <tr>
-          <td class="num">1</td>
-          <td><b>Rota autenticada de publicação para <code>zionaxs_</code></b></td>
-          <td>Tudo</td>
-          <td>A campanha produz e não publica. Foi exatamente o que aconteceu em 20/08.</td>
-        </tr>
-        <tr>
-          <td class="num">2</td>
-          <td><b>Dark-first é invariante de marca ou vocabulário?</b></td>
-          <td>Visual Bible inteira</td>
-          <td>Refazer a arte das 12 peças depois de produzidas.</td>
-        </tr>
-        <tr>
-          <td class="num">3</td>
-          <td><b>Escopo, prazo e preço do diagnóstico</b></td>
-          <td>Fases 3 e 4, e toda a mídia paga</td>
-          <td>Campanha entrega audiência e para na porta, sem para onde mandar.</td>
-        </tr>
-        <tr>
-          <td class="num">4</td>
-          <td><b>Brasil editorial e Porto comercial: converge ou não?</b></td>
-          <td>O sentido econômico da campanha</td>
-          <td>Seis semanas de conteúdo excelente para um público que o comercial não atende.</td>
-        </tr>
-        <tr>
-          <td class="num">5</td>
-          <td><b>Aprovar M21, M22 e M23 na matriz</b></td>
-          <td>C7, C8 e C11</td>
-          <td>Três peças sem linha de matriz, reprovadas no gate de público.</td>
-        </tr>
+        <tr><td class="num">1</td><td><b>Rota autenticada de publicação para <code>zionaxs_</code></b></td><td>Tudo</td><td>A campanha produz e não publica. Foi o que aconteceu em 20/08.</td></tr>
+        <tr><td class="num">2</td><td><b>Preço do Diagnóstico de Retrabalho</b></td><td>Revenue, mídia paga, CPL alvo</td><td>A oferta existe no papel e não pode ser vendida. A tabela da seção 08 dá a regra.</td></tr>
+        <tr><td class="num">3</td><td><b>Dark-first é invariante ou vocabulário?</b></td><td>Visual Bible inteira</td><td>Refazer a arte das 12 peças depois de produzidas.</td></tr>
+        <tr><td class="num">4</td><td><b>Brasil editorial e Porto comercial: converge?</b></td><td>O sentido econômico da campanha</td><td>Seis semanas de conteúdo para um público que o comercial não atende. Conselho na seção 10.</td></tr>
+        <tr><td class="num">5</td><td><b>Aprovar M21, M22 e M23 na matriz</b></td><td>C7, C8 e C11</td><td>Três peças sem linha de matriz, reprovadas no gate de público.</td></tr>
       </tbody>
     </table>
   </div>
 
   <div class="note">
-    <span class="lbl">Minha recomendação sobre a número 4</span>
+    <span class="lbl">O que a revisão não resolveu</span>
     <p>
-      Se o objetivo dos próximos 90 dias é <b>pipeline</b>, esta campanha é a escolha errada e o esforço deveria ir para o
-      experimento do Porto, que tem ICP, cadência e território definidos, ainda que sem pesquisa de audiência.
+      Nenhuma skill resolve os bloqueios 1, 3 e 4, porque são decisões suas e de infraestrutura, não de método.
+      O bloqueio 2 saiu de "não existe oferta" para "falta um número", que é progresso real.
     </p>
     <p>
-      Se o objetivo é <b>construir o ativo editorial</b> que a memória claramente foi desenhada para sustentar, esta campanha é a
-      escolha certa e o retorno aparece como autoridade, backlog de pesquisa resolvido e material reaproveitável, não como
-      reunião marcada em outubro. As duas leituras são defensáveis. O que não se sustenta é esperar as duas coisas da mesma campanha.
+      E uma honestidade sobre o teste da seção 09: a conta de amostra diz que seis semanas não produzem evidência estatística
+      nessa conta. Isso não é falha do plano. É a diferença entre um plano que promete o que não pode entregar e um que
+      declara o limite antes de começar, que é a régua que a própria base da Zionaxs aplica em tudo.
     </p>
   </div>
 </section>
 
 <footer style="margin-top:72px;padding-top:22px;border-top:2px solid var(--ink);font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--ink-2);line-height:1.7">
   <p style="max-width:none;margin:0">
-    Campanha derivada de <b>zionaxs-memory</b> em 25/08/2026, commit <code>4931651</code>.
-    Fontes conforme ledger <span class="src">19a §22</span>. Nenhum dado foi criado, somado ou extrapolado.
-    Afirmações marcadas <span class="tag t-H">H</span> e <span class="tag t-NC">NC</span> não são publicáveis como fato.
+    v2, 25/08/2026. Derivada de <b>zionaxs-memory</b> commit <code>4931651</code>, revisada com as skills de
+    <b>marketingskills</b> commit <code>becd60e</code>: offers, lead-magnets, ab-testing, ad-creative, ads, marketing-plan, marketing-council.
+    Fontes conforme ledger <span class="src">19a §22</span>. Nenhum dado criado, somado ou extrapolado.
+    Afirmações <span class="tag t-H">H</span> e <span class="tag t-NC">NC</span> não são publicáveis como fato.
+    Onde skill e memória conflitaram, a memória venceu.
   </p>
 </footer>
 
