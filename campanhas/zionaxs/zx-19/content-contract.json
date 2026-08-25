@@ -1,0 +1,257 @@
+{
+  "carousel_id": "zx-19-hora-que-sai-de-graca",
+  "marca": "Zionaxs",
+  "campanha": "Capacidade antes de oferta",
+  "peca": "C1 · semana 1 · terça",
+  "matriz": "M08",
+  "research_brief": {
+    "publico": "V2 escritórios contábeis (BR) / persona C1, sócio-operador contábil generalista. Secundário: C2.",
+    "decisao": "Se muda ou não o contrato de um cliente que gera retrabalho, e com base em quê.",
+    "tensao": "O retrabalho não cobrado é lido como problema de precificação. O mecanismo é anterior: sem causa registrada, a correção não tem nome dentro do escritório, e o que não tem nome não entra em contrato nem em preço.",
+    "evidencia": [
+      "33% dos escritórios declararam não cobrar por retrabalho. Sescon-SP / Vox Populi, 2024, 255 associados, margem de erro 5,9%. [S21]"
+    ],
+    "classificacao": {
+      "E": [
+        "o percentual de 33% e seu recorte"
+      ],
+      "I": [
+        "o mecanismo da não cobrança",
+        "a taxonomia de quatro causas como forma de decisão"
+      ],
+      "H": [
+        "as objeções previsíveis do público",
+        "a eficácia da regra de contagem no momento da correção"
+      ],
+      "NC": [
+        "adoção real de instrumentação de causa em escritórios brasileiros"
+      ]
+    },
+    "limites": [
+      "Amostra estadual e associativa. Não descreve o Brasil.",
+      "Uma semana de medição não estabelece padrão anual.",
+      "Pico fiscal distorce a leitura."
+    ],
+    "consequencia": "O leitor consegue registrar causa por uma semana e chegar à conversa de contrato com um dado próprio."
+  },
+  "tese": "Retrabalho não cobrado não é falha de contrato, é falha de contagem.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JF4",
+    "JO5"
+  ],
+  "repertorio": {
+    "id": "R9",
+    "autor": "W. E. Deming",
+    "modo": "paráfrase",
+    "fonte": "[S38]"
+  },
+  "cta": "Medir uma semana antes de mudar qualquer contrato.",
+  "comprimento_justificado": "8 unidades porque a narrativa tem 8 tarefas cognitivas distintas: reconhecer a inversão, aceitar o dado, reconhecer-se na cena, entender a causalidade, reformular a pergunta, aplicar a taxonomia, restringir o método, decidir uma ação. Nenhuma unidade existe para preencher contagem. Limite de 10 itens da API de publicação respeitado.",
+  "internal_metadata_NAO_RENDERIZAVEL": [
+    "C1",
+    "M08",
+    "zx-19",
+    "capa",
+    "diagnóstico",
+    "mecanismo",
+    "virada",
+    "critério",
+    "limite",
+    "fechamento",
+    "evidência",
+    "respiro",
+    "E",
+    "I",
+    "H",
+    "NC",
+    "[S21]",
+    "[S38]",
+    "JF4",
+    "JO5",
+    "R9",
+    "acquisition"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "approved_visible_copy": [
+        "Retrabalho",
+        "01/08",
+        "O retrabalho não é falha de contrato. É falha de contagem.",
+        "Escritórios contábeis, 2026.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 1 de 8. O retrabalho não é falha de contrato. É falha de contagem. Tipografia sobre papel pautado claro, a última frase em laranja. A capa inverte a leitura habitual do problema, que costuma ser tratada como questão de preço."
+    },
+    {
+      "n": 2,
+      "papel_interno": "evidência",
+      "approved_visible_copy": [
+        "Sescon-SP 2024",
+        "02/08",
+        "33%",
+        "dos escritórios declararam não cobrar por retrabalho.",
+        "Sescon-SP e Vox Populi, 2024. 255 associados no estado de São Paulo. Margem de erro de 5,9%.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 2 de 8. 33% dos escritórios declararam não cobrar por retrabalho. O número aparece em grande, e logo abaixo, no mesmo bloco de leitura, o recorte da amostra: 255 associados do estado de São Paulo, 2024, margem de erro de 5,9%. O denominador tem peso visual equivalente ao do número porque o recorte faz parte da afirmação."
+    },
+    {
+      "n": 3,
+      "papel_interno": "diagnóstico",
+      "approved_visible_copy": [
+        "Segunda-feira",
+        "03/08",
+        "O documento chega errado.",
+        "Alguém corrige.",
+        "Ninguém anota de quem foi a causa.",
+        "No mês seguinte, a mesma hora sai de novo.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 3 de 8. O documento chega errado. Alguém corrige. Ninguém anota de quem foi a causa. No mês seguinte, a mesma hora sai de novo. Quatro frases curtas em escala decrescente, sem imagem. A cena mostra que o custo se repete porque a causa nunca é registrada."
+    },
+    {
+      "n": 4,
+      "papel_interno": "mecanismo",
+      "approved_visible_copy": [
+        "A classificação",
+        "04/08",
+        "Correção sem causa vira “atendimento”.",
+        "Documento devolvido",
+        "Lançamento corrigido",
+        "Dúvida respondida",
+        "Atendimento",
+        "E atendimento é o que o escritório dá de graça.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 4 de 8. Correção sem causa registrada vira atendimento. Um diagrama liga três eventos distintos, documento devolvido, lançamento corrigido e dúvida respondida, a uma única caixa de saída chamada atendimento, destacada em laranja. E atendimento é o que o escritório dá de graça. O diagrama mostra que causas diferentes colapsam numa classificação só, e é essa perda de informação que impede a cobrança."
+    },
+    {
+      "n": 5,
+      "papel_interno": "virada",
+      "approved_visible_copy": [
+        "A pergunta",
+        "05/08",
+        "A pergunta não é quanto cobrar.",
+        "É de quem é a causa.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 5 de 8. A pergunta não é quanto cobrar. É de quem é a causa. Único slide de fundo grafite escuro da sequência, com a segunda frase em laranja. A ruptura de campo marca a mudança do problema de precificação para o problema de atribuição."
+    },
+    {
+      "n": 6,
+      "papel_interno": "critério",
+      "approved_visible_copy": [
+        "As quatro causas",
+        "06/08",
+        "Quatro causas. Quatro donos diferentes.",
+        "Cliente",
+        "renegociar escopo",
+        "Escritório",
+        "corrigir processo",
+        "Sistema",
+        "revisar integração",
+        "Regra",
+        "atualizar procedimento",
+        "Zionaxs"
+      ],
+      "alt": "Slide 6 de 8. Quatro causas, quatro donos diferentes. Uma tabela de quatro linhas liga cada causa à sua ação: cliente, renegociar escopo; escritório, corrigir processo; sistema, revisar integração; regra, atualizar procedimento. Cada causa tem uma ação distinta, e é isso que impede a conversa de virar cobrança pessoal."
+    },
+    {
+      "n": 7,
+      "papel_interno": "limite",
+      "approved_visible_copy": [
+        "Quando medir",
+        "07/08",
+        "Registre a causa na hora da correção.",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "meça aqui",
+        "fechamento",
+        "Fechamento não descreve o mês.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 7 de 8. Registre a causa na hora da correção. Um mês dividido em cinco semanas: as três primeiras marcadas em laranja como janela de medição, as duas últimas hachuradas como período de fechamento e excluídas. Fechamento não descreve o mês. A exclusão do pico é a condição de validade da medição."
+    },
+    {
+      "n": 8,
+      "papel_interno": "fechamento",
+      "approved_visible_copy": [
+        "Sua semana",
+        "08/08",
+        "Uma semana de registro custa menos que um reajuste errado.",
+        "Meça antes de mexer no contrato.",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "Zionaxs"
+      ],
+      "alt": "Slide 8 de 8. Uma semana de registro custa menos que um reajuste errado. Meça antes de mexer no contrato. Cinco linhas de registro numeradas e em branco, prontas para preenchimento, retomando o motivo da capa. O fechamento resolve a promessa de abertura e pede uma única ação."
+    }
+  ],
+  "fontes_visiveis": [
+    "Sescon-SP e Vox Populi, Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, 2024. 255 associados. Margem de erro 5,9%. [S21]"
+  ],
+  "fontes_legenda": [
+    "[S21] Sescon-SP / Vox Populi, 2024",
+    "[S38] The Deming Institute, System of Profound Knowledge (paráfrase, sem aspas)"
+  ],
+  "allowlist_editorial": [
+    {
+      "termo": "fechamento",
+      "slide": 7,
+      "justificativa": "Termo estruturalmente ambiguo. Aqui NAO e o rotulo narrativo de unidade, e o periodo contabil de fechamento mensal, vocabulario proprio de C1 registrado em [19b 7.7]. Renderizacao autorizada nesta acepcao."
+    }
+  ],
+  "nbsp_aplicado": [
+    "por retrabalho (s2)",
+    "de graça (s4)"
+  ],
+  "correcoes_qa": [
+    {
+      "gate": "runt",
+      "slide": 7,
+      "expected": "nenhuma ultima linha com fragmento curto isolado",
+      "actual": "'o mes.' sozinho em 16% da largura",
+      "correction": "encurtar a copy para 'Fechamento nao descreve o mes.' (passo 1 da ordem de correcao do metodo, antes de nbsp ou quebra manual)"
+    },
+    {
+      "gate": "quebra nao autoral",
+      "slides": [
+        1,
+        4,
+        7,
+        8
+      ],
+      "expected": "linhas renderizadas = quebras autorais",
+      "actual": "display quebrava 5x onde 3 foram escritas; orfao 'cobrado' na linha 2 da capa",
+      "correction": "reescrita da copy de display para caber na medida, d1 de 88 para 80px. Nao reduzir corpo nem apertar tracking (proibido pelo metodo)."
+    },
+    {
+      "gate": "direcao de arte",
+      "slides": "todos",
+      "expected": "detalhe visual sustenta a ideia",
+      "actual": "pautado de fundo global era decorativo e nao alinhava com a baseline",
+      "correction": "removido. Pauta permanece apenas onde carrega significado: linhas de registro (s8), tabela de causas (s6), calendario (s7)."
+    },
+    {
+      "gate": "revisao visual dos pixels",
+      "slides": [
+        4,
+        7,
+        8
+      ],
+      "expected": "distribuicao vertical sem vazio morto e respiro entre blocos concorrentes",
+      "actual": "conteudo alinhado ao topo deixava ~330px mortos no rodape; titulo colado ao diagrama; 'de graca' sozinho na segunda linha",
+      "correction": "centro optico nas unidades densas, respiro de 52px antes do diagrama, quebra autoral equilibrada no fecho do slide 4"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+/* ===========================================================
+   RENDER CONTRACT — zx-19-hora-que-sai-de-graca
+   canvas 1080x1350 (4:5) · safe area 80px lateral / 88px vertical
+   grid: coluna unica 920px · baseline 8px
+   familias: Poppins 700 (display) / Archivo 400-600 (corpo) / JetBrains Mono 500-700 (dado)
+   escala: display 88 · titulo 64 · corpo 46 · secundario 34 · nota 26
+   =========================================================== */
+:root{
+  --paper:#F5F6F7;
+  --ink:#14171B;
+  --muted:#5A6270;
+  --rule:#D8DCE1;
+  --rule2:#B9C0C8;
+  --accent:#F54502;      /* >=3:1 sobre papel — SOMENTE texto grande */
+  --accent-ink:#B23100;  /* >=4.5:1 sobre papel — texto normal */
+  --W:1080px; --H:1350px;
+  --mx:80px; --my:88px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#3a3d42}
+body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kerning:normal}
+
+.slide{
+  position:relative;width:var(--W);height:var(--H);
+  background:var(--paper);color:var(--ink);
+  overflow:hidden;
+  display:flex;flex-direction:column;
+  padding:var(--my) var(--mx);
+  margin:0 auto 40px;
+}
+.slide.dark{background:var(--ink);color:#FFFFFF}
+
+
+/* cabecalho e rodape determinísticos */
+.hd{position:relative;display:flex;justify-content:space-between;align-items:baseline;
+  padding-bottom:22px;border-bottom:2px solid var(--ink);flex:none}
+.slide.dark .hd{border-bottom-color:#4A525C}
+.hd .kick{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:26px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink)}
+.slide.dark .hd .kick{color:var(--accent)}
+.hd .pg{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:26px;
+  letter-spacing:.06em;color:var(--muted);font-variant-numeric:tabular-nums}
+.slide.dark .hd .pg{color:#98A1AD}
+
+.body{position:relative;flex:1;display:flex;flex-direction:column;justify-content:center;
+  padding:56px 0}
+.body.top{justify-content:center}
+
+.ft{position:relative;display:flex;justify-content:space-between;align-items:center;
+  padding-top:22px;border-top:1px solid var(--rule);flex:none}
+.slide.dark .ft{border-top-color:#39404A}
+.ft .wm{font-family:Poppins,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em}
+.ft .nav{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:26px;color:var(--muted)}
+.slide.dark .ft .nav{color:#98A1AD}
+
+/* niveis tipograficos — maximo 3 por unidade */
+.d1{font-family:Poppins,sans-serif;font-weight:700;font-size:80px;line-height:1.08;
+  letter-spacing:-.028em}
+.d2{font-family:Poppins,sans-serif;font-weight:700;font-size:64px;line-height:1.12;
+  letter-spacing:-.022em}
+.p{font-size:46px;line-height:1.42;font-weight:400}
+.p.med{font-weight:500}
+.sec{font-size:34px;line-height:1.45;color:var(--muted)}
+.note{font-family:"JetBrains Mono",monospace;font-size:26px;line-height:1.5;color:var(--muted)}
+.acc{color:var(--accent)}          /* so em .d1/.d2 */
+.acc-i{color:var(--accent-ink)}    /* em corpo */
+
+.stack>*+*{margin-top:34px}
+.stack-s>*+*{margin-top:20px}
+
+/* slide 2 — numero e denominador */
+.figure{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:232px;
+  line-height:.92;letter-spacing:-.04em;color:var(--accent)}
+.denom{font-size:46px;line-height:1.4;font-weight:500;color:var(--ink);max-width:880px}
+
+/* slide 4 — diagrama */
+.diag{display:grid;grid-template-columns:1fr 96px 1fr;align-items:center;gap:0 0;margin-top:52px}
+.diag .col{display:flex;flex-direction:column;gap:18px}
+.cell{background:#FFFFFF;border:2px solid var(--rule2);border-radius:6px;
+  padding:22px 26px;font-size:34px;line-height:1.3;font-weight:500}
+.cell.out{border-color:var(--accent);background:#FFF;color:var(--accent-ink);font-weight:600}
+.arrows{position:relative;height:100%;min-height:230px}
+.arrows svg{position:absolute;inset:0;width:100%;height:100%}
+
+/* slide 6 — as quatro causas */
+.rows{display:flex;flex-direction:column;border-top:2px solid var(--ink)}
+.row{display:grid;grid-template-columns:300px 1fr;align-items:center;gap:0 28px;
+  padding:30px 0;border-bottom:1px solid var(--rule)}
+.row .k{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:38px;
+  letter-spacing:.02em;color:var(--accent-ink)}
+.row .v{font-size:38px;line-height:1.3;font-weight:500}
+
+/* slide 7 — calendario */
+.cal{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:24px}
+.wk{border:2px solid var(--rule2);border-radius:6px;background:#FFF;
+  padding:24px 12px;text-align:center;font-family:"JetBrains Mono",monospace;
+  font-size:30px;font-weight:700;color:var(--muted)}
+.wk.on{border-color:var(--accent);color:var(--accent-ink);background:#FFF}
+.wk.off{background:repeating-linear-gradient(45deg,#E7E9EC 0 8px,#F5F6F7 8px 16px);
+  border-color:var(--rule2);color:var(--muted)}
+.callab{font-family:"JetBrains Mono",monospace;font-size:26px;color:var(--muted);
+  margin-top:16px;display:flex;gap:38px}
+.callab i{font-style:normal;display:flex;align-items:center;gap:10px}
+.dot{width:18px;height:18px;border-radius:4px;display:inline-block;border:2px solid var(--accent)}
+.dot.x{border-color:var(--rule2);background:repeating-linear-gradient(45deg,#E7E9EC 0 5px,#F5F6F7 5px 10px)}
+
+/* slide 8 — linhas de registro */
+.reg{display:flex;flex-direction:column;gap:0;border-top:2px solid var(--ink);margin-top:20px}
+.reg .l{display:grid;grid-template-columns:64px 1fr;gap:0 22px;align-items:center;
+  padding:26px 0;border-bottom:1px solid var(--rule)}
+.reg .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:32px;color:var(--muted);
+  font-variant-numeric:tabular-nums}
+.reg .b{height:2px;background:var(--rule)}
+</style>
+</head>
+<body>
+
+<!-- ============ 1 / 8 ============ -->
+<section class="slide" id="s1">
+  <div class="hd"><span class="kick">Retrabalho</span><span class="pg">01/08</span></div>
+  <div class="body">
+    <div class="stack">
+      <h1 class="d1">O retrabalho não é<br>falha de contrato.<br><span class="acc">É falha de contagem.</span></h1>
+      <p class="sec">Escritórios contábeis, 2026.</p>
+    </div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 2 / 8 ============ -->
+<section class="slide" id="s2">
+  <div class="hd"><span class="kick">Sescon-SP 2024</span><span class="pg">02/08</span></div>
+  <div class="body">
+    <div class="stack">
+      <div class="figure">33%</div>
+      <p class="denom">dos escritórios declararam <strong>não cobrar por retrabalho</strong>.</p>
+      <p class="note">Sescon-SP e Vox Populi, 2024.<br>255 associados no estado de São Paulo.<br>Margem de erro de 5,9%.</p>
+    </div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 3 / 8 ============ -->
+<section class="slide" id="s3">
+  <div class="hd"><span class="kick">Segunda-feira</span><span class="pg">03/08</span></div>
+  <div class="body">
+    <div class="stack-s">
+      <p class="d2">O documento chega errado.</p>
+      <p class="d2">Alguém corrige.</p>
+      <p class="d2">Ninguém anota de quem<br>foi a causa.</p>
+      <p class="p med" style="margin-top:40px">No mês seguinte, a mesma hora sai de novo.</p>
+    </div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 4 / 8 ============ -->
+<section class="slide" id="s4">
+  <div class="hd"><span class="kick">A classificação</span><span class="pg">04/08</span></div>
+  <div class="body top">
+    <p class="d2">Correção sem causa<br>vira “atendimento”.</p>
+    <div class="diag">
+      <div class="col">
+        <div class="cell">Documento devolvido</div>
+        <div class="cell">Lançamento corrigido</div>
+        <div class="cell">Dúvida respondida</div>
+      </div>
+      <div class="arrows">
+        <svg viewBox="0 0 96 260" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M2 42 C 52 42, 52 130, 92 130" fill="none" stroke="#B9C0C8" stroke-width="3"/>
+          <path d="M2 130 L 92 130" fill="none" stroke="#B9C0C8" stroke-width="3"/>
+          <path d="M2 218 C 52 218, 52 130, 92 130" fill="none" stroke="#B9C0C8" stroke-width="3"/>
+          <path d="M84 123 L 94 130 L 84 137 Z" fill="#B9C0C8"/>
+        </svg>
+      </div>
+      <div class="col"><div class="cell out">Atendimento</div></div>
+    </div>
+    <p class="p med" style="margin-top:44px">E atendimento é o que<br>o escritório dá de graça.</p>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 5 / 8 ============ -->
+<section class="slide dark" id="s5">
+  <div class="hd"><span class="kick">A pergunta</span><span class="pg">05/08</span></div>
+  <div class="body">
+    <div class="stack">
+      <p class="d1">A pergunta não é<br>quanto cobrar.</p>
+      <p class="d1 acc">É de quem é a causa.</p>
+    </div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 6 / 8 ============ -->
+<section class="slide" id="s6">
+  <div class="hd"><span class="kick">As quatro causas</span><span class="pg">06/08</span></div>
+  <div class="body top">
+    <p class="d2" style="margin-bottom:44px">Quatro causas.<br>Quatro donos diferentes.</p>
+    <div class="rows">
+      <div class="row"><span class="k">Cliente</span><span class="v">renegociar escopo</span></div>
+      <div class="row"><span class="k">Escritório</span><span class="v">corrigir processo</span></div>
+      <div class="row"><span class="k">Sistema</span><span class="v">revisar integração</span></div>
+      <div class="row"><span class="k">Regra</span><span class="v">atualizar procedimento</span></div>
+    </div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 7 / 8 ============ -->
+<section class="slide" id="s7">
+  <div class="hd"><span class="kick">Quando medir</span><span class="pg">07/08</span></div>
+  <div class="body top">
+    <p class="d2" style="margin-bottom:40px">Registre a causa na hora<br>da correção.</p>
+    <div class="cal">
+      <div class="wk on">S1</div><div class="wk on">S2</div><div class="wk on">S3</div>
+      <div class="wk off">S4</div><div class="wk off">S5</div>
+    </div>
+    <div class="callab">
+      <i><span class="dot"></span> meça aqui</i>
+      <i><span class="dot x"></span> fechamento</i>
+    </div>
+    <p class="p med" style="margin-top:48px">Fechamento não descreve o mês.</p>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<!-- ============ 8 / 8 ============ -->
+<section class="slide" id="s8">
+  <div class="hd"><span class="kick">Sua semana</span><span class="pg">08/08</span></div>
+  <div class="body top">
+    <p class="d2" style="margin-bottom:16px">Uma semana de registro<br>custa menos que um<br>reajuste errado.</p>
+    <p class="p acc-i med" style="margin-bottom:44px">Meça antes de mexer no contrato.</p>
+    <div class="reg">
+      <div class="l"><span class="n">01</span><span class="b"></span></div>
+      <div class="l"><span class="n">02</span><span class="b"></span></div>
+      <div class="l"><span class="n">03</span><span class="b"></span></div>
+      <div class="l"><span class="n">04</span><span class="b"></span></div>
+      <div class="l"><span class="n">05</span><span class="b"></span></div>
+    </div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+</body>
+</html>

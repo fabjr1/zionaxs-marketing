@@ -1,0 +1,904 @@
+{
+  "canvas": {
+    "w": 1080,
+    "h": 1350
+  },
+  "safe": {
+    "x": 80,
+    "y": 88
+  },
+  "fonts": [
+    {
+      "face": "Poppins 700",
+      "loaded": true
+    },
+    {
+      "face": "Archivo 400",
+      "loaded": true
+    },
+    {
+      "face": "Archivo 500",
+      "loaded": true
+    },
+    {
+      "face": "Archivo 600",
+      "loaded": true
+    },
+    {
+      "face": "JetBrains Mono 500",
+      "loaded": true
+    },
+    {
+      "face": "JetBrains Mono 700",
+      "loaded": true
+    }
+  ],
+  "perSlide": [
+    {
+      "id": "s1",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "Retrabalho",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "01/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "O retrabalho não éfalha de contrat",
+          "size": 80,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "É falha de contagem.",
+          "size": 80,
+          "weight": 700,
+          "color": "rgb(245, 69, 2)",
+          "ratio": 3.38,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Escritórios contábeis, 2026.",
+          "size": 34,
+          "weight": 400,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        80,
+        34
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Retrabalho01/08 O retrabalho não é falha de contrato. É falha de contagem. Escritórios contábeis, 2026. Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    },
+    {
+      "id": "s2",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "Sescon-SP 2024",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "02/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "33%",
+          "size": 232,
+          "weight": 700,
+          "color": "rgb(245, 69, 2)",
+          "ratio": 3.38,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "dos escritórios declararam não cob",
+          "size": 46,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Sescon-SP e Vox Populi, 2024.255 a",
+          "size": 26,
+          "weight": 400,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        232,
+        46,
+        26
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Sescon-SP 202402/08 33% dos escritórios declararam não cobrar por retrabalho. Sescon-SP e Vox Populi, 2024. 255 associados no estado de São Paulo. Margem de erro de 5,9%. Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    },
+    {
+      "id": "s3",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "Segunda-feira",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "03/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "O documento chega errado.",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Alguém corrige.",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Ninguém anota de quemfoi a causa.",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "No mês seguinte, a mesma hora sai ",
+          "size": 46,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        64,
+        46
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Segunda-feira03/08 O documento chega errado. Alguém corrige. Ninguém anota de quem foi a causa. No mês seguinte, a mesma hora sai de novo. Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    },
+    {
+      "id": "s4",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "A classificação",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "04/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Correção sem causavira “atendiment",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Documento devolvido",
+          "size": 34,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Lançamento corrigido",
+          "size": 34,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Dúvida respondida",
+          "size": 34,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Atendimento",
+          "size": 34,
+          "weight": 600,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "E atendimento é o queo escritório ",
+          "size": 46,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        64,
+        46,
+        34
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "A classificação04/08 Correção sem causa vira “atendimento”. Documento devolvido Lançamento corrigido Dúvida respondida Atendimento E atendimento é o que o escritório dá de graça. Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    },
+    {
+      "id": "s5",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "A pergunta",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(245, 69, 2)",
+          "ratio": 4.91,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "05/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(152, 161, 173)",
+          "ratio": 6.88,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "A pergunta não équanto cobrar.",
+          "size": 80,
+          "weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "ratio": 17.98,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "É de quem é a causa.",
+          "size": 80,
+          "weight": 700,
+          "color": "rgb(245, 69, 2)",
+          "ratio": 4.91,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "ratio": 17.98,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        80
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "A pergunta05/08 A pergunta não é quanto cobrar. É de quem é a causa. Zionaxs",
+      "bg": "rgb(20, 23, 27)"
+    },
+    {
+      "id": "s6",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "As quatro causas",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "06/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Quatro causas.Quatro donos diferen",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Cliente",
+          "size": 38,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "renegociar escopo",
+          "size": 38,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Escritório",
+          "size": 38,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "corrigir processo",
+          "size": 38,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Sistema",
+          "size": 38,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "revisar integração",
+          "size": 38,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Regra",
+          "size": 38,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "atualizar procedimento",
+          "size": 38,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        64,
+        38
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "As quatro causas06/08 Quatro causas. Quatro donos diferentes. Clienterenegociar escopo Escritóriocorrigir processo Sistemarevisar integração Regraatualizar procedimento Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    },
+    {
+      "id": "s7",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "Quando medir",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "07/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Registre a causa na horada correçã",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "S1",
+          "size": 30,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "S2",
+          "size": 30,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "S3",
+          "size": 30,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "S4",
+          "size": 30,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "S5",
+          "size": 30,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Fechamento não descreve o mês.",
+          "size": 46,
+          "weight": 500,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        64,
+        46,
+        30
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Quando medir07/08 Registre a causa na hora da correção. S1S2S3 S4S5 meça aqui fechamento Fechamento não descreve o mês. Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    },
+    {
+      "id": "s8",
+      "dims": {
+        "w": 1080,
+        "h": 1350
+      },
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "outOfSafe": [],
+      "contrasts": [
+        {
+          "text": "Sua semana",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "08/08",
+          "size": 26,
+          "weight": 500,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Uma semana de registrocusta menos ",
+          "size": 64,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Meça antes de mexer no contrato.",
+          "size": 46,
+          "weight": 500,
+          "color": "rgb(178, 49, 0)",
+          "ratio": 5.82,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "01",
+          "size": 32,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "02",
+          "size": 32,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "03",
+          "size": 32,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "04",
+          "size": 32,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "05",
+          "size": 32,
+          "weight": 700,
+          "color": "rgb(90, 98, 112)",
+          "ratio": 5.68,
+          "need": 3,
+          "pass": true,
+          "large": true
+        },
+        {
+          "text": "Zionaxs",
+          "size": 26,
+          "weight": 700,
+          "color": "rgb(20, 23, 27)",
+          "ratio": 16.61,
+          "need": 3,
+          "pass": true,
+          "large": true
+        }
+      ],
+      "runts": [],
+      "badWrap": [],
+      "levels": [
+        64,
+        46,
+        32
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Sua semana08/08 Uma semana de registro custa menos que um reajuste errado. Meça antes de mexer no contrato. 01 02 03 04 05 Zionaxs",
+      "bg": "rgb(245, 246, 247)"
+    }
+  ],
+  "summary": {
+    "fontFallback": [],
+    "wrongDims": [],
+    "overflow": [],
+    "outOfSafe": [],
+    "contrastFail": [],
+    "runts": [],
+    "badWrap": [],
+    "tooManyLevels": [],
+    "unapprovedStrings": [],
+    "missingStrings": [],
+    "leakedInternalLabels": []
+  }
+}
