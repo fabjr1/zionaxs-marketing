@@ -1,0 +1,717 @@
+<title>Marketing OS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#EDF0F3; --panel:#FFFFFF; --panel-2:#E3E8ED;
+  --ink:#161A1F; --ink-2:#5B6672; --ink-3:#8A94A0;
+  --rule:#D2D8DE; --rule-2:#B4BDC6;
+  --human:#B23100; --human-hi:#F54502; --human-wash:rgba(245,69,2,.08);
+  --ok:#1C6B4B; --ok-wash:rgba(28,107,75,.10);
+  --wait:#8A5A00; --wait-wash:rgba(138,90,0,.10);
+  --stop:#A3211A; --stop-wash:rgba(163,33,26,.10);
+  --sh:0 1px 0 rgba(22,26,31,.05);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D1116; --panel:#151A21; --panel-2:#1C232B;
+  --ink:#E4E8EC; --ink-2:#8E99A6; --ink-3:#6A7482;
+  --rule:#242C35; --rule-2:#36414D;
+  --human:#FF7A47; --human-hi:#FF5A1F; --human-wash:rgba(255,90,31,.13);
+  --ok:#57C08C; --ok-wash:rgba(87,192,140,.13);
+  --wait:#DFA83E; --wait-wash:rgba(223,168,62,.13);
+  --stop:#F0685E; --stop-wash:rgba(240,104,94,.13);
+  --sh:0 1px 0 rgba(0,0,0,.4);
+}}
+:root[data-theme="dark"]{
+  --bg:#0D1116; --panel:#151A21; --panel-2:#1C232B;
+  --ink:#E4E8EC; --ink-2:#8E99A6; --ink-3:#6A7482;
+  --rule:#242C35; --rule-2:#36414D;
+  --human:#FF7A47; --human-hi:#FF5A1F; --human-wash:rgba(255,90,31,.13);
+  --ok:#57C08C; --ok-wash:rgba(87,192,140,.13);
+  --wait:#DFA83E; --wait-wash:rgba(223,168,62,.13);
+  --stop:#F0685E; --stop-wash:rgba(240,104,94,.13);
+  --sh:0 1px 0 rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.62;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1060px;margin:0 auto;padding:0 26px 120px}
+
+header.mast{padding:56px 0 24px;border-bottom:2px solid var(--ink);margin-bottom:8px}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+  letter-spacing:.17em;text-transform:uppercase;color:var(--human);margin:0 0 18px;
+  display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.eyebrow .s{color:var(--rule-2)}
+h1{font-family:Archivo,sans-serif;font-weight:700;font-size:clamp(38px,6vw,64px);
+  line-height:1.0;letter-spacing:-.034em;margin:0 0 16px;text-wrap:balance}
+.deck{font-size:clamp(16px,2vw,20px);line-height:1.52;color:var(--ink-2);max-width:63ch;margin:0 0 28px}
+.deck b{color:var(--ink);font-weight:600}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));border-top:1px solid var(--rule)}
+.meta div{padding:13px 16px 13px 0;border-right:1px solid var(--rule)}
+.meta div:last-child{border-right:none}
+.meta dt{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 4px}
+.meta dd{margin:0;font-size:14px;font-weight:500;line-height:1.35}
+
+section{padding-top:58px;scroll-margin-top:20px}
+.sh{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--ink);
+  padding-bottom:9px;margin-bottom:26px;flex-wrap:wrap}
+.sn{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;
+  color:var(--human);letter-spacing:.07em;flex:none}
+h2{font-family:Archivo,sans-serif;font-weight:600;font-size:clamp(22px,3vw,29px);
+  line-height:1.16;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h3{font-family:Archivo,sans-serif;font-weight:600;font-size:18.5px;letter-spacing:-.012em;
+  margin:34px 0 11px;line-height:1.28}
+h4{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin:24px 0 9px}
+p{margin:0 0 14px;max-width:72ch}
+ul,ol{margin:0 0 15px;padding-left:20px;max-width:72ch}
+li{margin-bottom:7px}
+a{color:var(--human);text-decoration:none;border-bottom:1px solid var(--human-wash)}
+a:hover{border-bottom-color:var(--human-hi)}
+a:focus-visible{outline:2px solid var(--human-hi);outline-offset:3px}
+code{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em;
+  background:var(--panel-2);padding:1px 5px;border-radius:3px}
+pre{background:var(--panel);border:1px solid var(--rule);border-radius:7px;
+  padding:16px 18px;overflow-x:auto;margin:0 0 18px;box-shadow:var(--sh)}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6;color:var(--ink)}
+.cmt{color:var(--ink-3)}
+.key{color:var(--human)}
+
+figure{margin:0 0 12px;background:var(--panel);border:1px solid var(--rule);
+  border-radius:8px;padding:26px 22px 16px;box-shadow:var(--sh);overflow-x:auto}
+figure svg{max-width:100%;height:auto;display:block;margin:0 auto;color:var(--ink-2)}
+figcaption{font-size:13px;color:var(--ink-2);margin-top:16px;padding-top:13px;
+  border-top:1px solid var(--rule);line-height:1.5}
+figcaption b{color:var(--ink);font-weight:600}
+
+.tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:7px;
+  background:var(--panel);box-shadow:var(--sh)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:700;text-align:left;
+  padding:11px 14px;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:10px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:none}
+td.k{font-family:"JetBrains Mono",monospace;font-size:12.5px;font-weight:600;white-space:nowrap}
+td.pri{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;white-space:nowrap}
+
+.pill{display:inline-flex;align-items:center;gap:5px;font-family:"JetBrains Mono",monospace;
+  font-size:10px;font-weight:700;letter-spacing:.08em;padding:2px 8px;border-radius:99px;
+  border:1px solid currentColor;white-space:nowrap}
+.p-ok{color:var(--ok);background:var(--ok-wash)}
+.p-wait{color:var(--wait);background:var(--wait-wash)}
+.p-stop{color:var(--stop);background:var(--stop-wash)}
+.p-hum{color:var(--human);background:var(--human-wash)}
+
+.note{border-left:3px solid var(--human-hi);background:var(--human-wash);padding:16px 20px;
+  margin:0 0 20px;border-radius:0 6px 6px 0}
+.note p:last-child{margin-bottom:0}
+.note .l{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--human);display:block;margin-bottom:7px}
+.note.stop{border-left-color:var(--stop);background:var(--stop-wash)}
+.note.stop .l{color:var(--stop)}
+.note.ok{border-left-color:var(--ok);background:var(--ok-wash)}
+.note.ok .l{color:var(--ok)}
+
+.mods{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-bottom:8px}
+.mod{background:var(--panel);border:1px solid var(--rule);border-radius:7px;padding:18px 20px;box-shadow:var(--sh)}
+.mod .mid{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;color:var(--human);
+  letter-spacing:.09em;margin:0 0 4px}
+.mod h3{margin:0 0 8px;font-size:17px}
+.mod p{font-size:13.5px;color:var(--ink-2);margin:0 0 8px}
+.mod ul{font-size:13.5px;margin:0;padding-left:17px;color:var(--ink-2)}
+.mod li{margin-bottom:5px}
+
+.no{list-style:none;padding:0;margin:0 0 18px}
+.no li{padding-left:26px;position:relative;margin-bottom:8px;color:var(--ink-2);max-width:72ch}
+.no li::before{content:"✕";position:absolute;left:2px;top:0;color:var(--stop);
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700}
+.yes li::before{content:"✓";color:var(--ok)}
+
+.jour{background:var(--panel);border:1px solid var(--rule);border-radius:7px;
+  padding:18px 22px;margin:0 0 16px;box-shadow:var(--sh)}
+.jour h3{margin:0 0 10px;font-size:16.5px}
+.jour ol{margin:0;padding-left:20px;font-size:14px}
+.jour ol li{margin-bottom:6px;color:var(--ink-2)}
+.jour ol li b{color:var(--ink)}
+
+footer{margin-top:64px;padding-top:20px;border-top:2px solid var(--ink);
+  font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-2);line-height:1.75}
+@media(max-width:640px){.wrap{padding:0 18px 80px}.meta div{border-right:none;border-bottom:1px solid var(--rule)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <p class="eyebrow"><span>PRD</span><span class="s">/</span><span>v1 para aprovação</span>
+  <span class="s">/</span><span>25 ago 2026</span></p>
+  <h1>Marketing OS</h1>
+  <p class="deck">
+    Um sistema pessoal de marketing operado por agente. <b>O agente é o runtime do método</b> — pesquisa,
+    planeja, escreve e mede usando as 51 skills. <b>O sistema é o corpo</b>: guarda o estado, gera as peças
+    deterministicamente, mede os gates nos pixels, mostra tudo numa interface e só executa efeito externo
+    com a sua aprovação convertida em contrato.
+  </p>
+  <dl class="meta">
+    <div><dt>Formato inicial</dt><dd>Carrossel Instagram 1080×1350</dd></div>
+    <div><dt>Usuários v0</dt><dd>1 operador + 1 agente</dd></div>
+    <div><dt>Stack</dt><dd>Node + Chromium, sem banco</dd></div>
+    <div><dt>Estado</dt><dd>arquivos versionados em Git</dd></div>
+    <div><dt>Método</dt><dd>marketingskills 2.12.0</dd></div>
+  </dl>
+</header>
+
+<!-- ============ 01 ============ -->
+<section id="problema">
+  <div class="sh"><span class="sn">01</span><h2>O problema</h2></div>
+  <p>Quatro evidências, todas observadas nesta sessão — nenhuma hipotética:</p>
+  <ul>
+    <li><b>As skills não têm ordem.</b> 51 skills com método sólido, disparadas por frase-gatilho, isoladas.
+    O plugin não tem <code>commands/</code>, <code>agents/</code> nem <code>hooks/</code>. Pedir uma peça sem os
+    insumos upstream não falha: produz output fluente e sem chão.</li>
+    <li><b>A geração é artesanal.</b> O carrossel zx-19 exigiu HTML escrito à mão, peça por peça. O pipeline de
+    render e QA existe e funciona, mas não é reutilizável sem retrabalho manual.</li>
+    <li><b>A aprovação é um ato de fé.</b> Não existe superfície que mostre pixels, gates e evidência juntos.
+    Aprovar por mensagem de texto não gera contrato nem trilha de auditoria.</li>
+    <li><b>A publicação minte por omissão.</b> O incidente zx-11: webhook devolveu <code>HTTP 200</code> e a peça
+    ficou "confirmação pendente" para sempre. Recebimento foi tratado como publicação.</li>
+  </ul>
+  <p>
+    O Marketing OS é o menor sistema que elimina as quatro falhas — e nada além disso.
+  </p>
+</section>
+
+<!-- ============ 02 ============ -->
+<section id="principios">
+  <div class="sh"><span class="sn">02</span><h2>Princípios de produto</h2></div>
+  <p>Cada decisão de escopo abaixo deriva de um destes sete. Quando duas features conflitam, o princípio decide.</p>
+  <div class="tw"><table>
+    <thead><tr><th>#</th><th>Princípio</th><th>Consequência prática</th></tr></thead>
+    <tbody>
+      <tr><td class="k">P1</td><td><b>O agente é o runtime.</b> Software só para o que precisa ser determinístico.</td><td>Não existe "feature de escrever copy". Copy é trabalho do agente com as skills. O sistema renderiza, mede e registra.</td></tr>
+      <tr><td class="k">P2</td><td><b>Contrato antes de pixel.</b> O artefato durável é o contrato semântico; o render é derivado.</td><td>Corrigir uma peça = corrigir o contrato e recompilar. Editar pixel ou prompt à mão é proibido por desenho.</td></tr>
+      <tr><td class="k">P3</td><td><b>Gate medido, não afirmado.</b> QA avalia o artefato real.</td><td>Os 12 gates rodam no PNG renderizado via Chromium. "Parece bom" não é um estado do sistema.</td></tr>
+      <tr><td class="k">P4</td><td><b>Sem banco próprio.</b> Estado é arquivo versionado em Git.</td><td>Todo estado é auditável por commit, sobrevive à troca de máquina e nunca vira fonte concorrente.</td></tr>
+      <tr><td class="k">P5</td><td><b>Um ciclo aberto por vez.</b></td><td>O sistema recusa abrir campanha nova com outra no meio, e oferece: terminar, abandonar ou estacionar com motivo.</td></tr>
+      <tr><td class="k">P6</td><td><b>Honestidade de evidência.</b> Toda afirmação carrega status E/I/H/NC com fonte.</td><td>Peça com claim sem fonte não passa do gate 5. Leitura sem denominador não fecha o gate 8.</td></tr>
+      <tr><td class="k">P7</td><td><b>Humano no efeito externo.</b> Publicar, gastar e prometer exigem aprovação convertida em contrato.</td><td>Aprovação gera YAML com digest da versão aprovada. <code>HTTP 200</code> nunca vira "publicado".</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 03 ============ -->
+<section id="arquitetura">
+  <div class="sh"><span class="sn">03</span><h2>Arquitetura: quatro camadas</h2></div>
+
+  <figure>
+    <svg viewBox="0 0 960 330" role="img" aria-label="Fluxo do sistema: a camada de método (skills e brand pack) alimenta o agente, que escreve o contrato de peça; o gerador renderiza e mede os gates; o console mostra tudo ao operador, cujo aprovar emite o contrato de publicação; o adaptador publica e o callback fecha o estado, que realimenta o método como aprendizado.">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+        </marker>
+        <marker id="arh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--human-hi)"/>
+        </marker>
+      </defs>
+
+      <!-- método layer -->
+      <rect x="12" y="14" width="936" height="58" rx="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+      <text x="30" y="38" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="currentColor">MÉTODO</text>
+      <text x="30" y="58" font-family="Archivo, sans-serif" font-size="12" fill="currentColor">51 skills (marketingskills) · marketing-os sequencia · brand pack por marca: contexto + tokens + público</text>
+
+      <line x1="150" y1="72" x2="150" y2="118" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"/>
+      <text x="160" y="100" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">carrega</text>
+
+      <!-- agente -->
+      <rect x="70" y="120" width="160" height="58" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="150" y="144" text-anchor="middle" font-family="Archivo, sans-serif" font-size="13.5" font-weight="700" fill="currentColor">AGENTE</text>
+      <text x="150" y="163" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">pesquisa · escreve · mede</text>
+
+      <line x1="230" y1="149" x2="292" y2="149" stroke="currentColor" stroke-width="1.6" marker-end="url(#ar)"/>
+      <text x="261" y="140" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">escreve</text>
+
+      <!-- contrato -->
+      <rect x="294" y="120" width="130" height="58" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="359" y="144" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">Piece</text>
+      <text x="359" y="161" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">Contract</text>
+
+      <line x1="424" y1="149" x2="484" y2="149" stroke="currentColor" stroke-width="1.6" marker-end="url(#ar)"/>
+      <text x="454" y="140" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">compila</text>
+
+      <!-- gerador -->
+      <rect x="486" y="112" width="150" height="74" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="561" y="136" text-anchor="middle" font-family="Archivo, sans-serif" font-size="13.5" font-weight="700" fill="currentColor">GERADOR</text>
+      <text x="561" y="154" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">render determinístico</text>
+      <text x="561" y="170" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">+ 12 gates medidos</text>
+
+      <line x1="636" y1="149" x2="696" y2="149" stroke="currentColor" stroke-width="1.6" marker-end="url(#ar)"/>
+      <text x="666" y="140" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">PNGs + QA</text>
+
+      <!-- console -->
+      <rect x="698" y="112" width="160" height="74" rx="6" fill="var(--human-wash)" stroke="var(--human-hi)" stroke-width="2.2"/>
+      <text x="778" y="138" text-anchor="middle" font-family="Archivo, sans-serif" font-size="13.5" font-weight="700" fill="var(--human)">CONSOLE</text>
+      <text x="778" y="156" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">operador decide:</text>
+      <text x="778" y="172" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">aprova · reprova · escala</text>
+
+      <!-- reprova volta ao contrato -->
+      <path d="M720 186 C 700 232, 420 232, 380 180" fill="none" stroke="var(--human-hi)" stroke-width="1.6" marker-end="url(#arh)"/>
+      <text x="552" y="240" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">reprova → corrige o contrato, recompila</text>
+
+      <!-- aprova → publicação -->
+      <line x1="858" y1="149" x2="900" y2="149" stroke="var(--human-hi)" stroke-width="2" marker-end="url(#arh)"/>
+      <rect x="758" y="262" width="190" height="54" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M902 149 C 940 149, 940 262, 900 274" fill="none" stroke="var(--human-hi)" stroke-width="2" marker-end="url(#arh)"/>
+      <text x="853" y="286" text-anchor="middle" font-family="Archivo, sans-serif" font-size="12.5" font-weight="700" fill="currentColor">PUBLICAÇÃO</text>
+      <text x="853" y="303" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">preflight → envio → callback</text>
+
+      <!-- estado -->
+      <rect x="70" y="262" width="330" height="54" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="235" y="284" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">state.md + Git</text>
+      <text x="235" y="302" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">gates, ciclo, decisões, aprendizado — auditável por commit</text>
+
+      <line x1="758" y1="289" x2="402" y2="289" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"/>
+      <text x="580" y="281" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">permalink + resultado</text>
+      <line x1="150" y1="262" x2="150" y2="182" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"/>
+      <text x="160" y="228" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">aprendizado</text>
+    </svg>
+    <figcaption><b>O laranja marca o único ponto onde a máquina não decide sozinha.</b> Método alimenta o agente;
+    o agente escreve contrato; o gerador transforma contrato em pixels medidos; o console apresenta ao operador;
+    a aprovação vira contrato de publicação; o callback fecha o estado, que realimenta o método como aprendizado.
+    Reprovação nunca edita pixel — corrige o contrato e recompila (P2).</figcaption>
+  </figure>
+
+  <h3>O conceito de brand pack</h3>
+  <p>
+    O motor é agnóstico de marca. Tudo que é específico de uma marca viaja num diretório próprio:
+  </p>
+  <pre><code>.agents/
+├── product-marketing.md        <span class="cmt"># contexto que as 51 skills leem (já existe)</span>
+├── marketing-os/state.md       <span class="cmt"># estado do fluxo (já especificado)</span>
+└── brand/
+    ├── tokens.css              <span class="cmt"># cores, tipografia, escalas</span>
+    ├── fonts/*.woff2           <span class="cmt"># fontes locais — o render não toca a rede</span>
+    ├── logo.svg                <span class="cmt"># logo oficial vetorial</span>
+    └── audience.md             <span class="cmt"># personas, linguagem, evidência (opcional)</span></code></pre>
+  <p>
+    A Zionaxs é o primeiro brand pack. Uma segunda marca é um segundo diretório — não uma segunda versão do sistema.
+    Multi-marca simultânea fica fora da v0 (§10), mas a estrutura já não a bloqueia.
+  </p>
+</section>
+
+<!-- ============ 04 ============ -->
+<section id="modulos">
+  <div class="sh"><span class="sn">04</span><h2>Os seis módulos</h2></div>
+
+  <div class="mods">
+    <div class="mod">
+      <p class="mid">M1</p><h3>Fluxo e estado</h3>
+      <p>A skill <code>marketing-os</code> executada: 9 estágios, gates objetivos, retomada.</p>
+      <ul>
+        <li>Abrir ciclo, ver estágio atual e o próximo passo</li>
+        <li>Gate marcado exige ponteiro para artefato</li>
+        <li>Lacuna aceita é registrada com data e motivo</li>
+        <li>Um ciclo aberto por vez, com terminar/abandonar/estacionar</li>
+        <li>Fechar ciclo exige uma entrada de aprendizado</li>
+      </ul>
+    </div>
+    <div class="mod">
+      <p class="mid">M2</p><h3>Gerador de peças</h3>
+      <p>Piece Contract entra, peça medida sai. Nenhum HTML escrito à mão.</p>
+      <ul>
+        <li>Compilador: contrato JSON → layout → PNGs 1080×1350</li>
+        <li>Os 12 gates rodam no pixel renderizado (§05)</li>
+        <li>Folha de contato + legenda + alt text por slide</li>
+        <li>Template packs por formato: carrossel 4:5 primeiro</li>
+        <li>Mesmo contrato → mesmos pixels, sempre</li>
+      </ul>
+    </div>
+    <div class="mod">
+      <p class="mid">M3</p><h3>Console</h3>
+      <p>A superfície de decisão. Stateless: lê arquivos, escreve contrato e estado.</p>
+      <ul>
+        <li>Fila de peças por estágio + estado do ciclo</li>
+        <li>Tela de peça: pixels navegáveis, gates, diff de copy, evidência E/I/H/NC</li>
+        <li>Anti-template: as 3 peças anteriores lado a lado</li>
+        <li>Três decisões: aprovar · reprovar estruturado · escalar</li>
+        <li>Botão de aprovar não existe com gate vermelho</li>
+      </ul>
+    </div>
+    <div class="mod">
+      <p class="mid">M4</p><h3>Publicação</h3>
+      <p>Padrão adapter. v0 exporta manual; v2 automatiza quando a rota existir.</p>
+      <ul>
+        <li>Aprovar emite Publication Contract YAML com digest</li>
+        <li>v0: pacote de exportação — PNGs ordenados + legenda + alt + checklist</li>
+        <li>v2: preflight → envio → callback com conta + postId + permalink</li>
+        <li>Três estados: enviado · publicado · bloqueado</li>
+        <li>Conta divergente bloqueia, sem retry automático</li>
+      </ul>
+    </div>
+    <div class="mod">
+      <p class="mid">M5</p><h3>Medição e aprendizado</h3>
+      <p>Fecha o ciclo com leitura honesta, não com sensação.</p>
+      <ul>
+        <li>Registro de leitura: métrica + fórmula + denominador + fonte</li>
+        <li>Checagem de amostra embutida (tabela do <code>ab-testing</code>)</li>
+        <li>Abaixo da significância → rotulado direcional, vira H</li>
+        <li>Aprendizado gravado no fechamento do ciclo</li>
+        <li>Aprendizado durável → proposta para a base de conhecimento</li>
+      </ul>
+    </div>
+    <div class="mod">
+      <p class="mid">M6</p><h3>Biblioteca</h3>
+      <p>Memória visual e material do que já saiu.</p>
+      <ul>
+        <li>Peças publicadas com contrato, pixels e resultado</li>
+        <li>Alimenta o anti-template do console</li>
+        <li>Assets do brand pack: fontes, logo, tokens</li>
+        <li>Busca por campanha, público, categoria, hook</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 ============ -->
+<section id="gates">
+  <div class="sh"><span class="sn">05</span><h2>Os 12 gates do gerador</h2></div>
+  <p>
+    Já implementados e provados no zx-19. Rodam sobre o PNG renderizado, nunca sobre o CSS ou a intenção (P3).
+    Cada um devolve passa/falha com o valor medido.
+  </p>
+  <div class="tw"><table>
+    <thead><tr><th>#</th><th>Gate</th><th>O que mede</th></tr></thead>
+    <tbody>
+      <tr><td class="k">G1</td><td>Canvas</td><td>1080×1350 exatos em cada unidade</td></tr>
+      <tr><td class="k">G2</td><td>Fallback de fonte</td><td>todas as faces declaradas carregadas; nenhuma substituição silenciosa</td></tr>
+      <tr><td class="k">G3</td><td>Overflow</td><td>nenhum conteúdo escapa do canvas</td></tr>
+      <tr><td class="k">G4</td><td>Área segura</td><td>nenhum texto fora das margens de 80/88px</td></tr>
+      <tr><td class="k">G5</td><td>Contraste WCAG 2.2</td><td>razão calculada por elemento contra o fundo real; 3:1 texto grande, 4,5:1 normal</td></tr>
+      <tr><td class="k">G6</td><td>Runt lines</td><td>nenhuma última linha com fragmento curto isolado</td></tr>
+      <tr><td class="k">G7</td><td>Quebra não autoral</td><td>linhas renderizadas = quebras escritas; wrap inesperado reprova</td></tr>
+      <tr><td class="k">G8</td><td>Níveis tipográficos</td><td>máximo 3 níveis de conteúdo por unidade</td></tr>
+      <tr><td class="k">G9</td><td>Strings não aprovadas</td><td>nenhum texto nos pixels fora da <code>approved_visible_copy</code></td></tr>
+      <tr><td class="k">G10</td><td>Strings faltando</td><td>toda copy aprovada aparece literalmente</td></tr>
+      <tr><td class="k">G11</td><td>Rótulo interno vazado</td><td>metadado de narrativa nunca vira pixel; termos ambíguos exigem allowlist justificada</td></tr>
+      <tr><td class="k">G12</td><td>Alt text</td><td>presente por slide, no template de acessibilidade</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note ok">
+    <span class="l">Já provado</span>
+    <p>O pipeline destes gates existe, versionado em <code>campanhas/zionaxs/zx-19/render.js</code>, e pegou
+    defeitos reais na primeira execução: contraste 1,70:1, três runts, seis quebras não autorais e um rótulo
+    interno nos pixels. O trabalho da v0 é generalizá-lo, não inventá-lo.</p>
+  </div>
+</section>
+
+<!-- ============ 06 ============ -->
+<section id="ciclo-peca">
+  <div class="sh"><span class="sn">06</span><h2>Ciclo de vida de uma peça</h2></div>
+
+  <figure>
+    <svg viewBox="0 0 1000 230" role="img" aria-label="Estados de uma peça: contrato, gerada, em revisão, aprovada, enviada e a bifurcação final entre publicada e bloqueada. Reprovar e gate vermelho voltam ao contrato. Conta divergente leva a bloqueada, sem retry automático.">
+      <defs>
+        <marker id="cr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+        </marker>
+        <marker id="crh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--human-hi)"/>
+        </marker>
+        <marker id="crs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--stop)"/>
+        </marker>
+      </defs>
+
+      <rect x="12" y="66" width="116" height="46" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="70" y="94" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">contrato</text>
+
+      <line x1="128" y1="89" x2="176" y2="89" stroke="currentColor" stroke-width="1.6" marker-end="url(#cr)"/>
+      <text x="152" y="80" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">compila</text>
+
+      <rect x="178" y="66" width="102" height="46" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="229" y="94" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">gerada</text>
+
+      <path d="M205 112 C 190 144, 105 144, 82 114" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#cr)"/>
+      <text x="146" y="156" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">gate vermelho</text>
+
+      <line x1="280" y1="89" x2="336" y2="89" stroke="currentColor" stroke-width="1.6" marker-end="url(#cr)"/>
+      <text x="308" y="80" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">12 verdes</text>
+
+      <rect x="338" y="62" width="136" height="54" rx="5" fill="var(--human-wash)" stroke="var(--human-hi)" stroke-width="2"/>
+      <text x="406" y="85" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="var(--human)">em revisão</text>
+      <text x="406" y="103" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="var(--human)">console</text>
+
+      <path d="M370 116 C 340 186, 105 186, 68 116" fill="none" stroke="var(--human-hi)" stroke-width="1.6" marker-end="url(#crh)"/>
+      <text x="222" y="196" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="var(--human)">reprova estruturada → corrige o contrato</text>
+
+      <line x1="474" y1="89" x2="522" y2="89" stroke="var(--human-hi)" stroke-width="2" marker-end="url(#crh)"/>
+      <text x="498" y="80" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="var(--human)">aprova</text>
+
+      <rect x="524" y="66" width="118" height="46" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="583" y="94" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">aprovada</text>
+
+      <line x1="642" y1="89" x2="688" y2="89" stroke="currentColor" stroke-width="1.6" marker-end="url(#cr)"/>
+      <text x="665" y="80" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">envio</text>
+
+      <rect x="690" y="66" width="106" height="46" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="743" y="94" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">enviada</text>
+
+      <path d="M796 80 C 828 62, 830 48, 858 40" fill="none" stroke="currentColor" stroke-width="1.6" marker-end="url(#cr)"/>
+      <text x="830" y="30" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10" fill="currentColor">conta + postId + permalink</text>
+      <path d="M796 98 C 828 116, 830 130, 858 138" fill="none" stroke="var(--stop)" stroke-width="1.6" marker-end="url(#crs)"/>
+      <text x="832" y="164" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10" fill="var(--stop)">conta divergente</text>
+
+      <rect x="860" y="16" width="128" height="46" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="924" y="44" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">publicada</text>
+
+      <rect x="860" y="114" width="128" height="46" rx="5" fill="none" stroke="var(--stop)" stroke-width="1.6"/>
+      <text x="924" y="136" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="var(--stop)">bloqueada</text>
+      <text x="924" y="152" text-anchor="middle" font-family="Archivo, sans-serif" font-size="9.5" fill="var(--stop)">sem retry</text>
+    </svg>
+    <figcaption><b>Duas voltas e uma bifurcação, e as três são regras, não acidentes.</b> Gate vermelho e reprovação
+    voltam sempre ao contrato — nunca ao pixel (P2). O callback bifurca: conta esperada + postId + permalink = publicada;
+    conta divergente = bloqueada, sem retry automático. "Enviada" é um estado próprio porque foi exatamente onde o zx-11 mentiu.</figcaption>
+  </figure>
+</section>
+
+<!-- ============ 07 ============ -->
+<section id="jornadas">
+  <div class="sh"><span class="sn">07</span><h2>Três jornadas</h2></div>
+
+  <div class="jour">
+    <h3>J1 · Do zero à campanha planejada</h3>
+    <ol>
+      <li>Operador: <b>"quero começar o marketing do produto X"</b></li>
+      <li>Agente lê o estado → não existe → <b>Estágio 0</b>: roda <code>product-marketing</code>, auto-rascunha do código, operador corrige</li>
+      <li><b>Estágio 1</b>: <code>customer-research</code> + <code>competitor-profiling</code> → dores com fonte e linguagem verbatim</li>
+      <li><b>Estágio 2</b>: <code>marketing-plan</code> roda sua própria máquina de 3 fases → plano com o que <i>não</i> será feito</li>
+      <li><b>Estágio 3</b>: <code>offers</code> pontua a equação de valor → oferta com 6 componentes</li>
+      <li><b>Estágio 4</b>: <code>content-strategy</code> → calendário com público e job por tema</li>
+      <li>Cada gate cumprido vira linha no <code>state.md</code> com ponteiro para o artefato</li>
+    </ol>
+  </div>
+
+  <div class="jour">
+    <h3>J2 · Produzir e aprovar uma peça</h3>
+    <ol>
+      <li>Operador: <b>"próxima peça do calendário"</b></li>
+      <li>Agente escreve o Piece Contract — research brief, copy aprovada, alt, evidência E/I/H/NC</li>
+      <li><code>make piece zx-20</code> → gerador compila, renderiza, roda os 12 gates</li>
+      <li>Gate vermelho? Agente corrige o <b>contrato</b> e recompila até verde</li>
+      <li>Console mostra: pixels, gates com valores, diff de copy, 3 peças anteriores, legenda</li>
+      <li>Operador <b>aprova</b> → Publication Contract YAML com digest, commitado</li>
+      <li>v0: pacote de exportação pronto; operador posta à mão e cola o permalink de volta</li>
+    </ol>
+  </div>
+
+  <div class="jour">
+    <h3>J3 · Fechar o ciclo</h3>
+    <ol>
+      <li>Fim da janela: agente coleta as leituras — cada métrica com fórmula e denominador</li>
+      <li>Checagem de amostra: abaixo da significância → <b>rotulado direcional</b>, registrado como H</li>
+      <li>Operador confirma a leitura no console</li>
+      <li><code>state.md</code> recebe o aprendizado; ciclo fecha; gates 4–8 resetam; 0–3 persistem</li>
+      <li>Aprendizado durável vira proposta para a base de conhecimento — nunca promovido sozinho</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 08 ============ -->
+<section id="rf">
+  <div class="sh"><span class="sn">08</span><h2>Requisitos funcionais</h2></div>
+  <p><span class="pill p-hum">P0</span> = v0 não existe sem isso · <span class="pill p-wait">P1</span> = v1 · <span class="pill p-ok">P2</span> = depois</p>
+
+  <h4>M1 · Fluxo e estado</h4>
+  <div class="tw"><table>
+    <thead><tr><th>ID</th><th>Requisito</th><th>Pri</th></tr></thead>
+    <tbody>
+      <tr><td class="k">F-01</td><td>Ler e escrever <code>state.md</code> no schema já especificado; criar no primeiro uso</td><td class="pri">P0</td></tr>
+      <tr><td class="k">F-02</td><td>Resolver o próximo passo pela regra de roteamento (contexto → gate → ciclo aberto → skill dona)</td><td class="pri">P0</td></tr>
+      <tr><td class="k">F-03</td><td>Recusar segundo ciclo aberto; oferecer terminar / abandonar / estacionar com motivo</td><td class="pri">P0</td></tr>
+      <tr><td class="k">F-04</td><td>Gate marcado exige ponteiro; sem ponteiro o sistema trata como não cumprido</td><td class="pri">P0</td></tr>
+      <tr><td class="k">F-05</td><td>Registrar lacuna aceita com data e motivo</td><td class="pri">P1</td></tr>
+      <tr><td class="k">F-06</td><td>Fechar ciclo exige entrada de aprendizado não vazia</td><td class="pri">P1</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4>M2 · Gerador</h4>
+  <div class="tw"><table>
+    <thead><tr><th>ID</th><th>Requisito</th><th>Pri</th></tr></thead>
+    <tbody>
+      <tr><td class="k">G-01</td><td>Compilar Piece Contract JSON em layout renderizável, sem HTML manual por peça</td><td class="pri">P0</td></tr>
+      <tr><td class="k">G-02</td><td>Renderizar PNGs 1080×1350 com Chromium headless e fontes locais do brand pack; zero requisição de rede</td><td class="pri">P0</td></tr>
+      <tr><td class="k">G-03</td><td>Rodar os 12 gates no pixel e emitir relatório com valores medidos</td><td class="pri">P0</td></tr>
+      <tr><td class="k">G-04</td><td>Gerar folha de contato, legenda e alt text por slide a partir do contrato</td><td class="pri">P0</td></tr>
+      <tr><td class="k">G-05</td><td>Determinismo: mesmo contrato + mesmo template = pixels idênticos</td><td class="pri">P0</td></tr>
+      <tr><td class="k">G-06</td><td>Template pack de carrossel 4:5 com os papéis narrativos (capa, evidência, virada, critério, fechamento…)</td><td class="pri">P0</td></tr>
+      <tr><td class="k">G-07</td><td>Validar o contrato antes de compilar: campos obrigatórios, copy sem rótulo interno, evidência E sem fonte reprova</td><td class="pri">P1</td></tr>
+      <tr><td class="k">G-08</td><td>Template packs adicionais: estático 1:1, story 9:16</td><td class="pri">P2</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4>M3 · Console</h4>
+  <div class="tw"><table>
+    <thead><tr><th>ID</th><th>Requisito</th><th>Pri</th></tr></thead>
+    <tbody>
+      <tr><td class="k">C-01</td><td>Fila: peças por estado + estágio do ciclo, lendo só do filesystem/Git</td><td class="pri">P0</td></tr>
+      <tr><td class="k">C-02</td><td>Tela de peça: pixels navegáveis em tamanho de feed, gates com valores, legenda e alt</td><td class="pri">P0</td></tr>
+      <tr><td class="k">C-03</td><td>Diff literal entre <code>approved_visible_copy</code> e o texto renderizado</td><td class="pri">P1</td></tr>
+      <tr><td class="k">C-04</td><td>Anti-template: as 3 peças anteriores lado a lado</td><td class="pri">P1</td></tr>
+      <tr><td class="k">C-05</td><td>Aprovar → emite Publication Contract com digest e commita; botão inexistente com gate vermelho</td><td class="pri">P1</td></tr>
+      <tr><td class="k">C-06</td><td>Reprovar exige motivo estruturado (gate, esperado, observado, menor correção) e devolve ao contrato</td><td class="pri">P1</td></tr>
+      <tr><td class="k">C-07</td><td>Escalar: registra pendência que exige decisão fora do escopo da peça (oferta, preço, canal, tema sensível)</td><td class="pri">P1</td></tr>
+      <tr><td class="k">C-08</td><td>Histórico da peça: contratos, gerações, decisões, por commit</td><td class="pri">P2</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4>M4 · Publicação</h4>
+  <div class="tw"><table>
+    <thead><tr><th>ID</th><th>Requisito</th><th>Pri</th></tr></thead>
+    <tbody>
+      <tr><td class="k">P-01</td><td>Pacote de exportação manual: PNGs ordenados + legenda + alt + checklist de postagem</td><td class="pri">P0</td></tr>
+      <tr><td class="k">P-02</td><td>Registrar permalink e data após postagem manual; peça vira "publicada" só com link</td><td class="pri">P0</td></tr>
+      <tr><td class="k">P-03</td><td>Publication Contract YAML: effect, destino, conta, escopo, digest, timestamps</td><td class="pri">P1</td></tr>
+      <tr><td class="k">P-04</td><td>Adapter automatizado: preflight → envio → callback; três estados; conta divergente bloqueia sem retry</td><td class="pri">P2</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4>M5 + M6 · Medição e biblioteca</h4>
+  <div class="tw"><table>
+    <thead><tr><th>ID</th><th>Requisito</th><th>Pri</th></tr></thead>
+    <tbody>
+      <tr><td class="k">M-01</td><td>Registro de leitura por peça: métrica, fórmula, denominador, fonte, data</td><td class="pri">P1</td></tr>
+      <tr><td class="k">M-02</td><td>Checagem de amostra automática; abaixo do limiar → rótulo "direcional" obrigatório</td><td class="pri">P1</td></tr>
+      <tr><td class="k">B-01</td><td>Biblioteca navegável de peças publicadas com contrato + pixels + resultado</td><td class="pri">P2</td></tr>
+      <tr><td class="k">M-03</td><td>Loops do estágio 9 (weekly review, tracking QA) via <code>marketing-loops</code>, só com gate 8 cumprido</td><td class="pri">P2</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 09 ============ -->
+<section id="rnf">
+  <div class="sh"><span class="sn">09</span><h2>Requisitos não funcionais</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>ID</th><th>Requisito</th><th>Verificação</th></tr></thead>
+    <tbody>
+      <tr><td class="k">N-01</td><td><b>Sem banco.</b> Todo estado em arquivos versionados</td><td>nenhuma dependência de SGBD no lockfile</td></tr>
+      <tr><td class="k">N-02</td><td><b>Render offline.</b> Fontes e assets locais; falha de rede não muda o pixel</td><td>render passa com rede desligada</td></tr>
+      <tr><td class="k">N-03</td><td><b>Auditável.</b> Toda decisão (aprovação, reprovação, lacuna) é um commit com autor e data</td><td><code>git log</code> reconta a história da peça</td></tr>
+      <tr><td class="k">N-04</td><td><b>Geração &lt; 60s</b> por peça de 8 slides em hardware comum</td><td>medido no relatório</td></tr>
+      <tr><td class="k">N-05</td><td><b>Console acessível.</b> Contraste WCAG, foco visível, temas claro/escuro</td><td>mesmo validador dos gates</td></tr>
+      <tr><td class="k">N-06</td><td><b>Single-user.</b> v0 atrás de rede privada; sem sistema de identidade próprio</td><td>—</td></tr>
+      <tr><td class="k">N-07</td><td><b>Portável.</b> Roda onde houver Node + Chromium: máquina local ou VPS</td><td>setup documentado &lt; 10 min</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 10 ============ -->
+<section id="fora">
+  <div class="sh"><span class="sn">10</span><h2>Fora de escopo, por versão</h2></div>
+  <p>Dizer o que não entra é metade do valor de um PRD. Nada abaixo é "nunca" — é "não agora, e eis o porquê".</p>
+  <ul class="no">
+    <li><b>Editar copy na interface.</b> Quebraria P2: correção é no contrato, pelo agente, com recompilação. Uma caixa de texto no console reintroduz o drift que o sistema existe para eliminar.</li>
+    <li><b>Publicação automática na v0/v1.</b> A rota para <code>@zionaxs_</code> está quebrada (Composio devolve outra conta; webhook sem URL descoberta). Software daqui não conserta credencial de lá. Exportação manual guiada até a rota existir.</li>
+    <li><b>Multi-marca simultânea.</b> A estrutura de brand pack já prevê; a operação, não. Uma marca redonda antes de duas.</li>
+    <li><b>Dashboard de analytics.</b> O estágio de Medição registra leituras com denominador. Painel bonito sem processo de leitura vira número sem dono.</li>
+    <li><b>Agendamento próprio.</b> Cadência é decisão do calendário editorial; disparo é cron do ambiente. Um segundo scheduler é um segundo lugar para mentir.</li>
+    <li><b>Ads, e-mail, SEO como módulos.</b> São canais que entram pelo mesmo padrão: skill dona + template pack + adapter. Cada um chega quando o carrossel estiver operando em ciclo completo.</li>
+    <li><b>Multi-usuário, papéis, permissões.</b> Existe uma pessoa aprovando.</li>
+  </ul>
+</section>
+
+<!-- ============ 11 ============ -->
+<section id="roadmap">
+  <div class="sh"><span class="sn">11</span><h2>Roadmap com critérios de aceite</h2></div>
+
+  <h3>v0 — o motor <span class="pill p-hum">construir agora</span></h3>
+  <p><b>Entrega:</b> gerador por contrato (G-01…G-06) + console de leitura (C-01, C-02) + exportação manual (P-01, P-02) + estado (F-01…F-04).</p>
+  <p><b>Aceite:</b> uma peça nova da campanha — a C4, "Capacidade antes de oferta" — nasce de um Piece Contract,
+  passa nos 12 gates <i>sem nenhum HTML escrito à mão</i>, aparece no console, é exportada, postada manualmente
+  e o permalink volta ao estado. Se qualquer passo exigir edição manual de HTML, a v0 não passou.</p>
+
+  <h3>v1 — a decisão vira contrato <span class="pill p-wait">em seguida</span></h3>
+  <p><b>Entrega:</b> aprovação emite Publication Contract com digest (C-05, P-03); reprovação estruturada (C-06);
+  escalação (C-07); diff de copy (C-03); anti-template (C-04); validação de contrato (G-07); medição com
+  checagem de amostra (M-01, M-02); lacunas e aprendizado (F-05, F-06).</p>
+  <p><b>Aceite:</b> toda decisão sobre peça existe como commit; aprovar com gate vermelho é impossível;
+  uma leitura abaixo da amostra sai rotulada "direcional" sem intervenção manual.</p>
+
+  <h3>v2 — o último centímetro <span class="pill p-ok">quando a rota existir</span></h3>
+  <p><b>Entrega:</b> adapter de publicação com preflight, callback e três estados (P-04); biblioteca (B-01);
+  primeiros loops com gate 8 cumprido (M-03); segundo template pack (G-08).</p>
+  <p><b>Aceite:</b> peça aprovada chega ao Instagram sem passo manual; conta divergente bloqueia e notifica;
+  o incidente zx-11 é irreproduzível por construção.</p>
+
+  <div class="note">
+    <span class="l">Dependência que não é software</span>
+    <p>A v2 depende de consertar a rota de publicação na VPS: a conexão autenticada devolve a conta errada e o
+    webhook não tem URL descoberta. Isso é configuração de credencial no seu ambiente — nomeado aqui como
+    dependência externa para nunca virar promessa implícita do sistema.</p>
+  </div>
+</section>
+
+<!-- ============ 12 ============ -->
+<section id="riscos">
+  <div class="sh"><span class="sn">12</span><h2>Riscos e mitigação</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>Risco</th><th>Impacto</th><th>Mitigação</th></tr></thead>
+    <tbody>
+      <tr><td><b>Rota de publicação nunca consertada</b></td><td>v2 não acontece</td><td>v0/v1 já entregam valor completo com exportação manual; o sistema não depende do último centímetro para operar</td></tr>
+      <tr><td><b>Template pack engessa o visual</b></td><td>peças viram clones; anti-template reprova o próprio sistema</td><td>o template define papéis e restrições, não composição fixa; Visual Bible por campanha continua decisão editorial do agente</td></tr>
+      <tr><td><b>Logo oficial inacessível</b></td><td>wordmark composta em tipo viola o design system</td><td>bloqueio já registrado; brand pack tem slot para <code>logo.svg</code>; peça não publica sem ele resolvido</td></tr>
+      <tr><td><b>Dark-first indefinido no design system</b></td><td>direção clara das peças pode cair inteira</td><td>decisão pendente nomeada; templates parametrizam campo claro/escuro por token, não por hardcode</td></tr>
+      <tr><td><b>Gargalo de um aprovador só</b></td><td>fila para quando você para</td><td>aceito por desenho na v0; o estado torna a fila visível em vez de invisível</td></tr>
+      <tr><td><b>Métricas viram teatro</b></td><td>ciclos fecham com leitura falsa</td><td>M-02 obriga o rótulo direcional; gate 8 exige denominador; aprendizado vazio impede fechar o ciclo</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 13 ============ -->
+<section id="sucesso">
+  <div class="sh"><span class="sn">13</span><h2>Métricas de sucesso do sistema</h2></div>
+  <p>Do sistema — não da campanha. Seguidores e alcance medem a peça; isto mede se o sistema vale existir:</p>
+  <div class="tw"><table>
+    <thead><tr><th>Métrica</th><th>Fórmula</th><th>Alvo v1</th></tr></thead>
+    <tbody>
+      <tr><td>Tempo contrato → peça aprovada</td><td>timestamp aprovação − timestamp contrato</td><td class="k">&lt; 1 dia</td></tr>
+      <tr><td>Peças sem HTML manual</td><td>peças geradas por contrato ÷ peças produzidas</td><td class="k">100%</td></tr>
+      <tr><td>Gates na primeira geração</td><td>peças 12/12 verdes na 1ª compilação ÷ total</td><td class="k">&gt; 60%</td></tr>
+      <tr><td>Incidentes de copy não aprovada publicada</td><td>contagem absoluta</td><td class="k">0</td></tr>
+      <tr><td>Ciclos fechados com aprendizado real</td><td>ciclos com learning não vazio ÷ ciclos fechados</td><td class="k">100%</td></tr>
+      <tr><td>Estado divergente da realidade</td><td>auditorias em que state.md mentiu</td><td class="k">0</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ 14 ============ -->
+<section id="decisoes">
+  <div class="sh"><span class="sn">14</span><h2>Decisões abertas — suas</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>#</th><th>Decisão</th><th>Trava</th></tr></thead>
+    <tbody>
+      <tr><td class="k">D1</td><td><b>Aprovar este PRD</b> — escopo, princípios e o que ficou de fora</td><td>o início da v0</td></tr>
+      <tr><td class="k">D2</td><td><b>Onde roda</b>: sua máquina local ou a VPS</td><td>setup da v0 (o código é o mesmo)</td></tr>
+      <tr><td class="k">D3</td><td><b>Preço do Diagnóstico de Retrabalho</b></td><td>gate do estágio 3 da campanha Zionaxs — a primeira a rodar no sistema</td></tr>
+      <tr><td class="k">D4</td><td><b>Consertar a rota de publicação</b> na VPS</td><td>v2 inteira</td></tr>
+      <tr><td class="k">D5</td><td><b>Nome do sistema</b> — "Marketing OS" é provisório e colide com o nome da skill</td><td>nada; cosmético</td></tr>
+    </tbody>
+  </table></div>
+  <p>
+    Aprovado o D1, a primeira entrega da v0 é o gerador — porque é ele que dá ao resto algo para mostrar —
+    e o critério de aceite já está escrito: <b>a peça C4 nasce de um contrato, não da minha mão.</b>
+  </p>
+</section>
+
+<footer>
+  <p style="margin:0">
+    PRD v1 · 25 ago 2026 · derivado de: marketingskills 2.12.0 (skill marketing-os e suas references),
+    pipeline provado em campanhas/zionaxs/zx-19 (12 gates medidos), spec do Console de Peça,
+    e o método de contratos da base de conhecimento (Content Contract, Publication Contract, E/I/H/NC).
+    Nenhuma capacidade externa foi assumida sem verificação — dependências não resolvidas estão nomeadas
+    nos §11 e §12, não embutidas em promessa.
+  </p>
+</footer>
+</div>
