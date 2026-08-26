@@ -31,6 +31,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | lead-magnets | 2.0.0 | 2026-05-05 |
 | marketing-council | 1.0.0 | 2026-07-06 |
 | marketing-ideas | 2.0.1 | 2026-08-23 |
+| marketing-os | 1.0.0 | 2026-08-25 |
 | marketing-loops | 1.2.0 | 2026-07-10 |
 | marketing-plan | 1.1.1 | 2026-08-23 |
 | marketing-psychology | 2.0.0 | 2026-05-05 |
@@ -56,6 +57,13 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.12.0 (2026-08-25)
+
+- **New skill: `marketing-os`** — the orchestration layer. Sequences the other 50 skills into one workflow with nine stages, objective gates, and a resumable state file at `.agents/marketing-os/state.md`.
+  - Derived from the repo itself: all 50 skills read `.agents/product-marketing.md`, the `Related Skills` graph names the cross-cutting hubs (`cro` 22, `copywriting` 20, `ab-testing` 18), and `marketing-plan` and `marketing-loops` already carry workflow shape.
+  - Defers entirely to `marketing-plan`'s own three-phase machine and to `marketing-loops`' four-layer system view and rollout order. It connects them; it does not replace either.
+  - References: `workflow-map.md` (the chain, stage by stage), `stage-gates.md` (exit criteria), `state-schema.md` (resumption and the one-open-cycle rule).
 
 ### 2.11.0 (2026-08-23)
 

@@ -1,0 +1,74 @@
+{
+  "skill_name": "marketing-os",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to start marketing for my SaaS. Where do I begin?",
+      "expected_output": "Should check for .agents/product-marketing.md first. Should identify this as Stage 0 and route to the product-marketing skill. Should explain that all 50 skills read that context file, so it is the only true root. Should offer the auto-draft-from-codebase path. Should not begin producing any marketing deliverable. Should create or describe the state file at .agents/marketing-os/state.md.",
+      "assertions": [
+        "Checks for .agents/product-marketing.md",
+        "Identifies Stage 0 as the starting point",
+        "Routes to product-marketing skill",
+        "Explains that all skills read the context file",
+        "Does not produce marketing copy or deliverable",
+        "Mentions the state file location"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write me an Instagram carousel for my product.",
+      "expected_output": "Should recognize this as a Stage 5 request. Should check upstream gates before producing. If the context file, evidence or editorial calendar are missing, should name the specific gap and what it costs (copy grounded in imagined customer language), then let the user decide rather than silently refusing or silently complying. If gates are met, should route to copywriting plus social or ad-creative for the channel.",
+      "assertions": [
+        "Identifies the request as Stage 5",
+        "Checks upstream gates before producing",
+        "Names the specific missing gate rather than a generic warning",
+        "States the cost of skipping",
+        "Offers the choice instead of refusing or complying silently",
+        "Routes to the correct channel skill when gates pass"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our carousel got 40% more saves than the last one. That hook works, let's do more of those.",
+      "expected_output": "Should treat this as a Gate 8 problem. Should ask for the denominator and the sample size before accepting the result. Should reference the sample size check in ab-testing and note that most accounts cannot reach significance in one cycle. Should recommend recording it as a directional reading rather than a confirmed result. Should not congratulate the user or agree to scale the pattern on this evidence.",
+      "assertions": [
+        "Treats it as Gate 8, measurement",
+        "Asks for denominator and sample size",
+        "References ab-testing sample size check",
+        "Labels the finding as directional rather than confirmed",
+        "Does not agree to scale on this evidence"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Let's set up automated loops to run our marketing on a schedule. We just launched last week.",
+      "expected_output": "Should identify this as Stage 9 and check Gate 8 first. Should refuse to enter Stage 9 before measurement is trustworthy, explaining that loops read from analytics and loops on broken tracking act on lies at a cadence. Should point to marketing-loops references/loop-orchestration.md for the rollout order and note that tracking QA and weekly review come first. Should not propose a catalog of loops.",
+      "assertions": [
+        "Identifies Stage 9",
+        "Checks Gate 8 before proceeding",
+        "Explains that loops on broken tracking act on lies",
+        "Points to loop-orchestration.md",
+        "Names tracking QA and weekly review as the first loops",
+        "Does not propose multiple loops at once"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We're halfway through the Q3 content cycle but I want to start a whole new campaign for a webinar next month.",
+      "expected_output": "Should read the state file and find the open cycle. Should apply the one-open-cycle rule: name what is open, and offer three options — finish it, abandon it explicitly, or park it with a recorded reason. Should explain that two open cycles produce two half-campaigns and no learning from either. Should not simply start the new campaign.",
+      "assertions": [
+        "Reads the state file",
+        "Identifies the open cycle",
+        "Applies the one-open-cycle rule",
+        "Offers finish, abandon, or park with a reason",
+        "Explains the cost of two open cycles",
+        "Does not start the new campaign silently"
+      ],
+      "files": []
+    }
+  ]
+}
