@@ -1,0 +1,543 @@
+<title>Console de Peça</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#EDF0F3; --panel:#FFFFFF; --panel-2:#E3E8ED;
+  --ink:#161A1F; --ink-2:#5B6672; --ink-3:#8A94A0;
+  --rule:#D2D8DE; --rule-2:#B4BDC6;
+  --human:#B23100; --human-hi:#F54502; --human-wash:rgba(245,69,2,.08);
+  --ok:#1C6B4B; --ok-wash:rgba(28,107,75,.10);
+  --wait:#8A5A00; --wait-wash:rgba(138,90,0,.10);
+  --stop:#A3211A; --stop-wash:rgba(163,33,26,.10);
+  --sh:0 1px 0 rgba(22,26,31,.05);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D1116; --panel:#151A21; --panel-2:#1C232B;
+  --ink:#E4E8EC; --ink-2:#8E99A6; --ink-3:#6A7482;
+  --rule:#242C35; --rule-2:#36414D;
+  --human:#FF7A47; --human-hi:#FF5A1F; --human-wash:rgba(255,90,31,.13);
+  --ok:#57C08C; --ok-wash:rgba(87,192,140,.13);
+  --wait:#DFA83E; --wait-wash:rgba(223,168,62,.13);
+  --stop:#F0685E; --stop-wash:rgba(240,104,94,.13);
+  --sh:0 1px 0 rgba(0,0,0,.4);
+}}
+:root[data-theme="dark"]{
+  --bg:#0D1116; --panel:#151A21; --panel-2:#1C232B;
+  --ink:#E4E8EC; --ink-2:#8E99A6; --ink-3:#6A7482;
+  --rule:#242C35; --rule-2:#36414D;
+  --human:#FF7A47; --human-hi:#FF5A1F; --human-wash:rgba(255,90,31,.13);
+  --ok:#57C08C; --ok-wash:rgba(87,192,140,.13);
+  --wait:#DFA83E; --wait-wash:rgba(223,168,62,.13);
+  --stop:#F0685E; --stop-wash:rgba(240,104,94,.13);
+  --sh:0 1px 0 rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.62;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 26px 120px}
+
+header.mast{padding:56px 0 24px;border-bottom:2px solid var(--ink);margin-bottom:8px}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+  letter-spacing:.17em;text-transform:uppercase;color:var(--human);margin:0 0 18px;
+  display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.eyebrow .s{color:var(--rule-2)}
+h1{font-family:Archivo,sans-serif;font-weight:700;font-size:clamp(36px,5.6vw,60px);
+  line-height:1.02;letter-spacing:-.032em;margin:0 0 16px;text-wrap:balance;max-width:15ch}
+.deck{font-size:clamp(16px,2vw,20px);line-height:1.5;color:var(--ink-2);max-width:63ch;margin:0 0 28px}
+.deck b{color:var(--ink);font-weight:600}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border-top:1px solid var(--rule)}
+.meta div{padding:13px 16px 13px 0;border-right:1px solid var(--rule)}
+.meta div:last-child{border-right:none}
+.meta dt{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 4px}
+.meta dd{margin:0;font-size:14px;font-weight:500;line-height:1.35}
+
+section{padding-top:58px;scroll-margin-top:20px}
+.sh{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--ink);
+  padding-bottom:9px;margin-bottom:26px;flex-wrap:wrap}
+.sn{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;
+  color:var(--human);letter-spacing:.07em;flex:none}
+h2{font-family:Archivo,sans-serif;font-weight:600;font-size:clamp(22px,3vw,29px);
+  line-height:1.16;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h3{font-family:Archivo,sans-serif;font-weight:600;font-size:18px;letter-spacing:-.012em;
+  margin:34px 0 11px;line-height:1.28}
+h4{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin:24px 0 9px}
+p{margin:0 0 14px;max-width:70ch}
+ul,ol{margin:0 0 15px;padding-left:20px;max-width:70ch}
+li{margin-bottom:7px}
+a{color:var(--human);text-decoration:none;border-bottom:1px solid var(--human-wash)}
+a:hover{border-bottom-color:var(--human-hi)}
+a:focus-visible{outline:2px solid var(--human-hi);outline-offset:3px}
+code,.m{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.87em}
+code{background:var(--panel-2);padding:1px 5px;border-radius:3px}
+
+figure{margin:0 0 12px;background:var(--panel);border:1px solid var(--rule);
+  border-radius:8px;padding:26px 22px 16px;box-shadow:var(--sh);overflow-x:auto}
+figure svg{max-width:100%;height:auto;display:block;margin:0 auto;color:var(--ink-2)}
+figcaption{font-size:13px;color:var(--ink-2);margin-top:16px;padding-top:13px;
+  border-top:1px solid var(--rule);line-height:1.5}
+figcaption b{color:var(--ink);font-weight:600}
+
+pre{background:var(--panel);border:1px solid var(--rule);border-radius:7px;
+  padding:16px 18px;overflow-x:auto;margin:0 0 18px;box-shadow:var(--sh)}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6;color:var(--ink)}
+.cmt{color:var(--ink-3)}
+.key{color:var(--human)}
+
+.tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:7px;
+  background:var(--panel);box-shadow:var(--sh)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:700;text-align:left;
+  padding:11px 14px;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:10px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:none}
+td.k{font-family:"JetBrains Mono",monospace;font-size:12.5px;font-weight:600;white-space:nowrap}
+
+.pill{display:inline-flex;align-items:center;gap:5px;font-family:"JetBrains Mono",monospace;
+  font-size:10px;font-weight:700;letter-spacing:.08em;padding:2px 8px;border-radius:99px;
+  border:1px solid currentColor;white-space:nowrap}
+.p-ok{color:var(--ok);background:var(--ok-wash)}
+.p-wait{color:var(--wait);background:var(--wait-wash)}
+.p-stop{color:var(--stop);background:var(--stop-wash)}
+.p-hum{color:var(--human);background:var(--human-wash)}
+
+.note{border-left:3px solid var(--human-hi);background:var(--human-wash);padding:16px 20px;
+  margin:0 0 20px;border-radius:0 6px 6px 0}
+.note p:last-child{margin-bottom:0}
+.note .l{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--human);display:block;margin-bottom:7px}
+.note.stop{border-left-color:var(--stop);background:var(--stop-wash)}
+.note.stop .l{color:var(--stop)}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:13px;margin-bottom:20px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:7px;padding:16px 18px;box-shadow:var(--sh)}
+.card h4{margin:0 0 8px;color:var(--human)}
+.card p{font-size:13.5px;margin:0;color:var(--ink-2)}
+.card ul{font-size:13.5px;margin:6px 0 0;padding-left:17px;color:var(--ink-2)}
+
+.no{list-style:none;padding:0;margin:0 0 18px}
+.no li{padding-left:26px;position:relative;margin-bottom:8px;color:var(--ink-2);max-width:70ch}
+.no li::before{content:"✕";position:absolute;left:2px;top:0;color:var(--stop);
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700}
+.yes li::before{content:"✓";color:var(--ok)}
+
+footer{margin-top:64px;padding-top:20px;border-top:2px solid var(--ink);
+  font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-2);line-height:1.75}
+@media(max-width:640px){.wrap{padding:0 18px 80px}.meta div{border-right:none;border-bottom:1px solid var(--rule)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <p class="eyebrow"><span>Zionaxs</span><span class="s">/</span><span>Especificação</span>
+  <span class="s">/</span><span>v0 para aprovação</span><span class="s">/</span><span>25 ago 2026</span></p>
+  <h1>Console de Peça</h1>
+  <p class="deck">A superfície onde uma peça pronta encontra a decisão humana. Ela não cria, não edita
+  e não guarda estado próprio. Ela transforma <b>uma frase de aprovação em um contrato de autorização</b>,
+  que é exatamente o que <code>Adaptadores §5</code> exige e o Telegram não consegue entregar.</p>
+  <dl class="meta">
+    <div><dt>Decide</dt><dd>escopo, leituras, escritas, telas e critérios de aceite</dd></div>
+    <div><dt>Não decide</dt><dd>stack, hospedagem, visual da UI</dd></div>
+    <div><dt>Depende de</dt><dd>autorização sua de canal novo</dd></div>
+    <div><dt>Store próprio</dt><dd style="color:var(--ok);font-weight:600">nenhum</dd></div>
+  </dl>
+</header>
+
+<!-- 01 -->
+<section id="problema">
+  <div class="sh"><span class="sn">01</span><h2>O problema, em uma frase</h2></div>
+  <p>
+    A memória já diz o que está errado, e diz melhor do que eu diria:
+  </p>
+  <div class="note">
+    <span class="l">Adaptadores e Ferramentas, §5</span>
+    <p>"Autorização não deve depender de uma frase específica. Um atalho de comando pode existir por
+    conveniência, mas um adaptador o converte neste contrato antes de qualquer efeito externo."</p>
+  </div>
+  <p>
+    Hoje o único canal humano autorizado é o Telegram, e Telegram só produz frases. O adaptador que
+    converteria frase em contrato não existe, então a conversão acontece na cabeça de quem está executando.
+    Isso funciona enquanto for você e a Zoe. Quebra no dia em que alguém precisar auditar por que uma peça foi publicada.
+  </p>
+  <p>
+    Some a isso o que o Agent Contract exige: aprovação antecipada por peça vale <b>somente depois de todos os
+    hard gates terem passado</b>. Sem uma superfície que mostre o estado dos gates, "aprovar" é um ato de fé.
+  </p>
+  <p>
+    O Console fecha exatamente esses dois buracos. Nada mais.
+  </p>
+</section>
+
+<!-- 02 -->
+<section id="onde">
+  <div class="sh"><span class="sn">02</span><h2>Onde ele encaixa</h2></div>
+  <p>
+    O Console não introduz conceito novo. Ele é <b>a renderização da coluna <code>review</code> do Kanban do Hermes</b>,
+    que já existe, já tem estados e já foi validada em runtime em 24/08.
+  </p>
+
+  <figure>
+    <svg viewBox="0 0 980 244" role="img" aria-label="Ciclo de vida de uma peça: Zoe produz em running, os hard gates decidem entre blocked e review, o Console é o ponto de decisão humana em review, e a aprovação emite o Publication Contract que passa por preflight, Make e callback antes de done.">
+      <defs>
+        <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+        </marker>
+        <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--human-hi)"/>
+        </marker>
+      </defs>
+
+      <!-- running -->
+      <rect x="10" y="96" width="130" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="75" y="118" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="currentColor">running</text>
+      <text x="75" y="136" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">Zoe produz</text>
+
+      <line x1="140" y1="122" x2="196" y2="122" stroke="currentColor" stroke-width="1.6" marker-end="url(#a)"/>
+
+      <!-- gates -->
+      <polygon points="262,84 330,122 262,160 194,122" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="262" y="119" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">hard</text>
+      <text x="262" y="133" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">gates</text>
+
+      <!-- blocked -->
+      <line x1="262" y1="84" x2="262" y2="46" stroke="currentColor" stroke-width="1.6" marker-end="url(#a)"/>
+      <text x="272" y="66" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">falha</text>
+      <rect x="196" y="8" width="132" height="38" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="4 3"/>
+      <text x="262" y="32" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">blocked</text>
+
+      <!-- review / console -->
+      <line x1="330" y1="122" x2="388" y2="122" stroke="currentColor" stroke-width="1.6" marker-end="url(#a)"/>
+      <text x="340" y="113" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">passa</text>
+      <rect x="390" y="86" width="166" height="72" rx="5" fill="var(--human-wash)" stroke="var(--human-hi)" stroke-width="2.2"/>
+      <text x="473" y="110" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="var(--human)">review</text>
+      <text x="473" y="128" text-anchor="middle" font-family="Archivo, sans-serif" font-size="12" font-weight="600" fill="var(--human)">CONSOLE</text>
+      <text x="473" y="146" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">decisão humana</text>
+
+      <!-- reprova -->
+      <path d="M420 158 C 420 204, 120 204, 100 152" fill="none" stroke="var(--human-hi)" stroke-width="1.6" marker-end="url(#ah)"/>
+      <text x="250" y="226" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">reprova, com EXPECTED / ACTUAL / CORRECTION</text>
+
+      <!-- aprova -->
+      <line x1="556" y1="122" x2="616" y2="122" stroke="var(--human-hi)" stroke-width="2" marker-end="url(#ah)"/>
+      <text x="586" y="113" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">aprova</text>
+
+      <rect x="618" y="96" width="150" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="693" y="116" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="currentColor">Publication</text>
+      <text x="693" y="133" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="currentColor">Contract</text>
+
+      <line x1="693" y1="96" x2="693" y2="62" stroke="currentColor" stroke-width="1.6" marker-end="url(#a)"/>
+      <text x="703" y="82" font-family="Archivo, sans-serif" font-size="11" fill="currentColor">preflight, Make</text>
+
+      <line x1="768" y1="122" x2="826" y2="122" stroke="currentColor" stroke-width="1.6" marker-end="url(#a)"/>
+      <text x="797" y="113" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">callback</text>
+
+      <rect x="828" y="96" width="142" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="899" y="116" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="currentColor">done</text>
+      <text x="899" y="134" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">conta + postId + permalink</text>
+
+      <text x="899" y="176" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10.5" fill="currentColor">HTTP 200 não basta</text>
+      <line x1="899" y1="150" x2="899" y2="164" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 3"/>
+    </svg>
+    <figcaption><b>O Console ocupa um único estado do ciclo, e é o único ponto onde o sistema para e espera uma pessoa.</b>
+    O laranja marca exatamente isso ao longo de todo o documento: onde a máquina não decide sozinha. Reprovar devolve
+    a peça para produção com o formato de correção que o método já define. Aprovar não publica: emite o contrato,
+    e é o adaptador que publica.</figcaption>
+  </figure>
+</section>
+
+<!-- 03 -->
+<section id="leituras">
+  <div class="sh"><span class="sn">03</span><h2>O que ele lê, o que ele escreve</h2></div>
+  <p>
+    Esta é a decisão arquitetural que sustenta o resto: <b>o Console não tem banco.</b> Ele lê de quatro
+    fontes que já existem e escreve de volta em duas. Se ele guardasse estado, viraria a quinta fonte
+    concorrente que o seu perfil proíbe explicitamente.
+  </p>
+
+  <figure>
+    <svg viewBox="0 0 900 266" role="img" aria-label="O Console lê de Git, Kanban, Notion e do storage de mídia, e escreve de volta apenas no Kanban e no Publication Contract, sem manter nenhum armazenamento próprio.">
+      <defs>
+        <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+        </marker>
+        <marker id="bh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--human-hi)"/>
+        </marker>
+      </defs>
+
+      <text x="14" y="20" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="currentColor">LÊ</text>
+
+      <rect x="14" y="32" width="196" height="38" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <text x="28" y="56" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">Git</text>
+      <text x="72" y="56" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">método, contrato</text>
+
+      <rect x="14" y="80" width="196" height="38" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <text x="28" y="104" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">Kanban</text>
+      <text x="98" y="104" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">estado da tarefa</text>
+
+      <rect x="14" y="128" width="196" height="38" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <text x="28" y="152" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">Notion</text>
+      <text x="92" y="152" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">objeto de negócio</text>
+
+      <rect x="14" y="176" width="196" height="38" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <text x="28" y="200" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="currentColor">Drive</text>
+      <text x="82" y="200" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">pixels, QA report</text>
+
+      <line x1="210" y1="51" x2="326" y2="106" stroke="currentColor" stroke-width="1.4" marker-end="url(#b)"/>
+      <line x1="210" y1="99" x2="326" y2="116" stroke="currentColor" stroke-width="1.4" marker-end="url(#b)"/>
+      <line x1="210" y1="147" x2="326" y2="130" stroke="currentColor" stroke-width="1.4" marker-end="url(#b)"/>
+      <line x1="210" y1="195" x2="326" y2="140" stroke="currentColor" stroke-width="1.4" marker-end="url(#b)"/>
+
+      <rect x="328" y="86" width="182" height="74" rx="6" fill="var(--human-wash)" stroke="var(--human-hi)" stroke-width="2.2"/>
+      <text x="419" y="112" text-anchor="middle" font-family="Archivo, sans-serif" font-size="13.5" font-weight="700" fill="var(--human)">CONSOLE</text>
+      <text x="419" y="132" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--human)">stateless</text>
+      <text x="419" y="149" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11" fill="var(--human)">nenhum banco próprio</text>
+
+      <text x="700" y="20" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="var(--human)">ESCREVE</text>
+
+      <line x1="510" y1="110" x2="646" y2="72" stroke="var(--human-hi)" stroke-width="1.8" marker-end="url(#bh)"/>
+      <line x1="510" y1="136" x2="646" y2="176" stroke="var(--human-hi)" stroke-width="1.8" marker-end="url(#bh)"/>
+
+      <rect x="648" y="42" width="238" height="56" rx="5" fill="none" stroke="var(--human-hi)" stroke-width="1.8"/>
+      <text x="664" y="66" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="var(--human)">Kanban</text>
+      <text x="664" y="85" font-family="Archivo, sans-serif" font-size="11.5" fill="var(--human)">transição de estado + comentário</text>
+
+      <rect x="648" y="150" width="238" height="56" rx="5" fill="none" stroke="var(--human-hi)" stroke-width="1.8"/>
+      <text x="664" y="174" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700" fill="var(--human)">Publication Contract</text>
+      <text x="664" y="193" font-family="Archivo, sans-serif" font-size="11.5" fill="var(--human)">YAML versionado em Git</text>
+
+      <text x="419" y="240" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">Trocar Notion, Drive ou o Kanban não reescreve o Console.</text>
+      <text x="419" y="257" text-anchor="middle" font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor">Ele depende de contratos, não de produtos.</text>
+    </svg>
+    <figcaption><b>Quatro leituras, duas escritas, zero armazenamento.</b> O registro da decisão vira comentário
+    no Kanban mais o contrato YAML commitado, que já é rastreável e auditável. Nenhuma tabela nova, nenhum
+    espelho do Notion, nenhuma fonte concorrente.</figcaption>
+  </figure>
+</section>
+
+<!-- 04 -->
+<section id="tela">
+  <div class="sh"><span class="sn">04</span><h2>A tela</h2></div>
+  <p>
+    Uma peça por vez, em coluna única. O objetivo é que você consiga decidir sem abrir outra aba,
+    porque abrir outra aba é onde a aprovação vira fé.
+  </p>
+  <div class="tw"><table>
+    <thead><tr><th>Bloco</th><th>Mostra</th><th>Vem de</th></tr></thead>
+    <tbody>
+      <tr><td class="k">gates</td><td>os 12 gates com passa/falha e o valor medido de cada um. <b>Se algum falhou, o botão de aprovar não existe na tela.</b></td><td>QA report</td></tr>
+      <tr><td class="k">pixels</td><td>os slides navegáveis em tamanho de feed, mais a folha de contato</td><td>render</td></tr>
+      <tr><td class="k">contrato</td><td><code>approved_visible_copy</code> ao lado do que foi renderizado, com o diff literal</td><td>Content Contract</td></tr>
+      <tr><td class="k">evidência</td><td>cada afirmação com status E / I / H / NC e a fonte do ledger</td><td>Research Brief</td></tr>
+      <tr><td class="k">anti-template</td><td>as 3 peças mais recentes lado a lado, para o gate do <code>18 §7</code></td><td>Notion + Drive</td></tr>
+      <tr><td class="k">legenda</td><td>legenda e alt text por slide, como serão publicados</td><td>Content Contract</td></tr>
+      <tr><td class="k">destino</td><td>conta, plataforma e o preflight, com o resultado das 3 checagens</td><td>preflight</td></tr>
+      <tr><td class="k">escalação</td><td>itens que exigem decisão nova mesmo com a peça autorizada</td><td>Agent Contract</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="note">
+    <span class="l">O bloco de escalação é o menos óbvio e o mais importante</span>
+    <p>
+      O Agent Contract diz que oferta, preço, posicionamento, novo canal, nova conta, verba e tema sensível
+      <b>exigem autorização específica mesmo quando a peça já está autorizada</b>. Se o Console só tiver
+      "aprovar" e "reprovar", ele apaga essa distinção e vira uma máquina de contornar o contrato.
+    </p>
+  </div>
+</section>
+
+<!-- 05 -->
+<section id="decisoes">
+  <div class="sh"><span class="sn">05</span><h2>As três decisões</h2></div>
+  <div class="cards">
+    <div class="card">
+      <h4><span class="pill p-ok">aprovar</span></h4>
+      <p>Emite o Publication Contract com <code>approval_source: user</code>, dispara o preflight e move a tarefa.
+      Só fica disponível com todos os hard gates verdes.</p>
+    </div>
+    <div class="card">
+      <h4><span class="pill p-hum">reprovar</span></h4>
+      <p>Exige motivo estruturado, não texto livre: qual gate, o esperado, o observado e a menor correção.
+      É o formato de correção sem drift que o método já define. Devolve a peça para produção.</p>
+    </div>
+    <div class="card">
+      <h4><span class="pill p-wait">escalar</span></h4>
+      <p>Marca que a peça toca oferta, preço, posicionamento, canal, conta, verba ou tema sensível.
+      Não aprova e não reprova: registra que falta uma decisão que este contrato não cobre.</p>
+    </div>
+  </div>
+
+  <h4>O contrato emitido na aprovação</h4>
+  <pre><code><span class="key">effect</span>: publish
+<span class="key">destination</span>: instagram
+<span class="key">account</span>: zionaxs_
+<span class="key">approval_source</span>: user
+<span class="key">approval_scope</span>: this_carousel      <span class="cmt"># nunca general, nunca permanente</span>
+<span class="key">approval_mode</span>: advance_after_gates
+<span class="key">requires_preflight</span>: true
+<span class="key">carousel_id</span>: zx-19-hora-que-sai-de-graca
+<span class="key">task_id</span>: &lt;id da tarefa no Kanban&gt;
+<span class="key">gates_snapshot</span>: &lt;digest do QA report aprovado&gt;
+<span class="key">approved_at</span>: &lt;ISO 8601 com timezone&gt;</code></pre>
+  <p>
+    Os três últimos campos são adição minha ao YAML que já está em <code>23</code>. Sem eles não dá para
+    provar <i>qual versão</i> da peça foi aprovada, e uma aprovação que não amarra num digest é uma aprovação
+    que qualquer render posterior pode reutilizar em silêncio.
+  </p>
+</section>
+
+<!-- 06 -->
+<section id="confirmacao">
+  <div class="sh"><span class="sn">06</span><h2>A regra que já custou um incidente</h2></div>
+  <p>
+    Em <code>zx-11</code>, o Make devolveu <code>HTTP 200 Accepted</code> e a peça ficou registrada como
+    "enviado, confirmação pendente" até hoje. A nota <code>23</code> é explícita: 200 confirma recebimento,
+    não publicação.
+  </p>
+  <div class="tw"><table>
+    <thead><tr><th>Estado na tela</th><th>Condição</th></tr></thead>
+    <tbody>
+      <tr><td><span class="pill p-wait">enviado</span></td><td>webhook aceito. <b>Não é publicado.</b></td></tr>
+      <tr><td><span class="pill p-ok">publicado</span></td><td>callback com <code>accountUsername: "zionaxs_"</code>, <code>postId</code> e permalink verificável, e <code>requestId</code> correspondente</td></tr>
+      <tr><td><span class="pill p-stop">bloqueado</span></td><td>conta divergente do declarado. Sem retry live automático.</td></tr>
+    </tbody>
+  </table></div>
+  <p>
+    O Console precisa desses três estados porque a diferença entre o primeiro e o segundo é onde o sistema
+    mente para você. Uma UI com apenas "publicado ou não" reproduz o incidente.
+  </p>
+</section>
+
+<!-- 07 -->
+<section id="notion">
+  <div class="sh"><span class="sn">07</span><h2>Notion ou UI própria, resolvido</h2></div>
+  <p>
+    Você já decidiu que o Notion é a interface humana de navegação e curadoria, e que ele é a base
+    operacional dos objetos de negócio. Uma UI nova poderia competir com isso. Não compete, e o motivo é preciso:
+  </p>
+  <div class="tw"><table>
+    <thead><tr><th>Pergunta</th><th>Quem responde</th></tr></thead>
+    <tbody>
+      <tr><td>Qual é o estado atual da publicação?</td><td class="k">Notion</td></tr>
+      <tr><td>O que precisa ser feito e em que estado está?</td><td class="k">Kanban</td></tr>
+      <tr><td>Como deve ser feito?</td><td class="k">Git</td></tr>
+      <tr><td><b>Esta peça específica pode sair, agora, com esta evidência?</b></td><td class="k" style="color:var(--human)">Console</td></tr>
+    </tbody>
+  </table></div>
+  <p>
+    Nenhum dos três primeiros responde a quarta pergunta hoje, e ela é a única que precisa de olho humano
+    sobre pixel, gate e fonte ao mesmo tempo. O Console é uma <b>view de decisão</b>, não um sistema de registro.
+    Ele lê o Notion e escreve no Kanban; não substitui nem espelha nenhum dos dois.
+  </p>
+</section>
+
+<!-- 08 -->
+<section id="governanca">
+  <div class="sh"><span class="sn">08</span><h2>Isto é um canal novo</h2></div>
+  <div class="note stop">
+    <span class="l">Bloqueio de governança, antes de qualquer linha de código</span>
+    <p>
+      O Agent Contract diz: <i>"autorizar um novo canal é, em si, uma mudança de escopo, sujeita à regra de
+      autorização específica, e não uma extensão automática deste contrato."</i>
+    </p>
+    <p>
+      O Console é um canal novo por onde passa <code>approval_source: user</code>. <b>Ele não pode carregar
+      aprovação válida enquanto você não autorizar explicitamente o canal</b> e isso não for registrado.
+      Construir antes é possível; usar para aprovar de verdade, não.
+    </p>
+  </div>
+  <p>
+    A boa notícia é que o contrato já previu isto. Ele menciona, duas vezes, uma <b>"eventual Company OS"</b>
+    que "pode se somar como superfície operacional sem exigir a reescrita deste contrato". O Console é a
+    primeira peça dessa Company OS, e ela nasce dentro de uma porta que você já deixou aberta.
+  </p>
+  <p>O que precisa acontecer, em ordem: você autoriza o canal, a autorização entra no vault pelo protocolo da Inbox,
+  e só então o Console emite contrato com <code>approval_source: user</code>. Antes disso ele opera em modo leitura.</p>
+</section>
+
+<!-- 09 -->
+<section id="arquitetura">
+  <div class="sh"><span class="sn">09</span><h2>Arquitetura mínima</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>Camada</th><th>Escolha</th><th>Por quê</th></tr></thead>
+    <tbody>
+      <tr><td class="k">runtime</td><td>Node na VPS, ao lado do Hermes</td><td>onde o Kanban e o Studio já vivem</td></tr>
+      <tr><td class="k">render</td><td>HTML server-rendered</td><td>uma peça por vez não precisa de SPA</td></tr>
+      <tr><td class="k">kanban</td><td>API ou superfície de tools do Hermes</td><td><b>nunca ler o SQLite direto:</b> acopla ao interno e quebra no upgrade</td></tr>
+      <tr><td class="k">notion</td><td>resolução de adaptador de <code>Adaptadores §3</code></td><td>não assumir Composio, resolver na ordem</td></tr>
+      <tr><td class="k">auth</td><td>usuário único atrás de rede privada</td><td>não inventar identidade onde só existe uma pessoa</td></tr>
+      <tr><td class="k">estado</td><td>nenhum</td><td>a decisão do §03</td></tr>
+    </tbody>
+  </table></div>
+  <p>
+    Antes de implementar, <b>verificar em runtime</b> qual superfície o Hermes instalado expõe.
+    A própria nota do Kanban manda fazer isso e não simular suporte inexistente.
+  </p>
+</section>
+
+<!-- 10 -->
+<section id="fora">
+  <div class="sh"><span class="sn">10</span><h2>Fora da v1, de propósito</h2></div>
+  <ul class="no">
+    <li><b>Criar ou editar peça.</b> Criar é trabalho da Zoe. Editar copy na UI quebraria a regra de corrigir o spec e recompilar, e abriria drift entre contrato e pixel.</li>
+    <li><b>Multi-marca.</b> Só Zionaxs tem método e público pesquisados. Generalizar agora seria abstrair sobre uma amostra de um.</li>
+    <li><b>Métricas e analytics.</b> O macroprocesso de Monitoramento está Planejado. Um painel sem processo vira número sem dono.</li>
+    <li><b>Agendamento.</b> O Kanban já tem <code>scheduled</code> e <code>unblock</code> nativos. Duplicar isso é criar um segundo scheduler.</li>
+    <li><b>Multi-usuário, papéis e permissões.</b> Existe uma pessoa aprovando.</li>
+  </ul>
+</section>
+
+<!-- 11 -->
+<section id="aceite">
+  <div class="sh"><span class="sn">11</span><h2>Critérios de aceite</h2></div>
+  <p>A v1 está pronta quando, sem abrir outra aba:</p>
+  <ul class="no yes">
+    <li>uma peça em <code>review</code> aparece com gates, pixels, contrato, evidência e destino</li>
+    <li>o botão de aprovar é inexistente enquanto qualquer hard gate estiver vermelho</li>
+    <li>aprovar produz um Publication Contract com digest do QA e o commita</li>
+    <li>reprovar exige motivo estruturado e devolve a tarefa com comentário no Kanban</li>
+    <li>escalar registra a pendência sem aprovar nem reprovar</li>
+    <li><code>HTTP 200</code> aparece como <span class="pill p-wait">enviado</span>, e só o callback com conta, postId e permalink vira <span class="pill p-ok">publicado</span></li>
+    <li>conta divergente bloqueia e não oferece retry</li>
+    <li>o Console não grava nada fora do Kanban e do Git</li>
+  </ul>
+</section>
+
+<!-- 12 -->
+<section id="ordem">
+  <div class="sh"><span class="sn">12</span><h2>Ordem e riscos</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>Passo</th><th>Entrega</th><th>Depende de</th></tr></thead>
+    <tbody>
+      <tr><td class="k">0</td><td>autorização do canal e registro no vault</td><td style="color:var(--human)">você</td></tr>
+      <tr><td class="k">1</td><td>probe de runtime: o que o Hermes expõe</td><td>VPS</td></tr>
+      <tr><td class="k">2</td><td>Console em modo leitura, sem botões</td><td>passo 1</td></tr>
+      <tr><td class="k">3</td><td>emissão do Publication Contract e escrita no Kanban</td><td>passo 0 e 2</td></tr>
+      <tr><td class="k">4</td><td>ligação com preflight e callback</td><td>rota de publicação consertada</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4>Riscos honestos</h4>
+  <ul>
+    <li><b>O passo 4 depende de um bloqueio que não é meu nem seu.</b> A rota para <code>zionaxs_</code> está quebrada desde 20/08. O Console fica em leitura até ela voltar.</li>
+    <li><b>O Studio ainda não é Git.</b> O pipeline do <code>zx-19</code> já está versionado, mas o resto do workspace não. O Console lê artefato de execução: sem versionamento, ele mostra o que existe agora, não o que foi aprovado antes.</li>
+    <li><b>Acoplamento ao Hermes.</b> Se a superfície de tools mudar num upgrade, o Console quebra. Mitigação é isolar num adaptador único, na mesma lógica que a nota de Adaptadores já aplica a todo o resto.</li>
+  </ul>
+</section>
+
+<footer>
+  <p style="margin:0">
+    v0 para aprovação · derivado de <b>zionaxs-memory</b> <code>4931651</code>:
+    Zoe Agent Contract, Adaptadores e Ferramentas §3 e §5, 23 Registro de Publicações,
+    10 Mapa Operacional §1, 11 Kanban §2 e §3, 00 Sistema Universal de Carrosséis §9.
+    Nenhuma capacidade do Hermes, do Make ou do Notion foi assumida sem verificação em runtime.
+    Onde este documento propõe algo novo, está marcado como proposta.
+  </p>
+</footer>
+</div>
