@@ -1,0 +1,15 @@
+{
+  "published": [
+    {
+      "id": "zx-19-hora-que-sai-de-graca",
+      "title": "A hora que sai de graça",
+      "campaign": "Capacidade antes de oferta",
+      "piece": "C1",
+      "legacy": true,
+      "contactSheet": "../../campanhas/zionaxs/zx-19/out/zx-19-contact-sheet.png",
+      "contract": "../../campanhas/zionaxs/zx-19/content-contract.json",
+      "permalink": null,
+      "note": "Produzida antes do sistema, pipeline manual. Publicação pendente da rota."
+    }
+  ]
+}

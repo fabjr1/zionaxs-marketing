@@ -1,0 +1,35 @@
+{
+  "name": "Zionaxs",
+  "wordmark": "Zionaxs",
+  "logoSvg": null,
+  "logoPending": "Design System oficial (projeto Claude Design) detém o SVG; wordmark composta em tipo é paliativo registrado — peça não publica sem resolver.",
+  "colors": {
+    "paper": "#F5F6F7",
+    "ink": "#14171B",
+    "muted": "#5A6270",
+    "rule": "#D8DCE1",
+    "rule2": "#B9C0C8",
+    "accent": "#F54502",
+    "accentInk": "#B23100",
+    "darkInk": "#FFFFFF",
+    "darkRule": "#39404A",
+    "darkMuted": "#98A1AD",
+    "hatchA": "#E7E9EC",
+    "cellBg": "#FFFFFF"
+  },
+  "fonts": {
+    "display": "Poppins",
+    "body": "Archivo",
+    "mono": "JetBrains Mono",
+    "cssFile": "fonts/fonts.css"
+  },
+  "type": {
+    "display": 80, "title": 64, "body": 46, "secondary": 34,
+    "note": 26, "kicker": 26, "figure": 232, "figureDuo": 150
+  },
+  "formats": {
+    "carousel-4x5": { "w": 1080, "h": 1350, "mx": 80, "my": 88 },
+    "static-1x1":   { "w": 1080, "h": 1080, "mx": 80, "my": 80 },
+    "story-9x16":   { "w": 1080, "h": 1920, "mx": 80, "my": 120 }
+  }
+}

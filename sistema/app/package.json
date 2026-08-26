@@ -1,0 +1,19 @@
+{
+  "name": "marketing-os",
+  "version": "0.1.0",
+  "description": "Sistema pessoal de marketing operado por agente \u2014 gerador por contrato, gates medidos, console de decis\u00e3o e publica\u00e7\u00e3o contratada.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node bin/check.js",
+    "test": "node --test 'test/**/*.test.js'",
+    "gen": "node bin/gen.js",
+    "console": "node bin/console.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "brandDir": "brand",
+  "piecesDir": "pieces",
+  "libraryFile": "library.json",
+  "stateFile": "state.md",
+  "defaultFormat": "carousel-4x5"
+}

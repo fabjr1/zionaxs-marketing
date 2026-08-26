@@ -1,0 +1,336 @@
+{
+  "id": "zx-20-capacidade-antes-de-oferta",
+  "brand": "Zionaxs",
+  "campaign": "Capacidade antes de oferta",
+  "piece": "C4 · semana 2 · quinta",
+  "matriz": "M11",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "V2 escritórios contábeis (BR) / persona C1, sócio-operador contábil generalista. Secundário: C3, líder da transição consultiva.",
+    "decisao": "Empacotar (ou não) uma oferta consultiva de Reforma Tributária agora, e com base em que números.",
+    "tensao": "A leitura corrente é que o setor está atrasado em conhecimento. O gargalo real é capacidade: consultoria é trabalho não recorrente que disputa as horas do sócio numa operação desenhada para recorrência.",
+    "evidencia": [
+      {
+        "claim": "68% dos escritórios já foram procurados por clientes sobre a Reforma Tributária",
+        "status": "E",
+        "fonte": "[S23] Fenacon, 15 jul 2026 — amostra não explicitada na publicação; sinal, não censo"
+      },
+      {
+        "claim": "56% continuam consumindo conteúdo sem plano definido",
+        "status": "E",
+        "fonte": "[S23] Fenacon, 15 jul 2026 — amostra não explicitada"
+      },
+      {
+        "claim": "61% ainda não haviam mapeado o impacto da Reforma na carteira",
+        "status": "E",
+        "fonte": "[S22] Omie/Fenacon, 13 mar 2026, n=633 — sondagem de fornecedor"
+      },
+      {
+        "claim": "consultoria disputa as mesmas horas do sócio que a operação recorrente",
+        "status": "I",
+        "fonte": null
+      },
+      {
+        "claim": "calendário legal da Reforma (datas, alíquotas, fases)",
+        "status": "NC",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "percentuais das sondagens, com recorte declarado"
+      ],
+      "I": [
+        "mecanismo de competição por capacidade"
+      ],
+      "H": [
+        "que os três números mudem a decisão de empacotar"
+      ],
+      "NC": [
+        "calendário legal — nenhuma peça cita data ou alíquota até a fonte primária entrar no ledger"
+      ]
+    },
+    "limites": [
+      "Sondagens patrocinadas por fornecedor de software; uma delas sem amostra explicitada.",
+      "Nenhuma data ou alíquota da Reforma é citada — o calendário legal é NC no ledger.",
+      "A aritmética do slide 7 é ilustrativa do método, não benchmark de mercado."
+    ],
+    "consequencia": "O leitor sai com três números para calcular antes de montar qualquer pacote, e um teste objetivo: se as horas não couberem no calendário, o pacote ainda não existe."
+  },
+  "tese": "A demanda da Reforma chegou antes da capacidade — e capacidade não se resolve estudando mais.",
+  "categoria_editorial": "notícia e análise",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JF6",
+    "JT4"
+  ],
+  "repertorio": {
+    "id": "R7",
+    "autor": "James G. March",
+    "modo": "citação literal verificada + tradução editorial",
+    "fonte": "[S33]"
+  },
+  "cta": "Escolher os 20 primeiros clientes e marcar no calendário onde as horas cabem.",
+  "comprimento_justificado": "8 unidades porque a narrativa tem 8 tarefas cognitivas: reconhecer o sinal, aceitar os números com recorte, localizar o problema real, entender o mecanismo de capacidade, reformular a pergunta, aplicar os três números, ver a conta num exemplo com limite, decidir a ação. Nenhuma unidade preenche contagem.",
+  "internal_metadata": [
+    "C4",
+    "M11",
+    "zx-20",
+    "capa",
+    "diagnóstico",
+    "mecanismo",
+    "virada",
+    "critério",
+    "exemplo",
+    "limite",
+    "fechamento",
+    "evidência",
+    "respiro",
+    "JF6",
+    "JT4",
+    "[S22]",
+    "[S23]",
+    "[S33]",
+    "acquisition"
+  ],
+  "allowlist_editorial": [
+    {
+      "termo": "fechamento",
+      "slide": 6,
+      "justificativa": "Acepção de período contábil de fechamento mensal — vocabulário próprio de C1 registrado em [19b §7.7] — não o rótulo narrativo de unidade."
+    }
+  ],
+  "caption": [
+    "A leitura mais comum das sondagens recentes é que o setor está atrasado em conhecimento. A leitura da Zionaxs é outra: o gargalo é capacidade, não currículo.",
+    "Consultoria é trabalho não recorrente. Ela entra num mês já desenhado em torno de obrigações com data fixa, e disputa exatamente as horas do sócio, que é quem também executa. Por isso o pacote que parece pronto na apresentação não sai do papel: não existe janela onde ele caiba.",
+    "Antes de empacotar, três números. Horas do sócio fora do calendário obrigatório. Quantos clientes cabem no primeiro lote. Em que semana do mês a entrega não colide com fechamento. Se os três não fecharem, o problema não é a oferta.",
+    "Vale uma ressalva sobre a métrica de qualquer experimento assim. James March escreveu, em 1991, que \"adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run\". Em tradução editorial livre: a operação madura sempre parece mais eficiente que o experimento novo, e é por isso que o experimento precisa de orçamento, métrica e cadência próprios.",
+    "Escolha os 20 primeiros clientes e marque as horas no calendário."
+  ],
+  "caption_sources": [
+    "Fontes: sondagens do setor contábil sobre Reforma Tributária divulgadas pela Fenacon em 13/03/2026 (n=633) e 15/07/2026 (amostra não explicitada na publicação). Ambas patrocinadas por fornecedor de software, tratadas como sinal e não como censo.",
+    "Referência: James G. March, Exploration and Exploitation in Organizational Learning, Organization Science 2(1), 1991.",
+    "Este conteúdo não substitui análise contábil ou jurídica profissional."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "cover",
+      "kicker": "Reforma Tributária",
+      "copy": {
+        "title": "68% dos escritórios\njá foram procurados\nsobre a Reforma.",
+        "accentLine": "O que falta não\né informação.",
+        "sub": "Escritórios contábeis, Brasil, 2026.",
+        "note": "Fenacon, jul 2026. Amostra não explicitada — sinal, não censo."
+      },
+      "approved_visible_copy": [
+        "Reforma Tributária",
+        "01/08",
+        "68% dos escritórios já foram procurados sobre a Reforma.",
+        "O que falta não é informação.",
+        "Escritórios contábeis, Brasil, 2026.",
+        "Fenacon, jul 2026. Amostra não explicitada — sinal, não censo.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 1 de 8. 68% dos escritórios já foram procurados sobre a Reforma. O que falta não é informação. Tipografia sobre papel claro, a segunda frase em laranja, com a ressalva da amostra visível no rodapé do próprio slide. A capa desloca o problema de conhecimento para capacidade."
+    },
+    {
+      "n": 2,
+      "papel_interno": "evidência",
+      "layout": "figure-duo",
+      "kicker": "Sondagens 2026",
+      "copy": {
+        "items": [
+          {
+            "value": "56%",
+            "label": "consumindo conteúdo\nsem plano definido",
+            "sub": "Fenacon · jul 2026"
+          },
+          {
+            "value": "61%",
+            "label": "sem mapeamento\nda carteira",
+            "sub": "Omie/Fenacon · mar 2026 · n=633"
+          }
+        ],
+        "note": "Sondagens patrocinadas por fornecedor de software.\nJul 2026 sem amostra explicitada. Sinal, não censo."
+      },
+      "approved_visible_copy": [
+        "Sondagens 2026",
+        "02/08",
+        "56%",
+        "consumindo conteúdo sem plano definido",
+        "Fenacon · jul 2026",
+        "61%",
+        "sem mapeamento da carteira",
+        "Omie/Fenacon · mar 2026 · n=633",
+        "Sondagens patrocinadas por fornecedor de software. Jul 2026 sem amostra explicitada. Sinal, não censo.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 2 de 8. Dois números lado a lado com a data de cada um: 56% consumindo conteúdo sem plano definido, julho de 2026; 61% sem mapeamento da carteira, março de 2026, n igual a 633. A ressalva de que são sondagens de fornecedor está no próprio slide, não só na legenda, porque o recorte faz parte da afirmação."
+    },
+    {
+      "n": 3,
+      "papel_interno": "diagnóstico",
+      "layout": "lines",
+      "kicker": "Na prática",
+      "copy": {
+        "lines": [
+          "A demanda chegou\nantes da capacidade."
+        ],
+        "closing": "E capacidade não se resolve estudando mais."
+      },
+      "approved_visible_copy": [
+        "Na prática",
+        "03/08",
+        "A demanda chegou antes da capacidade.",
+        "E capacidade não se resolve estudando mais.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 3 de 8. A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais. Duas frases em escala decrescente, sem imagem. O diagnóstico desloca a solução de mais estudo para gestão de horas."
+    },
+    {
+      "n": 4,
+      "papel_interno": "mecanismo",
+      "layout": "strip",
+      "kicker": "O mês",
+      "copy": {
+        "title": "Consultoria é trabalho\nnão recorrente numa\noperação desenhada\npara recorrência.",
+        "cells": [
+          {
+            "label": "S1",
+            "state": "off"
+          },
+          {
+            "label": "S2",
+            "state": "on"
+          },
+          {
+            "label": "S3",
+            "state": "off"
+          },
+          {
+            "label": "S4",
+            "state": "on"
+          },
+          {
+            "label": "S5",
+            "state": "off"
+          }
+        ],
+        "legendOn": "vão livre",
+        "legendOff": "calendário obrigatório",
+        "closing": "Ela disputa o mesmo par de mãos\nque fecha a folha."
+      },
+      "approved_visible_copy": [
+        "O mês",
+        "04/08",
+        "Consultoria é trabalho não recorrente numa operação desenhada para recorrência.",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "vão livre",
+        "calendário obrigatório",
+        "Ela disputa o mesmo par de mãos que fecha a folha.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 4 de 8. Consultoria é trabalho não recorrente numa operação desenhada para recorrência. Um mês dividido em cinco semanas: três hachuradas como calendário obrigatório e duas marcadas como vão livre. Os vãos são a minoria, e é isso que o slide mostra. Ela disputa o mesmo par de mãos que fecha a folha."
+    },
+    {
+      "n": 5,
+      "papel_interno": "virada",
+      "layout": "statement",
+      "dark": true,
+      "kicker": "Horas livres",
+      "copy": {
+        "big": true,
+        "title": "A pergunta não é\nqual pacote vender.",
+        "accent": "É quantas horas\nlivres existem no\nmês da entrega."
+      },
+      "approved_visible_copy": [
+        "Horas livres",
+        "05/08",
+        "A pergunta não é qual pacote vender.",
+        "É quantas horas livres existem no mês da entrega.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 5 de 8. A pergunta não é qual pacote vender. É quantas horas livres existem no mês da entrega. Único slide de fundo grafite escuro da sequência, com a segunda frase em laranja. A ruptura de campo marca a reformulação da pergunta comercial em pergunta de capacidade."
+    },
+    {
+      "n": 6,
+      "papel_interno": "critério",
+      "layout": "fields",
+      "kicker": "Três números",
+      "copy": {
+        "title": "Antes de empacotar,\ntrês números.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Horas do sócio fora do calendário obrigatório"
+          },
+          {
+            "num": "02",
+            "label": "Quantos clientes cabem no primeiro lote"
+          },
+          {
+            "num": "03",
+            "label": "Em que semana a entrega não colide com o fechamento"
+          }
+        ]
+      },
+      "approved_visible_copy": [
+        "Três números",
+        "06/08",
+        "Antes de empacotar, três números.",
+        "01",
+        "Horas do sócio fora do calendário obrigatório",
+        "02",
+        "Quantos clientes cabem no primeiro lote",
+        "03",
+        "Em que semana a entrega não colide com o fechamento",
+        "Zionaxs"
+      ],
+      "alt": "Slide 6 de 8. Antes de empacotar, três números. Três campos numerados para o leitor preencher: horas do sócio fora do calendário obrigatório; quantos clientes cabem no primeiro lote; em que semana a entrega não colide com o fechamento. O slide funciona como formulário, e é por isso que ele é salvo."
+    },
+    {
+      "n": 7,
+      "papel_interno": "exemplo",
+      "layout": "math",
+      "kicker": "A conta",
+      "copy": {
+        "expression": "20 × 2h = 40h",
+        "body": "A conta é simples. A pergunta é onde\nessas 40 horas estão no seu mês.",
+        "citation": "\"Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.\" James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento — por isso o experimento exige orçamento, métrica e cadência próprios."
+      },
+      "approved_visible_copy": [
+        "A conta",
+        "07/08",
+        "20 × 2h = 40h",
+        "A conta é simples. A pergunta é onde essas 40 horas estão no seu mês.",
+        "\"Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.\" James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento — por isso o experimento exige orçamento, métrica e cadência próprios.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 7 de 8. A aritmética aberta na tela: vinte clientes vezes duas horas são quarenta horas. A conta é simples; a pergunta é onde essas quarenta horas estão no seu mês. Abaixo, a citação literal verificada de James March, 1991, com a tradução editorial marcada como tal — o limite da evidência acompanha o exemplo."
+    },
+    {
+      "n": 8,
+      "papel_interno": "fechamento",
+      "layout": "statement",
+      "kicker": "Seus 20",
+      "copy": {
+        "title": "Escolha os 20\nprimeiros clientes\ne marque no calendário\nonde as horas cabem.",
+        "accent": "Se não couberem,\no pacote ainda não existe."
+      },
+      "approved_visible_copy": [
+        "Seus 20",
+        "08/08",
+        "Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem.",
+        "Se não couberem, o pacote ainda não existe.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 8 de 8. Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. Se não couberem, o pacote ainda não existe. Fechamento com uma única ação, coerente com a categoria: aplicar o teste de capacidade antes de qualquer conversa comercial."
+    }
+  ]
+}

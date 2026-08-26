@@ -1,0 +1,238 @@
+{
+  "pieceId": "zx-20-capacidade-antes-de-oferta",
+  "generatedAt": "2026-08-26T01:49:14+00:00",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-20-capacidade-antes-de-oferta-slide-01.png",
+    "zx-20-capacidade-antes-de-oferta-slide-02.png",
+    "zx-20-capacidade-antes-de-oferta-slide-03.png",
+    "zx-20-capacidade-antes-de-oferta-slide-04.png",
+    "zx-20-capacidade-antes-de-oferta-slide-05.png",
+    "zx-20-capacidade-antes-de-oferta-slide-06.png",
+    "zx-20-capacidade-antes-de-oferta-slide-07.png",
+    "zx-20-capacidade-antes-de-oferta-slide-08.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        80,
+        34,
+        26
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Reforma Tributária01/08 68% dos escritórios já foram procurados sobre a Reforma. O que falta não é informação. Escritórios contábeis, Brasil, 2026. Fenacon, jul 2026. Amostra não explicitada — sinal, não censo. Zionaxs"
+    },
+    {
+      "n": 2,
+      "minContrast": 3.38,
+      "levels": [
+        150,
+        34,
+        26
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Sondagens 202602/08 56% consumindo conteúdo sem plano definido Fenacon · jul 2026 61% sem mapeamento da carteira Omie/Fenacon · mar 2026 · n=633 Sondagens patrocinadas por fornecedor de software. Jul 2026 sem amostra explicitada. Sinal, não censo. Zionaxs"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        46
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Na prática03/08 A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais. Zionaxs"
+    },
+    {
+      "n": 4,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        46,
+        30
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "O mês04/08 Consultoria é trabalho não recorrente numa operação desenhada para recorrência. S1S2S3S4S5 vão livre calendário obrigatório Ela disputa o mesmo par de mãos que fecha a folha. Zionaxs"
+    },
+    {
+      "n": 5,
+      "minContrast": 4.91,
+      "levels": [
+        80
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Horas livres05/08 A pergunta não é qual pacote vender. É quantas horas livres existem no mês da entrega. Zionaxs"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Três números06/08 Antes de empacotar, três números. 01Horas do sócio fora do calendário obrigatório 02Quantos clientes cabem no primeiro lote 03Em que semana a entrega não colide com o fechamento Zionaxs"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        88,
+        46,
+        26
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "A conta07/08 20 × 2h = 40h A conta é simples. A pergunta é onde essas 40 horas estão no seu mês. \"Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.\" James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento — por isso o experimento exige orçamento, métrica e cadência próprios. Zionaxs"
+    },
+    {
+      "n": 8,
+      "minContrast": 3.38,
+      "levels": [
+        64
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Seus 2008/08 Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. Se não couberem, o pacote ainda não existe. Zionaxs"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 8 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "1 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "8 unidades"
+    }
+  ],
+  "pass": true,
+  "digest": "9f8be39a2d4319b44f4f7cac0569e1be486271640fed8befadad8f1e0713eb61"
+}
