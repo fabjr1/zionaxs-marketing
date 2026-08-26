@@ -64,9 +64,11 @@ export async function renderPiece({ contract, brand, pieceDir, compiledFile }) {
       await Promise.all(faces.map((f) => document.fonts.load(f).catch(() => [])));
     }, facesFor(brand));
 
+    const t0 = Date.now();
     const measure = await page.evaluate(pageProbe, {
       SAFE: { x: fmt.mx, y: fmt.my },
       FACES: facesFor(brand),
+      DISPLAYMIN: brand.type.title, // tipo display: toda quebra é autoral (G7)
     });
 
     const files = [];
@@ -110,6 +112,7 @@ export async function renderPiece({ contract, brand, pieceDir, compiledFile }) {
       })),
       gates: result.gates,
       pass: result.pass,
+      durationSeconds: Math.round((Date.now() - t0) / 100) / 10, // N-04 no relatório
       digest,
     };
     fs.writeFileSync(path.join(outDir, 'render-report.json'), JSON.stringify(report, null, 2) + '\n');

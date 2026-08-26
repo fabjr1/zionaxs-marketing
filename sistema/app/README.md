@@ -86,3 +86,21 @@ explícita via `MOS_ROOT`/`--root`. O layout interno não muda.
 - **Aprovação amarra no digest** da geração; regenerar invalida.
 - **Render 100% offline**: http/https abortado e contado como falha.
 - **Segredos só por env** (`MOS_WEBHOOK_KEY`, `MOS_TOKEN`) — nunca em arquivo versionado.
+
+## Endurecimento pós-revisão adversarial
+
+Uma revisão adversarial (finders independentes + céticos por achado, 19
+achados confirmados, 0 refutados) levou a estas garantias adicionais:
+
+- **G5 mede o fundo real do elemento** (célula clara em slide escuro mede
+  contra o claro), **G7 pega tipo display quebrando sem `<br>`**, e o probe
+  enxerga texto em elementos aninhados (`<i>`, spans de acento).
+- **Reprovação depois de aprovação prevalece** no status derivado; peça já
+  enviada/publicada não aceita reprovação (`REJECT_TOO_LATE`).
+- **Registrar permalink exige aprovação vigente** (P7 — sem atalho para
+  "publicada").
+- **Console:** token CSRF por boot em todo POST, comparação de `MOS_TOKEN`
+  em tempo constante, body malformado não derruba o processo.
+- **Fluxo:** gate "cumprido" sem ponteiro **não conta** no roteamento (F-04);
+  `state.md` nasce sozinho no primeiro uso (F-01); abandonar/estacionar/
+  retomar ciclo existem e toda operação de fluxo commita (`lib/flow.js`).

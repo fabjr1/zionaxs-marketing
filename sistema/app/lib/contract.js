@@ -80,7 +80,7 @@ export function validateContract(contract, brand, template) {
   const total = slides.length;
   const pad = (n) => String(n).padStart(2, '0');
 
-  const internal = (contract.internal_metadata || []).filter((m) => m.length > 3);
+  const internal = (contract.internal_metadata || []).filter((m) => m.length >= 2);
   const allow = new Map(); // slideN -> Set(termos)
   for (const a of contract.allowlist_editorial || []) {
     if (!a.termo || !a.slide || !a.justificativa) {
@@ -117,8 +117,13 @@ export function validateContract(contract, brand, template) {
     }
     const pg = `${pad(s.n)}/${pad(total)}`;
     if (!approvedSet.has(pg)) err(where, `paginação "${pg}" fora da approved_visible_copy`);
-    if (brand.wordmark && !approvedSet.has(normText(brand.wordmark))) {
+    // com logo.svg oficial no brand pack o rodapé é imagem, não texto:
+    // exigir a wordmark na copy tornaria G10 impossível (e vice-versa)
+    if (!brand.logoSvg && brand.wordmark && !approvedSet.has(normText(brand.wordmark))) {
       err(where, `wordmark "${brand.wordmark}" fora da approved_visible_copy`);
+    }
+    if (brand.logoSvg && approvedSet.has(normText(brand.wordmark || ''))) {
+      err(where, 'com logo.svg instalado a wordmark não é renderizada — remova-a da approved_visible_copy');
     }
 
     // todo slot de copy precisa estar aprovado (senão G9 reprova no pixel;
@@ -140,7 +145,8 @@ export function validateContract(contract, brand, template) {
     }
 
     // aprovado mas não renderizável (não é slot nem chrome) → G10 reprovaria.
-    const chrome = new Set([normText(s.kicker || ''), pg, normText(brand.wordmark || '')]);
+    const chrome = new Set([normText(s.kicker || ''), pg]);
+    if (!brand.logoSvg) chrome.add(normText(brand.wordmark || ''));
     const slotSet = new Set(slotStrings);
     for (const a of approved) {
       if (!slotSet.has(a) && !chrome.has(a)) {

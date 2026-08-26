@@ -87,3 +87,13 @@ test('G12: alt fora do template reprova', () => {
   c.slides[4].alt = 'Slide errado de 8. Uma descrição suficientemente longa para passar no tamanho.';
   assert.equal(evaluateGates(greenMeasure(c), c, brand).gates.find((g) => g.id === 'G12').pass, false);
 });
+
+test('G11: rótulo interno de 2 caracteres (ex. "S1") também reprova', () => {
+  const c = clone(c4);
+  c.internal_metadata = [...(c.internal_metadata || []), 'S1'];
+  const m = greenMeasure(c);
+  m.perSlide[1].renderedText += ' S1';
+  const g = evaluateGates(m, c, brand).gates.find((x) => x.id === 'G11');
+  assert.equal(g.pass, false, 'filtro de comprimento não pode isentar rótulos curtos');
+  assert.match(JSON.stringify(g.failures), /S1/);
+});

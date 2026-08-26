@@ -63,6 +63,13 @@ export function buildExport(ws, piece) {
  * Grava publication/published.json + commit.
  */
 export function registerPermalink(ws, piece, permalink, { manual = true } = {}) {
+  // P7: efeito externo só com aprovação vigente. Sem approved.yaml com o
+  // digest da geração atual, registrar permalink seria publicar por atalho.
+  if (piece.status !== STATUS.APPROVED && piece.status !== STATUS.SENT) {
+    const e = new Error(`registro de permalink exige peça aprovada no digest atual (status: ${piece.status})`);
+    e.code = 'PERMALINK_REFUSED';
+    throw e;
+  }
   const url = String(permalink || '').trim();
   if (!/^https:\/\/(www\.)?instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?/.test(url)) {
     const e = new Error('permalink inválido — cole a URL do post no Instagram (https://www.instagram.com/p/…)');

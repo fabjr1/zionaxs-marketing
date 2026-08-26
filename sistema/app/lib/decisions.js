@@ -50,6 +50,11 @@ export function approve(ws, piece, publishTarget) {
  * observado, menor correção. Texto livre não é aceito.
  */
 export function reject(ws, piece, { gate, expected, actual, correction }) {
+  if (piece.status === 'enviada' || piece.status === 'publicada') {
+    const e = new Error(`peça já ${piece.status} — reprovação não alcança o que já saiu; trate no canal`);
+    e.code = 'REJECT_TOO_LATE';
+    throw e;
+  }
   for (const [k, v] of Object.entries({ gate, expected, actual, correction })) {
     if (!v || !String(v).trim()) {
       const e = new Error(`reprovação exige o campo "${k}" (C-06)`);
@@ -58,7 +63,7 @@ export function reject(ws, piece, { gate, expected, actual, correction }) {
     }
   }
   const dir = ensureDir(path.join(piece.dir, 'decisions'));
-  const stamp = isoNow().replace(/[:+]/g, '').slice(0, 15);
+  const stamp = isoNow().replace(/[:+]/g, '').slice(0, 17) + '-' + Math.random().toString(36).slice(2, 6);
   const file = path.join(dir, `rejected-${stamp}.yaml`);
   fs.writeFileSync(file, emitYaml({
     decision: 'reject',
@@ -91,7 +96,7 @@ export function escalate(ws, piece, { topic, note }) {
     throw e;
   }
   const dir = ensureDir(path.join(piece.dir, 'decisions'));
-  const stamp = isoNow().replace(/[:+]/g, '').slice(0, 15);
+  const stamp = isoNow().replace(/[:+]/g, '').slice(0, 17) + '-' + Math.random().toString(36).slice(2, 6);
   const file = path.join(dir, `escalated-${stamp}.yaml`);
   fs.writeFileSync(file, emitYaml({
     decision: 'escalate',

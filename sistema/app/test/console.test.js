@@ -13,18 +13,18 @@ function listen(server) {
   });
 }
 
-async function boot({ token = null } = {}) {
+async function boot({ token = null, state = true } = {}) {
   const root = makeTmpWorkspace({ git: true });
   fabricatePiece(root, 'zx-c1');
-  fs.writeFileSync(path.join(root, 'state.md'), [
+  if (state) fs.writeFileSync(path.join(root, 'state.md'), [
     '# Marketing OS — Teste', '', 'stage: 5', 'cycle: t-c1', 'open_since: 2026-08-26', 'channel: instagram-carousel', '',
     '## Gates met', '- [x] 0 foundation   → ctx.md', '- [ ] 5 production', '',
     '## Accepted gaps', '', '## Open decisions', '', '## Last learning', '',
   ].join('\n'));
   if (token) process.env.MOS_TOKEN = token; else delete process.env.MOS_TOKEN;
-  const { server } = createServer({ root, token });
+  const { server, csrf } = createServer({ root, token });
   const base = await listen(server);
-  return { root, server, base };
+  return { root, server, base, csrf };
 }
 
 test('fila lista a peça com estado derivado e o ciclo', async () => {
@@ -49,11 +49,11 @@ test('tela da peça: gates, evidência, diff e formulários de decisão', async 
 });
 
 test('POST reprovar sem campos vira flash de erro, não 500', async () => {
-  const { server, base } = await boot();
+  const { server, base, csrf } = await boot();
   const res = await fetch(base + '/piece/zx-c1/reject', {
     method: 'POST', redirect: 'manual',
     headers: { 'content-type': 'application/x-www-form-urlencoded' },
-    body: 'gate=G6&expected=x&actual=y&correction=',
+    body: `ct=${csrf}&gate=G6&expected=x&actual=y&correction=`,
   });
   assert.equal(res.status, 303);
   assert.match(res.headers.get('location'), /k=err/);
@@ -61,8 +61,8 @@ test('POST reprovar sem campos vira flash de erro, não 500', async () => {
 });
 
 test('POST aprovar → contrato emitido e status muda na fila', async () => {
-  const { server, base } = await boot();
-  const res = await fetch(base + '/piece/zx-c1/approve', { method: 'POST', redirect: 'manual', headers: { 'content-type': 'application/x-www-form-urlencoded' }, body: '' });
+  const { server, base, csrf } = await boot();
+  const res = await fetch(base + '/piece/zx-c1/approve', { method: 'POST', redirect: 'manual', headers: { 'content-type': 'application/x-www-form-urlencoded' }, body: `ct=${csrf}` });
   assert.equal(res.status, 303);
   const html = await (await fetch(base + '/piece/zx-c1')).text();
   assert.match(html, /aprovada/);
@@ -91,5 +91,48 @@ test('biblioteca e fluxo respondem', async () => {
   const st = await (await fetch(base + '/state')).text();
   assert.match(st, /Gates do fluxo/);
   assert.match(st, /sem ponteiro não é gate/);
+  server.close();
+});
+
+test('CSRF: POST sem ct (ou com ct errado) é recusado com 403', async () => {
+  const { root, server, base } = await boot();
+  const noCt = await fetch(base + '/piece/zx-c1/approve', {
+    method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded' }, body: '',
+  });
+  assert.equal(noCt.status, 403);
+  const wrongCt = await fetch(base + '/piece/zx-c1/approve', {
+    method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded' }, body: 'ct=nao-e-o-token',
+  });
+  assert.equal(wrongCt.status, 403);
+  // nenhuma decisão foi gravada
+  assert.ok(!fs.existsSync(path.join(root, 'pieces', 'zx-c1', 'decisions', 'approved.yaml')));
+  server.close();
+});
+
+test('a página da peça embute o ct nos formulários', async () => {
+  const { server, base, csrf } = await boot();
+  const html = await (await fetch(base + '/piece/zx-c1')).text();
+  assert.match(html, new RegExp(`name="ct" value="${csrf}"`));
+  server.close();
+});
+
+test('body urlencoded malformado não derruba o servidor', async () => {
+  const { server, base } = await boot();
+  const res = await fetch(base + '/piece/zx-c1/reject', {
+    method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded' },
+    body: 'gate=%zz&expected=%',
+  });
+  assert.ok(res.status >= 400, 'request malformada é erro, não sucesso');
+  // o processo continua servindo
+  assert.equal((await fetch(base + '/')).status, 200);
+  server.close();
+});
+
+test('F-01: state.md nasce no primeiro uso do console', async () => {
+  const { root, server, base } = await boot({ state: false });
+  assert.ok(fs.existsSync(path.join(root, 'state.md')), 'esqueleto criado no boot');
+  const html = await (await fetch(base + '/state')).text();
+  assert.match(html, /Gates do fluxo/);
+  assert.match(html, /foundation/);
   server.close();
 });

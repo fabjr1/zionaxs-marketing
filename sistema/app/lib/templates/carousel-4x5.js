@@ -75,7 +75,7 @@ body{font-family:${f.body},sans-serif;-webkit-font-smoothing:antialiased;font-ke
 .reg .t{font-size:${t.secondary}px;font-weight:500;line-height:1.35}
 .cal{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:24px}
 .wk{border:2px solid ${c.rule2};border-radius:6px;background:${c.cellBg};padding:24px 12px;text-align:center;
-  font-family:"${f.mono}",monospace;font-size:30px;font-weight:700;color:${c.muted}}
+  font-family:"${f.mono}",monospace;font-size:${t.note}px;font-weight:700;color:${c.muted}}
 .wk.on{border-color:${c.accent};color:${c.accentInk}}
 .wk.off{background:repeating-linear-gradient(45deg,${c.hatchA} 0 8px,${c.paper} 8px 16px);color:${c.muted}}
 .callab{font-family:"${f.mono}",monospace;font-size:${t.note}px;color:${c.muted};margin-top:16px;display:flex;gap:38px}
@@ -84,7 +84,7 @@ body{font-family:${f.body},sans-serif;-webkit-font-smoothing:antialiased;font-ke
 .dot.x{border-color:${c.rule2};background:repeating-linear-gradient(45deg,${c.hatchA} 0 5px,${c.paper} 5px 10px)}
 .diag{display:grid;grid-template-columns:1fr 96px 1fr;align-items:center;margin-top:52px}
 .diag .col{display:flex;flex-direction:column;gap:18px}
-.cell{background:${c.cellBg};border:2px solid ${c.rule2};border-radius:6px;
+.cell{background:${c.cellBg};color:${c.ink};border:2px solid ${c.rule2};border-radius:6px;
   padding:22px 26px;font-size:${t.secondary}px;line-height:1.3;font-weight:500}
 .cell.out{border-color:${c.accent};color:${c.accentInk};font-weight:600}
 .arrows{position:relative;height:100%;min-height:230px}

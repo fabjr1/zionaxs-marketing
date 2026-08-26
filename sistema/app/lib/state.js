@@ -13,7 +13,7 @@ export const STAGES = [
 export function parseState(text) {
   const s = {
     brand: null, stage: null, cycle: null, openSince: null, channel: null,
-    gates: [], acceptedGaps: [], openDecisions: [], lastLearning: null,
+    gates: [], acceptedGaps: [], openDecisions: [], parked: [], lastLearning: null,
   };
   const lines = String(text).split('\n');
   let section = null;
@@ -32,6 +32,15 @@ export function parseState(text) {
     }
     if (section === 'accepted gaps' && line.startsWith('- ')) { s.acceptedGaps.push(line.slice(2)); continue; }
     if (section === 'open decisions' && line.startsWith('- ')) { s.openDecisions.push(line.slice(2)); continue; }
+    if (section === 'parked' && line.startsWith('- ')) {
+      const [cycle, openSince, channel, parkedAt, ...rest] = line.slice(2).split(' | ');
+      s.parked.push({
+        cycle, openSince,
+        channel: channel === 'null' ? null : channel,
+        parkedAt, reason: rest.join(' | '),
+      });
+      continue;
+    }
     if (section === 'last learning' && line.trim() && !line.startsWith('#')) {
       s.lastLearning = (s.lastLearning ? s.lastLearning + '\n' : '') + line.trim();
     }
@@ -61,10 +70,36 @@ export function serializeState(s) {
   L.push('## Open decisions');
   for (const d of s.openDecisions) L.push(`- ${d}`);
   L.push('');
+  if (s.parked?.length) {
+    L.push('## Parked');
+    for (const pk of s.parked) {
+      L.push(`- ${pk.cycle} | ${pk.openSince} | ${pk.channel ?? 'null'} | ${pk.parkedAt} | ${pk.reason}`);
+    }
+    L.push('');
+  }
   L.push('## Last learning');
   if (s.lastLearning) L.push(s.lastLearning);
   L.push('');
   return L.join('\n');
+}
+
+/** Nomes de gate por estágio (0–8; o estágio 9 é operação contínua, sem gate). */
+export const GATE_NAMES = STAGES.slice(0, 9);
+
+/** Estado esqueleto (F-01): nasce no primeiro uso, nunca à mão. */
+export function initState(brand) {
+  return {
+    brand: brand || 'Marca',
+    stage: 0, cycle: null, openSince: null, channel: null,
+    gates: GATE_NAMES.map((name, stage) => ({ met: false, stage, name, pointer: null })),
+    acceptedGaps: [], openDecisions: [], parked: [], lastLearning: null,
+  };
+}
+
+/** Garante state.md no primeiro uso (F-01). Devolve o estado carregado. */
+export function ensureState(file, brand) {
+  if (!fs.existsSync(file)) saveState(file, initState(brand));
+  return loadState(file);
 }
 
 export function loadState(file) {
@@ -133,14 +168,78 @@ export function closeCycle(state, learning) {
 }
 
 /**
+ * Gate efetivo (F-04): "cumprido" sem ponteiro não conta — a marcação sem
+ * artefato é exatamente o que a regra existe para impedir.
+ */
+export function effectiveMet(g) {
+  return Boolean(g.met && g.pointer && String(g.pointer).trim());
+}
+
+/**
+ * Abandonar ciclo (F-03): fecha sem aprendizado, mas nunca sem registro —
+ * o abandono vira lacuna aceita datada. Gates 4–8 resetam como no fechamento.
+ */
+export function abandonCycle(state, reason) {
+  if (!state.cycle) throw new Error('não há ciclo aberto para abandonar');
+  if (!reason || !reason.trim()) {
+    const e = new Error('abandonar ciclo exige motivo — abandono sem registro é lacuna invisível (F-03)');
+    e.code = 'REASON_REQUIRED';
+    throw e;
+  }
+  state.acceptedGaps.push(`${today()} · ciclo ${state.cycle} abandonado · ${reason.trim()}`);
+  state.cycle = null;
+  state.openSince = null;
+  for (const g of state.gates) {
+    if (g.stage >= 4 && g.stage <= 8) { g.met = false; g.pointer = null; }
+  }
+  return state;
+}
+
+/**
+ * Estacionar ciclo (F-03): pausa preservando contexto para retomada.
+ * Diferente do abandono, os gates NÃO resetam — o ciclo volta de onde parou.
+ */
+export function parkCycle(state, reason) {
+  if (!state.cycle) throw new Error('não há ciclo aberto para estacionar');
+  if (!reason || !reason.trim()) {
+    const e = new Error('estacionar ciclo exige motivo (F-03)');
+    e.code = 'REASON_REQUIRED';
+    throw e;
+  }
+  state.parked.push({
+    cycle: state.cycle, openSince: state.openSince, channel: state.channel,
+    parkedAt: today(), reason: reason.trim(),
+  });
+  state.cycle = null;
+  state.openSince = null;
+  return state;
+}
+
+/** Retomar ciclo estacionado. Recusa se já existe ciclo aberto (F-03). */
+export function resumeParked(state, cycleId) {
+  if (state.cycle) {
+    const e = new Error(`já existe ciclo aberto (${state.cycle}) — um ciclo por vez (F-03)`);
+    e.code = 'CYCLE_OPEN';
+    throw e;
+  }
+  const i = state.parked.findIndex((pk) => pk.cycle === cycleId);
+  if (i < 0) throw new Error(`ciclo estacionado não encontrado: ${cycleId}`);
+  const [pk] = state.parked.splice(i, 1);
+  state.cycle = pk.cycle;
+  state.openSince = pk.openSince;
+  if (pk.channel) state.channel = pk.channel;
+  return state;
+}
+
+/**
  * Roteamento (F-02): a regra da skill marketing-os, executável.
  * Devolve { action, stage?, reason }.
  */
 export function route(state) {
   if (!state) return { action: 'start', stage: 0, reason: 'sem estado — Estágio 0 sempre (contexto de produto)' };
   const g0 = state.gates.find((g) => g.stage === 0);
-  if (!g0?.met) return { action: 'gate', stage: 0, reason: 'gate 0 não cumprido: contexto de produto é a única raiz' };
-  const firstUnmet = state.gates.find((g) => !g.met);
+  if (!g0 || !effectiveMet(g0)) return { action: 'gate', stage: 0, reason: 'gate 0 não cumprido: contexto de produto é a única raiz' };
+  const firstUnmet = state.gates.find((g) => !effectiveMet(g));
   if (state.cycle && firstUnmet) {
     return { action: 'resume', stage: firstUnmet.stage, reason: `ciclo ${state.cycle} aberto — retomar no primeiro gate não cumprido` };
   }

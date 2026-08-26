@@ -141,7 +141,9 @@ export function stateView({ state }) {
   if (!state) return '<div class="note err">sem state.md</div>';
   const rows = state.gates.map((g) => `<tr>
     <td class="mono">${g.stage}</td><td>${esc(g.name)}</td>
-    <td>${g.met ? '<span class="pill s-ok">cumprido</span>' : '<span class="pill s-wait">pendente</span>'}</td>
+    <td>${g.met && g.pointer ? '<span class="pill s-ok">cumprido</span>'
+      : g.met ? '<span class="pill s-stop">sem ponteiro — não conta (F-04)</span>'
+      : '<span class="pill s-wait">pendente</span>'}</td>
     <td class="mono">${g.pointer ? esc(g.pointer) : '<em>sem ponteiro</em>'}</td>
   </tr>`).join('');
   const gaps = state.acceptedGaps.map((g) => `<li>${esc(g)}</li>`).join('') || '<li><em>nenhuma</em></li>';
@@ -158,9 +160,10 @@ export function stateView({ state }) {
 }
 
 // ---------- tela da peça (C-02..C-07) ----------
-export function pieceView({ p, previous, history, token, canApproveRes }) {
+export function pieceView({ p, previous, history, token, csrf, canApproveRes }) {
   const t = token ? `?t=${encodeURIComponent(token)}` : '';
-  const tk = token ? `<input type="hidden" name="t" value="${esc(token)}">` : '';
+  const tk = (token ? `<input type="hidden" name="t" value="${esc(token)}">` : '')
+    + (csrf ? `<input type="hidden" name="ct" value="${esc(csrf)}">` : '');
   const c = p.contract;
   const total = c.slides.length;
 

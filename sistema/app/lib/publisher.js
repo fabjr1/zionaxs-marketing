@@ -87,7 +87,7 @@ export function reconcileCallback(cfg, requestId, r) {
     };
   }
   if (j.ok === false || j.status === 'failed') {
-    return { state: 'blocked', reason: `falha declarada pelo cenário: ${JSON.stringify(j.error).slice(0, 200)}` };
+    return { state: 'blocked', reason: `falha declarada pelo cenário: ${JSON.stringify(j.error ?? null).slice(0, 200)}` };
   }
   const confirmed = j.ok === true && j.status === 'published' &&
     j.accountUsername === cfg.expectedAccount && j.postId && j.permalink;

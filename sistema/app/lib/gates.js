@@ -10,7 +10,7 @@ import { normText } from './util.js';
  * runts, quebras não autorais, níveis tipográficos e o texto renderizado.
  * (Não usa nada de fora do closure — exigência do evaluate.)
  */
-export function pageProbe({ SAFE, FACES }) {
+export function pageProbe({ SAFE, FACES, DISPLAYMIN }) {
   const lum = (rgb) => {
     const v = rgb.match(/\d+/g).slice(0, 3).map(Number).map((c) => {
       c /= 255;
@@ -29,11 +29,23 @@ export function pageProbe({ SAFE, FACES }) {
   const slides = [...document.querySelectorAll('.slide')];
   const perSlide = slides.map((s) => {
     const r = s.getBoundingClientRect();
-    const bg = getComputedStyle(s).backgroundColor;
+    const slideBg = getComputedStyle(s).backgroundColor;
+    // fundo real do elemento: o primeiro backgroundColor pintado subindo a
+    // árvore (uma célula branca num slide escuro mede contra o branco)
+    const bgOf = (el) => {
+      let n = el;
+      while (n && n !== s.parentElement) {
+        const c = getComputedStyle(n).backgroundColor;
+        if (c && c !== 'transparent' && !/^rgba\(0, 0, 0, 0\)$/.test(c)) return c;
+        n = n.parentElement;
+      }
+      return slideBg;
+    };
     const dims = { w: Math.round(r.width), h: Math.round(r.height) };
     const overflow = { x: s.scrollWidth - s.clientWidth, y: s.scrollHeight - s.clientHeight };
 
-    const texts = [...s.querySelectorAll('h1,p,span,div')].filter((el) => {
+    const texts = [...s.querySelectorAll('*')].filter((el) => {
+      if (el.closest('svg')) return false;
       const t = [...el.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim());
       return t && el.offsetWidth > 0;
     });
@@ -54,7 +66,7 @@ export function pageProbe({ SAFE, FACES }) {
       const size = parseFloat(cs.fontSize);
       const weight = parseInt(cs.fontWeight, 10) || 400;
       const large = size >= 24 || (size >= 18.66 && weight >= 700);
-      const cr = ratio(cs.color, bg);
+      const cr = ratio(cs.color, bgOf(el));
       contrasts.push({ text: el.textContent.trim().slice(0, 34),
         size: Math.round(size), weight, ratio: Math.round(cr * 100) / 100,
         need: large ? 3.0 : 4.5, pass: cr >= (large ? 3.0 : 4.5) });
@@ -73,7 +85,8 @@ export function pageProbe({ SAFE, FACES }) {
         const rects = linesArr.map((l) => ({ width: l.right - l.left }));
         if (rects.length > 1) {
           const brs = el.querySelectorAll('br').length;
-          if (brs > 0 && rects.length > brs + 1) {
+          const isDisplay = size >= DISPLAYMIN;
+          if ((brs > 0 && rects.length > brs + 1) || (brs === 0 && isDisplay)) {
             badWrap.push({ text: el.textContent.trim().slice(0, 46),
               linhas: rects.length, quebrasAutorais: brs + 1 });
           }
@@ -99,7 +112,7 @@ export function pageProbe({ SAFE, FACES }) {
     clone.querySelectorAll('br').forEach((n) => n.replaceWith(document.createTextNode(' ')));
     const renderedText = clone.textContent.replace(/\s+/g, ' ').trim();
 
-    return { dims, overflow, outOfSafe, contrasts, runts, badWrap, levels, chromeLevels, renderedText };
+    return { dims, overflow, outOfSafe, contrasts, runts, badWrap, levels, chromeLevels, renderedText, bg: slideBg };
   });
 
   return { fonts, perSlide };
@@ -154,7 +167,7 @@ export function evaluateGates(measure, contract, brand) {
 
   // G9/G10/G11 — copy literal contra o contrato
   const g9 = [], g10 = [], g11 = [];
-  const internal = (contract.internal_metadata || []).filter((m) => m.length > 3);
+  const internal = (contract.internal_metadata || []).filter((m) => m.length >= 2);
   const allow = new Map();
   for (const a of contract.allowlist_editorial || []) {
     if (!allow.has(a.slide)) allow.set(a.slide, new Set());

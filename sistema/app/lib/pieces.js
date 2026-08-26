@@ -60,7 +60,11 @@ export function loadPiece(ws, id) {
   if (p.publication?.state === 'blocked') p.status = STATUS.BLOCKED;
   else if (p.publication?.state === 'published') p.status = STATUS.PUBLISHED;
   else if (p.publication?.state === 'sent') p.status = STATUS.SENT;
-  else if (p.approval) {
+  else if (p.approval && p.rejections.length && newest(p.rejections) >= p.approval.mtime) {
+    // reprovação POSTERIOR à aprovação revoga a aprovação (C-06):
+    // a decisão mais recente do operador vence
+    p.status = STATUS.REJECTED;
+  } else if (p.approval) {
     // aprovação amarra num digest; regeneração posterior invalida (C-05)
     const approvedDigest = readApprovalDigest(p.approval.file);
     if (p.report && approvedDigest && approvedDigest === p.report.digest) p.status = STATUS.APPROVED;

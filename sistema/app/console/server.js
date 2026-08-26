@@ -6,9 +6,10 @@ import http from 'node:http';
 import path from 'node:path';
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
+import { randomUUID, createHash, timingSafeEqual } from 'node:crypto';
 import { loadWorkspace } from '../lib/workspace.js';
 import { loadAllPieces, loadPiece, canApprove, STATUS } from '../lib/pieces.js';
-import { loadState } from '../lib/state.js';
+import { loadState, ensureState } from '../lib/state.js';
 import { approve, reject, escalate } from '../lib/decisions.js';
 import { buildExport, registerPermalink } from '../lib/exporter.js';
 import { addReading } from '../lib/measure.js';
@@ -28,6 +29,14 @@ function repoTop(root) {
   } catch { return root; }
 }
 
+/** Comparação em tempo constante (o hash iguala os comprimentos). */
+function safeEq(a, b) {
+  if (typeof a !== 'string' || typeof b !== 'string') return false;
+  const ha = createHash('sha256').update(a).digest();
+  const hb = createHash('sha256').update(b).digest();
+  return timingSafeEqual(ha, hb);
+}
+
 function parseBody(req) {
   return new Promise((resolve, reject2) => {
     let data = '';
@@ -36,13 +45,19 @@ function parseBody(req) {
       if (data.length > 1e6) { reject2(new Error('body grande demais')); req.destroy(); }
     });
     req.on('end', () => {
-      const out = {};
-      for (const kv of data.split('&')) {
-        if (!kv) continue;
-        const [k, v] = kv.split('=');
-        out[decodeURIComponent(k)] = decodeURIComponent((v || '').replace(/\+/g, ' '));
+      // decodeURIComponent lança em %-sequência malformada; sem o try/catch
+      // um body inválido derrubaria o processo (exceção em event handler).
+      try {
+        const out = {};
+        for (const kv of data.split('&')) {
+          if (!kv) continue;
+          const [k, v] = kv.split('=');
+          out[decodeURIComponent(k)] = decodeURIComponent((v || '').replace(/\+/g, ' '));
+        }
+        resolve(out);
+      } catch {
+        reject2(new Error('body malformado — codificação urlencoded inválida'));
       }
-      resolve(out);
     });
     req.on('error', reject2);
   });
@@ -51,6 +66,11 @@ function parseBody(req) {
 export function createServer({ root, token = process.env.MOS_TOKEN || null } = {}) {
   const ws = loadWorkspace(root);
   const top = repoTop(ws.root);
+  // F-01: o estado nasce no primeiro uso — nunca escrito à mão.
+  ensureState(ws.stateFile, ws.brand.name || 'Marca');
+  // CSRF (single-user): token por boot embutido em cada form; um site externo
+  // não lê a página (same-origin), logo não forja o POST.
+  const csrf = randomUUID();
 
   // biblioteca: entradas legadas do library.json + peças locais publicadas
   function libraryEntries() {
@@ -113,7 +133,10 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
       if (req.method === 'POST') bodyParams = await parseBody(req);
       if (token) {
         const got = url.searchParams.get('t') || bodyParams.t;
-        if (got !== token) return send(403, page({ title: 'Acesso', token: null, body: '<div class="note err">token ausente ou inválido — abra com ?t=SEU_TOKEN</div>' }));
+        if (!safeEq(got ?? '', token)) return send(403, page({ title: 'Acesso', token: null, body: '<div class="note err">token ausente ou inválido — abra com ?t=SEU_TOKEN</div>' }));
+      }
+      if (req.method === 'POST' && !safeEq(bodyParams.ct ?? '', csrf)) {
+        return send(403, page({ title: 'Acesso', token: null, body: '<div class="note err">token de sessão ausente ou expirado — recarregue a página e repita a ação</div>' }));
       }
       const flash = url.searchParams.get('m')
         ? { msg: url.searchParams.get('m'), kind: url.searchParams.get('k') || 'ok' } : null;
@@ -209,7 +232,7 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
           title: p.contract.tese ? p.contract.tese.slice(0, 60) : id,
           token, flash,
           body: pieceView({
-            p, token,
+            p, token, csrf,
             previous: previousSheets(id),
             history: pieceHistory(ws.root, p.dir),
             canApproveRes: canApprove(p),
@@ -223,7 +246,7 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
     }
   });
 
-  return { server, ws };
+  return { server, ws, csrf };
 }
 
 export function start({ root, port = Number(process.env.MOS_PORT || 4870), host = process.env.MOS_HOST || '127.0.0.1' } = {}) {
