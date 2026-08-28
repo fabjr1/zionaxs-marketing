@@ -1,6 +1,7 @@
 {
   "pieceId": "zx-20-capacidade-antes-de-oferta",
-  "generatedAt": "2026-08-26T02:39:56+00:00",
+  "generatedAt": "2026-08-28T13:47:44-03:00",
+  "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
     "w": 1080,
@@ -234,6 +235,6 @@
     }
   ],
   "pass": true,
-  "durationSeconds": 0.8,
-  "digest": "8bcb3339632306a0defc9c1a88f4c428683c907b207fd63731ac8c800bc56d83"
+  "durationSeconds": 0.7,
+  "digest": "de8146375855bade9f91cf926ca5d4173fa3f157223e2e758a6792c786212154"
 }
