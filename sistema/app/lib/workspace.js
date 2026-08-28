@@ -39,8 +39,44 @@ export function loadWorkspace(argRoot) {
     stateFile: safeJoin(root, config.stateFile || 'state.md'),
     libraryFile: safeJoin(root, config.libraryFile || 'library.json'),
     pieceDir(id) { return safeJoin(this.piecesDir, id); },
+
+    // ---- fluxo de campanhas (aditivo; ausência não quebra nada) ----
+    brandsDir: safeJoin(root, config.brandsDir || 'brands'),
+    campaignsDir: safeJoin(root, config.campaignsDir || 'campaigns'),
+    brandManifestFile(id) { return safeJoin(this.brandsDir, id, 'manifest.json'); },
+    campaignDir(id) { return safeJoin(this.campaignsDir, id); },
+
+    /**
+     * Raiz da Zionaxs Memory. Env vence o config para permitir apontar outra
+     * cópia local sem editar o workspace versionado. `null` é estado legítimo:
+     * o sistema opera em modo degradado e sinaliza a limitação (§12).
+     */
+    get memoryRoot() {
+      const r = process.env.MOS_MEMORY_ROOT || config.memoryRoot || null;
+      return r ? path.resolve(root, r) : null;
+    },
   };
   return ws;
+}
+
+/** Marcas com manifesto declarado. */
+export function listBrandIds(ws) {
+  if (!fs.existsSync(ws.brandsDir)) return [];
+  return fs.readdirSync(ws.brandsDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    .filter((n) => fs.existsSync(path.join(ws.brandsDir, n, 'manifest.json')))
+    .sort();
+}
+
+/** Campanhas existentes (identificadas por campaign.json). */
+export function listCampaignIds(ws) {
+  if (!fs.existsSync(ws.campaignsDir)) return [];
+  return fs.readdirSync(ws.campaignsDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    .filter((n) => fs.existsSync(path.join(ws.campaignsDir, n, 'campaign.json')))
+    .sort();
 }
 
 export function listPieceIds(ws) {

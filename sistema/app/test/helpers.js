@@ -41,6 +41,62 @@ export function makeTmpWorkspace({ git = false, fonts = false } = {}) {
   return root;
 }
 
+/**
+ * Vault de memória temporário: notas com frontmatter, opcionalmente sob git
+ * para exercitar a proveniência. `notes` é { caminhoRelativo: conteúdo }.
+ */
+export function makeTmpMemory({ git = false, notes = {}, inbox = true } = {}) {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mos-mem-'));
+  for (const [rel, content] of Object.entries(notes)) {
+    const abs = path.join(root, rel);
+    fs.mkdirSync(path.dirname(abs), { recursive: true });
+    fs.writeFileSync(abs, content);
+  }
+  if (inbox) fs.mkdirSync(path.join(root, 'Inbox', 'Agents', 'claude-code'), { recursive: true });
+  if (git) {
+    execFileSync('git', ['init', '-q'], { cwd: root });
+    execFileSync('git', ['add', '-A'], { cwd: root });
+    execFileSync('git', ['-c', 'user.name=t', '-c', 'user.email=t@t', 'commit', '-q', '-m', 'notas'], { cwd: root });
+  }
+  return root;
+}
+
+/** Nota do vault com frontmatter no formato da política de metadados. */
+export function memoryNote({ title, area = 'marketing', status = 'ativo', autoridade = 'canonica', atualizado = '2026-08-26', body = 'Conteúdo da nota com um parágrafo suficientemente longo para virar resumo referencial no pacote de contexto.' }) {
+  return `---
+area: ${area}
+status: ${status}
+autoridade: ${autoridade}
+atualizado_em: ${atualizado}
+tags:
+  - teste
+---
+
+# ${title}
+
+${body}
+`;
+}
+
+/** Workspace com marca declarada apontando para um vault temporário. */
+export function withBrand(root, memoryRoot, { id = 'marca', referencias = null } = {}) {
+  const cfg = JSON.parse(fs.readFileSync(path.join(root, 'config.json'), 'utf8'));
+  cfg.brandsDir = 'brands';
+  cfg.campaignsDir = 'campaigns';
+  cfg.memoryRoot = memoryRoot;
+  fs.writeFileSync(path.join(root, 'config.json'), JSON.stringify(cfg, null, 2));
+  const dir = path.join(root, 'brands', id);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'manifest.json'), JSON.stringify({
+    id, nome: id,
+    referencias: referencias || [
+      { papel: 'posicionamento', caminho: 'pos.md', autoridade: 'canonica' },
+      { papel: 'publico', caminho: 'pub.md', autoridade: 'canonica' },
+    ],
+  }, null, 2));
+  return dir;
+}
+
 /** Peça fabricada: contrato + relatório verde + PNGs mínimos (sem render). */
 export function fabricatePiece(root, id, { pass = true, digest = 'deadbeef'.repeat(8) } = {}) {
   const dir = path.join(root, 'pieces', id);

@@ -4,6 +4,7 @@
 // régua WCAG que os gates cobram das peças.
 import { esc, normText } from '../lib/util.js';
 import { STATUS } from '../lib/pieces.js';
+import { CAMPAIGN_CSS } from './campaign-views.js';
 
 const CSS = `
 :root{
@@ -91,7 +92,7 @@ export function page({ title, body, token, flash }) {
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} · Marketing OS</title>
 <link rel="stylesheet" href="/brandfonts/fonts.css">
-<style>${CSS}</style>
+<style>${CSS}${CAMPAIGN_CSS}</style>
 </head>
 <body>
 <div class="wrap">
@@ -99,6 +100,7 @@ export function page({ title, body, token, flash }) {
   <div><span class="eyebrow">Marketing OS</span><h1>${esc(title)}</h1></div>
   <nav>
     <a href="/${t}">Fila</a>
+    <a href="/campaigns${t}">Campanhas</a>
     <a href="/state${t}">Fluxo</a>
     <a href="/library${t}">Biblioteca</a>
   </nav>

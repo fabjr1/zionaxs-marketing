@@ -1,0 +1,51 @@
+{
+  "id": "zionaxs",
+  "nome": "Zionaxs",
+  "nota": "Manifesto de Marca (§8.1). Declara QUAIS notas da Zionaxs Memory governam esta marca. Guarda referências, nunca cópia de conteúdo — a nota canônica continua sendo a fonte. Um papel com duas referências canônicas é conflito e sobe para decisão humana (RB-08).",
+  "referencias": [
+    {
+      "papel": "posicionamento",
+      "caminho": "Contexto/02 - Zionaxs - Identidade e Negócio.md",
+      "autoridade": "canonica",
+      "nota": "identidade, foco de valor e diretriz de posicionamento comercial"
+    },
+    {
+      "papel": "publico",
+      "caminho": "Marketing/Marcas/Zionaxs/Público/19b - Zionaxs - Personas, JTBD, Rotinas e Dores.md",
+      "autoridade": "canonica",
+      "nota": "personas funcionais V1 (clínicas), V2 (contábil) e V3 (advocacia), JTBD e dores"
+    },
+    {
+      "papel": "provas",
+      "caminho": "Marketing/Marcas/Zionaxs/Público/19a - Zionaxs - Segmentos, Sinais e Evidência de Público.md",
+      "autoridade": "canonica",
+      "nota": "ledger de fontes e política de evidência — origem das classificações E/I/H/NC"
+    },
+    {
+      "papel": "linguagem",
+      "caminho": "Marketing/Marcas/Zionaxs/Público/19c - Zionaxs - Matriz Editorial, Repertório e Linguagem.md",
+      "autoridade": "canonica",
+      "nota": "matriz editorial, repertório e linguagem literal do público"
+    },
+    {
+      "papel": "design",
+      "caminho": "Marketing/Marcas/Zionaxs/Visual/07 - Zionaxs - Design System.md",
+      "autoridade": "canonica",
+      "nota": "resumo-ponte do design system; a autoridade superior é o projeto externo Claude Design"
+    },
+    {
+      "papel": "campanhas",
+      "caminho": "Marketing/Marcas/Zionaxs/Editorial/12 - Zionaxs - Playbook de Carrosséis.md",
+      "autoridade": "canonica",
+      "obrigatorio": false,
+      "nota": "playbook de carrosséis — método editorial da marca"
+    },
+    {
+      "papel": "aprendizados",
+      "caminho": "Marketing/Universal/Carrosséis/03 - Decisões e Aprendizados de Carrosséis.md",
+      "autoridade": "suporte",
+      "obrigatorio": false,
+      "nota": "decisões e aprendizados acumulados; suporte, não governa"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+name: Validate Marketing OS app
+
+# §19 Fase 0.3 e §18: a CI cobria só skills, então regressões do app passavam.
+# O render é parte do contrato (gates medidos no pixel), logo o Chromium do
+# Playwright é provisionado aqui — sem ele, os testes de render não rodam.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sistema/app/**"
+      - "sistema/workspace/**"
+      - ".github/workflows/validate-app.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "sistema/app/**"
+      - "sistema/workspace/**"
+      - ".github/workflows/validate-app.yml"
+
+concurrency:
+  group: validate-app-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: sistema/app
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft != true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: sistema/app/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      # O Playwright é pinado em versão exata; o cache segue o lockfile para
+      # que uma troca de versão do pacote invalide o navegador em cache.
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('sistema/app/package-lock.json') }}
+
+      - name: Install Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      # Mesmo com cache do navegador, as dependências de sistema do Chromium
+      # não são cacheadas pelo actions/cache — precisam ser reinstaladas.
+      - name: Install Chromium system dependencies
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
+      - name: Syntax check
+        run: npm run check
+
+      - name: Test
+        run: npm test
+        env:
+          MOS_ROOT: ../workspace

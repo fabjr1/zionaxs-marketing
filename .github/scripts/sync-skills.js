@@ -18,11 +18,14 @@ const README_FILE = "README.md";
  * Parse YAML frontmatter from a SKILL.md file
  */
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  // `\r?\n` em todo o parsing: um checkout com core.autocrlf=true entrega
+  // CRLF, e exigir só \n fazia o frontmatter voltar vazio para TODA skill —
+  // o que produzia uma tabela de descrições em branco no README.
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return {};
 
   const frontmatter = {};
-  const lines = match[1].split("\n");
+  const lines = match[1].split(/\r?\n/);
 
   for (const line of lines) {
     const colonIndex = line.indexOf(":");
@@ -113,8 +116,11 @@ function generateSkillsTable(skills) {
 function updateReadme(skills) {
   const content = fs.readFileSync(README_FILE, "utf8");
 
-  // Match content between skill list markers
-  const tableRegex = /(<!-- SKILLS:START -->\n)[\s\S]*?(\n<!-- SKILLS:END -->)/;
+  // Match content between skill list markers.
+  // `\r?\n` porque um checkout com core.autocrlf=true (Windows) entrega CRLF:
+  // exigir só \n fazia o script avisar "marcadores não encontrados" e sair sem
+  // sincronizar, mesmo com os marcadores presentes.
+  const tableRegex = /(<!-- SKILLS:START -->\r?\n)[\s\S]*?(\r?\n<!-- SKILLS:END -->)/;
   const newTable = generateSkillsTable(skills);
 
   if (!tableRegex.test(content)) {

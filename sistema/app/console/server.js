@@ -12,10 +12,20 @@ import { loadAllPieces, loadPiece, canApprove, STATUS } from '../lib/pieces.js';
 import { loadState, ensureState } from '../lib/state.js';
 import { approve, reject, escalate } from '../lib/decisions.js';
 import { buildExport, registerPermalink } from '../lib/exporter.js';
-import { addReading } from '../lib/measure.js';
+import { addReading, addCampaignReading } from '../lib/measure.js';
 import { pieceHistory } from '../lib/gitio.js';
 import { readJson, exists, safeJoin } from '../lib/util.js';
 import { page, queueView, pieceView, stateView, libraryView } from './views.js';
+import { listBrands, resolveBrand } from '../lib/brands.js';
+import { buildContextPackage } from '../lib/memory.js';
+import {
+  loadCampaign, loadAllCampaigns, createCampaign, saveContextPackage, closeCampaign,
+} from '../lib/campaigns.js';
+import { newBrief, loadBrief, saveBrief, approveBrief, applyEdits } from '../lib/brief.js';
+import { newPlan, newFront, loadPlan, savePlan } from '../lib/plan.js';
+import { addFeedback, loadFeedback, updateFeedback, contradictions, FEEDBACK_OUTCOME } from '../lib/feedback.js';
+import { draftFromFeedback, proposeLearning, recordPromotion } from '../lib/learning.js';
+import { campaignQueueView, campaignView, learningDraftView } from './campaign-views.js';
 
 const MIME = {
   '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml',
@@ -52,7 +62,13 @@ function parseBody(req) {
         for (const kv of data.split('&')) {
           if (!kv) continue;
           const [k, v] = kv.split('=');
-          out[decodeURIComponent(k)] = decodeURIComponent((v || '').replace(/\+/g, ' '));
+          const key = decodeURIComponent(k);
+          const val = decodeURIComponent((v || '').replace(/\+/g, ' '));
+          // Chave repetida vira array (checkbox múltiplo — RF-08.2 exige mais
+          // de uma classificação por devolutiva). Chave única segue escalar,
+          // para não mudar o contrato dos formulários existentes.
+          if (key in out) out[key] = Array.isArray(out[key]) ? [...out[key], val] : [out[key], val];
+          else out[key] = val;
         }
         resolve(out);
       } catch {
@@ -237,6 +253,204 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
             history: pieceHistory(ws.root, p.dir),
             canApproveRes: canApprove(p),
           }),
+        }));
+      }
+
+      // ---- fila de campanhas ----
+      if (url.pathname === '/campaigns') {
+        return send(200, page({
+          title: 'Campanhas', token, flash,
+          body: campaignQueueView({ campaigns: loadAllCampaigns(ws), brands: listBrands(ws), token, csrf }),
+        }));
+      }
+
+      if (url.pathname === '/campaigns/new' && req.method === 'POST') {
+        try {
+          const r = resolveBrand(ws, bodyParams.brand);
+          if (!r.ok) return redirect('/campaigns', r.why, 'err');
+          const c = createCampaign(ws, { brand: r.brandId, nome: bodyParams.nome });
+          return redirect(`/campaign/${c.id}`, 'campanha aberta — consulte o contexto antes do Brief');
+        } catch (err) {
+          return redirect('/campaigns', err.message, 'err');
+        }
+      }
+
+      // ---- campanha ----
+      if (parts[0] === 'campaign' && parts[1]) {
+        const cid = parts[1];
+        const seg = parts[2] || null;
+
+        // rascunho de proposta de aprendizado (GET dedicado)
+        if (req.method === 'GET' && seg === 'learning' && parts[3]) {
+          const c = loadCampaign(ws, cid);
+          if (!c) return send(404, page({ title: cid, token, body: '<div class="note err">campanha não encontrada</div>' }));
+          const fb = loadFeedback(ws, cid, parts[3]);
+          if (!fb) return redirect(`/campaign/${cid}`, 'devolutiva não encontrada', 'err');
+          const draft = draftFromFeedback({ campaignId: cid, brand: c.campaign.marca, feedback: fb, brief: c.brief });
+          return send(200, page({
+            title: 'Propor aprendizado', token, flash,
+            body: learningDraftView({ c, feedback: fb, draft, token, csrf }),
+          }));
+        }
+
+        if (req.method === 'POST') {
+          const c = loadCampaign(ws, cid);
+          if (!c) return redirect('/campaigns', `campanha não encontrada: ${cid}`, 'err');
+          try {
+            if (seg === 'context') {
+              const pkg = buildContextPackage(ws, { brandId: c.campaign.marca, campaignId: cid });
+              saveContextPackage(ws, cid, pkg);
+              const nGaps = (pkg.gaps || []).length + (pkg.conflicts || []).length;
+              return redirect(`/campaign/${cid}`,
+                `contexto consultado — ${(pkg.sources || []).length} fonte(s), ${nGaps} lacuna(s)/conflito(s)`,
+                nGaps ? 'err' : 'ok');
+            }
+
+            if (seg === 'brief' && parts[3] === 'start') {
+              if (loadBrief(ws, cid)) return redirect(`/campaign/${cid}`, 'brief já existe');
+              saveBrief(ws, cid, newBrief({ brand: c.campaign.marca, campaignId: cid }));
+              return redirect(`/campaign/${cid}`, 'brief iniciado — responda o que a Memory não resolveu');
+            }
+
+            if (seg === 'brief' && parts[3] === 'save') {
+              const cur = loadBrief(ws, cid);
+              if (!cur) return redirect(`/campaign/${cid}`, 'brief inexistente', 'err');
+              const edits = {};
+              for (const k of ['proposito', 'objetivo', 'publico', 'oferta', 'acaoDesejada', 'metricaPrimaria', 'prazo', 'orcamento', 'criterioAprovacao']) {
+                if (k in bodyParams) edits[k] = bodyParams[k].trim() || null;
+              }
+              if ('canais' in bodyParams) {
+                edits.canais = bodyParams.canais.split(',').map((x) => x.trim()).filter(Boolean);
+              }
+              if ('limitesDeAlegacao' in bodyParams) {
+                edits.limitesDeAlegacao = bodyParams.limitesDeAlegacao.split('\n').map((x) => x.trim()).filter(Boolean);
+              }
+              const { brief, invalidatesPlan, changed } = applyEdits(cur, edits);
+              saveBrief(ws, cid, brief);
+              return redirect(`/campaign/${cid}`,
+                invalidatesPlan
+                  ? `brief salvo — ${changed.join(', ')} mudou: aprovação revogada e plano invalidado`
+                  : `brief salvo${changed.length ? ' — ' + changed.join(', ') : ' (sem alteração)'}`,
+                invalidatesPlan ? 'err' : 'ok');
+            }
+
+            if (seg === 'brief' && parts[3] === 'approve') {
+              const brief = loadBrief(ws, cid);
+              const r = approveBrief(ws, cid, { brief, contextPackage: c.context });
+              return redirect(`/campaign/${cid}`,
+                `brief aprovado${r.git.committed ? ' · ' + r.git.sha.slice(0, 8) : ''} — o plano está liberado`);
+            }
+
+            if (seg === 'plan' && parts[3] === 'front') {
+              const brief = loadBrief(ws, cid);
+              const plan = loadPlan(ws, cid) || newPlan({ campaignId: cid, brief });
+              const deps = (bodyParams.dependeDe || '').split(',').map((x) => x.trim()).filter(Boolean);
+              plan.frentes = [...(plan.frentes || []), newFront({
+                tipo: bodyParams.tipo, objetivo: bodyParams.objetivo,
+                metrica: bodyParams.metrica, dependeDe: deps,
+              })];
+              savePlan(ws, cid, plan, brief);
+              return redirect(`/campaign/${cid}`, `frente "${bodyParams.tipo}" acrescentada`);
+            }
+
+            if (seg === 'plan' && parts[3] === 'exclude') {
+              const brief = loadBrief(ws, cid);
+              const plan = loadPlan(ws, cid) || newPlan({ campaignId: cid, brief });
+              if (!bodyParams.motivo?.trim()) throw new Error('exclusão de frente exige motivo — ausência deliberada é informação');
+              plan.frentesExcluidas = [...(plan.frentesExcluidas || []),
+                { tipo: bodyParams.tipo, motivo: bodyParams.motivo.trim() }];
+              savePlan(ws, cid, plan, brief);
+              return redirect(`/campaign/${cid}`, `frente "${bodyParams.tipo}" registrada fora de escopo`);
+            }
+
+            if (seg === 'plan' && parts[3] === 'asset') {
+              const brief = loadBrief(ws, cid);
+              const plan = loadPlan(ws, cid);
+              if (!plan) throw new Error('não há plano — acrescente uma frente antes de declarar ativo');
+              const front = (plan.frentes || []).find((f) => f.tipo === bodyParams.frente);
+              if (!front) throw new Error(`frente não está no plano: ${bodyParams.frente}`);
+              front.ativos = [...(front.ativos || []), { tipo: bodyParams.tipo, id: bodyParams.id }];
+              savePlan(ws, cid, plan, brief);
+              return redirect(`/campaign/${cid}`, `ativo ${bodyParams.id} declarado em ${bodyParams.frente}`);
+            }
+
+            if (seg === 'reading') {
+              const clean = { ...bodyParams };
+              delete clean.t; delete clean.ct;
+              clean.primary = bodyParams.primary === '1';
+              const r = addCampaignReading(ws, cid, clean);
+              return redirect(`/campaign/${cid}`, `leitura registrada — ${r.entry.label}`,
+                r.entry.label.startsWith('insuficiente') ? 'err' : 'ok');
+            }
+
+            if (seg === 'feedback') {
+              const [alvoTipo, alvoId] = String(bodyParams.alvo || '').split(':');
+              const list = Array.isArray(bodyParams.classificacoes)
+                ? bodyParams.classificacoes : [bodyParams.classificacoes].filter(Boolean);
+              const r = addFeedback(ws, cid, {
+                alvoTipo, alvoId: alvoId || null,
+                observacao: bodyParams.observacao, causa: bodyParams.causa,
+                classificacoes: list,
+              });
+              return redirect(`/campaign/${cid}`, `devolutiva registrada — ${r.entry.id}`);
+            }
+
+            if (seg === 'learning' && parts[3] === 'draft') {
+              return redirect(`/campaign/${cid}/learning/${bodyParams.feedbackId}`, null);
+            }
+
+            if (seg === 'learning' && parts[3] === 'create') {
+              const fb = loadFeedback(ws, cid, bodyParams.feedbackId);
+              if (!fb) throw new Error('devolutiva não encontrada');
+              const draft = draftFromFeedback({ campaignId: cid, brand: c.campaign.marca, feedback: fb, brief: c.brief });
+              const proposal = {
+                ...draft,
+                titulo: bodyParams.titulo,
+                regraProposta: bodyParams.regraProposta,
+                interpretacao: bodyParams.interpretacao,
+                condicaoRevisao: bodyParams.condicaoRevisao,
+                destinoSugerido: bodyParams.destinoSugerido,
+                escopo: {
+                  ...draft.escopo,
+                  publico: bodyParams.escopoPublico?.trim() || draft.escopo.publico,
+                  formato: bodyParams.escopoFormato?.trim() || null,
+                  situacao: bodyParams.escopoSituacao?.trim() || null,
+                },
+              };
+              const r = proposeLearning(ws, cid, proposal);
+              updateFeedback(ws, cid, fb.id, {
+                desdobramento: FEEDBACK_OUTCOME.LEARNING_PROPOSED,
+                propostaAprendizado: r.proposal.id,
+              });
+              return redirect(`/campaign/${cid}`,
+                r.inbox ? 'proposta criada na Inbox da Memory — não canônica até você promover'
+                        : `proposta gravada localmente: ${r.proposal.entregaBloqueada}`,
+                r.inbox ? 'ok' : 'err');
+            }
+
+            if (seg === 'learning' && parts[3] === 'resolve') {
+              const r = recordPromotion(ws, cid, bodyParams.proposalId, {
+                decision: bodyParams.decision,
+                destino: bodyParams.destino?.trim() || null,
+                motivo: bodyParams.motivo?.trim() || null,
+              });
+              return redirect(`/campaign/${cid}`, `aprendizado ${r.proposal.estado}`);
+            }
+
+            if (seg === 'close') {
+              closeCampaign(ws, cid, { motivo: bodyParams.motivo });
+              return redirect(`/campaign/${cid}`, 'campanha encerrada');
+            }
+          } catch (err) {
+            return redirect(`/campaign/${cid}`, err.message, 'err');
+          }
+        }
+
+        const c = loadCampaign(ws, cid);
+        if (!c) return send(404, page({ title: cid, token, body: '<div class="note err">campanha não encontrada</div>' }));
+        return send(200, page({
+          title: c.campaign.nome, token, flash,
+          body: campaignView({ c, token, csrf, contradictions: contradictions(c.feedback) }),
         }));
       }
 

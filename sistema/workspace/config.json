@@ -3,5 +3,8 @@
   "piecesDir": "pieces",
   "libraryFile": "library.json",
   "stateFile": "state.md",
-  "defaultFormat": "carousel-4x5"
+  "defaultFormat": "carousel-4x5",
+  "brandsDir": "brands",
+  "campaignsDir": "campaigns",
+  "memoryRoot": "../../../zionaxs-memory"
 }
