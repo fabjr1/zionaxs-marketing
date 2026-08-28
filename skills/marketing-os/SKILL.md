@@ -1,8 +1,8 @@
 ---
 name: marketing-os
-description: "When the user wants to run marketing as a system rather than as isolated tasks — sequencing the other skills into one workflow with state, gates, and a resume point. Use when the user says 'marketing OS,' 'marketing operating system,' 'my marketing workflow,' 'where do I start,' 'what should I do next,' 'set up my marketing system,' 'run the whole campaign,' 'from scratch to published,' 'orchestrate the skills,' 'which skill do I use now,' or asks for an end-to-end process instead of a single deliverable. For the recurring always-on layer, see marketing-loops. For the strategy document itself, see marketing-plan. For the foundational context file, see product-marketing."
+description: "When the user wants to run marketing as a system rather than as isolated tasks — sequencing the other skills into one workflow with state, gates, and a resume point. Use when the user says 'marketing OS,' 'marketing operating system,' 'my marketing workflow,' 'where do I start,' 'what should I do next,' 'set up my marketing system,' 'run the whole campaign,' 'from scratch to published,' 'orchestrate the skills,' 'which skill do I use now,' 'brief this campaign,' 'what is this campaign for,' or asks for an end-to-end process instead of a single deliverable. Also use when a campaign needs a purpose before production, or when human feedback should become reusable knowledge instead of an ad-hoc rule. For the recurring always-on layer, see marketing-loops. For the strategy document itself, see marketing-plan. For the foundational context file, see product-marketing."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Marketing OS
@@ -19,8 +19,15 @@ Running a skill whose input is missing does not fail loudly. It produces confide
 
 ## Before Starting
 
-**Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions.
+**1. Identify the brand.** If more than one brand is in play and the request does not name one, ask. Do not consult or produce under an assumed brand.
+
+**2. Load canonical brand context, selectively.** If the setup declares a **brand memory** — a governed, versioned knowledge base with a manifest naming which notes carry positioning, audience, language, proof, and design — read only the notes the request needs, and record for each: path, version, and date consulted.
+
+Load only what the task requires. Loading the whole tree is not thoroughness; it lets a historical rule override a current one.
+
+**3. Fall back deliberately.** With no brand memory, `.agents/product-marketing.md` (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md`) is the context. Where both exist, the canonical memory governs and `product-marketing.md` is a projection of it, not a competing source.
+
+**4. Never fill a gap by inference.** A missing reference, a note that contradicts another canonical note, or an unreachable memory is a **gap**: it becomes a question in the Brief, a recorded pending decision, or a marked hypothesis. It never becomes an implied fact.
 
 Then read the state file at `.agents/marketing-os/state.md`. If it does not exist, you are at Stage 0.
 
@@ -31,6 +38,36 @@ Then read the state file at `.agents/marketing-os/state.md`. If it does not exis
 3. **If the user asked for a downstream stage**, say what is missing upstream and what it costs to skip. Then let them decide. Do not silently refuse and do not silently comply.
 4. **Route to the owning skill** and hand off. This skill does not do the work.
 5. **On return, write the artifact path and the gate result to the state file.** A stage is not complete because it was attempted.
+
+## The Campaign Brief
+
+A campaign starts as a conversation about purpose, not as a piece. Before production, agree on:
+
+**Brand · Purpose · Objective · Audience · Offer and desired action · Channels · Primary metric · Supporting metrics · Deadline, budget and constraints · Evidence and claim limits · Approval and closing criteria.**
+
+**Ask only what the memory and the request did not already answer.** Pre-filling from canonical context is the point of loading it; re-asking what the brand already documented wastes the user's attention and invites a contradictory answer.
+
+**Purpose selects the fronts, and there is no mandatory funnel.** A sales campaign needs an offer; an audience campaign does not, and demanding one blocks work for no reason. The smallest set of fronts that serves the objective beats a funnel built from habit — and a front deliberately left out is recorded with its reason, because deliberate absence is information and forgotten absence is a defect.
+
+The fronts: **content and attention · distribution · conversion · revenue · continuity.** Each selected front carries its own objective, owning skills, assets, dependencies, gates, and metric. A front nobody measures cannot be judged later.
+
+**Brief approval gates the plan.** Changing purpose, objective, audience, offer, desired action, or primary metric after approval revokes the approval and invalidates the plan that depended on it.
+
+## Closing the cycle: feedback becomes a proposal
+
+Human feedback is the input to knowledge, not knowledge itself. When the user reacts to what was produced:
+
+**1. Classify it.** Preference · execution failure · hypothesis · measured result. These carry different evidential weight and **must not be merged** — "I don't like the blue" and "the gate failed" and "it converted 3× better" cannot support the same claim.
+
+**2. Draft a proposal, not a rule.** It needs origin, observation, interpretation, **scope of applicability**, evidence, the proposed rule, and **the condition that would invalidate it**. A learning with no death condition is dogma.
+
+**3. Keep the scope no wider than the evidence.** A preference can become a convention inside a declared situation. It cannot become a general rule. If the only evidence is preference or hypothesis, the situation must be named.
+
+**4. File it as non-canonical.** The proposal goes to the memory's inbox — or, with no brand memory, to a clearly-marked proposals file. It is not consulted as fact while it sits there.
+
+**5. Promotion is the user's act.** Ask. Record what they decided and where the knowledge landed. Never promote on your own, and never carry secrets, credentials, or disposable output into durable memory.
+
+**6. Reuse only where scope matches.** A promoted learning applies to another campaign only when brand, audience, format, and situation are compatible. Contradictory feedback is preserved and escalated, never silently overwritten.
 
 ## The nine stages
 
@@ -158,6 +195,8 @@ Read `marketing-loops/references/loop-orchestration.md` before adopting the firs
 - **It does not replace any skill's own method.** Each owning skill governs how its stage is executed.
 - **It does not add a stage that no skill owns.** If a stage has no owner in this repo, the honest output is that the repo does not cover it.
 - **It does not enforce.** It names the gap and lets the user decide, then records the decision.
+- **It does not promote knowledge.** It proposes; the user promotes. A proposal sitting in the inbox is not a rule, however convincing it reads.
+- **It does not modify itself.** Learning here means proposing versioned knowledge for approval — never editing skills, code, or its own instructions from feedback.
 
 ## Common failure modes
 
@@ -166,6 +205,9 @@ Read `marketing-loops/references/loop-orchestration.md` before adopting the firs
 - **Treating Stage 2 as a document** rather than as the decision about what not to do.
 - **Running Stage 8 without Gate 8.** Measurement theatre is worse than no measurement, because it is trusted.
 - **Two open cycles.** Neither produces a learning.
+- **Producing before the Brief.** Objective, audience, and desired action get assumed, and the assumption is invisible in fluent output.
+- **Building the whole funnel** because a campaign "should" have one. Purpose selects the fronts.
+- **Turning one comment into a rule.** A preference generalized past its situation repeats a bad decision on an audience that never asked for it.
 
 ## Related Skills
 

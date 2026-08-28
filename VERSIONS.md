@@ -31,7 +31,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | lead-magnets | 2.0.0 | 2026-05-05 |
 | marketing-council | 1.0.0 | 2026-07-06 |
 | marketing-ideas | 2.0.1 | 2026-08-23 |
-| marketing-os | 1.0.0 | 2026-08-25 |
+| marketing-os | 1.1.0 | 2026-08-28 |
 | marketing-loops | 1.2.0 | 2026-07-10 |
 | marketing-plan | 1.1.1 | 2026-08-23 |
 | marketing-psychology | 2.0.0 | 2026-05-05 |
@@ -57,6 +57,15 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.13.0 (2026-08-28)
+
+- **`marketing-os` (1.0.0 → 1.1.0)** — the orchestration layer now opens on **canonical brand context** and closes the loop on **feedback that becomes reviewable knowledge**. Three additions, all upstream of the nine stages it already sequenced:
+  - **Brand memory before questions.** When a governed knowledge base declares, per brand, which notes carry positioning, audience, language, proof and design, the skill loads only the notes the request needs and records path, version and consultation date for each. `product-marketing.md` remains the fallback and, where both exist, a projection of the canonical source rather than a competing one. A missing reference, two canonical notes claiming the same role, or an unreachable memory becomes an explicit **gap** — a question in the Brief, a recorded pending decision, or a marked hypothesis — never an implied fact.
+  - **The Campaign Brief.** A campaign starts as a conversation about purpose, not as a piece: brand, purpose, objective, audience, offer and desired action, channels, primary and supporting metrics, constraints, evidence and claim limits, approval and closing criteria. The agent asks only what the memory and the request did not already answer. **Purpose selects the fronts** — content, distribution, conversion, revenue, continuity — and there is no mandatory funnel: a sales campaign needs an offer, an audience campaign does not, and a front deliberately excluded is recorded with its reason. Brief approval gates the plan; changing purpose, objective, audience, offer, desired action or primary metric revokes that approval and invalidates the plan built on it.
+  - **Feedback → proposal → human promotion.** Human reaction is classified as preference, execution failure, hypothesis or measured result — weights that **must not be merged** — and becomes a proposal carrying origin, interpretation, scope, evidence, the proposed rule and **the condition that would invalidate it**. Scope never exceeds the evidence: a preference can become a convention inside a named situation, never a general rule. The proposal is filed **non-canonical** and is not consulted as fact while it sits there; promotion is the user's act, and a promoted learning is reused only where brand, audience, format and situation match. Contradictory feedback is preserved and escalated, never silently overwritten. The skill explicitly does not promote knowledge and does not modify itself — "self-learning" means proposing versioned knowledge for approval, not editing skills or code from feedback.
+  - Two new failure modes named: producing before the Brief, and generalizing one comment into a rule.
+  - Implementation ships in `sistema/app` (Marketing OS): brand manifest, selective context resolver with provenance, Brief contract, fronts graph with dependency and skill routing, feedback register and learning proposer, plus console screens for each. **158 tests** (was 73); CI now runs the app suite with the Playwright Chromium the render gates require. Spec: `sistema/ESPECIFICACAO-FLUXO-DE-CAMPANHAS-E-APRENDIZADO.md`.
 
 ### 2.12.0 (2026-08-25)
 
