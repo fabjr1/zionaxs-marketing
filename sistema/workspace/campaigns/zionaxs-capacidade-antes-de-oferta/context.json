@@ -1,0 +1,129 @@
+{
+  "brand": "zionaxs",
+  "campaign": "zionaxs-capacidade-antes-de-oferta",
+  "consultedAt": "2026-08-28T17:39:02-03:00",
+  "memory": {
+    "available": true,
+    "root": "C:\\dev\\zionaxs-memory",
+    "synced": true,
+    "head": "1d26490",
+    "branch": "main",
+    "dirty": true,
+    "behind": 0,
+    "ahead": 0,
+    "verifiedAgainstRemote": false
+  },
+  "sources": [
+    {
+      "role": "posicionamento",
+      "path": "Contexto/02 - Zionaxs - Identidade e Negócio.md",
+      "title": "Zionaxs: identidade e negócio",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-26",
+      "version": {
+        "kind": "git",
+        "value": "d696ab9"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "A Zionaxs é uma empresa de tecnologia focada na criação de produtos digitais e soluções sob medida para empresas. Desenvolve: Combina desenvolvimento de software, inteligência artificial e automação para transformar processos manuais e complexos em operações mais eficientes, organizadas e escaláveis. A Zionaxs cria pr…",
+      "note": "identidade, foco de valor e diretriz de posicionamento comercial"
+    },
+    {
+      "role": "publico",
+      "path": "Marketing/Marcas/Zionaxs/Público/19b - Zionaxs - Personas, JTBD, Rotinas e Dores.md",
+      "title": "Zionaxs: Personas, JTBD, Rotinas e Dores",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-26",
+      "version": {
+        "kind": "git",
+        "value": "d696ab9"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "Subnota de [[19 - Zionaxs - Base de Inteligência de Público]], que continua sendo o hub canônico de público editorial. Aqui ficam as personas funcionais das três verticais pesquisadas, os Jobs to Be Done nas cinco dimensões, as rotinas por ciclo e o mapa de dores e desejos. Personas são papéis funcionais definidos por…",
+      "note": "personas funcionais V1 (clínicas), V2 (contábil) e V3 (advocacia), JTBD e dores"
+    },
+    {
+      "role": "provas",
+      "path": "Marketing/Marcas/Zionaxs/Público/19a - Zionaxs - Segmentos, Sinais e Evidência de Público.md",
+      "title": "Zionaxs: Segmentos, Sinais e Evidência de Público",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-26",
+      "version": {
+        "kind": "git",
+        "value": "d696ab9"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "Subnota de [[19 - Zionaxs - Base de Inteligência de Público]], que continua sendo o hub canônico de público editorial. Aqui ficam o público macro, os problemas transversais, o critério transversal/vertical, o mapa de segmentos, a política de pesquisa e fontes, e o ledger completo de fontes. A taxonomia `E/I/H/NC` e as…",
+      "note": "ledger de fontes e política de evidência — origem das classificações E/I/H/NC"
+    },
+    {
+      "role": "linguagem",
+      "path": "Marketing/Marcas/Zionaxs/Público/19c - Zionaxs - Matriz Editorial, Repertório e Linguagem.md",
+      "title": "Zionaxs: Matriz Editorial, Repertório e Linguagem",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-26",
+      "version": {
+        "kind": "git",
+        "value": "d696ab9"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "Subnota de [[19 - Zionaxs - Base de Inteligência de Público]], que continua sendo o hub canônico de público editorial. Aqui ficam os interesses de conteúdo, as regras de uso do repertório de gestão, a matriz público × conteúdo, os campos obrigatórios de público por carrossel, a política de notícia e utilidade e os gat…",
+      "note": "matriz editorial, repertório e linguagem literal do público"
+    },
+    {
+      "role": "design",
+      "path": "Marketing/Marcas/Zionaxs/Visual/07 - Zionaxs - Design System.md",
+      "title": "Zionaxs: Design System",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-21",
+      "version": {
+        "kind": "git",
+        "value": "273f714"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "Projeto Claude Design: O projeto deve ser acessado pelo MCP `claude_design` no Claude Code: O MCP foi configurado na VPS, o consentimento de conta foi concedido e o acesso ao projeto foi validado por leitura em 19/08/2026. Antes de futuras operações de escrita pelo agente, confirmar o escopo da alteração e preservar o…",
+      "note": "resumo-ponte do design system; a autoridade superior é o projeto externo Claude Design"
+    },
+    {
+      "role": "campanhas",
+      "path": "Marketing/Marcas/Zionaxs/Editorial/12 - Zionaxs - Playbook de Carrosséis.md",
+      "title": "Playbook de Carrosséis Zionaxs",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-26",
+      "version": {
+        "kind": "git",
+        "value": "d696ab9"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "Em caso de conflito, este playbook **cede** para [[18 - Direção Visual e Estratégia Editorial de Carrosséis]], [[19 - Zionaxs - Base de Inteligência de Público]] e para as notas de plataforma. Ordem completa em [[00 - Guia de Uso do Conhecimento de Marketing por Agentes]]. Sequência que o comando inicia: Se o comando…",
+      "note": "playbook de carrosséis — método editorial da marca"
+    },
+    {
+      "role": "aprendizados",
+      "path": "Marketing/Universal/Carrosséis/03 - Decisões e Aprendizados de Carrosséis.md",
+      "title": "Decisões e Aprendizados de Carrosséis",
+      "authority": "canônica",
+      "status": "ativo",
+      "updatedAt": "2026-08-26",
+      "version": {
+        "kind": "git",
+        "value": "d696ab9"
+      },
+      "consultedAt": "2026-08-28T17:39:02-03:00",
+      "digest": "Registro das decisões tomadas durante a produção real de carrosséis, com o problema que as originou e **o peso que cada uma tem**. Este documento existe para impedir dois erros simétricos: esquecer um invariante e eternizar uma preferência. Base de evidência: auditoria de pilotos 01–03, planos e reviews dos carrosséis…",
+      "note": "decisões e aprendizados acumulados; suporte, não governa"
+    }
+  ],
+  "gaps": [],
+  "conflicts": [],
+  "limitations": [
+    "a cópia local da Memory tem alterações não commitadas — o contexto pode divergir da canônica"
+  ],
+  "manifestFile": "C:\\dev\\zionaxs-marketing\\sistema\\workspace\\brands\\zionaxs\\manifest.json"
+}
