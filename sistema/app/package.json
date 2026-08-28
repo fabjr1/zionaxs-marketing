@@ -9,11 +9,11 @@
   },
   "scripts": {
     "check": "node bin/check.js",
-    "test": "node --test 'test/**/*.test.js'",
+    "test": "node --test \"test/**/*.test.js\"",
     "gen": "node bin/gen.js",
     "console": "node bin/console.js"
   },
   "dependencies": {
-    "playwright": "^1.49.0"
+    "playwright": "1.62.1"
   }
 }

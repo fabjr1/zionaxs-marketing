@@ -1,7 +1,10 @@
 // render.js — render determinístico via Chromium (G-02, G-05).
 // Regras duras: nenhuma requisição de rede (http/https é abortado e contado —
 // N-02), fontes vêm do brand pack em disco, e o mesmo contrato produz os
-// mesmos bytes. O relatório carrega o digest da geração (gates_snapshot).
+// mesmos bytes — dentro da mesma versão de Chromium, que o relatório registra
+// junto do digest. Rasterização muda entre versões; por isso o Playwright é
+// pinado em versão exata no package.json.
+// O relatório carrega o digest da geração (gates_snapshot).
 import path from 'node:path';
 import fs from 'node:fs';
 import { chromium } from 'playwright';
@@ -99,6 +102,7 @@ export async function renderPiece({ contract, brand, pieceDir, compiledFile }) {
     const report = {
       pieceId: contract.id,
       generatedAt: isoNow(),
+      chromium: browser.version(), // o digest só é comparável dentro da mesma versão
       format: contract.format,
       canvas: { w: fmt.w, h: fmt.h, safe: { x: fmt.mx, y: fmt.my } },
       fonts: measure.fonts,
