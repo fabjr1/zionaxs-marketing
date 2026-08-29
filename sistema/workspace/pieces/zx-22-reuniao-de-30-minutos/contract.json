@@ -6,7 +6,7 @@
   "matriz": "M19",
   "format": "carousel-4x5",
   "research_brief": {
-    "publico": "Transversal / dono, sócio ou gestor que responde pela operação (C1, P1, A1 — papel dono-operador). Cena concreta: escritório contábil (V2). Secundário: nenhum.",
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação (C1, P1, A1: papel dono-operador). Cena concreta: escritório contábil (V2). Secundário: nenhum.",
     "decisao": "Instituir (ou não) um rito semanal fixo de gestão de 30 minutos, com pauta de três blocos.",
     "tensao": "O cargo promete planejamento; o calendário entrega reação. Gestão que depende de sobra de tempo não acontece, porque sobra é a única coisa que a semana nunca entrega.",
     "evidencia": [
@@ -16,9 +16,9 @@
         "fonte": "[19b §9.2] rotinas de V2; rotina de C1 [19b §7.7]"
       },
       {
-        "claim": "o cotidiano gerencial real é fragmentado e reativo, e a agenda revela o trabalho de verdade — não o que o cargo descreve",
+        "claim": "o cotidiano gerencial real é fragmentado e reativo, e a agenda revela o trabalho de verdade, não o que o cargo descreve",
         "status": "E",
-        "fonte": "Henry Mintzberg, The Manager’s Job: Folklore and Fact, HBR 1990 [S35] — citação literal verificada na legenda; na peça, paráfrase, com o autor apresentado como professor de gestão (fato verificável: McGill University)"
+        "fonte": "Henry Mintzberg, The Manager’s Job: Folklore and Fact, HBR 1990 [S35]. Paráfrase fiel na legenda e na peça, com autor, obra e ano; o autor é apresentado como professor de gestão (verificável: McGill University)."
       },
       {
         "claim": "um rito semanal de 30 minutos com pauta fixa reduz a gestão reativa",
@@ -34,13 +34,13 @@
         "a cena da segunda-feira e a rotina do sócio-operador"
       ],
       "H": [
-        "a eficácia do rito de 30 minutos — método proposto, não prática comprovada por pesquisa"
+        "a eficácia do rito de 30 minutos: método proposto, não prática comprovada por pesquisa"
       ],
       "NC": []
     },
     "limites": [
       "A peça não publica nenhuma estatística.",
-      "A citação literal aparece na legenda com autor, obra e ano; na peça, apenas paráfrase introduzida como ideia.",
+      "A legenda traz paráfrase fiel com autor, obra e ano, sem citação literal, para não depender de inglês nem de leitura de citação.",
       "O roteiro dos três blocos é método proposto (H); a pauta exata dos três números é de cada negócio.",
       "A peça apresenta Mintzberg ao leitor como professor de gestão para não depender de reconhecimento prévio do nome."
     ],
@@ -56,11 +56,11 @@
   "repertorio": {
     "id": "R4",
     "autor": "Henry Mintzberg",
-    "modo": "citação literal verificada na legenda + paráfrase introduzida como ideia na peça",
+    "modo": "paráfrase fiel na legenda, com autor, obra e ano citados; na peça, o autor é apresentado ao leitor como professor de gestão",
     "fonte": "[S35]"
   },
-  "cta": "Criar o evento recorrente de 30 minutos na agenda da próxima segunda — mesma hora, toda semana.",
-  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: reconhecer a segunda-feira, ver a cena, contrastar cargo e calendário, reformular gestão como horário, receber o roteiro, ouvir o limite, agendar. A peça não publica estatística — não há unidade de evidência numérica, e esticar para 8 seria preencher contagem.",
+  "cta": "Criar o evento recorrente de 30 minutos na agenda da próxima segunda, mesma hora, toda semana.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: reconhecer a segunda-feira, ver a cena, contrastar cargo e calendário, reformular gestão como horário, receber o roteiro, ouvir o limite, agendar. A peça não publica estatística: não há unidade de evidência numérica, e esticar para 8 seria preencher contagem.",
   "internal_metadata": [
     "S1",
     "M19",
@@ -80,15 +80,15 @@
   ],
   "allowlist_editorial": [],
   "caption": [
-    "A segunda-feira que começa apagando incêndio não é falta de disciplina. É gestão dependendo de sobra de tempo — e sobra é a única coisa que a semana nunca entrega.",
-    "Henry Mintzberg escreveu em 1990: \"If you ask managers what they do, they will most likely tell you that they plan, organize, coordinate, and control…\". Em tradução editorial livre: pergunte a um gestor o que ele faz e ele dirá que planeja, organiza e coordena; observe o dia dele e a agenda contará outra história. A agenda é o raio-X da gestão.",
-    "O roteiro dos 30 minutos tem 3 blocos de 10: os mesmos 3 números toda semana, na mesma ordem — comparáveis, não perfeitos; as travas, ou seja, o que está parado esperando decisão; e uma única melhoria para a semana. Pauta fixa é o que transforma reunião em rito: o custo de decidir o que discutir cai a zero.",
-    "O rito não substitui conversa nem resolve crise — ele impede que a crise seja o único momento de gestão. E dá para começar sem sistema: 3 números anotados à mão valem mais que um dashboard adiado.",
-    "Marque 30 minutos na agenda da próxima segunda. Mesma hora, toda semana. Se não está no calendário, não é rito — é intenção."
+    "A segunda-feira que começa apagando incêndio não é falta de disciplina. É gestão dependendo de sobra de tempo, e sobra é justamente o que a semana nunca entrega.",
+    "Henry Mintzberg, professor de gestão, estudou o dia a dia de executivos e publicou o resultado na Harvard Business Review em 1990. A conclusão: pergunte a um gestor o que ele faz e ele dirá que planeja, organiza e coordena. Olhe a agenda dele e a resposta é outra. A agenda mostra o trabalho de verdade.",
+    "O rito de 30 minutos tem 3 blocos de 10. Primeiro os números: os mesmos 3 indicadores toda semana, na mesma ordem, porque só assim dá para comparar. Depois o que travou: tudo que está parado esperando uma decisão sua. Por último 1 melhoria: uma única coisa para mudar nesta semana. Pauta fixa é o que transforma reunião em rito, porque acaba com o custo de decidir o que discutir.",
+    "O rito não substitui conversa nem resolve crise. Ele impede que a crise seja o único momento de gestão. E dá para começar hoje sem sistema nenhum: 3 números anotados no papel valem mais que um painel que você adia há meses.",
+    "Marque 30 minutos na agenda da próxima segunda. Mesma hora, toda semana. Se não está no calendário, não é rito. É intenção."
   ],
   "caption_sources": [
-    "Referência: Henry Mintzberg, The Manager's Job: Folklore and Fact, Harvard Business Review, mar.–abr. 1990. Citação literal verificada; tradução editorial livre marcada como tal.",
-    "O roteiro é método proposto; a pauta exata dos três números varia por negócio."
+    "Referência: Henry Mintzberg, The Manager’s Job: Folklore and Fact, Harvard Business Review, março a abril de 1990. A legenda traz paráfrase fiel com autor, obra e ano, não citação literal.",
+    "O roteiro é método proposto. A pauta exata dos 3 números varia por negócio."
   ],
   "slides": [
     {
@@ -130,7 +130,7 @@
         "lines": [
           "Segunda, 8h.\n14 mensagens,\n3 urgências."
         ],
-        "closing": "Você responde tudo, resolve tudo — e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você.",
+        "closing": "Você responde tudo, resolve tudo, e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você.",
         "temas": "Temas: Urgência / Agenda / Rito",
         "micro": "@zionaxs_ · ref 74d765dc · foto: A. Vo"
       },
@@ -138,11 +138,11 @@
         "A cena",
         "02/07",
         "Segunda, 8h. 14 mensagens, 3 urgências.",
-        "Você responde tudo, resolve tudo — e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você.",
+        "Você responde tudo, resolve tudo, e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você.",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc · foto: A. Vo"
       ],
-      "alt": "Slide 2 de 7. Segunda-feira, 8h: 14 mensagens e 3 urgências. Você responde tudo, resolve tudo, e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio — a semana decidiu por você. Papel claro com fotografia em preto e branco de uma parede inteira coberta de recados adesivos.",
+      "alt": "Slide 2 de 7. Segunda-feira, 8h: 14 mensagens e 3 urgências. Você responde tudo, resolve tudo, e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você. Papel claro com fotografia em preto e branco de uma parede inteira coberta de recados adesivos.",
       "photo": {
         "src": "../assets/foto-post-its.jpg"
       }
@@ -198,7 +198,7 @@
         "@zionaxs_ · ref 74d765dc",
         "Sobra de tempo é justamente o que a semana nunca entrega. Por isso gestão precisa de hora marcada, como qualquer compromisso com cliente."
       ],
-      "alt": "Slide 4 de 7. Gestão não é o que sobra do dia; é um horário no calendário. Sobra de tempo é justamente o que a semana nunca entrega, por isso gestão precisa de hora marcada como qualquer compromisso com cliente. Campo laranja chapado com o número 30 gigante em marca dágua."
+      "alt": "Slide 4 de 7. Gestão não é o que sobra do dia; é um horário no calendário. Sobra de tempo é justamente o que a semana nunca entrega, por isso gestão precisa de hora marcada como qualquer compromisso com cliente. Campo laranja chapado com o número 30 gigante em marca d'água."
     },
     {
       "n": 5,
@@ -210,15 +210,15 @@
         "items": [
           {
             "num": "01",
-            "label": "10 min — Os números: os mesmos 3 indicadores toda semana, na mesma ordem."
+            "label": "10 min para os números: os mesmos 3 indicadores toda semana, na mesma ordem."
           },
           {
             "num": "02",
-            "label": "10 min — O que travou: o que está parado esperando uma decisão sua."
+            "label": "10 min para o que travou: o que está parado esperando uma decisão sua."
           },
           {
             "num": "03",
-            "label": "10 min — 1 melhoria: escolha uma única coisa para mudar nesta semana."
+            "label": "10 min para 1 melhoria: escolha uma única coisa para mudar nesta semana."
           }
         ],
         "temas": "Temas: Urgência / Agenda / Rito",
@@ -229,11 +229,11 @@
         "05/07",
         "30 minutos, 3 blocos.",
         "01",
-        "10 min — Os números: os mesmos 3 indicadores toda semana, na mesma ordem.",
+        "10 min para os números: os mesmos 3 indicadores toda semana, na mesma ordem.",
         "02",
-        "10 min — O que travou: o que está parado esperando uma decisão sua.",
+        "10 min para o que travou: o que está parado esperando uma decisão sua.",
         "03",
-        "10 min — 1 melhoria: escolha uma única coisa para mudar nesta semana.",
+        "10 min para 1 melhoria: escolha uma única coisa para mudar nesta semana.",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc"
       ],
@@ -270,7 +270,7 @@
       "copy": {
         "title": "Marque 30 minutos\nna próxima segunda.",
         "accent": "Mesma hora,\ntoda semana.",
-        "body": "Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito — é intenção.",
+        "body": "Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito. É intenção.",
         "year": "2026",
         "hl": "30 minutos",
         "temas": "Temas: Urgência / Agenda / Rito",
@@ -281,12 +281,12 @@
         "07/07",
         "Marque 30 minutos na próxima segunda.",
         "Mesma hora, toda semana.",
-        "Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito — é intenção.",
+        "Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito. É intenção.",
         "2026",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
       ],
-      "alt": "Slide 7 de 7. Marque 30 minutos na próxima segunda, mesma hora, toda semana. Abra a agenda agora e crie o evento repetindo toda semana: se não está no calendário, não é rito, é intenção. Fotografia escura de mãos escrevendo em um caderno fecha a peça.",
+      "alt": "Slide 7 de 7. Marque 30 minutos na próxima segunda, mesma hora, toda semana. Abra a agenda agora e crie o evento repetindo toda semana: se não está no calendário, não é rito. É intenção. Fotografia escura de mãos escrevendo em um caderno fecha a peça.",
       "photo": {
         "src": "../assets/foto-maos.jpg",
         "pos": "50% 40%"

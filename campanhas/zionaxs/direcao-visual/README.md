@@ -1,4 +1,6 @@
-# Estilo visual oficial — pôster editorial Zionaxs
+# Estilo visual oficial: pôster editorial Zionaxs
+
+> O par deste documento é [`../padrao-de-copy.md`](../padrao-de-copy.md), o padrão de texto da marca. Design e copy foram aprovados juntos em 29/08/2026 e valem para tudo que a Zionaxs publica.
 
 Aprovado por Fabiano em 29/08/2026: "É exatamente esse estilo que eu quero. Vamos manter esse design sempre."
 Este diretório é a referência permanente. `estilo-poster-editorial.html` é o protótipo fiel; os PNGs são a prova renderizada em 1080×1350.

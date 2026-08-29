@@ -1,6 +1,6 @@
 {
   "pieceId": "zx-22-reuniao-de-30-minutos",
-  "generatedAt": "2026-08-29T15:58:26-03:00",
+  "generatedAt": "2026-08-29T16:10:00-03:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -77,7 +77,7 @@
         17,
         15
       ],
-      "renderedText": "A cena02/07 Segunda, 8h. 14 mensagens, 3 urgências. Você responde tudo, resolve tudo — e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: A. Vo"
+      "renderedText": "A cena02/07 Segunda, 8h. 14 mensagens, 3 urgências. Você responde tudo, resolve tudo, e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: A. Vo"
     },
     {
       "n": 3,
@@ -124,7 +124,7 @@
         17,
         15
       ],
-      "renderedText": "O roteiro05/07 30 minutos, 3 blocos. 0110 min — Os números: os mesmos 3 indicadores toda semana, na mesma ordem. 0210 min — O que travou: o que está parado esperando uma decisão sua. 0310 min — 1 melhoria: escolha uma única coisa para mudar nesta semana. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "O roteiro05/07 30 minutos, 3 blocos. 0110 min para os números: os mesmos 3 indicadores toda semana, na mesma ordem. 0210 min para o que travou: o que está parado esperando uma decisão sua. 0310 min para 1 melhoria: escolha uma única coisa para mudar nesta semana. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
     },
     {
       "n": 6,
@@ -156,7 +156,7 @@
         17,
         15
       ],
-      "renderedText": "2026Segunda que vem 07/07 Marque 30 minutos na próxima segunda. Mesma hora, toda semana. Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito — é intenção. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
+      "renderedText": "2026Segunda que vem 07/07 Marque 30 minutos na próxima segunda. Mesma hora, toda semana. Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito. É intenção. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
     }
   ],
   "gates": [
@@ -246,6 +246,6 @@
     }
   ],
   "pass": true,
-  "durationSeconds": 1.2,
-  "digest": "58688b5a1825a9aee25561b3f251bfd9d68086ff881344cf87fa3d184e7dfcec"
+  "durationSeconds": 1.1,
+  "digest": "ebac306bc6291f133085f15eda12e8679bfa6cc081b455dad66fafcc6a5a2846"
 }
