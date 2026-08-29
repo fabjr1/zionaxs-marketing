@@ -1,0 +1,91 @@
+{
+  "campanha": "zionaxs-capacidade-antes-de-oferta",
+  "marca": "zionaxs",
+  "proposito": "audiencia",
+  "objetivo": "Crescer a audiência qualificada do @zionaxs_ dando ao público o que ele QUER, não o que ele precisa: conteúdo prático e atraente que fala do desejo dele — tempo de volta, controle sem presença constante, parar de sentir que a operação só anda quando ele empurra [19b §10.2, §8.2] — e entrega dica aplicável: \"veja como melhorar seu fluxo de trabalho\", \"como organizar sua empresa\", \"como usar ferramenta X no dia a dia\", checklist, roteiro, script, template. Dado e notícia entram como tempero dentro de uma dica, nunca como o post inteiro. O leitor precisa se ver na cena [19b §9] e sair pensando \"isso eu vou usar\" — bom o suficiente para seguir a página e não perder os próximos.",
+  "publico": "Público macro editorial da Zionaxs [19a §4.1]: pessoas que respondem pelo funcionamento de uma operação — donos, sócios, diretores, gestores de operação, responsáveis por processo, tecnologia ou crescimento — em organizações onde o trabalho passa por várias pessoas, sistemas e documentos, há recorrência, há pessoa-chave sem a qual as decisões param e há informação espalhada entre e-mail, mensagem, planilha e sistema. Definição funcional, não demográfica: abrange as verticais pesquisadas (clínicas, contábil, advocacia) e os demais setores como cenário de exemplo, sem afirmar dores deles [19a §6].",
+  "oferta": "Sem oferta comercial — campanha de audiência: nenhuma peça vende ou termina em \"fale com a Zionaxs\" (gate de CTA 19c §21.6). O que a página oferece é o próprio conteúdo.",
+  "acaoDesejada": "Seguir o perfil @zionaxs_ para não perder os próximos conteúdos; no caminho, salvar e compartilhar as peças que a pessoa quiser guardar ou mostrar para alguém.",
+  "canais": [
+    "Instagram @zionaxs_ — carrosséis de feed (até 2/semana)",
+    "Instagram @zionaxs_ — Reels curtos de baixa fidelidade"
+  ],
+  "canaisAdiados": [
+    "mídia paga — travada até: baseline orgânico funcionando e maturidade de medição >= 6/15 (estratégia §08)",
+    "e-mail/nutrição — fora de escopo neste trimestre"
+  ],
+  "metricaPrimaria": "seguidores novos por semana no @zionaxs_ — fórmula: seguidores no fim da semana menos seguidores no início; fonte: painel de insights do Instagram",
+  "metricasApoio": [
+    "alcance de não seguidores — quantas pessoas novas (que ainda não seguem) viram cada peça",
+    "salvamentos e compartilhamentos por peça — o conteúdo foi bom a ponto de guardar ou enviar para alguém",
+    "visitas ao perfil a partir de cada peça — quantos foram conhecer a página depois de ver o post",
+    "retenção — as pessoas assistem/leem até o fim?"
+  ],
+  "prazo": "6 semanas (ciclo 2026-Q3-c1, aberto em 2026-08-25). O calendário anterior de 12 peças (C1–C12, vertical contábil) fica sem efeito com o novo público — o plano define o novo calendário.",
+  "orcamento": "R$ 0 em mídia nesta fase — orgânico apenas, produção própria. Verba paga depende da trava registrada em canais adiados.",
+  "restricoes": [
+    "a peça abre pela cena e pelo desejo do leitor, nunca pelo dado; dado e notícia só entram como prova dentro de uma dica — se o post inteiro é a notícia, ele não sai",
+    "\"dar o que ele quer\" tem limite ético: sem \"5 segredos\", sem promessa de faturamento/resultado, sem medo (multa, sanção, \"concorrente na frente\"), sem escassez artificial [19c §11.3, 19b §10.3] — o desejo é atendido com cena, dica e sensação de controle, não com isca",
+    "toda dica termina executável: o leitor consegue aplicar hoje, com o que tem em mãos (gate de CTA 19c §21.6); em peça de audiência o CTA é aplicar/salvar/compartilhar/seguir — nunca \"fale com a Zionaxs\"",
+    "rota de publicação para @zionaxs_ inexistente (incidente 20/08/2026: Composio retorna base3br; webhook Make sem URL) — a campanha produz e não publica; reverificar antes de presumir",
+    "decisão pendente do Design System: dark-first invariante ou vocabulário — resolver antes da primeira arte",
+    "cadência máxima canônica: 2 carrosséis/semana, nunca mais de 1 post por dia [27 §3]",
+    "anti-template: as últimas quatro peças publicadas (zx-11/16/17/18) são transversais de governança de IA em campo escuro, 8 slides — a nova série precisa romper em tema, campo e motivo [18 §7]",
+    "regra do transversal: a dica pode ser transversal, o exemplo nunca — cada peça precisa de cena concreta de um segmento, senão reprova no anti-genérico [19a §5.2]",
+    "setores não pesquisados (construção, comércio B2B, logística, indústria, imobiliário): exemplo só como cenário marcado; nenhuma afirmação de dor, percentual ou rotina deles [19a §6]",
+    "quando notícia entrar (como tempero), passa o teste de utilidade de 5 perguntas [19c §15] e leva denominador na própria peça"
+  ],
+  "evidencias": [
+    {
+      "claim": "os desejos registrados do público: tempo de volta; controle sem presença constante; decidir com número confiável; crescer sem virar outra empresa; ser respeitado tecnicamente",
+      "status": "I",
+      "fonte": "mapa de desejos [19b §10.2]"
+    },
+    {
+      "claim": "o que o público sente e quer parar de sentir: \"a operação anda porque eu empurro\" (JE1); \"estou sobrevivendo a uma agenda, não construindo um negócio\" (JE4)",
+      "status": "I",
+      "fonte": "JTBD emocional [19b §8.2]"
+    },
+    {
+      "claim": "o formato que o público pede: checklist que a equipe executa sem ele (JO1), roteiro de reunião de 30 min (JO3), script de conversa com cliente (JO5), ordem de ataque — padronizar ou automatizar primeiro (JO4)",
+      "status": "I",
+      "fonte": "JTBD operacional [19b §8.4]; personas pedem \"modelos prontos, before/after, calculadora simples\" e valorizam template mais que inspiração [19b §7]"
+    },
+    {
+      "claim": "rotinas são o principal gancho de reconhecimento: o leitor precisa se ver na cena (segunda-feira caótica, três telas com três números, orçamento sem retorno)",
+      "status": "I",
+      "fonte": "rotinas e exemplos que ressoam [19b §9, §7]"
+    },
+    {
+      "claim": "compartilhamento tem motor próprio: \"quero compartilhar algo que faz eu parecer bem informado, não crédulo\" (JS4)",
+      "status": "I",
+      "fonte": "JTBD social [19b §8.3]"
+    },
+    {
+      "claim": "conteúdo de decisão aplicada (checklist, árvore, script, calculadora) tem maior potencial de interesse que motivação genérica — é a hipótese central que esta campanha testa",
+      "status": "H",
+      "fonte": "hipótese editorial a validar [19c §11.2]"
+    },
+    {
+      "claim": "tempero disponível para dicas, com fonte: 92% das empresas têm fibra e continuam copiando dado de PDF para planilha à mão; 96% das MPEs conhecem IA generativa mas só 15% usam com frequência",
+      "status": "E",
+      "fonte": "TIC Empresas 2024 [S27]; Sebrae/FGV IBRE/Google set. 2025 [S40] — usar dentro de uma dica, com recorte visível"
+    }
+  ],
+  "limitesDeAlegacao": [
+    "os percentuais de IA (13%, 41,9%, 52%, uso frequente) não são comparáveis entre si — universos, perguntas e períodos diferentes; nenhum autoriza dizer que \"a maioria das empresas brasileiras usa IA\" [19a §4.2.2]",
+    "o dado industrial [S28] não descreve serviços, comércio nem pequenos negócios — frase de recorte na própria peça",
+    "TIC Empresas exclui MEIs e a maior parte dos micronegócios — não é \"as empresas brasileiras\" em geral",
+    "infraestrutura não é maturidade de processo — essa distinção é inferência (I), não achado de pesquisa",
+    "afirmações H e NC não são publicáveis como fato; nenhum percentual criado, somado ou extrapolado",
+    "zero medo, zero promessa de resultado ou faturamento; sem escassez artificial",
+    "notícia com número exige o denominador na própria peça, não só na legenda",
+    "quando duas fontes divergem, publicar a divergência, não escolher a mais favorável [19a §17]"
+  ],
+  "criterioAprovacao": "Valida: peças aprovadas nos gates de qualidade (12 gates visuais + gates editoriais 19c §21) e a página crescendo — seguidores novos e alcance de não seguidores subindo ao longo das 6 semanas, com leitura registrada toda semana (sem dado disponível, registra-se \"insuficiente\"; nunca número inventado). Reavalia: se o alcance de não seguidores ficar parado nas 6 semanas, o problema é consistência visual e ativo distintivo, não o tema — revisar formato e identidade antes de trocar de público. Reavaliar também se a rota de publicação continuar inexistente ao fim da produção. Encerra: ao fim das 6 semanas, com o aprendizado registrado (o que atraiu, o que não) e proposta na Inbox da Memory.",
+  "estado": "aprovado",
+  "aprovadoEm": "2026-08-29T00:02:40-03:00",
+  "aprovadoPor": "fabiano",
+  "criadoEm": "2026-08-28T23:36:49-03:00",
+  "atualizadoEm": "2026-08-29T00:02:40-03:00"
+}
