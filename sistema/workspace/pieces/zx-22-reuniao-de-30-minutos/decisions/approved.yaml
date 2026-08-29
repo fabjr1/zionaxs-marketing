@@ -8,5 +8,5 @@ requires_preflight: true
 piece_id: zx-22-reuniao-de-30-minutos
 format: carousel-4x5
 slide_count: 7
-gates_snapshot: fb44635608586dfdb65f9b675394092563c32c0e062cc8417c93ed83a488717b   # digest da geração aprovada — regeneração invalida
-approved_at: 2026-08-29T00:52:25-03:00
+gates_snapshot: ebac306bc6291f133085f15eda12e8679bfa6cc081b455dad66fafcc6a5a2846   # digest da geração aprovada — regeneração invalida
+approved_at: 2026-08-29T16:10:19-03:00
