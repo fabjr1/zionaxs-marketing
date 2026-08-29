@@ -24,7 +24,7 @@ Este diretório é a referência permanente. `estilo-poster-editorial.html` é o
 - Caps, tracking -.02em, line-height .98, 112–118px na largura útil de 936px (padding 72px).
 - Assinatura tipográfica: o **O final vira anel vazado** (border .088em, diâmetro .7em, sem miolo).
 - Lead acima em mono 22px tracking .24em; apoio abaixo em Archivo 500 30px quando precisar.
-- Fonte do título: Poppins 700 até o teste de fontes ser decidido (pendência registrada).
+- Fonte do título: **Poppins 700** — confirmada pelo Fabiano em 29/08/2026, após teste contra Archivo 800, Space Grotesk e Anton.
 
 **Crédito das fotos deste diretório** (Unsplash): `foto-por-do-sol.jpg` — Rafael Garcin; `foto-papeis.jpg` — David Yao.
 
