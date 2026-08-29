@@ -1,0 +1,16 @@
+decision: excecao_de_cadencia_para_teste
+data: "2026-08-29"
+autorizado_por: fabiano
+palavras_do_autorizador: "pode fazer isso agora... nao tem problema postar mais uma vez... eu autorizo... faca agora esse teste com uma postagem real"
+proposito: >
+  Provar de ponta a ponta a rota de publicacao a partir da rotina em nuvem. O teste
+  anterior parou no porteiro por cadencia, entao a chamada ao Instagram nunca chegou a
+  acontecer e esse trecho segue nao provado.
+situacao: "em 2026-08-29 ja foram publicadas 3 pecas (zx-21, zx-22, zx-23); o limite da politica e 2"
+escopo: apenas esta execucao de teste
+regra_permanece: true
+politica_nao_alterada: true
+como_usar: >
+  A execucao de teste pode repassar --excecao ao porteiro citando este registro. As rotinas
+  permanentes de 08:30 e 13:00 continuam proibidas de usar --excecao: a autorizacao aqui e
+  pontual e nao se estende a elas.
