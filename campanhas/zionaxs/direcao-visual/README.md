@@ -59,3 +59,7 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
 - No campo laranja, texto pequeno é tinta (4.9:1) e texto grande é papel (3.4:1); creme sobre laranja reprova o G5 por 0.02.
 - A microlinha imprime `ref` (sha256 do id da peça, 8 hex) — o digest real da geração inclui os próprios PNGs e não pode se auto-referenciar na arte.
 - Todo texto do chrome (ano, temas, microlinha) entra como slot de copy aprovada no contrato; etiquetas internas (`ZX-…`, `S1`) nunca aparecem na arte (G11).
+- O bloco de meta (ano + série + nº) e o corpo vivem na MESMA pilha ancorada embaixo (`.pstack`). Com o meta fixo em `top:40%` o corpo crescia por baixo e colidia quando a copy ficava mais longa — **nenhum gate mede sobreposição**, então isso é regra de construção, não de verificação.
+- Caixa alta só no tipo de display (`.pt1`/`.pt2`). Texto explicativo em caixa normal: parágrafo longo em caixa alta derruba a legibilidade e contraria a regra de copy didática.
+- Parágrafos explicativos aceitam quebra autoral (`
+`): é como se equilibra a última linha quando o G6 acusa órfã.

@@ -1,6 +1,6 @@
 {
   "pieceId": "zx-22-reuniao-de-30-minutos",
-  "generatedAt": "2026-08-29T15:42:30-03:00",
+  "generatedAt": "2026-08-29T15:58:26-03:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -62,7 +62,7 @@
         17,
         15
       ],
-      "renderedText": "2026Rito semanal 01/07 Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso. Roteiro pronto. Sem sistema novo. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: F. Rezvani"
+      "renderedText": "2026Rito semanal 01/07 Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso. Uma reunião curta com você mesmo, sempre no mesmo dia e horário. O roteiro completo vem nos próximos slides. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: F. Rezvani"
     },
     {
       "n": 2,
@@ -77,7 +77,7 @@
         17,
         15
       ],
-      "renderedText": "A cena02/07 Segunda, 8h. Catorze mensagens, três urgências. A semana decide por você antes de você decidir por ela. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: A. Vo"
+      "renderedText": "A cena02/07 Segunda, 8h. 14 mensagens, 3 urgências. Você responde tudo, resolve tudo — e quando vê já são 18h sem nenhuma decisão sua sobre o próprio negócio. A semana decidiu por você. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: A. Vo"
     },
     {
       "n": 3,
@@ -92,13 +92,14 @@
         17,
         15
       ],
-      "renderedText": "Raio-X03/07 O cargo diz: sócio. O calendário diz: conferência de lançamento. A ideia de Mintzberg: a agenda é o raio-X da gestão. O que não tem horário não acontece. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "Raio-X03/07 O cargo diz: dono. A agenda diz: conferir planilha, cobrar cliente, apagar incêndio. Henry Mintzberg, professor de gestão, acompanhou o dia a dia de executivos e concluiu: a agenda mostra o trabalho de verdade, não o cargo. O que não tem hora marcada não acontece. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
     },
     {
       "n": 4,
       "minContrast": 3.38,
       "levels": [
-        78
+        78,
+        40
       ],
       "chromeLevels": [
         46,
@@ -107,7 +108,7 @@
         17,
         15
       ],
-      "renderedText": "2026Gestão 04/07 Gestão não é o que sobra do dia. É um horário no calendário. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "2026Gestão 04/07 Gestão não é o que sobra do dia. É um horário no calendário. Sobra de tempo é justamente o que a semana nunca entrega. Por isso gestão precisa de hora marcada, como qualquer compromisso com cliente. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
     },
     {
       "n": 5,
@@ -123,7 +124,7 @@
         17,
         15
       ],
-      "renderedText": "O roteiro05/07 30 minutos, três blocos. 0110 min — Números: os três que você escolheu, na mesma ordem 0210 min — Travas: o que está parado esperando sua decisão 0310 min — Uma melhoria: o que muda nesta semana Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "O roteiro05/07 30 minutos, 3 blocos. 0110 min — Os números: os mesmos 3 indicadores toda semana, na mesma ordem. 0210 min — O que travou: o que está parado esperando uma decisão sua. 0310 min — 1 melhoria: escolha uma única coisa para mudar nesta semana. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
     },
     {
       "n": 6,
@@ -138,7 +139,7 @@
         17,
         15
       ],
-      "renderedText": "Sem atalho06/07 O rito não resolve crise. Ele impede que a crise seja o único momento de gestão. Sem painel? Três números à mão valem mais que dashboard adiado. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "Sem atalho06/07 O rito não resolve crise. Ele impede que a crise seja o único momento de gestão. Não precisa de sistema nem planilha bonita: 3 números anotados no papel já servem para começar na próxima segunda. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
     },
     {
       "n": 7,
@@ -155,7 +156,7 @@
         17,
         15
       ],
-      "renderedText": "2026Segunda que vem 07/07 Marque 30 minutos na próxima segunda. Mesma hora, toda semana. Se não está no calendário, não é rito. É intenção. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
+      "renderedText": "2026Segunda que vem 07/07 Marque 30 minutos na próxima segunda. Mesma hora, toda semana. Abra a agenda agora e crie o evento repetindo toda semana. Se não está no calendário, não é rito — é intenção. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
     }
   ],
   "gates": [
@@ -245,6 +246,6 @@
     }
   ],
   "pass": true,
-  "durationSeconds": 1.1,
-  "digest": "0b1c00685b32070cd82b116cbac2f429cf2dbd2b4dd1d228acc2a4a05910bda2"
+  "durationSeconds": 1.2,
+  "digest": "58688b5a1825a9aee25561b3f251bfd9d68086ff881344cf87fa3d184e7dfcec"
 }

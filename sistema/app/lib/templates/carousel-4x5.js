@@ -125,9 +125,9 @@ body{font-family:${f.body},sans-serif;-webkit-font-smoothing:antialiased;font-ke
 .slide.pfield-paper{background:${c.paper};color:${c.ink}}
 .slide.pfield-orange{background:${c.accent};color:${c.paper}}
 
-.pmeta{position:absolute;left:${fmt.mx}px;right:${fmt.mx}px;top:40%;
-  display:flex;justify-content:space-between;align-items:flex-start;
-  padding-bottom:0;border-bottom:0}
+.pstack{position:absolute;left:${fmt.mx}px;right:${fmt.mx}px;bottom:206px}
+.pmeta{display:flex;justify-content:space-between;align-items:flex-start;
+  padding-bottom:0;border-bottom:0;margin-bottom:34px}
 .pyear{font-family:${f.display},sans-serif;font-weight:700;font-size:46px;letter-spacing:.02em}
 .pkick{font-family:"${f.mono}",monospace;font-weight:700;font-size:22px;letter-spacing:.2em;
   text-transform:uppercase;margin-top:22px;color:${c.accent}}
@@ -146,8 +146,7 @@ body{font-family:${f.body},sans-serif;-webkit-font-smoothing:antialiased;font-ke
 .php .pp2{font-family:"${f.mono}",monospace;font-weight:500;font-size:24px;
   letter-spacing:.06em;color:${c.muted};font-variant-numeric:tabular-nums}
 
-.pbody{position:absolute;left:${fmt.mx}px;right:${fmt.mx}px;bottom:206px}
-.pbody.up{text-transform:uppercase}
+.pbody.up .pt1,.pbody.up .pt2{text-transform:uppercase}
 .pt1{font-family:${f.display},sans-serif;font-weight:700;line-height:.98;letter-spacing:-.02em}
 .pt2{font-family:${f.display},sans-serif;font-weight:700;font-size:${t.title}px;line-height:1.1;letter-spacing:-.022em}
 .psub{font-size:40px;line-height:1.32;font-weight:500}
@@ -287,14 +286,19 @@ function posterFrame(slide, ctx, bodyHtml) {
   </div>`;
 
   const up = field === 'paper' ? '' : ' up';
+  const stacked = field === 'paper'
+    ? `<div class="pstack"><div class="pbody${up}">
+${bodyHtml}
+  </div></div>`
+    : `<div class="pstack">${top}<div class="pbody${up}">
+${bodyHtml}
+  </div></div>`;
   return `<section class="slide poster pfield-${field}" id="s${slide.n}">
   ${bg}
   ${posterBleed(slide)}
   <div class="pgrain"></div>
-  ${top}
-  <div class="pbody${up}">
-${bodyHtml}
-  </div>
+  ${field === 'paper' ? top : ''}
+  ${stacked}
   ${foot}
 </section>`;
 }
@@ -489,7 +493,8 @@ ${c.closing ? `<p class="sec" style="margin-top:34px;max-width:840px">${brk(e, c
   'poster-turn'(s, ctx) {
     const c = s.copy, e = ctx.esc;
     return `<p class="pt1" style="font-size:78px">${brk(e, c.title)}</p>
-<p class="pt1" style="font-size:78px;margin-top:30px">${hlWrap(e, c.accent, c.hl, 'phl-ink')}</p>`;
+<p class="pt1" style="font-size:78px;margin-top:30px">${hlWrap(e, c.accent, c.hl, 'phl-ink')}</p>
+${c.body ? `<p class="psub" style="margin-top:32px;max-width:880px">${brk(e, c.body)}</p>` : ''}`;
   },
 
   'poster-fields'(s, ctx) {
