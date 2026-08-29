@@ -30,6 +30,20 @@
       "date": "2026-08-29",
       "primary": false,
       "label": "direcional (H)"
+    },
+    {
+      "source": "API Instagram Graph (@zionaxs_, id 37965311306447572) via Composio, conta verificada por identidade; coleta 2026-08-29 ~04h UTC",
+      "responsavel": "fabiano (coleta pelo agente)",
+      "metric": "seguidores totais (marco zero)",
+      "formula": "followers_count do perfil no dia da coleta",
+      "denominator": "snapshot da conta em 29/08/2026",
+      "value": 5177,
+      "frequencia": "semanal",
+      "limitacoes": "linha de base para as variações semanais; engajamento da base atual ≈ 0 (mediana de 2 curtidas/post, 0 comentários em 50 posts)",
+      "campanha": "zionaxs-capacidade-antes-de-oferta",
+      "date": "2026-08-29",
+      "primary": false,
+      "label": "direcional (H)"
     }
   ]
 }
