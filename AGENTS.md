@@ -47,6 +47,14 @@ cd sistema/app && node bin/gen.js <piece-id> --root ../workspace
 
 O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **13 gates**. Gate vermelho significa corrigir o **contrato**, nunca o pixel. Aprovação e publicação são decisões humanas, registradas em arquivo e amarradas ao digest da geração.
 
+### Comandos prontos
+
+| Comando | O que faz |
+|---|---|
+| `/carrossel` | Produz um carrossel completo da Zionaxs, do tema à peça renderizada e pronta para aprovação. Sem argumento, pesquisa e escolhe o tema; com argumento, usa o tema dado. Definido em `.claude/commands/carrossel.md`. |
+
+O comando é do projeto, então a sessão precisa estar aberta na pasta deste repositório para enxergá-lo.
+
 ### Padrões da marca, aprovados e permanentes
 
 Os dois documentos abaixo mandam. Leia antes de produzir qualquer peça:
