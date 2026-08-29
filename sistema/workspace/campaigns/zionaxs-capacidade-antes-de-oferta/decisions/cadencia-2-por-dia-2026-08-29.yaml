@@ -1,0 +1,19 @@
+decision: alteracao_de_cadencia
+campanha: zionaxs-capacidade-antes-de-oferta
+de: "1 carrossel por dia, 2 por semana (baseline canonico [27 §3])"
+para: "2 carrosseis por dia em dias uteis, slots 08:30 e 13:00 BRT"
+autorizado_por: fabiano
+autorizado_em: "2026-08-29"
+natureza: override declarado, subordinado ao baseline canonico
+condicoes_de_retomada_da_nota_30:
+  publicador_estreito: "CUMPRIDA — rota Composio criada e testada em 3 publicacoes reconciliadas (zx-21, zx-22, zx-23)"
+  reconciliacao_idempotencia: "CUMPRIDA — reconciliacao apos publicar e antes de repetir, em uso"
+  mecanismo_boot_duravel: "CUMPRIDA por rotina em nuvem, que nao depende de maquina local; era o bloqueio desde 20/08/2026"
+limite_vivo: "sistema/workspace/brands/zionaxs/politica-de-publicacao.json — e o que o porteiro cobra"
+revisar_em: "2026-09-12"
+condicao_de_reversao: "se em D+14 o alcance por peca nao subir, volta ao baseline canonico"
+observacao: >
+  A edicao de restricoes nao invalida a aprovacao do Brief por desenho: apenas campos
+  estrategicos (proposito, objetivo, publico, oferta, acaoDesejada, metricaPrimaria) fazem
+  isso. Como a mudanca nao deixaria rastro de autor e motivo no proprio Brief, este registro
+  existe para que o historico nao fique mudo sobre quem autorizou e por que.

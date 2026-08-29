@@ -55,7 +55,7 @@ O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **13 gat
 
 O comando é do projeto, então a sessão precisa estar aberta na pasta deste repositório para enxergá-lo.
 
-O sufixo é a marca. Cada marca nova ganha o seu `/carrossel-<marca>`, com os padrões e a conta daquela marca; as marcas vivem em `sistema/workspace/brands/<id>/manifest.json`. Publicação automática passa pelo porteiro `node bin/pode-publicar.js <id>`, que confere gates, padrão, trilha e a cadência de 1 post por dia.
+O sufixo é a marca. Cada marca nova ganha o seu `/carrossel-<marca>`, com os padrões e a conta daquela marca; as marcas vivem em `sistema/workspace/brands/<id>/manifest.json`. Publicação automática passa pelo porteiro `node bin/pode-publicar.js <id>`, que confere gates, padrão, trilha e a cadência declarada na política da marca.
 
 ### Padrões da marca, aprovados e permanentes
 
@@ -73,7 +73,7 @@ Os dois documentos abaixo mandam. Leia antes de produzir qualquer peça:
 5. **A foto é parte do gancho.** Escolher a imagem junto com a manchete, encenando a cena concreta que a frase descreve. Rosto só em silhueta, contraluz ou dissolvido na luz.
 6. **Logo oficial** vive em `sistema/workspace/brand/logo/`; o renderer escolhe a variante pelo campo do slide. Com logo instalada, a wordmark em texto **não** entra na copy aprovada.
 7. **Trilha sugerida** em toda peça (campo `trilha_sugerida`): instrumental, de música famosa cujo riff já seja o gancho, andamento constante. A música entra pelo app do Instagram, editando o post depois de publicado; a API não escolhe faixa.
-8. **Cadência**: no máximo 1 post por dia. Exceção exige autorização humana registrada em `decisions/`.
+8. **Cadência**: o limite vive em `sistema/workspace/brands/<marca>/politica-de-publicacao.json` e é o que o porteiro cobra. Nunca mude o número no código: mudar cadência é decisão de governança, registrada em `decisions/` da campanha e proposta na Zionaxs Memory. Exceção pontual exige autorização humana no momento.
 
 ### Peça publicada é registro histórico
 

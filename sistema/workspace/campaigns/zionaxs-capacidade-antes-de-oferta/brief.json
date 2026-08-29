@@ -29,7 +29,7 @@
     "toda dica termina executável: o leitor consegue aplicar hoje, com o que tem em mãos (gate de CTA 19c §21.6); em peça de audiência o CTA é aplicar/salvar/compartilhar/seguir — nunca \"fale com a Zionaxs\"",
     "rota de publicação para @zionaxs_ inexistente (incidente 20/08/2026: Composio retorna base3br; webhook Make sem URL) — a campanha produz e não publica; reverificar antes de presumir",
     "decisão pendente do Design System: dark-first invariante ou vocabulário — resolver antes da primeira arte",
-    "cadência máxima canônica: 2 carrosséis/semana, nunca mais de 1 post por dia [27 §3]",
+    "cadência: 2 carrosséis por dia em dias úteis, nos slots canônicos de 08:30 e 13:00 BRT. É override declarado sobre o baseline canônico de 1 por dia e 2 por semana [27 §3], autorizado por Fabiano em 29/08/2026 com as condições de retomada da nota 30 cumpridas: publicador estreito criado e testado, reconciliação e idempotência em uso, e mecanismo durável resolvido por rotina em nuvem. Revisão em 12/09/2026: se o alcance por peça não subir, volta ao baseline. O limite vivo fica em brands/zionaxs/politica-de-publicacao.json, que é o que o porteiro de publicação cobra.",
     "anti-template: as últimas quatro peças publicadas (zx-11/16/17/18) são transversais de governança de IA em campo escuro, 8 slides — a nova série precisa romper em tema, campo e motivo [18 §7]",
     "regra do transversal: a dica pode ser transversal, o exemplo nunca — cada peça precisa de cena concreta de um segmento, senão reprova no anti-genérico [19a §5.2]",
     "setores não pesquisados (construção, comércio B2B, logística, indústria, imobiliário): exemplo só como cenário marcado; nenhuma afirmação de dor, percentual ou rotina deles [19a §6]",
@@ -87,5 +87,5 @@
   "aprovadoEm": "2026-08-29T00:02:40-03:00",
   "aprovadoPor": "fabiano",
   "criadoEm": "2026-08-28T23:36:49-03:00",
-  "atualizadoEm": "2026-08-29T00:02:40-03:00"
+  "atualizadoEm": "2026-08-29T20:10:05-03:00"
 }

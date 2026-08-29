@@ -6,6 +6,7 @@
 //
 // Uso: node bin/pode-publicar.js <piece-id> [--root <ws>] [--excecao "<motivo>"]
 // Sai 0 quando pode publicar, 1 quando não pode (e diz por quê).
+import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadWorkspace } from '../lib/workspace.js';
@@ -41,22 +42,31 @@ else {
   }
 }
 
-// cadência: no máximo 1 post por dia (restrição do Brief aprovado)
+// cadência: o limite vem da política de publicação da marca, nunca do código.
+// Mudar o número aqui seria contornar uma decisão de governança; mude o arquivo.
+const slug = (x) => String(x).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+let politica = null;
+try {
+  politica = JSON.parse(fs.readFileSync(path.join(ws.brandsDir, slug(p?.contract?.brand || ''), 'politica-de-publicacao.json'), 'utf8'));
+} catch { /* sem política declarada: cai no baseline canônico */ }
+const limite = politica?.cadencia?.postsPorDia ?? 1;
+const origem = politica ? `política da marca (${politica.cadencia?.override ? 'override declarado' : 'baseline'})` : 'baseline canônico, sem política declarada';
+
 const hoje = new Date().toISOString().slice(0, 10);
 const jaHoje = loadAllPieces(ws)
   .filter((x) => x.id !== id && x.publication?.publishedAt)
   .filter((x) => new Date(x.publication.publishedAt).toISOString().slice(0, 10) === hoje);
 
 const excecao = arg('--excecao');
-if (jaHoje.length && !excecao) {
-  bloqueios.push(`cadência: ${jaHoje.map((x) => x.id).join(', ')} já publicou hoje (${hoje}). ` +
-    'O Brief limita a 1 post por dia. Publique amanhã, ou peça autorização humana e repasse --excecao "<motivo>".');
+if (jaHoje.length >= limite && !excecao) {
+  bloqueios.push(`cadência: ${jaHoje.length} publicação(ões) hoje (${hoje}), limite ${limite} por ${origem}. ` +
+    `Já saíram: ${jaHoje.map((x) => x.id).join(', ')}. Publique amanhã, ou peça autorização humana e repasse --excecao "<motivo>".`);
 }
 
 console.log(`\n=== PODE PUBLICAR? — ${id} ===`);
 if (p?.report) console.log(`gates      ${p.report.gates.filter((g) => g.pass).length}/${p.report.gates.length} · digest ${p.report.digest.slice(0, 12)}`);
 if (p) console.log(`status     ${p.status}`);
-console.log(`cadência   ${jaHoje.length ? jaHoje.length + ' publicação(ões) hoje' : 'nenhuma publicação hoje'}${excecao ? ' · exceção declarada' : ''}`);
+console.log(`cadência   ${jaHoje.length}/${limite} hoje · ${origem}${excecao ? ' · exceção declarada' : ''}`);
 if (p?.contract?.trilha_sugerida?.faixa) {
   const t = p.contract.trilha_sugerida;
   console.log(`trilha     ${t.faixa} — ${t.artista || '?'}${t.versao ? ` (${t.versao})` : ''}`);

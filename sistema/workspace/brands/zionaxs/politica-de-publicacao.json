@@ -1,0 +1,22 @@
+{
+  "marca": "zionaxs",
+  "nota": "Política de publicação da marca. O manifesto guarda referências; esta política guarda os limites operacionais que o porteiro de publicação cobra. Alterar aqui é decisão humana e precisa de proposta correspondente na Zionaxs Memory.",
+  "cadencia": {
+    "postsPorDia": 2,
+    "diasAtivos": [1, 2, 3, 4, 5],
+    "slots": [
+      { "hora": "08:30", "papel": "descoberta, tensão atual, curiosidade ou pauta encaminhável" },
+      { "hora": "13:00", "papel": "conteúdo principal: diagnóstico, framework, método ou tutorial decisório" }
+    ],
+    "fuso": "America/Fortaleza",
+    "baselineCanonico": "1 carrossel por dia e 2 por semana [27 §3]",
+    "override": {
+      "declaradoEm": "2026-08-29",
+      "autorizadoPor": "fabiano",
+      "motivo": "retomada de cadência alta com as condições da nota 30 cumpridas: publicador estreito criado e testado pela rota Composio, reconciliação e idempotência em uso, e mecanismo durável resolvido pela rotina em nuvem",
+      "subordinadoA": "27 - Instagram - Cadência, Horários e Experimentos",
+      "revisarEm": "2026-09-12",
+      "condicaoDeReversao": "se em D+14 o alcance por peça não subir, voltar ao baseline canônico"
+    }
+  }
+}
