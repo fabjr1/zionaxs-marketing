@@ -1,8 +1,9 @@
-// gates.js — os 12 gates do gerador (G-03), medidos no artefato real.
+// gates.js — os 13 gates do gerador (G-03), medidos no artefato real.
 // Duas partes: `pageProbe` roda dentro do Chromium e devolve medições cruas
 // por slide; `evaluateGates` é pura e transforma medições + contrato no
 // relatório passa/falha. A parte pura é testável sem navegador.
 import { normText } from './util.js';
+import { scanPiece } from './copy-rules.js';
 
 /**
  * Função serializada para page.evaluate. Recebe {SAFE:{x,y}} e devolve
@@ -206,6 +207,13 @@ export function evaluateGates(measure, contract, brand) {
       .map((s) => ({ slide: s.n, alt: s.alt || '' }))
       .filter((s) => s.alt.length < 40 || !s.alt.startsWith(`Slide ${s.slide} de ${total}`)),
     `${total} unidades`);
+
+  // G13 mede o texto que o público lê contra o padrão de copy da marca.
+  // Vive fora dos gates de pixel de propósito: é regra de escrita, e as
+  // ocorrências (travessão, contração) passam despercebidas na revisão humana.
+  const copyFails = scanPiece(contract, per);
+  add('G13', 'padrão de copy da marca', copyFails,
+    `${contract.caption.length} parágrafos de legenda`);
 
   return {
     gates,

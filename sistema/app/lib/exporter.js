@@ -31,7 +31,7 @@ Se qualquer item impedir a postagem, não improvise: reprove ou escale no consol
 /** Monta o ZIP de exportação. Retorna { file, size }. */
 export function buildExport(ws, piece) {
   if (!piece.report?.pass) {
-    const e = new Error('exportação exige geração com 12/12 gates verdes');
+    const e = new Error('exportação exige geração com todos os gates verdes');
     e.code = 'EXPORT_REFUSED';
     throw e;
   }

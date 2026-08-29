@@ -1,6 +1,6 @@
 {
   "pieceId": "zx-22-reuniao-de-30-minutos",
-  "generatedAt": "2026-08-29T16:10:00-03:00",
+  "generatedAt": "2026-08-29T16:28:07-03:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -243,9 +243,16 @@
       "pass": true,
       "failures": [],
       "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "5 parágrafos de legenda"
     }
   ],
   "pass": true,
-  "durationSeconds": 1.1,
+  "durationSeconds": 1,
   "digest": "ebac306bc6291f133085f15eda12e8679bfa6cc081b455dad66fafcc6a5a2846"
 }

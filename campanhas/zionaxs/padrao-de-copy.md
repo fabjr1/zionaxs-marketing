@@ -25,4 +25,12 @@ Fonte citada entra como paráfrase fiel com autor, obra e ano. Sem citação lit
 
 ## Como isso é verificado
 
-A copy é validada contra `approved_visible_copy` no contrato da peça, e os 12 gates medem o resultado no pixel. As regras 4 e 5 não têm gate automático ainda: são verificadas por varredura no contrato antes de gerar.
+As regras 4 e 5 têm gate automático: **G13, padrão de copy da marca**, implementado em `sistema/app/lib/copy-rules.js`. Ele varre os slots de copy do contrato, o alt text, a legenda e o texto renderizado de cada slide. A validação do contrato aplica as mesmas regras antes do render, então uma peça com travessão é recusada sem gastar geração.
+
+As regras 1, 2, 3 e 6 continuam de julgamento humano: máquina não mede clareza. Entraram no gate apenas as que têm resposta binária, que são justamente as que escapam da revisão humana por serem pequenas.
+
+Acrescentar uma regra nova é editar a tabela `COPY_RULES`: ela alimenta o gate e a validação ao mesmo tempo.
+
+## Peças anteriores ao padrão
+
+A **zx-21 já foi publicada** com 7 ocorrências que hoje o G13 reprovaria. O contrato dela não foi reescrito de propósito: é o registro do que foi ao ar, e falsificá-lo apagaria a história. Consequência prática: ela não pode ser regerada sem antes ser trazida ao padrão. A **zx-20**, que nunca saiu, foi corrigida e está em 13/13.

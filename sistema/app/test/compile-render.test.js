@@ -18,10 +18,15 @@ test('compilação é pura: mesmo contrato → mesmo HTML', () => {
   const b = compile(c, brand).html;
   assert.equal(sha256(a), sha256(b));
   assert.match(a, /DERIVADO de contract.json/);
-  assert.doesNotMatch(a, /https?:\/\//, 'HTML compilado não referencia rede');
+  // xmlns é identificador de namespace XML, não busca de rede: o navegador
+  // nunca o requisita. O grão do estilo pôster vive em um data: URI de SVG,
+  // que exige a declaração. A prova dura de N-02 é a interceptação de rotas
+  // durante o render, verificada pelo gate NET no teste seguinte.
+  const semNamespace = a.replace(/xmlns[^=]*=[^ >]*/g, '');
+  assert.doesNotMatch(semNamespace, /https?:\/\//, 'HTML compilado não referencia rede');
 });
 
-test('render real: 12/12 gates, sem rede, bytes idênticos em duas gerações', async (t) => {
+test('render real: todos os gates verdes, sem rede, bytes idênticos em duas gerações', async (t) => {
   const root = makeTmpWorkspace({ fonts: true });
   const id = 'zx-test-render';
   const dir = path.join(root, 'pieces', id);
@@ -36,7 +41,7 @@ test('render real: 12/12 gates, sem rede, bytes idênticos em duas gerações', 
   const elapsed = (Date.now() - t0) / 1000;
 
   assert.equal(r1.pass, true, JSON.stringify(r1.gates.filter((g) => !g.pass)));
-  assert.equal(r1.gates.length, 12);
+  assert.equal(r1.gates.length, 13);
   assert.ok(!r1.gates.some((g) => g.id === 'NET'), 'nenhuma tentativa de rede (N-02)');
   assert.ok(elapsed < 60, `N-04: geração em ${elapsed}s`);
 

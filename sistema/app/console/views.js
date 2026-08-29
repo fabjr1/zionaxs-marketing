@@ -120,7 +120,7 @@ export function queueView({ pieces, state, token }) {
     <td class="mono"><a href="/piece/${esc(p.id)}${t}">${esc(p.id)}</a></td>
     <td>${esc(p.contract.piece || '')} · ${esc(p.contract.campaign || '')}</td>
     <td>${statusPill(p.status)}</td>
-    <td class="mono">${p.report ? (p.report.pass ? '12/12' : p.report.gates.filter((g) => g.pass).length + '/' + p.report.gates.length) : '—'}</td>
+    <td class="mono">${p.report ? (p.report.gates.filter((g) => g.pass).length + '/' + p.report.gates.length) : '—'}</td>
     <td class="mono">${p.report ? esc(p.report.digest.slice(0, 10)) : '—'}</td>
   </tr>`).join('\n');
 

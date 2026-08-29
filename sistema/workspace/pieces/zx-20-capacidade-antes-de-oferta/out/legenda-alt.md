@@ -4,7 +4,7 @@
 
 A leitura mais comum das sondagens recentes é que o setor está atrasado em conhecimento. A leitura da Zionaxs é outra: o gargalo é capacidade, não currículo.
 
-Consultoria é trabalho não recorrente. Ela entra num mês já desenhado em torno de obrigações com data fixa, e disputa exatamente as horas do sócio, que é quem também executa. Por isso o pacote que parece pronto na apresentação não sai do papel: não existe janela onde ele caiba.
+Consultoria é trabalho não recorrente. Ela entra em um mês já desenhado em torno de obrigações com data fixa, e disputa exatamente as horas do sócio, que é quem também executa. Por isso o pacote que parece pronto na apresentação não sai do papel: não existe janela onde ele caiba.
 
 Antes de empacotar, três números. Horas do sócio fora do calendário obrigatório. Quantos clientes cabem no primeiro lote. Em que semana do mês a entrega não colide com fechamento. Se os três não fecharem, o problema não é a oferta.
 
@@ -22,13 +22,13 @@ Fontes: sondagens do setor contábil sobre Reforma Tributária divulgadas pela F
 
 **03/08** · Slide 3 de 8. A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais. Duas frases em escala decrescente, sem imagem. O diagnóstico desloca a solução de mais estudo para gestão de horas.
 
-**04/08** · Slide 4 de 8. Consultoria é trabalho não recorrente numa operação desenhada para recorrência. Um mês dividido em cinco semanas: três hachuradas como calendário obrigatório e duas marcadas como vão livre. Os vãos são a minoria, e é isso que o slide mostra. Ela disputa o mesmo par de mãos que fecha a folha.
+**04/08** · Slide 4 de 8. Consultoria é trabalho não recorrente em uma operação desenhada para recorrência. Um mês dividido em cinco semanas: três hachuradas como calendário obrigatório e duas marcadas como vão livre. Os vãos são a minoria, e é isso que o slide mostra. Ela disputa o mesmo par de mãos que fecha a folha.
 
 **05/08** · Slide 5 de 8. A pergunta não é qual pacote vender. É quantas horas livres existem no mês da entrega. Único slide de fundo grafite escuro da sequência, com a segunda frase em laranja. A ruptura de campo marca a reformulação da pergunta comercial em pergunta de capacidade.
 
 **06/08** · Slide 6 de 8. Antes de empacotar, três números. Três campos numerados para o leitor preencher: horas do sócio fora do calendário obrigatório; quantos clientes cabem no primeiro lote; em que semana a entrega não colide com o fechamento. O slide funciona como formulário, e é por isso que ele é salvo.
 
-**07/08** · Slide 7 de 8. A aritmética aberta na tela: vinte clientes vezes duas horas são quarenta horas. A conta é simples; a pergunta é onde essas quarenta horas estão no seu mês. Abaixo, a citação literal verificada de James March, 1991, com a tradução editorial marcada como tal — o limite da evidência acompanha o exemplo.
+**07/08** · Slide 7 de 8. A aritmética aberta na tela: vinte clientes vezes duas horas são quarenta horas. A conta é simples; a pergunta é onde essas quarenta horas estão no seu mês. Abaixo, a citação literal verificada de James March, 1991, com a tradução editorial marcada como tal. O limite da evidência acompanha o exemplo.
 
 **08/08** · Slide 8 de 8. Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. Se não couberem, o pacote ainda não existe. Fechamento com uma única ação, coerente com a categoria: aplicar o teste de capacidade antes de qualquer conversa comercial.
 

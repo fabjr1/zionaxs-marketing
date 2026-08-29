@@ -1,6 +1,6 @@
 {
   "pieceId": "zx-20-capacidade-antes-de-oferta",
-  "generatedAt": "2026-08-28T13:47:44-03:00",
+  "generatedAt": "2026-08-29T16:21:30-03:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -59,7 +59,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "Reforma Tributária01/08 68% dos escritórios já foram procurados sobre a Reforma. O que falta não é informação. Escritórios contábeis, Brasil, 2026. Fenacon, jul 2026. Amostra não explicitada — sinal, não censo. Zionaxs"
+      "renderedText": "Reforma Tributária01/08 68% dos escritórios já foram procurados sobre a Reforma. O que falta não é informação. Escritórios contábeis, Brasil, 2026. Fenacon, jul 2026. Amostra não explicitada: sinal, não censo."
     },
     {
       "n": 2,
@@ -72,7 +72,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "Sondagens 202602/08 56% consumindo conteúdo sem plano definido Fenacon · jul 2026 61% sem mapeamento da carteira Omie/Fenacon · mar 2026 · n=633 Sondagens patrocinadas por fornecedor de software. Jul 2026 sem amostra explicitada. Sinal, não censo. Zionaxs"
+      "renderedText": "Sondagens 202602/08 56% consumindo conteúdo sem plano definido Fenacon · jul 2026 61% sem mapeamento da carteira Omie/Fenacon · mar 2026 · n=633 Sondagens patrocinadas por fornecedor de software. Jul 2026 sem amostra explicitada. Sinal, não censo."
     },
     {
       "n": 3,
@@ -84,7 +84,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "Na prática03/08 A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais. Zionaxs"
+      "renderedText": "Na prática03/08 A demanda chegou antes da capacidade. E capacidade não se resolve estudando mais."
     },
     {
       "n": 4,
@@ -97,7 +97,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "O mês04/08 Consultoria é trabalho não recorrente numa operação desenhada para recorrência. S1S2S3S4S5 vão livre calendário obrigatório Ela disputa o mesmo par de mãos que fecha a folha. Zionaxs"
+      "renderedText": "O mês04/08 Consultoria é trabalho não recorrente em uma operação desenhada para recorrência. S1S2S3S4S5 vão livre calendário obrigatório Ela disputa o mesmo par de mãos que fecha a folha."
     },
     {
       "n": 5,
@@ -108,7 +108,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "Horas livres05/08 A pergunta não é qual pacote vender. É quantas horas livres existem no mês da entrega. Zionaxs"
+      "renderedText": "Horas livres05/08 A pergunta não é qual pacote vender. É quantas horas livres existem no mês da entrega."
     },
     {
       "n": 6,
@@ -121,7 +121,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "Três números06/08 Antes de empacotar, três números. 01Horas do sócio fora do calendário obrigatório 02Quantos clientes cabem no primeiro lote 03Em que semana a entrega não colide com o fechamento Zionaxs"
+      "renderedText": "Três números06/08 Antes de empacotar, três números. 01Horas do sócio fora do calendário obrigatório 02Quantos clientes cabem no primeiro lote 03Em que semana a entrega não colide com o fechamento"
     },
     {
       "n": 7,
@@ -134,7 +134,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "A conta07/08 20 × 2h = 40h A conta é simples. A pergunta é onde essas 40 horas estão no seu mês. \"Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.\" James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento — por isso o experimento exige orçamento, métrica e cadência próprios. Zionaxs"
+      "renderedText": "A conta07/08 20 × 2h = 40h A conta é simples. A pergunta é onde essas 40 horas estão no seu mês. \"Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.\" James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento. Por isso o experimento exige orçamento, métrica e cadência próprios."
     },
     {
       "n": 8,
@@ -145,7 +145,7 @@
       "chromeLevels": [
         26
       ],
-      "renderedText": "Seus 2008/08 Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. Se não couberem, o pacote ainda não existe. Zionaxs"
+      "renderedText": "Seus 2008/08 Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. Se não couberem, o pacote ainda não existe."
     }
   ],
   "gates": [
@@ -232,9 +232,16 @@
       "pass": true,
       "failures": [],
       "detail": "8 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "5 parágrafos de legenda"
     }
   ],
   "pass": true,
-  "durationSeconds": 0.7,
-  "digest": "de8146375855bade9f91cf926ca5d4173fa3f157223e2e758a6792c786212154"
+  "durationSeconds": 0.6,
+  "digest": "174e394811158dd6773e136661ee0fe39f30852bfda1d01dd0dc5b5a02e179c9"
 }

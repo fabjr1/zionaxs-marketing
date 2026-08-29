@@ -27,6 +27,7 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
 .slide.dark .ft{border-top-color:#39404A}
 .ft .wm{font-family:Poppins,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em}
 .ft .wm svg{height:30px;display:block}
+.ft .wm img{height:30px;display:block}
 .d1{font-family:Poppins,sans-serif;font-weight:700;font-size:80px;line-height:1.08;letter-spacing:-.028em}
 .d2{font-family:Poppins,sans-serif;font-weight:700;font-size:64px;line-height:1.12;letter-spacing:-.022em}
 .p{font-size:46px;line-height:1.42;font-weight:400}
@@ -80,6 +81,95 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
 .imgwrap{margin-top:40px;border:1px solid #D8DCE1;border-radius:6px;overflow:hidden}
 .imgwrap img{width:100%;display:block}
 
+/* ===== estilo pôster editorial (direção visual oficial, 29/08/2026) =====
+   Três campos: foto escura (emoção), papel claro (utilidade), laranja
+   chapado (virada). Chrome de prova de impressão em todos: grão, ano,
+   nº em caixa, temas, régua de cor e microlinha. Contraste é medido pelo
+   G5 contra o background declarado do campo — por isso: no laranja, texto
+   pequeno é tinta (4.9:1) e texto grande é papel (3.4:1); no campo de
+   foto o slide declara tinta e os scrims garantem a leitura perceptual. */
+.slide.poster{display:block;padding:0}
+.pbgwrap{position:absolute;inset:0;overflow:hidden}
+.pbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pgrade{position:absolute;inset:0;mix-blend-mode:soft-light;background:
+  linear-gradient(180deg, rgba(255,122,26,.26) 0%, rgba(255,122,26,.08) 26%,
+  rgba(39,69,78,.32) 54%, rgba(39,69,78,.10) 68%, transparent 76%)}
+.pscrim{position:absolute;inset:0;background:
+  linear-gradient(180deg, rgba(12,13,16,.32) 0%, rgba(12,13,16,.12) 30%,
+  rgba(12,13,16,.42) 60%, rgba(12,13,16,.92) 96%)}
+.pgrain{position:absolute;inset:0;pointer-events:none;opacity:.18;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='260' height='260' filter='url(%23n)' opacity='0.9'/></svg>")}
+.pbleed{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.parc{position:absolute;border-radius:50%;border:26px solid #F54502}
+.pblock{position:absolute;overflow:hidden}
+.pblock img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.08) brightness(1.18)}
+.pghost{position:absolute;right:-40px;bottom:60px;width:640px;height:640px}
+.pghost text{font-family:"JetBrains Mono",monospace;font-weight:700;fill:rgba(20,23,27,.12)}
+
+.slide.pfield-photo{background:#14171B;color:#EFE7D7}
+.slide.pfield-paper{background:#F5F6F7;color:#14171B}
+.slide.pfield-orange{background:#F54502;color:#F5F6F7}
+
+.pstack{position:absolute;left:80px;right:80px;bottom:206px}
+.pmeta{display:flex;justify-content:space-between;align-items:flex-start;
+  padding-bottom:0;border-bottom:0;margin-bottom:34px}
+.pyear{font-family:Poppins,sans-serif;font-weight:700;font-size:46px;letter-spacing:.02em}
+.pkick{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:22px;letter-spacing:.2em;
+  text-transform:uppercase;margin-top:22px;color:#F54502}
+.pfield-orange .pkick{color:#F5F6F7}
+.pnum{display:flex;align-items:center;justify-content:center;min-width:84px;height:84px;
+  padding:0 14px;border:3px solid rgba(239,231,215,.9);
+  font-family:"JetBrains Mono",monospace;font-weight:700;font-size:24px;letter-spacing:.06em;
+  font-variant-numeric:tabular-nums}
+.pfield-orange .pnum{border-color:rgba(245,246,247,.9)}
+
+.php{position:absolute;left:80px;right:80px;top:88px;
+  display:flex;justify-content:space-between;align-items:baseline;
+  padding-bottom:20px;border-bottom:2px solid #14171B}
+.php .pk2{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:26px;
+  letter-spacing:.14em;text-transform:uppercase;color:#B23100}
+.php .pp2{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:24px;
+  letter-spacing:.06em;color:#5A6270;font-variant-numeric:tabular-nums}
+
+.pbody.up .pt1,.pbody.up .pt2{text-transform:uppercase}
+.pt1{font-family:Poppins,sans-serif;font-weight:700;line-height:.98;letter-spacing:-.02em}
+.pt2{font-family:Poppins,sans-serif;font-weight:700;font-size:64px;line-height:1.1;letter-spacing:-.022em}
+.psub{font-size:40px;line-height:1.32;font-weight:500}
+.pnote{font-family:"JetBrains Mono",monospace;font-size:26px;line-height:1.5;color:rgba(239,231,215,.72)}
+.pfield-paper .pnote{color:#5A6270}
+.phl{background:#F54502;color:#F5F6F7;padding:2px 18px 5px;border-radius:4px;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.phl-ink{background:#14171B;color:#F5F6F7;padding:2px 18px 5px;border-radius:4px;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.preg{display:flex;flex-direction:column;border-top:2px solid #14171B;margin-top:30px}
+.preg .l{display:grid;grid-template-columns:64px 1fr;gap:0 22px;align-items:center;
+  padding:26px 0;border-bottom:1px solid #B9C0C8}
+.preg .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:32px;color:#B23100;font-variant-numeric:tabular-nums}
+.preg .t{font-size:34px;line-height:1.35;font-weight:500;color:#14171B}
+
+.pfoot{position:absolute;left:80px;right:80px;bottom:88px;
+  display:block;padding-top:0;border-top:0}
+.pfoot .pf1{display:flex;justify-content:space-between;align-items:baseline;
+  padding-top:18px;border-top:1px solid rgba(239,231,215,.45)}
+.pfield-paper .pfoot .pf1{border-top-color:#D8DCE1}
+.pfield-orange .pfoot .pf1{border-top-color:rgba(245,246,247,.55)}
+.ptemas{font-family:"JetBrains Mono",monospace;font-size:17px;letter-spacing:.14em;
+  text-transform:uppercase;color:rgba(239,231,215,.78)}
+.pfield-paper .ptemas{color:#5A6270}
+.pfield-orange .ptemas{color:#14171B}
+.pwm{font-family:Poppins,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em;color:#EFE7D7}
+.pwm img{height:30px;display:block}
+.pfield-paper .pwm{color:#14171B}
+.pfield-orange .pwm{color:#F5F6F7}
+.pf2{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.pchips{display:flex;gap:8px}
+.pchips i{display:block;width:44px;height:20px}
+.pfield-paper .pchips i{box-shadow:inset 0 0 0 1px rgba(20,23,27,.14)}
+.pfield-orange .pchips i{box-shadow:inset 0 0 0 1px rgba(245,246,247,.45)}
+.pmicro{font-family:"JetBrains Mono",monospace;font-size:15px;letter-spacing:.08em;color:rgba(239,231,215,.6)}
+.pfield-paper .pmicro{color:#5A6270}
+.pfield-orange .pmicro{color:#14171B}
+
 </style>
 </head>
 <body>
@@ -90,10 +180,10 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
 <div class="stack">
   <h1 class="d1">68% dos escritórios<br>já foram procurados<br>sobre a Reforma.<br><span class="acc">O que falta não<br>é informação.</span></h1>
   <p class="sec">Escritórios contábeis, Brasil, 2026.</p>
-  <p class="note">Fenacon, jul 2026. Amostra não explicitada — sinal, não censo.</p>
+  <p class="note">Fenacon, jul 2026. Amostra não<br>explicitada: sinal, não censo.</p>
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 <section class="slide" id="s2">
@@ -115,7 +205,7 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   <p class="note">Sondagens patrocinadas por fornecedor de software.<br>Jul 2026 sem amostra explicitada. Sinal, não censo.</p>
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 <section class="slide" id="s3">
@@ -126,14 +216,14 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   <p class="p med" style="margin-top:40px">E capacidade não se resolve estudando mais.</p>
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 <section class="slide" id="s4">
   <div class="hd"><span class="kick">O mês</span><span class="pg">04/08</span></div>
   <div class="body">
 <div>
-  <p class="d2" style="margin-bottom:24px">Consultoria é trabalho<br>não recorrente numa<br>operação desenhada<br>para recorrência.</p>
+  <p class="d2" style="margin-bottom:24px">Consultoria é trabalho<br>não recorrente em uma<br>operação desenhada<br>para recorrência.</p>
   <div class="cal"><div class="wk off">S1</div><div class="wk on">S2</div><div class="wk off">S3</div><div class="wk on">S4</div><div class="wk off">S5</div></div>
   <div class="callab">
     <i><span class="dot"></span> vão livre</i>
@@ -142,7 +232,7 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   <p class="p med" style="margin-top:48px">Ela disputa o mesmo par de mãos<br>que fecha a folha.</p>
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 <section class="slide dark" id="s5">
@@ -154,7 +244,7 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-white.png" alt=""></span></div>
 </section>
 
 <section class="slide" id="s6">
@@ -170,7 +260,7 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   </div>
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 <section class="slide" id="s7">
@@ -180,10 +270,10 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   
   <div class="math">20 × 2h = 40h</div>
   <p class="p med">A conta é simples. A pergunta é onde<br>essas 40 horas estão no seu mês.</p>
-  <div class="cite"><p class="note">&quot;Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.&quot; James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento — por isso o experimento exige orçamento, métrica e cadência próprios.</p></div>
+  <div class="cite"><p class="note">&quot;Adaptive processes, by refining exploitation more rapidly than exploration, are likely to become effective in the short run but self-destructive in the long run.&quot; James G. March, Organization Science, 1991. Tradução editorial: a operação madura sempre parece mais eficiente que o experimento. Por isso o experimento exige orçamento, métrica e cadência próprios.</p></div>
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 <section class="slide" id="s8">
@@ -195,7 +285,7 @@ body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kern
   
 </div>
   </div>
-  <div class="ft"><span class="wm">Zionaxs</span></div>
+  <div class="ft"><span class="wm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
 </section>
 
 </body>

@@ -1,4 +1,4 @@
-// gates.test.js — a parte pura dos 12 gates, com medições sintéticas.
+// gates.test.js — a parte pura dos 13 gates, com medições sintéticas.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
@@ -25,10 +25,10 @@ function greenMeasure(contract) {
 
 const c4 = loadC4();
 
-test('medição verde → 12 gates passam', () => {
+test('medição verde → 13 gates passam', () => {
   const r = evaluateGates(greenMeasure(c4), c4, brand);
   assert.equal(r.pass, true, r.summary.join(' | '));
-  assert.equal(r.gates.length, 12);
+  assert.equal(r.gates.length, 13);
 });
 
 test('G1: dimensão errada reprova', () => {
@@ -96,4 +96,35 @@ test('G11: rótulo interno de 2 caracteres (ex. "S1") também reprova', () => {
   const g = evaluateGates(m, c, brand).gates.find((x) => x.id === 'G11');
   assert.equal(g.pass, false, 'filtro de comprimento não pode isentar rótulos curtos');
   assert.match(JSON.stringify(g.failures), /S1/);
+});
+
+test('G13: travessão em slot de copy reprova', () => {
+  const c = clone(c4);
+  c.slides[0].copy.note = 'Amostra não explicitada — sinal, não censo.';
+  c.slides[0].approved_visible_copy.push('Amostra não explicitada — sinal, não censo.');
+  const r = evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G13');
+  assert.equal(r.pass, false);
+  assert.match(r.failures[0].regra, /travessão/);
+});
+
+test('G13: contração informal na legenda reprova', () => {
+  const c = clone(c4);
+  c.caption[0] = 'Isso acontece numa segunda-feira comum.';
+  const r = evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G13');
+  assert.equal(r.pass, false);
+  assert.equal(r.failures[0].onde, 'caption[0]');
+});
+
+test('G13: travessão no alt text reprova', () => {
+  const c = clone(c4);
+  c.slides[1].alt += ' Período 2013–2014.';
+  const r = evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G13');
+  assert.equal(r.pass, false);
+  assert.match(r.failures[0].onde, /^alt do slide/);
+});
+
+test('G13: acento não gera falso positivo de contração', () => {
+  const c = clone(c4);
+  c.caption[0] = 'A peça não publica evidência numérica nem numeral solto.';
+  assert.equal(evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G13').pass, true);
 });

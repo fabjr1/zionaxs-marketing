@@ -59,4 +59,4 @@ const outs = await writeOutputs({
   slideFiles: report.slides.map((f) => path.join(pieceDir, 'out', f)),
 });
 console.log(`✓ saídas → ${path.relative(ws.root, outs.sheet)}, ${path.relative(ws.root, outs.captionFile)}`);
-console.log(`\n✓ peça gerada e 12/12 gates verdes em ${secs}s`);
+console.log(`\n✓ peça gerada e ${report.gates.length}/${report.gates.length} gates verdes em ${secs}s`);
