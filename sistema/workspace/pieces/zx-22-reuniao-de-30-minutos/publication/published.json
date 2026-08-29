@@ -1,0 +1,38 @@
+{
+  "postId": "18100408421255957",
+  "permalink": "https://www.instagram.com/p/DcotKj3mwVl/",
+  "publishedAt": "2026-08-29T19:38:13+0000",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "containerId": "17906156250501214",
+  "childContainers": [
+    "17906155890501214",
+    "17906155887501214",
+    "17906155884501214",
+    "17906155881501214",
+    "17906155959501214",
+    "17906155953501214",
+    "17906155956501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-22-reuniao-de-30-minutos/out/jpg/zx-22-reuniao-de-30-minutos-slide-07.jpg"
+  ],
+  "digest": "ebac306bc6291f133085f15eda12e8679bfa6cc081b455dad66fafcc6a5a2846",
+  "reconciledAt": "2026-08-29T16:38:49-03:00",
+  "reconciliation": {
+    "metodo": "GET_IG_MEDIA + GET_IG_MEDIA_CHILDREN após o publish",
+    "contaConfirmada": "zionaxs_ (identidade verificada ao vivo antes de criar containers)",
+    "mediaType": "CAROUSEL_ALBUM",
+    "slidesPublicados": 7,
+    "legendaConferida": true,
+    "cadencia": "exceção autorizada pelo Fabiano; segundo post do dia 29/08 (ver decisions/excecao-cadencia-2026-08-29.yaml)",
+    "cotaNoMomento": "1 de 100 usados na janela de 24h antes deste post"
+  }
+}
