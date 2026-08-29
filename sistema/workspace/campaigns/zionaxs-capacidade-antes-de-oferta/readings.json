@@ -1,0 +1,21 @@
+{
+  "campanha": "zionaxs-capacidade-antes-de-oferta",
+  "readings": [
+    {
+      "source": "API Instagram Graph (@zionaxs_, id 37965311306447572) via Composio, conta verificada por identidade; coleta 2026-08-29 ~04h UTC",
+      "responsavel": "fabiano (coleta pelo agente)",
+      "primary": true,
+      "metric": "seguidores novos por semana",
+      "formula": "soma do follower_count diário da API na semana 22–28/08",
+      "denominator": "base de 5.177 seguidores ao fim do período",
+      "value": 37,
+      "frequencia": "semanal",
+      "interpretacao": "crescimento estável de seguidores descolado do alcance — hipótese: origem fora do conteúdo",
+      "limitacoes": "alcance de ~30 contas em 30 dias no mesmo período; follower_count diário não explicita tratamento de unfollows; sozinha, esta métrica não mede efeito do conteúdo",
+      "campanha": "zionaxs-capacidade-antes-de-oferta",
+      "date": "2026-08-29",
+      "label": "direcional (H)",
+      "avisoCausal": "leitura não significativa — a interpretação é hipótese, não causa estabelecida"
+    }
+  ]
+}
