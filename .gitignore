@@ -4,6 +4,12 @@ node_modules/
 # Skill install artifacts (npx skills add)
 .agents/
 .claude/
+
+# ...mas os comandos do projeto SAO conhecimento e precisam viajar com o repo.
+# Sem isso o agente em nuvem clona sem o processo e improvisa (achado em 29/08/2026).
+!.claude/
+!.claude/commands/
+!.claude/commands/**
 skills-lock.json
 
 # Environment variables / secrets
