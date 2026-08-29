@@ -1,0 +1,9 @@
+decision: excecao_de_cadencia
+piece_id: zx-22-reuniao-de-30-minutos
+regra: "nunca mais de 1 post por dia (restrição do Brief aprovado)"
+situacao: "zx-21 publicada em 2026-08-29T04:04:11+0000; zx-22 sai no mesmo dia"
+autorizado_por: fabiano
+como: "pergunta direta com as alternativas de adiar, abrir exceção ou mudar a regra; escolheu abrir a exceção"
+escopo: "apenas esta publicação"   # exceção pontual: a regra do Brief não foi alterada
+regra_permanece: true   # próximas peças voltam ao limite de 1 post por dia
+registrado_em: 2026-08-29T16:35:24-03:00
