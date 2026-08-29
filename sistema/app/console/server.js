@@ -27,6 +27,12 @@ import { addFeedback, loadFeedback, updateFeedback, contradictions, FEEDBACK_OUT
 import { draftFromFeedback, proposeLearning, recordPromotion } from '../lib/learning.js';
 import { campaignQueueView, campaignView, learningDraftView } from './campaign-views.js';
 
+/** Resposta de recurso inexistente: genérica de propósito, não descreve o id. */
+const NOT_FOUND = '<div class="note err">recurso não encontrado</div>';
+
+/** Mensagem de flash para entrada recusada, sem expor a regra de validação. */
+const INVALID_REQUEST = 'requisição inválida — identificador fora do formato esperado';
+
 const MIME = {
   '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml',
   '.json': 'application/json', '.zip': 'application/zip',
@@ -283,8 +289,14 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
         const cid = parts[1];
         const seg = parts[2] || null;
 
+        // Id fora do formato é recurso inexistente, não erro do servidor.
+        // Sem esta guarda o UNSAFE_ID subia para o catch global, virava 500 e
+        // ainda devolvia a mensagem interna de validação na página.
+        if (!isSafeId(cid)) return send(404, page({ title: 'não encontrado', token, body: NOT_FOUND }));
+
         // rascunho de proposta de aprendizado (GET dedicado)
         if (req.method === 'GET' && seg === 'learning' && parts[3]) {
+          if (!isSafeId(parts[3])) return send(404, page({ title: 'não encontrado', token, body: NOT_FOUND }));
           const c = loadCampaign(ws, cid);
           if (!c) return send(404, page({ title: cid, token, body: '<div class="note err">campanha não encontrada</div>' }));
           const fb = loadFeedback(ws, cid, parts[3]);
@@ -445,7 +457,10 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
               return redirect(`/campaign/${cid}`, 'campanha encerrada');
             }
           } catch (err) {
-            return redirect(`/campaign/${cid}`, err.message, 'err');
+            // UNSAFE_ID não devolve a mensagem interna: ela nomeia o valor
+            // recusado e a regra de formato, que não interessa ao cliente.
+            return redirect(`/campaign/${cid}`,
+              err.code === 'UNSAFE_ID' ? INVALID_REQUEST : err.message, 'err');
           }
         }
 

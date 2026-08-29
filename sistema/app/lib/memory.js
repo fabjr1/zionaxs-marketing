@@ -85,7 +85,9 @@ function digestOf(body, maxChars = 320) {
 export const MEMORY_STATE = {
   UNAVAILABLE: 'indisponível',
   NOT_A_REPO: 'sem versionamento',
+  NO_ORIGIN: 'sem remoto origin',
   NO_UPSTREAM: 'sem upstream',
+  NON_CANONICAL: 'fora da canônica',
   DIRTY: 'suja',
   UNVERIFIED: 'não verificada',
   FETCH_FAILED: 'remoto inacessível',
@@ -93,6 +95,18 @@ export const MEMORY_STATE = {
   BEHIND: 'atrasada',
   SYNCED: 'sincronizada',
 };
+
+/**
+ * A canônica, conforme a política da Zionaxs Memory: branch `main` do remoto
+ * `origin`. Não basta ter *um* upstream — tem que ser este.
+ *
+ * Sem esta amarração, uma cópia local em `main` rastreando `origin/rascunho`
+ * era reportada como sincronizada, e contexto não canônico podia aprovar Brief
+ * e virar proposta na Inbox.
+ */
+export const CANONICAL_REMOTE = 'origin';
+export const CANONICAL_BRANCH = 'main';
+export const CANONICAL_REF = `${CANONICAL_REMOTE}/${CANONICAL_BRANCH}`;
 
 /**
  * Protocolo seguro da Zionaxs Memory (§10.1, §12), aplicado ANTES de leitura
@@ -132,6 +146,22 @@ export function syncMemory(memoryRoot, { fetch: doFetch = process.env.MOS_MEMORY
   out.head = tryGit(['rev-parse', '--short', 'HEAD']).out || null;
   out.branch = tryGit(['rev-parse', '--abbrev-ref', 'HEAD']).out || null;
 
+  // ---- a cópia local precisa SER a canônica, não apenas ter um upstream ----
+  if (out.branch !== CANONICAL_BRANCH) {
+    out.state = MEMORY_STATE.NON_CANONICAL;
+    out.why = out.branch === 'HEAD'
+      ? 'a cópia local está em HEAD destacado — não há branch para confrontar com a canônica'
+      : `a cópia local está na branch "${out.branch}", e a canônica é "${CANONICAL_BRANCH}"`;
+    return out;
+  }
+
+  const origin = tryGit(['remote', 'get-url', CANONICAL_REMOTE]);
+  if (!origin.ok) {
+    out.state = MEMORY_STATE.NO_ORIGIN;
+    out.why = `sem remoto "${CANONICAL_REMOTE}" — não há canônica para confrontar`;
+    return out;
+  }
+
   const upstream = tryGit(['rev-parse', '--abbrev-ref', '--symbolic-full-name', '@{upstream}']);
   if (!upstream.ok) {
     out.state = MEMORY_STATE.NO_UPSTREAM;
@@ -139,6 +169,11 @@ export function syncMemory(memoryRoot, { fetch: doFetch = process.env.MOS_MEMORY
     return out;
   }
   out.upstream = upstream.out;
+  if (out.upstream !== CANONICAL_REF) {
+    out.state = MEMORY_STATE.NON_CANONICAL;
+    out.why = `a branch local acompanha "${out.upstream}", e a canônica é "${CANONICAL_REF}"`;
+    return out;
+  }
 
   out.dirty = (tryGit(['status', '--porcelain']).out || '').length > 0;
   if (out.dirty) {
@@ -153,15 +188,17 @@ export function syncMemory(memoryRoot, { fetch: doFetch = process.env.MOS_MEMORY
     return out;
   }
 
-  const fetched = tryGit(['fetch', '--quiet']);
+  // Busca e compara SEMPRE contra a canônica nomeada, não contra o que o
+  // upstream por acaso aponta — é o que torna a verificação inequívoca.
+  const fetched = tryGit(['fetch', '--quiet', CANONICAL_REMOTE, CANONICAL_BRANCH]);
   if (!fetched.ok) {
     out.state = MEMORY_STATE.FETCH_FAILED;
-    out.why = `não foi possível buscar o remoto: ${fetched.err}`;
+    out.why = `não foi possível buscar ${CANONICAL_REF}: ${fetched.err}`;
     return out;
   }
 
   const counts = (label) => {
-    const r = tryGit(['rev-list', '--left-right', '--count', `@{upstream}...HEAD`]);
+    const r = tryGit(['rev-list', '--left-right', '--count', `${CANONICAL_REF}...HEAD`]);
     if (!r.ok) return null;
     const [behind, ahead] = r.out.split(/\s+/).map(Number);
     return { behind, ahead, label };
@@ -170,7 +207,7 @@ export function syncMemory(memoryRoot, { fetch: doFetch = process.env.MOS_MEMORY
   let c = counts('após fetch');
   if (c && c.behind > 0) {
     // Árvore limpa: rebase é seguro e preserva os commits locais por cima.
-    const pulled = tryGit(['pull', '--rebase', '--quiet']);
+    const pulled = tryGit(['pull', '--rebase', '--quiet', CANONICAL_REMOTE, CANONICAL_BRANCH]);
     if (!pulled.ok) {
       tryGit(['rebase', '--abort']); // devolve o repositório ao estado anterior
       out.state = MEMORY_STATE.REBASE_CONFLICT;
@@ -187,7 +224,7 @@ export function syncMemory(memoryRoot, { fetch: doFetch = process.env.MOS_MEMORY
 
   if (c && c.behind > 0) {
     out.state = MEMORY_STATE.BEHIND;
-    out.why = `a cópia local continua ${c.behind} commit(s) atrás do remoto`;
+    out.why = `a cópia local continua ${c.behind} commit(s) atrás de ${CANONICAL_REF}`;
     return out;
   }
 
@@ -207,7 +244,9 @@ export function memoryStatus(memoryRoot) {
 /** O que fazer em cada estado bloqueante — texto que vai para a lacuna. */
 export const SYNC_REMEDY = {
   [MEMORY_STATE.NOT_A_REPO]: 'A Memory precisa ser um repositório git para ter proveniência e sincronização verificáveis.',
-  [MEMORY_STATE.NO_UPSTREAM]: 'Configure o upstream do branch da Memory (git branch --set-upstream-to=origin/main).',
+  [MEMORY_STATE.NO_ORIGIN]: `Configure o remoto canônico da Memory (git remote add ${CANONICAL_REMOTE} <url>).`,
+  [MEMORY_STATE.NON_CANONICAL]: `A canônica é a branch ${CANONICAL_BRANCH} acompanhando ${CANONICAL_REF}. Volte para ela (git switch ${CANONICAL_BRANCH}) e aponte o upstream (git branch --set-upstream-to=${CANONICAL_REF}).`,
+  [MEMORY_STATE.NO_UPSTREAM]: `Configure o upstream do branch da Memory (git branch --set-upstream-to=${CANONICAL_REF}).`,
   [MEMORY_STATE.DIRTY]: 'Commite ou guarde as alterações locais da Memory. O sistema não integra por cima de trabalho pendente.',
   [MEMORY_STATE.UNVERIFIED]: 'Reative a busca do remoto (remova MOS_MEMORY_NO_FETCH) para que a sincronização possa ser verificada.',
   [MEMORY_STATE.FETCH_FAILED]: 'Restabeleça o acesso ao remoto da Memory e consulte o contexto de novo.',

@@ -93,10 +93,13 @@ test('memória suja bloqueia e NÃO é integrada — trabalho local intacto', ()
     'o arquivo local não commitado continua igual');
 });
 
-test('memória sem upstream bloqueia', () => {
+test('memória sem remoto canônico bloqueia', () => {
+  // Sem remoto, a ausência de `origin` é detectada antes da de upstream —
+  // estado mais preciso, mesmo efeito bloqueante. Os cenários canônicos
+  // (upstream errado, branch errada) estão em memory-canonical.test.js.
   const { mem } = setup({ remote: false });
   const r = syncMemory(mem);
-  assert.equal(r.state, MEMORY_STATE.NO_UPSTREAM);
+  assert.equal(r.state, MEMORY_STATE.NO_ORIGIN);
   assert.equal(r.verified, false);
 });
 
@@ -156,7 +159,7 @@ test('memória verificada: contexto sem bloqueio e Brief aprovável', () => {
 
 for (const [rotulo, opts] of [
   ['suja', { dirty: true }],
-  ['sem upstream', { remote: false }],
+  ['sem remoto canônico', { remote: false }],
   ['sem git', { git: false }],
 ]) {
   test(`memória ${rotulo} bloqueia a aprovação do Brief`, () => {
@@ -207,7 +210,7 @@ test('memória verificada recebe a proposta na Inbox', () => {
 
 for (const [rotulo, opts] of [
   ['suja', { dirty: true }],
-  ['sem upstream', { remote: false }],
+  ['sem remoto canônico', { remote: false }],
   ['sem git', { git: false }],
 ]) {
   test(`memória ${rotulo} não recebe proposta, e o rascunho local sobrevive`, () => {

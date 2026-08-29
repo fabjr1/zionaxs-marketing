@@ -207,7 +207,7 @@ test('console: traversal responde de forma controlada e não derruba o processo'
     }, csrf);
     assert.equal(r.status, 303, `id ${JSON.stringify(mau)}: resposta controlada`);
     const msg = new URL(r.headers.get('location'), 'http://local').searchParams.get('m') || '';
-    assert.match(msg, /inválido|não encontrada/, `id ${JSON.stringify(mau)}: mensagem clara`);
+    assert.match(msg, /inválida|não encontrada/, `id ${JSON.stringify(mau)}: mensagem clara`);
   }
   assertUnchanged(antes, snapshot(ws, id), 'console com id hostil');
 
@@ -228,5 +228,63 @@ test('console: asset com id de peça hostil devolve 404, não 500', async () => 
     assert.equal(r.status, 404, `asset ${mau} deveria dar 404`);
     await r.text();
   }
+  server.close();
+});
+
+/** A mensagem interna nomeia o valor recusado e a regra — não pode vazar. */
+const REGRA_INTERNA = /minúsculas, dígitos e hífen|id de (campanha|proposta|devolutiva|peça|marca) inválido/;
+
+test('P2 — GET de campanha com id hostil: 404 controlado, sem vazar a validação', async () => {
+  const { ws, root, id } = setup();
+  delete process.env.MOS_TOKEN;
+  const { server } = createServer({ root });
+  const base = await listen(server);
+  const antes = snapshot(ws, id);
+
+  // os dois casos reproduzidos na revisão, com o traversal percent-encoded
+  const casos = [
+    '/campaign/%2E%2E%2Fcampaign',
+    `/campaign/${id}/learning/%2E%2E%2Fcampaign`,
+    '/campaign/..%2Fcampaign',
+    '/campaign/sub%2Fdir',
+    '/campaign/MAIUSCULA',
+    `/campaign/${id}/learning/sub%2Fdir`,
+  ];
+  for (const u of casos) {
+    const r = await fetch(base + u);
+    const corpo = await r.text();
+    assert.equal(r.status, 404, `${u} deveria devolver 404`);
+    assert.doesNotMatch(corpo, REGRA_INTERNA, `${u} não pode expor a mensagem interna`);
+    assert.doesNotMatch(corpo, /\.\.\//, `${u} não pode ecoar o caminho recebido`);
+  }
+
+  assertUnchanged(antes, snapshot(ws, id), 'GET com id hostil');
+  const fila = await fetch(base + '/campaigns');
+  assert.equal(fila.status, 200, 'o processo continua de pé');
+  await fila.text();
+  server.close();
+});
+
+test('P2 — POST com id hostil não devolve a mensagem interna de validação', async () => {
+  const { ws, root, id } = setup();
+  delete process.env.MOS_TOKEN;
+  const { server, csrf } = createServer({ root });
+  const base = await listen(server);
+  const antes = snapshot(ws, id);
+
+  const r = await post(base, `/campaign/${id}/learning/resolve`, {
+    proposalId: '../campaign', decision: PROPOSAL_STATUS.PROMOTED, destino: 'x',
+  }, csrf);
+  assert.equal(r.status, 303);
+  const msg = new URL(r.headers.get('location'), 'http://local').searchParams.get('m') || '';
+  assert.match(msg, /requisição inválida/);
+  assert.doesNotMatch(msg, REGRA_INTERNA, 'a regra de formato não vai para o cliente');
+
+  // id de campanha hostil no POST também é 404, não 500
+  const r2 = await post(base, '/campaign/..%2Ffuga/context', {}, csrf);
+  assert.equal(r2.status, 404);
+  assert.doesNotMatch(r2.text, REGRA_INTERNA);
+
+  assertUnchanged(antes, snapshot(ws, id), 'POST com id hostil');
   server.close();
 });

@@ -88,6 +88,29 @@ export function memoryRemote(memoryRoot) {
   return bare;
 }
 
+/** Roda git na cópia de memória com identidade fixa (sem tocar na config global). */
+export function memoryGit(memoryRoot, ...args) {
+  return execFileSync('git', ['-c', 'user.name=t', '-c', 'user.email=t@t', ...args],
+    { cwd: memoryRoot, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
+}
+
+/**
+ * Faz a cópia local acompanhar uma branch NÃO canônica do mesmo remoto.
+ * Serve para exercitar a regra de que ter upstream não basta: tem que ser
+ * `origin/main`.
+ */
+export function trackNonCanonical(memoryRoot, branch = 'noncanonical') {
+  memoryGit(memoryRoot, 'push', '-q', 'origin', `main:${branch}`);
+  memoryGit(memoryRoot, 'branch', `--set-upstream-to=origin/${branch}`, 'main');
+  return branch;
+}
+
+/** Move a cópia local para outra branch (deixa de ser a canônica). */
+export function switchMemoryBranch(memoryRoot, branch = 'rascunho') {
+  memoryGit(memoryRoot, 'checkout', '-q', '-b', branch);
+  return branch;
+}
+
 /**
  * Adiciona um commit direto no remoto, deixando a cópia local atrasada.
  * Usa um clone descartável para não tocar na cópia sob teste.

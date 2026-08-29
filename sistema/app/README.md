@@ -18,7 +18,7 @@ export MOS_ROOT=../workspace                      # onde vive estado, brand e pe
 export MOS_CHROMIUM=/opt/pw-browsers/chromium     # opcional; sem isso o Playwright resolve
 
 npm run check      # sintaxe de todos os fontes
-npm test           # 195 testes, inclui render real com determinismo byte a byte
+npm test           # 216 testes, inclui render real com determinismo byte a byte
 ```
 
 ## Gerar uma peça
@@ -95,16 +95,24 @@ a árvore: o contexto é declarado, e o que não está declarado vira lacuna.
 - **Nada de segredo na Memory.** A proposta é varrida antes de ser escrita.
 
 **Sincronização antes de usar.** Antes de ler contexto e antes de escrever na
-Inbox, o sistema aplica o protocolo da Memory: verifica o estado, busca o
-remoto e integra por rebase quando é seguro. Só `sincronizada` é confiável — e
-o console distingue os estados:
+Inbox, o sistema aplica o protocolo da Memory: verifica o estado, busca a
+canônica e integra por rebase quando é seguro. Só `sincronizada` é confiável —
+e o console distingue os estados:
 
 | Estado | Efeito |
 |---|---|
 | `sincronizada` | contexto orienta o Brief; a Inbox recebe proposta |
+| `fora da canônica` | branch local ≠ `main`, HEAD destacado, ou upstream ≠ `origin/main` — bloqueia |
 | `suja` | árvore com alteração não commitada — **nada é integrado**, para não arriscar o trabalho pendente |
-| `atrasada` · `sem upstream` · `remoto inacessível` · `conflito ao integrar` | bloqueiam |
-| `sem versionamento` · `indisponível` | bloqueiam |
+| `atrasada` · `sem remoto origin` · `sem upstream` · `remoto inacessível` · `conflito ao integrar` | bloqueiam |
+| `sem versionamento` · `não verificada` · `indisponível` | bloqueiam |
+
+**A canônica é nomeada, não inferida.** A política da Memory define a fonte
+canônica como a branch `main` do remoto `origin`, e é contra `origin/main` que
+o `fetch`, a contagem e o rebase são feitos — explicitamente. Ter *um* upstream
+não basta: uma cópia em `main` acompanhando `origin/rascunho` é `fora da
+canônica`, porque contexto não canônico não pode aprovar Brief nem virar
+proposta na Inbox.
 
 Em qualquer estado bloqueante o **rascunho local continua**: a devolutiva e a
 proposta são gravadas na campanha, o Brief não é aprovado e a Inbox não recebe
@@ -167,7 +175,10 @@ explícita via `MOS_ROOT`/`--root`. O layout interno não muda.
 - **Segredos só por env** (`MOS_WEBHOOK_KEY`, `MOS_TOKEN`) — nunca em arquivo versionado.
 - **Id que vira caminho é validado no domínio**, não só no HTTP: `assertSafeId`
   aceita apenas o formato que o próprio sistema gera, então barra, `..`, vazio
-  e maiúscula são recusados antes de qualquer escrita ou commit.
+  e maiúscula são recusados antes de qualquer escrita ou commit. No console o
+  id fora do formato é **recurso inexistente** — 404 em GET, redirect com
+  mensagem genérica em POST —, nunca 500, e a regra de validação não vai para
+  a resposta.
 
 ## Endurecimento pós-revisão adversarial
 

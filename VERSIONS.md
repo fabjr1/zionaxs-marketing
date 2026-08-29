@@ -58,6 +58,13 @@ Current versions of all skills. Agents can compare against local versions to che
 
 ## Recent Changes
 
+### 2.13.2 (2026-08-28)
+
+- **Marketing OS — segunda rodada de revisão** (app apenas; nenhuma skill mudou):
+  - **Só a Memory canônica é confiável.** `syncMemory()` tratava qualquer upstream como válido: uma cópia local em `main` acompanhando `origin/noncanonical` retornava `sincronizada` / `verified: true`, e contexto não canônico podia aprovar Brief e gravar proposta na Inbox. A política da Memory define a canônica como a branch `main` do remoto `origin`, e agora isso é verificado: branch local diferente de `main`, HEAD destacado, upstream diferente de `origin/main` e ausência do remoto `origin` são estados bloqueantes (`fora da canônica`, `sem remoto origin`), cada um com motivo e o comando que corrige. `fetch`, contagem de divergência e `pull --rebase` passam a nomear `origin/main` explicitamente em vez de seguir o que o upstream por acaso aponta. Contexto não canônico continua permitindo rascunho local — a devolutiva e a proposta são gravadas na campanha —, mas não aprova Brief nem entrega na Inbox. Nenhuma operação destrutiva foi introduzida, e a promoção a canônico segue sendo ato humano.
+  - **Id hostil em rota GET agora tem resposta controlada.** A validação de domínio já impedia escrita indevida, mas `GET /campaign/%2E%2E%2Fcampaign` e `GET /campaign/<id>/learning/%2E%2E%2Fcampaign` deixavam o `UNSAFE_ID` subir para o tratamento global: HTTP 500, com a mensagem interna de validação exibida na página. Toda rota de campanha passa a recusar id fora do formato antes de tocar o domínio, devolvendo 404 com corpo genérico; no POST o erro vira mensagem genérica em vez da regra de formato. Nada é escrito, nada é commitado e o processo não cai.
+  - 21 testes novos (216 no total, eram 195): `memory-canonical.test.js` cobre `main`→`origin/main` confiável, `main`→`origin/noncanonical` bloqueado, branch não-`main` bloqueada, HEAD destacado, ausência de `origin`, e o efeito de cada um sobre aprovação de Brief e escrita na Inbox — tudo contra repositórios Git bare locais, sem rede. Em `path-safety.test.js`, os dois casos GET reproduzidos na revisão, verificando 404, ausência da mensagem interna e integridade byte a byte da campanha.
+
 ### 2.13.1 (2026-08-28)
 
 - **Marketing OS — correções de revisão** (app apenas; nenhuma skill mudou, logo sem bump de skill):
