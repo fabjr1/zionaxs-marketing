@@ -18,7 +18,7 @@ const EVIDENCE_STATUS = new Set(['E', 'I', 'H', 'NC']);
  * Chaves de CONTROLE nos slots de copy: dirigem layout, nunca viram texto
  * nos pixels. Ficam fora da checagem de copy aprovada.
  */
-const CONTROL_KEYS = new Set(['state', 'big', 'dark', 'src']);
+const CONTROL_KEYS = new Set(['state', 'big', 'dark', 'src', 'hl', 'ghost']);
 
 /** Coleta recursivamente as strings de COPY de um valor (slots). */
 export function collectStrings(v, out = []) {

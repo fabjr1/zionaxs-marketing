@@ -15,7 +15,10 @@
     "darkRule": "#39404A",
     "darkMuted": "#98A1AD",
     "hatchA": "#E7E9EC",
-    "cellBg": "#FFFFFF"
+    "cellBg": "#FFFFFF",
+    "posterCream": "#EFE7D7",
+    "posterGlow": "#FF8A3C",
+    "posterTeal": "#27454E"
   },
   "fonts": {
     "display": "Poppins",

@@ -31,3 +31,14 @@ Este diretório é a referência permanente. `estilo-poster-editorial.html` é o
 ## O que ainda passa pelo fluxo normal
 
 Peças de produção continuam nascendo por contrato no marketing-os (gates G1–G12, aprovação por digest). Este estilo entra como extensão dos layouts do renderer; nada aqui dispensa a aprovação humana de cada peça.
+
+## Implementação no renderer (29/08/2026)
+
+O estilo está implementado como família de layouts `poster-*` em `sistema/app/lib/templates/carousel-4x5.js` (cover, scene, lines, turn, fields, statement, close), com tokens novos no brand pack (`posterCream`, `posterGlow`, `posterTeal`). Notas de produção que diferem do mock, exigidas pelos gates:
+
+- Realce de caixa (`hl`) é `display:inline` com `box-decoration-break`, sem rotação — inline-block criava linha fantasma na medição do G7.
+- Foto com zoom vive dentro de `.pbgwrap` (clip), senão o transform vaza no scrollWidth (G3).
+- O número fantasma da virada é SVG (`aria-hidden`), fora dos gates de texto — como as setas do layout `flow`.
+- No campo laranja, texto pequeno é tinta (4.9:1) e texto grande é papel (3.4:1); creme sobre laranja reprova o G5 por 0.02.
+- A microlinha imprime `ref` (sha256 do id da peça, 8 hex) — o digest real da geração inclui os próprios PNGs e não pode se auto-referenciar na arte.
+- Todo texto do chrome (ano, temas, microlinha) entra como slot de copy aprovada no contrato; etiquetas internas (`ZX-…`, `S1`) nunca aparecem na arte (G11).

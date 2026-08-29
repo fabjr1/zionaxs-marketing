@@ -1,0 +1,302 @@
+{
+  "id": "zx-22-reuniao-de-30-minutos",
+  "brand": "Zionaxs",
+  "campaign": "Capacidade antes de oferta",
+  "piece": "S1 · semana 1 · quinta",
+  "matriz": "M19",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação (C1, P1, A1 — papel dono-operador). Cena concreta: escritório contábil (V2). Secundário: nenhum.",
+    "decisao": "Instituir (ou não) um rito semanal fixo de gestão de 30 minutos, com pauta de três blocos.",
+    "tensao": "O cargo promete planejamento; o calendário entrega reação. Gestão que depende de sobra de tempo não acontece, porque sobra é a única coisa que a semana nunca entrega.",
+    "evidencia": [
+      {
+        "claim": "a semana do sócio-operador é governada pelo calendário de obrigações; urgências de cliente chegam antes da primeira decisão própria",
+        "status": "I",
+        "fonte": "[19b §9.2] rotinas de V2; rotina de C1 [19b §7.7]"
+      },
+      {
+        "claim": "o cotidiano gerencial real é fragmentado e reativo, e a agenda revela o trabalho de verdade — não o que o cargo descreve",
+        "status": "E",
+        "fonte": "Henry Mintzberg, The Manager's Job: Folklore and Fact, HBR 1990 [S35] — citação literal verificada na legenda; na peça, paráfrase"
+      },
+      {
+        "claim": "um rito semanal de 30 minutos com pauta fixa reduz a gestão reativa",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a observação de Mintzberg, citada com autor, obra e ano"
+      ],
+      "I": [
+        "a cena da segunda-feira e a rotina do sócio-operador"
+      ],
+      "H": [
+        "a eficácia do rito de 30 minutos — método proposto, não prática comprovada por pesquisa"
+      ],
+      "NC": []
+    },
+    "limites": [
+      "A peça não publica nenhuma estatística.",
+      "A citação literal aparece na legenda com autor, obra e ano; na peça, apenas paráfrase introduzida como ideia.",
+      "O roteiro dos três blocos é método proposto (H); a pauta exata dos três números é de cada negócio."
+    ],
+    "consequencia": "O leitor sai com o roteiro de três blocos e uma ação: criar o evento recorrente de 30 minutos na agenda da próxima segunda."
+  },
+  "tese": "Gestão que depende de sobra de tempo não acontece; um rito de 30 minutos com pauta fixa devolve a semana ao dono.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JO3",
+    "JE4"
+  ],
+  "repertorio": {
+    "id": "R4",
+    "autor": "Henry Mintzberg",
+    "modo": "citação literal verificada na legenda + paráfrase introduzida como ideia na peça",
+    "fonte": "[S35]"
+  },
+  "cta": "Criar o evento recorrente de 30 minutos na agenda da próxima segunda — mesma hora, toda semana.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: reconhecer a segunda-feira, ver a cena, contrastar cargo e calendário, reformular gestão como horário, receber o roteiro, ouvir o limite, agendar. A peça não publica estatística — não há unidade de evidência numérica, e esticar para 8 seria preencher contagem.",
+  "internal_metadata": [
+    "S1",
+    "M19",
+    "zx-22",
+    "capa",
+    "diagnóstico",
+    "contraste",
+    "virada",
+    "critério",
+    "limite",
+    "fechamento",
+    "JO3",
+    "JE4",
+    "R4",
+    "[S35]",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "caption": [
+    "A segunda-feira que começa apagando incêndio não é falta de disciplina. É gestão dependendo de sobra de tempo — e sobra é a única coisa que a semana nunca entrega.",
+    "Henry Mintzberg escreveu em 1990: \"If you ask managers what they do, they will most likely tell you that they plan, organize, coordinate, and control…\". Em tradução editorial livre: pergunte a um gestor o que ele faz e ele dirá que planeja, organiza e coordena; observe o dia dele e a agenda contará outra história. A agenda é o raio-X da gestão.",
+    "O roteiro dos 30 minutos tem três blocos de dez: os mesmos três números toda semana, na mesma ordem — comparáveis, não perfeitos; as travas, ou seja, o que está parado esperando decisão; e uma única melhoria para a semana. Pauta fixa é o que transforma reunião em rito: o custo de decidir o que discutir cai a zero.",
+    "O rito não substitui conversa nem resolve crise — ele impede que a crise seja o único momento de gestão. E dá para começar sem sistema: três números anotados à mão valem mais que um dashboard adiado.",
+    "Marque 30 minutos na agenda da próxima segunda. Mesma hora, toda semana. Se não está no calendário, não é rito — é intenção."
+  ],
+  "caption_sources": [
+    "Referência: Henry Mintzberg, The Manager's Job: Folklore and Fact, Harvard Business Review, mar.–abr. 1990. Citação literal verificada; tradução editorial livre marcada como tal.",
+    "O roteiro é método proposto; a pauta exata dos três números varia por negócio."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Rito semanal",
+      "copy": {
+        "title": "Sua segunda-feira\ncomeça apagando\nincêndio?",
+        "accentLine": "Existe um rito de\n30 minutos para isso.",
+        "sub": "Roteiro pronto. Sem sistema novo.",
+        "year": "2026",
+        "hl": "30 minutos",
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc · foto: D. Yao"
+      },
+      "approved_visible_copy": [
+        "Rito semanal",
+        "01/07",
+        "Sua segunda-feira começa apagando incêndio?",
+        "Existe um rito de 30 minutos para isso.",
+        "Roteiro pronto. Sem sistema novo.",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc · foto: D. Yao",
+        "2026"
+      ],
+      "alt": "Slide 1 de 7. Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso — roteiro pronto, sem sistema novo. Pôster com fotografia escura de papéis voando sobre uma escrivaninha, tipografia clara em caixa alta e a promessa de método destacada em caixa laranja.",
+      "photo": {
+        "src": "../assets/foto-papeis.jpg",
+        "pos": "50% 50%",
+        "scale": 1.42,
+        "origin": "0% 44%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Segunda, 8h.\nCatorze mensagens,\ntrês urgências."
+        ],
+        "closing": "A semana decide por você antes de você decidir por ela.",
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc · foto: K. Alloni"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Segunda, 8h. Catorze mensagens, três urgências.",
+        "A semana decide por você antes de você decidir por ela.",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc · foto: K. Alloni"
+      ],
+      "alt": "Slide 2 de 7. Segunda-feira, oito da manhã: catorze mensagens e três urgências antes da primeira decisão própria. A semana decide pelo sócio antes que ele decida por ela. Papel claro com fotografia em preto e branco de uma mesa de trabalho e geometria laranja.",
+      "photo": {
+        "src": "../assets/foto-mesa.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "contraste",
+      "layout": "poster-lines",
+      "kicker": "Raio-X",
+      "copy": {
+        "lines": [
+          "O cargo diz: sócio.",
+          "O calendário diz:\nconferência de lançamento."
+        ],
+        "closing": "A ideia de Mintzberg: a agenda é o raio-X da gestão. O que não tem horário não acontece.",
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc"
+      },
+      "approved_visible_copy": [
+        "Raio-X",
+        "03/07",
+        "O cargo diz: sócio.",
+        "O calendário diz: conferência de lançamento.",
+        "A ideia de Mintzberg: a agenda é o raio-X da gestão. O que não tem horário não acontece.",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc"
+      ],
+      "alt": "Slide 3 de 7. O cargo diz sócio; o calendário diz conferência de lançamento. A ideia de Henry Mintzberg, em paráfrase: a agenda é o raio-X da gestão, e o que não tem horário não acontece. O contraste entre o papel formal e o trabalho real do dia."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "Gestão",
+      "copy": {
+        "big": true,
+        "title": "Gestão não é o que\nsobra do dia.",
+        "accent": "É um horário\nno calendário.",
+        "year": "2026",
+        "hl": "horário",
+        "ghost": "30",
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc"
+      },
+      "approved_visible_copy": [
+        "Gestão",
+        "04/07",
+        "Gestão não é o que sobra do dia.",
+        "É um horário no calendário.",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc",
+        "2026"
+      ],
+      "alt": "Slide 4 de 7. Gestão não é o que sobra do dia; é um horário no calendário. Campo laranja chapado com tipografia clara em caixa alta, a palavra horário destacada em caixa grafite e um número trinta gigante em marca dágua — a ruptura da peça é a troca de campo para o laranja."
+    },
+    {
+      "n": 5,
+      "papel_interno": "critério",
+      "layout": "poster-fields",
+      "kicker": "O roteiro",
+      "copy": {
+        "title": "30 minutos,\ntrês blocos.",
+        "items": [
+          {
+            "num": "01",
+            "label": "10 min — Números: os três que você escolheu, na mesma ordem"
+          },
+          {
+            "num": "02",
+            "label": "10 min — Travas:\no que está parado esperando sua decisão"
+          },
+          {
+            "num": "03",
+            "label": "10 min — Uma melhoria: o que muda nesta semana"
+          }
+        ],
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc"
+      },
+      "approved_visible_copy": [
+        "O roteiro",
+        "05/07",
+        "30 minutos, três blocos.",
+        "01",
+        "10 min — Números: os três que você escolheu, na mesma ordem",
+        "02",
+        "10 min — Travas: o que está parado esperando sua decisão",
+        "03",
+        "10 min — Uma melhoria: o que muda nesta semana",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc"
+      ],
+      "alt": "Slide 5 de 7. O roteiro dos 30 minutos em três blocos de dez: números, sempre os mesmos três e na mesma ordem; travas, o que está parado esperando decisão; e uma única melhoria para a semana. Este é o quadro para salvar e aplicar na próxima segunda."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Sem atalho",
+      "copy": {
+        "title": "O rito não\nresolve crise.",
+        "accent": "Ele impede que a crise\nseja o único momento\nde gestão.",
+        "body": "Sem painel? Três números à mão valem mais que dashboard adiado.",
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc"
+      },
+      "approved_visible_copy": [
+        "Sem atalho",
+        "06/07",
+        "O rito não resolve crise.",
+        "Ele impede que a crise seja o único momento de gestão.",
+        "Sem painel? Três números à mão valem mais que dashboard adiado.",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc"
+      ],
+      "alt": "Slide 6 de 7. O rito não resolve crise; impede que a crise seja o único momento de gestão. E sem painel pronto, três números anotados à mão valem mais que um dashboard adiado. O limite da dica declarado na própria peça."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Segunda que vem",
+      "copy": {
+        "title": "Marque 30 minutos\nna próxima segunda.",
+        "accent": "Mesma hora,\ntoda semana.",
+        "body": "Se não está no calendário, não é rito. É intenção.",
+        "year": "2026",
+        "hl": "30 minutos",
+        "temas": "Temas: Urgência / Agenda / Rito",
+        "micro": "@zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
+      },
+      "approved_visible_copy": [
+        "Segunda que vem",
+        "07/07",
+        "Marque 30 minutos na próxima segunda.",
+        "Mesma hora, toda semana.",
+        "Se não está no calendário, não é rito. É intenção.",
+        "Zionaxs",
+        "Temas: Urgência / Agenda / Rito",
+        "@zionaxs_ · ref 74d765dc · foto: E. Chystiakov",
+        "2026"
+      ],
+      "alt": "Slide 7 de 7. Marque 30 minutos na próxima segunda, mesma hora, toda semana. Se não está no calendário, não é rito, é intenção. Fotografia escura de mãos sobre a mesa fecha a peça, com o número trinta destacado em caixa laranja. Ação única, executável com a agenda que o leitor já tem.",
+      "photo": {
+        "src": "../assets/foto-maos.jpg",
+        "pos": "50% 40%"
+      }
+    }
+  ]
+}

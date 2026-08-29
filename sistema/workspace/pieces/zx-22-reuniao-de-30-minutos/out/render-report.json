@@ -1,0 +1,253 @@
+{
+  "pieceId": "zx-22-reuniao-de-30-minutos",
+  "generatedAt": "2026-08-29T13:26:23-03:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-22-reuniao-de-30-minutos-slide-01.png",
+    "zx-22-reuniao-de-30-minutos-slide-02.png",
+    "zx-22-reuniao-de-30-minutos-slide-03.png",
+    "zx-22-reuniao-de-30-minutos-slide-04.png",
+    "zx-22-reuniao-de-30-minutos-slide-05.png",
+    "zx-22-reuniao-de-30-minutos-slide-06.png",
+    "zx-22-reuniao-de-30-minutos-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        26,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Rito semanal 01/07 Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso. Roteiro pronto. Sem sistema novo. Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc · foto: D. Yao"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Segunda, 8h. Catorze mensagens, três urgências. A semana decide por você antes de você decidir por ela. Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc · foto: K. Alloni"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Raio-X03/07 O cargo diz: sócio. O calendário diz: conferência de lançamento. A ideia de Mintzberg: a agenda é o raio-X da gestão. O que não tem horário não acontece. Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78
+      ],
+      "chromeLevels": [
+        46,
+        26,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Gestão 04/07 Gestão não é o que sobra do dia. É um horário no calendário. Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O roteiro05/07 30 minutos, três blocos. 0110 min — Números: os três que você escolheu, na mesma ordem 0210 min — Travas: o que está parado esperando sua decisão 0310 min — Uma melhoria: o que muda nesta semana Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Sem atalho06/07 O rito não resolve crise. Ele impede que a crise seja o único momento de gestão. Sem painel? Três números à mão valem mais que dashboard adiado. Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        26,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Segunda que vem 07/07 Marque 30 minutos na próxima segunda. Mesma hora, toda semana. Se não está no calendário, não é rito. É intenção. Temas: Urgência / Agenda / RitoZionaxs @zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.2,
+  "digest": "a3735a69153e93841932359fda525f0934fbc2cae59af6bec7253bfda8920642"
+}
