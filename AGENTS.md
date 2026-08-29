@@ -2,6 +2,41 @@
 
 Guidelines for AI agents working in this repository.
 
+> **Leia primeiro se o pedido for da Zionaxs.** Este repositório abriga duas coisas: o projeto herdado de Agent Skills (descrito a partir de "Repository Overview") e a **operação de marketing da Zionaxs**, que é o que segue abaixo. Um pedido do tipo "faça um carrossel para a Zionaxs" pertence à segunda.
+
+## Operação de marketing da Zionaxs
+
+Peça nenhuma é escrita à mão: tudo nasce de um **contrato** e é renderizado por um pipeline com gates medidos no pixel.
+
+```bash
+cd sistema/app && node bin/gen.js <piece-id> --root ../workspace
+```
+
+O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **13 gates**. Gate vermelho significa corrigir o **contrato**, nunca o pixel. Aprovação e publicação são decisões humanas, registradas em arquivo e amarradas ao digest da geração.
+
+### Padrões da marca, aprovados e permanentes
+
+Os dois documentos abaixo mandam. Leia antes de produzir qualquer peça:
+
+- **[campanhas/zionaxs/direcao-visual/README.md](campanhas/zionaxs/direcao-visual/README.md)** — o estilo pôster editorial, aprovado em 29/08/2026 como direção visual permanente. Traz a receita completa: os 3 campos, o chrome de prova de impressão, gradê, grão, tipografia e regra de rosto.
+- **[campanhas/zionaxs/padrao-de-copy.md](campanhas/zionaxs/padrao-de-copy.md)** — o padrão de texto, válido para **todo** conteúdo da marca, não só carrossel: post, legenda, roteiro de vídeo, site, proposta e e-mail.
+
+### O que não se negocia
+
+1. **Layouts `poster-*`.** Carrossel da Zionaxs usa a família `poster-cover`, `poster-scene`, `poster-lines`, `poster-turn`, `poster-fields`, `poster-statement`, `poster-close`. Os layouts antigos (`cover`, `statement`, `lines`, `fields`…) são vocabulário legado e produzem a aparência anterior à aprovação. O gate **G14** recusa a peça que os usar sem justificativa declarada.
+2. **Copy didática.** Explicar, não apenas afirmar; apresentar quem for citado; trocar jargão de nicho por cena universal; CTA com o passo, não com o conceito.
+3. **Números em algarismo.** "14 mensagens, 3 urgências", nunca por extenso.
+4. **Sem travessão (— –) e sem "num/numa".** O gate **G13** recusa automaticamente, no contrato e no pixel.
+5. **A foto é parte do gancho.** Escolher a imagem junto com a manchete, encenando a cena concreta que a frase descreve. Rosto só em silhueta, contraluz ou dissolvido na luz.
+6. **Logo oficial** vive em `sistema/workspace/brand/logo/`; o renderer escolhe a variante pelo campo do slide. Com logo instalada, a wordmark em texto **não** entra na copy aprovada.
+7. **Trilha sugerida** em toda peça (campo `trilha_sugerida`): instrumental, de música famosa cujo riff já seja o gancho, andamento constante. A música entra pelo app do Instagram, editando o post depois de publicado; a API não escolhe faixa.
+8. **Cadência**: no máximo 1 post por dia. Exceção exige autorização humana registrada em `decisions/`.
+
+### Peça publicada é registro histórico
+
+Contrato de peça já publicada **não se reescreve**, mesmo que hoje viole um padrão novo. Falsificá-lo apagaria o que de fato foi ao ar. A `zx-21` está nessa situação: publicada antes do padrão de copy, e por isso não regera sem antes ser trazida ao padrão.
+
+
 ## Repository Overview
 
 This repository contains **Agent Skills** for AI agents following the [Agent Skills specification](https://agentskills.io/specification.md). Skills install to `.agents/skills/` (the cross-agent standard). This repo also serves as a **Claude Code plugin marketplace** via `.claude-plugin/marketplace.json`.

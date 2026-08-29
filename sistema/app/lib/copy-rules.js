@@ -85,3 +85,30 @@ export function scanPiece(contract, perSlide = []) {
   (contract.caption_sources || []).forEach((p, i) => scanCopy(p, `caption_sources[${i}]`).forEach(push));
   return out;
 }
+
+/**
+ * Layouts da direção visual aprovada (estilo pôster editorial, 29/08/2026).
+ * Os demais do template são vocabulário legado: continuam existindo porque
+ * peças anteriores dependem deles, mas não produzem a aparência da marca.
+ */
+export const LAYOUTS_APROVADOS = new Set([
+  'poster-cover', 'poster-scene', 'poster-lines', 'poster-turn',
+  'poster-fields', 'poster-statement', 'poster-close',
+]);
+
+/**
+ * Slides fora da direção visual aprovada. Retorna [] quando a peça está no
+ * padrão ou quando declara `estilo_legado.justificativa` no contrato —
+ * a saída consciente existe para não travar peça antiga, e obriga a dizer
+ * por escrito por que aquela peça foge do padrão.
+ */
+export function scanEstilo(contract) {
+  if (contract.estilo_legado?.justificativa) return [];
+  return (contract.slides || [])
+    .filter((s) => !LAYOUTS_APROVADOS.has(s.layout))
+    .map((s) => ({
+      onde: `slide ${s.n}`,
+      layout: s.layout,
+      correcao: 'use a família poster-* da direção visual aprovada, ou declare estilo_legado.justificativa',
+    }));
+}

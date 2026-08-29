@@ -65,3 +65,11 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
 - Caixa alta só no tipo de display (`.pt1`/`.pt2`). Texto explicativo em caixa normal: parágrafo longo em caixa alta derruba a legibilidade e contraria a regra de copy didática.
 - Parágrafos explicativos aceitam quebra autoral (`
 `): é como se equilibra a última linha quando o G6 acusa órfã.
+
+## Como o padrão se sustenta sozinho
+
+Três camadas, da mais fraca para a mais forte:
+
+1. **AGENTS.md** abre com a seção da operação Zionaxs e aponta para este documento e para o padrão de copy. É o que uma sessão nova lê automaticamente ao trabalhar no repositório.
+2. **Documentos de padrão** (este e `../padrao-de-copy.md`) guardam a receita e o porquê.
+3. **Gates** cobram o que é binário, e essa é a única camada que não depende de alguém lembrar: **G13** recusa travessão e contração informal; **G14** recusa layout fora da família `poster-*`. Peça antiga só gera declarando `estilo_legado.justificativa`, o que obriga a registrar por escrito a exceção.

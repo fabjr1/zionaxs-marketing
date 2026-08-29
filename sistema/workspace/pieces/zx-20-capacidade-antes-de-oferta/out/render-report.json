@@ -1,6 +1,6 @@
 {
   "pieceId": "zx-20-capacidade-antes-de-oferta",
-  "generatedAt": "2026-08-29T17:38:02-03:00",
+  "generatedAt": "2026-08-29T17:47:14-03:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -239,9 +239,16 @@
       "pass": true,
       "failures": [],
       "detail": "5 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "estilo legado declarado"
     }
   ],
   "pass": true,
-  "durationSeconds": 1.2,
-  "digest": "6b50adbc3f5b0137d34a844c2abfc4f074d460dfdd3e491c3273f0b3036fbd62"
+  "durationSeconds": 0.6,
+  "digest": "59ebc53e028f7418099c5445476a100c64ad808bcc4ecc973ef9bf2d7bdea0f7"
 }

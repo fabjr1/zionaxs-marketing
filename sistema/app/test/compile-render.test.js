@@ -41,7 +41,7 @@ test('render real: todos os gates verdes, sem rede, bytes idênticos em duas ger
   const elapsed = (Date.now() - t0) / 1000;
 
   assert.equal(r1.pass, true, JSON.stringify(r1.gates.filter((g) => !g.pass)));
-  assert.equal(r1.gates.length, 13);
+  assert.equal(r1.gates.length, 14);
   assert.ok(!r1.gates.some((g) => g.id === 'NET'), 'nenhuma tentativa de rede (N-02)');
   assert.ok(elapsed < 60, `N-04: geração em ${elapsed}s`);
 

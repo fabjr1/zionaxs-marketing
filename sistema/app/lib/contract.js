@@ -3,7 +3,7 @@
 // daqui, e a validação recusa compilar um contrato que violaria os gates.
 import fs from 'node:fs';
 import { normText } from './util.js';
-import { scanPiece } from './copy-rules.js';
+import { scanPiece, scanEstilo } from './copy-rules.js';
 
 const REQUIRED_TOP = [
   'id', 'brand', 'campaign', 'format', 'tese', 'categoria_editorial',
@@ -162,6 +162,10 @@ export function validateContract(contract, brand, template) {
   // inteiro para descobrir um travessão que o contrato já carregava.
   for (const v of scanPiece(contract)) {
     err(v.onde, `padrão de copy: ${v.regra} em "${v.trecho}". ${v.correcao}`);
+  }
+
+  for (const v of scanEstilo(contract)) {
+    err(v.onde, `direção visual: layout "${v.layout}" fora do padrão aprovado. ${v.correcao}`);
   }
 
   return { ok: errors.length === 0, errors };

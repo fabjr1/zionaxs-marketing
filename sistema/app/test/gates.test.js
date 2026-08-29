@@ -1,4 +1,4 @@
-// gates.test.js — a parte pura dos 13 gates, com medições sintéticas.
+// gates.test.js — a parte pura dos 14 gates, com medições sintéticas.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
@@ -25,10 +25,10 @@ function greenMeasure(contract) {
 
 const c4 = loadC4();
 
-test('medição verde → 13 gates passam', () => {
+test('medição verde → 14 gates passam', () => {
   const r = evaluateGates(greenMeasure(c4), c4, brand);
   assert.equal(r.pass, true, r.summary.join(' | '));
-  assert.equal(r.gates.length, 13);
+  assert.equal(r.gates.length, 14);
 });
 
 test('G1: dimensão errada reprova', () => {
@@ -127,4 +127,25 @@ test('G13: acento não gera falso positivo de contração', () => {
   const c = clone(c4);
   c.caption[0] = 'A peça não publica evidência numérica nem numeral solto.';
   assert.equal(evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G13').pass, true);
+});
+
+test('G14: layout fora da direção visual aprovada reprova', () => {
+  const c = clone(c4);
+  delete c.estilo_legado;
+  const r = evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G14');
+  assert.equal(r.pass, false);
+  assert.ok(r.failures.length > 0);
+});
+
+test('G14: estilo_legado declarado libera a peça antiga', () => {
+  const c = clone(c4);
+  c.estilo_legado = { justificativa: 'peça anterior à direção visual aprovada' };
+  assert.equal(evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G14').pass, true);
+});
+
+test('G14: peça na família poster-* passa sem declarar legado', () => {
+  const c = clone(c4);
+  delete c.estilo_legado;
+  c.slides.forEach((s) => { s.layout = 'poster-statement'; });
+  assert.equal(evaluateGates(greenMeasure(c), c, brand).gates.find((x) => x.id === 'G14').pass, true);
 });
