@@ -75,6 +75,36 @@ export function slug(s) {
     .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
+/**
+ * Formato dos identificadores que o sistema gera: `slug()` produz apenas
+ * minúsculas ASCII, dígitos e hífen, e os ids datados (`YYYY-MM-DD-slug`,
+ * `…-02`) cabem no mesmo formato.
+ *
+ * Aceitar somente isso é o que impede que um id vindo de POST vire caminho —
+ * ponto, barra, contrabarra e vazio ficam de fora por construção, então não há
+ * `..` nem segmento de diretório possível.
+ */
+const SAFE_ID = /^[a-z0-9][a-z0-9-]{0,119}$/;
+
+export function isSafeId(id) {
+  return typeof id === 'string' && SAFE_ID.test(id);
+}
+
+/**
+ * Recusa um identificador fora do formato ANTES de qualquer escrita.
+ * Vive na camada de domínio de propósito: validar só no HTTP deixaria a
+ * biblioteca insegura para qualquer outro chamador.
+ */
+export function assertSafeId(id, kind = 'identificador') {
+  if (!isSafeId(id)) {
+    const shown = String(id ?? '').slice(0, 60);
+    const e = new Error(`${kind} inválido: ${JSON.stringify(shown)} — só o formato gerado pelo sistema (minúsculas, dígitos e hífen)`);
+    e.code = 'UNSAFE_ID';
+    throw e;
+  }
+  return id;
+}
+
 /** Resolve caminho de workspace de forma segura (bloqueia traversal). */
 export function safeJoin(root, ...parts) {
   const p = path.resolve(root, ...parts);

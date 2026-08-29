@@ -14,10 +14,10 @@
 // nunca modificar o próprio sistema sem controle (§2).
 import fs from 'node:fs';
 import path from 'node:path';
-import { isoNow, today, writeJson, readJson, exists, ensureDir, slug } from './util.js';
+import { isoNow, today, writeJson, readJson, exists, ensureDir, slug, assertSafeId } from './util.js';
 import { commitDecision } from './gitio.js';
 import { CLASSIFICATIONS } from './feedback.js';
-import { memoryStatus } from './memory.js';
+import { syncMemory } from './memory.js';
 
 export const PROPOSAL_STATUS = {
   DRAFT: 'rascunho',
@@ -199,7 +199,18 @@ function confidenceFrom(p) {
 }
 
 function proposalsDir(ws, campaignId) {
+  assertSafeId(campaignId, 'id de campanha');
   return path.join(ws.campaignDir(campaignId), 'learnings');
+}
+
+/**
+ * Caminho de uma proposta. O id chega por POST, então é validado antes de
+ * virar caminho: sem isso, `../campaign` alcançava e corrompia o arquivo da
+ * campanha.
+ */
+function proposalFile(ws, campaignId, proposalId) {
+  assertSafeId(proposalId, 'id de proposta');
+  return path.join(proposalsDir(ws, campaignId), `${proposalId}.json`);
 }
 
 /**
@@ -225,12 +236,16 @@ export function proposeLearning(ws, campaignId, proposal) {
   while (exists(localFile)) { localFile = path.join(dir, `${id}-${String(n).padStart(2, '0')}.json`); n++; }
   const finalId = path.basename(localFile, '.json');
 
-  const mem = memoryStatus(ws.memoryRoot);
+  // Protocolo seguro antes de escrever na Inbox (§10.1). Memory não
+  // verificada — suja, atrasada, sem upstream, remoto fora — não recebe
+  // proposta: escrever ali seria tratar uma cópia não confirmada como se
+  // fosse a canônica. O rascunho local é gravado de todo jeito.
+  const mem = syncMemory(ws.memoryRoot);
   const record = { ...proposal, id: finalId, estado: PROPOSAL_STATUS.DRAFT };
   const written = [localFile];
   let inbox = null;
 
-  if (mem.available) {
+  if (mem.available && mem.verified) {
     const inboxDir = path.join(ws.memoryRoot, 'Inbox', 'Agents', AGENT_DIR);
     if (!fs.existsSync(inboxDir)) {
       record.entregaBloqueada = `área do agente não existe na Memory: Inbox/Agents/${AGENT_DIR}`;
@@ -247,8 +262,10 @@ export function proposeLearning(ws, campaignId, proposal) {
       // segue a política daquele repositório (§10.1).
       record.entregaObservacao = 'arquivo escrito na Inbox; commit e push seguem o protocolo da Memory';
     }
-  } else {
+  } else if (!mem.available) {
     record.entregaBloqueada = `Memory indisponível — ${mem.why}`;
+  } else {
+    record.entregaBloqueada = `Memory ${mem.state} — ${mem.why}. A proposta ficou como rascunho local; entregue na Inbox depois de sincronizar.`;
   }
 
   writeJson(localFile, record);
@@ -278,7 +295,7 @@ export function recordPromotion(ws, campaignId, proposalId, { decision, destino 
     e.code = 'PROMOTION_DECISION';
     throw e;
   }
-  const file = path.join(proposalsDir(ws, campaignId), `${proposalId}.json`);
+  const file = proposalFile(ws, campaignId, proposalId);
   if (!exists(file)) throw new Error(`proposta não encontrada: ${proposalId}`);
   const cur = readJson(file);
   if (decision === PROPOSAL_STATUS.PROMOTED && !destino) {

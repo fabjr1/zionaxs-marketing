@@ -18,7 +18,7 @@ export MOS_ROOT=../workspace                      # onde vive estado, brand e pe
 export MOS_CHROMIUM=/opt/pw-browsers/chromium     # opcional; sem isso o Playwright resolve
 
 npm run check      # sintaxe de todos os fontes
-npm test           # 158 testes, inclui render real com determinismo byte a byte
+npm test           # 195 testes, inclui render real com determinismo byte a byte
 ```
 
 ## Gerar uma peça
@@ -78,7 +78,11 @@ a árvore: o contexto é declarado, e o que não está declarado vira lacuna.
   ter oferta; campanha de venda é. Não existe funil obrigatório, e a frente
   deixada de fora é registrada com motivo.
 - **Brief aprovado é gate do plano.** Mudar propósito, objetivo, público,
-  oferta, ação ou métrica revoga a aprovação e invalida o plano.
+  oferta, ação ou métrica revoga a aprovação. O plano grava a impressão digital
+  da aprovação sobre a qual foi construído (`briefRef`), então deixa de valer no
+  mesmo ato — sem ser apagado: o arquivo fica como evidência e a campanha vai
+  para **bloqueada**, nunca "produção". Reaprovar não basta; o plano precisa ser
+  salvo de novo.
 - **Ativo sem pipeline é declarado, não verificado.** Carrossel, story e post
   herdam os 12 gates; formato novo aparece como "sem gate próprio" em vez de
   fingir aprovação.
@@ -90,8 +94,25 @@ a árvore: o contexto é declarado, e o que não está declarado vira lacuna.
   Promover é ato humano — o sistema só registra que aconteceu, e para onde.
 - **Nada de segredo na Memory.** A proposta é varrida antes de ser escrita.
 
-Memory indisponível não impede registrar devolutiva nem proposta: a entrega
-fica bloqueada e declarada, e a cópia local nunca é tratada como definitiva.
+**Sincronização antes de usar.** Antes de ler contexto e antes de escrever na
+Inbox, o sistema aplica o protocolo da Memory: verifica o estado, busca o
+remoto e integra por rebase quando é seguro. Só `sincronizada` é confiável — e
+o console distingue os estados:
+
+| Estado | Efeito |
+|---|---|
+| `sincronizada` | contexto orienta o Brief; a Inbox recebe proposta |
+| `suja` | árvore com alteração não commitada — **nada é integrado**, para não arriscar o trabalho pendente |
+| `atrasada` · `sem upstream` · `remoto inacessível` · `conflito ao integrar` | bloqueiam |
+| `sem versionamento` · `indisponível` | bloqueiam |
+
+Em qualquer estado bloqueante o **rascunho local continua**: a devolutiva e a
+proposta são gravadas na campanha, o Brief não é aprovado e a Inbox não recebe
+nada. As únicas escritas na Memory são `fetch` e `pull --rebase` com a árvore
+limpa; um conflito dispara `rebase --abort` e devolve o repositório ao estado
+anterior. Nunca há `reset`, `checkout`, `clean` ou `--force`.
+`MOS_MEMORY_NO_FETCH=1` pula a busca — e, sem comparação, o estado fica
+`não verificada`, que bloqueia igual.
 
 ## Rota automatizada (v2)
 
@@ -144,6 +165,9 @@ explícita via `MOS_ROOT`/`--root`. O layout interno não muda.
 - **Aprovação amarra no digest** da geração; regenerar invalida.
 - **Render 100% offline**: http/https abortado e contado como falha.
 - **Segredos só por env** (`MOS_WEBHOOK_KEY`, `MOS_TOKEN`) — nunca em arquivo versionado.
+- **Id que vira caminho é validado no domínio**, não só no HTTP: `assertSafeId`
+  aceita apenas o formato que o próprio sistema gera, então barra, `..`, vazio
+  e maiúscula são recusados antes de qualquer escrita ou commit.
 
 ## Endurecimento pós-revisão adversarial
 

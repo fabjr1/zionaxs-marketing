@@ -58,6 +58,15 @@ Current versions of all skills. Agents can compare against local versions to che
 
 ## Recent Changes
 
+### 2.13.1 (2026-08-28)
+
+- **Marketing OS — correções de revisão** (app apenas; nenhuma skill mudou, logo sem bump de skill):
+  - **Plano não sobrevive à revogação do Brief.** Uma alteração material revogava a aprovação, mas o `plan.json` persistido continuava sendo encontrado pela derivação de estado e a campanha seguia em "produção" com o Brief em rascunho. O plano passa a gravar `briefRef` — a impressão digital da aprovação sobre a qual foi construído, no mesmo idioma que amarra a aprovação de peça ao digest da geração. Mudança material ou reaprovação produzem outra referência, o plano fica **verificavelmente** fora de dia e a campanha vai para `bloqueada`. Nada é apagado: o arquivo continua como evidência, e um plano legado sem `briefRef` também não conta como vigente. Ativos de plano invalidado deixam de sustentar revisão ou aprovação.
+  - **Traversal em identificadores.** O id de proposta chegava por POST e era concatenado direto no caminho: `../campaign` alcançava e sobrescrevia o `campaign.json`. Novo `assertSafeId` aceita apenas o formato que o sistema gera (minúsculas, dígitos e hífen), aplicado na **camada de domínio** — em campanha, marca, peça, feedback, proposta e ativo — de modo que a biblioteca fique segura para qualquer chamador, não só para o HTTP. Tentativa inválida falha antes de escrever ou commitar; no console vira resposta controlada (303 com motivo, ou 404 em asset) sem derrubar o processo.
+  - **Memory só orienta e recebe quando sincronizada.** O resolvedor apenas observava o Git. Agora aplica o protocolo antes de leitura relevante e antes de escrever na Inbox: verifica estado, busca o remoto e integra por rebase quando é seguro. Estados `suja`, `atrasada`, `sem upstream`, `remoto inacessível`, `conflito ao integrar`, `sem versionamento` e `não verificada` **bloqueiam** aprovação de Brief e entrega na Inbox — o rascunho local é preservado em todos eles. Árvore suja nunca é rebaseada; conflito dispara `rebase --abort`. Sem `reset`, `checkout`, `clean` ou `--force` em nenhum caminho. O console distingue os estados em vez de tratar "existe no disco" como "confiável".
+  - 37 testes novos (195 no total, eram 158), incluindo o ciclo Brief→plano→alteração→reaprovação, verificação byte a byte de que a campanha não muda após tentativa de traversal, e os estados de sincronização exercitados contra remotos Git locais — sem rede.
+  - Correção de apoio: `sync-skills.js` passa a tolerar CRLF no frontmatter, que em checkout Windows voltava vazio para toda skill.
+
 ### 2.13.0 (2026-08-28)
 
 - **`marketing-os` (1.0.0 → 1.1.0)** — the orchestration layer now opens on **canonical brand context** and closes the loop on **feedback that becomes reviewable knowledge**. Three additions, all upstream of the nine stages it already sequenced:

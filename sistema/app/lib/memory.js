@@ -79,37 +79,141 @@ function digestOf(body, maxChars = 320) {
 }
 
 /**
- * Estado de sincronização da Memory (§10.1, §12).
- * Não sincroniza sozinho: só observa e reporta. Sincronizar é operação de
- * escrita no repositório de outro sistema e não pertence a este processo.
+ * Estados possíveis da Memory. Só `SYNCED` é confiável para orientar um Brief
+ * ou receber uma proposta; os demais permitem rascunho local e nada além.
  */
-export function memoryStatus(memoryRoot) {
-  if (!memoryRoot) return { available: false, why: 'MOS_MEMORY_ROOT não definido', synced: false };
-  if (!fs.existsSync(memoryRoot)) return { available: false, why: `raiz da Memory inexistente: ${memoryRoot}`, synced: false };
+export const MEMORY_STATE = {
+  UNAVAILABLE: 'indisponível',
+  NOT_A_REPO: 'sem versionamento',
+  NO_UPSTREAM: 'sem upstream',
+  DIRTY: 'suja',
+  UNVERIFIED: 'não verificada',
+  FETCH_FAILED: 'remoto inacessível',
+  REBASE_CONFLICT: 'conflito ao integrar',
+  BEHIND: 'atrasada',
+  SYNCED: 'sincronizada',
+};
+
+/**
+ * Protocolo seguro da Zionaxs Memory (§10.1, §12), aplicado ANTES de leitura
+ * relevante de contexto e ANTES de escrever proposta na Inbox:
+ * verificar estado → buscar remoto → integrar sem apagar nada → só então usar.
+ *
+ * O que este código NÃO faz, por regra: nenhum `reset`, `checkout`, `clean` ou
+ * `push --force`. As únicas escritas são `fetch` e, com a árvore limpa,
+ * `pull --rebase` — e um `rebase --abort` se a integração falhar, para deixar
+ * o repositório exatamente como estava.
+ *
+ * Árvore suja NÃO é integrada: rebase com alteração local pendente é onde se
+ * perde trabalho. Nesse caso o estado é bloqueante e nada é tocado.
+ *
+ * `MOS_MEMORY_NO_FETCH=1` pula a busca. Isso não "libera" o fluxo: sem
+ * comparar com o remoto não há verificação, e o estado fica `UNVERIFIED`,
+ * que bloqueia igual.
+ */
+export function syncMemory(memoryRoot, { fetch: doFetch = process.env.MOS_MEMORY_NO_FETCH !== '1' } = {}) {
+  const out = { available: false, verified: false, root: memoryRoot || null, state: MEMORY_STATE.UNAVAILABLE };
+
+  if (!memoryRoot) { out.why = 'MOS_MEMORY_ROOT não definido'; return out; }
+  if (!fs.existsSync(memoryRoot)) { out.why = `raiz da Memory inexistente: ${memoryRoot}`; return out; }
+  out.available = true;
+
   const git = (args) => execFileSync('git', args, {
     cwd: memoryRoot, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
   }).trim();
-  const out = { available: true, root: memoryRoot, synced: false };
-  try {
-    out.head = git(['rev-parse', '--short', 'HEAD']);
-    out.branch = git(['rev-parse', '--abbrev-ref', 'HEAD']);
-    out.dirty = git(['status', '--porcelain']).length > 0;
-    // ahead/behind contra o remoto JÁ CONHECIDO — sem fetch: buscar rede aqui
-    // tornaria uma leitura de contexto uma operação de rede silenciosa.
-    try {
-      const counts = git(['rev-list', '--left-right', '--count', `${out.branch}@{upstream}...HEAD`]);
-      const [behind, ahead] = counts.split(/\s+/).map(Number);
-      out.behind = behind; out.ahead = ahead;
-      out.synced = behind === 0 && ahead === 0;
-      out.verifiedAgainstRemote = false; // sem fetch, é o remoto da última busca
-    } catch {
-      out.why = 'sem upstream configurado — não é possível confirmar sincronização';
-    }
-  } catch {
-    out.why = 'raiz da Memory não é repositório git — proveniência limitada ao filesystem';
+  const tryGit = (args) => { try { return { ok: true, out: git(args) }; } catch (e) { return { ok: false, err: String(e.stderr || e.message).slice(0, 300) }; } };
+
+  const inRepo = tryGit(['rev-parse', '--is-inside-work-tree']);
+  if (!inRepo.ok || inRepo.out !== 'true') {
+    out.state = MEMORY_STATE.NOT_A_REPO;
+    out.why = 'a raiz da Memory não é repositório git — não há como verificar sincronização nem proveniência';
+    return out;
   }
+  out.head = tryGit(['rev-parse', '--short', 'HEAD']).out || null;
+  out.branch = tryGit(['rev-parse', '--abbrev-ref', 'HEAD']).out || null;
+
+  const upstream = tryGit(['rev-parse', '--abbrev-ref', '--symbolic-full-name', '@{upstream}']);
+  if (!upstream.ok) {
+    out.state = MEMORY_STATE.NO_UPSTREAM;
+    out.why = 'sem upstream configurado — a cópia local não pode ser confirmada contra a canônica';
+    return out;
+  }
+  out.upstream = upstream.out;
+
+  out.dirty = (tryGit(['status', '--porcelain']).out || '').length > 0;
+  if (out.dirty) {
+    out.state = MEMORY_STATE.DIRTY;
+    out.why = 'a cópia local tem alterações não commitadas — integrar agora arriscaria o trabalho pendente';
+    return out;
+  }
+
+  if (!doFetch) {
+    out.state = MEMORY_STATE.UNVERIFIED;
+    out.why = 'busca do remoto desativada (MOS_MEMORY_NO_FETCH) — sem comparação, não há verificação';
+    return out;
+  }
+
+  const fetched = tryGit(['fetch', '--quiet']);
+  if (!fetched.ok) {
+    out.state = MEMORY_STATE.FETCH_FAILED;
+    out.why = `não foi possível buscar o remoto: ${fetched.err}`;
+    return out;
+  }
+
+  const counts = (label) => {
+    const r = tryGit(['rev-list', '--left-right', '--count', `@{upstream}...HEAD`]);
+    if (!r.ok) return null;
+    const [behind, ahead] = r.out.split(/\s+/).map(Number);
+    return { behind, ahead, label };
+  };
+
+  let c = counts('após fetch');
+  if (c && c.behind > 0) {
+    // Árvore limpa: rebase é seguro e preserva os commits locais por cima.
+    const pulled = tryGit(['pull', '--rebase', '--quiet']);
+    if (!pulled.ok) {
+      tryGit(['rebase', '--abort']); // devolve o repositório ao estado anterior
+      out.state = MEMORY_STATE.REBASE_CONFLICT;
+      out.why = `conflito ao integrar o remoto — rebase abortado, nada foi alterado: ${pulled.err}`;
+      return out;
+    }
+    out.integrated = true;
+    out.head = tryGit(['rev-parse', '--short', 'HEAD']).out || out.head;
+    c = counts('após rebase');
+  }
+
+  out.behind = c?.behind ?? null;
+  out.ahead = c?.ahead ?? null;
+
+  if (c && c.behind > 0) {
+    out.state = MEMORY_STATE.BEHIND;
+    out.why = `a cópia local continua ${c.behind} commit(s) atrás do remoto`;
+    return out;
+  }
+
+  out.state = MEMORY_STATE.SYNCED;
+  out.verified = true;
+  // Commits locais ainda não enviados não impedem leitura nem proposta: o que
+  // a Memory tem, esta cópia também tem. É limitação a declarar, não bloqueio.
+  if (c && c.ahead > 0) out.unpushed = c.ahead;
   return out;
 }
+
+/** Compatibilidade: leitura do estado sem tentar integrar nada. */
+export function memoryStatus(memoryRoot) {
+  return syncMemory(memoryRoot, { fetch: false });
+}
+
+/** O que fazer em cada estado bloqueante — texto que vai para a lacuna. */
+export const SYNC_REMEDY = {
+  [MEMORY_STATE.NOT_A_REPO]: 'A Memory precisa ser um repositório git para ter proveniência e sincronização verificáveis.',
+  [MEMORY_STATE.NO_UPSTREAM]: 'Configure o upstream do branch da Memory (git branch --set-upstream-to=origin/main).',
+  [MEMORY_STATE.DIRTY]: 'Commite ou guarde as alterações locais da Memory. O sistema não integra por cima de trabalho pendente.',
+  [MEMORY_STATE.UNVERIFIED]: 'Reative a busca do remoto (remova MOS_MEMORY_NO_FETCH) para que a sincronização possa ser verificada.',
+  [MEMORY_STATE.FETCH_FAILED]: 'Restabeleça o acesso ao remoto da Memory e consulte o contexto de novo.',
+  [MEMORY_STATE.REBASE_CONFLICT]: 'Resolva o conflito na Memory manualmente. O rebase foi abortado e nada foi alterado.',
+  [MEMORY_STATE.BEHIND]: 'A cópia local continua atrás da canônica — integre na Memory antes de seguir.',
+};
 
 /** Versão auditável de uma nota: sha do último commit que a tocou, ou mtime. */
 function noteVersion(memoryRoot, abs) {
@@ -147,7 +251,9 @@ export function buildContextPackage(ws, { brandId, campaignId = null, roles = nu
     brand: brandId,
     campaign: campaignId,
     consultedAt,
-    memory: memoryStatus(ws.memoryRoot),
+    // Protocolo seguro antes da leitura relevante (§10.1): busca e integra
+    // quando é seguro, e reporta bloqueio quando não é.
+    memory: syncMemory(ws.memoryRoot),
     sources: [],
     gaps: [],
     conflicts: [],
@@ -183,12 +289,22 @@ export function buildContextPackage(ws, { brandId, campaignId = null, roles = nu
     });
     return pkg;
   }
-  if (pkg.memory.dirty) {
-    pkg.limitations.push('a cópia local da Memory tem alterações não commitadas — o contexto pode divergir da canônica');
+
+  // A Memory existe mas não está verificada: as notas ainda são carregadas —
+  // rascunho local continua possível — e o bloqueio impede que esse contexto
+  // aprove um Brief ou receba uma proposta como se fosse confiável.
+  if (!pkg.memory.verified) {
+    pkg.gaps.push({
+      role: null, severity: GAP_SEVERITY.BLOCKS,
+      what: `Memory ${pkg.memory.state} — ${pkg.memory.why}`,
+      ask: SYNC_REMEDY[pkg.memory.state] || 'Resolva a sincronização da Memory antes de aprovar o Brief.',
+    });
   }
-  if (!pkg.memory.synced) {
-    pkg.limitations.push(pkg.memory.why
-      || `cópia local ${pkg.memory.behind ?? '?'} atrás / ${pkg.memory.ahead ?? '?'} à frente do remoto conhecido; sincronização não verificada nesta leitura`);
+  if (pkg.memory.integrated) {
+    pkg.limitations.push('o remoto foi integrado por rebase nesta leitura — o contexto reflete a canônica atual');
+  }
+  if (pkg.memory.unpushed) {
+    pkg.limitations.push(`${pkg.memory.unpushed} commit(s) local(is) ainda não enviados à canônica`);
   }
 
   const wanted = (manifest.referencias || [])

@@ -9,7 +9,7 @@
 // Feedback contraditório é preservado, nunca sobrescrito (§12).
 import fs from 'node:fs';
 import path from 'node:path';
-import { isoNow, writeJson, readJson, exists, ensureDir, slug } from './util.js';
+import { isoNow, writeJson, readJson, exists, ensureDir, slug, assertSafeId } from './util.js';
 import { commitDecision } from './gitio.js';
 
 /**
@@ -48,7 +48,14 @@ export const FEEDBACK_OUTCOME = {
 };
 
 function feedbackDir(ws, campaignId) {
+  assertSafeId(campaignId, 'id de campanha');
   return path.join(ws.campaignDir(campaignId), 'feedback');
+}
+
+/** Caminho de uma devolutiva, com o id validado antes de virar caminho. */
+function feedbackFile(ws, campaignId, feedbackId) {
+  assertSafeId(feedbackId, 'id de devolutiva');
+  return path.join(feedbackDir(ws, campaignId), `${feedbackId}.json`);
 }
 
 /**
@@ -127,7 +134,7 @@ export function listFeedback(ws, campaignId) {
 }
 
 export function loadFeedback(ws, campaignId, feedbackId) {
-  const f = path.join(feedbackDir(ws, campaignId), `${feedbackId}.json`);
+  const f = feedbackFile(ws, campaignId, feedbackId);
   if (!exists(f)) return null;
   const e = readJson(f);
   e._file = f;

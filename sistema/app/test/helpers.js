@@ -45,20 +45,63 @@ export function makeTmpWorkspace({ git = false, fonts = false } = {}) {
  * Vault de memória temporário: notas com frontmatter, opcionalmente sob git
  * para exercitar a proveniência. `notes` é { caminhoRelativo: conteúdo }.
  */
-export function makeTmpMemory({ git = false, notes = {}, inbox = true } = {}) {
+export function makeTmpMemory({ git = true, remote = true, notes = {}, inbox = true, dirty = false } = {}) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mos-mem-'));
   for (const [rel, content] of Object.entries(notes)) {
     const abs = path.join(root, rel);
     fs.mkdirSync(path.dirname(abs), { recursive: true });
     fs.writeFileSync(abs, content);
   }
-  if (inbox) fs.mkdirSync(path.join(root, 'Inbox', 'Agents', 'claude-code'), { recursive: true });
-  if (git) {
-    execFileSync('git', ['init', '-q'], { cwd: root });
-    execFileSync('git', ['add', '-A'], { cwd: root });
-    execFileSync('git', ['-c', 'user.name=t', '-c', 'user.email=t@t', 'commit', '-q', '-m', 'notas'], { cwd: root });
+  if (inbox) {
+    fs.mkdirSync(path.join(root, 'Inbox', 'Agents', 'claude-code'), { recursive: true });
+    // .gitkeep para que a área do agente exista também no clone/remoto
+    fs.writeFileSync(path.join(root, 'Inbox', 'Agents', 'claude-code', '.gitkeep'), '');
   }
+  if (git) {
+    const g = (...a) => execFileSync('git', ['-c', 'user.name=t', '-c', 'user.email=t@t', ...a], { cwd: root, stdio: 'ignore' });
+    g('init', '-q', '-b', 'main');
+    g('add', '-A');
+    g('commit', '-q', '-m', 'notas');
+    if (remote) {
+      // Remoto local (bare, no filesystem): o protocolo de sincronização roda
+      // de verdade — fetch, rebase — sem depender de rede.
+      const bare = fs.mkdtempSync(path.join(os.tmpdir(), 'mos-mem-remote-'));
+      execFileSync('git', ['init', '-q', '--bare', '-b', 'main'], { cwd: bare, stdio: 'ignore' });
+      g('remote', 'add', 'origin', bare);
+      g('push', '-q', '-u', 'origin', 'main');
+      // Fora do repositório: um arquivo de apoio dentro dele deixaria a
+      // árvore suja, que é justamente um dos estados sob teste.
+      REMOTES.set(root, bare);
+    }
+  }
+  if (dirty) fs.writeFileSync(path.join(root, 'rascunho-local.md'), 'trabalho pendente\n');
   return root;
+}
+
+/** Remotos bare por raiz de memória, mantidos fora das árvores de trabalho. */
+const REMOTES = new Map();
+
+/** Caminho do remoto bare criado por makeTmpMemory. */
+export function memoryRemote(memoryRoot) {
+  const bare = REMOTES.get(memoryRoot);
+  if (!bare) throw new Error(`memória sem remoto de teste: ${memoryRoot}`);
+  return bare;
+}
+
+/**
+ * Adiciona um commit direto no remoto, deixando a cópia local atrasada.
+ * Usa um clone descartável para não tocar na cópia sob teste.
+ */
+export function advanceMemoryRemote(memoryRoot, { file = 'nota-remota.md', content = '# remota\n\nconteudo novo suficientemente longo para virar resumo.\n' } = {}) {
+  const bare = memoryRemote(memoryRoot);
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'mos-mem-clone-'));
+  const g = (...a) => execFileSync('git', ['-c', 'user.name=t', '-c', 'user.email=t@t', ...a], { cwd: tmp, stdio: 'ignore' });
+  execFileSync('git', ['clone', '-q', bare, '.'], { cwd: tmp, stdio: 'ignore' });
+  fs.writeFileSync(path.join(tmp, file), content);
+  g('add', '-A');
+  g('commit', '-q', '-m', 'commit remoto');
+  g('push', '-q', 'origin', 'main');
+  fs.rmSync(tmp, { recursive: true, force: true });
 }
 
 /** Nota do vault com frontmatter no formato da política de metadados. */

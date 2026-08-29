@@ -9,9 +9,9 @@
 // O plano registra qual skill fundamentou cada frente, para revisão e
 // reprodução (§10.3).
 import path from 'node:path';
-import { isoNow, writeJson, readJson, exists } from './util.js';
+import { isoNow, writeJson, readJson, exists, assertSafeId } from './util.js';
 import { commitDecision } from './gitio.js';
-import { PURPOSES, isApproved } from './brief.js';
+import { PURPOSES, isApproved, briefApprovalRef } from './brief.js';
 
 /** Frentes possíveis (RF-03). Todas opcionais; nenhuma é obrigatória. */
 export const FRONTS = {
@@ -91,12 +91,29 @@ export function newPlan({ campaignId, brief }) {
   return {
     campanha: campaignId,
     proposito: brief?.proposito || null,
+    // A aprovação sobre a qual este plano foi construído. Reescrita a cada
+    // savePlan; se o Brief mudar ou for reaprovado, deixa de bater.
+    briefRef: briefApprovalRef(brief),
     frentes: [],
     frentesExcluidas: [],
     sugeridas: suggested,
     criadoEm: isoNow(),
     atualizadoEm: isoNow(),
   };
+}
+
+/**
+ * O plano corresponde à aprovação vigente do Brief?
+ *
+ * Falso quando não há aprovação, quando o plano é anterior a este mecanismo
+ * (sem `briefRef`) ou quando a referência mudou. Plano fora de dia não é
+ * apagado — é declarado desatualizado, e a evidência fica no arquivo.
+ */
+export function isPlanCurrent(plan, brief) {
+  if (!plan) return false;
+  const ref = briefApprovalRef(brief);
+  if (!ref) return false;
+  return Boolean(plan.briefRef) && plan.briefRef === ref;
 }
 
 export function newFront({ tipo, objetivo, metrica, dependeDe = [], skills = null, responsavel = null }) {
@@ -180,6 +197,7 @@ export function validatePlan(plan, brief) {
 }
 
 export function planFile(ws, campaignId) {
+  assertSafeId(campaignId, 'id de campanha');
   return path.join(ws.campaignDir(campaignId), 'plan.json');
 }
 
@@ -198,7 +216,10 @@ export function savePlan(ws, campaignId, plan, brief) {
     throw e;
   }
   const f = planFile(ws, campaignId);
-  const next = { ...plan, atualizadoEm: isoNow() };
+  // Reestampa a referência: um plano salvo é sempre um plano da aprovação
+  // vigente. É isto que faz a reaprovação seguida de novo save produzir um
+  // plano atual, sem precisar apagar o anterior.
+  const next = { ...plan, briefRef: briefApprovalRef(brief), atualizadoEm: isoNow() };
   writeJson(f, next);
   const git = commitDecision(ws.root, [f],
     `campanha: plano de ${campaignId} — ${next.frentes.map((x) => x.tipo).join(', ')}`);

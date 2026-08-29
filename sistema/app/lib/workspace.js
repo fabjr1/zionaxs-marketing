@@ -5,7 +5,7 @@
 // no PRD/README: o layout interno é fixo, a raiz é configurável.
 import fs from 'node:fs';
 import path from 'node:path';
-import { readJson, safeJoin } from './util.js';
+import { readJson, safeJoin, assertSafeId } from './util.js';
 
 export function resolveRoot(argRoot) {
   const root = argRoot || process.env.MOS_ROOT;
@@ -38,13 +38,16 @@ export function loadWorkspace(argRoot) {
     piecesDir: safeJoin(root, config.piecesDir || 'pieces'),
     stateFile: safeJoin(root, config.stateFile || 'state.md'),
     libraryFile: safeJoin(root, config.libraryFile || 'library.json'),
-    pieceDir(id) { return safeJoin(this.piecesDir, id); },
+    // safeJoin bloqueia traversal; assertSafeId recusa antes disso qualquer
+    // coisa que não seja um id no formato que o sistema gera. Centralizar aqui
+    // faz todo módulo que constrói caminho de peça/campanha herdar a checagem.
+    pieceDir(id) { return safeJoin(this.piecesDir, assertSafeId(id, 'id de peça')); },
 
     // ---- fluxo de campanhas (aditivo; ausência não quebra nada) ----
     brandsDir: safeJoin(root, config.brandsDir || 'brands'),
     campaignsDir: safeJoin(root, config.campaignsDir || 'campaigns'),
-    brandManifestFile(id) { return safeJoin(this.brandsDir, id, 'manifest.json'); },
-    campaignDir(id) { return safeJoin(this.campaignsDir, id); },
+    brandManifestFile(id) { return safeJoin(this.brandsDir, assertSafeId(id, 'id de marca'), 'manifest.json'); },
+    campaignDir(id) { return safeJoin(this.campaignsDir, assertSafeId(id, 'id de campanha')); },
 
     /**
      * Raiz da Zionaxs Memory. Env vence o config para permitir apontar outra

@@ -14,7 +14,7 @@ import { approve, reject, escalate } from '../lib/decisions.js';
 import { buildExport, registerPermalink } from '../lib/exporter.js';
 import { addReading, addCampaignReading } from '../lib/measure.js';
 import { pieceHistory } from '../lib/gitio.js';
-import { readJson, exists, safeJoin } from '../lib/util.js';
+import { readJson, exists, safeJoin, isSafeId } from '../lib/util.js';
 import { page, queueView, pieceView, stateView, libraryView } from './views.js';
 import { listBrands, resolveBrand } from '../lib/brands.js';
 import { buildContextPackage } from '../lib/memory.js';
@@ -172,6 +172,9 @@ export function createServer({ root, token = process.env.MOS_TOKEN || null } = {
 
       // ---- assets de peça (somente leitura, path-safe) ----
       if (parts[0] === 'asset' && parts.length >= 3) {
+        // id fora do formato é "não existe", não erro do servidor: 404 mantém
+        // a resposta controlada e não revela nada sobre o filesystem.
+        if (!isSafeId(parts[1])) return send(404, 'não encontrado', 'text/plain');
         const pieceDir = ws.pieceDir(parts[1]);
         const file = safeJoin(pieceDir, ...parts.slice(2));
         if (!fs.existsSync(file)) return send(404, 'não encontrado', 'text/plain');

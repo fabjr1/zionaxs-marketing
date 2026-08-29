@@ -169,7 +169,8 @@ test('proposta inválida não chega à Inbox', () => {
   assert.throws(() => proposeLearning(ws, id, fullProposal({ regraProposta: null })),
     (e) => e.code === 'LEARNING_INVALID');
   const inboxDir = path.join(mem, 'Inbox', 'Agents', AGENT_DIR);
-  assert.equal(fs.readdirSync(inboxDir).length, 0);
+  // só .md: a área do agente carrega um .gitkeep para existir no remoto
+  assert.equal(fs.readdirSync(inboxDir).filter((f) => f.endsWith('.md')).length, 0);
 });
 
 test('§12: Memory indisponível grava localmente e declara o bloqueio', () => {

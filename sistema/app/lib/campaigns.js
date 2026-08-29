@@ -13,7 +13,7 @@ import { isoNow, writeJson, readJson, exists, ensureDir, slug } from './util.js'
 import { commitDecision } from './gitio.js';
 import { listCampaignIds } from './workspace.js';
 import { loadBrief, isApproved } from './brief.js';
-import { loadPlan, planBlockers, FRONT_STATUS, ASSET_PIPELINES } from './plan.js';
+import { loadPlan, planBlockers, isPlanCurrent, ASSET_PIPELINES } from './plan.js';
 import { blockingGaps } from './memory.js';
 import { listFeedback } from './feedback.js';
 import { listProposals } from './learning.js';
@@ -130,13 +130,30 @@ export function loadCampaign(ws, id) {
     blockers: [],
     status: CAMPAIGN_STATUS.DRAFT,
   };
-  c.assets = c.plan ? planAssets(ws, c.plan) : [];
+  // O plano só conta como vigente se corresponder à aprovação atual do Brief.
+  // Um plano persistido de uma aprovação revogada continua no disco como
+  // evidência, mas não sustenta produção.
+  c.planCurrent = isPlanCurrent(c.plan, c.brief);
+  c.planStale = Boolean(c.plan) && !c.planCurrent;
+  c.assets = c.planCurrent ? planAssets(ws, c.plan) : [];
 
   // ---- bloqueios: lacuna de contexto, frente bloqueada, decisão pendente ----
   for (const g of blockingGaps(c.context)) {
     c.blockers.push({ kind: 'contexto', what: g.what, ask: g.ask });
   }
-  for (const b of planBlockers(c.plan)) {
+  // RB-01: Brief não aprovado é barreira ANTERIOR a qualquer plano persistido.
+  // Sem isso, um plano de uma aprovação revogada deixava a campanha em
+  // "produção" com o Brief em rascunho.
+  if (c.planStale) {
+    c.blockers.push({
+      kind: 'plano',
+      what: isApproved(c.brief)
+        ? 'plano desatualizado — foi construído sobre uma aprovação anterior do Brief'
+        : 'plano desatualizado — o Brief mudou depois da aprovação e voltou a rascunho',
+      ask: 'Reaprove o Brief e salve o plano novamente. O plano anterior fica no arquivo como evidência.',
+    });
+  }
+  for (const b of planBlockers(c.planCurrent ? c.plan : null)) {
     c.blockers.push({ kind: 'frente', what: `frente "${b.frente}" ${b.estado}`, ask: b.decisaoPendente });
   }
 
@@ -151,7 +168,7 @@ export function loadCampaign(ws, id) {
   else if (published.length) c.status = CAMPAIGN_STATUS.PUBLISHED;
   else if (c.assets.length && approved.length === c.assets.length) c.status = CAMPAIGN_STATUS.APPROVED;
   else if (inReview.length) c.status = CAMPAIGN_STATUS.REVIEW;
-  else if (c.plan) c.status = CAMPAIGN_STATUS.PRODUCTION;
+  else if (c.planCurrent) c.status = CAMPAIGN_STATUS.PRODUCTION;
   else if (isApproved(c.brief)) c.status = CAMPAIGN_STATUS.PLANNING;
   else if (c.brief) c.status = CAMPAIGN_STATUS.BRIEFING;
   else if (c.context) c.status = CAMPAIGN_STATUS.CONTEXT;
@@ -177,7 +194,7 @@ export function nextAction(c) {
   if (!c.context) return { what: 'consultar contexto da Memory', where: 'contexto' };
   if (!c.brief) return { what: 'iniciar o Brief', where: 'brief' };
   if (!isApproved(c.brief)) return { what: 'completar e aprovar o Brief', where: 'brief' };
-  if (!c.plan) return { what: 'montar o plano de frentes', where: 'plano' };
+  if (!c.planCurrent) return { what: 'montar o plano de frentes', where: 'plano' };
   if (!c.assets.length) return { what: 'declarar ativos nas frentes', where: 'plano' };
   const pending = c.assets.filter((a) => a.estadoPeca && a.estadoPeca !== 'aprovada' && a.estadoPeca !== 'publicada');
   if (pending.length) return { what: `revisar ativo ${pending[0].id} (${pending[0].estadoPeca})`, where: 'ativo' };

@@ -9,7 +9,7 @@
 // campanha exige (RB-03). Uma campanha de audiência não deve ser obrigada a
 // declarar oferta; uma de venda, sim.
 import path from 'node:path';
-import { isoNow, writeJson, readJson, exists } from './util.js';
+import { isoNow, writeJson, readJson, exists, sha256, assertSafeId } from './util.js';
 import { commitDecision } from './gitio.js';
 import { blockingGaps } from './memory.js';
 
@@ -161,6 +161,7 @@ export function validateBrief(brief, contextPackage = null) {
 }
 
 export function briefFile(ws, campaignId) {
+  assertSafeId(campaignId, 'id de campanha');
   return path.join(ws.campaignDir(campaignId), 'brief.json');
 }
 
@@ -233,4 +234,24 @@ export function applyEdits(brief, edits) {
 
 export function isApproved(brief) {
   return Boolean(brief && brief.estado === BRIEF_STATUS.APPROVED && brief.aprovadoEm);
+}
+
+/**
+ * Impressão digital da aprovação vigente do Brief.
+ *
+ * Mesmo idioma que amarra a aprovação de peça ao digest da geração: o plano
+ * grava esta referência, e qualquer mudança material — ou uma reaprovação —
+ * produz outra. Assim o plano antigo fica **verificavelmente** desatualizado
+ * sem que nada seja apagado: o arquivo continua lá, com a referência da
+ * aprovação sobre a qual ele foi construído.
+ *
+ * Devolve null quando não há aprovação vigente — e plano sem referência não
+ * pode ser tratado como atual.
+ */
+export function briefApprovalRef(brief) {
+  if (!isApproved(brief)) return null;
+  const material = {};
+  for (const k of PLAN_INVALIDATING_FIELDS) material[k] = brief[k] ?? null;
+  material.aprovadoEm = brief.aprovadoEm;
+  return sha256(JSON.stringify(material)).slice(0, 16);
 }

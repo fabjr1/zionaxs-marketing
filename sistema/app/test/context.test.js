@@ -10,13 +10,18 @@ import { buildContextPackage, blockingGaps, parseFrontmatter, memoryStatus, cont
 import { validateBrandManifest, resolveBrand, safeMemoryPath } from '../lib/brands.js';
 import { makeTmpWorkspace, makeTmpMemory, memoryNote, withBrand } from './helpers.js';
 
-function setup({ notes, referencias, git = false } = {}) {
+/**
+ * Memória sincronizada por padrão (repo git + remoto bare local). Os estados
+ * não verificados têm testes próprios em memory-sync.test.js — aqui o foco é
+ * a seleção de contexto, e uma memória bloqueada mascararia isso.
+ */
+function setup({ notes, referencias, ...memOpts } = {}) {
   const mem = makeTmpMemory({
-    git,
     notes: notes || {
       'pos.md': memoryNote({ title: 'Posicionamento' }),
       'pub.md': memoryNote({ title: 'Público' }),
     },
+    ...memOpts,
   });
   const root = makeTmpWorkspace();
   withBrand(root, mem, { referencias });
@@ -38,7 +43,7 @@ test('frontmatter: nota sem frontmatter não quebra', () => {
 });
 
 test('marca válida: carrega as referências declaradas com proveniência', () => {
-  const { ws } = setup({ git: true });
+  const { ws } = setup();
   const pkg = buildContextPackage(ws, { brandId: 'marca', campaignId: 'c1' });
   assert.equal(pkg.sources.length, 2);
   assert.equal(pkg.gaps.length, 0);

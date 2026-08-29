@@ -100,9 +100,19 @@ ${refresh}`;
 
   const p = c.context;
   const mem = p.memory || {};
-  const memLine = mem.available
-    ? `<span class="pill s-ok">Memory disponível</span> <span class="mono">${esc(mem.head || '')}${mem.branch ? ' · ' + esc(mem.branch) : ''}</span>${mem.dirty ? ' <span class="pill s-wait">cópia local alterada</span>' : ''}`
-    : `<span class="pill s-stop">Memory indisponível</span> ${esc(mem.why || '')}`;
+  // §12: o console distingue disponível, verificada, suja, bloqueada e
+  // indisponível — "existe no disco" não é a mesma coisa que "confiável".
+  const memLine = !mem.available
+    ? `<span class="pill s-stop">Memory indisponível</span> ${esc(mem.why || '')}`
+    : mem.verified
+      ? `<span class="pill s-ok">Memory sincronizada e verificada</span>
+         <span class="mono">${esc(mem.head || '')}${mem.branch ? ' · ' + esc(mem.branch) : ''}</span>
+         ${mem.integrated ? '<span class="pill s-wait">remoto integrado nesta leitura</span>' : ''}
+         ${mem.unpushed ? `<span class="pill s-wait">${mem.unpushed} commit(s) não enviados</span>` : ''}`
+      : `<span class="pill s-stop">Memory ${esc(mem.state)}</span>
+         <span class="mono">${esc(mem.head || '')}${mem.branch ? ' · ' + esc(mem.branch) : ''}</span>
+         <br><span style="font-size:13px;color:var(--ink2)">${esc(mem.why || '')}</span>
+         <br><span style="font-size:13px;color:var(--human)">Contexto não confiável: o Brief não pode ser aprovado e a Inbox não recebe proposta até sincronizar.</span>`;
 
   const src = (p.sources || []).map((s) => `<tr class="srcrow">
     <td class="mono">${esc(s.role)}</td>
