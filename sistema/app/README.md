@@ -1,7 +1,7 @@
 # Marketing OS — app
 
 O corpo do sistema descrito no PRD (`sistema/marketing-os.html`): gerador por
-contrato, 12 gates medidos nos pixels, console de decisão e publicação
+contrato, 14 gates medidos nos pixels, console de decisão e publicação
 contratada. O agente é o runtime do método; isto aqui é o que precisa ser
 determinístico.
 
@@ -27,7 +27,7 @@ npm test           # 216 testes, inclui render real com determinismo byte a byte
 node bin/gen.js zx-20-capacidade-antes-de-oferta
 ```
 
-Valida o contrato (G-07), compila, renderiza offline, roda os 12 gates e
+Valida o contrato (G-07), compila, renderiza offline, roda os 14 gates e
 grava `out/`: PNGs, `render-report.json` (com digest), folha de contato e
 `legenda-alt.md`. **Gate vermelho = corrigir o contrato e regenerar.** Nunca
 o pixel, nunca o HTML compilado.
@@ -84,7 +84,7 @@ a árvore: o contexto é declarado, e o que não está declarado vira lacuna.
   para **bloqueada**, nunca "produção". Reaprovar não basta; o plano precisa ser
   salvo de novo.
 - **Ativo sem pipeline é declarado, não verificado.** Carrossel, story e post
-  herdam os 12 gates; formato novo aparece como "sem gate próprio" em vez de
+  herdam os 14 gates; formato novo aparece como "sem gate próprio" em vez de
   fingir aprovação.
 - **Devolutiva não vira regra.** Preferência, falha de execução, hipótese e
   resultado mensurado são tipos distintos, e a força da evidência limita o

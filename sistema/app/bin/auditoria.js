@@ -42,14 +42,41 @@ vazios.length
   ? fail('A2', 'documentos de padrão presentes', vazios.map((p) => `${p} ausente ou curto demais`))
   : ok('A2', 'documentos de padrão presentes', PADROES.map((p) => path.basename(p)).join(', '));
 
-// A3 — gate que existe no código precisa estar documentado
+// A3 — o que o código faz e o que a documentação promete precisam bater.
+// Três falhas distintas, todas encontradas em 29/08/2026 por um agente em nuvem:
+// gate implementado e não documentado; contagem de gates errada em três
+// arquivos; e documento prometendo um gate que nunca foi implementado (G15).
 const gatesSrc = ler('sistema/app/lib/gates.js') || '';
 const idsNoCodigo = [...gatesSrc.matchAll(/add\('(G\d+)'/g)].map((m) => m[1]);
-const docTudo = [agents, ...PADROES.map(ler)].filter(Boolean).join('\n');
-const naoDocumentados = idsNoCodigo.filter((g) => Number(g.slice(1)) >= 13 && !docTudo.includes(g));
-naoDocumentados.length
-  ? fail('A3', 'gates documentados', naoDocumentados.map((g) => `${g} existe no código e não aparece na documentação`))
-  : ok('A3', 'gates documentados', `${idsNoCodigo.length} gates no código`);
+const DOCS = ['AGENTS.md', ...PADROES, 'sistema/app/README.md', '.claude/commands/carrossel-zionaxs.md'];
+const docTudo = DOCS.map(ler).filter(Boolean).join('\n');
+const problemasA3 = [];
+
+// 3a. gate recente existe no código e não aparece em documento nenhum
+for (const g of idsNoCodigo.filter((x) => Number(x.slice(1)) >= 13)) {
+  if (!docTudo.includes(g)) problemasA3.push(`${g} existe no código e não aparece na documentação`);
+}
+
+// 3b. documento cita gate que o código não tem
+for (const g of [...new Set([...docTudo.matchAll(/\bG(\d+)\b/g)].map((m) => 'G' + m[1]))]) {
+  if (!idsNoCodigo.includes(g)) problemasA3.push(`${g} é citado na documentação e NÃO existe no código`);
+}
+
+// 3c. contagem declarada em texto tem de bater com a contagem real
+for (const d of DOCS) {
+  const txt = ler(d);
+  if (!txt) continue;
+  for (const m of txt.matchAll(/\**(\d+)\**\s+gates/g)) {
+    if (Number(m[1]) !== idsNoCodigo.length) {
+      problemasA3.push(`${d} afirma "${m[1]} gates" e o código tem ${idsNoCodigo.length}`);
+    }
+  }
+}
+
+problemasA3.length
+  ? fail('A3', 'documentação bate com o código', [...new Set(problemasA3)])
+  : ok('A3', 'documentação bate com o código', `${idsNoCodigo.length} gates, conferidos em ${DOCS.length} documentos`);
+
 
 // A4 — a marca tem logo instalada, não paliativo
 const ws = loadWorkspace(arg('--root') || path.resolve(APP, '..', 'workspace'));

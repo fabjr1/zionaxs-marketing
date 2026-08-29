@@ -52,9 +52,11 @@ A imagem encena a **mesma cena concreta** que a manchete descreve. Nada de metá
 cd sistema/app && node bin/gen.js <id> --root ../workspace
 ```
 
-São 15 gates. Vermelho significa **corrigir o contrato**, nunca o pixel.
+São 14 gates. Vermelho significa **corrigir o contrato**, nunca o pixel.
 
-O **G15** mede a tinta contra os pixels da foto, e não contra o fundo declarado no CSS. Vermelho nele quer dizer enquadramento: mexa em `photo.pos`, `photo.scale` e `photo.origin`, ou troque a imagem. Nunca clareie o texto para escapar do número.
+O número acima vem do código, em `lib/gates.js`. Se divergir, o código manda.
+
+> **Ideia ainda não implementada:** medir a tinta contra os pixels reais da foto, e não contra o fundo declarado no CSS. Está proposta na Inbox da Zionaxs Memory (`2026-08-29-contraste-medido-no-pixel-da-foto.md`) e **não existe como gate**. Enquanto não existir, contraste sobre foto é julgamento humano na etapa de olhar os slides: se a tinta sumir na imagem, mexa em `photo.pos`, `photo.scale` e `photo.origin`, ou troque a foto. Nunca clareie o texto para escapar do problema.
 
 ## 6. Olhe os slides
 

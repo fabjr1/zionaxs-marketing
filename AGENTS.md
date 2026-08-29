@@ -45,7 +45,7 @@ Peça nenhuma é escrita à mão: tudo nasce de um **contrato** e é renderizado
 cd sistema/app && node bin/gen.js <piece-id> --root ../workspace
 ```
 
-O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **13 gates**. Gate vermelho significa corrigir o **contrato**, nunca o pixel. Aprovação e publicação são decisões humanas, registradas em arquivo e amarradas ao digest da geração.
+O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **14 gates**. Gate vermelho significa corrigir o **contrato**, nunca o pixel. Aprovação e publicação são decisões humanas, registradas em arquivo e amarradas ao digest da geração.
 
 ### Comandos prontos
 
