@@ -1,0 +1,15 @@
+decision: publicacao_barrada
+piece_id: zx-23-o-numero-que-ninguem-confia
+barrado_por: "node bin/pode-publicar.js (porteiro da publicacao automatica)"
+motivo: cadencia
+regra: "no maximo 1 post por dia (restricao do Brief aprovado)"
+situacao: "em 2026-08-29 ja foram publicadas 2 pecas: zx-21-decidir-sem-voce e zx-22-reuniao-de-30-minutos. Esta seria a terceira do mesmo dia."
+excecao_usada: false
+por_que_nao_usei_excecao: >
+  O comando /carrossel-zionaxs autoriza publicar sem aprovacao peca a peca, mas a
+  autorizacao vale para o fluxo com as travas, nao contra elas. A flag --excecao exige
+  autorizacao explicita do Fabiano naquele momento; a excecao de 29/08 foi registrada
+  com escopo 'apenas esta publicacao' e regra_permanece true, entao nao serve para esta.
+estado_da_peca: "pronta para publicar, 14/14 gates verdes, revisada visualmente, com trilha sugerida"
+proxima_acao: "publicar em 2026-08-30 rodando o porteiro de novo, ou o Fabiano autorizar excecao agora"
+registrado_em: 2026-08-29T18:58:00-03:00

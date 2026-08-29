@@ -1,0 +1,306 @@
+{
+  "id": "zx-23-o-numero-que-ninguem-confia",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "matriz": "M18",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação e recebe relatório pronto de outra pessoa (C1, P1, A1: papel dono-operador). Cena concreta: escritório contábil (V2). Secundário: nenhum.",
+    "decisao": "Escrever (ou não) a definição operacional de cada indicador que o negócio acompanha, com fórmula, fonte e dono.",
+    "tensao": "O relatório entrega 1 número, mas cada pessoa que o produz usa uma conta diferente. Sem definição escrita, o indicador muda de valor conforme quem abre a planilha, e comparar 2 semanas deixa de querer dizer alguma coisa.",
+    "evidencia": [
+      {
+        "claim": "o público quer uma fórmula de métrica com dono, fonte e frequência, e quer decidir sem medo de estar olhando um número errado",
+        "status": "I",
+        "fonte": "[19b] JTBD JO2 e JE2, ambos classificados I na própria nota"
+      },
+      {
+        "claim": "uma definição de medida só cumpre a função quando permite que pessoas diferentes cheguem ao mesmo resultado, e mudar o procedimento de medição produz um número diferente",
+        "status": "E",
+        "fonte": "W. Edwards Deming, Out of the Crisis, MIT Press, p. 277 (definição operacional como aquela com que se consegue fazer negócio) e The New Economics, 3ª ed., p. 71 (mudança de procedimento de medição produz um número novo). Citações conferidas em https://digestibledeming.substack.com/p/operational-definitions, que reproduz o texto com obra e página. Fonte ainda sem id no ledger [19a]: proposta de inclusão registrada em decisions/."
+      },
+      {
+        "claim": "escrever fórmula, fonte e dono resolve a divergência em 10 minutos por indicador",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a definição operacional de Deming, citada com autor, obra e página"
+      ],
+      "I": [
+        "a cena das 3 respostas para a mesma pergunta e a demanda por fórmula com dono e fonte"
+      ],
+      "H": [
+        "o roteiro das 3 linhas e o prazo de 10 minutos: método proposto, não prática comprovada por pesquisa"
+      ],
+      "NC": []
+    },
+    "limites": [
+      "Os números 182, 176 e 168 são exemplo ilustrativo construído para a peça, não dado de pesquisa, e a legenda diz isso.",
+      "A peça não publica nenhuma estatística de mercado.",
+      "A legenda traz paráfrase fiel de Deming com autor, obra e página, sem citação literal em inglês.",
+      "A peça apresenta Deming ao leitor como engenheiro e estatístico para não depender de reconhecimento prévio do nome.",
+      "Definir um indicador não corrige dado errado nem sistema mal configurado, e a peça declara esse limite no slide 6."
+    ],
+    "consequencia": "O leitor sai com as 3 linhas que definem um indicador e uma ação: escrever hoje a fórmula, a fonte e o dono do indicador que ele mais usa."
+  },
+  "tese": "Indicador sem definição escrita muda de valor conforme quem faz a conta; 3 linhas por indicador, fórmula, fonte e dono, param a divergência.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JO2",
+    "JE2"
+  ],
+  "repertorio": {
+    "id": "R9",
+    "autor": "W. Edwards Deming",
+    "modo": "paráfrase fiel na legenda, com autor, obra e página citados; na peça, o autor é apresentado ao leitor como engenheiro e estatístico",
+    "fonte": "Out of the Crisis, MIT Press, p. 277; The New Economics, 3ª ed., p. 71"
+  },
+  "cta": "Escrever hoje, em um documento, a fórmula, a fonte e o dono do indicador que você mais usa.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: reconhecer o problema, ver a cena das 3 respostas, entender que a pergunta nunca foi feita, reformular indicador como definição, receber o roteiro das 3 linhas, ouvir o limite e escrever a primeira definição. A peça não publica estatística: não há unidade de evidência numérica, e esticar para 8 seria preencher contagem.",
+  "internal_metadata": [
+    "S2",
+    "M18",
+    "zx-23",
+    "capa",
+    "diagnóstico",
+    "contraste",
+    "virada",
+    "critério",
+    "limite",
+    "fechamento",
+    "JO2",
+    "JE2",
+    "R9",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Green Onions",
+    "artista": "Booker T. & the M.G.'s",
+    "versao": "gravação original de 1962, instrumental",
+    "porque": "Instrumental puro, sem letra para competir com a leitura dos slides. O riff de órgão é o que todo mundo reconhece, então a familiaridade chega sem exigir atenção. Andamento constante do começo ao fim, sem virada dramática, o que combina com um carrossel que cada leitor passa no próprio ritmo. O clima é de investigação paciente, não de superação, e é exatamente o tom de rastrear de onde veio um número.",
+    "evitar": "Trilha com letra, principalmente em português, e qualquer faixa épica de superação: empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia."
+  },
+  "caption": [
+    "Você pergunta quantos clientes estão ativos e recebe 3 respostas diferentes. Não é desatenção da equipe. É que ninguém combinou o que conta como ativo.",
+    "W. Edwards Deming, engenheiro e estatístico americano, chamou isso de definição operacional. A ideia é simples: uma definição só serve quando 2 pessoas medindo separadamente chegam ao mesmo resultado. Ele registrou também que mudar o procedimento de medição produz um número novo. Ou seja, o número não mudou porque o negócio mudou. Mudou porque a conta mudou.",
+    "A correção cabe em 3 linhas por indicador. A fórmula: o que entra na conta e o que fica de fora. A fonte: de qual sistema o número sai e em que dia ele é lido. O dono: 1 pessoa que responde por aquele número quando ele muda.",
+    "Isso não deixa o número certo. Deixa o número igual toda semana, e só a partir daí comparar 2 semanas quer dizer alguma coisa.",
+    "Escolha o indicador que você mais usa e escreva as 3 linhas hoje. Leva 10 minutos. Definição que não está escrita não existe."
+  ],
+  "caption_sources": [
+    "Referência: W. Edwards Deming, Out of the Crisis, MIT Press, página 277, e The New Economics, 3ª edição, página 71. A legenda traz paráfrase fiel com autor, obra e página, não citação literal.",
+    "Os números 182, 176 e 168 são exemplo ilustrativo construído para a peça, não dado de pesquisa.",
+    "O roteiro das 3 linhas é método proposto. O conjunto de indicadores varia por negócio."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Indicadores",
+      "copy": {
+        "title": "Você pede 1\nnúmero. Chegam\n3 respostas.",
+        "accentLine": "E ninguém está errado.",
+        "hl": "ninguém",
+        "sub": "Cada pessoa contou de um jeito, porque o indicador nunca foi definido por escrito. Como resolver isso em 10 minutos vem nos próximos slides.",
+        "year": "2026",
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208 · foto: J. Hochgesang"
+      },
+      "approved_visible_copy": [
+        "Indicadores",
+        "01/07",
+        "Você pede 1 número. Chegam 3 respostas.",
+        "E ninguém está errado.",
+        "Cada pessoa contou de um jeito, porque o indicador nunca foi definido por escrito. Como resolver isso em 10 minutos vem nos próximos slides.",
+        "2026",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208 · foto: J. Hochgesang"
+      ],
+      "alt": "Slide 1 de 7. Você pede 1 número e chegam 3 respostas, e ninguém está errado: cada pessoa contou de um jeito, porque o indicador nunca foi definido por escrito. Como resolver isso em 10 minutos vem nos próximos slides. Fotografia escura de uma pilha alta de relatórios impressos iguais, vistos de lado contra a luz da janela.",
+      "photo": {
+        "src": "../assets/foto-relatorios.jpg",
+        "pos": "100% 40%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "182.\n176.\n168."
+        ],
+        "closing": "Você perguntou quantos clientes estão ativos. Uma pessoa contou quem tem contrato, outra contou quem pagou este mês, a terceira tirou quem está em atraso. Ninguém errou.",
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208 · foto: J. Żerdzicki"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "182. 176. 168.",
+        "Você perguntou quantos clientes estão ativos. Uma pessoa contou quem tem contrato, outra contou quem pagou este mês, a terceira tirou quem está em atraso. Ninguém errou.",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208 · foto: J. Żerdzicki"
+      ],
+      "alt": "Slide 2 de 7. Três respostas para a mesma pergunta: 182, 176 e 168. Você perguntou quantos clientes estão ativos, e uma pessoa contou quem tem contrato, outra contou quem pagou este mês, a terceira tirou quem está em atraso. Ninguém errou. Papel claro com fotografia em preto e branco de relatórios impressos com gráficos e uma calculadora por cima.",
+      "photo": {
+        "src": "../assets/foto-planilha.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "contraste",
+      "layout": "poster-lines",
+      "kicker": "Raio-X",
+      "copy": {
+        "lines": [
+          "O relatório diz:\n182 ativos.",
+          "A pergunta que\nninguém fez:\nativo é quem paga,\nquem assina, ou\nquem está em dia?"
+        ],
+        "closing": "W. Edwards Deming, engenheiro e estatístico americano, chamou isso de definição operacional: ela só vale quando 2 pessoas medindo separadamente chegam ao mesmo resultado.",
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208"
+      },
+      "approved_visible_copy": [
+        "Raio-X",
+        "03/07",
+        "O relatório diz: 182 ativos.",
+        "A pergunta que ninguém fez: ativo é quem paga, quem assina, ou quem está em dia?",
+        "W. Edwards Deming, engenheiro e estatístico americano, chamou isso de definição operacional: ela só vale quando 2 pessoas medindo separadamente chegam ao mesmo resultado.",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208"
+      ],
+      "alt": "Slide 3 de 7. O relatório diz 182 ativos, mas a pergunta que ninguém fez é se ativo é quem paga, quem assina ou quem está em dia. W. Edwards Deming, engenheiro e estatístico americano, chamou isso de definição operacional: ela só vale quando 2 pessoas medindo separadamente chegam ao mesmo resultado."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "Definição",
+      "copy": {
+        "big": true,
+        "title": "Sem definição,\nnão é número.",
+        "accent": "É opinião com\ncara de número.",
+        "hl": "opinião",
+        "ghost": "3",
+        "year": "2026",
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208",
+        "body": "Enquanto a conta mora na cabeça de cada um,\no mesmo indicador muda de valor conforme\nquem abre a planilha. Assim não dá para\ncomparar uma semana com a outra."
+      },
+      "approved_visible_copy": [
+        "Definição",
+        "04/07",
+        "Sem definição, não é número.",
+        "É opinião com cara de número.",
+        "2026",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208",
+        "Enquanto a conta mora na cabeça de cada um, o mesmo indicador muda de valor conforme quem abre a planilha. Assim não dá para comparar uma semana com a outra."
+      ],
+      "alt": "Slide 4 de 7. Sem definição, não é número: é opinião com cara de número. Enquanto a conta mora na cabeça de cada um, o mesmo indicador muda de valor conforme quem abre a planilha, e assim não dá para comparar uma semana com a outra. Campo laranja chapado com o número 3 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "critério",
+      "layout": "poster-fields",
+      "kicker": "As 3 linhas",
+      "copy": {
+        "title": "1 indicador, 3 linhas.",
+        "items": [
+          {
+            "num": "01",
+            "label": "A fórmula: o que entra na conta e, principalmente, o que fica de fora."
+          },
+          {
+            "num": "02",
+            "label": "A fonte: de qual sistema o número sai\ne em que dia ele é lido."
+          },
+          {
+            "num": "03",
+            "label": "O dono: 1 pessoa que responde por aquele número quando ele muda."
+          }
+        ],
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208"
+      },
+      "approved_visible_copy": [
+        "As 3 linhas",
+        "05/07",
+        "1 indicador, 3 linhas.",
+        "01",
+        "A fórmula: o que entra na conta e, principalmente, o que fica de fora.",
+        "02",
+        "A fonte: de qual sistema o número sai e em que dia ele é lido.",
+        "03",
+        "O dono: 1 pessoa que responde por aquele número quando ele muda.",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208"
+      ],
+      "alt": "Slide 5 de 7. As 3 linhas que definem 1 indicador: a fórmula, ou seja, o que entra na conta e principalmente o que fica de fora; a fonte, de qual sistema o número sai e em que dia ele é lido; e o dono, 1 pessoa que responde por aquele número quando ele muda. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Definir não deixa\no número certo.",
+        "accent": "Deixa o número\nigual toda semana.",
+        "body": "Definição não conserta dado errado nem sistema mal configurado. Ela faz o número parar de mudar sozinho, e só a partir daí comparar 2 semanas quer dizer alguma coisa.",
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Definir não deixa o número certo.",
+        "Deixa o número igual toda semana.",
+        "Definição não conserta dado errado nem sistema mal configurado. Ela faz o número parar de mudar sozinho, e só a partir daí comparar 2 semanas quer dizer alguma coisa.",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208"
+      ],
+      "alt": "Slide 6 de 7. Definir não deixa o número certo: deixa o número igual toda semana. Definição não conserta dado errado nem sistema mal configurado, ela faz o número parar de mudar sozinho, e só a partir daí comparar 2 semanas quer dizer alguma coisa. O limite da dica declarado na própria peça."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escolha 1 indicador\ne escreva 3 linhas.",
+        "hl": "3 linhas",
+        "accent": "Leva 10 minutos.",
+        "body": "Abra um documento agora e escreva a fórmula, a fonte e o dono do indicador que você mais usa. Definição que não está escrita não existe.",
+        "year": "2026",
+        "temas": "Temas: Indicador / Definição / Relatório",
+        "micro": "@zionaxs_ · ref 13461208 · foto: K. Sikkema"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escolha 1 indicador e escreva 3 linhas.",
+        "Leva 10 minutos.",
+        "Abra um documento agora e escreva a fórmula, a fonte e o dono do indicador que você mais usa. Definição que não está escrita não existe.",
+        "2026",
+        "Temas: Indicador / Definição / Relatório",
+        "@zionaxs_ · ref 13461208 · foto: K. Sikkema"
+      ],
+      "alt": "Slide 7 de 7. Escolha 1 indicador e escreva 3 linhas, leva 10 minutos. Abra um documento agora e escreva a fórmula, a fonte e o dono do indicador que você mais usa: definição que não está escrita não existe. Fotografia escura, vista de cima, de mãos escrevendo em uma ficha de papel sobre a mesa, com folhas amassadas descartadas em volta.",
+      "photo": {
+        "src": "../assets/foto-ficha.jpg",
+        "pos": "50% 50%",
+        "scale": 1.45,
+        "origin": "50% 0%"
+      }
+    }
+  ]
+}

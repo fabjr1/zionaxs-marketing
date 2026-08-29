@@ -1,0 +1,14 @@
+decision: aprovada_para_producao
+piece_id: zx-23-o-numero-que-ninguem-confia
+format: carousel-4x5
+slide_count: 7
+gates_snapshot: 050675060266751e   # prefixo do digest da geracao aprovada; regeneracao invalida esta aprovacao
+gates: 14/14
+aprovado_por: agente
+base_da_autonomia: "autorizacao permanente do Fabiano em 2026-08-29 para o comando /carrossel-zionaxs produzir e publicar sem aprovacao peca a peca, incluindo as travas"
+revisao_visual:
+  - "slide 7: primeira escolha de foto (ficha pendurada em varal) foi REPROVADA na revisao visual. A ficha clara caia exatamente na banda de texto e a manchete creme ficava ilegivel por cima dela. Nenhum gate mede isso: o G5 mede contraste contra o fundo CSS, nao contra os pixels da foto."
+  - "slide 7: foto trocada por maos escrevendo em uma ficha sobre a mesa, com folhas amassadas em volta, com zoom 1.45 ancorado no topo para empurrar a ficha para a faixa mais escura do scrim."
+  - "slide 1: crop deslocado para pos X 100% porque a lombada impressa mostrava 'Ausgabe 59 . 2021'. Um 2021 legivel ao lado do 2026 do chrome contradiz a peca, o que a direcao visual proibe."
+  - "G6 reprovou na primeira geracao (orfa no item 02 do slide 5). Corrigido no contrato com quebra autoral, nunca no pixel."
+registrado_em: 2026-08-29T18:58:00-03:00

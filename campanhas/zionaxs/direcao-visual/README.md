@@ -45,6 +45,19 @@ Aprovado por Fabiano em 29/08/2026: foto e headline se escolhem no mesmo movimen
 
 Exemplo desta peça: a capa trocou papéis voando numa biblioteca (bonita, genérica) por uma silhueta à mesa contra a janela ao amanhecer — é a segunda-feira do leitor; e "catorze mensagens, três urgências" virou uma parede inteira coberta de recados.
 
+### Enquadramento: o que nenhum gate enxerga (aprendido na zx-23, 29/08/2026)
+
+Escolher a foto certa não basta: o **enquadramento** decide se a peça é publicável. Três coisas que os gates deixam passar e que a revisão humana do passo 6 precisa cobrar:
+
+1. **Objeto claro na banda de texto.** Nos layouts `poster-cover` e `poster-close` o texto ocupa de ~46% a ~93% da altura. Qualquer coisa clara aí (uma ficha, uma folha, um monitor) sobrevive ao scrim como cinza-médio e engole a manchete em creme. **O G5 não pega**: ele mede contraste contra o fundo declarado no CSS, nunca contra os pixels da foto. Regra prática: escolher foto cujo interesse visual esteja no **terço superior** e cuja metade de baixo seja escura e quieta.
+2. **Texto legível dentro da foto.** Data, idioma ou marca que apareçam impressos na imagem entram na peça como afirmação. Na zx-23 a pilha de relatórios trazia "Ausgabe 59 · 2021" nas lombadas: um 2021 legível ao lado do `2026` do chrome contradiz a peça, exatamente o que a regra de não contradizer a copy proíbe. Corrigido deslocando o crop para `pos: "100% 40%"`.
+3. **Como corrigir o crop, e o que funciona em cada caso.** O contrato aceita `photo: { src, pos, scale, origin }`.
+   - Foto **paisagem** em campo 4x5: a altura já preenche exatamente, então **o Y de `pos` não faz nada**. Só o X move o quadro.
+   - Foto **retrato** mais alta que 0.8: aí sim o Y de `pos` desliza o corte na vertical.
+   - Para **empurrar o assunto para fora da banda de texto** funciona `scale` com `origin: "50% 0%"`: ancora no topo e joga o que está embaixo para baixo. Na zx-23 o fechamento usa `scale: 1.45` com origem no topo, o que levou as mãos e a ficha para a faixa mais escura do scrim e liberou a manchete.
+
+Método barato para decidir antes de gerar: montar uma folha de contato que reproduza a **banda de texto real** (46% a 93%) por cima de cada candidata, já com gradê e scrim aplicados. Comparar 5 crops em uma imagem custa menos que 5 gerações completas.
+
 ## Logo oficial
 
 Wordmark `zionaxs_` — caixa baixa, grotesca pesada, laranja #F54502, underscore final. Entregue pelo Fabiano em 29/08/2026 em PNG 2000×554 com alpha e instalada em `sistema/workspace/brand/logo/` (variantes preta, branca, laranja e cinza).

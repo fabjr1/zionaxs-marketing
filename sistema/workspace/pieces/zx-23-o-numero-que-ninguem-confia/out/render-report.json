@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-23-o-numero-que-ninguem-confia",
+  "generatedAt": "2026-08-29T18:57:02-03:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-23-o-numero-que-ninguem-confia-slide-01.png",
+    "zx-23-o-numero-que-ninguem-confia-slide-02.png",
+    "zx-23-o-numero-que-ninguem-confia-slide-03.png",
+    "zx-23-o-numero-que-ninguem-confia-slide-04.png",
+    "zx-23-o-numero-que-ninguem-confia-slide-05.png",
+    "zx-23-o-numero-que-ninguem-confia-slide-06.png",
+    "zx-23-o-numero-que-ninguem-confia-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Indicadores 01/07 Você pede 1 número. Chegam 3 respostas. E ninguém está errado. Cada pessoa contou de um jeito, porque o indicador nunca foi definido por escrito. Como resolver isso em 10 minutos vem nos próximos slides. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208 · foto: J. Hochgesang"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 182. 176. 168. Você perguntou quantos clientes estão ativos. Uma pessoa contou quem tem contrato, outra contou quem pagou este mês, a terceira tirou quem está em atraso. Ninguém errou. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208 · foto: J. Żerdzicki"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Raio-X03/07 O relatório diz: 182 ativos. A pergunta que ninguém fez: ativo é quem paga, quem assina, ou quem está em dia? W. Edwards Deming, engenheiro e estatístico americano, chamou isso de definição operacional: ela só vale quando 2 pessoas medindo separadamente chegam ao mesmo resultado. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Definição 04/07 Sem definição, não é número. É opinião com cara de número. Enquanto a conta mora na cabeça de cada um, o mesmo indicador muda de valor conforme quem abre a planilha. Assim não dá para comparar uma semana com a outra. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "As 3 linhas05/07 1 indicador, 3 linhas. 01A fórmula: o que entra na conta e, principalmente, o que fica de fora. 02A fonte: de qual sistema o número sai e em que dia ele é lido. 03O dono: 1 pessoa que responde por aquele número quando ele muda. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Definir não deixa o número certo. Deixa o número igual toda semana. Definição não conserta dado errado nem sistema mal configurado. Ela faz o número parar de mudar sozinho, e só a partir daí comparar 2 semanas quer dizer alguma coisa. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Escolha 1 indicador e escreva 3 linhas. Leva 10 minutos. Abra um documento agora e escreva a fórmula, a fonte e o dono do indicador que você mais usa. Definição que não está escrita não existe. Temas: Indicador / Definição / Relatório @zionaxs_ · ref 13461208 · foto: K. Sikkema"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "5 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.3,
+  "digest": "050675060266751e124c573d033c95e3c0dd623e9f03295078cd3c815550b9ae"
+}
