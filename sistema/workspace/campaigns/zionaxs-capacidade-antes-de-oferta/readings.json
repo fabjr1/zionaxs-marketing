@@ -16,6 +16,20 @@
       "date": "2026-08-29",
       "label": "direcional (H)",
       "avisoCausal": "leitura não significativa — a interpretação é hipótese, não causa estabelecida"
+    },
+    {
+      "source": "API Instagram Graph (@zionaxs_, id 37965311306447572) via Composio, conta verificada por identidade; coleta 2026-08-29 ~04h UTC",
+      "responsavel": "fabiano (coleta pelo agente)",
+      "metric": "alcance (contas únicas) em 30 dias",
+      "formula": "soma do reach diário da API, 30/07–28/08",
+      "denominator": "conta inteira, todos os formatos, 30 dias",
+      "value": 30,
+      "frequencia": "semanal",
+      "limitacoes": "métrica de conta, não por peça; período anterior ao início da série desejo-primeiro",
+      "campanha": "zionaxs-capacidade-antes-de-oferta",
+      "date": "2026-08-29",
+      "primary": false,
+      "label": "direcional (H)"
     }
   ]
 }
