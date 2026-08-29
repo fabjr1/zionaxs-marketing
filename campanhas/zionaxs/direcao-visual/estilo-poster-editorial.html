@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Teste — pôster editorial (grão + luz + prova de impressão)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Poppins:wght@600;700&display=swap">
+<style>
+:root{
+  --ink:#14171B; --accent:#F54502; --glow:#FF8A3C; --cream:#EFE7D7; --teal:#27454E;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#3a3d42;font-family:Archivo,sans-serif}
+.slide{position:relative;width:1080px;height:1350px;overflow:hidden;margin:0 auto 40px;background:var(--ink)}
+.slide img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+/* gradê: quente no topo, banda fria no meio, tinta embaixo */
+.grade{position:absolute;inset:0;background:
+  linear-gradient(180deg, rgba(255,122,26,.30) 0%, rgba(255,122,26,.08) 24%, rgba(39,69,78,.34) 52%, rgba(39,69,78,.10) 66%, transparent 74%);
+  mix-blend-mode:soft-light}
+.scrimb{position:absolute;inset:0;background:linear-gradient(180deg, transparent 46%, rgba(12,13,16,.38) 64%, rgba(12,13,16,.90) 96%)}
+
+/* luz que dissolve o rosto */
+.glow{position:absolute;width:430px;height:430px;border-radius:50%;
+  background:radial-gradient(circle, rgba(255,158,64,.95) 0%, rgba(255,120,28,.55) 38%, rgba(255,110,20,0) 70%);
+  filter:blur(8px);mix-blend-mode:screen;pointer-events:none}
+
+/* grão de filme */
+.grain{position:absolute;inset:0;pointer-events:none;opacity:.20;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='260' height='260' filter='url(%23n)' opacity='0.9'/></svg>")}
+
+.frame{position:absolute;inset:0;padding:72px;color:var(--cream)}
+
+/* faixa de meta no meio: ano à esquerda, nº em caixa à direita */
+.meta{position:absolute;left:72px;right:72px;top:47%;display:flex;justify-content:space-between;align-items:flex-start}
+.year{font-family:Poppins,sans-serif;font-weight:600;font-size:46px;letter-spacing:.02em;color:var(--cream)}
+.numbox{display:flex;align-items:center;justify-content:center;width:84px;height:84px;border:3px solid rgba(239,231,215,.9);font-family:Poppins,sans-serif;font-weight:600;font-size:34px;color:var(--cream)}
+.issue{margin-top:26px}
+.issue .lab{font-family:"JetBrains Mono",monospace;font-size:17px;letter-spacing:.22em;text-transform:uppercase;color:rgba(239,231,215,.62);margin-bottom:10px}
+.issue .val{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:21px;letter-spacing:.14em;text-transform:uppercase;line-height:1.55;color:var(--cream)}
+
+/* manchete gigante */
+.headline{position:absolute;left:72px;right:72px;bottom:196px;font-family:Poppins,sans-serif;font-weight:700;font-size:118px;line-height:.98;letter-spacing:-.02em;text-transform:uppercase;color:var(--cream)}
+.headline .lead{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:22px;letter-spacing:.24em;line-height:1;margin-bottom:26px;color:rgba(239,231,215,.85)}
+.headline .after{display:block;font-family:Archivo,sans-serif;font-weight:500;font-size:30px;letter-spacing:.01em;text-transform:none;line-height:1.3;margin-top:24px;color:rgba(239,231,215,.88)}
+.ringO{display:inline-flex;width:.7em;height:.7em;border:.088em solid currentColor;border-radius:50%;vertical-align:.012em;margin:0 .022em}
+.ringO b{display:none}
+
+/* rodapé: temas + assinatura, e a régua de cores */
+.ftr{position:absolute;left:72px;right:72px;bottom:96px;display:flex;justify-content:space-between;align-items:baseline;padding-top:20px;border-top:1px solid rgba(239,231,215,.45);font-family:"JetBrains Mono",monospace;font-size:17px;letter-spacing:.14em;text-transform:uppercase;color:rgba(239,231,215,.78)}
+.ftr b{font-weight:700;color:var(--cream)}
+.proof{position:absolute;left:72px;right:72px;bottom:46px;display:flex;justify-content:space-between;align-items:center}
+.chips{display:flex;gap:8px}
+.chips i{display:block;width:44px;height:20px}
+.micro{font-family:"JetBrains Mono",monospace;font-size:14px;letter-spacing:.08em;color:rgba(239,231,215,.55)}
+</style>
+</head>
+<body>
+
+<!-- T1 · homage direto: pessoa dissolvida na luz -->
+<section class="slide" id="t1">
+  <img class="bg" src="foto-por-do-sol.jpg" alt="" style="object-position:50% 26%;filter:saturate(1.08) contrast(1.04)">
+  <div class="grade"></div>
+  <div class="glow" style="left:295px;top:255px"></div>
+  <div class="scrimb"></div>
+  <div class="grain"></div>
+  <div class="frame">
+    <div class="meta">
+      <div>
+        <div class="year">2026</div>
+        <div class="issue">
+          <div class="lab">Peça:</div>
+          <div class="val">ZX-22_RITO<br>Segunda sem incêndio</div>
+        </div>
+      </div>
+      <div class="numbox">22</div>
+    </div>
+    <div class="headline">
+      <span class="lead">Série 01 — Rito semanal</span>
+      SEGUNDA SEM<br>INCÊNDI<span class="ringO"><b>O</b></span>
+    </div>
+    <div class="ftr"><span><b>Temas:</b>&nbsp;&nbsp;Urgência&nbsp;/&nbsp;Alçada&nbsp;/&nbsp;Rito</span><span>Zionaxs — Conceito</span></div>
+    <div class="proof">
+      <div class="chips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></div>
+      <div class="micro">@zionaxs_ · digest fb446356 · foto: R. Garcin</div>
+    </div>
+  </div>
+</section>
+
+<!-- T2 · mesmo chrome vestindo a capa real do zx-22 (foto de papéis) -->
+<section class="slide" id="t2">
+  <img class="bg" src="foto-papeis.jpg" alt="" style="filter:saturate(1.02) contrast(1.03);transform:scale(1.42);transform-origin:0% 44%">
+  <div class="grade" style="background:linear-gradient(180deg, rgba(255,122,26,.22) 0%, transparent 30%, rgba(39,69,78,.28) 55%, transparent 75%)"></div>
+  <div class="scrimb" style="background:linear-gradient(180deg, rgba(12,13,16,.30) 0%, rgba(12,13,16,.10) 30%, rgba(12,13,16,.42) 62%, rgba(12,13,16,.92) 96%)"></div>
+  <div class="grain"></div>
+  <div class="frame">
+    <div class="meta" style="top:41%">
+      <div>
+        <div class="year">2026</div>
+        <div class="issue">
+          <div class="lab">Peça:</div>
+          <div class="val">ZX-22_RITO<br>Capa · S1</div>
+        </div>
+      </div>
+      <div class="numbox">22</div>
+    </div>
+    <div class="headline" style="font-size:112px">
+      <span class="lead">Sua segunda-feira começa</span>
+      APAGAND<span class="ringO"><b>O</b></span><br>INCÊNDIO?
+      <span class="after">Existe um rito de 30 minutos para isso.</span>
+    </div>
+    <div class="ftr"><span><b>Temas:</b>&nbsp;&nbsp;Urgência&nbsp;/&nbsp;Alçada&nbsp;/&nbsp;Rito</span><span>Zionaxs — Conceito</span></div>
+    <div class="proof">
+      <div class="chips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></div>
+      <div class="micro">@zionaxs_ · digest fb446356 · foto: D. Yao</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
