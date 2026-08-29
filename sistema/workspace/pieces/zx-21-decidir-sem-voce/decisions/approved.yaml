@@ -1,0 +1,12 @@
+effect: publish
+destination: instagram
+account: zionaxs_
+approval_source: user
+approval_scope: this_piece   # nunca general, nunca permanente
+approval_mode: advance_after_gates
+requires_preflight: true
+piece_id: zx-21-decidir-sem-voce
+format: carousel-4x5
+slide_count: 8
+gates_snapshot: 2be7d9e5f230f265ad7cf745442d8b8c7e17095d2117ccbaf12379abc8e683f1   # digest da geração aprovada — regeneração invalida
+approved_at: 2026-08-29T00:52:24-03:00
