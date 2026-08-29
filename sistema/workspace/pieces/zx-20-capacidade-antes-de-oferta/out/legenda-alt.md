@@ -1,5 +1,13 @@
 # zx-20-capacidade-antes-de-oferta — legenda e alt text
 
+## Trilha sugerida
+
+**Teardrop** — Massive Attack (instrumental)
+
+Batida lenta e constante, sem virada. A peça trata de capacidade antes de oferta, um argumento que se lê com calma, e o instrumental sustenta atenção sem disputar com o texto.
+
+Evitar: trilha épica de superação, que empurra a marca para o tom de coach
+
 ## Legenda
 
 A leitura mais comum das sondagens recentes é que o setor está atrasado em conhecimento. A leitura da Zionaxs é outra: o gargalo é capacidade, não currículo.

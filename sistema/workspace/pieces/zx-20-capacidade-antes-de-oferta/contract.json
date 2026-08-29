@@ -324,5 +324,12 @@
       ],
       "alt": "Slide 8 de 8. Escolha os 20 primeiros clientes e marque no calendário onde as horas cabem. Se não couberem, o pacote ainda não existe. Fechamento com uma única ação, coerente com a categoria: aplicar o teste de capacidade antes de qualquer conversa comercial."
     }
-  ]
+  ],
+  "trilha_sugerida": {
+    "faixa": "Teardrop",
+    "artista": "Massive Attack",
+    "versao": "instrumental",
+    "porque": "Batida lenta e constante, sem virada. A peça trata de capacidade antes de oferta, um argumento que se lê com calma, e o instrumental sustenta atenção sem disputar com o texto.",
+    "evitar": "trilha épica de superação, que empurra a marca para o tom de coach"
+  }
 }

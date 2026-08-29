@@ -9,6 +9,19 @@ export function captionMarkdown(contract) {
   const L = [];
   L.push(`# ${contract.id} — legenda e alt text`);
   L.push('');
+  // Trilha sugerida: a música entra pelo app, editando o post depois de
+  // publicado, então a sugestão precisa viajar junto com a legenda que o
+  // operador tem em mãos na hora de postar. Não é copy: nunca vira pixel.
+  const t = contract.trilha_sugerida;
+  if (t?.faixa) {
+    L.push('## Trilha sugerida');
+    L.push('');
+    L.push(`**${t.faixa}** — ${t.artista || 'artista não informado'}${t.versao ? ` (${t.versao})` : ''}`);
+    if (t.porque) L.push('', t.porque);
+    if (t.evitar) L.push('', `Evitar: ${t.evitar}`);
+    L.push('');
+  }
+
   L.push('## Legenda');
   L.push('');
   for (const p of contract.caption) L.push(p, '');

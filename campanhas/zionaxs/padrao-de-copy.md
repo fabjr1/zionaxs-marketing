@@ -34,3 +34,14 @@ Acrescentar uma regra nova é editar a tabela `COPY_RULES`: ela alimenta o gate 
 ## Peças anteriores ao padrão
 
 A **zx-21 já foi publicada** com 7 ocorrências que hoje o G13 reprovaria. O contrato dela não foi reescrito de propósito: é o registro do que foi ao ar, e falsificá-lo apagaria a história. Consequência prática: ela não pode ser regerada sem antes ser trazida ao padrão. A **zx-20**, que nunca saiu, foi corrigida e está em 13/13.
+
+## Trilha sugerida
+
+Música no Instagram entra pelo app, editando o post depois de publicado. A API não escolhe faixa. Por isso toda peça sai com uma **trilha sugerida** no campo `trilha_sugerida` do contrato, impressa no topo de `legenda-alt.md` para estar à mão na hora de postar.
+
+Critério, na ordem:
+
+1. **Instrumental.** Carrossel se lê, e letra compete com o texto. Letra em português é o pior caso.
+2. **Música famosa cujo instrumental já é o gancho.** Quando o riff é o que se reconhece, e não a voz, a peça ganha a familiaridade sem o atrito da leitura.
+3. **Andamento constante, sem virada dramática.** Cada leitor passa os slides no próprio ritmo; ninguém está sincronizado com a música.
+4. **Nada de trilha épica de superação.** Empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia.
