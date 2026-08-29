@@ -1,0 +1,57 @@
+{
+  "postId": "18112094260821604",
+  "permalink": "https://www.instagram.com/p/Dco-xWlHZgC/",
+  "shortcode": "Dco-xWlHZgC",
+  "publishedAt": "2026-08-29T22:12:07+0000",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906170305501214",
+  "childContainers": [
+    "17906170137501214",
+    "17906170134501214",
+    "17906170131501214",
+    "17906170128501214",
+    "17906170203501214",
+    "17906170200501214",
+    "17906170206501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-23-o-numero-que-ninguem-confia/out/jpg/zx-23-o-numero-que-ninguem-confia-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18107539688019795",
+    "17961101673187870",
+    "18187258051400995",
+    "18073814030718714",
+    "18332308288259614",
+    "18088704566668618",
+    "17897277333595857"
+  ],
+  "digest": "050675060266751e124c573d033c95e3c0dd623e9f03295078cd3c815550b9ae",
+  "reconciledAt": "2026-08-29T19:12:40-03:00",
+  "reconciliation": {
+    "metodo": "INSTAGRAM_GET_IG_MEDIA + INSTAGRAM_GET_IG_MEDIA_CHILDREN apos o publish",
+    "contaConfirmada": "zionaxs_ (identidade verificada ao vivo com INSTAGRAM_GET_USER_INFO antes de criar qualquer container)",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesPublicados": 7,
+    "legendaConferida": true,
+    "urlsPublicasConferidas": "as 7 URLs responderam 200 image/jpeg antes de serem entregues a Meta",
+    "cadencia": "excecao autorizada pelo Fabiano ao responder 'publica agora' em 29/08/2026; terceiro post do dia (ver decisions/excecao-cadencia-2026-08-29.yaml)",
+    "shareToFeed": "nao enviado: parametro invalido para carrossel"
+  },
+  "trilhaSugerida": {
+    "faixa": "Green Onions",
+    "artista": "Booker T. & the M.G.'s",
+    "versao": "gravacao original de 1962, instrumental",
+    "estado": "pendente de acao humana: a musica entra pelo app do Instagram, editando o post depois de publicado. A API nao escolhe faixa."
+  }
+}
