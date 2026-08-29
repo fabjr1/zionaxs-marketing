@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "marketing-os-console",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "sistema/app/bin/console.js",
+        "--root",
+        "C:/dev/zionaxs-marketing/sistema/workspace"
+      ],
+      "port": 4870
+    }
+  ]
+}

@@ -9,6 +9,7 @@
 //
 // Uso: node bin/auditoria.js [--root <workspace>]
 import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadWorkspace } from '../lib/workspace.js';
@@ -90,6 +91,23 @@ if (!fs.existsSync(inbox)) {
   ok('A7', 'Zionaxs Memory acessível', propostas.length
     ? `${propostas.length} proposta(s) aguardando promoção humana: ${propostas.join(', ')}`
     : 'nenhuma proposta pendente');
+}
+
+// A8 — comando do projeto precisa estar VERSIONADO, não só no disco local.
+// Achado em 29/08/2026: o .gitignore herdado ignorava .claude/ inteiro, e o
+// agente em nuvem clonou o repositório sem o processo, tendo que improvisar.
+// Arquivo existir no disco não prova que ele viaja com o repositório.
+try {
+  const rastreados = execFileSync('git', ['ls-files', '.claude/commands'], { cwd: REPO, encoding: 'utf8' })
+    .split(String.fromCharCode(10)).filter(Boolean);
+  const dirCmd = path.join(REPO, '.claude', 'commands');
+  const emDisco = fs.existsSync(dirCmd) ? fs.readdirSync(dirCmd).filter((x) => x.endsWith('.md')) : [];
+  const foraDoGit = emDisco.filter((x) => !rastreados.some((r) => r.endsWith(x)));
+  foraDoGit.length
+    ? fail('A8', 'comandos versionados', foraDoGit.map((x) => `.claude/commands/${x} existe no disco e não está no git`))
+    : ok('A8', 'comandos versionados', `${rastreados.length} comando(s) versionado(s)`);
+} catch (e) {
+  fail('A8', 'comandos versionados', [`não foi possível consultar o git: ${e.message.slice(0, 80)}`]);
 }
 
 console.log('\n=== AUDITORIA DE PERMANÊNCIA ===');
