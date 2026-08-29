@@ -1,0 +1,67 @@
+{
+  "campanha": "zionaxs-capacidade-antes-de-oferta",
+  "proposito": "audiencia",
+  "briefRef": "5e51675974816293",
+  "frentes": [
+    {
+      "tipo": "conteudo",
+      "objetivo": "Produzir carrosséis e Reels desejo-primeiro: cena da rotina do leitor + dica aplicável hoje (checklist, roteiro, script, template); dado e notícia só como tempero dentro da dica. Cada peça passa pelos 12 gates e pelos gates editoriais [19c §21].",
+      "estado": "planejada",
+      "ativos": [],
+      "dependeDe": [],
+      "skills": [
+        "copywriting",
+        "social",
+        "ad-creative",
+        "video",
+        "image"
+      ],
+      "metrica": "salvamentos e compartilhamentos por peça; retenção até o fim",
+      "responsavel": null,
+      "decisaoPendente": null,
+      "criadaEm": "2026-08-29T00:02:41-03:00"
+    },
+    {
+      "tipo": "distribuicao",
+      "objetivo": "Publicar no @zionaxs_ em cadência canônica (até 2 carrosséis/semana, nunca mais de 1 post/dia) e alcançar não seguidores — orgânico apenas nesta fase. Atenção: a rota autenticada de publicação segue como decisão aberta (incidente 20/08/2026); vira bloqueio formal desta frente se continuar sem solução quando a primeira peça for aprovada.",
+      "estado": "planejada",
+      "ativos": [],
+      "dependeDe": [
+        "conteudo"
+      ],
+      "skills": [
+        "ads",
+        "ad-creative",
+        "social",
+        "co-marketing",
+        "public-relations",
+        "seo-audit",
+        "ai-seo"
+      ],
+      "metrica": "seguidores novos por semana (primária do Brief); alcance de não seguidores",
+      "responsavel": null,
+      "decisaoPendente": null,
+      "criadaEm": "2026-08-29T00:02:41-03:00"
+    }
+  ],
+  "frentesExcluidas": [
+    {
+      "tipo": "conversao",
+      "motivo": "campanha de audiência — sem isca, formulário ou captura nesta fase; conversão entra quando houver oferta com preço decidido"
+    },
+    {
+      "tipo": "receita",
+      "motivo": "sem oferta comercial; o Diagnóstico de Retrabalho segue sem preço — Revenue fora de escopo até essa decisão"
+    },
+    {
+      "tipo": "continuidade",
+      "motivo": "sem lista nem e-mail neste trimestre; retenção vem depois de existir audiência"
+    }
+  ],
+  "sugeridas": [
+    "conteudo",
+    "distribuicao"
+  ],
+  "criadoEm": "2026-08-29T00:02:41-03:00",
+  "atualizadoEm": "2026-08-29T00:02:41-03:00"
+}
