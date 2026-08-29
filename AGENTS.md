@@ -4,6 +4,39 @@ Guidelines for AI agents working in this repository.
 
 > **Leia primeiro se o pedido for da Zionaxs.** Este repositório abriga duas coisas: o projeto herdado de Agent Skills (descrito a partir de "Repository Overview") e a **operação de marketing da Zionaxs**, que é o que segue abaixo. Um pedido do tipo "faça um carrossel para a Zionaxs" pertence à segunda.
 
+## Regra zero: nada vive no contexto da sessão
+
+Contexto de conversa é volátil. Ele acaba quando a sessão acaba, e o que ficou só nele está perdido para a próxima. **Toda decisão, padrão, correção e aprendizado precisa ter endereço permanente**, e o endereço é este repositório e a Zionaxs Memory. Nunca "eu lembro", nunca "a gente combinou".
+
+Onde cada coisa mora:
+
+| O que | Onde |
+|---|---|
+| Padrão visual, de copy, de trilha | `campanhas/zionaxs/` |
+| Regra binária, que a máquina pode cobrar | um **gate** em `sistema/app/lib/` + teste |
+| Decisão sobre uma peça (aprovar, reprovar, exceção) | `decisions/` da peça, com data e autor |
+| O que foi publicado | `publication/published.json`, com digest e permalink |
+| Conhecimento de marca que transcende o marketing-os | proposta na Inbox da **Zionaxs Memory**, para promoção humana |
+| Ponteiro para tudo isso | este arquivo |
+
+### Rotina obrigatória ao fim de qualquer trabalho substantivo
+
+1. **Registrar o que foi decidido** no arquivo certo da tabela acima. Se o Fabiano aprovou, corrigiu ou vetou algo, isso vira texto em disco antes de a sessão terminar.
+2. **Transformar em gate o que for binário.** Regra que a máquina consegue cobrar não deve depender de leitura: travessão virou G13, layout fora do padrão virou G14. Regra de julgamento (clareza, tom) fica em documento, porque máquina não mede isso.
+3. **Rodar a auditoria** e só encerrar com ela verde:
+
+```bash
+cd sistema/app && npm run auditoria
+```
+
+Ela verifica que os padrões existem, que este arquivo os referencia, que todo gate está documentado, que nenhuma peça não publicada saiu do padrão, que toda publicação tem digest e permalink, e lista o que aguarda promoção humana na Memory.
+
+4. **Commitar e empurrar.** Trabalho não commitado é trabalho que só existe nesta máquina.
+
+### Autoprogramação
+
+Quando um padrão novo aparecer, o reflexo correto não é anotar para lembrar: é **mudar o sistema para que a regra passe a ser cobrada sozinha**. Documento é a camada mais fraca, gate é a mais forte. Um padrão que depende de alguém lembrar já falhou.
+
 ## Operação de marketing da Zionaxs
 
 Peça nenhuma é escrita à mão: tudo nasce de um **contrato** e é renderizado por um pipeline com gates medidos no pixel.
