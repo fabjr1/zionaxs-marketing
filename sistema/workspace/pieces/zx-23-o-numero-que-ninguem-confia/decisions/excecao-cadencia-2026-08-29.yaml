@@ -1,0 +1,16 @@
+decision: excecao_de_cadencia
+piece_id: zx-23-o-numero-que-ninguem-confia
+regra: "nunca mais de 1 post por dia (restricao do Brief aprovado)"
+situacao: >
+  Em 2026-08-29 ja haviam sido publicadas 2 pecas: zx-21-decidir-sem-voce
+  (04:04+0000) e zx-22-reuniao-de-30-minutos (19:38+0000). A zx-23 seria a
+  terceira do mesmo dia. O porteiro reprovou por cadencia.
+autorizado_por: fabiano
+como: >
+  Relatei a reprovacao com o motivo e as alternativas (publicar em 30/08 ou
+  autorizar excecao agora). Ele respondeu "publica agora" em 2026-08-29.
+  Pela convencao registrada, aprovacoes curtas dele valem como decisao formal.
+escopo: "apenas esta publicacao"
+regra_permanece: true   # proximas pecas voltam ao limite de 1 post por dia
+substitui: "o registro anterior em decisions/publicacao-barrada-cadencia.yaml, que fica como historico do bloqueio"
+registrado_em: 2026-08-29T19:05:00-03:00
