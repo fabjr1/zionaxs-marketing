@@ -7,7 +7,20 @@
       "tipo": "conteudo",
       "objetivo": "Produzir carrosséis e Reels desejo-primeiro: cena da rotina do leitor + dica aplicável hoje (checklist, roteiro, script, template); dado e notícia só como tempero dentro da dica. Cada peça passa pelos 12 gates e pelos gates editoriais [19c §21].",
       "estado": "planejada",
-      "ativos": [],
+      "ativos": [
+        {
+          "tipo": "carrossel",
+          "id": "zx-21-decidir-sem-voce"
+        },
+        {
+          "tipo": "carrossel",
+          "id": "zx-22-reuniao-de-30-minutos"
+        },
+        {
+          "tipo": "video",
+          "id": "zx-r01-processo-que-nao-devia-existir"
+        }
+      ],
       "dependeDe": [],
       "skills": [
         "copywriting",
@@ -63,5 +76,5 @@
     "distribuicao"
   ],
   "criadoEm": "2026-08-29T00:02:41-03:00",
-  "atualizadoEm": "2026-08-29T00:02:41-03:00"
+  "atualizadoEm": "2026-08-29T00:19:18-03:00"
 }
