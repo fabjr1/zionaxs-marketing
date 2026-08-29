@@ -1,0 +1,31 @@
+decision: proposta_de_inclusao_de_fonte_no_ledger
+data: "2026-08-29"
+peca: zx-24-tudo-aberto-nada-pronto
+status: aguarda_promocao_humana
+destino: Zionaxs Memory, Inbox, para promocao na nota [19a] (ledger de fontes)
+
+fonte_proposta:
+  id_sugerido: R10
+  autor: John D. C. Little
+  obra: "A Proof for the Queuing Formula: L = lambda W"
+  publicacao: "Operations Research, volume 9, numero 3, 1961, paginas 383 a 387"
+  classificacao: E
+  o_que_sustenta: >
+    Em um sistema estavel, o numero medio de itens dentro do sistema e igual a taxa media
+    de chegada multiplicada pelo tempo medio que cada item passa dentro dele (L = lambda W).
+    Em regime estavel a taxa de chegada iguala a de saida, o que permite reescrever como
+    tempo medio de espera igual a fila dividida pelo ritmo de saida. E essa forma
+    reescrita que a peca usa, e a condicao de estabilidade e declarada na propria peca.
+  como_foi_usada: >
+    Paráfrase fiel na legenda, com autor, obra, ano e paginas. Sem citacao literal em ingles,
+    conforme o padrao de copy. O autor e apresentado ao leitor como professor do MIT para
+    nao depender de reconhecimento previo do nome.
+  cuidado: >
+    A relacao nao promete que reduzir a fila aumente a capacidade. Ela so relaciona fila,
+    ritmo e espera. A peca declara esse limite no slide 6 para nao vender a conta como
+    solucao de capacidade.
+
+motivo_da_proposta: >
+  A fonte ainda nao tem id no ledger [19a]. Como o repositorio da Zionaxs Memory nao esta
+  presente neste checkout em nuvem, a inclusao nao pode ser feita nesta sessao: fica
+  proposta aqui, em disco, para promocao humana.

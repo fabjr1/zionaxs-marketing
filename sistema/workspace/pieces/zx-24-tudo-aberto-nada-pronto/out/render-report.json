@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-24-tudo-aberto-nada-pronto",
+  "generatedAt": "2026-08-29T23:41:56+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-24-tudo-aberto-nada-pronto-slide-01.png",
+    "zx-24-tudo-aberto-nada-pronto-slide-02.png",
+    "zx-24-tudo-aberto-nada-pronto-slide-03.png",
+    "zx-24-tudo-aberto-nada-pronto-slide-04.png",
+    "zx-24-tudo-aberto-nada-pronto-slide-05.png",
+    "zx-24-tudo-aberto-nada-pronto-slide-06.png",
+    "zx-24-tudo-aberto-nada-pronto-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Trabalho aberto 01/07 Tudo andou. Nada ficou pronto. E ninguém parou o dia inteiro. Quando muitos serviços ficam abertos ao mesmo tempo, cada um anda um pouco e nenhum chega ao fim. A conta que mostra isso vem nos próximos slides. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2 · foto: S. Hwang"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 14 abertos. 2 entregues. Sexta-feira, fim do dia. Ninguém ficou parado a semana inteira e, mesmo assim, 14 serviços seguem abertos e só 2 saíram. A equipe trabalhou todos os dias. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2 · foto: A. Vo"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Raio-X03/07 A pergunta comum: quem está demorando? A pergunta que resolve: quantos serviços estão abertos ao mesmo tempo? John Little, professor do MIT, provou em 1961 uma relação que vale para qualquer fila: em um sistema estável, o tempo que cada item passa esperando é a quantidade de itens na fila dividida pelo ritmo de saída. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A saída 04/07 Para entregar mais rápido, comece menos. 14 abertos divididos por 2 entregas por semana dão 7 semanas de espera para cada serviço novo, por mais que a equipe corra. Com menos coisas abertas ao mesmo tempo, cada uma termina antes. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A conta05/07 3 passos, 5 minutos. 01Conte quantos serviços estão abertos agora. Essa é a sua fila de trabalho. 02Some quantos você terminou nas últimas 4 semanas e divida por 4. Esse é o seu ritmo. 03Divida a fila pelo ritmo. O resultado é o prazo real que você promete hoje. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Isso não aumenta a sua capacidade. Muda o tempo de espera. A equipe continua entregando 2 por semana. O que muda é o cliente parar de esperar 7 semanas por algo que leva 3 dias de trabalho. Serviço parado aguardando resposta do cliente sai da conta: ele não está com a sua equipe. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Conte quantos estão abertos. Leva 5 minutos. Abra agora a lista de serviços em andamento e conte por pessoa. Se passar de 3, escolha os 3 mais antigos e termine esses antes de começar qualquer outro. Temas: Fila / Prazo / Entrega @zionaxs_ · ref 4f3d25e2 · foto: G. Ng"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "6 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.5,
+  "digest": "9c3d4f9866eb87f1c96c99f3e73abc8c7d13c20db5bd5a4a36ddf45a47badedf"
+}

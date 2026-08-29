@@ -1,0 +1,307 @@
+{
+  "id": "zx-24-tudo-aberto-nada-pronto",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "matriz": "M18",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação de serviços e promete prazo ao cliente (C1, P1, A1: papel dono-operador). Cena concreta: escritório contábil (V2), com leitura direta para advocacia (V3). Secundário: nenhum.",
+    "decisao": "Limitar quantos serviços ficam abertos ao mesmo tempo por pessoa, e medir o prazo real da fila antes de prometer prazo ao cliente.",
+    "tensao": "No fim da semana a equipe trabalhou todos os dias e quase nada foi entregue. A leitura comum é que falta ritmo. O que de fato acontece é que coisas demais estão abertas ao mesmo tempo: cada serviço recebe alguns minutos por dia e nenhum chega ao fim, então o prazo prometido não tem relação com o prazo real.",
+    "evidencia": [
+      {
+        "claim": "em um sistema estável, o tempo médio que cada item passa dentro da fila é igual à quantidade média de itens dentro dela dividida pelo ritmo médio de saída",
+        "status": "E",
+        "fonte": "John D. C. Little, A Proof for the Queuing Formula: L = lambda W, Operations Research, volume 9, número 3, 1961, páginas 383 a 387. A formulação original é L = lambda W, com L de itens no sistema, lambda de taxa de chegada e W de tempo no sistema; em regime estável a taxa de chegada iguala a de saída, o que permite escrever tempo igual a fila dividida por ritmo de saída. Fonte ainda sem id no ledger [19a]: proposta de inclusão registrada em decisions/."
+      },
+      {
+        "claim": "o público quer prometer prazo sem chutar e decidir a ordem do trabalho com critério, não por pressão do cliente que ligou por último",
+        "status": "I",
+        "fonte": "[19b] JTBD JO2 e JE2, declarados canônicos para o papel publico no manifesto da marca. Ressalva desta execução: o repositório da Zionaxs Memory não está presente neste checkout em nuvem (config.json aponta para ../../../zionaxs-memory, ausente), então a nota não foi relida nesta rodada; a classificação I se apoia no que o manifesto declara e no uso anterior da mesma referência na zx-23."
+      },
+      {
+        "claim": "3 serviços abertos por pessoa é um teto prático, e a contagem da fila leva 5 minutos",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a relação entre fila, ritmo de saída e tempo de espera, provada por John Little em 1961 e citada com autor, obra, ano e páginas"
+      ],
+      "I": [
+        "a demanda por prazo confiável e por critério de ordem do trabalho"
+      ],
+      "H": [
+        "o teto de 3 abertos por pessoa e o prazo de 5 minutos para a contagem: método proposto, não prática comprovada por pesquisa"
+      ],
+      "NC": []
+    },
+    "limites": [
+      "Os números 14 abertos e 2 entregas por semana são exemplo ilustrativo construído para a peça, não dado de pesquisa, e a legenda diz isso.",
+      "A peça não publica nenhuma estatística de mercado.",
+      "A relação de Little vale para sistema estável, ou seja, quando ao longo do tempo entra tanto trabalho quanto sai. A peça declara essa condição em vez de vender a conta como lei universal.",
+      "A legenda traz paráfrase fiel de Little com autor, obra, ano e páginas, sem citação literal em inglês.",
+      "A peça apresenta John Little ao leitor como professor do MIT para não depender de reconhecimento prévio do nome.",
+      "Reduzir o que está aberto não aumenta a capacidade da equipe, e a peça declara esse limite no slide 6.",
+      "Serviço parado esperando resposta do cliente não conta como trabalho em andamento da equipe, e a peça diz isso para não inflar a contagem."
+    ],
+    "consequencia": "O leitor sai com a conta que revela o prazo real do próprio escritório e uma ação: contar hoje quantos serviços estão abertos por pessoa e terminar os 3 mais antigos antes de começar outro."
+  },
+  "tese": "Serviço não demora porque a equipe é lenta; demora porque coisas demais estão abertas ao mesmo tempo, e fila dividida por ritmo de saída dá o prazo real.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JO2",
+    "JE2"
+  ],
+  "repertorio": {
+    "id": "R10",
+    "autor": "John D. C. Little",
+    "modo": "paráfrase fiel na legenda, com autor, obra, ano e páginas citados; na peça, o autor é apresentado ao leitor como professor do MIT",
+    "fonte": "A Proof for the Queuing Formula: L = lambda W, Operations Research, volume 9, número 3, 1961, páginas 383 a 387"
+  },
+  "cta": "Contar hoje quantos serviços estão abertos por pessoa e, se passar de 3, terminar os 3 mais antigos antes de começar outro.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: reconhecer a sexta-feira sem entrega, ver a cena dos 14 abertos, trocar a pergunta de quem demora para quantos estão abertos, receber a virada contraintuitiva de começar menos, aprender a conta em 3 passos, ouvir o limite e contar a própria fila. A peça não publica estatística: não há unidade de evidência numérica, e esticar para 8 seria preencher contagem.",
+  "internal_metadata": [
+    "S2",
+    "M18",
+    "zx-24",
+    "capa",
+    "diagnostico",
+    "contraste",
+    "virada",
+    "criterio",
+    "fechamento",
+    "JO2",
+    "JE2",
+    "R10",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Cissy Strut",
+    "artista": "The Meters",
+    "versao": "gravação original de 1969, instrumental",
+    "porque": "Instrumental puro, sem letra para disputar atenção com a leitura dos slides. O riff de guitarra e bateria é o que se reconhece na primeira nota, então a familiaridade chega sem exigir esforço. O andamento é constante do começo ao fim, sem virada dramática, o que combina com um carrossel que cada leitor passa no próprio ritmo. O clima é de repetição paciente, quase mecânica, e é exatamente o tom de uma fila que anda devagar.",
+    "evitar": "Trilha com letra, principalmente em português, e qualquer faixa épica de superação: empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia."
+  },
+  "caption": [
+    "Sexta-feira, fim do dia. Ninguém parou a semana inteira e, ainda assim, 14 serviços continuam abertos e só 2 foram entregues. O diagnóstico comum é que a equipe está lenta. Quase sempre o problema é outro: coisas demais abertas ao mesmo tempo.",
+    "John Little, professor do MIT, provou em 1961 uma relação que vale para qualquer fila. Em um sistema estável, ou seja, quando entra tanto trabalho quanto sai, o tempo médio que cada item passa dentro da fila é a quantidade de itens dentro dela dividida pelo ritmo de saída.",
+    "Traduzindo para a sua semana: 14 serviços abertos divididos por 2 entregas por semana dão 7 semanas de espera para cada serviço novo, por mais que todo mundo corra. O prazo não vem da velocidade de quem trabalha. Vem do tamanho da fila.",
+    "A conta leva 5 minutos. Conte quantos serviços estão abertos agora. Conte quantos você terminou por semana nas últimas 4 semanas e divida por 4. Divida um pelo outro: esse é o prazo real que você promete hoje, não o que está na proposta.",
+    "Isso não aumenta a capacidade da equipe. Ela continua entregando 2 por semana. O que muda é quanto tempo cada cliente espera, e a chance de prometer prazo sem chutar.",
+    "Abra hoje a lista de serviços em andamento e conte por pessoa. Se passar de 3, escolha os 3 mais antigos e termine antes de começar outro."
+  ],
+  "caption_sources": [
+    "Referência: John D. C. Little, A Proof for the Queuing Formula: L = lambda W, Operations Research, volume 9, número 3, 1961, páginas 383 a 387. A legenda traz paráfrase fiel com autor, obra, ano e páginas, não citação literal.",
+    "Os números 14 abertos e 2 entregas por semana são exemplo ilustrativo construído para a peça, não dado de pesquisa.",
+    "A relação vale para sistema estável, quando ao longo do tempo entra tanto trabalho quanto sai. Em semana de pico o número real varia.",
+    "O teto de 3 serviços abertos por pessoa é método proposto. O número que cabe varia por tipo de serviço e por equipe."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Trabalho aberto",
+      "copy": {
+        "title": "Tudo andou.\nNada ficou\npronto.",
+        "accentLine": "E ninguém parou o dia inteiro.",
+        "hl": "ninguém",
+        "sub": "Quando muitos serviços ficam abertos ao mesmo tempo, cada um anda um pouco e nenhum chega ao fim. A conta que mostra isso vem nos próximos slides.",
+        "year": "2026",
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2 · foto: S. Hwang"
+      },
+      "approved_visible_copy": [
+        "Trabalho aberto",
+        "01/07",
+        "Tudo andou. Nada ficou pronto.",
+        "E ninguém parou o dia inteiro.",
+        "Quando muitos serviços ficam abertos ao mesmo tempo, cada um anda um pouco e nenhum chega ao fim. A conta que mostra isso vem nos próximos slides.",
+        "2026",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2 · foto: S. Hwang"
+      ],
+      "alt": "Slide 1 de 7. Tudo andou e nada ficou pronto, e ninguém parou o dia inteiro: quando muitos serviços ficam abertos ao mesmo tempo, cada um anda um pouco e nenhum chega ao fim. A conta que mostra isso vem nos próximos slides. Fotografia escura de uma pessoa em silhueta, sentada à mesa diante de um computador, recortada contra a luz de uma janela de persianas no fim da tarde.",
+      "photo": {
+        "src": "../assets/foto-mesa-janela.jpg",
+        "pos": "50% 0%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "14 abertos.\n2 entregues."
+        ],
+        "closing": "Sexta-feira, fim do dia. Ninguém ficou parado a semana inteira e, mesmo assim, 14 serviços seguem abertos e só 2 saíram. A equipe trabalhou todos os dias.",
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2 · foto: A. Vo"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "14 abertos. 2 entregues.",
+        "Sexta-feira, fim do dia. Ninguém ficou parado a semana inteira e, mesmo assim, 14 serviços seguem abertos e só 2 saíram. A equipe trabalhou todos os dias.",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2 · foto: A. Vo"
+      ],
+      "alt": "Slide 2 de 7. 14 serviços abertos e 2 entregues. Sexta-feira, fim do dia: ninguém ficou parado a semana inteira e, mesmo assim, 14 serviços seguem abertos e só 2 saíram, porque a equipe trabalhou todos os dias. Papel claro com fotografia em preto e branco de uma parede inteira coberta de recados de papel.",
+      "photo": {
+        "src": "../assets/foto-mural-recados.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "contraste",
+      "layout": "poster-lines",
+      "kicker": "Raio-X",
+      "copy": {
+        "lines": [
+          "A pergunta comum:\nquem está demorando?",
+          "A pergunta que resolve:\nquantos serviços estão\nabertos ao mesmo tempo?"
+        ],
+        "closing": "John Little, professor do MIT, provou em 1961 uma relação que vale para qualquer fila: em um sistema estável, o tempo que cada item passa esperando é a quantidade de itens na fila dividida pelo ritmo de saída.",
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2"
+      },
+      "approved_visible_copy": [
+        "Raio-X",
+        "03/07",
+        "A pergunta comum: quem está demorando?",
+        "A pergunta que resolve: quantos serviços estão abertos ao mesmo tempo?",
+        "John Little, professor do MIT, provou em 1961 uma relação que vale para qualquer fila: em um sistema estável, o tempo que cada item passa esperando é a quantidade de itens na fila dividida pelo ritmo de saída.",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2"
+      ],
+      "alt": "Slide 3 de 7. A pergunta comum é quem está demorando, mas a pergunta que resolve é quantos serviços estão abertos ao mesmo tempo. John Little, professor do MIT, provou em 1961 uma relação que vale para qualquer fila: em um sistema estável, o tempo que cada item passa esperando é a quantidade de itens na fila dividida pelo ritmo de saída."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A saída",
+      "copy": {
+        "big": true,
+        "title": "Para entregar\nmais rápido,",
+        "accent": "comece menos.",
+        "hl": "menos",
+        "ghost": "7",
+        "year": "2026",
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2",
+        "body": "14 abertos divididos por 2 entregas por semana dão 7 semanas de espera para cada serviço novo, por mais que a equipe corra. Com menos coisas abertas ao mesmo tempo, cada uma termina antes."
+      },
+      "approved_visible_copy": [
+        "A saída",
+        "04/07",
+        "Para entregar mais rápido,",
+        "comece menos.",
+        "2026",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2",
+        "14 abertos divididos por 2 entregas por semana dão 7 semanas de espera para cada serviço novo, por mais que a equipe corra. Com menos coisas abertas ao mesmo tempo, cada uma termina antes."
+      ],
+      "alt": "Slide 4 de 7. Para entregar mais rápido, comece menos. 14 abertos divididos por 2 entregas por semana dão 7 semanas de espera para cada serviço novo, por mais que a equipe corra, e com menos coisas abertas ao mesmo tempo cada uma termina antes. Campo laranja chapado com o número 7 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "critério",
+      "layout": "poster-fields",
+      "kicker": "A conta",
+      "copy": {
+        "title": "3 passos, 5 minutos.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Conte quantos serviços estão abertos agora. Essa é a sua fila de trabalho."
+          },
+          {
+            "num": "02",
+            "label": "Some quantos você terminou nas últimas 4 semanas e divida por 4. Esse é o seu ritmo."
+          },
+          {
+            "num": "03",
+            "label": "Divida a fila pelo ritmo. O resultado é o prazo real que você promete hoje."
+          }
+        ],
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2"
+      },
+      "approved_visible_copy": [
+        "A conta",
+        "05/07",
+        "3 passos, 5 minutos.",
+        "01",
+        "Conte quantos serviços estão abertos agora. Essa é a sua fila de trabalho.",
+        "02",
+        "Some quantos você terminou nas últimas 4 semanas e divida por 4. Esse é o seu ritmo.",
+        "03",
+        "Divida a fila pelo ritmo. O resultado é o prazo real que você promete hoje.",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2"
+      ],
+      "alt": "Slide 5 de 7. A conta em 3 passos e 5 minutos: conte quantos serviços estão abertos agora, que é a sua fila de trabalho; some quantos você terminou nas últimas 4 semanas e divida por 4, que é o seu ritmo; divida a fila pelo ritmo e o resultado é o prazo real que você promete hoje. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Isso não aumenta\na sua capacidade.",
+        "accent": "Muda o tempo\nde espera.",
+        "body": "A equipe continua entregando 2 por semana. O que muda é o cliente parar de esperar 7 semanas por algo que leva 3 dias de trabalho. Serviço parado aguardando resposta do cliente sai da conta: ele não está com a sua equipe.",
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Isso não aumenta a sua capacidade.",
+        "Muda o tempo de espera.",
+        "A equipe continua entregando 2 por semana. O que muda é o cliente parar de esperar 7 semanas por algo que leva 3 dias de trabalho. Serviço parado aguardando resposta do cliente sai da conta: ele não está com a sua equipe.",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2"
+      ],
+      "alt": "Slide 6 de 7. Isso não aumenta a sua capacidade: muda o tempo de espera. A equipe continua entregando 2 por semana, e o que muda é o cliente parar de esperar 7 semanas por algo que leva 3 dias de trabalho. Serviço parado aguardando resposta do cliente sai da conta, porque ele não está com a sua equipe."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Conte quantos\nestão abertos.",
+        "hl": "abertos",
+        "accent": "Leva 5 minutos.",
+        "body": "Abra agora a lista de serviços em andamento e conte por pessoa. Se passar de 3, escolha os 3 mais antigos e termine esses antes de começar qualquer outro.",
+        "year": "2026",
+        "temas": "Temas: Fila / Prazo / Entrega",
+        "micro": "@zionaxs_ · ref 4f3d25e2 · foto: G. Ng"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Conte quantos estão abertos.",
+        "Leva 5 minutos.",
+        "Abra agora a lista de serviços em andamento e conte por pessoa. Se passar de 3, escolha os 3 mais antigos e termine esses antes de começar qualquer outro.",
+        "2026",
+        "Temas: Fila / Prazo / Entrega",
+        "@zionaxs_ · ref 4f3d25e2 · foto: G. Ng"
+      ],
+      "alt": "Slide 7 de 7. Conte quantos estão abertos, leva 5 minutos. Abra agora a lista de serviços em andamento e conte por pessoa: se passar de 3, escolha os 3 mais antigos e termine esses antes de começar qualquer outro. Fotografia escura de uma mesa de trabalho quase vazia, com um caderno fechado e uma caneta, na última luz do dia.",
+      "photo": {
+        "src": "../assets/foto-mesa-limpa.jpg",
+        "pos": "50% 30%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<!-- DERIVADO de contract.json — não editar; corrigir o contrato e recompilar (P2) -->
+<link rel="stylesheet" href="../../../brand/fonts/fonts.css">
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#3a3d42}
+body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kerning:normal}
+.slide{position:relative;width:1080px;height:1350px;background:#F5F6F7;color:#14171B;
+  overflow:hidden;display:flex;flex-direction:column;padding:88px 80px;margin:0 auto 40px}
+.slide.dark{background:#14171B;color:#FFFFFF}
+.hd{display:flex;justify-content:space-between;align-items:baseline;
+  padding-bottom:22px;border-bottom:2px solid #14171B;flex:none}
+.slide.dark .hd{border-bottom-color:#4A525C}
+.hd .kick{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:26px;
+  letter-spacing:.14em;text-transform:uppercase;color:#B23100}
+.slide.dark .hd .kick{color:#F54502}
+.hd .pg{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:26px;
+  letter-spacing:.06em;color:#5A6270;font-variant-numeric:tabular-nums}
+.slide.dark .hd .pg{color:#98A1AD}
+.body{flex:1;display:flex;flex-direction:column;justify-content:center;padding:56px 0}
+.ft{display:flex;justify-content:space-between;align-items:center;
+  padding-top:22px;border-top:1px solid #D8DCE1;flex:none}
+.slide.dark .ft{border-top-color:#39404A}
+.ft .wm{font-family:Poppins,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em}
+.ft .wm svg{height:30px;display:block}
+.ft .wm img{height:30px;display:block}
+.d1{font-family:Poppins,sans-serif;font-weight:700;font-size:80px;line-height:1.08;letter-spacing:-.028em}
+.d2{font-family:Poppins,sans-serif;font-weight:700;font-size:64px;line-height:1.12;letter-spacing:-.022em}
+.p{font-size:46px;line-height:1.42;font-weight:400}
+.p.med{font-weight:500}
+.sec{font-size:34px;line-height:1.45;color:#5A6270}
+.slide.dark .sec{color:#98A1AD}
+.note{font-family:"JetBrains Mono",monospace;font-size:26px;line-height:1.5;color:#5A6270}
+.slide.dark .note{color:#98A1AD}
+.acc{color:#F54502}
+.acc-i{color:#B23100}
+.stack>*+*{margin-top:34px}
+.stack-s>*+*{margin-top:20px}
+.figure{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:232px;
+  line-height:.92;letter-spacing:-.04em;color:#F54502}
+.denom{font-size:46px;line-height:1.4;font-weight:500;color:#14171B;max-width:880px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:0 48px;align-items:start}
+.duo .num{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:150px;
+  line-height:.95;letter-spacing:-.03em;color:#F54502}
+.duo .lab{font-size:34px;line-height:1.35;font-weight:500;margin-top:14px}
+.duo .sub{font-family:"JetBrains Mono",monospace;font-size:26px;color:#5A6270;margin-top:10px}
+.rows{display:flex;flex-direction:column;border-top:2px solid #14171B}
+.row{display:grid;grid-template-columns:300px 1fr;align-items:center;gap:0 28px;
+  padding:30px 0;border-bottom:1px solid #D8DCE1}
+.row .k{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:38px;letter-spacing:.02em;color:#B23100}
+.row .v{font-size:38px;line-height:1.3;font-weight:500}
+.reg{display:flex;flex-direction:column;border-top:2px solid #14171B;margin-top:20px}
+.reg .l{display:grid;grid-template-columns:64px 1fr;gap:0 22px;align-items:center;
+  padding:26px 0;border-bottom:1px solid #D8DCE1}
+.reg .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:32px;color:#5A6270;font-variant-numeric:tabular-nums}
+.reg .b{height:2px;background:#D8DCE1}
+.reg .t{font-size:34px;font-weight:500;line-height:1.35}
+.cal{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:24px}
+.wk{border:2px solid #B9C0C8;border-radius:6px;background:#FFFFFF;padding:24px 12px;text-align:center;
+  font-family:"JetBrains Mono",monospace;font-size:26px;font-weight:700;color:#5A6270}
+.wk.on{border-color:#F54502;color:#B23100}
+.wk.off{background:repeating-linear-gradient(45deg,#E7E9EC 0 8px,#F5F6F7 8px 16px);color:#5A6270}
+.callab{font-family:"JetBrains Mono",monospace;font-size:26px;color:#5A6270;margin-top:16px;display:flex;gap:38px}
+.callab i{font-style:normal;display:flex;align-items:center;gap:10px}
+.dot{width:18px;height:18px;border-radius:4px;display:inline-block;border:2px solid #F54502}
+.dot.x{border-color:#B9C0C8;background:repeating-linear-gradient(45deg,#E7E9EC 0 5px,#F5F6F7 5px 10px)}
+.diag{display:grid;grid-template-columns:1fr 96px 1fr;align-items:center;margin-top:52px}
+.diag .col{display:flex;flex-direction:column;gap:18px}
+.cell{background:#FFFFFF;color:#14171B;border:2px solid #B9C0C8;border-radius:6px;
+  padding:22px 26px;font-size:34px;line-height:1.3;font-weight:500}
+.cell.out{border-color:#F54502;color:#B23100;font-weight:600}
+.arrows{position:relative;height:100%;min-height:230px}
+.arrows svg{position:absolute;inset:0;width:100%;height:100%}
+.math{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:88px;letter-spacing:-.03em;
+  line-height:1.1;color:#F54502}
+.cite{border-left:3px solid #B9C0C8;padding-left:24px;margin-top:44px}
+.imgwrap{margin-top:40px;border:1px solid #D8DCE1;border-radius:6px;overflow:hidden}
+.imgwrap img{width:100%;display:block}
+
+/* ===== estilo pôster editorial (direção visual oficial, 29/08/2026) =====
+   Três campos: foto escura (emoção), papel claro (utilidade), laranja
+   chapado (virada). Chrome de prova de impressão em todos: grão, ano,
+   nº em caixa, temas, régua de cor e microlinha. Contraste é medido pelo
+   G5 contra o background declarado do campo — por isso: no laranja, texto
+   pequeno é tinta (4.9:1) e texto grande é papel (3.4:1); no campo de
+   foto o slide declara tinta e os scrims garantem a leitura perceptual. */
+.slide.poster{display:block;padding:0}
+.pbgwrap{position:absolute;inset:0;overflow:hidden}
+.pbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pgrade{position:absolute;inset:0;mix-blend-mode:soft-light;background:
+  linear-gradient(180deg, rgba(255,122,26,.26) 0%, rgba(255,122,26,.08) 26%,
+  rgba(39,69,78,.32) 54%, rgba(39,69,78,.10) 68%, transparent 76%)}
+.pscrim{position:absolute;inset:0;background:
+  linear-gradient(180deg, rgba(12,13,16,.32) 0%, rgba(12,13,16,.12) 30%,
+  rgba(12,13,16,.42) 60%, rgba(12,13,16,.92) 96%)}
+.pgrain{position:absolute;inset:0;pointer-events:none;opacity:.18;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='260' height='260' filter='url(%23n)' opacity='0.9'/></svg>")}
+.pbleed{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.parc{position:absolute;border-radius:50%;border:26px solid #F54502}
+.pblock{position:absolute;overflow:hidden}
+.pblock img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.08) brightness(1.18)}
+.pghost{position:absolute;right:-40px;bottom:60px;width:640px;height:640px}
+.pghost text{font-family:"JetBrains Mono",monospace;font-weight:700;fill:rgba(20,23,27,.12)}
+
+.slide.pfield-photo{background:#14171B;color:#EFE7D7}
+.slide.pfield-paper{background:#F5F6F7;color:#14171B}
+.slide.pfield-orange{background:#F54502;color:#F5F6F7}
+
+.pstack{position:absolute;left:80px;right:80px;bottom:206px}
+.pmeta{display:flex;justify-content:space-between;align-items:flex-start;
+  padding-bottom:0;border-bottom:0;margin-bottom:34px}
+.pyear{font-family:Poppins,sans-serif;font-weight:700;font-size:46px;letter-spacing:.02em}
+.pkick{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:22px;letter-spacing:.2em;
+  text-transform:uppercase;margin-top:22px;color:#F54502}
+.pfield-orange .pkick{color:#F5F6F7}
+.pnum{display:flex;align-items:center;justify-content:center;min-width:84px;height:84px;
+  padding:0 14px;border:3px solid rgba(239,231,215,.9);
+  font-family:"JetBrains Mono",monospace;font-weight:700;font-size:24px;letter-spacing:.06em;
+  font-variant-numeric:tabular-nums}
+.pfield-orange .pnum{border-color:rgba(245,246,247,.9)}
+
+.php{position:absolute;left:80px;right:80px;top:88px;
+  display:flex;justify-content:space-between;align-items:baseline;
+  padding-bottom:20px;border-bottom:2px solid #14171B}
+.php .pk2{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:26px;
+  letter-spacing:.14em;text-transform:uppercase;color:#B23100}
+.php .pp2{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:24px;
+  letter-spacing:.06em;color:#5A6270;font-variant-numeric:tabular-nums}
+
+.pbody.up .pt1,.pbody.up .pt2{text-transform:uppercase}
+.pt1{font-family:Poppins,sans-serif;font-weight:700;line-height:.98;letter-spacing:-.02em}
+.pt2{font-family:Poppins,sans-serif;font-weight:700;font-size:64px;line-height:1.1;letter-spacing:-.022em}
+.psub{font-size:40px;line-height:1.32;font-weight:500}
+.pnote{font-family:"JetBrains Mono",monospace;font-size:26px;line-height:1.5;color:rgba(239,231,215,.72)}
+.pfield-paper .pnote{color:#5A6270}
+.phl{background:#F54502;color:#F5F6F7;padding:2px 18px 5px;border-radius:4px;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.phl-ink{background:#14171B;color:#F5F6F7;padding:2px 18px 5px;border-radius:4px;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.preg{display:flex;flex-direction:column;border-top:2px solid #14171B;margin-top:30px}
+.preg .l{display:grid;grid-template-columns:64px 1fr;gap:0 22px;align-items:center;
+  padding:26px 0;border-bottom:1px solid #B9C0C8}
+.preg .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:32px;color:#B23100;font-variant-numeric:tabular-nums}
+.preg .t{font-size:34px;line-height:1.35;font-weight:500;color:#14171B}
+
+.pfoot{position:absolute;left:80px;right:80px;bottom:88px;
+  display:block;padding-top:0;border-top:0}
+.pfoot .pf1{display:flex;justify-content:space-between;align-items:baseline;
+  padding-top:18px;border-top:1px solid rgba(239,231,215,.45)}
+.pfield-paper .pfoot .pf1{border-top-color:#D8DCE1}
+.pfield-orange .pfoot .pf1{border-top-color:rgba(245,246,247,.55)}
+.ptemas{font-family:"JetBrains Mono",monospace;font-size:17px;letter-spacing:.14em;
+  text-transform:uppercase;color:rgba(239,231,215,.78)}
+.pfield-paper .ptemas{color:#5A6270}
+.pfield-orange .ptemas{color:#14171B}
+.pwm{font-family:Poppins,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em;color:#EFE7D7}
+.pwm img{height:30px;display:block}
+.pfield-paper .pwm{color:#14171B}
+.pfield-orange .pwm{color:#F5F6F7}
+.pf2{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.pchips{display:flex;gap:8px}
+.pchips i{display:block;width:44px;height:20px}
+.pfield-paper .pchips i{box-shadow:inset 0 0 0 1px rgba(20,23,27,.14)}
+.pfield-orange .pchips i{box-shadow:inset 0 0 0 1px rgba(245,246,247,.45)}
+.pmicro{font-family:"JetBrains Mono",monospace;font-size:15px;letter-spacing:.08em;color:rgba(239,231,215,.6)}
+.pfield-paper .pmicro{color:#5A6270}
+.pfield-orange .pmicro{color:#14171B}
+
+</style>
+</head>
+<body>
+
+<section class="slide poster pfield-photo" id="s1">
+  <div class="pbgwrap"><img class="pbg" src="../assets/foto-mesa-janela.jpg" alt="" style="object-position:50% 0%"></div>
+  <div class="pgrade"></div>
+  <div class="pscrim"></div>
+  
+  <div class="pgrain"></div>
+  
+  <div class="pstack"><div class="hd pmeta">
+    <div><div class="pyear">2026</div><div class="pkick">Trabalho aberto</div></div>
+    <div class="pnum">01/07</div>
+  </div><div class="pbody up">
+<h1 class="pt1" style="font-size:86px">Tudo andou.<br>Nada ficou<br>pronto.</h1>
+<p class="pt1" style="font-size:54px;line-height:1.06;margin-top:30px">E <span class="phl">ninguém</span> parou o dia inteiro.</p>
+<p class="pnote" style="margin-top:26px">Quando muitos serviços ficam abertos ao mesmo tempo, cada um anda um pouco e nenhum chega ao fim. A conta que mostra isso vem nos próximos slides.</p>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-white.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2 · foto: S. Hwang</span></div>
+  </div>
+</section>
+
+<section class="slide poster pfield-paper" id="s2">
+  
+  <div class="pbleed">
+    <div class="parc" style="width:560px;height:560px;right:-210px;top:150px"></div>
+    <div class="pblock" style="right:80px;top:250px;width:380px;height:440px"><img src="../assets/foto-mural-recados.jpg" alt=""></div>
+    <div class="parc" style="width:220px;height:220px;right:370px;top:560px;border-width:20px"></div>
+  </div>
+  <div class="pgrain"></div>
+  <div class="hd php"><span class="pk2">A cena</span><span class="pp2">02/07</span></div>
+  <div class="pstack"><div class="pbody">
+<p class="pt1" style="font-size:80px">14 abertos.<br>2 entregues.</p>
+<p class="psub" style="margin-top:30px;max-width:820px">Sexta-feira, fim do dia. Ninguém ficou parado a semana inteira e, mesmo assim, 14 serviços seguem abertos e só 2 saíram. A equipe trabalhou todos os dias.</p>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2 · foto: A. Vo</span></div>
+  </div>
+</section>
+
+<section class="slide poster pfield-paper" id="s3">
+  
+  <div class="pbleed">
+    <div class="parc" style="width:520px;height:520px;right:-200px;top:170px"></div>
+    <div class="parc" style="width:190px;height:190px;right:250px;top:120px;border-width:18px"></div>
+  </div>
+  <div class="pgrain"></div>
+  <div class="hd php"><span class="pk2">Raio-X</span><span class="pp2">03/07</span></div>
+  <div class="pstack"><div class="pbody">
+<p class="pt2" style="margin-top:0">A pergunta comum:<br>quem está demorando?</p>
+<p class="pt2" style="margin-top:14px">A pergunta que resolve:<br>quantos serviços estão<br>abertos ao mesmo tempo?</p>
+<p class="sec" style="margin-top:34px;max-width:840px">John Little, professor do MIT, provou em 1961 uma relação que vale para qualquer fila: em um sistema estável, o tempo que cada item passa esperando é a quantidade de itens na fila dividida pelo ritmo de saída.</p>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2</span></div>
+  </div>
+</section>
+
+<section class="slide poster pfield-orange" id="s4">
+  
+  <div class="pbleed">
+    <svg class="pghost" viewBox="0 0 640 640" aria-hidden="true"><text x="640" y="560" text-anchor="end" font-size="560" letter-spacing="-28">7</text></svg>
+  </div>
+  <div class="pgrain"></div>
+  
+  <div class="pstack"><div class="hd pmeta">
+    <div><div class="pyear">2026</div><div class="pkick">A saída</div></div>
+    <div class="pnum">04/07</div>
+  </div><div class="pbody up">
+<p class="pt1" style="font-size:78px">Para entregar<br>mais rápido,</p>
+<p class="pt1" style="font-size:78px;margin-top:30px">comece <span class="phl-ink">menos</span>.</p>
+<p class="psub" style="margin-top:32px;max-width:880px">14 abertos divididos por 2 entregas por semana dão 7 semanas de espera para cada serviço novo, por mais que a equipe corra. Com menos coisas abertas ao mesmo tempo, cada uma termina antes.</p>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-white.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2</span></div>
+  </div>
+</section>
+
+<section class="slide poster pfield-paper" id="s5">
+  
+  <div class="pbleed">
+    <div class="parc" style="width:560px;height:560px;right:-240px;top:-240px"></div>
+  </div>
+  <div class="pgrain"></div>
+  <div class="hd php"><span class="pk2">A conta</span><span class="pp2">05/07</span></div>
+  <div class="pstack"><div class="pbody">
+<p class="pt2">3 passos, 5 minutos.</p>
+<div class="preg">
+    <div class="l"><span class="n">01</span><span class="t">Conte quantos serviços estão abertos agora. Essa é a sua fila de trabalho.</span></div>
+    <div class="l"><span class="n">02</span><span class="t">Some quantos você terminou nas últimas 4 semanas e divida por 4. Esse é o seu ritmo.</span></div>
+    <div class="l"><span class="n">03</span><span class="t">Divida a fila pelo ritmo. O resultado é o prazo real que você promete hoje.</span></div>
+</div>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2</span></div>
+  </div>
+</section>
+
+<section class="slide poster pfield-paper" id="s6">
+  
+  <div class="pbleed">
+    <div class="parc" style="width:420px;height:420px;right:-240px;top:40%"></div>
+  </div>
+  <div class="pgrain"></div>
+  <div class="hd php"><span class="pk2">Até onde vai</span><span class="pp2">06/07</span></div>
+  <div class="pstack"><div class="pbody">
+<p class="pt2">Isso não aumenta<br>a sua capacidade.</p>
+<p class="pt2" style="color:#B23100;margin-top:18px">Muda o tempo<br>de espera.</p>
+<p class="psub" style="margin-top:34px;max-width:860px">A equipe continua entregando 2 por semana. O que muda é o cliente parar de esperar 7 semanas por algo que leva 3 dias de trabalho. Serviço parado aguardando resposta do cliente sai da conta: ele não está com a sua equipe.</p>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-black.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2</span></div>
+  </div>
+</section>
+
+<section class="slide poster pfield-photo" id="s7">
+  <div class="pbgwrap"><img class="pbg" src="../assets/foto-mesa-limpa.jpg" alt="" style="object-position:50% 30%"></div>
+  <div class="pgrade"></div>
+  <div class="pscrim"></div>
+  
+  <div class="pgrain"></div>
+  
+  <div class="pstack"><div class="hd pmeta">
+    <div><div class="pyear">2026</div><div class="pkick">Hoje ainda</div></div>
+    <div class="pnum">07/07</div>
+  </div><div class="pbody up">
+<p class="pt1" style="font-size:76px">Conte quantos<br>estão <span class="phl">abertos</span>.</p>
+<p class="psub" style="margin-top:28px">Leva 5 minutos.</p>
+<p class="pnote" style="margin-top:24px">Abra agora a lista de serviços em andamento e conte por pessoa. Se passar de 3, escolha os 3 mais antigos e termine esses antes de começar qualquer outro.</p>
+  </div></div>
+  <div class="ft pfoot">
+    <div class="pf1"><span class="ptemas">Temas: Fila / Prazo / Entrega</span><span class="pwm"><img src="../../../brand/logo/zionaxs-white.png" alt=""></span></div>
+    <div class="pf2"><span class="pchips"><i style="background:#14171B"></i><i style="background:#F54502"></i><i style="background:#FF8A3C"></i><i style="background:#27454E"></i><i style="background:#EFE7D7"></i></span><span class="pmicro">@zionaxs_ · ref 4f3d25e2 · foto: G. Ng</span></div>
+  </div>
+</section>
+
+</body>
+</html>

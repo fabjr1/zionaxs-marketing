@@ -1,0 +1,78 @@
+decision: aprovacao_da_peca_e_uso_de_excecao_de_cadencia
+data: "2026-08-29"
+peca: zx-24-tudo-aberto-nada-pronto
+digest: "9c3d4f9866eb87f1"
+gates: "14/14 verdes"
+
+aprovacao:
+  autorizado_por: fabiano
+  base: >
+    Autorizacao permanente de 29/08/2026 para o comando /carrossel-zionaxs publicar
+    sem aprovacao peca a peca, valida para o fluxo inteiro incluindo as travas.
+    Trava que reprova nao se contorna.
+
+excecao_de_cadencia:
+  aplicada: true
+  escopo: apenas esta execucao de teste
+  registro_da_autorizacao: >
+    ../../../campaigns/zionaxs-capacidade-antes-de-oferta/decisions/excecao-teste-nuvem-2026-08-29.yaml
+  autorizado_por: fabiano
+  motivo: >
+    Teste controlado da rota de publicacao em nuvem. Em 2026-08-29 ja tinham saido 3 pecas
+    (zx-21, zx-22, zx-23) e o limite da politica da marca e 2, entao o porteiro reprovou
+    por cadencia.
+  verificacao_feita_antes: >
+    O porteiro foi rodado primeiro SEM --excecao. O unico motivo de reprovacao foi cadencia:
+    gates 14/14, status, padrao de copy, estilo poster-* e trilha passaram. A excecao vale
+    apenas para a cadencia, e nenhum outro motivo foi repassado.
+  politica_nao_alterada: true
+  arquivo_de_politica_intocado: brands/zionaxs/politica-de-publicacao.json
+  nao_se_estende_a: >
+    As rotinas permanentes de 08:30 e 13:00 seguem proibidas de usar --excecao.
+
+revisao_humana_do_pixel:
+  feita: true
+  achados:
+    - id: crop-capa
+      status: aceito_com_ressalva
+      texto: >
+        No slide 1 a caixa do numero da peca (01/07) cai sobre as persianas claras da janela
+        e fica com contraste baixo. O G5 nao pega isso: ele mede a tinta contra o fundo
+        declarado no CSS, nunca contra os pixels da foto. Nao da para corrigir por crop:
+        a foto e 1400x2089 (mais alta que 4:5), entao no campo 4x5 a largura preenche
+        exata e o X de object-position nao move nada; so o Y desliza, e nao existe faixa
+        escura na altura da caixa (~40%) do lado direito. Aceito porque a manchete, que e
+        a mensagem, esta perfeitamente legivel sobre a parede escura e a silhueta, e a
+        caixa e cromo. Registrado para nao se repetir por esquecimento.
+      regra_derivada: >
+        Ao escolher foto para poster-cover e poster-close, checar TRES zonas, nao uma:
+        a banda de texto (46%-93%), a faixa da caixa do numero (~37%-44% na direita) e
+        a faixa do ano (~37%-44% na esquerda). A folha de contato precisa marcar as tres.
+    - id: fotos-rejeitadas
+      status: registrado
+      texto: >
+        Foram comparadas 13 candidatas em folha de contato renderizada no proprio Chromium,
+        com gradê e scrim identicos aos do renderer e a banda de texto marcada. Rejeitadas,
+        com motivo: pessoa a mesa de noite (papeis brancos dentro da banda de texto e um
+        calendario com 2023 legivel, que contradiz o 2026 do cromo); bloco e caneta
+        (bloco claro na banda); caixas de arquivo (lombadas com titulo em ingles legivel);
+        prateleira e arquivo (banda clara); mural de recados B (texto legivel em ingles).
+        Escolhidas: silhueta a mesa contra a janela (capa), mural de recados em PB (cena),
+        mesa quase vazia (fechamento).
+
+atrito_registrado:
+  - id: memory-ausente
+    texto: >
+      O repositorio irmao zionaxs-memory nao esta neste checkout em nuvem (config.json
+      aponta para ../../../zionaxs-memory). O passo 2 do comando manda consultar a
+      inteligencia de publico na Memory, e isso nao foi possivel. A classificacao I da
+      peca se apoia no que o manifesto da marca declara canonico e no uso anterior da
+      mesma referencia na zx-23, e a ressalva esta escrita dentro do proprio contrato.
+  - id: contagem-de-gates-divergente
+    texto: >
+      A contagem de gates diverge entre os documentos e o codigo. O codigo tem G1 a G14
+      (lib/gates.js). O AGENTS.md diz 13 gates, o comando .claude/commands/carrossel-zionaxs.md
+      diz 15 e descreve um G15 que mede a tinta contra os pixels da foto, e o
+      sistema/app/README.md diz 12. O G15 NAO existe no codigo. Como consequencia, a
+      verificacao que o G15 prometia continua sendo trabalho humano do passo 6, e foi
+      justamente ela que pegou o achado crop-capa acima.
