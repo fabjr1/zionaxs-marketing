@@ -30,3 +30,22 @@ A rotina em nuvem roda isolada e **só enxerga conectores MCP ligados na conta c
 ## Reversão
 
 O limite vivo está em `sistema/workspace/brands/zionaxs/politica-de-publicacao.json`. Revisão marcada para 12/09/2026: se o alcance por peça não subir, o campo `postsPorDia` volta a 1 e a rotina da tarde é desligada.
+
+## Rotinas criadas (29/08/2026)
+
+| Slot | Routine ID | Cron (UTC) | Estado |
+|---|---|---|---|
+| Manhã 08:30 BRT | `trig_0165SxuBX3zXCZhnCB1Ecwab` | `30 11 * * 1-5` | ligada |
+| Tarde 13:00 BRT | `trig_0149bCuFL2Rs93bhWnk2pXhj` | `0 16 * * 1-5` | ligada |
+
+Modelo: `claude-opus-5`. Ambiente: `env_01513KRzJBCT1jFxvwMvuG7o` (Ambiente 1). Repositório clonado a cada execução, com Composio e Unsplash anexados.
+
+Painel: https://claude.ai/code/routines — apagar rotina só é possível por lá.
+
+## O que o teste de 29/08 provou, e o que ainda não
+
+**Provado em nuvem:** provisionamento, clone, `npm install`, `npx playwright install --with-deps chromium` (184 MB, cerca de 30 s), leitura dos padrões, execução do porteiro com a política da marca, e obediência ao bloqueio sem tentar contornar.
+
+**Ainda não provado:** publicar no Instagram a partir da nuvem. O porteiro barrou corretamente porque a cadência do dia já estava esgotada, então a chamada ao Composio não chegou a acontecer. A primeira prova real será a execução de segunda-feira, ou um teste controlado em dia com cadência livre.
+
+**Achado do teste, já corrigido:** o `.gitignore` herdado ignorava `.claude/` inteiro, e o clone veio sem o comando. A verificação **A8** da auditoria passou a exigir que todo comando em `.claude/commands/` esteja versionado.
