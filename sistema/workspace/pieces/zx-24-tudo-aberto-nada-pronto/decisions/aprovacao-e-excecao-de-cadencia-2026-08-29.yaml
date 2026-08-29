@@ -68,6 +68,17 @@ atrito_registrado:
       inteligencia de publico na Memory, e isso nao foi possivel. A classificacao I da
       peca se apoia no que o manifesto da marca declara canonico e no uso anterior da
       mesma referencia na zx-23, e a ressalva esta escrita dentro do proprio contrato.
+  - id: auditoria-a7-vermelha
+    texto: >
+      A auditoria fecha 7 de 8: A1 a A6 e A8 passam, e o A7 (Zionaxs Memory acessivel)
+      reprova porque procura a inbox em /home/user/zionaxs-memory/Inbox/Agents/claude-code
+      e o repositorio irmao nao existe neste ambiente. E falha de ambiente, nao de trabalho:
+      o A7 checa um caminho externo e reprovaria igual antes desta peca. NAO foi criada
+      pasta falsa para forcar verde, porque o A7 existe justamente para dizer se ha
+      conhecimento durável fora do repositorio, e forjar o diretorio faria a auditoria
+      mentir sobre isso. As duas propostas que deveriam ir para a Inbox estao gravadas em
+      disco aqui em decisions/ (a fonte R10 de Little e as regras aprendidas de enquadramento),
+      esperando promocao humana quando a Memory estiver presente.
   - id: contagem-de-gates-divergente
     texto: >
       A contagem de gates diverge entre os documentos e o codigo. O codigo tem G1 a G14

@@ -1,0 +1,73 @@
+{
+  "postId": "18099109523198956",
+  "permalink": "https://www.instagram.com/p/DcpJgQ7m1uj/",
+  "shortcode": "DcpJgQ7m1uj",
+  "publishedAt": "2026-08-29T23:45:53+0000",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906176932501214",
+  "childContainers": [
+    "17906176797501214",
+    "17906176791501214",
+    "17906176794501214",
+    "17906176800501214",
+    "17906176869501214",
+    "17906176866501214",
+    "17906176872501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-24-tudo-aberto-nada-pronto/out/jpg/zx-24-tudo-aberto-nada-pronto-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18050830841803684",
+    "18111906719043103",
+    "18146103607557959",
+    "18621161386033333",
+    "18606158149053692",
+    "17937247587349129",
+    "17970094797133548"
+  ],
+  "digest": "9c3d4f9866eb87f1",
+  "reconciledAt": "2026-08-29T20:46:00-03:00",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA e INSTAGRAM_GET_IG_MEDIA_CHILDREN, ambos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "shareToFeedEnviado": false,
+    "nota": "share_to_feed nao foi enviado: e invalido para carrossel. A publicacao saiu na primeira tentativa, sem erro de transporte, entao nao houve retentativa nem risco de post duplicado."
+  },
+  "identidadeVerificadaAntes": {
+    "ferramenta": "INSTAGRAM_GET_USER_INFO",
+    "quando": "antes de criar qualquer container",
+    "username": "zionaxs_",
+    "id": "37965311306447572",
+    "resultado": "confere; a outra conta conectada (base3br, 28260020683635617) nao foi tocada"
+  },
+  "cadencia": {
+    "excecaoAplicada": true,
+    "motivo": "teste controlado da rota de publicacao em nuvem, autorizado por Fabiano em 29/08/2026",
+    "registro": "decisions/aprovacao-e-excecao-de-cadencia-2026-08-29.yaml e campaigns/zionaxs-capacidade-antes-de-oferta/decisions/excecao-teste-nuvem-2026-08-29.yaml",
+    "porteiroSemExcecao": "reprovou apenas por cadencia (3/2 no dia); gates, status, padrao de copy, estilo e trilha passaram",
+    "politicaAlterada": false
+  },
+  "trilhaSugerida": {
+    "faixa": "Cissy Strut",
+    "artista": "The Meters",
+    "versao": "gravacao original de 1969, instrumental",
+    "estado": "pendente: a musica entra a mao pelo app do Instagram, editando o post depois de publicado. A API nao escolhe faixa."
+  }
+}
