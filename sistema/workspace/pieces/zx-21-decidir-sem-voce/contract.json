@@ -1,0 +1,284 @@
+{
+  "id": "zx-21-decidir-sem-voce",
+  "brand": "Zionaxs",
+  "campaign": "Capacidade antes de oferta",
+  "piece": "S1 · semana 1 · terça",
+  "matriz": "M19",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação (P1, C1, A1 — papel dono-operador). Cena concreta: clínica (V1). Secundário: nenhum.",
+    "decisao": "Definir alçadas explícitas em três níveis em vez de continuar aprovando pessoalmente cada decisão da operação.",
+    "tensao": "O diagnóstico usual é 'falta gente boa'. O gargalo real é decisão sem dono definido, que forma fila na cabeça de quem responde pela operação.",
+    "evidencia": [
+      {
+        "claim": "decisões operacionais param quando o dono está indisponível — a recepção espera o fim do atendimento para confirmar um encaixe",
+        "status": "I",
+        "fonte": "[19b §7.2] sinal de identificação de P1; rotina diária de V1 [19b §9.1]"
+      },
+      {
+        "claim": "equipe que esconde dúvida preserva a aparência e acumula risco operacional",
+        "status": "I",
+        "fonte": "paráfrase de Amy Edmondson, 1999 [S32]"
+      },
+      {
+        "claim": "um quadro de três níveis de alçada reduz a fila de decisões do dono",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [],
+      "I": [
+        "a cena da decisão parada e o mecanismo da fila"
+      ],
+      "H": [
+        "a eficácia do quadro de três níveis — método proposto, não prática comprovada por pesquisa"
+      ],
+      "NC": []
+    },
+    "limites": [
+      "A peça não publica nenhuma estatística.",
+      "Os exemplos de nível são ilustrativos; valores e limites exatos são de cada negócio.",
+      "Paráfrase de Edmondson sem aspas, introduzida como ideia (regra 19c §12.1)."
+    ],
+    "consequencia": "O leitor sai com um quadro de três níveis e uma ação de dez minutos: escrever a alçada de uma decisão que hoje espera por ele."
+  },
+  "tese": "O dono não é gargalo por falta de esforço: decisão sem alçada vira fila, e a fila mora na cabeça dele.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JO1",
+    "JE1"
+  ],
+  "repertorio": {
+    "id": "R5",
+    "autor": "Amy C. Edmondson",
+    "modo": "paráfrase introduzida como ideia, na peça e na legenda",
+    "fonte": "[S32]"
+  },
+  "cta": "Escrever a alçada de uma decisão que hoje espera pelo dono: quem decide, até onde, quando avisa.",
+  "comprimento_justificado": "8 unidades porque a narrativa tem 8 tarefas cognitivas: reconhecer a experiência, ver a cena, entender o mecanismo da fila, reformular delegação como definição, receber o quadro de três níveis, vê-lo aplicado, ouvir o limite, sair com a ação. Nenhuma unidade preenche contagem.",
+  "internal_metadata": [
+    "S1",
+    "M19",
+    "zx-21",
+    "capa",
+    "diagnóstico",
+    "mecanismo",
+    "virada",
+    "critério",
+    "exemplo",
+    "limite",
+    "fechamento",
+    "JO1",
+    "JE1",
+    "R5",
+    "[S32]",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "caption": [
+    "Se a operação só anda quando você empurra, o diagnóstico mais comum é \"falta gente boa\". Na maioria das vezes, o que falta é alçada: ninguém sabe o que pode decidir sem você.",
+    "Decisão sem dono definido vira fila, e a fila mora na cabeça de quem responde pela operação. O quadro do slide 5 organiza isso em três níveis: decide e segue, decide e avisa, traz para decidir junto. O critério é o custo do erro, não a confiança na pessoa.",
+    "A ideia de Amy Edmondson, num estudo com 51 equipes de uma empresa industrial: time que esconde dúvida preserva a aparência e acumula o risco. Alçada clara faz a dúvida aparecer cedo, quando ainda custa pouco.",
+    "Alçada não elimina erro — define qual erro é aceitável e em que nível. Os valores e limites exatos são de cada negócio; o quadro é o método.",
+    "Escolha uma decisão que hoje espera por você e escreva a alçada dela: quem decide, até onde, quando avisa."
+  ],
+  "caption_sources": [
+    "Referência: Amy C. Edmondson, Psychological Safety and Learning Behavior in Work Teams, Administrative Science Quarterly 44(2), 1999. Uso em paráfrase.",
+    "Exemplos ilustrativos; os limites de cada alçada variam por negócio."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "cover",
+      "kicker": "Alçadas",
+      "copy": {
+        "title": "Sua equipe te chama\npara tudo?",
+        "accentLine": "Falta alçada,\nnão gente boa.",
+        "sub": "Para quem responde pela operação."
+      },
+      "approved_visible_copy": [
+        "Alçadas",
+        "01/08",
+        "Sua equipe te chama para tudo?",
+        "Falta alçada, não gente boa.",
+        "Para quem responde pela operação.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 1 de 8. Sua equipe te chama para tudo? Falta alçada, não gente boa. Tipografia sobre papel claro, com a segunda frase em laranja. A capa nomeia a experiência do dono que aprova tudo e desloca a causa da equipe para a definição de alçadas."
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "lines",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "O encaixe espera você\nsair do atendimento.",
+          "O desconto espera\nvocê responder."
+        ],
+        "closing": "Duas decisões paradas. Nenhuma precisava de você."
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/08",
+        "O encaixe espera você sair do atendimento.",
+        "O desconto espera você responder.",
+        "Duas decisões paradas. Nenhuma precisava de você.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 2 de 8. O encaixe espera o dono sair do atendimento; o desconto espera ele responder. Duas decisões paradas, e nenhuma precisava dele. Cena concreta de uma clínica: a recepção aguarda o fim do atendimento para confirmar um encaixe simples."
+    },
+    {
+      "n": 3,
+      "papel_interno": "mecanismo",
+      "layout": "statement",
+      "kicker": "A fila",
+      "copy": {
+        "title": "Decisão sem alçada\nvira fila.",
+        "accent": "E a fila mora\nna sua cabeça.",
+        "body": "Cada \"só confirma com o dono\" é mais um item no seu dia."
+      },
+      "approved_visible_copy": [
+        "A fila",
+        "03/08",
+        "Decisão sem alçada vira fila.",
+        "E a fila mora na sua cabeça.",
+        "Cada \"só confirma com o dono\" é mais um item no seu dia.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 3 de 8. Decisão sem alçada vira fila, e a fila mora na cabeça do dono. Cada pedido de confirmação é mais um item no dia dele. O mecanismo da peça: o gargalo não é o volume de trabalho, é a decisão não distribuída."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "statement",
+      "kicker": "Delegar",
+      "copy": {
+        "big": true,
+        "title": "Delegar não é\nconfiar mais.",
+        "accent": "É definir melhor."
+      },
+      "approved_visible_copy": [
+        "Delegar",
+        "04/08",
+        "Delegar não é confiar mais.",
+        "É definir melhor.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 4 de 8. Delegar não é confiar mais; é definir melhor. Frase única em escala máxima com a conclusão em laranja, sobre papel claro — nesta série a ruptura é de escala tipográfica, não de campo escuro. A reformulação: delegação como desenho de alçada, não ato de fé."
+    },
+    {
+      "n": 5,
+      "papel_interno": "critério",
+      "layout": "fields",
+      "kicker": "Três níveis",
+      "copy": {
+        "title": "Toda decisão da sua\noperação cabe em\num de três níveis.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Decide e segue —\no erro custa pouco e se corrige no dia"
+          },
+          {
+            "num": "02",
+            "label": "Decide e avisa — você fica sabendo, não aprova antes"
+          },
+          {
+            "num": "03",
+            "label": "Traz para decidir junto — toca contrato, caixa ou reputação"
+          }
+        ]
+      },
+      "approved_visible_copy": [
+        "Três níveis",
+        "05/08",
+        "Toda decisão da sua operação cabe em um de três níveis.",
+        "01",
+        "Decide e segue — o erro custa pouco e se corrige no dia",
+        "02",
+        "Decide e avisa — você fica sabendo, não aprova antes",
+        "03",
+        "Traz para decidir junto — toca contrato, caixa ou reputação",
+        "Zionaxs"
+      ],
+      "alt": "Slide 5 de 8. Toda decisão da operação cabe em um de três níveis: decide e segue, quando o erro custa pouco e se corrige no dia; decide e avisa, quando o dono fica sabendo sem aprovar antes; traz para decidir junto, quando toca contrato, caixa ou reputação. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "exemplo",
+      "layout": "keyvalue",
+      "kicker": "Na prática",
+      "copy": {
+        "title": "Na mesma operação,\npode ficar assim:",
+        "rows": [
+          {
+            "k": "Nível 1",
+            "v": "Reagendar horário: decide e segue"
+          },
+          {
+            "k": "Nível 2",
+            "v": "Exceção pequena de prazo: decide e avisa"
+          },
+          {
+            "k": "Nível 3",
+            "v": "Desconto grande: decide junto"
+          }
+        ]
+      },
+      "approved_visible_copy": [
+        "Na prática",
+        "06/08",
+        "Na mesma operação, pode ficar assim:",
+        "Nível 1",
+        "Reagendar horário: decide e segue",
+        "Nível 2",
+        "Exceção pequena de prazo: decide e avisa",
+        "Nível 3",
+        "Desconto grande: decide junto",
+        "Zionaxs"
+      ],
+      "alt": "Slide 6 de 8. Exemplo aplicado dos três níveis na mesma operação: reagendar horário decide e segue; exceção pequena de prazo decide e avisa; desconto grande vem para decidir junto. Os limites exatos são de cada negócio — o quadro é o método."
+    },
+    {
+      "n": 7,
+      "papel_interno": "limite",
+      "layout": "statement",
+      "kicker": "Vale dizer",
+      "copy": {
+        "title": "Alçada não\nelimina erro.",
+        "accent": "Define qual erro é\naceitável — e onde.",
+        "body": "A ideia de Amy Edmondson: equipe que esconde dúvida acumula risco. Alçada clara faz a dúvida aparecer cedo."
+      },
+      "approved_visible_copy": [
+        "Vale dizer",
+        "07/08",
+        "Alçada não elimina erro.",
+        "Define qual erro é aceitável — e onde.",
+        "A ideia de Amy Edmondson: equipe que esconde dúvida acumula risco. Alçada clara faz a dúvida aparecer cedo.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 7 de 8. Alçada não elimina erro; define qual erro é aceitável e onde. A ideia de Amy Edmondson, em paráfrase: equipe que esconde dúvida acumula risco, e alçada clara faz a dúvida aparecer cedo. O limite da dica declarado na própria peça."
+    },
+    {
+      "n": 8,
+      "papel_interno": "fechamento",
+      "layout": "statement",
+      "kicker": "Comece hoje",
+      "copy": {
+        "title": "Escolha uma decisão\nque hoje espera\npor você.",
+        "accent": "Escreva a alçada dela:\nquem decide, até onde,\nquando avisa."
+      },
+      "approved_visible_copy": [
+        "Comece hoje",
+        "08/08",
+        "Escolha uma decisão que hoje espera por você.",
+        "Escreva a alçada dela: quem decide, até onde, quando avisa.",
+        "Zionaxs"
+      ],
+      "alt": "Slide 8 de 8. Escolha uma decisão que hoje espera por você e escreva a alçada dela: quem decide, até onde, quando avisa. Fechamento com uma única ação, executável hoje com papel e caneta — sem contato comercial, coerente com peça de audiência."
+    }
+  ]
+}

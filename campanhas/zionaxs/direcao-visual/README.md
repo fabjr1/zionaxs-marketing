@@ -32,6 +32,23 @@ Este diretório é a referência permanente. `estilo-poster-editorial.html` é o
 
 Peças de produção continuam nascendo por contrato no marketing-os (gates G1–G12, aprovação por digest). Este estilo entra como extensão dos layouts do renderer; nada aqui dispensa a aprovação humana de cada peça.
 
+## Escolha de foto: a imagem é parte do gancho
+
+Aprovado por Fabiano em 29/08/2026: foto e headline se escolhem no mesmo movimento. A imagem tem de encenar a MESMA cena que a frase descreve — a cena do leitor, não a metáfora decorativa.
+
+- Perguntar "qual é a cena concreta desta frase?" e buscar essa cena, não a palavra-chave abstrata do tema.
+- Nunca contradizer a copy: foto de celular marcando outro dia e hora sob "Segunda, 8h" queima a credibilidade.
+- Comparar candidatas em folha de contato, já com o tratamento aplicado (P&B, escurecimento), antes de decidir.
+- Regra do rosto continua: silhueta, contraluz ou rosto dissolvido na luz.
+
+Exemplo desta peça: a capa trocou papéis voando numa biblioteca (bonita, genérica) por uma silhueta à mesa contra a janela ao amanhecer — é a segunda-feira do leitor; e "catorze mensagens, três urgências" virou uma parede inteira coberta de recados.
+
+## Logo oficial
+
+Wordmark `zionaxs_` — caixa baixa, grotesca pesada, laranja #F54502, underscore final. Entregue pelo Fabiano em 29/08/2026 em PNG 2000×554 com alpha e instalada em `sistema/workspace/brand/logo/` (variantes preta, branca, laranja e cinza).
+
+O renderer escolhe a variante pelo campo — preta sobre papel, branca sobre foto e sobre laranja — via a chave `logo` do brand pack. Com logo instalada, a wordmark em texto sai da `approved_visible_copy`: o rodapé passa a ser imagem, e exigir o texto quebraria o G10. Isso resolve o `logoPending` que bloqueava publicação; o SVG vetorial segue pendente no Design System.
+
 ## Implementação no renderer (29/08/2026)
 
 O estilo está implementado como família de layouts `poster-*` em `sistema/app/lib/templates/carousel-4x5.js` (cover, scene, lines, turn, fields, statement, close), com tokens novos no brand pack (`posterCream`, `posterGlow`, `posterTeal`). Notas de produção que diferem do mock, exigidas pelos gates:

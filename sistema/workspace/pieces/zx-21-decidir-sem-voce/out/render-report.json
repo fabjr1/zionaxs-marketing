@@ -1,6 +1,6 @@
 {
-  "pieceId": "zx-22-reuniao-de-30-minutos",
-  "generatedAt": "2026-08-29T15:42:30-03:00",
+  "pieceId": "zx-21-decidir-sem-voce",
+  "generatedAt": "2026-08-29T00:24:59-03:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -38,76 +38,62 @@
     }
   ],
   "slides": [
-    "zx-22-reuniao-de-30-minutos-slide-01.png",
-    "zx-22-reuniao-de-30-minutos-slide-02.png",
-    "zx-22-reuniao-de-30-minutos-slide-03.png",
-    "zx-22-reuniao-de-30-minutos-slide-04.png",
-    "zx-22-reuniao-de-30-minutos-slide-05.png",
-    "zx-22-reuniao-de-30-minutos-slide-06.png",
-    "zx-22-reuniao-de-30-minutos-slide-07.png"
+    "zx-21-decidir-sem-voce-slide-01.png",
+    "zx-21-decidir-sem-voce-slide-02.png",
+    "zx-21-decidir-sem-voce-slide-03.png",
+    "zx-21-decidir-sem-voce-slide-04.png",
+    "zx-21-decidir-sem-voce-slide-05.png",
+    "zx-21-decidir-sem-voce-slide-06.png",
+    "zx-21-decidir-sem-voce-slide-07.png",
+    "zx-21-decidir-sem-voce-slide-08.png"
   ],
   "perSlide": [
     {
       "n": 1,
       "minContrast": 3.38,
       "levels": [
-        86,
-        54,
-        26
+        80,
+        34
       ],
       "chromeLevels": [
-        46,
-        24,
-        22,
-        17,
-        15
+        26
       ],
-      "renderedText": "2026Rito semanal 01/07 Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso. Roteiro pronto. Sem sistema novo. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: F. Rezvani"
+      "renderedText": "Alçadas01/08 Sua equipe te chama para tudo? Falta alçada, não gente boa. Para quem responde pela operação. Zionaxs"
     },
     {
       "n": 2,
       "minContrast": 5.68,
       "levels": [
-        80,
-        40
+        64,
+        46
       ],
       "chromeLevels": [
-        26,
-        24,
-        17,
-        15
+        26
       ],
-      "renderedText": "A cena02/07 Segunda, 8h. Catorze mensagens, três urgências. A semana decide por você antes de você decidir por ela. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: A. Vo"
+      "renderedText": "A cena02/08 O encaixe espera você sair do atendimento. O desconto espera você responder. Duas decisões paradas. Nenhuma precisava de você. Zionaxs"
     },
     {
       "n": 3,
-      "minContrast": 5.68,
+      "minContrast": 3.38,
       "levels": [
         64,
-        34
+        46
       ],
       "chromeLevels": [
-        26,
-        24,
-        17,
-        15
+        26
       ],
-      "renderedText": "Raio-X03/07 O cargo diz: sócio. O calendário diz: conferência de lançamento. A ideia de Mintzberg: a agenda é o raio-X da gestão. O que não tem horário não acontece. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "A fila03/08 Decisão sem alçada vira fila. E a fila mora na sua cabeça. Cada \"só confirma com o dono\" é mais um item no seu dia. Zionaxs"
     },
     {
       "n": 4,
       "minContrast": 3.38,
       "levels": [
-        78
+        80
       ],
       "chromeLevels": [
-        46,
-        24,
-        22,
-        17,
-        15
+        26
       ],
-      "renderedText": "2026Gestão 04/07 Gestão não é o que sobra do dia. É um horário no calendário. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "Delegar04/08 Delegar não é confiar mais. É definir melhor. Zionaxs"
     },
     {
       "n": 5,
@@ -118,44 +104,44 @@
         32
       ],
       "chromeLevels": [
-        26,
-        24,
-        17,
-        15
+        26
       ],
-      "renderedText": "O roteiro05/07 30 minutos, três blocos. 0110 min — Números: os três que você escolheu, na mesma ordem 0210 min — Travas: o que está parado esperando sua decisão 0310 min — Uma melhoria: o que muda nesta semana Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "Três níveis05/08 Toda decisão da sua operação cabe em um de três níveis. 01Decide e segue — o erro custa pouco e se corrige no dia 02Decide e avisa — você fica sabendo, não aprova antes 03Traz para decidir junto — toca contrato, caixa ou reputação Zionaxs"
     },
     {
       "n": 6,
       "minContrast": 5.68,
       "levels": [
         64,
-        40
+        38
       ],
       "chromeLevels": [
-        26,
-        24,
-        17,
-        15
+        26
       ],
-      "renderedText": "Sem atalho06/07 O rito não resolve crise. Ele impede que a crise seja o único momento de gestão. Sem painel? Três números à mão valem mais que dashboard adiado. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc"
+      "renderedText": "Na prática06/08 Na mesma operação, pode ficar assim: Nível 1Reagendar horário: decide e segue Nível 2Exceção pequena de prazo: decide e avisa Nível 3Desconto grande: decide junto Zionaxs"
     },
     {
       "n": 7,
       "minContrast": 3.38,
       "levels": [
-        76,
-        40,
-        26
+        64,
+        46
       ],
       "chromeLevels": [
-        46,
-        24,
-        22,
-        17,
-        15
+        26
       ],
-      "renderedText": "2026Segunda que vem 07/07 Marque 30 minutos na próxima segunda. Mesma hora, toda semana. Se não está no calendário, não é rito. É intenção. Temas: Urgência / Agenda / Rito @zionaxs_ · ref 74d765dc · foto: E. Chystiakov"
+      "renderedText": "Vale dizer07/08 Alçada não elimina erro. Define qual erro é aceitável — e onde. A ideia de Amy Edmondson: equipe que esconde dúvida acumula risco. Alçada clara faz a dúvida aparecer cedo. Zionaxs"
+    },
+    {
+      "n": 8,
+      "minContrast": 3.38,
+      "levels": [
+        64
+      ],
+      "chromeLevels": [
+        26
+      ],
+      "renderedText": "Comece hoje08/08 Escolha uma decisão que hoje espera por você. Escreva a alçada dela: quem decide, até onde, quando avisa. Zionaxs"
     }
   ],
   "gates": [
@@ -164,7 +150,7 @@
       "name": "canvas",
       "pass": true,
       "failures": [],
-      "detail": "1080x1350 · 7 unidades"
+      "detail": "1080x1350 · 8 unidades"
     },
     {
       "id": "G2",
@@ -241,10 +227,10 @@
       "name": "alt text por unidade",
       "pass": true,
       "failures": [],
-      "detail": "7 unidades"
+      "detail": "8 unidades"
     }
   ],
   "pass": true,
-  "durationSeconds": 1.1,
-  "digest": "0b1c00685b32070cd82b116cbac2f429cf2dbd2b4dd1d228acc2a4a05910bda2"
+  "durationSeconds": 0.6,
+  "digest": "2be7d9e5f230f265ad7cf745442d8b8c7e17095d2117ccbaf12379abc8e683f1"
 }

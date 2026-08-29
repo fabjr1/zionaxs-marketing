@@ -2,7 +2,7 @@
   "name": "Zionaxs",
   "wordmark": "Zionaxs",
   "logoSvg": null,
-  "logoPending": "Design System oficial (projeto Claude Design) detém o SVG; wordmark composta em tipo é paliativo registrado — peça não publica sem resolver.",
+  "logoPending": "PNG oficial (2000×554, alpha) entregue pelo Fabiano em 29/08/2026 e instalado em brand/logo/ — resolve o bloqueio de publicação. O SVG vetorial segue no Design System; trocar quando exportado.",
   "colors": {
     "paper": "#F5F6F7",
     "ink": "#14171B",
@@ -27,12 +27,39 @@
     "cssFile": "fonts/fonts.css"
   },
   "type": {
-    "display": 80, "title": 64, "body": 46, "secondary": 34,
-    "note": 26, "kicker": 26, "figure": 232, "figureDuo": 150
+    "display": 80,
+    "title": 64,
+    "body": 46,
+    "secondary": 34,
+    "note": 26,
+    "kicker": 26,
+    "figure": 232,
+    "figureDuo": 150
   },
   "formats": {
-    "carousel-4x5": { "w": 1080, "h": 1350, "mx": 80, "my": 88 },
-    "static-1x1":   { "w": 1080, "h": 1080, "mx": 80, "my": 80 },
-    "story-9x16":   { "w": 1080, "h": 1920, "mx": 80, "my": 120 }
+    "carousel-4x5": {
+      "w": 1080,
+      "h": 1350,
+      "mx": 80,
+      "my": 88
+    },
+    "static-1x1": {
+      "w": 1080,
+      "h": 1080,
+      "mx": 80,
+      "my": 80
+    },
+    "story-9x16": {
+      "w": 1080,
+      "h": 1920,
+      "mx": 80,
+      "my": 120
+    }
+  },
+  "logo": {
+    "dir": "brand/logo",
+    "light": "zionaxs-black.png",
+    "dark": "zionaxs-white.png",
+    "height": 30
   }
 }

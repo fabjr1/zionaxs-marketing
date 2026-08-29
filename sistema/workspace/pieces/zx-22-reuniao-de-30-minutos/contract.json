@@ -102,7 +102,7 @@
         "year": "2026",
         "hl": "30 minutos",
         "temas": "Temas: Urgência / Agenda / Rito",
-        "micro": "@zionaxs_ · ref 74d765dc · foto: D. Yao"
+        "micro": "@zionaxs_ · ref 74d765dc · foto: F. Rezvani"
       },
       "approved_visible_copy": [
         "Rito semanal",
@@ -110,17 +110,14 @@
         "Sua segunda-feira começa apagando incêndio?",
         "Existe um rito de 30 minutos para isso.",
         "Roteiro pronto. Sem sistema novo.",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
-        "@zionaxs_ · ref 74d765dc · foto: D. Yao",
+        "@zionaxs_ · ref 74d765dc · foto: F. Rezvani",
         "2026"
       ],
-      "alt": "Slide 1 de 7. Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso — roteiro pronto, sem sistema novo. Pôster com fotografia escura de papéis voando sobre uma escrivaninha, tipografia clara em caixa alta e a promessa de método destacada em caixa laranja.",
+      "alt": "Slide 1 de 7. Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso — roteiro pronto, sem sistema novo. Fotografia escura de uma pessoa em silhueta sentada à mesa diante da janela ao amanhecer, com a promessa de método destacada em caixa laranja.",
       "photo": {
-        "src": "../assets/foto-papeis.jpg",
-        "pos": "50% 50%",
-        "scale": 1.42,
-        "origin": "0% 44%"
+        "src": "../assets/foto-mesa-janela.jpg",
+        "pos": "50% 45%"
       }
     },
     {
@@ -134,20 +131,19 @@
         ],
         "closing": "A semana decide por você antes de você decidir por ela.",
         "temas": "Temas: Urgência / Agenda / Rito",
-        "micro": "@zionaxs_ · ref 74d765dc · foto: K. Alloni"
+        "micro": "@zionaxs_ · ref 74d765dc · foto: A. Vo"
       },
       "approved_visible_copy": [
         "A cena",
         "02/07",
         "Segunda, 8h. Catorze mensagens, três urgências.",
         "A semana decide por você antes de você decidir por ela.",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
-        "@zionaxs_ · ref 74d765dc · foto: K. Alloni"
+        "@zionaxs_ · ref 74d765dc · foto: A. Vo"
       ],
-      "alt": "Slide 2 de 7. Segunda-feira, oito da manhã: catorze mensagens e três urgências antes da primeira decisão própria. A semana decide pelo sócio antes que ele decida por ela. Papel claro com fotografia em preto e branco de uma mesa de trabalho e geometria laranja.",
+      "alt": "Slide 2 de 7. Segunda-feira, oito da manhã: catorze mensagens e três urgências antes da primeira decisão própria. A semana decide pelo sócio antes que ele decida por ela. Papel claro com fotografia em preto e branco de uma parede inteira coberta de recados adesivos e geometria laranja.",
       "photo": {
-        "src": "../assets/foto-mesa.jpg"
+        "src": "../assets/foto-post-its.jpg"
       }
     },
     {
@@ -170,7 +166,6 @@
         "O cargo diz: sócio.",
         "O calendário diz: conferência de lançamento.",
         "A ideia de Mintzberg: a agenda é o raio-X da gestão. O que não tem horário não acontece.",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc"
       ],
@@ -196,7 +191,6 @@
         "04/07",
         "Gestão não é o que sobra do dia.",
         "É um horário no calendário.",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc",
         "2026"
@@ -237,7 +231,6 @@
         "10 min — Travas: o que está parado esperando sua decisão",
         "03",
         "10 min — Uma melhoria: o que muda nesta semana",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc"
       ],
@@ -261,7 +254,6 @@
         "O rito não resolve crise.",
         "Ele impede que a crise seja o único momento de gestão.",
         "Sem painel? Três números à mão valem mais que dashboard adiado.",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc"
       ],
@@ -287,7 +279,6 @@
         "Marque 30 minutos na próxima segunda.",
         "Mesma hora, toda semana.",
         "Se não está no calendário, não é rito. É intenção.",
-        "Zionaxs",
         "Temas: Urgência / Agenda / Rito",
         "@zionaxs_ · ref 74d765dc · foto: E. Chystiakov",
         "2026"

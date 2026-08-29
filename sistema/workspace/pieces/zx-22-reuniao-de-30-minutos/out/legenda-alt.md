@@ -16,9 +16,9 @@ Referência: Henry Mintzberg, The Manager's Job: Folklore and Fact, Harvard Busi
 
 ## Alt text por slide
 
-**01/07** · Slide 1 de 7. Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso — roteiro pronto, sem sistema novo. Pôster com fotografia escura de papéis voando sobre uma escrivaninha, tipografia clara em caixa alta e a promessa de método destacada em caixa laranja.
+**01/07** · Slide 1 de 7. Sua segunda-feira começa apagando incêndio? Existe um rito de 30 minutos para isso — roteiro pronto, sem sistema novo. Fotografia escura de uma pessoa em silhueta sentada à mesa diante da janela ao amanhecer, com a promessa de método destacada em caixa laranja.
 
-**02/07** · Slide 2 de 7. Segunda-feira, oito da manhã: catorze mensagens e três urgências antes da primeira decisão própria. A semana decide pelo sócio antes que ele decida por ela. Papel claro com fotografia em preto e branco de uma mesa de trabalho e geometria laranja.
+**02/07** · Slide 2 de 7. Segunda-feira, oito da manhã: catorze mensagens e três urgências antes da primeira decisão própria. A semana decide pelo sócio antes que ele decida por ela. Papel claro com fotografia em preto e branco de uma parede inteira coberta de recados adesivos e geometria laranja.
 
 **03/07** · Slide 3 de 7. O cargo diz sócio; o calendário diz conferência de lançamento. A ideia de Henry Mintzberg, em paráfrase: a agenda é o raio-X da gestão, e o que não tem horário não acontece. O contraste entre o papel formal e o trabalho real do dia.
 

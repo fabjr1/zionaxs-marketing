@@ -42,6 +42,7 @@ body{font-family:${f.body},sans-serif;-webkit-font-smoothing:antialiased;font-ke
 .slide.dark .ft{border-top-color:${c.darkRule}}
 .ft .wm{font-family:${f.display},sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em}
 .ft .wm svg{height:30px;display:block}
+.ft .wm img{height:${(brand.logo && brand.logo.height) || 30}px;display:block}
 .d1{font-family:${f.display},sans-serif;font-weight:700;font-size:${t.display}px;line-height:1.08;letter-spacing:-.028em}
 .d2{font-family:${f.display},sans-serif;font-weight:700;font-size:${t.title}px;line-height:1.12;letter-spacing:-.022em}
 .p{font-size:${t.body}px;line-height:1.42;font-weight:400}
@@ -173,16 +174,34 @@ body{font-family:${f.body},sans-serif;-webkit-font-smoothing:antialiased;font-ke
 .pfield-paper .ptemas{color:${c.muted}}
 .pfield-orange .ptemas{color:${c.ink}}
 .pwm{font-family:${f.display},sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em;color:${c.posterCream}}
+.pwm img{height:${(brand.logo && brand.logo.height) || 30}px;display:block}
 .pfield-paper .pwm{color:${c.ink}}
 .pfield-orange .pwm{color:${c.paper}}
 .pf2{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
 .pchips{display:flex;gap:8px}
 .pchips i{display:block;width:44px;height:20px}
 .pfield-paper .pchips i{box-shadow:inset 0 0 0 1px rgba(20,23,27,.14)}
+.pfield-orange .pchips i{box-shadow:inset 0 0 0 1px rgba(245,246,247,.45)}
 .pmicro{font-family:"${f.mono}",monospace;font-size:15px;letter-spacing:.08em;color:rgba(239,231,215,.6)}
 .pfield-paper .pmicro{color:${c.muted}}
 .pfield-orange .pmicro{color:${c.ink}}
 `;
+}
+
+/**
+ * Marca no rodapé. Ordem: SVG inline do brand pack → logo oficial em arquivo
+ * (variante por campo: preta sobre papel, branca sobre foto e laranja) →
+ * wordmark composta em tipo, paliativo de quando não há logo instalada.
+ * Caminho relativo ao out/ da peça, mesmo esquema das fontes (N-02: local).
+ */
+function logoMark(brand, escFn, variant, cls) {
+  if (brand.logoSvg) return `<span class="${cls}">${brand.logoSvg}</span>`;
+  const lg = brand.logo;
+  if (lg && lg[variant]) {
+    const src = `../../../${lg.dir || 'brand/logo'}/${lg[variant]}`;
+    return `<span class="${cls}"><img src="${escFn(src)}" alt=""></span>`;
+  }
+  return `<span class="${cls}">${escFn(brand.wordmark)}</span>`;
 }
 
 /** Realce autoral: `hl` no contrato marca a substring que ganha a caixa. */
@@ -261,7 +280,7 @@ function posterFrame(slide, ctx, bodyHtml) {
 
   const chips = [cc.ink, cc.accent, cc.posterGlow, cc.posterTeal, cc.posterCream]
     .map((x) => `<i style="background:${x}"></i>`).join('');
-  const wm = brand.logoSvg ? `<span class="pwm">${brand.logoSvg}</span>` : `<span class="pwm">${esc(brand.wordmark)}</span>`;
+  const wm = logoMark(brand, esc, field === 'paper' ? 'light' : 'dark', 'pwm');
   const foot = `<div class="ft pfoot">
     <div class="pf1"><span class="ptemas">${esc(c.temas || '')}</span>${wm}</div>
     <div class="pf2"><span class="pchips">${chips}</span><span class="pmicro">${esc(c.micro || '')}</span></div>
@@ -285,9 +304,7 @@ function chrome(slide, ctx, bodyHtml) {
   const { esc, total, brand } = ctx;
   const pad = (n) => String(n).padStart(2, '0');
   const dark = slide.dark ? ' dark' : '';
-  const wm = brand.logoSvg
-    ? `<span class="wm">${brand.logoSvg}</span>`
-    : `<span class="wm">${esc(brand.wordmark)}</span>`;
+  const wm = logoMark(brand, esc, slide.dark ? 'dark' : 'light', 'wm');
   return `<section class="slide${dark}" id="s${slide.n}">
   <div class="hd"><span class="kick">${esc(slide.kicker)}</span><span class="pg">${pad(slide.n)}/${pad(total)}</span></div>
   <div class="body">

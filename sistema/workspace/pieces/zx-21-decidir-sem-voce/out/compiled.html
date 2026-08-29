@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<!-- DERIVADO de contract.json — não editar; corrigir o contrato e recompilar (P2) -->
+<link rel="stylesheet" href="../../../brand/fonts/fonts.css">
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#3a3d42}
+body{font-family:Archivo,sans-serif;-webkit-font-smoothing:antialiased;font-kerning:normal}
+.slide{position:relative;width:1080px;height:1350px;background:#F5F6F7;color:#14171B;
+  overflow:hidden;display:flex;flex-direction:column;padding:88px 80px;margin:0 auto 40px}
+.slide.dark{background:#14171B;color:#FFFFFF}
+.hd{display:flex;justify-content:space-between;align-items:baseline;
+  padding-bottom:22px;border-bottom:2px solid #14171B;flex:none}
+.slide.dark .hd{border-bottom-color:#4A525C}
+.hd .kick{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:26px;
+  letter-spacing:.14em;text-transform:uppercase;color:#B23100}
+.slide.dark .hd .kick{color:#F54502}
+.hd .pg{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:26px;
+  letter-spacing:.06em;color:#5A6270;font-variant-numeric:tabular-nums}
+.slide.dark .hd .pg{color:#98A1AD}
+.body{flex:1;display:flex;flex-direction:column;justify-content:center;padding:56px 0}
+.ft{display:flex;justify-content:space-between;align-items:center;
+  padding-top:22px;border-top:1px solid #D8DCE1;flex:none}
+.slide.dark .ft{border-top-color:#39404A}
+.ft .wm{font-family:Poppins,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.01em}
+.ft .wm svg{height:30px;display:block}
+.d1{font-family:Poppins,sans-serif;font-weight:700;font-size:80px;line-height:1.08;letter-spacing:-.028em}
+.d2{font-family:Poppins,sans-serif;font-weight:700;font-size:64px;line-height:1.12;letter-spacing:-.022em}
+.p{font-size:46px;line-height:1.42;font-weight:400}
+.p.med{font-weight:500}
+.sec{font-size:34px;line-height:1.45;color:#5A6270}
+.slide.dark .sec{color:#98A1AD}
+.note{font-family:"JetBrains Mono",monospace;font-size:26px;line-height:1.5;color:#5A6270}
+.slide.dark .note{color:#98A1AD}
+.acc{color:#F54502}
+.acc-i{color:#B23100}
+.stack>*+*{margin-top:34px}
+.stack-s>*+*{margin-top:20px}
+.figure{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:232px;
+  line-height:.92;letter-spacing:-.04em;color:#F54502}
+.denom{font-size:46px;line-height:1.4;font-weight:500;color:#14171B;max-width:880px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:0 48px;align-items:start}
+.duo .num{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:150px;
+  line-height:.95;letter-spacing:-.03em;color:#F54502}
+.duo .lab{font-size:34px;line-height:1.35;font-weight:500;margin-top:14px}
+.duo .sub{font-family:"JetBrains Mono",monospace;font-size:26px;color:#5A6270;margin-top:10px}
+.rows{display:flex;flex-direction:column;border-top:2px solid #14171B}
+.row{display:grid;grid-template-columns:300px 1fr;align-items:center;gap:0 28px;
+  padding:30px 0;border-bottom:1px solid #D8DCE1}
+.row .k{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:38px;letter-spacing:.02em;color:#B23100}
+.row .v{font-size:38px;line-height:1.3;font-weight:500}
+.reg{display:flex;flex-direction:column;border-top:2px solid #14171B;margin-top:20px}
+.reg .l{display:grid;grid-template-columns:64px 1fr;gap:0 22px;align-items:center;
+  padding:26px 0;border-bottom:1px solid #D8DCE1}
+.reg .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:32px;color:#5A6270;font-variant-numeric:tabular-nums}
+.reg .b{height:2px;background:#D8DCE1}
+.reg .t{font-size:34px;font-weight:500;line-height:1.35}
+.cal{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:24px}
+.wk{border:2px solid #B9C0C8;border-radius:6px;background:#FFFFFF;padding:24px 12px;text-align:center;
+  font-family:"JetBrains Mono",monospace;font-size:26px;font-weight:700;color:#5A6270}
+.wk.on{border-color:#F54502;color:#B23100}
+.wk.off{background:repeating-linear-gradient(45deg,#E7E9EC 0 8px,#F5F6F7 8px 16px);color:#5A6270}
+.callab{font-family:"JetBrains Mono",monospace;font-size:26px;color:#5A6270;margin-top:16px;display:flex;gap:38px}
+.callab i{font-style:normal;display:flex;align-items:center;gap:10px}
+.dot{width:18px;height:18px;border-radius:4px;display:inline-block;border:2px solid #F54502}
+.dot.x{border-color:#B9C0C8;background:repeating-linear-gradient(45deg,#E7E9EC 0 5px,#F5F6F7 5px 10px)}
+.diag{display:grid;grid-template-columns:1fr 96px 1fr;align-items:center;margin-top:52px}
+.diag .col{display:flex;flex-direction:column;gap:18px}
+.cell{background:#FFFFFF;color:#14171B;border:2px solid #B9C0C8;border-radius:6px;
+  padding:22px 26px;font-size:34px;line-height:1.3;font-weight:500}
+.cell.out{border-color:#F54502;color:#B23100;font-weight:600}
+.arrows{position:relative;height:100%;min-height:230px}
+.arrows svg{position:absolute;inset:0;width:100%;height:100%}
+.math{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:88px;letter-spacing:-.03em;
+  line-height:1.1;color:#F54502}
+.cite{border-left:3px solid #B9C0C8;padding-left:24px;margin-top:44px}
+.imgwrap{margin-top:40px;border:1px solid #D8DCE1;border-radius:6px;overflow:hidden}
+.imgwrap img{width:100%;display:block}
+
+</style>
+</head>
+<body>
+
+<section class="slide" id="s1">
+  <div class="hd"><span class="kick">Alçadas</span><span class="pg">01/08</span></div>
+  <div class="body">
+<div class="stack">
+  <h1 class="d1">Sua equipe te chama<br>para tudo?<br><span class="acc">Falta alçada,<br>não gente boa.</span></h1>
+  <p class="sec">Para quem responde pela operação.</p>
+  
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s2">
+  <div class="hd"><span class="kick">A cena</span><span class="pg">02/08</span></div>
+  <div class="body">
+<div class="stack-s">
+  <p class="d2">O encaixe espera você<br>sair do atendimento.</p>
+  <p class="d2">O desconto espera<br>você responder.</p>
+  <p class="p med" style="margin-top:40px">Duas decisões paradas. Nenhuma precisava de você.</p>
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s3">
+  <div class="hd"><span class="kick">A fila</span><span class="pg">03/08</span></div>
+  <div class="body">
+<div class="stack">
+  <p class="d2">Decisão sem alçada<br>vira fila.</p>
+  <p class="d2 acc">E a fila mora<br>na sua cabeça.</p>
+  <p class="p med acc-i">Cada &quot;só confirma com o dono&quot; é mais um item no seu dia.</p>
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s4">
+  <div class="hd"><span class="kick">Delegar</span><span class="pg">04/08</span></div>
+  <div class="body">
+<div class="stack">
+  <p class="d1">Delegar não é<br>confiar mais.</p>
+  <p class="d1 acc">É definir melhor.</p>
+  
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s5">
+  <div class="hd"><span class="kick">Três níveis</span><span class="pg">05/08</span></div>
+  <div class="body">
+<div>
+  <p class="d2" style="margin-bottom:16px">Toda decisão da sua<br>operação cabe em<br>um de três níveis.</p>
+  
+  <div class="reg">
+    <div class="l"><span class="n">01</span><span class="t">Decide e segue —<br>o erro custa pouco e se corrige no dia</span></div>
+    <div class="l"><span class="n">02</span><span class="t">Decide e avisa — você fica sabendo, não aprova antes</span></div>
+    <div class="l"><span class="n">03</span><span class="t">Traz para decidir junto — toca contrato, caixa ou reputação</span></div>
+  </div>
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s6">
+  <div class="hd"><span class="kick">Na prática</span><span class="pg">06/08</span></div>
+  <div class="body">
+<div>
+  <p class="d2" style="margin-bottom:44px">Na mesma operação,<br>pode ficar assim:</p>
+  <div class="rows">
+    <div class="row"><span class="k">Nível 1</span><span class="v">Reagendar horário: decide e segue</span></div>
+    <div class="row"><span class="k">Nível 2</span><span class="v">Exceção pequena de prazo: decide e avisa</span></div>
+    <div class="row"><span class="k">Nível 3</span><span class="v">Desconto grande: decide junto</span></div>
+  </div>
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s7">
+  <div class="hd"><span class="kick">Vale dizer</span><span class="pg">07/08</span></div>
+  <div class="body">
+<div class="stack">
+  <p class="d2">Alçada não<br>elimina erro.</p>
+  <p class="d2 acc">Define qual erro é<br>aceitável — e onde.</p>
+  <p class="p med acc-i">A ideia de Amy Edmondson: equipe que esconde dúvida acumula risco. Alçada clara faz a dúvida aparecer cedo.</p>
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+<section class="slide" id="s8">
+  <div class="hd"><span class="kick">Comece hoje</span><span class="pg">08/08</span></div>
+  <div class="body">
+<div class="stack">
+  <p class="d2">Escolha uma decisão<br>que hoje espera<br>por você.</p>
+  <p class="d2 acc">Escreva a alçada dela:<br>quem decide, até onde,<br>quando avisa.</p>
+  
+</div>
+  </div>
+  <div class="ft"><span class="wm">Zionaxs</span></div>
+</section>
+
+</body>
+</html>
