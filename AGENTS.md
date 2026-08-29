@@ -51,9 +51,11 @@ O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **13 gat
 
 | Comando | O que faz |
 |---|---|
-| `/carrossel` | Produz um carrossel completo da Zionaxs, do tema à peça renderizada e pronta para aprovação. Sem argumento, pesquisa e escolhe o tema; com argumento, usa o tema dado. Definido em `.claude/commands/carrossel.md`. |
+| `/carrossel-zionaxs` | Cria **e publica** um carrossel da Zionaxs, do tema ao post no ar. Sem argumento, pesquisa e escolhe o tema. Definido em `.claude/commands/carrossel-zionaxs.md`. |
 
 O comando é do projeto, então a sessão precisa estar aberta na pasta deste repositório para enxergá-lo.
+
+O sufixo é a marca. Cada marca nova ganha o seu `/carrossel-<marca>`, com os padrões e a conta daquela marca; as marcas vivem em `sistema/workspace/brands/<id>/manifest.json`. Publicação automática passa pelo porteiro `node bin/pode-publicar.js <id>`, que confere gates, padrão, trilha e a cadência de 1 post por dia.
 
 ### Padrões da marca, aprovados e permanentes
 

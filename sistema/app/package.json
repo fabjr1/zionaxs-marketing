@@ -12,7 +12,8 @@
     "test": "node --test \"test/**/*.test.js\"",
     "gen": "node bin/gen.js",
     "console": "node bin/console.js",
-    "auditoria": "node bin/auditoria.js"
+    "auditoria": "node bin/auditoria.js",
+    "pode-publicar": "node bin/pode-publicar.js"
   },
   "dependencies": {
     "playwright": "1.62.1"
