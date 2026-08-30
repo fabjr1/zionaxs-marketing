@@ -5,11 +5,9 @@
   "format": "story-9x16",
   "fps": 30,
   "nota_de_formato": "Primeira peça de vídeo nascida de contrato. Vive aqui, e não em sistema/workspace/pieces, porque o renderer do marketing-os ainda não conhece o formato e a auditoria varre aquela pasta esperando carrossel. Quando o gen.js aprender vídeo, a peça muda de endereço.",
-
   "tese": "Trabalho que entra por 5 canais diferentes nunca vira fila; sem fila não há prioridade nem prazo, e o dono vira o único lugar onde a lista existe.",
   "categoria_editorial": "Dica prática de rotina",
   "jtbd": "JO1 (checklist que a equipe executa sem o dono) e desejo Tempo de volta (19b)",
-
   "research_brief": {
     "publico": "Transversal, dono ou sócio que responde pela operação de serviços. Cena concreta: escritório contábil (V2) e advocacia (V3), com leitura direta para clínica (V1).",
     "decisao": "Definir 1 canal único de entrada de pedido e tratar os demais como aviso, não como fila.",
@@ -32,7 +30,6 @@
       }
     ]
   },
-
   "trilha_sugerida": {
     "faixa": "Da Funk",
     "artista": "Daft Punk",
@@ -40,18 +37,27 @@
     "porque": "O riff é o que se reconhece, não a voz, então a familiaridade chega sem competir com a leitura. Andamento constante do início ao fim, sem virada épica, que é o que a peça pede porque cada pessoa lê no próprio ritmo.",
     "evitar": "Qualquer trilha de superação com virada dramática, que empurra a marca para o tom de coach e briga com o posicionamento de engenharia."
   },
-
   "batidas": [
     {
       "n": 1,
       "papel": "gancho",
       "campo": "foto",
       "cena": "poster-cover",
-      "duracao": 75,
-      "foto": { "src": "foto/mural-recados.jpg", "credito": "A. Vo", "escala": [1.04, 1.14] },
+      "duracao": 150,
+      "foto": {
+        "src": "foto/mural-recados.jpg",
+        "credito": "A. Vo",
+        "escala": [
+          1.04,
+          1.14
+        ]
+      },
       "copy": {
         "kicker": "Entrada de trabalho",
-        "titulo": ["5 portas.", "Nenhuma fila."],
+        "titulo": [
+          "5 portas.",
+          "Nenhuma fila."
+        ],
         "sub": "O pedido entra por todo lado, e o dono vira o único lugar onde a lista existe."
       },
       "approved_visible_copy": [
@@ -67,14 +73,24 @@
       "papel": "cena",
       "campo": "tinta",
       "cena": "portas-chegando",
-      "duracao": 90,
+      "duracao": 150,
       "copy": {
         "linha": "Hoje o pedido chega por 5 caminhos ao mesmo tempo.",
-        "chips": ["WhatsApp", "E-mail", "Ligação", "Corredor", "Sistema"]
+        "chips": [
+          "WhatsApp",
+          "E-mail",
+          "Ligação",
+          "Corredor",
+          "Sistema"
+        ]
       },
       "approved_visible_copy": [
         "Hoje o pedido chega por 5 caminhos ao mesmo tempo.",
-        "WhatsApp", "E-mail", "Ligação", "Corredor", "Sistema"
+        "WhatsApp",
+        "E-mail",
+        "Ligação",
+        "Corredor",
+        "Sistema"
       ],
       "alt": "Batida 2 de 8. Cinco etiquetas com os nomes dos canais entram voando pelas bordas e se acumulam tortas no centro."
     },
@@ -83,7 +99,7 @@
       "papel": "cena",
       "campo": "tinta",
       "cena": "fila-vazia",
-      "duracao": 85,
+      "duracao": 145,
       "copy": {
         "linha": "Nenhum desses caminhos vira uma lista que alguém consiga abrir e contar.",
         "rotulo": "Fila"
@@ -99,7 +115,7 @@
       "papel": "figura",
       "campo": "tinta",
       "cena": "contador",
-      "duracao": 110,
+      "duracao": 205,
       "copy": {
         "figura": "25",
         "unidade": "minutos",
@@ -119,7 +135,7 @@
       "papel": "mecanismo",
       "campo": "tinta",
       "cena": "corte-e-volta",
-      "duracao": 90,
+      "duracao": 185,
       "copy": {
         "linha": "A interrupção não custa o minuto da pergunta. Custa a volta.",
         "sub": "Cada retomada cobra o tempo de reabrir o assunto, lembrar onde parou e recomeçar do zero.",
@@ -129,7 +145,8 @@
       "approved_visible_copy": [
         "A interrupção não custa o minuto da pergunta. Custa a volta.",
         "Cada retomada cobra o tempo de reabrir o assunto, lembrar onde parou e recomeçar do zero.",
-        "Pergunta", "Volta"
+        "Pergunta",
+        "Volta"
       ],
       "alt": "Batida 5 de 8. Uma barra de trabalho é cortada por um traço fino e ao lado cresce uma barra larga, mostrando que a volta custa muito mais que a pergunta."
     },
@@ -138,7 +155,7 @@
       "papel": "virada",
       "campo": "laranja",
       "cena": "colapso",
-      "duracao": 105,
+      "duracao": 175,
       "copy": {
         "kicker": "A virada",
         "titulo": "1 porta só",
@@ -156,16 +173,25 @@
       "papel": "consequência",
       "campo": "tinta",
       "cena": "fila-aparece",
-      "duracao": 100,
+      "duracao": 180,
       "copy": {
         "linha": "Com 1 porta, a fila existe.",
         "sub": "Dá para contar, ordenar e prometer prazo com base no tamanho real, e não no palpite.",
-        "itens": ["Contar", "Ordenar", "Prometer prazo"]
+        "itens": [
+          "Contar",
+          "Ordenar",
+          "Prometer prazo"
+        ]
       },
       "approved_visible_copy": [
         "Com 1 porta, a fila existe.",
         "Dá para contar, ordenar e prometer prazo com base no tamanho real, e não no palpite.",
-        "1", "2", "3", "Contar", "Ordenar", "Prometer prazo"
+        "1",
+        "2",
+        "3",
+        "Contar",
+        "Ordenar",
+        "Prometer prazo"
       ],
       "alt": "Batida 7 de 8. Três itens numerados se alinham em coluna: contar, ordenar e prometer prazo."
     },
@@ -174,7 +200,7 @@
       "papel": "passo",
       "campo": "papel",
       "cena": "poster-close",
-      "duracao": 95,
+      "duracao": 180,
       "copy": {
         "kicker": "O passo",
         "titulo": "Comece hoje",
@@ -188,16 +214,15 @@
       "alt": "Batida 8 de 8. Campo de papel claro com o passo prático e a marca no rodapé."
     }
   ],
-
   "chrome": {
     "ano": "2026",
     "selo": "ZXV 01",
     "temas": "Temas: Entrada / Fila / Prazo",
     "micro": "@zionaxs_ · foto: A. Vo"
   },
-
   "caption": "O trabalho da sua equipe entra por WhatsApp, e-mail, ligação, conversa de corredor e sistema. Como nenhum desses caminhos junta os pedidos em uma lista só, ninguém consegue ver o tamanho do trabalho, e a ordem do dia acaba sendo definida por quem insistiu por último.\n\nO custo não aparece na hora da pergunta. Ele aparece na volta: em média a pessoa leva mais de 25 minutos para retomar a tarefa que foi interrompida, e antes disso passa por pelo menos 2 outras. É o que Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, mediu com Victor González e Justin Harris acompanhando o trabalho real de quem trabalha em escritório.\n\nO passo é pequeno e cabe em uma semana: escolha 1 canal para receber pedido. Nos outros você continua respondendo, mas responde assim: me manda por ali. Em 2 semanas a fila existe, e aí dá para contar, ordenar e prometer prazo com base no tamanho real.",
   "caption_sources": [
     "Gloria Mark, Victor M. González e Justin Harris. No Task Left Behind? Examining the Nature of Fragmented Work. CHI 2005: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, páginas 321 a 330."
-  ]
+  ],
+  "nota_de_ritmo": "Duracoes revistas em 29/08/2026 a pedido do Fabiano: a peca estava rapida demais para ler. A entrada de cada elemento continua na mesma velocidade; o que cresceu foi o tempo parado depois que tudo ja esta na tela. Base: corpo de texto lido a 3,5 palavras por segundo."
 }

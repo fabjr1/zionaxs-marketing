@@ -42,6 +42,11 @@ fs.rmSync(frames, { recursive: true, force: true });
 fs.rmSync(provasDir, { recursive: true, force: true });
 run(process.execPath, [REMOTION_CLI, 'render', 'src/index.jsx', comp, path.relative(root, frames), '--sequence', '--image-format=png']);
 
+// Quantos dígitos o Remotion usou no nome do quadro. Ele ajusta a largura ao
+// total de quadros, então uma peça mais longa passa de element-000 para
+// element-0000 e um padrão fixo quebra sem aviso.
+const PAD = (fs.readdirSync(frames).find((f) => f.endsWith('.png')) || '').replace(/\D/g, '').length || 3;
+
 // O quadro entra em PNG, sem perda nenhuma até aqui. Quem decide a qualidade
 // final é só esta chamada, e ela tem uma armadilha medida em 29/08/2026.
 //
@@ -70,7 +75,7 @@ run(process.execPath, [REMOTION_CLI, 'render', 'src/index.jsx', comp, path.relat
 run('ffmpeg', [
   '-y', '-loglevel', 'error',
   '-framerate', String(linha.fps), '-start_number', '0',
-  '-i', path.join(path.relative(root, frames), 'element-%03d.png'),
+  '-i', path.join(path.relative(root, frames), `element-%0${PAD}d.png`),
   // O setparams carimba as 4 marcas no quadro. Sem ele, as opções de saída
   // gravavam só a matriz, e primaries e transfer saíam como "unknown".
   '-vf', [
@@ -88,7 +93,7 @@ run('ffmpeg', [
 // gate precisa olhar. Render é determinístico, então o resto se refaz.
 fs.mkdirSync(provasDir, { recursive: true });
 for (const n of linha.provas) {
-  const nome = `element-${String(n).padStart(3, '0')}.png`;
+  const nome = `element-${String(n).padStart(PAD, '0')}.png`;
   fs.copyFileSync(path.join(frames, nome), path.join(provasDir, `batida-${n}.png`));
 }
 const antes = fs.readdirSync(frames).reduce((t, f) => t + fs.statSync(path.join(frames, f)).size, 0);
