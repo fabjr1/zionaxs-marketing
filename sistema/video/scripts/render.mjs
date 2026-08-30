@@ -17,11 +17,13 @@ import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { FPS, provas } from '../src/tempo.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const comp = process.argv[2] || 'zx-teste';
 const frames = path.join(root, 'out', comp);
 const mp4 = path.join(root, 'out', `${comp}.mp4`);
+const provasDir = path.join(root, 'out', `${comp}-provas`);
 
 // Sem shell em nenhum dos dois: o ffmpeg o Windows resolve sozinho pelo PATH, e
 // o CLI do Remotion é chamado pelo arquivo .js, não pelo npx. O npx é um .cmd,
@@ -35,18 +37,63 @@ function run(cmd, args) {
 }
 
 fs.rmSync(frames, { recursive: true, force: true });
+fs.rmSync(provasDir, { recursive: true, force: true });
 run(process.execPath, [REMOTION_CLI, 'render', 'src/index.jsx', comp, path.relative(root, frames), '--sequence', '--image-format=png']);
 
-// -crf 18 e preset slow: o Instagram recomprime, então entregar folga de bitrate
-// custa pouco e evita banding no campo laranja chapado.
+// O quadro entra em PNG, sem perda nenhuma até aqui. Quem decide a qualidade
+// final é só esta chamada, e ela tem uma armadilha medida em 29/08/2026.
+//
+// O h264 não guarda RGB: guarda luma e croma, e o arquivo precisa DIZER com
+// qual matriz essa conversão foi feita. Sem dizer, o ffmpeg convertia usando
+// BT.601, o padrão dele quando ninguém especifica, e gravava sem marca nenhuma.
+// Todo player de HD lê arquivo sem marca como BT.709. Resultado medido no
+// laranja da marca, no quadro 180:
+//
+//   fonte PNG           R=245 G=73 B=3
+//   sem marca, lido 709 R=255 G=84 B=0   (estourado e mais amarelo)
+//   com esta linha      R=245 G=71 B=2
+//
+// SSIM do quadro inteiro contra a fonte, lido como player lê: 0.67 sem marca,
+// 0.91 com. Cuidado ao reconferir: medir com o próprio ffmpeg SEM forçar 709
+// dá 0.96 para o arquivo sem marca, porque aí ele decodifica com a mesma
+// suposição errada com que codificou, e o erro se cancela sozinho.
+//
+// Por isso a conversão é explícita no filtro, e não só declarada nas marcas:
+// filtro e marca precisam contar a mesma história.
+//
+// -crf 18 com preset slow: o Instagram recomprime por cima, então folga de
+//   bitrate custa pouco e evita banding no laranja chapado.
+// full_chroma_int + accurate_rnd: o 4:2:0 joga fora 3/4 da informação de cor,
+//   e é onde texto branco sobre laranja saturado ganha franja.
 run('ffmpeg', [
   '-y', '-loglevel', 'error',
-  '-framerate', '30', '-start_number', '0',
+  '-framerate', String(FPS), '-start_number', '0',
   '-i', path.join(path.relative(root, frames), 'element-%03d.png'),
+  // O setparams carimba as 4 marcas no quadro. Sem ele, as opções de saída
+  // gravavam só a matriz, e primaries e transfer saíam como "unknown".
+  '-vf', [
+    'scale=in_range=full:out_range=tv:out_color_matrix=bt709:flags=full_chroma_int+accurate_rnd',
+    'setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv',
+  ].join(','),
   '-c:v', 'libx264', '-preset', 'slow', '-crf', '18',
-  '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
+  '-pix_fmt', 'yuv420p',
+  '-movflags', '+faststart',
   path.relative(root, mp4),
 ]);
 
+// A sequência inteira custa centenas de MB e já cumpriu o papel dela: o mp4
+// está fechado. Ficam só os quadros de prova, que é o que uma revisão ou um
+// gate precisa olhar. Render é determinístico, então o resto se refaz.
+fs.mkdirSync(provasDir, { recursive: true });
+for (const n of provas()) {
+  const nome = `element-${String(n).padStart(3, '0')}.png`;
+  fs.copyFileSync(path.join(frames, nome), path.join(provasDir, `batida-${n}.png`));
+}
+const antes = fs.readdirSync(frames).reduce((t, f) => t + fs.statSync(path.join(frames, f)).size, 0);
+fs.rmSync(frames, { recursive: true, force: true });
+
 const { size } = fs.statSync(mp4);
-console.log(`${path.relative(root, mp4)} pronto (${(size / 1024 / 1024).toFixed(2)} MB)`);
+const mb = (n) => (n / 1024 / 1024).toFixed(2);
+console.log(`${path.relative(root, mp4)} pronto (${mb(size)} MB)`);
+console.log(`provas: ${provas().length} quadros em ${path.relative(root, provasDir)}`);
+console.log(`sequência apagada: ${mb(antes)} MB liberados`);

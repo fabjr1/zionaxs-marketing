@@ -49,6 +49,28 @@ Saída adotada, sem desligar nada da segurança da máquina:
 
 Efeito colateral bom: o quadro fica em disco como PNG, que é exatamente o formato que os gates do marketing-os já sabem medir.
 
+## A cor: a armadilha que quase passou
+
+O primeiro mp4 saiu **sem nenhuma marca de espaço de cor**, e isso não é detalhe. O h264 não guarda RGB, guarda luma e croma, e o arquivo precisa dizer com qual matriz a conversão foi feita. Sem dizer, o ffmpeg usa BT.601, que é o padrão dele quando ninguém especifica, e grava sem marca. Todo player de HD lê arquivo sem marca como BT.709. As duas pontas discordam, e a cor anda.
+
+Medido no laranja da marca, quadro 180, lido do jeito que um player lê:
+
+| | R | G | B |
+|---|---|---|---|
+| Fonte PNG | 245 | 73 | 3 |
+| mp4 sem marca | **255** | **84** | **0** |
+| mp4 com marca | 245 | 71 | 2 |
+
+O laranja estourava no vermelho e puxava para amarelo. SSIM do quadro inteiro contra a fonte: **0,67 sem marca contra 0,91 com marca**.
+
+**Cuidado ao reconferir isso.** Medir com o próprio ffmpeg, sem forçar BT.709 na leitura, dá 0,96 para o arquivo **sem** marca e 0,91 para o arquivo **com** marca, ou seja, o resultado se inverte e sugere que marcar piora. É miragem: sem marca, o ffmpeg decodifica com a mesma suposição errada com que codificou, e o erro se cancela dentro dele. A conta só fica honesta forçando a leitura em BT.709, que é o que o mundo lá fora faz:
+
+```bash
+ffmpeg -i out/zx-teste.mp4 -vf "select=eq(n\,180),scale=in_color_matrix=bt709:in_range=tv:out_range=full" -frames:v 1 quadro.png
+```
+
+Por isso o `render.mjs` converte no filtro **e** carimba as marcas com `setparams`: filtro e marca precisam contar a mesma história.
+
 ## O que este teste prova
 
 - As faces do brand pack carregam e desenham antes do primeiro frame, sem cair para fallback.
@@ -56,6 +78,8 @@ Efeito colateral bom: o quadro fica em disco como PNG, que é exatamente o forma
 - O grão de filme, a régua de calibração e a microlinha sobrevivem à compressão do h264.
 - A regra de cor do brand pack vale por campo: wordmark branca sobre foto e sobre laranja, preta sobre papel; texto pequeno sobre laranja é tinta, texto grande é papel.
 - O render é determinístico e roda por um comando só.
+- O laranja #F54502 chega ao arquivo dentro de 2 níveis, com as 4 marcas de cor carimbadas.
+- A sequência de PNG é apagada depois do mp4 fechar: ficam o vídeo e 3 quadros de prova, o do meio de cada batida, que é onde nada está em movimento e dá para medir contraste. Os 563 MB de quadros voltam para o disco a cada render.
 
 ## O que ainda não existe
 

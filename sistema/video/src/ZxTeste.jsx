@@ -7,15 +7,12 @@ import {
   interpolate, spring,
 } from 'remotion';
 import tokens from './brand-tokens.json';
+import { BEAT, WIPE } from './tempo.js';
 import './fonts.js';
 
 const C = tokens.colors;
 const MX = 80;
 const MY = 120;
-
-// Cada batida dura 4 segundos; a troca de campo leva 14 frames.
-const BEAT = 120;
-const WIPE = 14;
 
 /** Entrada padrão de bloco de texto: sobe 26px e abre a opacidade. */
 function rise(frame, fps, delay) {
