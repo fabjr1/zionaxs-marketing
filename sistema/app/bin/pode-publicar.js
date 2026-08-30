@@ -44,7 +44,7 @@ else {
 
 // cadência: o limite vem da política de publicação da marca, nunca do código.
 // Mudar o número aqui seria contornar uma decisão de governança; mude o arquivo.
-const slug = (x) => String(x).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+const slug = (x) => String(x).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 let politica = null;
 try {
   politica = JSON.parse(fs.readFileSync(path.join(ws.brandsDir, slug(p?.contract?.brand || ''), 'politica-de-publicacao.json'), 'utf8'));
@@ -52,14 +52,21 @@ try {
 const limite = politica?.cadencia?.postsPorDia ?? 1;
 const origem = politica ? `política da marca (${politica.cadencia?.override ? 'override declarado' : 'baseline'})` : 'baseline canônico, sem política declarada';
 
-const hoje = new Date().toISOString().slice(0, 10);
+// O dia é o do FUSO DA MARCA, não o UTC. Com UTC-3, a partir das 21h locais o
+// UTC já virou e a cota do dia seguinte seria liberada cedo demais.
+const fuso = politica?.cadencia?.fuso || 'America/Fortaleza';
+const diaLocal = (d) => new Intl.DateTimeFormat('en-CA', {
+  timeZone: fuso, year: 'numeric', month: '2-digit', day: '2-digit',
+}).format(d);
+
+const hoje = diaLocal(new Date());
 const jaHoje = loadAllPieces(ws)
   .filter((x) => x.id !== id && x.publication?.publishedAt)
-  .filter((x) => new Date(x.publication.publishedAt).toISOString().slice(0, 10) === hoje);
+  .filter((x) => diaLocal(new Date(x.publication.publishedAt)) === hoje);
 
 const excecao = arg('--excecao');
 if (jaHoje.length >= limite && !excecao) {
-  bloqueios.push(`cadência: ${jaHoje.length} publicação(ões) hoje (${hoje}), limite ${limite} por ${origem}. ` +
+  bloqueios.push(`cadência: ${jaHoje.length} publicação(ões) hoje (${hoje}, fuso ${fuso}), limite ${limite} por ${origem}. ` +
     `Já saíram: ${jaHoje.map((x) => x.id).join(', ')}. Publique amanhã, ou peça autorização humana e repasse --excecao "<motivo>".`);
 }
 
