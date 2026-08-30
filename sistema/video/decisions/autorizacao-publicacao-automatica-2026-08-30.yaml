@@ -1,0 +1,40 @@
+decisao: /reels-zionaxs passa a publicar sem aprovação peça a peça
+data: 2026-08-30
+autor: fabiano
+registrado_por: Marketing OS
+
+autorizacao:
+  texto: "pode promover pra publicação automática"
+  escopo: >
+    Vale para o fluxo inteiro descrito em .claude/commands/reels-zionaxs.md,
+    incluindo as travas. Não é autorização para furar cadência: exceção de
+    cadência continua exigindo autorização explícita no momento.
+
+condicao_tecnica_da_promocao:
+  descricao: >
+    Enquanto o comando parava para o Fabiano olhar, o contraste da tinta sobre
+    o pixel real da foto era item de revisão humana. Sem humano no meio, trava
+    que depende de olho desaparece. A promoção só foi implementada junto com a
+    medida que substitui esse olho.
+  implementacao: sistema/video/bin/medir-contraste.mjs, ligado ao porteiro
+  metodo: >
+    Recorta a banda de texto do quadro de prova, isola o miolo dos glifos,
+    descarta uma faixa de 2 pixels em volta de qualquer tinta (a serrilha é
+    mistura de creme com fundo e falseia a conta), e compara o creme da marca
+    com o percentil 99 do fundo, e não com a média. Piso 4,5:1.
+  aferido_nos_dois_sentidos:
+    - "zxv-01 real: 13,16:1, aprova"
+    - "mesma peça com o fundo levantado de propósito: 3,42:1, reprova"
+  nota_do_metodo: >
+    A primeira versão media a banda inteira e reprovava a zxv-01 com 2,15:1.
+    Era artefato: estava medindo a serrilha das letras, não a foto. Gate que
+    reprova peça boa acaba desligado, e gate desligado é pior que gate nenhum.
+  reversao: >
+    Se essa medida for desligada ou afrouxada, a autorização de publicar sozinho
+    cai junto. Foi a condição da promoção, não um detalhe de implementação.
+
+o_que_continua_humano:
+  - sobreposição de blocos e geometria invadindo texto
+  - foto que contradiz a copy, inclusive texto legível dentro da imagem
+  - se o texto de apoio cabe no tempo da batida
+  - a música, que entra à mão pelo app porque a API não escolhe faixa

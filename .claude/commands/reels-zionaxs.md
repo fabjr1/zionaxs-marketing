@@ -1,16 +1,18 @@
 ---
-description: Cria um Reels da Zionaxs, do tema ao arquivo pronto, e publica depois do porteiro e do seu OK
+description: Cria e PUBLICA um Reels da Zionaxs, do tema ao post no ar
 argument-hint: "[tema opcional; sem argumento, pesquise e escolha o tema]"
 ---
 
-Crie um Reels da Zionaxs seguindo o processo abaixo, sem pular etapa.
+Crie **e publique** um Reels da Zionaxs seguindo o processo abaixo, sem pular etapa.
 
 Tema pedido: **$ARGUMENTS**
 Se vier vazio, escolha você o tema na etapa 2.
 
 > **Convenção de nome.** Este comando é da marca Zionaxs, irmão do `/carrossel-zionaxs`. Cada marca nova ganha o seu, com os padrões e a conta daquela marca.
 
-> **Diferença que importa em relação ao carrossel.** O `/carrossel-zionaxs` publica sozinho, com autorização permanente dada pelo Fabiano em 29/08/2026, apoiada em 14 gates medidos no pixel. **Vídeo ainda não tem essa autorização e tem menos verificação automática.** Este comando vai até o arquivo pronto e o porteiro verde, mostra os quadros de prova, e **pergunta antes de publicar**. Promover para publicação automática é decisão dele, e vira uma linha aqui mais o registro em `decisions/`.
+> **Autonomia e seu limite.** O Fabiano autorizou em 30/08/2026 que este comando publique sem aprovação peça a peça, como já acontece com o carrossel. A autorização vale para o fluxo inteiro descrito aqui, **incluindo as travas**. Trava que reprova não se contorna: ou se corrige a peça, ou se para e se avisa.
+>
+> A promoção veio junto de uma condição, e ela não é negociável: **o contraste da tinta sobre o pixel da foto deixou de ser revisão humana e virou medida**, em `bin/medir-contraste.mjs`, ligada ao porteiro. Sem humano no meio, trava que dependia de olho vira medida ou desaparece. Se alguém desligar essa medida, a autorização de publicar sozinho cai junto.
 
 ## 1. Carregue os padrões antes de escrever qualquer coisa
 
@@ -60,13 +62,14 @@ Sai o mp4, mais 1 quadro de prova por batida, tirado a 72% dela.
 
 ## 6. Olhe os quadros de prova
 
-Abra os PNGs de `out/<id>-provas/`. **Máquina nenhuma mede o que segue**, e é aqui que a peça é reprovada de verdade:
+Abra **todos** os PNGs de `out/<id>-provas/`, um por batida. O contraste sobre foto já é medido pelo porteiro; o que sobra aqui **nenhuma máquina mede**, e publicando sozinho não há segunda chance:
 
-- **Contraste da tinta contra o pixel real da foto** no quadro do gancho. Piso praticado: 4,5:1. Amostre o fundo em 3 pontos da banda de texto e calcule; a receita está no README.
-- Sobreposição, geometria invadindo texto, foto que contradiz a copy.
-- Se o texto de apoio dá tempo de ler dentro da batida.
+- Sobreposição de blocos e geometria invadindo texto.
+- Foto que contradiz a copy, inclusive texto legível dentro da imagem (data, idioma, marca).
+- Se o texto de apoio cabe na batida: conte as palavras e divida por 3,5 por segundo.
+- Se a batida de assinatura fecha limpa, sem o chrome ligado por engano.
 
-Corrija o **contrato**, nunca o pixel.
+Reprovou? Corrija o **contrato**, nunca o pixel, e renderize de novo. Se não souber corrigir, **pare e avise**.
 
 ## 7. Passe pelo porteiro
 
@@ -74,15 +77,11 @@ Corrija o **contrato**, nunca o pixel.
 cd sistema/video && npm run pode-publicar
 ```
 
-Ele confere forma do contrato, padrão de copy pelo mesmo código que cobra o carrossel, trilha, presença do render e dos quadros de prova, faixa de áudio, marca de cor BT.709, dimensão, duração batendo com o contrato, e a **cadência da marca contando carrossel e vídeo juntos**.
+Ele confere forma do contrato, padrão de copy pelo mesmo código que cobra o carrossel, trilha, presença do render e dos quadros de prova, faixa de áudio, marca de cor BT.709, dimensão, duração batendo com o contrato, **contraste da tinta sobre o pixel da foto** e a **cadência da marca contando carrossel e vídeo juntos**.
 
-Se reprovar, **pare e avise o Fabiano** com o motivo. Só use `--excecao "<motivo>"` com autorização explícita dele naquele momento; autorização antiga não serve.
+Se reprovar, **pare e avise o Fabiano** com o motivo. Só use `--excecao "<motivo>"` com autorização explícita dele naquele momento; autorização antiga não serve, e a de 30/08/2026 é para publicar, não para furar cadência.
 
-## 8. Pergunte antes de publicar
-
-Mostre o vídeo, os quadros de prova e o resultado do porteiro, e **espere o OK**. Enquanto não houver autorização permanente registrada em `decisions/`, publicar sem perguntar é passar por cima de uma decisão que não foi tomada.
-
-## 9. Publique
+## 8. Publique
 
 ```bash
 cd sistema/video && npm run preparar
@@ -106,11 +105,11 @@ cd sistema/video && npm run registrar -- --reconciliacao <arquivo.json>
 
 Ele recusa gravar se a conta, o tipo ou a legenda divergirem do contrato.
 
-## 10. Entregue o resultado com a música em destaque
+## 9. Entregue o resultado com a música em destaque
 
 Informe o permalink e, **em destaque**, a trilha sugerida com o motivo. A música é adicionada à mão pelo Fabiano, editando o post no app: a API não escolhe faixa, e sem isso o Reels fica com o silêncio da faixa muda.
 
-## 11. Feche a rotina
+## 10. Feche a rotina
 
 Registre a decisão em `decisions/`, rode a auditoria e empurre os dois repositórios.
 

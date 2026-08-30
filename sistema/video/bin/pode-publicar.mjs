@@ -101,14 +101,25 @@ if (fs.existsSync(mp4)) {
   }
 }
 
-/* -------------------------------------------------- 6. já publicada? */
+/* -------------------------------------------------- 6. contraste sobre foto */
+// Enquanto a publicação parava para o Fabiano olhar, isto era item de revisão
+// humana. Com publicação automática não há humano no meio, e trava que
+// dependia de olho vira medida ou desaparece.
+let contraste = null;
+if (fs.existsSync(provasDir)) {
+  const r = spawnSync(process.execPath, [path.join(RAIZ, 'bin/medir-contraste.mjs'), '--peca', id], { encoding: 'utf8' });
+  contraste = r.stdout.trim().split('\n').filter((l) => /:1/.test(l)).join(' | ');
+  if (r.status !== 0) bloqueios.push(`contraste sobre foto abaixo do piso: ${contraste || 'ver npm run medir-contraste'}`);
+}
+
+/* -------------------------------------------------- 7. já publicada? */
 const jaPublicada = path.join(dirPeca, 'publication', 'published.json');
 if (fs.existsSync(jaPublicada)) {
   const j = JSON.parse(fs.readFileSync(jaPublicada, 'utf8'));
   bloqueios.push(`peça já publicada em ${j.publishedAt}: ${j.permalink}`);
 }
 
-/* -------------------------------------------------- 7. cadência da MARCA */
+/* -------------------------------------------------- 8. cadência da MARCA */
 // O limite vem da política da marca, nunca do código, e a conta inclui
 // carrossel e vídeo: cadência é da marca, não do formato.
 const slug = (x) => String(x).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -140,6 +151,7 @@ if (ficha) {
   console.log(`arquivo    ${v?.width}x${v?.height} · ${v?.color_space} · áudio ${a ? a.codec_name : 'AUSENTE'} · ${Number(ficha.format.duration).toFixed(1)}s`);
 }
 console.log(`provas     ${provas.length}/${c.batidas.length} quadros`);
+if (contraste) console.log(`contraste  ${contraste}`);
 console.log(`cadência   ${jaHoje.length}/${limite} hoje · ${origem}${excecao ? ' · exceção declarada' : ''}`);
 if (c.trilha_sugerida?.faixa) {
   const t = c.trilha_sugerida;
@@ -148,7 +160,6 @@ if (c.trilha_sugerida?.faixa) {
 
 // O que nenhuma máquina mede aqui, e por isso não vira aprovação automática.
 console.log('\nolho humano ainda obrigatório:');
-console.log('  · contraste da tinta contra o pixel real da foto, no quadro de prova do gancho');
 console.log('  · sobreposição, geometria invadindo texto e foto que contradiz a copy');
 console.log('  · se o texto de apoio dá tempo de ler dentro da batida');
 

@@ -10,7 +10,8 @@
     "render": "npm run brand && node scripts/render.mjs",
     "pode-publicar": "node bin/pode-publicar.mjs",
     "preparar": "node bin/preparar.mjs",
-    "registrar": "node bin/registrar.mjs"
+    "registrar": "node bin/registrar.mjs",
+    "medir-contraste": "node bin/medir-contraste.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.518",

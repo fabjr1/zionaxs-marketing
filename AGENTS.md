@@ -52,13 +52,13 @@ O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **14 gat
 | Comando | O que faz |
 |---|---|
 | `/carrossel-zionaxs` | Cria **e publica** um carrossel da Zionaxs, do tema ao post no ar. Sem argumento, pesquisa e escolhe o tema. Definido em `.claude/commands/carrossel-zionaxs.md`. |
-| `/reels-zionaxs` | Cria um Reels da Zionaxs, do tema ao arquivo pronto, e publica **depois do porteiro e do OK do Fabiano**. Definido em `.claude/commands/reels-zionaxs.md`. |
+| `/reels-zionaxs` | Cria **e publica** um Reels da Zionaxs, do tema ao post no ar. Definido em `.claude/commands/reels-zionaxs.md`. |
 
 O comando é do projeto, então a sessão precisa estar aberta na pasta deste repositório para enxergá-lo.
 
 O sufixo é a marca. Cada marca nova ganha o seu, com os padrões e a conta daquela marca; as marcas vivem em `sistema/workspace/brands/<id>/manifest.json`.
 
-**A diferença entre os dois é de autorização, não de capricho.** O carrossel publica sozinho porque o Fabiano autorizou em 29/08/2026 e porque 14 gates medem a peça no pixel. Vídeo tem menos verificação automática e **não tem essa autorização**, então o `/reels-zionaxs` para e pergunta antes de publicar. Promover é decisão dele, registrada em `decisions/`.
+**Os dois publicam sozinhos, e cada um com a sua condição.** O carrossel desde 29/08/2026, apoiado em 14 gates medidos no pixel. O vídeo desde 30/08/2026, e a promoção veio amarrada a uma condição: o contraste da tinta sobre o pixel da foto, que era revisão humana, virou medida em `sistema/video/bin/medir-contraste.mjs`, ligada ao porteiro. Sem humano no meio, trava que depende de olho vira medida ou desaparece. **Desligar essa medida derruba a autorização junto**, e isso está registrado em `sistema/video/decisions/autorizacao-publicacao-automatica-2026-08-30.yaml`.
 
 Cada formato tem o seu porteiro, e os dois contam a **mesma** cadência:
 
@@ -80,7 +80,7 @@ Os dois documentos abaixo mandam. Leia antes de produzir qualquer peça:
 
 O levantamento de ferramentas e a escolha estão em **[campanhas/zionaxs/ferramentas-de-video.md](campanhas/zionaxs/ferramentas-de-video.md)**, com as 4 camadas separadas e o que foi decidido em cada uma. A decisão de 29/08/2026 foi começar pela camada de motion, com Remotion, sem modelo generativo.
 
-O teste dessa camada vive em **[sistema/video/](sistema/video/README.md)**: o pôster editorial em movimento, no formato `story-9x16`, renderizado por um comando. Ainda não nasce de contrato e ainda não passa pelos gates, e o README de lá diz exatamente o que falta.
+A camada vive em **[sistema/video/](sistema/video/README.md)**: o pôster editorial em movimento, no formato `story-9x16`. A peça **nasce de contrato** em `sistema/video/pecas/<id>/contract.json`, com batidas, `approved_visible_copy`, `alt`, legenda com fontes e trilha, e o porteiro cobra copy, arquivo, contraste e cadência. O README de lá traz as 6 regras de movimento e o que ainda falta.
 
 ### O que não se negocia
 
