@@ -72,10 +72,15 @@ const PAD = (fs.readdirSync(frames).find((f) => f.endsWith('.png')) || '').repla
 //   bitrate custa pouco e evita banding no laranja chapado.
 // full_chroma_int + accurate_rnd: o 4:2:0 joga fora 3/4 da informação de cor,
 //   e é onde texto branco sobre laranja saturado ganha franja.
+// A faixa muda não é enfeite: Reels sem nenhuma trilha de áudio dá
+// processamento imprevisível e o post fica sem "áudio original", que é o
+// campo onde a música entra depois, pelo app. O silêncio ocupa alguns KB.
 run('ffmpeg', [
   '-y', '-loglevel', 'error',
   '-framerate', String(linha.fps), '-start_number', '0',
   '-i', path.join(path.relative(root, frames), `element-%0${PAD}d.png`),
+  '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo',
+  '-c:a', 'aac', '-b:a', '128k', '-shortest',
   // O setparams carimba as 4 marcas no quadro. Sem ele, as opções de saída
   // gravavam só a matriz, e primaries e transfer saíam como "unknown".
   '-vf', [
