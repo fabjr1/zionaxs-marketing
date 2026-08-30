@@ -25,6 +25,8 @@ A peça vive aqui, e não em `sistema/workspace/pieces/`, porque o renderer do m
 | `scripts/sync-brand.mjs` | Copia fontes, logo e fotos do brand pack para `public/`, e extrai os tokens de cor de `brand.json` |
 | `scripts/render.mjs` | Render em sequência de PNG mais ffmpeg do sistema. O porquê está abaixo |
 | `bin/pode-publicar.mjs` | O porteiro. Cada verificação dele existe porque a falha correspondente já aconteceu |
+| `bin/biblioteca.mjs` | Indexa a coleção de trilhas, que vive fora do repositório. A licença é declarada por faixa, uma vez |
+| `bin/trilha.mjs` | Põe uma faixa da coleção na peça e escreve o `trilha_embutida` com a licença do manifesto |
 | `bin/preparar.mjs` | Copia a mídia para caminho versionado, gera a capa e imprime os parâmetros do contêiner |
 | `bin/registrar.mjs` | Grava `published.json` com digest, e recusa se conta, tipo ou legenda divergirem |
 
@@ -129,7 +131,7 @@ A Graph API do Instagram **não tem parâmetro para a biblioteca de música do a
 | Caminho | Como | Quando |
 |---|---|---|
 | **Faixa muda + música pelo app** | Padrão. O render fecha com AAC silencioso, e a música entra editando o post no celular | Quando a trilha é da biblioteca do Instagram, que é onde a licença existe |
-| **Trilha embutida no arquivo** | `trilha_embutida` no contrato: arquivo, `ganho_db`, `fade_out_s` e **`licenca`** | Quando a marca tem direito de uso comercial da faixa |
+| **Trilha embutida no arquivo** | `npm run trilha -- <id-da-faixa>` escreve o `trilha_embutida` sozinho | **Obrigatório em vídeo**, porque Reels por API não aceita áudio depois |
 
 O render normaliza a trilha embutida em EBU R128 (`I=-14`, o alvo das redes) e aplica fade no fim. Aferido com um tom de teste: média de -13,2 dB no corpo e -24,8 dB no último segundo, ou seja, o fade acontece.
 
@@ -142,3 +144,17 @@ O render normaliza a trilha embutida em EBU R128 (`I=-14`, o alvo das redes) e a
 3. **Publicação.** Reels tem fluxo próprio de upload e capa, diferente do carrossel que já está no ar.
 4. **Porteiro.** O `pode-publicar.js` não conhece o formato, então cadência e trilha ainda não são cobradas por máquina em vídeo.
 5. **Licença.** Remotion é gratuito para empresa com até 3 funcionários. Passando disso, revisar antes de continuar.
+
+## A coleção de trilhas
+
+Vive **fora do repositório**, em `C:/dev/sound-collection` por padrão, ou onde a variável `ZX_TRILHAS` apontar. Áudio pesa, não é código, e é compartilhado entre marcas.
+
+```bash
+npm run biblioteca -- --indexar   # varre a pasta e monta o manifesto
+npm run biblioteca                # lista o que existe
+npm run trilha -- groove-in-bloom # põe a faixa na peça em produção
+```
+
+O manifesto (`biblioteca.json`) fica junto dos arquivos, não aqui, para a coleção continuar fazendo sentido sozinha. **A licença é propriedade da faixa**, declarada uma vez no manifesto: digitar de novo a cada peça é como uma peça declara errado uma vez. O índice nunca sobrescreve `origem`, `licenca` e `tags` já preenchidas à mão.
+
+O `trilha` copia o arquivo para dentro da peça, e isso não é desperdício: é o que faz o digest da publicação cobrir o áudio que de fato foi ao ar. Referência a arquivo de fora do repositório não sobrevive a auditoria, porque pode mudar sem aviso. Ele também recusa faixa mais curta que a peça, porque silêncio no fim de um Reels lê como arquivo quebrado.

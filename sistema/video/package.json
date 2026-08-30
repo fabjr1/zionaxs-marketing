@@ -11,7 +11,9 @@
     "pode-publicar": "node bin/pode-publicar.mjs",
     "preparar": "node bin/preparar.mjs",
     "registrar": "node bin/registrar.mjs",
-    "medir-contraste": "node bin/medir-contraste.mjs"
+    "medir-contraste": "node bin/medir-contraste.mjs",
+    "biblioteca": "node bin/biblioteca.mjs",
+    "trilha": "node bin/trilha.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.518",

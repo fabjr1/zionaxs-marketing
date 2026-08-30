@@ -73,7 +73,14 @@ if (!c.trilha_sugerida?.faixa) {
 // Manager silenciar a peça. A licença da biblioteca do Instagram vale dentro
 // do app e não acompanha o arquivo, então música comercial embutida sai pior
 // do que silêncio: vira post mudo, e ainda com risco na conta.
-if (c.trilha_embutida) {
+// Trilha embutida é OBRIGATÓRIA em vídeo, e este é o buraco que existia até
+// 30/08/2026: o porteiro conferia a licença quando havia trilha, mas deixava
+// passar peça sem trilha nenhuma. Reels publicado por API não aceita adicionar
+// áudio depois, então peça sem trilha embutida nasce muda e assim morre. O
+// padrão exige trilha; o porteiro passa a exigir também.
+if (!c.trilha_embutida) {
+  bloqueios.push('sem trilha_embutida: Reels publicado por API não aceita áudio depois, então a faixa tem de estar no arquivo. Use npm run trilha -- <id-da-faixa>');
+} else {
   const t = c.trilha_embutida;
   if (!t.licenca) bloqueios.push('trilha_embutida sem campo licenca: declare a origem e o direito de uso comercial');
   if (!t.arquivo) bloqueios.push('trilha_embutida sem arquivo');
