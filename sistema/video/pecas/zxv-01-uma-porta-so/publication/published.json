@@ -1,0 +1,50 @@
+{
+  "postId": "17861964282677350",
+  "permalink": "https://www.instagram.com/reel/Dcpgz7Vk0yv/",
+  "shortcode": "Dcpgz7Vk0yv",
+  "publishedAt": "2026-08-30T03:09:52+0000",
+  "publishedAtFortaleza": "30/08/2026, 00:09:52",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio/instagram REELS, feito a mao: o publisher.js do marketing-os so conhece carrossel",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906197725501214",
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/video/pecas/zxv-01-uma-porta-so/publicacao/zxv-01-uma-porta-so.mp4",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/video/pecas/zxv-01-uma-porta-so/publicacao/capa.jpg"
+  ],
+  "digest": {
+    "contrato": "847024f3172d6918beb59a5fb45b63939b4b01c67880b3fca0a006333a81ca7a",
+    "mp4": "2595b9cadcdc2bc6abdf25c79e5daf3882bc67a13ee9ca0449f1e6c494366eab"
+  },
+  "reconciledAt": "2026-08-30T03:10:42.448Z",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA",
+    "owner": "37965311306447572",
+    "username": "zionaxs_",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "legendaConfere": true,
+    "nota": "Conta, permalink, tipo e legenda conferidos contra o que foi enviado. media_audio_type nao e suportado por este toolkit e foi retirado da consulta."
+  },
+  "identidadeVerificadaAntes": {
+    "ferramenta": "INSTAGRAM_GET_USER_INFO",
+    "id": "37965311306447572",
+    "username": "zionaxs_",
+    "nota": "Ha 2 contas conectadas; a outra e @base3br e publicar nela abortaria tudo."
+  },
+  "cadencia": {
+    "limiteDeclarado": 2,
+    "publicadasNoDia": 0,
+    "nota": "Primeiro post de 30/08/2026 no fuso America/Fortaleza. Em 29/08 haviam saido 4 contra limite de 2, e por isso a publicacao esperou o dia virar em vez de usar excecao.",
+    "porteiro": "nao rodou: pode-publicar.js ainda nao conhece o formato de video"
+  },
+  "trilhaSugerida": {
+    "faixa": "Da Funk",
+    "artista": "Daft Punk",
+    "versao": "Original de 1995, instrumental",
+    "porque": "O riff é o que se reconhece, não a voz, então a familiaridade chega sem competir com a leitura. Andamento constante do início ao fim, sem virada épica, que é o que a peça pede porque cada pessoa lê no próprio ritmo.",
+    "evitar": "Qualquer trilha de superação com virada dramática, que empurra a marca para o tom de coach e briga com o posicionamento de engenharia."
+  },
+  "pendencia": "A trilha entra a mao pelo Fabiano, editando o post no app. A API nao escolhe faixa."
+}

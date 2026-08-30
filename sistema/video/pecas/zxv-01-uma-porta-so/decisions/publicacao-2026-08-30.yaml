@@ -1,0 +1,36 @@
+decisao: publicar a zxv-01 como Reels
+data: 2026-08-30
+autor: fabiano
+registrado_por: Marketing OS
+
+autorizacao:
+  texto: "pode postar"
+  contexto: >
+    Pedido feito em 29/08/2026 às 23:5x, quando a cadência do dia já estava
+    estourada. A publicação foi apresentada com as 3 saídas possíveis e o
+    Fabiano reafirmou. O dia virou antes da execução, então a saída usada foi
+    a primeira, esperar a virada, e nenhuma exceção de cadência foi declarada.
+
+cadencia:
+  limite_declarado: 2
+  publicadas_em_29_08: 4
+  publicadas_em_30_08_antes_desta: 0
+  resolucao: >
+    Publicada às 00:09 de 30/08 no fuso America/Fortaleza, como primeiro post
+    do dia. A trava não foi contornada: ela deixou de existir quando o dia
+    mudou.
+
+rota:
+  descricao: >
+    Composio, tool INSTAGRAM_POST_IG_USER_MEDIA com media_type REELS, feita à
+    mão. O publisher.js do marketing-os implementa só carrossel, e o
+    pode-publicar.js não conhece o formato de vídeo.
+  identidade_verificada_antes: true
+  conta: zionaxs_ (37965311306447572), via instagram_ascent-utick
+  midia: raw.githubusercontent, os dois arquivos conferidos em 200 antes do envio
+  capa: quadro assentado do gancho, e não o quadro 0, que pega a manchete pela metade
+
+pendencias_abertas:
+  - trilha entra à mão pelo app, porque a API não escolhe faixa
+  - porteiro não cobre vídeo, então cadência e trilha não foram conferidas por máquina
+  - publisher.js não tem rota de Reels, então esta publicação não é repetível por comando
