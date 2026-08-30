@@ -72,15 +72,49 @@ const PAD = (fs.readdirSync(frames).find((f) => f.endsWith('.png')) || '').repla
 //   bitrate custa pouco e evita banding no laranja chapado.
 // full_chroma_int + accurate_rnd: o 4:2:0 joga fora 3/4 da informação de cor,
 //   e é onde texto branco sobre laranja saturado ganha franja.
-// A faixa muda não é enfeite: Reels sem nenhuma trilha de áudio dá
-// processamento imprevisível e o post fica sem "áudio original", que é o
-// campo onde a música entra depois, pelo app. O silêncio ocupa alguns KB.
+// Áudio. Dois caminhos, e o contrato escolhe:
+//
+//   sem `trilha_embutida`  → faixa muda. Reels sem nenhuma faixa dá
+//     processamento imprevisível e o post fica sem "áudio original", que é o
+//     campo onde a música entra depois, pelo app.
+//
+//   com `trilha_embutida`  → o arquivo declarado entra no mp4, normalizado em
+//     EBU R128 e com fade no fim. É o ÚNICO jeito de um Reels publicado por
+//     API sair com música: a Graph API não tem parâmetro para a biblioteca do
+//     Instagram, nem com faixa nem sem faixa.
+//
+// O que o contrato NÃO decide é a licença. Música comercial embutida no
+// arquivo é silenciada pelo Rights Manager do Instagram, porque a licença da
+// biblioteca do app não acompanha o mp4. Por isso `trilha_embutida.licenca` é
+// obrigatória e o porteiro recusa sem ela.
+const trilha = c.trilha_embutida;
+const arquivoTrilha = trilha ? path.resolve(root, 'pecas', comp, trilha.arquivo) : null;
+if (trilha && !fs.existsSync(arquivoTrilha)) {
+  console.error(`contrato pede trilha embutida que não existe: ${arquivoTrilha}`);
+  process.exit(1);
+}
+
+const entradaAudio = trilha
+  ? ['-i', path.relative(root, arquivoTrilha)]
+  : ['-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo'];
+
+const filtroAudio = trilha
+  ? [
+      '-af', [
+        `volume=${trilha.ganho_db ?? 0}dB`,
+        'loudnorm=I=-14:TP=-1.5:LRA=11',
+        `afade=t=out:st=${(linha.total / linha.fps - (trilha.fade_out_s ?? 1.5)).toFixed(2)}:d=${trilha.fade_out_s ?? 1.5}`,
+      ].join(','),
+    ]
+  : [];
+
 run('ffmpeg', [
   '-y', '-loglevel', 'error',
   '-framerate', String(linha.fps), '-start_number', '0',
   '-i', path.join(path.relative(root, frames), `element-%0${PAD}d.png`),
-  '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo',
-  '-c:a', 'aac', '-b:a', '128k', '-shortest',
+  ...entradaAudio,
+  ...filtroAudio,
+  '-c:a', 'aac', '-b:a', trilha ? '192k' : '128k', '-shortest',
   // O setparams carimba as 4 marcas no quadro. Sem ele, as opções de saída
   // gravavam só a matriz, e primaries e transfer saíam como "unknown".
   '-vf', [

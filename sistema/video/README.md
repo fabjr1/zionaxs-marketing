@@ -122,10 +122,23 @@ Nenhum gate mede tinta contra o pixel real da foto, então a batida de gancho é
 
 Piso praticado pela marca: 4,5:1 para qualquer tamanho. Referência: a `zx-22`, publicada e aceita, dá 5,02:1 no pior trecho.
 
+## Áudio: os dois caminhos, e o que decide entre eles
+
+A Graph API do Instagram **não tem parâmetro para a biblioteca de música do app**. Não é questão de mandar ou não mandar faixa: o endpoint não existe. Só `audio_name`, que renomeia o áudio original. Quem publica por API tem exatamente 2 opções.
+
+| Caminho | Como | Quando |
+|---|---|---|
+| **Faixa muda + música pelo app** | Padrão. O render fecha com AAC silencioso, e a música entra editando o post no celular | Quando a trilha é da biblioteca do Instagram, que é onde a licença existe |
+| **Trilha embutida no arquivo** | `trilha_embutida` no contrato: arquivo, `ganho_db`, `fade_out_s` e **`licenca`** | Quando a marca tem direito de uso comercial da faixa |
+
+O render normaliza a trilha embutida em EBU R128 (`I=-14`, o alvo das redes) e aplica fade no fim. Aferido com um tom de teste: média de -13,2 dB no corpo e -24,8 dB no último segundo, ou seja, o fade acontece.
+
+**O campo `licenca` é obrigatório e o porteiro recusa sem ele.** Música comercial embutida no mp4 é silenciada pelo Rights Manager do Instagram: a licença da biblioteca vale dentro do app e não acompanha o arquivo. Embutir Daft Punk sai pior que silêncio, porque vira post mudo e ainda com risco na conta. O que pode ser embutido: faixa de banco licenciado (Epidemic Sound, Artlist, Musicbed), música original, ou domínio público.
+
 ## O que ainda não existe
 
 1. **Gates automáticos.** Nenhum dos 14 gates roda sobre os quadros. Como a saída já é PNG e o contrato já traz `approved_visible_copy`, dá para apontar os gates de contraste e tipografia para os quadros de prova.
-2. **Áudio.** O arquivo sai sem faixa nenhuma, e Reels sem faixa dá processamento imprevisível. O mínimo é uma faixa silenciosa; a trilha vem do campo `trilha_sugerida` e entra pelo app do Instagram, igual ao carrossel.
+2. **Uma faixa licenciada.** O caminho de trilha embutida está pronto e aferido, mas nenhuma peça usa: falta a marca ter direito de uso comercial de alguma música. Enquanto não tiver, a trilha entra pelo app.
 3. **Publicação.** Reels tem fluxo próprio de upload e capa, diferente do carrossel que já está no ar.
 4. **Porteiro.** O `pode-publicar.js` não conhece o formato, então cadência e trilha ainda não são cobradas por máquina em vídeo.
 5. **Licença.** Remotion é gratuito para empresa com até 3 funcionários. Passando disso, revisar antes de continuar.

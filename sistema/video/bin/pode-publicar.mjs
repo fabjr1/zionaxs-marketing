@@ -69,6 +69,17 @@ if (!c.trilha_sugerida?.faixa) {
   bloqueios.push('sem trilha_sugerida no contrato: a música entra à mão pelo app e precisa ir junto da entrega');
 }
 
+// Trilha embutida sem licença declarada é o caminho curto para o Rights
+// Manager silenciar a peça. A licença da biblioteca do Instagram vale dentro
+// do app e não acompanha o arquivo, então música comercial embutida sai pior
+// do que silêncio: vira post mudo, e ainda com risco na conta.
+if (c.trilha_embutida) {
+  const t = c.trilha_embutida;
+  if (!t.licenca) bloqueios.push('trilha_embutida sem campo licenca: declare a origem e o direito de uso comercial');
+  if (!t.arquivo) bloqueios.push('trilha_embutida sem arquivo');
+  else if (!fs.existsSync(path.join(dirPeca, t.arquivo))) bloqueios.push(`trilha_embutida aponta para arquivo inexistente: ${t.arquivo}`);
+}
+
 /* -------------------------------------------------- 4. render e provas */
 const mp4 = path.join(RAIZ, 'out', `${id}.mp4`);
 const provasDir = path.join(RAIZ, 'out', `${id}-provas`);
