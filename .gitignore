@@ -34,3 +34,9 @@ skills-lock.json
 *~
 .idea/
 .vscode/
+
+# Camada de motion (Remotion): artefatos gerados, nunca fonte.
+# public/ e brand-tokens.json sao copias do brand pack; out/ sao renders.
+sistema/video/public/
+sistema/video/src/brand-tokens.json
+sistema/video/out/

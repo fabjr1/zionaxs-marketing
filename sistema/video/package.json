@@ -1,0 +1,18 @@
+{
+  "name": "zionaxs-video",
+  "version": "0.1.0",
+  "description": "Camada de motion da Zionaxs (Remotion). Teste da camada 1 do levantamento em campanhas/zionaxs/ferramentas-de-video.md",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "brand": "node scripts/sync-brand.mjs",
+    "studio": "npm run brand && remotion studio src/index.jsx",
+    "render": "npm run brand && node scripts/render.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.518",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.518"
+  }
+}

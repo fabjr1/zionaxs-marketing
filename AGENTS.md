@@ -64,6 +64,12 @@ Os dois documentos abaixo mandam. Leia antes de produzir qualquer peça:
 - **[campanhas/zionaxs/direcao-visual/README.md](campanhas/zionaxs/direcao-visual/README.md)** — o estilo pôster editorial, aprovado em 29/08/2026 como direção visual permanente. Traz a receita completa: os 3 campos, o chrome de prova de impressão, gradê, grão, tipografia e regra de rosto.
 - **[campanhas/zionaxs/padrao-de-copy.md](campanhas/zionaxs/padrao-de-copy.md)** — o padrão de texto, válido para **todo** conteúdo da marca, não só carrossel: post, legenda, roteiro de vídeo, site, proposta e e-mail.
 
+### Vídeo
+
+O levantamento de ferramentas e a escolha estão em **[campanhas/zionaxs/ferramentas-de-video.md](campanhas/zionaxs/ferramentas-de-video.md)**, com as 4 camadas separadas e o que foi decidido em cada uma. A decisão de 29/08/2026 foi começar pela camada de motion, com Remotion, sem modelo generativo.
+
+O teste dessa camada vive em **[sistema/video/](sistema/video/README.md)**: o pôster editorial em movimento, no formato `story-9x16`, renderizado por um comando. Ainda não nasce de contrato e ainda não passa pelos gates, e o README de lá diz exatamente o que falta.
+
 ### O que não se negocia
 
 1. **Layouts `poster-*`.** Carrossel da Zionaxs usa a família `poster-cover`, `poster-scene`, `poster-lines`, `poster-turn`, `poster-fields`, `poster-statement`, `poster-close`. Os layouts antigos (`cover`, `statement`, `lines`, `fields`…) são vocabulário legado e produzem a aparência anterior à aprovação. O gate **G14** recusa a peça que os usar sem justificativa declarada.
