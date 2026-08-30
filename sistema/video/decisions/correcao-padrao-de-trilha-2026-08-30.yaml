@@ -1,0 +1,52 @@
+decisao: corrigir o padrão de trilha das duas famílias, carrossel e vídeo
+data: 2026-08-30
+autor: fabiano
+registrado_por: Marketing OS
+
+autorizacao:
+  texto: "apaga e republica com a faixa, e corrige o padrão"
+
+o_que_estava_errado:
+  regra_anterior: >
+    "Música famosa cujo instrumental já é o gancho", critério 2 do padrão de
+    copy, aprovado em 29/08/2026.
+  por_que: >
+    A licença que a Meta tem para o catálogo popular é de uso pessoal e não
+    comercial. Conteúdo que promove uma marca sai dessa licença. Conta de
+    negócio fica restrita à Meta Sound Collection; conta de criador tem acesso
+    mais amplo, mas o problema comercial é o mesmo. Disponível na interface não
+    é o mesmo que licenciado para marca.
+  como_apareceu: >
+    O Fabiano tentou adicionar a trilha sugerida da zxv-01 (Da Funk, Daft Punk)
+    ao Reels publicado e não conseguiu. Investigando, apareceram DOIS
+    problemas: Reels publicado por API não aceita adicionar áudio depois, e a
+    faixa não estaria disponível de todo jeito.
+
+o_que_passa_a_valer:
+  origem_da_trilha:
+    - Meta Sound Collection, grátis, só Instagram e Facebook
+    - banco licenciado (Epidemic Sound, Artlist, Musicbed)
+    - música original ou encomendada
+  proibido: faixa do catálogo popular do app, mesmo aparecendo disponível
+  mecanica_por_formato:
+    carrossel: música pelo app, depois de publicado, da Meta Sound Collection
+    video_por_api: >
+      trilha embutida no arquivo antes do upload, campo trilha_embutida com
+      licenca declarada. Reels publicado por API não aceita áudio depois: a
+      opção não existe no menu de editar.
+  criterio_estetico: mantido, com o item 2 reescrito para não depender de fama
+
+consequencia_operacional:
+  - >
+    A zxv-01 vai ser apagada e republicada com trilha da Meta Sound Collection
+    embutida. Apagar é passo humano: a Graph API não tem endpoint para remover
+    mídia publicada, só comentário.
+  - >
+    Os 4 carrosséis já publicados receberam música à mão. Se alguma faixa veio
+    do catálogo popular, trocar pela Meta Sound Collection. É revisão humana, e
+    a lista está em sistema/workspace/pieces/*/publication/published.json.
+
+o_que_nao_foi_reescrito: >
+  Contratos de peças publicadas, inclusive o trilha_sugerida da zxv-01 que
+  aponta para Daft Punk. Peça publicada é registro histórico, e falsificar o
+  contrato apagaria o que de fato foi decidido na hora.

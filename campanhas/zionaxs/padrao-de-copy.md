@@ -35,13 +35,40 @@ Acrescentar uma regra nova é editar a tabela `COPY_RULES`: ela alimenta o gate 
 
 A **zx-21 já foi publicada** com 7 ocorrências que hoje o G13 reprovaria. O contrato dela não foi reescrito de propósito: é o registro do que foi ao ar, e falsificá-lo apagaria a história. Consequência prática: ela não pode ser regerada sem antes ser trazida ao padrão. A **zx-20**, que nunca saiu, foi corrigida e está em 13/13.
 
-## Trilha sugerida
+## Trilha
 
-Música no Instagram entra pelo app, editando o post depois de publicado. A API não escolhe faixa. Por isso toda peça sai com uma **trilha sugerida** no campo `trilha_sugerida` do contrato, impressa no topo de `legenda-alt.md` para estar à mão na hora de postar.
+**Corrigido em 30/08/2026.** A versão anterior deste padrão mandava escolher "música famosa cujo instrumental já é o gancho". Estava errado, e o erro tem consequência jurídica, não estética.
 
-Critério, na ordem:
+### Por que mudou
 
-1. **Instrumental.** Carrossel se lê, e letra compete com o texto. Letra em português é o pior caso.
-2. **Música famosa cujo instrumental já é o gancho.** Quando o riff é o que se reconhece, e não a voz, a peça ganha a familiaridade sem o atrito da leitura.
-3. **Andamento constante, sem virada dramática.** Cada leitor passa os slides no próprio ritmo; ninguém está sincronizado com a música.
+A licença que a Meta tem para o catálogo popular de música é explicitamente de **uso pessoal e não comercial**. No momento em que o conteúdo promove uma marca, ela deixa de valer. Conta de negócio fica restrita à **Meta Sound Collection**, cerca de 14 mil faixas liberadas para uso comercial; conta de criador tem acesso mais amplo, mas o problema comercial é o mesmo.
+
+Ou seja: pegar uma faixa famosa da biblioteca do app para um post da Zionaxs é usar música sem a licença que aquele uso exige. O risco vai de silenciamento automático a reclamação de direito autoral na conta.
+
+### De onde a trilha pode vir
+
+| Origem | Custo | Onde vale |
+|---|---|---|
+| **Meta Sound Collection** | Grátis | Só Instagram e Facebook. Baixa no desktop, pelo Meta Business Suite |
+| Banco licenciado (Epidemic Sound, Artlist, Musicbed) | Assinatura | Onde a licença disser, normalmente todas as redes |
+| Música original ou encomendada | Varia | Onde o contrato disser |
+
+**Fora de cogitação:** faixa do catálogo popular do app, mesmo que ela apareça disponível na hora de postar. Disponível não é o mesmo que licenciado para marca.
+
+### Como a trilha entra na peça
+
+Depende do formato, porque a mecânica da plataforma é diferente:
+
+- **Carrossel:** a música entra pelo app, editando o post depois de publicado, e a faixa vem da Meta Sound Collection. O campo `trilha_sugerida` do contrato existe para a escolha estar pronta na hora.
+- **Vídeo publicado por API:** a música **tem de estar embutida no arquivo antes do upload**. Reels publicado por API não aceita adicionar áudio depois: a opção não existe no menu de editar, porque permitir isso quebraria os acordos de licenciamento da Meta. O caminho é o campo `trilha_embutida` do contrato de vídeo, com `licenca` declarada, que o porteiro cobra.
+
+### Critério de escolha, que continua valendo
+
+1. **Instrumental.** A peça se lê, e letra compete com o texto. Letra em português é o pior caso.
+2. **Reconhecível pelo andamento, não pela fama.** Sem acesso ao catálogo popular, o que segura a atenção é groove constante e textura limpa, não familiaridade emprestada.
+3. **Andamento constante, sem virada dramática.** Cada leitor passa no próprio ritmo; ninguém está sincronizado com a música.
 4. **Nada de trilha épica de superação.** Empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia.
+
+### Peças publicadas sob o padrão antigo
+
+As peças já no ar não se reescrevem, porque contrato publicado é registro histórico. Mas a **música que foi adicionada à mão nelas** não é contrato: se alguma recebeu faixa do catálogo popular, vale trocar pela Meta Sound Collection pelo app. Isso é revisão humana, e a lista está em `sistema/workspace/pieces/*/publication/published.json`.

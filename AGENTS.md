@@ -90,7 +90,7 @@ A camada vive em **[sistema/video/](sistema/video/README.md)**: o pôster editor
 4. **Sem travessão (— –) e sem "num/numa".** O gate **G13** recusa automaticamente, no contrato e no pixel.
 5. **A foto é parte do gancho.** Escolher a imagem junto com a manchete, encenando a cena concreta que a frase descreve. Rosto só em silhueta, contraluz ou dissolvido na luz.
 6. **Logo oficial** vive em `sistema/workspace/brand/logo/`; o renderer escolhe a variante pelo campo do slide. Com logo instalada, a wordmark em texto **não** entra na copy aprovada.
-7. **Trilha sugerida** em toda peça (campo `trilha_sugerida`): instrumental, de música famosa cujo riff já seja o gancho, andamento constante. A música entra pelo app do Instagram, editando o post depois de publicado; a API não escolhe faixa.
+7. **Trilha** em toda peça, e a origem importa mais que o gosto: **Meta Sound Collection, banco licenciado ou música original**. Nunca o catálogo popular do app, cuja licença é de uso pessoal e não vale para marca, mesmo aparecendo disponível na hora de postar. Carrossel recebe a música pelo app depois de publicado (`trilha_sugerida`); **vídeo por API precisa da trilha embutida no arquivo** (`trilha_embutida`, com `licenca`), porque Reels publicado por API não aceita adicionar áudio depois. Corrigido em 30/08/2026, ver `campanhas/zionaxs/padrao-de-copy.md`.
 8. **Cadência**: o limite vive em `sistema/workspace/brands/<marca>/politica-de-publicacao.json` e é o que o porteiro cobra. Nunca mude o número no código: mudar cadência é decisão de governança, registrada em `decisions/` da campanha e proposta na Zionaxs Memory. Exceção pontual exige autorização humana no momento.
 
 ### Peça publicada é registro histórico
