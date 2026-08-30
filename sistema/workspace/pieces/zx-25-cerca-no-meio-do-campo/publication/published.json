@@ -1,0 +1,64 @@
+{
+  "postId": "18125081914819275",
+  "permalink": "https://www.instagram.com/p/Dcqq604IP47/",
+  "shortcode": "Dcqq604IP47",
+  "publishedAt": "2026-08-30T13:57:03+0000",
+  "publishedAtFortaleza": "30/08/2026, 10:57:03",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906271654501214",
+  "childContainers": [
+    "17906271516501214",
+    "17906271519501214",
+    "17906271513501214",
+    "17906271522501214",
+    "17906271588501214",
+    "17906271594501214",
+    "17906271591501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-25-cerca-no-meio-do-campo/out/jpg/zx-25-cerca-no-meio-do-campo-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "17887962591610695",
+    "17946206907273193",
+    "17916039135244822",
+    "18123708439830667",
+    "18060898001787315",
+    "18132843532634245",
+    "17882839239617361"
+  ],
+  "digest": "9eaf65e2b3f7344e",
+  "commit": "ca4e590",
+  "reconciledAt": "2026-08-30T13:58:00+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA e INSTAGRAM_GET_IG_MEDIA_CHILDREN, ambos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "shareToFeedEnviado": false,
+    "urlsPublicasConferidas": "as 7 URLs responderam 200 image/jpeg em raw.githubusercontent.com antes de irem para a Meta",
+    "identidadeVerificadaAntes": "INSTAGRAM_GET_USER_INFO ao vivo devolveu username zionaxs_ e id 37965311306447572 antes de qualquer criacao de container. Ha 2 contas conectadas no Composio e a outra, @base3br, nao foi tocada.",
+    "nota": "share_to_feed nao foi enviado: e invalido para carrossel. A publicacao saiu na primeira tentativa, sem erro de transporte, entao nao houve necessidade de reconciliar antes de repetir."
+  },
+  "trilhaPendente": {
+    "faixa": "Groove in Bloom",
+    "origem": "Meta Sound Collection",
+    "comoAdicionar": "A musica entra a mao, editando o post no app depois de publicado. A API nao escolhe faixa para carrossel.",
+    "estado": "aguardando o Fabiano",
+    "substituicaoPermitida": "qualquer faixa da Meta Sound Collection que atenda aos 4 criterios esteticos do padrao de copy"
+  }
+}

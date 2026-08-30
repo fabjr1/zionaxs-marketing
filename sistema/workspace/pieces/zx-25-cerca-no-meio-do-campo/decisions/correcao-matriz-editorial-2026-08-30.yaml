@@ -1,0 +1,48 @@
+registro: a matriz editorial declarada no contrato da zx-25 está errada
+data: 2026-08-30
+autor: Marketing OS
+status: registrado, contrato NÃO reescrito
+
+o_que_esta_errado:
+  campo: matriz
+  declarado: M18
+  correto: M17
+  m18: "Número que ninguém confia. Solução: dicionário de métricas com fórmula e dono. É a linha da zx-23, não desta peça."
+  m17: >
+    "Automatizar o processo errado. Solução: eliminar, simplificar ou escalar."
+    O Bloco B de M17 traz como CTA "Listar um processo a eliminar", e a zx-25
+    pede "escolha 1 regra que te irrita e descubra quem criou". O repertório de
+    M17 é R1 Drucker, e a fonte proposta por esta peça, Chesterton, é o par
+    simétrico de R1: Drucker pergunta se o processo deveria existir antes de
+    automatizar, Chesterton pergunta por que ele existe antes de remover.
+
+por_que_o_contrato_nao_foi_reescrito: >
+  A peça já foi publicada em 30/08/2026, permalink
+  https://www.instagram.com/p/Dcqq604IP47/. Contrato de peça publicada é
+  registro histórico e não se reescreve, mesmo quando o que ele registra está
+  errado: o campo diz o que esta execução de fato classificou na hora, e
+  corrigir depois apagaria o erro em vez de registrá-lo. A correção vive aqui.
+
+causa_raiz: >
+  A Memory não estava no checkout quando o tema e o contrato foram escritos. A
+  rotina em nuvem sobe com 1 repositório só, e o memoryRoot do config.json
+  aponta para um caminho ausente. Sem a 19c à mão para conferir a linha da
+  matriz, o campo veio copiado da peça anterior. As peças zx-20, zx-21, zx-22 e
+  zx-24 declaram M18 pelo mesmo motivo, e só a zx-23 é de fato M18.
+
+  A Memory foi anexada e clonada mais tarde nesta mesma sessão, o que permitiu
+  descobrir o erro e fechar a auditoria. Mas isso foi resolvido dentro de uma
+  sessão, e pela regra zero o que fica só na sessão está perdido para a
+  próxima.
+
+encaminhado: >
+  Proposta na Inbox da Zionaxs Memory, em
+  Inbox/Agents/claude-code/2026-08-30-memory-inacessivel-nas-rotinas-em-nuvem.md,
+  com 3 correções: fazer a rotina em nuvem subir com os 2 repositórios, que é a
+  causa raiz; cobrar a matriz por gate com justificativa, do jeito que
+  comprimento_justificado já é cobrado; e não reescrever contrato publicado.
+
+impacto_na_peca_publicada: >
+  Nenhum no que foi ao ar. matriz é metadado interno de planejamento, não vira
+  pixel nem legenda, e não entra em nenhum gate. O erro é de classificação para
+  análise posterior, não de conteúdo.
