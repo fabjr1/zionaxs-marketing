@@ -1,0 +1,43 @@
+proposta: incluir a fonte Chesterton no ledger de evidência [19a]
+data: 2026-08-30
+autor: Marketing OS
+destino: Inbox da Zionaxs Memory, para promoção humana
+status: aguardando promoção humana
+
+por_que:
+  A zx-25 usa uma afirmação classificada E, e afirmação E exige fonte
+  verificável. A fonte existe e está citada com autor, obra, ano e capítulo,
+  mas ainda não tem id no ledger [19a] (Segmentos, Sinais e Evidência de
+  Público). Sem id no ledger, a próxima peça que quiser usar a mesma referência
+  a redigita, e redigitar é como se erra uma vez.
+
+fonte:
+  autor: G. K. Chesterton
+  apresentacao_ao_leitor: escritor e jornalista inglês
+  obra: The Thing
+  ano: 1929
+  capitulo: The Drift from Domesticity
+  id_proposto: R11
+  verificacao: >
+    Passagem conferida nesta execução contra o texto do capítulo. Ela descreve
+    uma cerca ou portão atravessado em uma estrada; o reformador moderno diz
+    que não vê utilidade nela e quer removê-la; o reformador mais inteligente
+    responde que, se o outro não vê a utilidade, não deixa remover, e manda
+    descobrir para que serve antes de voltar a falar em destruir.
+
+como_a_peca_usa:
+  modo: paráfrase fiel, sem citação literal em inglês
+  onde: slide 3 e parágrafo 2 da legenda
+  limite_declarado: >
+    Chesterton escreveu sobre reforma de instituições e costumes. A aplicação a
+    processo de empresa é da Zionaxs, está declarada como tal na peça e nas
+    fontes da legenda, e nenhuma conclusão de gestão é atribuída a ele.
+
+nota_de_contexto:
+  A obra é um livro de apologética católica. A passagem usada é inteiramente
+  secular e a peça não entra no enquadramento religioso do livro, apenas cita a
+  obra corretamente pelo título e ano.
+
+o_que_a_promocao_humana_decide:
+  - se R11 é o id certo, ou se a referência entra sob outro id
+  - se o ledger quer registrar a ressalva de contexto acima junto da fonte

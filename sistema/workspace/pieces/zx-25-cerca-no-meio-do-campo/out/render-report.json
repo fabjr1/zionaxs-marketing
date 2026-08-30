@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-25-cerca-no-meio-do-campo",
+  "generatedAt": "2026-08-30T13:53:12+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-25-cerca-no-meio-do-campo-slide-01.png",
+    "zx-25-cerca-no-meio-do-campo-slide-02.png",
+    "zx-25-cerca-no-meio-do-campo-slide-03.png",
+    "zx-25-cerca-no-meio-do-campo-slide-04.png",
+    "zx-25-cerca-no-meio-do-campo-slide-05.png",
+    "zx-25-cerca-no-meio-do-campo-slide-06.png",
+    "zx-25-cerca-no-meio-do-campo-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Repertório 01/07 Existe uma cerca no meio do campo. Ninguém sabe quem pôs. Antes de tirar aquela regra que parece inútil, vale descobrir que problema ela resolvia. Uma ideia de 1929 que serve para a sua operação de hoje. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b · foto: J. Fadel"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 A regra está lá. Ninguém sabe por quê. Toda ficha passa por 2 conferências antes de sair. Ninguém lembra quem decidiu isso, e a segunda conferência parece só atrasar a entrega. A proposta óbvia é tirar. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b · foto: M. Ehdaei"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A parábola03/07 O apressado: não vejo utilidade, vamos derrubar. O paciente: se você não vê a utilidade, eu não deixo derrubar. A cena é de G. K. Chesterton, escritor e jornalista inglês, em 1929. Ele imagina uma cerca atravessada em uma estrada e responde ao apressado: vá descobrir para que ela serve, e quando voltar sabendo, aí conversamos sobre derrubar. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 A regra parece inútil porque funciona. Um controle que evita o problema faz o problema sumir de vista. Sem problema à vista, o controle parece burocracia. Ele só volta a fazer sentido quando alguém tira e o problema reaparece. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "As 3 perguntas05/07 3 perguntas antes de tirar. 01Quem criou e quando. Procure a pessoa, não o documento: o motivo raramente foi escrito. 02Que problema isso resolvia. Peça 1 exemplo concreto do que dava errado antes. 03Esse problema ainda existe. Se ninguém responder, você não sabe o que está tirando. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Isso não é motivo para manter tudo. É motivo para tirar com data e com dono. Regra que ninguém defende e ninguém explica continua candidata a sair. A diferença é desligar por um prazo, com alguém acompanhando, em vez de apagar de uma vez. Se nada piorar, aí ela sai de vez. Regra de lei, norma técnica ou contrato não entra nesse teste. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Escolha 1 regra que te irrita. Antes de tirar, pergunte por quê. Procure hoje quem criou aquela regra e pergunte que problema ela resolvia. Se ninguém souber responder, desligue por 30 dias em vez de apagar e marque no calendário o dia de conferir. Temas: Regra / Origem / Reforma @zionaxs_ · ref 3fcd690b · foto: A. Spratt"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "6 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.9,
+  "digest": "9eaf65e2b3f7344ed5bcee3cbc356dd7f88d2614aa6021a0952f17fc2abc9033"
+}

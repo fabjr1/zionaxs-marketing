@@ -1,0 +1,102 @@
+decisao: aprovar e publicar a zx-25, slot de manhã de fim de semana
+data: 2026-08-30
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, então a autorização se aplica.
+  registro_anterior: pieces/zx-24-tudo-aberto-nada-pronto/decisions/aprovacao-e-excecao-de-cadencia-2026-08-29.yaml
+
+slot_editorial:
+  horario: "10:30 BRT, domingo"
+  papel: repertório, cultura, comportamento, curiosidade e conteúdo visualmente experimental
+  leitura: >
+    No fim de semana o leitor não está no meio da operação, então a peça abre
+    por repertório em vez de por diagnóstico tático. As 5 peças anteriores
+    (zx-20 a zx-24) são todas mecânica de operação: capacidade, alçada, rito
+    semanal, definição de indicador e fila. Esta é a primeira de repertório, e
+    a primeira cujo movimento é sobre REMOVER em vez de acrescentar. Assunto
+    não repetido.
+
+tema:
+  escolhido: a cerca de Chesterton aplicada a regra interna de operação
+  por_que: >
+    Serve ao papel do slot (repertório de 1929, curiosidade, foto de campo em
+    vez de escritório) sem deixar de ser útil: sai com 3 perguntas e um passo
+    de hoje. E cobre um movimento que as peças anteriores não cobriam. Todas
+    ensinavam a acrescentar um controle; esta ensina a decidir o que tirar, que
+    é a pergunta que aparece logo depois de o leitor ter acrescentado coisas.
+
+gates:
+  resultado: 14/14 verdes
+  digest: 9eaf65e2b3f7344e
+  observacao: >
+    Verde já na primeira geração. Nenhum gate foi contornado e nenhum pixel foi
+    corrigido: as 2 correções desta rodada foram no contrato.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Slide 1: o kicker REPERTÓRIO, em laranja, caía em cima do travessão de
+      madeira clara da cerca e sumia. É o caso de "objeto claro na banda de
+      texto" da direção visual, mas atingindo o chrome e não a manchete, e
+      nenhum gate mede isso: o G5 compara a tinta com o fundo declarado no CSS,
+      nunca com o pixel da foto.
+    correcao: >
+      photo.pos de "50% 42%" para "50% 60%", escolhido por MEDIÇÃO e não por
+      olho. Um probe em Chromium amostrou a luminância média dos pixels da foto
+      na faixa do kicker (43,5% a 46,5% da altura) em 5 crops. Resultado, em
+      0 a 255: 42% deu 93, 60% deu 36, 75% deu 63, 90% deu 59, 100% deu 63. O
+      crop de 60% põe o kicker sobre a linha escura da cerca viva, com a cerca
+      inteira acima da banda de texto.
+    nota: >
+      Esse probe é exatamente a ideia proposta na Inbox da Zionaxs Memory
+      (2026-08-29-contraste-medido-no-pixel-da-foto.md), que ainda NÃO existe
+      como gate. Aqui ela foi usada à mão, para uma peça. Vale como evidência
+      de que a medida é barata e decide: 5 crops medidos em uma execução, contra
+      5 julgamentos de olho que discordariam entre sessões.
+  - achado: >
+      Slide 4: com o accent em 2 linhas ("porque ela" / "funciona."), a caixa de
+      realce da segunda linha subia por cima da primeira e comia a base de
+      PORQUE ELA, que passava a ler POROUE ELA. O realce é display:inline com
+      box-decoration-break, e com line-height .98 o padding invade a linha de
+      cima. Nenhum gate mede sobreposição.
+    correcao: >
+      Accent virou 1 linha só, "porque funciona.", com o ponto dentro do realce.
+      Some a colisão e a copy fica mais curta. Regra de construção que vale para
+      as próximas: realce autoral (hl) só na última linha de um parágrafo de
+      display, e de preferência em parágrafo de 1 linha.
+
+trilha:
+  faixa: Groove in Bloom
+  origem: Meta Sound Collection
+  ressalva: >
+    O índice da coleção vive fora do repositório (ZX_TRILHAS ou
+    C:/dev/sound-collection) e não está presente neste checkout em nuvem, então
+    esta sessão não pôde escolher entre as faixas disponíveis. Groove in Bloom
+    é nomeada por ser a única verificada como presente na coleção da operação,
+    usada e licenciada na zxv-02. Qualquer faixa da Meta Sound Collection que
+    atenda aos 4 critérios estéticos serve no lugar dela.
+  a_resolver: >
+    Vale versionar um índice enxuto da coleção (nome, origem, licença, duração,
+    tags), sem os arquivos de áudio, para que sessão em nuvem consiga escolher
+    trilha. Hoje ela não consegue.
+
+limites_declarados_na_peca:
+  - Chesterton escreveu sobre instituições e costumes, não sobre processos de empresa. A transposição é da Zionaxs e está declarada.
+  - O exemplo das 2 conferências por ficha é ilustrativo, não dado de pesquisa.
+  - As 3 perguntas e o prazo de 30 dias são método proposto, classificados H.
+  - Regra de lei, norma técnica ou contrato não entra no método, e a peça diz isso no slide 6.
+
+ressalva_de_ambiente:
+  zionaxs_memory: >
+    O repositório da Zionaxs Memory não está presente neste checkout em nuvem
+    (config.json aponta para ../../../zionaxs-memory, ausente). A consulta à
+    inteligência de público do passo 2 do comando não pôde ser feita nesta
+    rodada. A classificação I se apoia no que o manifesto da marca declara e no
+    uso anterior da mesma referência nas peças zx-23 e zx-24. Mesma ressalva já
+    registrada na zx-24.
