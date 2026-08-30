@@ -52,10 +52,22 @@ O comando valida o contrato, compila, renderiza em 1080×1350 e roda os **14 gat
 | Comando | O que faz |
 |---|---|
 | `/carrossel-zionaxs` | Cria **e publica** um carrossel da Zionaxs, do tema ao post no ar. Sem argumento, pesquisa e escolhe o tema. Definido em `.claude/commands/carrossel-zionaxs.md`. |
+| `/reels-zionaxs` | Cria um Reels da Zionaxs, do tema ao arquivo pronto, e publica **depois do porteiro e do OK do Fabiano**. Definido em `.claude/commands/reels-zionaxs.md`. |
 
 O comando é do projeto, então a sessão precisa estar aberta na pasta deste repositório para enxergá-lo.
 
-O sufixo é a marca. Cada marca nova ganha o seu `/carrossel-<marca>`, com os padrões e a conta daquela marca; as marcas vivem em `sistema/workspace/brands/<id>/manifest.json`. Publicação automática passa pelo porteiro `node bin/pode-publicar.js <id>`, que confere gates, padrão, trilha e a cadência declarada na política da marca.
+O sufixo é a marca. Cada marca nova ganha o seu, com os padrões e a conta daquela marca; as marcas vivem em `sistema/workspace/brands/<id>/manifest.json`.
+
+**A diferença entre os dois é de autorização, não de capricho.** O carrossel publica sozinho porque o Fabiano autorizou em 29/08/2026 e porque 14 gates medem a peça no pixel. Vídeo tem menos verificação automática e **não tem essa autorização**, então o `/reels-zionaxs` para e pergunta antes de publicar. Promover é decisão dele, registrada em `decisions/`.
+
+Cada formato tem o seu porteiro, e os dois contam a **mesma** cadência:
+
+| Formato | Porteiro |
+|---|---|
+| Carrossel | `cd sistema/app && node bin/pode-publicar.js <id>` |
+| Vídeo | `cd sistema/video && npm run pode-publicar` |
+
+A contagem do dia é compartilhada por `sistema/app/lib/cadencia.js`, que varre carrossel e vídeo. Antes disso cada porteiro contava só o seu formato, e um Reels publicado ficava invisível para o carrossel: a cota do dia voltava a zero por formato, o que é a mesma coisa que não ter cota.
 
 ### Padrões da marca, aprovados e permanentes
 

@@ -10,10 +10,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadWorkspace } from '../lib/workspace.js';
-import { loadPiece, loadAllPieces, STATUS } from '../lib/pieces.js';
+import { loadPiece, STATUS } from '../lib/pieces.js';
 import { scanPiece, scanEstilo } from '../lib/copy-rules.js';
+import { publicadasHoje, diaLocal } from '../lib/cadencia.js';
 
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const REPO = path.resolve(APP, '../..');
 const arg = (n) => { const i = process.argv.indexOf(n); return i > -1 ? process.argv[i + 1] : undefined; };
 const id = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : undefined;
 if (!id) { console.error('uso: node bin/pode-publicar.js <piece-id> [--root <ws>] [--excecao "<motivo>"]'); process.exit(2); }
@@ -52,22 +54,18 @@ try {
 const limite = politica?.cadencia?.postsPorDia ?? 1;
 const origem = politica ? `política da marca (${politica.cadencia?.override ? 'override declarado' : 'baseline'})` : 'baseline canônico, sem política declarada';
 
-// O dia é o do FUSO DA MARCA, não o UTC. Com UTC-3, a partir das 21h locais o
-// UTC já virou e a cota do dia seguinte seria liberada cedo demais.
+// O dia é o do FUSO DA MARCA, não o UTC, e a conta inclui TODOS os formatos.
+// Antes esta linha varria só as peças de carrossel, e um Reels publicado ficava
+// invisível aqui: a cota do dia voltava a zero por formato. Cadência é da
+// marca, não do formato.
 const fuso = politica?.cadencia?.fuso || 'America/Fortaleza';
-const diaLocal = (d) => new Intl.DateTimeFormat('en-CA', {
-  timeZone: fuso, year: 'numeric', month: '2-digit', day: '2-digit',
-}).format(d);
-
-const hoje = diaLocal(new Date());
-const jaHoje = loadAllPieces(ws)
-  .filter((x) => x.id !== id && x.publication?.publishedAt)
-  .filter((x) => diaLocal(new Date(x.publication.publishedAt)) === hoje);
+const hoje = diaLocal(new Date(), fuso);
+const jaHoje = publicadasHoje(REPO, fuso, id);
 
 const excecao = arg('--excecao');
 if (jaHoje.length >= limite && !excecao) {
   bloqueios.push(`cadência: ${jaHoje.length} publicação(ões) hoje (${hoje}, fuso ${fuso}), limite ${limite} por ${origem}. ` +
-    `Já saíram: ${jaHoje.map((x) => x.id).join(', ')}. Publique amanhã, ou peça autorização humana e repasse --excecao "<motivo>".`);
+    `Já saíram: ${jaHoje.map((x) => x.id + ' (' + x.formato + ')').join(', ')}. Publique amanhã, ou peça autorização humana e repasse --excecao "<motivo>".`);
 }
 
 console.log(`\n=== PODE PUBLICAR? — ${id} ===`);

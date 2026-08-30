@@ -24,6 +24,15 @@ A peça vive aqui, e não em `sistema/workspace/pieces/`, porque o renderer do m
 | `src/fonts.js` | Carrega Poppins 700, Archivo e JetBrains Mono do brand pack e segura o render até a face estar pronta |
 | `scripts/sync-brand.mjs` | Copia fontes, logo e fotos do brand pack para `public/`, e extrai os tokens de cor de `brand.json` |
 | `scripts/render.mjs` | Render em sequência de PNG mais ffmpeg do sistema. O porquê está abaixo |
+| `bin/pode-publicar.mjs` | O porteiro. Cada verificação dele existe porque a falha correspondente já aconteceu |
+| `bin/preparar.mjs` | Copia a mídia para caminho versionado, gera a capa e imprime os parâmetros do contêiner |
+| `bin/registrar.mjs` | Grava `published.json` com digest, e recusa se conta, tipo ou legenda divergirem |
+
+A rotina inteira é o comando `/reels-zionaxs`, definido em `.claude/commands/reels-zionaxs.md`.
+
+```bash
+npm run render && npm run pode-publicar
+```
 
 O brand pack em `sistema/workspace/brand/` continua sendo fonte única. Nada de cor, fonte ou logo é redigitado aqui: `public/` e `src/brand-tokens.json` são artefatos gerados, e por isso ficam fora do git.
 

@@ -7,7 +7,10 @@
   "scripts": {
     "brand": "node scripts/sync-brand.mjs",
     "studio": "npm run brand && remotion studio src/index.jsx",
-    "render": "npm run brand && node scripts/render.mjs"
+    "render": "npm run brand && node scripts/render.mjs",
+    "pode-publicar": "node bin/pode-publicar.mjs",
+    "preparar": "node bin/preparar.mjs",
+    "registrar": "node bin/registrar.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.518",
