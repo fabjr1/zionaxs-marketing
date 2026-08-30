@@ -48,7 +48,12 @@ Todas ligadas, modelo `claude-opus-5`, ambiente `env_01513KRzJBCT1jFxvwMvuG7o`, 
 
 Os papéis editoriais diferem por slot e vêm da nota 30. Fim de semana não repete o tom de dia útil: de manhã é repertório e curiosidade, à tarde é guia salvável.
 
-Painel: https://claude.ai/code/routines — apagar rotina só é possível por lá.
+Painel: https://claude.ai/code/routines
+### Rotina de teste, encerrada
+
+A rotina `trig_014XS85D1iF6MTNwDoiVpfT3` existiu apenas para o teste único de publicação em nuvem de 29/08, que passou. Em 30/08 ela foi **desarmada**: desligada, renomeada para ENCERRADA, com repositório e conectores removidos e o prompt trocado por um aviso inerte. Sem o conector do Composio ela não alcança o Instagram nem se alguém disparar.
+
+O desarme importa porque o prompt dela carregava autorização de exceção de cadência. **A API não apaga rotina**, só o painel apaga: quando for lá, remova a que começa com ENCERRADA. — apagar rotina só é possível por lá.
 
 ## O que o teste de 29/08 provou, e o que ainda não
 
