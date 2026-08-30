@@ -40,6 +40,9 @@ export function publicacoes(repoRoot, fuso) {
       try { j = JSON.parse(fs.readFileSync(arq, 'utf8')); } catch { continue; }
       const quando = j.publishedAt || j.published_at || j.at;
       if (!quando) continue;
+      // Post removido nao ocupa vaga: ele nao esta mais no feed, e contar
+      // um post que nao existe mais faria a cadencia bloquear por fantasma.
+      if (j.removidoEm) continue;
       saida.push({ id, formato, publishedAt: quando, dia: diaLocal(new Date(quando), fuso), permalink: j.permalink || null });
     }
   }

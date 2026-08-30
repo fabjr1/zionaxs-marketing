@@ -18,11 +18,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { derivar } from '../src/tempo.js';
+import { pecaAtual, contratoDa } from './peca-atual.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const contrato = JSON.parse(fs.readFileSync(new URL('../pecas/zxv-01-uma-porta-so/contract.json', import.meta.url), 'utf8'));
+const comp = process.argv[2] || pecaAtual();
+const contrato = contratoDa(comp);
 const linha = derivar(contrato);
-const comp = process.argv[2] || contrato.id;
 const frames = path.join(root, 'out', comp);
 const mp4 = path.join(root, 'out', `${comp}.mp4`);
 const provasDir = path.join(root, 'out', `${comp}-provas`);
@@ -87,7 +88,7 @@ const PAD = (fs.readdirSync(frames).find((f) => f.endsWith('.png')) || '').repla
 // arquivo é silenciada pelo Rights Manager do Instagram, porque a licença da
 // biblioteca do app não acompanha o mp4. Por isso `trilha_embutida.licenca` é
 // obrigatória e o porteiro recusa sem ela.
-const trilha = c.trilha_embutida;
+const trilha = contrato.trilha_embutida;
 const arquivoTrilha = trilha ? path.resolve(root, 'pecas', comp, trilha.arquivo) : null;
 if (trilha && !fs.existsSync(arquivoTrilha)) {
   console.error(`contrato pede trilha embutida que não existe: ${arquivoTrilha}`);
