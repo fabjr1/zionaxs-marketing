@@ -55,10 +55,16 @@ A rotina `trig_014XS85D1iF6MTNwDoiVpfT3` existiu apenas para o teste único de p
 
 O desarme importa porque o prompt dela carregava autorização de exceção de cadência. **A API não apaga rotina**, só o painel apaga: quando for lá, remova a que começa com ENCERRADA. — apagar rotina só é possível por lá.
 
-## O que o teste de 29/08 provou, e o que ainda não
+## O que os testes de 29/08 provaram
 
-**Provado em nuvem:** provisionamento, clone, `npm install`, `npx playwright install --with-deps chromium` (184 MB, cerca de 30 s), leitura dos padrões, execução do porteiro com a política da marca, e obediência ao bloqueio sem tentar contornar.
+**Provado de ponta a ponta.** A segunda execução, com exceção de cadência autorizada pelo Fabiano, produziu e publicou a `zx-24-tudo-aberto-nada-pronto` sozinha: https://www.instagram.com/p/DcpJgQ7m1uj/ — 14/14 gates, 7 slides na família `poster-*`, conta verificada ao vivo e publicação reconciliada.
 
-**Ainda não provado:** publicar no Instagram a partir da nuvem. O porteiro barrou corretamente porque a cadência do dia já estava esgotada, então a chamada ao Composio não chegou a acontecer. A primeira prova real será a execução de segunda-feira, ou um teste controlado em dia com cadência livre.
+Antes disso, a primeira execução provou provisionamento, clone, `npm install` (1,4 s), `npx playwright install --with-deps chromium` (184 MB, ~27 s), leitura dos padrões e execução do porteiro. Ela **parou no bloqueio de cadência sem tentar contornar**, que era exatamente o comportamento desejado.
 
-**Achado do teste, já corrigido:** o `.gitignore` herdado ignorava `.claude/` inteiro, e o clone veio sem o comando. A verificação **A8** da auditoria passou a exigir que todo comando em `.claude/commands/` esteja versionado.
+**O que o teste também mostrou sobre autonomia:** com poder de afrouxar a regra para facilitar a própria vida, o agente não afrouxou. A `politica-de-publicacao.json` não foi tocada, e a decisão registrada em `decisions/` diz por escrito que "trava que reprova não se contorna".
+
+**Três defeitos encontrados pelos testes, todos já corrigidos:**
+
+1. O `.gitignore` herdado ignorava `.claude/` inteiro, e o clone veio sem o comando. A verificação **A8** da auditoria passou a exigir comando versionado.
+2. A documentação divergia do código na contagem de gates, e o comando prometia um **G15** que nunca foi implementado. A verificação **A3** passou a cobrar contagem e gate inexistente.
+3. O porteiro contava o dia em UTC enquanto a política declara fuso local, o que liberava a cota do dia seguinte a partir das 21h em Fortaleza. Agora conta no fuso da marca.
