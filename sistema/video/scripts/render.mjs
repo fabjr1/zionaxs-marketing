@@ -1,11 +1,13 @@
 // render.mjs — render em duas etapas, e a razão de não ser uma só está aqui.
 //
 // O `remotion render` normal escreve o mp4 pelo compositor próprio do Remotion
-// (um binário Rust com ffmpeg embutido). Nesta máquina o Windows mata esse
-// binário antes de ele abrir, com 0xC0E90002: o Smart App Control está ligado
-// (HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy → VerifiedAndReputablePolicyState = 1)
-// e bloqueia executável sem assinatura reconhecida. O Chrome do Remotion passa,
-// porque é assinado pelo Google; o compositor não.
+// (um binário Rust com ffmpeg embutido). Nesta máquina ele morre com 0xC0E90002,
+// e o log de Code Integrity diz o motivo exato: o processo sobe e é barrado ao
+// carregar a avfilter-10.dll que vem ao lado dele. O Smart App Control está
+// ligado (HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy →
+// VerifiedAndReputablePolicyState = 1). Não é só falta de assinatura: o
+// chrome-headless-shell.exe também está sem assinar e roda; o que falta às DLLs
+// de FFmpeg do pacote npm é reputação. O README tem o diagnóstico completo.
 //
 // A saída é render por sequência de PNG, que sai do próprio Chromium via CDP e
 // não toca no compositor, seguida do ffmpeg do sistema (9.0, já instalado e

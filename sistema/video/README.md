@@ -26,7 +26,21 @@ O brand pack em `sistema/workspace/brand/` continua sendo fonte única. Nada de 
 
 `remotion render` normal escreve o mp4 pelo compositor próprio do Remotion, um binário Rust com ffmpeg embutido. **Nesta máquina esse binário é morto pelo Windows antes de abrir**, com saída `0xC0E90002` e o erro `write EOF` do lado do Node.
 
-Causa: o **Smart App Control está ligado** (`HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy` → `VerifiedAndReputablePolicyState = 1`) e bloqueia executável sem assinatura reconhecida. O Chrome que o Remotion baixa passa, porque é assinado pelo Google. O compositor e o ffmpeg embutidos não passam.
+Causa, com a linha exata do log de Code Integrity:
+
+> Code Integrity determined that a process (`...\compositor-win32-x64-msvc\remotion.exe`) attempted to load `...\compositor-win32-x64-msvc\avfilter-10.dll` that did not meet the Enterprise signing level requirements.
+
+Ou seja, o executável **começa** a rodar. Quem é barrado é a **DLL do FFmpeg ao lado dele**, `avfilter-10.dll`. Sem a dependência, o processo morre antes de fazer qualquer coisa, e o Node, que estava despejando quadros na entrada dele, só enxerga o cano fechar: daí o `write EOF`, que aponta para o lugar errado.
+
+O **Smart App Control está ligado** nesta máquina (`HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy` → `VerifiedAndReputablePolicyState = 1`).
+
+Cuidado com a explicação fácil: **não é só falta de assinatura**. Conferido com `Get-AuthenticodeSignature`, os quatro binários envolvidos estão sem assinatura, inclusive o `chrome-headless-shell.exe` e o `esbuild.exe`, e esses dois rodam sem problema. O que separa um do outro é reputação: o Smart App Control libera o que é assinado **ou** o que o modelo de reputação da Microsoft reconhece, e as DLLs de FFmpeg que vêm dentro de um pacote npm não são nenhum dos dois. Isso é inferência sobre o critério; o que está provado pelo log é qual arquivo foi barrado.
+
+Como reproduzir o diagnóstico:
+
+```powershell
+Get-WinEvent -LogName "Microsoft-Windows-CodeIntegrity/Operational" -MaxEvents 400 | Where-Object { $_.Id -eq 3033 }
+```
 
 Saída adotada, sem desligar nada da segurança da máquina:
 
