@@ -1,0 +1,100 @@
+decisao: nao publicar no slot das 15:00 de domingo, por cadencia esgotada
+data: "2026-08-30"
+autor: nenhum humano no momento; rotina automatica das 15:00 BRT
+registrado_por: Marketing OS
+natureza: bloqueio obedecido, nao exececao concedida
+
+o_que_aconteceu:
+  resumo: >
+    A rotina da tarde de fim de semana rodou para produzir e publicar um
+    carrossel no slot das 15:00 BRT. O porteiro de publicacao reprova qualquer
+    peca nova hoje, porque a cota diaria da marca ja estava gasta antes de a
+    rotina comecar. Nenhuma peca foi produzida: o bloqueio nao depende do
+    conteudo da peca, entao gerar uma peca inteira para receber um nao ja
+    conhecido seria trabalho sem destino.
+  verificado_em: "2026-08-30T18:07 UTC, 15:07 BRT"
+  comando: "cd sistema/app && node bin/pode-publicar.js <id> --root ../workspace"
+  saida_do_porteiro: >
+    cadencia: 2 publicacao(oes) hoje (2026-08-30, fuso America/Fortaleza),
+    limite 2 pela politica da marca (override declarado).
+
+o_que_ocupou_as_2_vagas_de_hoje:
+  - id: zxv-02-uma-porta-so
+    formato: video
+    publicado: "2026-08-30T05:28:20+0000, 02:28 BRT"
+    observacao: >
+      Publicado as 02:28 BRT, que nao e nenhum dos 4 slots declarados na
+      politica. Consumiu vaga mesmo assim, porque o contador nao olha slot.
+  - id: zx-25-cerca-no-meio-do-campo
+    formato: carrossel
+    publicado: "2026-08-30T13:57:03+0000, 10:57 BRT"
+    observacao: slot das 10:30 BRT, papel de repertorio. Publicacao legitima e no lugar.
+  nota_sobre_zxv-01: >
+    A zxv-01-uma-porta-so foi publicada as 00:09 BRT de hoje e NAO conta,
+    porque tem removidoEm 2026-08-30 no published.json. Post removido nao
+    ocupa vaga, por decisao ja implementada em lib/cadencia.js. Sem essa
+    regra o dia teria 3 publicacoes contadas.
+
+por_que_nao_foi_contornado:
+  regra: >
+    A instrucao da rotina e o AGENTS.md dizem a mesma coisa: trava que reprova
+    nao se contorna. Nao usei --excecao e nao alterei
+    brands/zionaxs/politica-de-publicacao.json. Excecao de cadencia exige
+    autorizacao humana no momento, e autorizacao antiga nao serve. Nao havia
+    humano nesta execucao, entao nao havia autorizacao possivel.
+  o_que_seria_errado: >
+    Mudar postsPorDia de 2 para 3 no arquivo resolveria o bloqueio desta
+    execucao e apagaria a decisao de governanca que o numero representa. O
+    proprio porteiro carrega o comentario de que mudar o numero no codigo e
+    contornar governanca.
+
+divergencia_encontrada:
+  titulo: o que foi autorizado e o que o contador cobra nao sao a mesma coisa
+  autorizado_em_29_08:
+    texto: "2 carrosseis por dia em dias uteis, slots 08:30 e 13:00 BRT"
+    onde: decisions/cadencia-2-por-dia-2026-08-29.yaml, e a proposta correspondente na Inbox da Memory
+  implementado_hoje:
+    postsPorDia: 2
+    diasAtivos: "[0,1,2,3,4,5,6], os 7 dias"
+    slots: 4, sendo 2 de dia util (08:30, 13:00) e 2 de fim de semana (10:30, 15:00)
+    contagem: >
+      lib/cadencia.js conta TODOS os formatos juntos, carrossel e video, por
+      decisao propria e bem fundamentada: cadencia e da marca, nao do formato,
+      e dois contadores separados sao a mesma coisa que nenhum.
+  a_colisao: >
+    A autorizacao fala em carrosseis. O contador conta publicacoes de qualquer
+    formato. Enquanto o video nao existia como formato proprio, as duas
+    leituras davam o mesmo resultado. Desde que existe, um Reels consome uma
+    vaga de carrossel. No fim de semana so ha 2 slots declarados, entao 1 Reels
+    fora de slot derruba automaticamente o carrossel da tarde. Foi exatamente
+    o que aconteceu hoje.
+  por_que_isso_nao_e_bug: >
+    Nenhuma das duas partes esta errada isoladamente. O contador esta certo em
+    contar a marca inteira. A politica esta certa em declarar 2 slots por dia
+    de fim de semana. O que falta e uma decisao humana sobre como as duas
+    convivem, e essa decisao nao e minha.
+
+o_que_precisa_de_decisao_humana:
+  - opcao: dar cota propria ao video, mantendo 2 carrosseis por dia
+    efeito: o slot das 15:00 volta a existir de fato; a cota total da marca sobe
+  - opcao: manter 1 cota unica de 2 por dia para a marca inteira
+    efeito: >
+      correto como esta, e entao a politica declara 2 slots de fim de semana
+      que nem sempre podem ser usados. Publicar Reels fora de slot passa a
+      ser o que decide qual carrossel cai.
+  - opcao: exigir que toda publicacao caia em um slot declarado
+    efeito: >
+      o Reels das 02:28 nao teria saido naquele horario, e a colisao de hoje
+      nao teria acontecido. Nao resolve o caso de 2 pecas no mesmo slot.
+  encaminhamento: >
+    Proposta registrada na Inbox da Zionaxs Memory em
+    2026-08-30-cadencia-por-formato-e-slot.md, para promocao humana, conforme
+    a regra 8 do AGENTS.md: mudar cadencia e decisao de governanca, registrada
+    em decisions/ da campanha e proposta na Memory.
+
+efeito_pratico_imediato: >
+  O slot das 15:00 de hoje fica vazio. A proxima janela sem bloqueio e amanha,
+  segunda 31/08, no slot das 08:30 BRT, quando a cota do dia zera. Nenhuma
+  peca ficou pela metade e nada precisa ser limpo antes da proxima execucao.
+
+auditoria: "8/8 verde nesta execucao"
