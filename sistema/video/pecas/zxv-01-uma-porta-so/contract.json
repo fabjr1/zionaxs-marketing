@@ -66,7 +66,7 @@
         "Nenhuma fila.",
         "O pedido entra por todo lado, e o dono vira o único lugar onde a lista existe."
       ],
-      "alt": "Batida 1 de 8. Parede inteira coberta de recados coloridos, escurecida, com a manchete 5 portas, nenhuma fila."
+      "alt": "Batida 1 de 9. Parede inteira coberta de recados coloridos, escurecida, com a manchete 5 portas, nenhuma fila."
     },
     {
       "n": 2,
@@ -92,7 +92,7 @@
         "Corredor",
         "Sistema"
       ],
-      "alt": "Batida 2 de 8. Cinco etiquetas com os nomes dos canais entram voando pelas bordas e se acumulam tortas no centro."
+      "alt": "Batida 2 de 9. Cinco etiquetas com os nomes dos canais entram voando pelas bordas e se acumulam tortas no centro."
     },
     {
       "n": 3,
@@ -108,7 +108,7 @@
         "Nenhum desses caminhos vira uma lista que alguém consiga abrir e contar.",
         "Fila"
       ],
-      "alt": "Batida 3 de 8. As etiquetas somem uma a uma e sobra um retângulo tracejado vazio, rotulado fila."
+      "alt": "Batida 3 de 9. As etiquetas somem uma a uma e sobra um retângulo tracejado vazio, rotulado fila."
     },
     {
       "n": 4,
@@ -128,7 +128,7 @@
         "Em média, é quanto a pessoa leva para voltar à tarefa que foi interrompida. Antes disso, ela passa por pelo menos 2 outras.",
         "Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, com Victor González e Justin Harris. CHI 2005."
       ],
-      "alt": "Batida 4 de 8. Um contador sobe de 0 até 25 e a palavra minutos aterrissa ao lado, com a fonte do estudo embaixo."
+      "alt": "Batida 4 de 9. Um contador sobe de 0 até 25 e a palavra minutos aterrissa ao lado, com a fonte do estudo embaixo."
     },
     {
       "n": 5,
@@ -148,7 +148,7 @@
         "Pergunta",
         "Volta"
       ],
-      "alt": "Batida 5 de 8. Uma barra de trabalho é cortada por um traço fino e ao lado cresce uma barra larga, mostrando que a volta custa muito mais que a pergunta."
+      "alt": "Batida 5 de 9. Uma barra de trabalho é cortada por um traço fino e ao lado cresce uma barra larga, mostrando que a volta custa muito mais que a pergunta."
     },
     {
       "n": 6,
@@ -166,7 +166,7 @@
         "1 porta só",
         "Escolha 1 canal para receber pedido. Nos outros você continua respondendo, mas o pedido só entra por ali."
       ],
-      "alt": "Batida 6 de 8. Campo laranja. As cinco etiquetas se juntam e colapsam em uma única porta."
+      "alt": "Batida 6 de 9. Campo laranja. As cinco etiquetas se juntam e colapsam em uma única porta."
     },
     {
       "n": 7,
@@ -193,7 +193,7 @@
         "Ordenar",
         "Prometer prazo"
       ],
-      "alt": "Batida 7 de 8. Três itens numerados se alinham em coluna: contar, ordenar e prometer prazo."
+      "alt": "Batida 7 de 9. Três itens numerados se alinham em coluna: contar, ordenar e prometer prazo."
     },
     {
       "n": 8,
@@ -211,7 +211,18 @@
         "Comece hoje",
         "Escolha 1 canal, avise a equipe e responda nos outros: me manda por ali. Em 2 semanas você enxerga a fila inteira."
       ],
-      "alt": "Batida 8 de 8. Campo de papel claro com o passo prático e a marca no rodapé."
+      "alt": "Batida 8 de 9. Campo de papel claro com o passo prático e a marca no rodapé."
+    },
+    {
+      "n": 9,
+      "papel": "assinatura",
+      "campo": "tinta",
+      "cena": "assinatura",
+      "duracao": 120,
+      "semChrome": true,
+      "copy": {},
+      "approved_visible_copy": [],
+      "alt": "Batida 9 de 9. Assinatura da marca: a wordmark zionaxs sozinha no centro, sobre fundo escuro, entre marcas de registro de impressão, com um fio laranja assentando embaixo."
     }
   ],
   "chrome": {

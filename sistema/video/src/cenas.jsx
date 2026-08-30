@@ -356,6 +356,70 @@ export const PosterClose = ({ b }) => {
   );
 };
 
+/* ---------------------------------------------------------------- batida 9 */
+/* Assinatura. Sem texto e sem chrome: a marca sozinha.
+   O movimento é o da própria linguagem da peça, que é prova de impressão. As
+   marcas de registro convergem como quem alinha a chapa, a wordmark é revelada
+   por máscara da esquerda para a direita, como tinta saindo da prensa, e o fio
+   laranja assenta embaixo. Nada de brilho, giro ou salto: a marca vende
+   critério de engenharia, e logo que dá cambalhota diz o contrário. */
+const Registro = ({ cantoX, cantoY, s }) => {
+  const braco = 58;
+  const fora = 70 * (1 - s);
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        [cantoX < 0 ? 'left' : 'right']: -fora,
+        [cantoY < 0 ? 'top' : 'bottom']: -fora,
+        width: braco, height: braco,
+        [cantoY < 0 ? 'borderTop' : 'borderBottom']: `3px solid ${C.posterCream}`,
+        [cantoX < 0 ? 'borderLeft' : 'borderRight']: `3px solid ${C.posterCream}`,
+        opacity: s * 0.7,
+      }}
+    />
+  );
+};
+
+export const Assinatura = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  const marcas = firme(frame, fps, 6, 26);
+  // A revelação é a única coisa que precisa de curva própria: mola aqui daria
+  // repique na borda da máscara, e tinta impressa não repica.
+  const revela = interpolate(frame, [20, 52], [0, 1], {
+    extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic),
+  });
+  const fio = firme(frame, fps, 48, 24);
+  const recolhe = firme(frame, fps, 74, 22);
+  // Respiração lenta: 2% de escala ao longo da batida inteira. Sem isso o
+  // último plano parece imagem congelada, e não fim de filme.
+  const respira = interpolate(frame, [0, 120], [0.985, 1.005], { extrapolateRight: 'clamp' });
+
+  return (
+    <AbsoluteFill style={{ background: C.ink, alignItems: 'center', justifyContent: 'center' }}>
+      <div
+        style={{
+          position: 'relative', width: 840, height: 330,
+          display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+          transform: `scale(${respira})`,
+        }}
+      >
+        {[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([x, y]) => (
+          <Registro key={`${x}${y}`} cantoX={x} cantoY={y} s={marcas * (1 - recolhe)} />
+        ))}
+
+        <div style={{ overflow: 'hidden', clipPath: `inset(0 ${(1 - revela) * 100}% 0 0)` }}>
+          <Img src={staticFile('logo/zionaxs-white.png')} style={{ width: 560, height: 'auto', display: 'block' }} />
+        </div>
+
+        <div style={{ marginTop: 34, height: 4, width: `${fio * 300}px`, background: C.accent }} />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const CENAS = {
   'poster-cover': PosterCover,
   'portas-chegando': PortasChegando,
@@ -365,4 +429,5 @@ export const CENAS = {
   colapso: Colapso,
   'fila-aparece': FilaAparece,
   'poster-close': PosterClose,
+  assinatura: Assinatura,
 };

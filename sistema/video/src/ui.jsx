@@ -121,16 +121,25 @@ const Progresso = ({ tinta }) => {
   );
 };
 
+// A batida de assinatura pede o chrome fora: wordmark no centro com wordmark
+// no topo é a marca duas vezes na mesma tela. Sai por fade, e não por corte,
+// senão o sumiço chama mais atenção que a entrada da marca.
+const ASSINATURA = linha.batidas.find((b) => b.semChrome);
+
 /** Chrome fixo. Cor e variante da logo trocam com o campo, como no pôster. */
 export const Chrome = () => {
   const frame = useCurrentFrame();
   const campo = campoNoFrame(frame);
+  const presenca = ASSINATURA
+    ? interpolate(frame, [ASSINATURA.from - 4, ASSINATURA.from + 12], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })
+    : 1;
+  if (presenca <= 0) return null;
   const tinta = campo === 'foto' || campo === 'tinta' ? C.posterCream : C.ink;
   const logo = campo === 'papel' ? 'logo/zionaxs-black.png' : 'logo/zionaxs-white.png';
   const ch = contrato.chrome;
 
   return (
-    <AbsoluteFill style={{ padding: `${MY}px ${MX}px`, color: tinta, justifyContent: 'space-between', pointerEvents: 'none' }}>
+    <AbsoluteFill style={{ padding: `${MY}px ${MX}px`, color: tinta, justifyContent: 'space-between', pointerEvents: 'none', opacity: presenca }}>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Img src={staticFile(logo)} style={{ height: 38, width: 'auto' }} />

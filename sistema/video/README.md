@@ -37,6 +37,8 @@ Vieram da pesquisa registrada em `skills/video/references/edit-anatomy.md`, `ski
 4. **A peça é legível sem som.** Nada da mensagem depende de áudio.
 5. **Texto entra por máscara, não por fade.** A linha sobe de dentro de um corte, como tipo saindo da prensa. Fade é o movimento genérico de apresentação de slides, e é o que faz a peça parecer template.
 
+A batida de assinatura segue as mesmas regras: as marcas de registro convergem como quem alinha a chapa, a wordmark é revelada por máscara da esquerda para a direita, como tinta saindo da prensa, e o fio laranja assenta embaixo. Nada de brilho, giro ou salto, porque a marca vende critério de engenharia e logo que dá cambalhota diz o contrário. O chrome sai de cena por fade nessa batida: wordmark no centro com wordmark no topo é a marca duas vezes na mesma tela.
+
 Uma sexta regra saiu de erro próprio: **todo texto de apoio precisa estar inteiro na tela antes de 60% da batida**, senão não sobra tempo de leitura. A primeira montagem colocava a explicação em 65% da batida e ela chegava tarde em 4 das 8.
 
 ## O achado que custou a primeira hora
