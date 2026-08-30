@@ -1,0 +1,53 @@
+decisao: publicar a zxv-02, republicação da zxv-01 com trilha embutida
+data: 2026-08-30
+autor: fabiano
+registrado_por: Marketing OS
+
+autorizacao:
+  texto: "apaga e republica com a faixa, e corrige o padrão"
+  base: >
+    Autorização permanente de publicação automática dada em 30/08/2026, mais
+    a instrução explícita de republicar esta peça com trilha.
+
+por_que_uma_peca_nova:
+  - >
+    A zxv-01 foi publicada de verdade e depois removida. Reescrever o contrato
+    dela para acrescentar a trilha invalidaria o digest do published.json e
+    apagaria o que de fato foi ao ar.
+  - >
+    A zxv-02 é peça nova, com o mesmo conteúdo, a trilha embutida e a
+    trilha_sugerida já dentro do padrão corrigido. O published.json da zxv-01
+    aponta para cá em substituidaPor.
+
+trilha:
+  faixa: Groove In Bloom
+  origem: Meta Sound Collection
+  licenca: >
+    Livre de royalties, liberada para uso comercial em conteúdo hospedado no
+    Instagram e no Facebook. NÃO cobre YouTube nem TikTok.
+  tratamento: normalizada em EBU R128 com alvo -14 LUFS, teto -1.5 dBTP, fade de 2s
+  aferido: corpo em -16,4 dB de média com pico em -1,3; último segundo em -26,6
+
+publicacao:
+  postId: "17933492850364270"
+  permalink: https://www.instagram.com/reel/DcpwrKDjIVY/
+  publishedAt: "2026-08-30T05:28:20+0000"
+  containerId: "17906214549501214"
+  audio_name: Zionaxs
+  identidade_verificada_antes: true
+  cadencia: >
+    Primeiro post válido de 30/08/2026. A zxv-01 saiu da conta e passou a ser
+    ignorada pela contagem, porque post removido não ocupa vaga.
+  intercorrencia: >
+    A primeira chamada de criação de contêiner voltou erro de transporte. Como
+    contêiner não publica sozinho e expira em 24h, repetir era seguro; o risco
+    de duplicar existe só no passo de publicar. Pode haver um contêiner órfão,
+    que morre sozinho.
+
+verificacoes_antes_de_publicar:
+  porteiro: verde
+  copy: 48 textos, 0 violação
+  contraste_sobre_foto: 13,16:1 no pior fundo, contra piso de 4,5
+  reconciliacao: >
+    Legenda conferida por máquina, com o texto TRANSCRITO da resposta da API e
+    não copiado do contrato: comparar o contrato consigo mesmo não provaria nada.

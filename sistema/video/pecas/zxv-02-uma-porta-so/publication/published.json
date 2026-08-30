@@ -1,0 +1,36 @@
+{
+  "postId": "17933492850364270",
+  "permalink": "https://www.instagram.com/reel/DcpwrKDjIVY/",
+  "shortcode": "DcpwrKDjIVY",
+  "publishedAt": "2026-08-30T05:28:20+0000",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio/instagram REELS, via /reels-zionaxs",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906214549501214",
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/video/pecas/zxv-02-uma-porta-so/publicacao/zxv-02-uma-porta-so.mp4",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/video/pecas/zxv-02-uma-porta-so/publicacao/capa.jpg"
+  ],
+  "digest": {
+    "contrato": "daa888e3ffe4e915f248a93fd2a2f90a5dcd47668ed58aa1d5307a0c6460e03e",
+    "mp4": "aa73cfe657d7bcef6d334475b474b95c314ca7255a3fafe6e8531bbbde0c7203"
+  },
+  "reconciledAt": "2026-08-30T05:29:13.989Z",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA",
+    "owner": "37965311306447572",
+    "username": "zionaxs_",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "legendaConfere": true
+  },
+  "trilhaSugerida": {
+    "faixa": "Groove In Bloom",
+    "artista": "Meta Sound Collection",
+    "versao": "Instrumental, baixada do Meta Business Suite",
+    "porque": "Instrumental de andamento constante, sem virada dramática, que é o que a peça pede porque cada pessoa lê no próprio ritmo. Vem da biblioteca liberada para uso comercial, ao contrário do catálogo popular do app.",
+    "evitar": "Catálogo popular do Instagram: a licença da Meta para música famosa é de uso pessoal e não vale para conta de marca."
+  },
+  "pendencia": "A trilha entra à mão, editando o post no app. A API não escolhe faixa."
+}
