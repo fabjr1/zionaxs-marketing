@@ -1,16 +1,16 @@
 import { Composition } from 'remotion';
-import { ZxTeste } from './ZxTeste';
-import { FPS, TOTAL } from './tempo.js';
+import { ZxPeca } from './ZxPeca';
+import { contrato, linha } from './peca.js';
 import tokens from './brand-tokens.json';
 
-const { w, h } = tokens.formats['story-9x16'];
+const { w, h } = tokens.formats[contrato.format];
 
 export const Root = () => (
   <Composition
-    id="zx-teste"
-    component={ZxTeste}
-    durationInFrames={TOTAL}
-    fps={FPS}
+    id={contrato.id}
+    component={ZxPeca}
+    durationInFrames={linha.total}
+    fps={linha.fps}
     width={w}
     height={h}
   />

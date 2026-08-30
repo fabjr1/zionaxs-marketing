@@ -10,6 +10,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
 const brand = path.resolve(root, '../workspace/brand');
 const visual = path.resolve(root, '../../campanhas/zionaxs/direcao-visual');
+const acervo = path.resolve(root, '../workspace/pieces');
 
 const copies = [
   // Só as faces latinas: é o que a peça usa, e woff2 por face pesa pouco.
@@ -19,6 +20,9 @@ const copies = [
   [path.join(brand, 'logo/zionaxs-white.png'), 'public/logo/zionaxs-white.png'],
   [path.join(brand, 'logo/zionaxs-black.png'), 'public/logo/zionaxs-black.png'],
   [path.join(visual, 'foto-por-do-sol.jpg'), 'public/foto/por-do-sol.jpg'],
+  // Foto já escolhida e creditada na zx-24 (A. Vo). Reaproveitar o acervo das
+  // peças evita recreditar errado e mantém a coerência visual da conta.
+  [path.join(acervo, 'zx-24-tudo-aberto-nada-pronto/assets/foto-mural-recados.jpg'), 'public/foto/mural-recados.jpg'],
 ];
 
 for (const [from, to] of copies) {

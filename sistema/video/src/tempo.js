@@ -1,25 +1,27 @@
-// tempo.js — a batida da peça, declarada em um lugar só.
-// A composição usa para animar. O render usa para saber qual quadro guardar
-// como prova depois de apagar a sequência. Se cada um tivesse a sua cópia, um
-// dia divergiriam em silêncio e a prova apontaria para o quadro errado.
-//
-// Quando o vídeo passar a nascer de contrato, estes números saem daqui e
-// entram no contrato da peça, ao lado de `duracao` de cada batida.
-export const FPS = 30;
-
-/** Quadros por batida: 4 segundos. */
-export const BEAT = 120;
+// tempo.js — deriva a linha do tempo a partir do contrato da peça.
+// Nada de número de batida escrito à mão: a duração de cada batida está no
+// contrato, e composição e render leem daqui. Se divergissem, a prova
+// apontaria para o quadro errado e ninguém perceberia.
 
 /** Quadros da subida do campo novo sobre o anterior. */
-export const WIPE = 14;
+export const WIPE = 12;
 
-export const BATIDAS = 3;
+export function derivar(contrato) {
+  let cursor = 0;
+  const batidas = contrato.batidas.map((b) => {
+    const from = cursor;
+    cursor += b.duracao;
+    return { ...b, from, ate: cursor, meio: from + Math.floor(b.duracao * 0.72) };
+  });
 
-export const TOTAL = BEAT * BATIDAS;
-
-/**
- * O quadro do meio de cada batida: o texto já entrou por completo e nada está
- * em movimento, que é a condição para medir contraste e tipografia.
- */
-export const provas = () =>
-  Array.from({ length: BATIDAS }, (_, i) => i * BEAT + Math.floor(BEAT / 2));
+  return {
+    fps: contrato.fps,
+    total: cursor,
+    batidas,
+    /**
+     * O quadro a 72% de cada batida: tudo já entrou e nada
+     * está em movimento, que é a condição para medir contraste e tipografia.
+     */
+    provas: batidas.map((b) => b.meio),
+  };
+}

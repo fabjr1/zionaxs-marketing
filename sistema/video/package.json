@@ -1,7 +1,7 @@
 {
   "name": "zionaxs-video",
   "version": "0.1.0",
-  "description": "Camada de motion da Zionaxs (Remotion). Teste da camada 1 do levantamento em campanhas/zionaxs/ferramentas-de-video.md",
+  "description": "Camada de motion da Zionaxs (Remotion). A peca nasce de contrato em pecas/<id>/contract.json",
   "private": true,
   "type": "module",
   "scripts": {

@@ -17,10 +17,12 @@ import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { FPS, provas } from '../src/tempo.js';
+import { derivar } from '../src/tempo.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const comp = process.argv[2] || 'zx-teste';
+const contrato = JSON.parse(fs.readFileSync(new URL('../pecas/zxv-01-uma-porta-so/contract.json', import.meta.url), 'utf8'));
+const linha = derivar(contrato);
+const comp = process.argv[2] || contrato.id;
 const frames = path.join(root, 'out', comp);
 const mp4 = path.join(root, 'out', `${comp}.mp4`);
 const provasDir = path.join(root, 'out', `${comp}-provas`);
@@ -67,7 +69,7 @@ run(process.execPath, [REMOTION_CLI, 'render', 'src/index.jsx', comp, path.relat
 //   e é onde texto branco sobre laranja saturado ganha franja.
 run('ffmpeg', [
   '-y', '-loglevel', 'error',
-  '-framerate', String(FPS), '-start_number', '0',
+  '-framerate', String(linha.fps), '-start_number', '0',
   '-i', path.join(path.relative(root, frames), 'element-%03d.png'),
   // O setparams carimba as 4 marcas no quadro. Sem ele, as opções de saída
   // gravavam só a matriz, e primaries e transfer saíam como "unknown".
@@ -85,7 +87,7 @@ run('ffmpeg', [
 // está fechado. Ficam só os quadros de prova, que é o que uma revisão ou um
 // gate precisa olhar. Render é determinístico, então o resto se refaz.
 fs.mkdirSync(provasDir, { recursive: true });
-for (const n of provas()) {
+for (const n of linha.provas) {
   const nome = `element-${String(n).padStart(3, '0')}.png`;
   fs.copyFileSync(path.join(frames, nome), path.join(provasDir, `batida-${n}.png`));
 }
@@ -95,5 +97,5 @@ fs.rmSync(frames, { recursive: true, force: true });
 const { size } = fs.statSync(mp4);
 const mb = (n) => (n / 1024 / 1024).toFixed(2);
 console.log(`${path.relative(root, mp4)} pronto (${mb(size)} MB)`);
-console.log(`provas: ${provas().length} quadros em ${path.relative(root, provasDir)}`);
+console.log(`provas: ${linha.provas.length} quadros em ${path.relative(root, provasDir)}`);
 console.log(`sequência apagada: ${mb(antes)} MB liberados`);
