@@ -1,0 +1,124 @@
+decisao: aprovar e publicar a zx-27, slot da tarde de dia útil
+data: 2026-08-31
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca, então a autorização se aplica.
+  registro_anterior: pieces/zx-26-o-erro-que-volta/decisions/aprovacao-2026-08-31.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, segunda-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede conteúdo principal, então a peça carrega as 4 coisas na
+    mesma unidade: diagnóstico (a ferramenta chegou e o processo continuou),
+    evidência de pesquisa com fonte e recorte declarados (TIC Empresas 2024),
+    repertório de gestão que explica o porquê (Porter, 1996) e método decisório
+    em 3 passos com corte numérico. A peça da manhã, zx-26, era descoberta e
+    entrava por uma afirmação; esta entra por um número e sai com um teste.
+
+tema:
+  escolhido: ferramenta instalada não é processo mudado, e o teste é o dado digitado 2 vezes
+  matriz: M20
+  por_que: >
+    Linha M20 da matriz editorial, "infraestrutura confundida com maturidade",
+    nunca usada. As 7 peças anteriores ocupam M11 (zx-20), M19 (zx-21 e zx-22),
+    M18 (zx-23, zx-24 e zx-25) e a zx-26, que saiu sem matriz declarada por
+    ausência da Memory no checkout daquela execução. Nenhuma tratou de
+    ferramenta contra processo, e nenhuma publicou dado de pesquisa setorial
+    desde a zx-20. Também é o assunto mais distante possível da peça da manhã
+    de hoje, que falava de erro repetido e desenho de tarefa.
+  desejo_primeiro: >
+    A dica prática é o teste da digitação dupla, que cabe em 1 dia de trabalho e
+    não depende de comprar nada. O dado da TIC Empresas 2024 entra como tempero
+    dentro da dica, no slide 3, e não como o post inteiro.
+  jtbd:
+    - JF9 (quando o mesmo dado é digitado duas vezes, quero eliminar a passagem manual sem quebrar o que já funciona)
+    - JO4 (quero saber em que ordem atacar: padronizar antes de automatizar, ou o contrário)
+  repertorio: R3 (Michael E. Porter), que é o repertório que a própria linha M20 associa ao tema na nota 19c
+
+memory:
+  estado: >
+    A Zionaxs Memory NÃO estava no checkout no início da sessão, como nas
+    execuções anteriores em nuvem. Foi anexada com add_repo e clonada em
+    /home/user/zionaxs-memory antes de qualquer decisão editorial.
+  consequencia: >
+    Os códigos editoriais desta peça foram lidos nas notas canônicas, não
+    copiados da peça anterior: M20 na nota 19c (§13.1 e §13.2), JF9 e JO4 na
+    nota 19b (§8.1 e §8.4), R3 na nota 19c (§12.2) e as fontes [S27] e [S34] no
+    ledger da nota 19a. Esta é a primeira peça desde a zx-24 em que a
+    verificação A9 tem o que conferir de verdade.
+
+gates:
+  resultado: 14/14 verdes
+  digest: c480fc7747d59dad
+  observacao: >
+    A primeira geração já saiu 14/14. As 2 rodadas seguintes foram por revisão
+    humana do passo 6, não por gate vermelho, e as duas correções foram no
+    CONTRATO. Nenhum pixel foi corrigido.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Slide 1: a foto escolhida para a capa (caderno aberto sob luz de mesa à
+      noite) tinha a página clara do caderno atravessando a banda de texto. O
+      "2026" do chrome, em creme, caía em cima do papel branco e sumia. É o caso
+      1 da seção de enquadramento da direção visual, e o G5 não pega: ele mede a
+      tinta contra o fundo declarado no CSS, nunca contra os pixels da foto.
+    correcao: >
+      Troca de foto, não de crop. Foi testado antes o caminho de scale com
+      origin no rodapé, e a conta mostrou que empurrar o caderno para fora da
+      banda exigiria zoom de 2,4x, o que tiraria o próprio assunto do quadro. A
+      capa passou a usar a foto da mão escrevendo à caneta (Eugene Chystiakov),
+      cujo interesse está no terço superior e cuja metade de baixo é mesa
+      escura. O fechamento herdou uma foto de teclado retroiluminado no escuro
+      (Usman CH), que é escura em toda a banda de texto.
+  - achado: >
+      Slide 7: com pos "50% 0%" o terço superior ficava em desfoque vazio e a
+      peça parecia subexposta por engano, sem assunto reconhecível.
+    correcao: >
+      photo.pos de "50% 0%" para "50% 100%", o que sobe o teclado no
+      enquadramento e devolve textura ao quadro sem clarear a banda de texto.
+  - achado: >
+      Slide 2: a manchete "O mesmo número, em 3 lugares diferentes." quebrava em
+      linhas longas e a palavra "número" entrava por dentro do bloco de foto em
+      preto e branco, em cima da madeira cinza-média. Gate nenhum mede
+      sobreposição de geometria com texto.
+    correcao: >
+      Manchete encurtada para "O mesmo número, em 3 lugares.", com quebra
+      autoral em 3 linhas curtas que param antes da coluna da foto. O anel
+      laranja continua cruzando a segunda linha, que é o comportamento
+      aprovado do layout e aparece igual na zx-26 publicada.
+
+evidencia_e_limites:
+  - >
+      Os percentuais do slide 3 são E e têm fonte visível na peça e na legenda:
+      Cetic.br/NIC.br, TIC Empresas 2024, 4.453 entrevistas, coleta de março a
+      novembro de 2024, empresas com mais de dez pessoas ocupadas [S27].
+  - >
+      O recorte de porte é declarado dentro da peça, no slide 6, e não só na
+      legenda: a pesquisa não representa o escritório de 3 ou 5 pessoas. Isso
+      importa porque o público primário da marca inclui muita empresa abaixo
+      desse corte.
+  - >
+      Porter entra como paráfrase fiel, com autor, obra e ano, sem citação
+      literal em inglês, como manda o padrão de copy e a regra 12.1 da nota 19c.
+      A transposição da estratégia competitiva para a rotina administrativa é da
+      Zionaxs e está declarada nos limites do contrato.
+
+trilha:
+  campo: trilha_sugerida
+  origem: Meta Sound Collection
+  pendencia: >
+    O índice da coleção de trilhas vive fora do repositório e a variável de
+    ambiente está vazia nesta sessão em nuvem, então o nome da faixa é uma
+    indicação de perfil, não uma faixa confirmada no acervo. Groove in Bloom,
+    a única verificada, já foi sugerida na zx-25 e na zx-26 e não se repete aqui
+    de propósito. A escolha final é do Fabiano, no app, entre as instrumentais
+    de andamento constante da Meta Sound Collection.
