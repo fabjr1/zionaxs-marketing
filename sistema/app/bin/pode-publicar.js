@@ -14,6 +14,9 @@ import { loadPiece, STATUS } from '../lib/pieces.js';
 import { scanPiece, scanEstilo } from '../lib/copy-rules.js';
 import { publicadasHoje, diaLocal } from '../lib/cadencia.js';
 
+/** Teto de caracteres da legenda de um post do Instagram. É da plataforma. */
+const LEGENDA_MAX = 2200;
+
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const REPO = path.resolve(APP, '../..');
 const arg = (n) => { const i = process.argv.indexOf(n); return i > -1 ? process.argv[i + 1] : undefined; };
@@ -41,6 +44,20 @@ else {
 
   if (!p.contract.trilha_sugerida?.faixa) {
     bloqueios.push('sem trilha_sugerida no contrato: a música é adicionada à mão depois e precisa ir junto da entrega');
+  }
+
+  // Limite de legenda do Instagram. O que vai para o post é o CORPO do campo
+  // `caption`; `caption_sources` fica no contrato, como registro de
+  // rastreabilidade, e não entra na legenda publicada. Isso foi verificado ao
+  // vivo na zx-26 em 31/08/2026, e importa porque o arquivo out/legenda-alt.md
+  // imprime corpo e fontes um embaixo do outro: quem copiar de lá monta uma
+  // legenda que a Meta recusa. Na zx-27 o corpo tinha 1.729 caracteres e a
+  // soma com as fontes daria 3.132, acima do teto de 2.200.
+  const corpo = (p.contract.caption || []).join('\n\n');
+  if (corpo.length > LEGENDA_MAX) {
+    bloqueios.push(`legenda com ${corpo.length} caracteres, acima do limite de ${LEGENDA_MAX} do Instagram. ` +
+      'Encurte o campo `caption` do contrato. Não mova texto para `caption_sources` só para caber: ' +
+      'fonte de afirmação E precisa continuar visível ao leitor na peça ou na legenda [19c §14].');
   }
 }
 

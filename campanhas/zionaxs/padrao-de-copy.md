@@ -23,6 +23,17 @@ Mesma pegada da copy: simples, explicativa, fácil de entender e **não muito gr
 
 Fonte citada entra como paráfrase fiel com autor, obra e ano. Sem citação literal em inglês: afasta o leitor leigo e não acrescenta credibilidade que a referência completa já não dê. A referência completa fica em `caption_sources`.
 
+### O que vai para o post, e o teto de 2.200 (registrado em 31/08/2026)
+
+**A legenda publicada é o corpo do campo `caption`, e só ele.** O `caption_sources` é registro de rastreabilidade e fica no contrato; ele **não** entra no post. Isso foi conferido ao vivo na `zx-26` antes de publicar a `zx-27`, lendo a legenda que de fato está no ar.
+
+Isso importa por dois motivos:
+
+1. **O Instagram corta em 2.200 caracteres.** Na `zx-27` o corpo tinha 1.729 e a soma com as fontes daria 3.132: a legenda seria recusada. O porteiro passou a medir o corpo e a reprovar acima do teto, então a regra não depende mais de alguém lembrar.
+2. **O arquivo `out/legenda-alt.md` imprime corpo e fontes um embaixo do outro.** Quem copiar de lá para o app monta uma legenda que estoura. Ele é documento de trabalho, não o texto do post.
+
+Consequência para a escrita: **a fonte de toda afirmação E precisa estar dentro do corpo da legenda ou na própria peça**, com autor, obra, ano e recorte, porque o `caption_sources` não chega ao leitor. Encurtar a legenda empurrando fonte para lá é falsificar a rastreabilidade, e a nota 19c §14 proíbe.
+
 ## Como isso é verificado
 
 As regras 4 e 5 têm gate automático: **G13, padrão de copy da marca**, implementado em `sistema/app/lib/copy-rules.js`. Ele varre os slots de copy do contrato, o alt text, a legenda e o texto renderizado de cada slide. A validação do contrato aplica as mesmas regras antes do render, então uma peça com travessão é recusada sem gastar geração.
