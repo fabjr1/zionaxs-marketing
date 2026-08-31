@@ -29,7 +29,9 @@ Onde cada coisa mora:
 cd sistema/app && npm run auditoria
 ```
 
-Ela verifica que os padrões existem, que este arquivo os referencia, que todo gate está documentado, que nenhuma peça não publicada saiu do padrão, que toda publicação tem digest e permalink, e lista o que aguarda promoção humana na Memory.
+Ela verifica que os padrões existem, que este arquivo os referencia, que todo gate está documentado, que nenhuma peça não publicada saiu do padrão, que toda publicação tem digest e permalink, que os códigos editoriais declarados existem nas notas canônicas, e lista o que aguarda promoção humana na Memory.
+
+**Se a Memory não estiver no checkout, anexe e clone antes de trabalhar.** A rotina em nuvem sobe com 1 repositório só, e o `memoryRoot` do `sistema/workspace/config.json` aponta para `../../../zionaxs-memory`. A sessão consegue resolver isso sozinha, com `add_repo` e `git clone --depth 1`, e sem isso ela escreve o contrato às cegas: código editorial copiado da peça anterior já saiu errado 3 vezes (zx-25 na matriz, zx-20 a zx-24 herdando, zx-26 nos jobs). A verificação **A9** cobra os códigos declarados por peça não publicada contra as notas 19b e 19c, mas ela mede existência, não pertinência: escolher o job certo continua sendo leitura humana da nota.
 
 4. **Commitar e empurrar.** Trabalho não commitado é trabalho que só existe nesta máquina.
 

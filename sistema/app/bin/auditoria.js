@@ -15,6 +15,7 @@ import { fileURLToPath } from 'node:url';
 import { loadWorkspace } from '../lib/workspace.js';
 import { loadAllPieces, STATUS } from '../lib/pieces.js';
 import { scanPiece, scanEstilo } from '../lib/copy-rules.js';
+import { lerCodigosCanonicos, conferirCodigos } from '../lib/codigos-editoriais.js';
 
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const REPO = path.resolve(APP, '..', '..');
@@ -135,6 +136,30 @@ try {
     : ok('A8', 'comandos versionados', `${rastreados.length} comando(s) versionado(s)`);
 } catch (e) {
   fail('A8', 'comandos versionados', [`não foi possível consultar o git: ${e.message.slice(0, 80)}`]);
+}
+
+// A9 — código editorial declarado tem de existir na nota canônica da Memory.
+// Sessão sem a Memory à mão copia o código da peça anterior em vez de deixar em
+// branco, e isso já aconteceu 3 vezes: zx-25 com M18 sendo M17, zx-20 a zx-24
+// herdando o mesmo M18, zx-26 com JO2/JE2, que são os jobs de métrica da zx-23.
+// Não vira pixel, não quebra gate, estraga a análise em silêncio: é binário,
+// logo é da máquina. Peça publicada fica de fora: contrato publicado é registro
+// histórico e a correção mora em decisions/ da peça, nunca reescrevendo.
+const codigos = lerCodigosCanonicos(memRoot);
+if (!codigos.disponivel) {
+  ok('A9', 'códigos editoriais canônicos', 'sem Memory no checkout, nada a conferir (ver A7)');
+} else {
+  const errados = [];
+  for (const p of pecas) {
+    if (p.status === STATUS.PUBLISHED) continue;
+    for (const f of conferirCodigos(p.contract, codigos)) {
+      errados.push(`${p.id}: ${f.motivo} (nota ${f.nota})`);
+    }
+  }
+  errados.length
+    ? fail('A9', 'códigos editoriais canônicos', errados)
+    : ok('A9', 'códigos editoriais canônicos',
+      `${codigos.matriz.size} linhas de matriz, ${codigos.jtbd.size} jobs, ${codigos.repertorio.size} de repertório`);
 }
 
 console.log('\n=== AUDITORIA DE PERMANÊNCIA ===');

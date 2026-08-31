@@ -1,0 +1,74 @@
+{
+  "postId": "17943609699069654",
+  "permalink": "https://www.instagram.com/p/DctBQTXG0B9/",
+  "shortcode": "DctBQTXG0B9",
+  "publishedAt": "2026-08-31T11:50:40+0000",
+  "publishedAtFortaleza": "31/08/2026, 08:50:40",
+  "slot": "08:30 BRT, dia util, papel de descoberta e tensao atual",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906399751501214",
+  "childContainers": [
+    "17906399502501214",
+    "17906399493501214",
+    "17906399496501214",
+    "17906399499501214",
+    "17906399574501214",
+    "17906399571501214",
+    "17906399577501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-26-o-erro-que-volta/out/jpg/zx-26-o-erro-que-volta-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18631577134058252",
+    "18193118893388047",
+    "18097297139526909",
+    "17890745403608572",
+    "18080976023327244",
+    "17896928988664082",
+    "18415848067153022"
+  ],
+  "digest": "076e9e7ba8f2cf17",
+  "commit": "cff3b53",
+  "reconciledAt": "2026-08-31T11:51:30+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA e INSTAGRAM_GET_IG_MEDIA_CHILDREN, ambos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "shareToFeedEnviado": false,
+    "urlsPublicasConferidas": "as 7 URLs responderam 200 image/jpeg em raw.githubusercontent.com antes de irem para a Meta, e o tamanho baixado bateu byte a byte com o arquivo local",
+    "identidadeVerificadaAntes": "INSTAGRAM_GET_USER_INFO ao vivo devolveu username zionaxs_ e id 37965311306447572 antes de qualquer criacao de container. Ha 3 contas conectadas no Composio nesta data, uma a mais que na zx-25: entrou @fabjr1 (38039865875659488) em 31/08/2026, marcada como padrao. Nem ela nem @base3br foram tocadas: todas as chamadas passaram account instagram_ascent-utick explicitamente.",
+    "cotaDePublicacao": "INSTAGRAM_GET_IG_USER_CONTENT_PUBLISHING_LIMIT antes de publicar: 1 de 100 na janela de 24h",
+    "altTextPorSlide": "cada um dos 7 conteineres filhos foi criado com is_carousel_item e com o alt_text aprovado no contrato",
+    "nota": "share_to_feed nao foi enviado: e invalido para carrossel. A publicacao saiu na primeira tentativa, sem erro de transporte, entao nao houve necessidade de reconciliar antes de repetir."
+  },
+  "cadencia": {
+    "porteiro": "node bin/pode-publicar.js zx-26-o-erro-que-volta --root ../workspace",
+    "resultado": "liberado",
+    "contagem": "0 de 2 no dia, no momento da checagem",
+    "excecaoUsada": false
+  },
+  "trilhaPendente": {
+    "faixa": "Groove in Bloom",
+    "origem": "Meta Sound Collection",
+    "comoAdicionar": "A musica entra a mao, editando o post no app depois de publicado. A API nao escolhe faixa para carrossel.",
+    "estado": "aguardando o Fabiano",
+    "substituicaoPermitida": "qualquer faixa da Meta Sound Collection que atenda aos 4 criterios esteticos do padrao de copy",
+    "atencao": "e a MESMA faixa sugerida na zx-25, publicada em 30/08/2026. Esta sessao em nuvem nao teve acesso ao indice da colecao (ZX_TRILHAS vazia), entao nao pode escolher outra faixa verificada. Vale trocar para 2 peças seguidas nao saírem com a mesma trilha."
+  }
+}

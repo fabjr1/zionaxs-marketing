@@ -1,0 +1,91 @@
+registro: os JTBD declarados no contrato da zx-26 estão errados
+data: 2026-08-31
+autor: Marketing OS
+status: registrado, contrato NÃO reescrito
+
+o_que_esta_errado:
+  campo: jtbd
+  declarado: [JO2, JE2]
+  correto: [JF9, JE1]
+  jo2: >
+    "Quero uma fórmula de métrica com dono, fonte, frequência e ação
+    associada." É o job da zx-23, a peça do dicionário de métricas. Nada a ver
+    com erro que se repete.
+  je2: >
+    "Quero decidir sem medo de estar olhando um número errado." Também é da
+    zx-23: fala de confiança no número, não de retrabalho.
+  jf9: >
+    "Quando o mesmo dado é digitado duas vezes, quero eliminar a passagem
+    manual sem quebrar o que já funciona." Transversal, e é exatamente esta
+    peça: eliminar a passagem do erro (os 3 movimentos do slide 5) sem quebrar
+    o que funciona (o limite do slide 6, contra o excesso de trava).
+  je1: >
+    "Quero parar de sentir que a operação anda porque eu empurro." É o job
+    emocional certo: pedir atenção é empurrar, e a peça oferece a saída.
+  nota_da_19b: >
+    A própria nota avisa que "um bom conteúdo atende um job principal, não
+    todos". O job principal desta peça é JF9.
+
+o_que_mais_apareceu_com_a_memory_em_maos:
+  matriz: >
+    O campo `matriz` foi omitido de propósito no contrato, e isso se confirmou
+    prudente. A linha mais próxima é M08 (V2, "Retrabalho invisível não
+    cobrado"), mas o recorte de M08 é taxonomia, medição e conversa com o
+    cliente sobre cobrar o retrabalho, e esta peça é sobre PREVENIR o erro. Não
+    há linha da matriz que cubra prevenção por desenho da tarefa. Isso é lacuna
+    da matriz, não da peça, e virou proposta na Inbox.
+  repertorio: >
+    A peça cita Shigeo Shingo, que não está no repertório canônico. Mas o
+    repertório já tem 2 entradas que sustentam esta tese e que a sessão não
+    enxergou na hora de escrever:
+      R8 Toyota (TPS), "Velocidade × capacidade de parar", com jidoka entre os
+      2 pilares. Poka-yoke é mecanismo de jidoka, então Shingo entra como
+      aprofundamento de R8, não como autor solto.
+      R9 W. Edwards Deming, "Culpa individual × desenho do sistema: antes de
+      responsabilizar uma pessoa por um indicador, mapear entrada, dependência,
+      variação normal, incentivo e restrição." É a mesma tese do slide 4 desta
+      peça, "o erro repetido é da tarefa, não da pessoa".
+    Nada do que foi publicado está errado: a atribuição a Shingo é correta, com
+    obra e ano. O que faltou foi amarrar a peça ao repertório que já existe.
+
+por_que_o_contrato_nao_foi_reescrito: >
+  A peça já foi publicada em 31/08/2026, permalink
+  https://www.instagram.com/p/DctBQTXG0B9/. Contrato de peça publicada é
+  registro histórico e não se reescreve, mesmo quando o que ele registra está
+  errado: o campo diz o que esta execução de fato classificou na hora, e
+  corrigir depois apagaria o erro em vez de registrá-lo. Mesma decisão tomada
+  na zx-25, em correcao-matriz-editorial-2026-08-30.yaml.
+
+causa_raiz: >
+  A mesma da zx-25, e é a terceira ocorrência em 3 dias. A rotina em nuvem sobe
+  com 1 repositório só e o memoryRoot do config.json aponta para um caminho
+  ausente. Sem a 19b à mão, os códigos vieram copiados da peça anterior. A
+  zx-25 errou a matriz por isso, as zx-20 a zx-24 herdaram o M18 da zx-23 pelo
+  mesmo motivo, e a zx-26 evitou a matriz mas repetiu o erro nos jobs.
+
+o_que_mudou_no_sistema_para_isto_parar: >
+  Esta execução não parou em anotar. Duas coisas mudaram:
+
+  1. A Memory foi ANEXADA à sessão em nuvem e clonada em /home/user/zionaxs-memory,
+     com a ferramenta add_repo. Isso prova que a causa raiz é resolvível de
+     dentro da própria rotina, sem mudar a infraestrutura: a rotina pode anexar
+     o segundo repositório sozinha. Foi o que fechou a A7 nesta sessão.
+
+  2. Nasceu a verificação A9, "códigos editoriais canônicos", em
+     sistema/app/lib/codigos-editoriais.js, com teste em
+     test/codigos-editoriais.test.js. Ela confere `matriz`, `jtbd` e
+     `repertorio.id` de toda peça NÃO publicada contra as tabelas das notas 19b
+     e 19c, e reprova código declarado que não existe. Peça publicada fica de
+     fora, porque contrato publicado não se reescreve.
+
+  Limite declarado da A9: ela mede EXISTÊNCIA, não pertinência. JO2 existe, e
+  por isso a A9 não teria pego este erro específico. Escolher o job certo
+  continua sendo julgamento humano, e por isso continua em documento. O que a
+  A9 mata é o código inventado ou copiado de uma nota que nem tem aquela linha,
+  que foi o caso da matriz na zx-25.
+
+impacto_na_peca_publicada: >
+  Nenhum no que foi ao ar. jtbd é metadado interno de planejamento, não vira
+  pixel nem legenda, e não entra em nenhum gate. Os 7 slides, a legenda, o alt
+  text e as fontes citadas estão corretos. O erro é de classificação para
+  análise posterior.
