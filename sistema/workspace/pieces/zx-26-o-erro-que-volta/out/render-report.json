@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-26-o-erro-que-volta",
+  "generatedAt": "2026-08-31T11:46:58+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-26-o-erro-que-volta-slide-01.png",
+    "zx-26-o-erro-que-volta-slide-02.png",
+    "zx-26-o-erro-que-volta-slide-03.png",
+    "zx-26-o-erro-que-volta-slide-04.png",
+    "zx-26-o-erro-que-volta-slide-05.png",
+    "zx-26-o-erro-que-volta-slide-06.png",
+    "zx-26-o-erro-que-volta-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Descoberta 01/07 Pedir atenção não é um controle. O mesmo erro volta. Quando a mesma falha aparece pela terceira vez, o problema deixou de ser distração. Uma ideia de 1985, vinda da indústria japonesa, resolve isso mudando a tarefa em vez de cobrar cuidado. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd · foto: J. Gellidon"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 O mesmo erro, pela terceira vez. O documento sai com a data errada. Você avisa, a pessoa pede desculpa e promete conferir. Duas semanas depois acontece de novo, agora com outra pessoa. A conversa mudou a intenção e não mudou a tarefa. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd · foto: Izumi"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A distinção03/07 Erro é o engano que a pessoa comete sem querer. Defeito é o erro que passou e chegou ao cliente. A separação é de Shigeo Shingo, engenheiro japonês que ajudou a montar o sistema de produção da Toyota, em 1985. Errar é humano e vai continuar acontecendo. O que dá para eliminar é a passagem do erro para fora, com o dispositivo simples que ele chamou de poka-yoke, expressão japonesa para à prova de engano. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 O erro repetido é da tarefa, não da pessoa. Cobrar cuidado depende de a pessoa estar descansada, sem pressa e sem ninguém interrompendo. Um campo obrigatório ou uma ordem fixa funcionam igual em qualquer dia, com qualquer pessoa. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 3 jeitos de fazer o erro não passar. 01Impedir. O sistema não deixa avançar sem o campo preenchido, então o erro não chega a existir. 02Avisar na hora. O alerta aparece na digitação, não na conferência do dia seguinte. 03Separar. Se 2 coisas parecidas se confundem, guarde em lugares e cores diferentes. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Isso não é motivo para travar tudo. Trava demais ensina a desviar. Cada bloqueio cobra tempo de quem trabalha todo dia, e sistema cheio de trava ensina todo mundo a contornar por fora. Vale travar o erro que já se repetiu e que custa caro. O resto continua sendo conferência e conversa. Erro que envolve saúde, segurança ou obrigação legal não entra nessa conta. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Liste 1 erro que já voltou. Mude a tarefa, não o aviso. Escreva hoje os erros que apareceram 2 vezes ou mais no último mês. Pegue o mais caro e mude 1 detalhe da tarefa: um campo obrigatório, uma ordem fixa ou uma separação física. Depois marque no calendário o dia de conferir se ele voltou, daqui a 30 dias. Temas: Erro / Tarefa / Prevenção @zionaxs_ · ref ee54a9bd · foto: ButterflyII"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "6 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.7,
+  "digest": "076e9e7ba8f2cf1733b0ccc7242d1b71232470f121f380340ab0a0857d5ed329"
+}

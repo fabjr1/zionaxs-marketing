@@ -1,0 +1,41 @@
+proposta: incluir Shigeo Shingo no ledger de fontes (19a) e no repertório (19c)
+data: 2026-08-31
+origem: peça zx-26-o-erro-que-volta
+status: aguardando promoção humana na Zionaxs Memory
+
+por_que:
+  A zx-26 classifica como E (evidência) a distinção entre erro e defeito e o
+  dispositivo poka-yoke. Afirmação E precisa de fonte no ledger, e esta fonte
+  ainda não tem id. Enquanto não tiver, a peça carrega a referência completa no
+  próprio contrato, em research_brief.evidencia e em caption_sources.
+
+fonte:
+  autor: Shigeo Shingo
+  quem_e: >
+    Engenheiro japonês, um dos formuladores do sistema de produção da Toyota.
+    Na peça ele é apresentado ao leitor com essa descrição, para o texto não
+    depender de reconhecimento prévio do nome, como manda a regra 1 do padrão
+    de copy.
+  obra: "Zero Quality Control: Source Inspection and the Poka-Yoke System"
+  ano_original: 1985
+  traducao: Productivity Press, 1986, tradução para o inglês
+  o_que_sustenta: >
+    Shingo separa o erro humano, que é inevitável, do defeito, que é o erro que
+    passa adiante e chega ao cliente. E descreve o poka-yoke, dispositivo de
+    baixo custo acoplado à própria tarefa que impede o erro de acontecer ou o
+    denuncia no momento em que acontece.
+  modo_de_uso_na_peca: >
+    Paráfrase fiel, com autor, obra e ano. Sem citação literal em inglês, que
+    afasta o leitor leigo e não acrescenta credibilidade que a referência
+    completa já não dê.
+
+limite_declarado: >
+  Shingo escreveu sobre linha de produção industrial, não sobre operação
+  administrativa de escritório. A transposição é da Zionaxs e está declarada
+  como tal no contrato, na legenda e em caption_sources. Nenhuma conclusão de
+  gestão de serviços é atribuída a ele.
+
+proposta_de_id:
+  ledger_19a: id a definir na promoção humana
+  repertorio_19c: id a definir na promoção humana (o último em uso é R11, de
+    G. K. Chesterton, na zx-25)

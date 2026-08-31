@@ -1,0 +1,309 @@
+{
+  "id": "zx-26-o-erro-que-volta",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação de serviços e convive com erro que se repete (C1, P1, A1: papel dono-operador). Cena concreta: escritório contábil (V2), com leitura direta para advocacia (V3) e clínica (V1). Slot editorial: manhã de dia útil, papel de descoberta e tensão atual, com pauta encaminhável no mesmo dia.",
+    "decisao": "Parar de responder a erro repetido com pedido de atenção, e passar a mudar 1 detalhe da tarefa que torne aquele erro difícil ou impossível de acontecer.",
+    "tensao": "O mesmo erro aparece pela terceira vez. O dono conversa, a pessoa se desculpa e promete conferir, e todo mundo sai da conversa achando que resolveu. Duas semanas depois o erro volta, às vezes com outra pessoa, porque a conversa mudou a intenção e não mudou a tarefa.",
+    "evidencia": [
+      {
+        "claim": "existe uma distinção clássica de engenharia de produção entre o erro que a pessoa comete e o defeito que chega ao cliente, com dispositivos simples acoplados à tarefa que impedem o erro de virar defeito",
+        "status": "E",
+        "fonte": "Shigeo Shingo, engenheiro japonês do sistema de produção da Toyota. Zero Quality Control: Source Inspection and the Poka-Yoke System, edição japonesa original de 1985, tradução para o inglês pela Productivity Press em 1986. Shingo separa o erro humano do defeito que passa adiante e descreve o poka-yoke, dispositivo de baixo custo acoplado à própria tarefa que impede o erro ou o denuncia no momento em que acontece. Fonte ainda sem id no ledger [19a]: proposta de inclusão registrada em decisions/."
+      },
+      {
+        "claim": "o público quer reduzir retrabalho e erro na operação sem depender de cobrar atenção pessoa a pessoa",
+        "status": "I",
+        "fonte": "[19b] JTBD JO2 e JE2, declarados canônicos para o papel publico no manifesto da marca. Ressalva desta execução: o repositório da Zionaxs Memory não está presente neste checkout em nuvem, então a nota não foi relida nesta rodada; a classificação I se apoia no que o manifesto declara e no uso anterior da mesma referência nas peças zx-23, zx-24 e zx-25."
+      },
+      {
+        "claim": "pedir atenção não funciona como controle porque depende de condições que mudam todo dia, e a mesma tarefa continua permitindo o mesmo erro",
+        "status": "H",
+        "fonte": null
+      },
+      {
+        "claim": "os 3 movimentos (impedir, avisar na hora, separar) e o corte de erro repetido 2 vezes ou mais no último mês",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a distinção entre erro e defeito e o dispositivo poka-yoke, de Shigeo Shingo, publicados em 1985, citados com autor, obra e ano, em paráfrase fiel"
+      ],
+      "I": [
+        "o desejo de reduzir retrabalho e erro sem depender de cobrança pessoal"
+      ],
+      "H": [
+        "a explicação de por que pedir atenção não é um controle: raciocínio proposto pela Zionaxs, não resultado de pesquisa",
+        "os 3 movimentos e o corte de 2 repetições no último mês: método proposto, não prática comprovada"
+      ],
+      "NC": []
+    },
+    "limites": [
+      "Shigeo Shingo escreveu sobre linha de produção industrial, não sobre operação administrativa de escritório. A peça faz a transposição de forma explícita, sem atribuir a ele uma conclusão de gestão de serviços que ele não escreveu.",
+      "A peça não cita nenhum trecho literal em inglês: a distinção entra como paráfrase fiel, com autor, obra e ano.",
+      "O exemplo do documento que sai com a data errada é ilustrativo, construído para a peça, e não dado de pesquisa.",
+      "Os 3 movimentos e o corte de 2 repetições no último mês são método proposto pela Zionaxs, não prática comprovada.",
+      "Erro raro e barato não compensa trava: cada bloqueio cobra tempo de quem trabalha todo dia, e a peça declara esse limite no slide 6.",
+      "Erro que envolve saúde, segurança ou obrigação legal fica fora da conta de custo desta peça: ali o controle vem antes da conta.",
+      "A palavra japonesa não é usada como se explicasse sozinha: aparece 1 vez, traduzida pela ideia, tanto no slide 3 quanto na legenda.",
+      "Shigeo Shingo é apresentado ao leitor como engenheiro japonês do sistema de produção da Toyota, para a peça não depender de reconhecimento prévio do nome.",
+      "O campo `matriz` foi omitido de propósito nesta execução: os códigos da matriz editorial vivem na Zionaxs Memory, ausente deste checkout, e a última correção do repositório foi justamente uma matriz copiada errada. Melhor não declarar do que declarar errado."
+    ],
+    "consequencia": "O leitor sai com um critério para saber quando parar de conversar sobre um erro e começar a mudar a tarefa, e com uma ação: listar hoje os erros que voltaram 2 vezes ou mais no último mês, pegar o mais caro e mudar 1 detalhe da tarefa, com data marcada para conferir."
+  },
+  "tese": "Erro que volta não se corrige pedindo atenção: enquanto a tarefa continuar permitindo o erro, ele volta, às vezes com outra pessoa. O que muda o resultado é mudar o desenho da tarefa.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JO2",
+    "JE2"
+  ],
+  "repertorio": {
+    "autor": "Shigeo Shingo",
+    "modo": "paráfrase fiel na legenda e no slide 3, com autor, obra e ano citados; na peça, o autor é apresentado ao leitor como engenheiro japonês do sistema de produção da Toyota",
+    "fonte": "Zero Quality Control: Source Inspection and the Poka-Yoke System, 1985",
+    "nota": "id do ledger pendente: a numeração de repertório vive na Zionaxs Memory, ausente deste checkout. A proposta de inclusão está em decisions/."
+  },
+  "cta": "Listar hoje os erros que se repetiram 2 vezes ou mais no último mês, pegar o mais caro e mudar 1 detalhe da tarefa: campo obrigatório, ordem fixa ou separação física, com data marcada para conferir em 30 dias.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela afirmação de que pedir atenção não controla nada, reconhecer a cena do erro que volta pela terceira vez, receber a distinção de 1985 entre erro e defeito, virar para a razão de o erro repetido pertencer à tarefa, aprender os 3 movimentos que impedem o erro de passar, ouvir o limite que impede a ideia de virar excesso de trava e sair com o passo de hoje. A peça não publica estatística: não há unidade de evidência numérica.",
+  "internal_metadata": [
+    "S2",
+    "zx-26",
+    "JO2",
+    "JE2",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Groove in Bloom",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra para disputar atenção com a leitura dos slides. Andamento constante do começo ao fim, sem virada dramática, o que combina com um carrossel que cada leitor passa no próprio ritmo. Textura limpa e groove regular seguram a atenção sem depender de familiaridade emprestada, que é o critério que passou a valer depois da correção de 30/08/2026. A peça fala de tarefa bem desenhada e de repetição sem susto, e uma trilha de andamento regular sustenta esse tom melhor que qualquer faixa de clímax. Origem licenciada para conta de negócio: a Meta Sound Collection cobre uso comercial no Instagram e no Facebook.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas: ele vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. Groove in Bloom é nomeada por ser a única faixa verificada como presente na coleção da operação, usada e licenciada na zxv-02. É a mesma sugestão da zx-25, publicada em 30/08/2026: vale trocar por outra faixa da Meta Sound Collection que atenda aos 4 critérios estéticos, para 2 peças seguidas não saírem com a mesma trilha. A escolha final é do Fabiano no app."
+  },
+  "caption": [
+    "Tem um erro na sua operação que já voltou 3 vezes. Toda vez a conversa é a mesma: alguém pede mais atenção, a pessoa promete conferir, e algumas semanas depois o erro aparece de novo, às vezes com outra pessoa.",
+    "Shigeo Shingo, engenheiro japonês que ajudou a montar o sistema de produção da Toyota, separou em 1985 duas coisas que costumam ser tratadas como uma só. Erro é o engano que a pessoa comete sem querer. Defeito é o erro que passou e chegou ao cliente. Errar é humano e vai continuar acontecendo. O que dá para eliminar é a passagem.",
+    "A consequência prática é direta. Pedir atenção não é um controle, porque depende de a pessoa estar descansada, sem pressa e sem ninguém interrompendo. Um campo obrigatório ou uma ordem fixa funcionam igual em qualquer dia, com qualquer pessoa.",
+    "Shingo chamou de poka-yoke, que em japonês quer dizer à prova de engano, o dispositivo simples acoplado à própria tarefa. São 3 jeitos de usar a ideia no escritório. Impedir, quando o sistema não deixa avançar sem o campo preenchido. Avisar na hora, com o alerta na digitação e não na conferência do dia seguinte. Separar, quando 2 coisas parecidas se confundem e passam a ficar em lugares e cores diferentes.",
+    "Isso não é motivo para travar tudo. Cada bloqueio cobra tempo de quem trabalha todo dia, e sistema cheio de trava ensina todo mundo a contornar por fora. Vale travar o erro que já se repetiu e que custa caro. O resto continua sendo conferência e conversa.",
+    "Liste hoje os erros que apareceram 2 vezes ou mais no último mês. Pegue o mais caro, mude 1 detalhe da tarefa e marque no calendário o dia de conferir, em 30 dias."
+  ],
+  "caption_sources": [
+    "Referência: Shigeo Shingo, Zero Quality Control: Source Inspection and the Poka-Yoke System, edição japonesa de 1985 e tradução para o inglês pela Productivity Press em 1986. A legenda traz paráfrase fiel da distinção entre erro e defeito, com autor, obra e ano, não citação literal em inglês.",
+    "Shingo escreveu sobre linha de produção industrial. A transposição para a operação administrativa de um escritório é da Zionaxs e está declarada como tal.",
+    "O exemplo do documento que sai com a data errada é ilustrativo, construído para a peça, e não dado de pesquisa.",
+    "Os 3 movimentos e o corte de 2 repetições no último mês são método proposto pela Zionaxs, não prática comprovada por pesquisa.",
+    "Erro que envolve saúde, segurança ou obrigação legal fica fora da conta de custo desta peça: ali o controle vem antes da conta.",
+    "Fotos: JC Gellidon, Izumi e ButterflyII, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Descoberta",
+      "copy": {
+        "title": "Pedir atenção\nnão é\num controle.",
+        "accentLine": "O mesmo erro volta.",
+        "hl": "volta.",
+        "sub": "Quando a mesma falha aparece pela terceira vez, o problema deixou de ser distração. Uma ideia de 1985, vinda da indústria japonesa, resolve isso mudando a tarefa em vez de cobrar cuidado.",
+        "year": "2026",
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd · foto: J. Gellidon"
+      },
+      "approved_visible_copy": [
+        "Descoberta",
+        "01/07",
+        "Pedir atenção não é um controle.",
+        "O mesmo erro volta.",
+        "Quando a mesma falha aparece pela terceira vez, o problema deixou de ser distração. Uma ideia de 1985, vinda da indústria japonesa, resolve isso mudando a tarefa em vez de cobrar cuidado.",
+        "2026",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd · foto: J. Gellidon"
+      ],
+      "alt": "Slide 1 de 7. Pedir atenção não é um controle, e o mesmo erro volta. Quando a mesma falha aparece pela terceira vez, o problema deixou de ser distração: uma ideia de 1985, vinda da indústria japonesa, resolve isso mudando a tarefa em vez de cobrar cuidado. Fotografia escura de um escritório à noite: a mesa de trabalho fica em sombra diante de uma janela, com a cidade iluminada ao fundo.",
+      "photo": {
+        "src": "../assets/foto-mesa-noite.jpg",
+        "pos": "25% 50%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "O mesmo erro,\npela terceira\nvez."
+        ],
+        "closing": "O documento sai com a data errada. Você avisa, a pessoa pede desculpa e promete conferir. Duas semanas depois acontece de novo, agora com outra pessoa. A conversa mudou a intenção e não mudou a tarefa.",
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd · foto: Izumi"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "O mesmo erro, pela terceira vez.",
+        "O documento sai com a data errada. Você avisa, a pessoa pede desculpa e promete conferir. Duas semanas depois acontece de novo, agora com outra pessoa. A conversa mudou a intenção e não mudou a tarefa.",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd · foto: Izumi"
+      ],
+      "alt": "Slide 2 de 7. O mesmo erro, pela terceira vez. O documento sai com a data errada, você avisa, a pessoa pede desculpa e promete conferir, e duas semanas depois acontece de novo, agora com outra pessoa: a conversa mudou a intenção e não mudou a tarefa. Papel claro com fotografia em preto e branco de uma pilha de papéis vista de perto, em camadas.",
+      "photo": {
+        "src": "../assets/foto-pilha-papeis.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "contraste",
+      "layout": "poster-lines",
+      "kicker": "A distinção",
+      "copy": {
+        "lines": [
+          "Erro é o engano que\na pessoa comete\nsem querer.",
+          "Defeito é o erro que\npassou e chegou\nao cliente."
+        ],
+        "closing": "A separação é de Shigeo Shingo, engenheiro japonês que ajudou a montar o sistema de produção da Toyota, em 1985. Errar é humano e vai continuar acontecendo. O que dá para eliminar é a passagem do erro para fora, com o dispositivo simples que ele chamou de poka-yoke, expressão japonesa para à prova de engano.",
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd"
+      },
+      "approved_visible_copy": [
+        "A distinção",
+        "03/07",
+        "Erro é o engano que a pessoa comete sem querer.",
+        "Defeito é o erro que passou e chegou ao cliente.",
+        "A separação é de Shigeo Shingo, engenheiro japonês que ajudou a montar o sistema de produção da Toyota, em 1985. Errar é humano e vai continuar acontecendo. O que dá para eliminar é a passagem do erro para fora, com o dispositivo simples que ele chamou de poka-yoke, expressão japonesa para à prova de engano.",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd"
+      ],
+      "alt": "Slide 3 de 7. Erro é o engano que a pessoa comete sem querer; defeito é o erro que passou e chegou ao cliente. A separação é de Shigeo Shingo, engenheiro japonês que ajudou a montar o sistema de produção da Toyota, em 1985. Errar é humano e vai continuar acontecendo, e o que dá para eliminar é a passagem do erro para fora, com o que ele chamou de poka-yoke, que quer dizer à prova de engano."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "O erro repetido\né da tarefa,",
+        "accent": "não da pessoa.",
+        "hl": "pessoa.",
+        "ghost": "3",
+        "year": "2026",
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd",
+        "body": "Cobrar cuidado depende de a pessoa estar descansada, sem pressa e sem ninguém interrompendo. Um campo obrigatório ou uma ordem fixa funcionam igual em qualquer dia, com qualquer pessoa."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O erro repetido é da tarefa,",
+        "não da pessoa.",
+        "2026",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd",
+        "Cobrar cuidado depende de a pessoa estar descansada, sem pressa e sem ninguém interrompendo. Um campo obrigatório ou uma ordem fixa funcionam igual em qualquer dia, com qualquer pessoa."
+      ],
+      "alt": "Slide 4 de 7. O erro repetido é da tarefa, não da pessoa. Cobrar cuidado depende de a pessoa estar descansada, sem pressa e sem ninguém interrompendo, enquanto um campo obrigatório ou uma ordem fixa funcionam igual em qualquer dia, com qualquer pessoa. Campo laranja chapado com o número 3 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "critério",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "3 jeitos de fazer\no erro não passar.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Impedir. O sistema não deixa avançar sem o campo preenchido, então o erro não chega a existir."
+          },
+          {
+            "num": "02",
+            "label": "Avisar na hora. O alerta aparece na digitação, não na conferência do dia seguinte."
+          },
+          {
+            "num": "03",
+            "label": "Separar. Se 2 coisas parecidas se confundem, guarde em lugares e cores diferentes."
+          }
+        ],
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "3 jeitos de fazer o erro não passar.",
+        "01",
+        "Impedir. O sistema não deixa avançar sem o campo preenchido, então o erro não chega a existir.",
+        "02",
+        "Avisar na hora. O alerta aparece na digitação, não na conferência do dia seguinte.",
+        "03",
+        "Separar. Se 2 coisas parecidas se confundem, guarde em lugares e cores diferentes.",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd"
+      ],
+      "alt": "Slide 5 de 7. São 3 jeitos de fazer o erro não passar. Impedir: o sistema não deixa avançar sem o campo preenchido, então o erro não chega a existir. Avisar na hora: o alerta aparece na digitação, não na conferência do dia seguinte. Separar: se 2 coisas parecidas se confundem, guarde em lugares e cores diferentes. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Isso não é motivo\npara travar tudo.",
+        "accent": "Trava demais\nensina a desviar.",
+        "body": "Cada bloqueio cobra tempo de quem trabalha todo dia, e sistema cheio de trava ensina todo mundo a contornar por fora. Vale travar o erro que já se repetiu e que custa caro. O resto continua sendo conferência e conversa. Erro que envolve saúde, segurança ou obrigação legal não entra nessa conta.",
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Isso não é motivo para travar tudo.",
+        "Trava demais ensina a desviar.",
+        "Cada bloqueio cobra tempo de quem trabalha todo dia, e sistema cheio de trava ensina todo mundo a contornar por fora. Vale travar o erro que já se repetiu e que custa caro. O resto continua sendo conferência e conversa. Erro que envolve saúde, segurança ou obrigação legal não entra nessa conta.",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd"
+      ],
+      "alt": "Slide 6 de 7. Isso não é motivo para travar tudo: trava demais ensina a desviar. Cada bloqueio cobra tempo de quem trabalha todo dia, e sistema cheio de trava ensina todo mundo a contornar por fora. Vale travar o erro que já se repetiu e que custa caro, e o resto continua sendo conferência e conversa. Erro que envolve saúde, segurança ou obrigação legal não entra nessa conta."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Liste 1 erro\nque já voltou.",
+        "hl": "1 erro",
+        "accent": "Mude a tarefa,\nnão o aviso.",
+        "body": "Escreva hoje os erros que apareceram 2 vezes ou mais no último mês. Pegue o mais caro e mude 1 detalhe da tarefa: um campo obrigatório, uma ordem fixa ou uma separação física. Depois marque no calendário o dia de conferir se ele voltou, daqui a 30 dias.",
+        "year": "2026",
+        "temas": "Temas: Erro / Tarefa / Prevenção",
+        "micro": "@zionaxs_ · ref ee54a9bd · foto: ButterflyII"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Liste 1 erro que já voltou.",
+        "Mude a tarefa, não o aviso.",
+        "Escreva hoje os erros que apareceram 2 vezes ou mais no último mês. Pegue o mais caro e mude 1 detalhe da tarefa: um campo obrigatório, uma ordem fixa ou uma separação física. Depois marque no calendário o dia de conferir se ele voltou, daqui a 30 dias.",
+        "2026",
+        "Temas: Erro / Tarefa / Prevenção",
+        "@zionaxs_ · ref ee54a9bd · foto: ButterflyII"
+      ],
+      "alt": "Slide 7 de 7. Liste 1 erro que já voltou e mude a tarefa, não o aviso. Escreva hoje os erros que apareceram 2 vezes ou mais no último mês, pegue o mais caro e mude 1 detalhe da tarefa: um campo obrigatório, uma ordem fixa ou uma separação física. Marque no calendário o dia de conferir, em 30 dias. Fotografia escura de uma parede com uma tomada e plugues ligados, em luz lateral quente e sombras marcadas.",
+      "photo": {
+        "src": "../assets/foto-tomada.jpg",
+        "pos": "0% 50%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+decisao: aprovar e publicar a zx-26, slot da manhã de dia útil
+data: 2026-08-31
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca, então a autorização se aplica.
+  registro_anterior: pieces/zx-25-cerca-no-meio-do-campo/decisions/aprovacao-2026-08-30.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, segunda-feira"
+  papel: descoberta, tensão atual, curiosidade ou pauta encaminhável
+  leitura: >
+    Na manhã de dia útil o leitor está entrando na operação, então a peça abre
+    por uma afirmação que contraria o reflexo do dia ("pedir atenção não é um
+    controle") e entrega algo que ele consegue encaminhar hoje. A curiosidade
+    vem da distinção de 1985 entre erro e defeito, e não de estatística.
+
+tema:
+  escolhido: erro que se repete é propriedade da tarefa, não da pessoa
+  por_que: >
+    Assunto não repetido. As 6 peças anteriores tratam de capacidade (zx-20),
+    alçada de decisão (zx-21), rito semanal (zx-22), definição de indicador
+    (zx-23), fila e trabalho em aberto (zx-24) e critério para remover regra
+    (zx-25). Nenhuma trata de erro e retrabalho, que é a dor mais visível do
+    dia a dia de escritório contábil, clínica e advocacia. E o movimento é o
+    oposto do da zx-25: lá se decidia o que TIRAR, aqui se decide o que
+    ACRESCENTAR, e com um critério que impede o excesso de trava.
+  desejo_primeiro: >
+    A peça é uma dica prática de rotina (liste os erros repetidos do mês, pegue
+    o mais caro, mude 1 detalhe da tarefa). A referência de 1929 a 1985 entra
+    como tempero dentro da dica, não como o post inteiro.
+
+gates:
+  resultado: 14/14 verdes
+  digest: 076e9e7ba8f2cf17
+  observacao: >
+    A primeira geração deu 12/14. As 2 falhas foram de G6 (runt line) nos
+    slides 3 e 7, e as 2 correções foram no CONTRATO, reescrevendo o fim dos
+    parágrafos para equilibrar a última linha. Nenhum pixel foi corrigido.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Slide 7: a placa clara da tomada atravessava a banda de texto e a manchete
+      em creme, mais o corpo em mono, caíam em cima dela. É o caso de "objeto
+      claro na banda de texto" da direção visual, e o G5 não pega: ele mede a
+      tinta contra o fundo declarado no CSS, nunca contra os pixels da foto.
+    correcao: >
+      photo.pos de "20% 50%" para "0% 50%", decidido em folha de contato que
+      reproduziu a banda de texto real do layout poster-close (título em 46%,
+      apoio em 65%, corpo em 73%) sobre 8 crops da mesma foto, já com gradê e
+      scrim aplicados. Em "0% 50%" a placa sai do enquadramento e sobra só a
+      silhueta escura do plugue à direita, abaixo do texto.
+  - achado: >
+      Slide 1: a cúpula clara da luminária e o encosto de madeira ficavam na
+      terceira linha do parágrafo de apoio, e "resolve isso mudando a" perdia
+      contraste. Mesmo caso, mesmo cego de gate.
+    correcao: >
+      photo.pos de "50% 50%" para "25% 50%", também escolhido em folha de
+      contato com 8 crops. A foto é paisagem em campo 4x5, então o Y de `pos`
+      não faz nada e só o X move o quadro, exatamente como a direção visual
+      registrou na zx-23. Em 25% a luminária vai para a borda direita e a banda
+      de texto fica escura e quieta, com a cidade iluminada no terço superior.
+  - achado: >
+      Slide 2: o anel laranja da decoração cruza a manchete e o canto do bloco
+      de foto encosta na primeira linha.
+    veredito: >
+      Não é defeito. É a aparência aprovada do layout poster-scene: a zx-25,
+      publicada em 30/08/2026, tem exatamente a mesma sobreposição no mesmo
+      slide. Mantido.
+  - achado: >
+      Slide 3: "poka-yoke" quebra no próprio hífen entre 2 linhas do parágrafo
+      de apoio.
+    veredito: >
+      Mantido. Quebra no hífen da palavra é correta tipograficamente, e mexer
+      no comprimento do parágrafo reabriria o G6, que acabou de ser equilibrado
+      nesse mesmo texto.
+
+trilha:
+  faixa: Groove in Bloom
+  origem: Meta Sound Collection
+  ressalva: >
+    O índice da coleção vive fora do repositório (ZX_TRILHAS ou
+    C:/dev/sound-collection) e não está presente neste checkout em nuvem, então
+    esta sessão não pôde escolher entre as faixas disponíveis. Groove in Bloom
+    é nomeada por ser a única faixa verificada como presente na coleção da
+    operação, usada e licenciada na zxv-02. É a MESMA sugestão da zx-25,
+    publicada ontem: vale trocar por outra faixa da Meta Sound Collection que
+    atenda aos 4 critérios estéticos, para 2 peças seguidas não saírem com a
+    mesma trilha. A escolha final é do Fabiano no app.
+
+lacunas_desta_execucao:
+  - >
+      O repositório da Zionaxs Memory não está presente neste checkout em nuvem.
+      A inteligência de público (19b), o ledger de fontes (19a) e a matriz
+      editorial (19c) não puderam ser relidos nesta rodada.
+  - >
+      Consequência declarada no contrato: o campo `matriz` foi OMITIDO de
+      propósito, e o `repertorio` não recebeu id de ledger. A última correção do
+      repositório (commit 43f472d) foi justamente uma matriz editorial copiada
+      errada; melhor não declarar do que declarar errado. A proposta de inclusão
+      da fonte está em proposta-fonte-shingo-ledger-19a.yaml.
