@@ -1,0 +1,71 @@
+{
+  "postId": "18112569790807797",
+  "permalink": "https://www.instagram.com/p/DcvmRw9G0Tf/",
+  "shortcode": "DcvmRw9G0Tf",
+  "publishedAt": "2026-09-01T11:52:40+0000",
+  "publishedAtFortaleza": "01/09/2026, 08:52:40",
+  "slot": "08:30 BRT, dia util, papel de descoberta, tensao atual, curiosidade ou pauta encaminhavel",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906546403501214",
+  "childContainers": [
+    "17906546253501214",
+    "17906546247501214",
+    "17906546250501214",
+    "17906546256501214",
+    "17906546340501214",
+    "17906546334501214",
+    "17906546337501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-28-automatizar-o-errado/out/jpg/zx-28-automatizar-o-errado-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "17892456138672578",
+    "18008055182952800",
+    "18645851530017817",
+    "17933189397370286",
+    "18041921828816281",
+    "18073285754723835",
+    "18123933859634583"
+  ],
+  "digest": "6216c677db884a17b6bff6dae45025e10b1d7ef9db926e8b503d132c6e4f4a16",
+  "commit": "06fe9c8",
+  "reconciledAt": "2026-09-01T11:53:54+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA e INSTAGRAM_GET_IG_MEDIA_CHILDREN, ambos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "shareToFeedEnviado": false,
+    "urlsPublicasConferidas": "as 7 URLs responderam 200 image/jpeg em raw.githubusercontent.com antes de irem para a Meta, e o arquivo baixado bateu byte a byte com o local em todas elas (cmp sem diferenca)",
+    "identidadeVerificadaAntes": "INSTAGRAM_GET_USER_INFO ao vivo devolveu username zionaxs_ e id 37965311306447572 antes de qualquer criacao de container. Continuam 3 contas conectadas no Composio, e a padrao e @fabjr1 (38039865875659488), que NAO e a certa. Nem ela nem @base3br foram tocadas: todas as chamadas passaram account instagram_ascent-utick explicitamente e ig_user_id numerico da zionaxs_.",
+    "cotaDePublicacao": "INSTAGRAM_GET_IG_USER_CONTENT_PUBLISHING_LIMIT antes de publicar: 2 de 100 na janela de 24h",
+    "altTextPorSlide": "cada um dos 7 conteineres filhos foi criado com is_carousel_item e com o alt_text aprovado no contrato",
+    "legendaPublicada": "corpo do campo caption do contrato, 8 paragrafos, 1900 caracteres, dentro do teto de 2.200 que o porteiro cobra. O caption_sources NAO vai para a legenda publicada. As 3 afirmacoes E ficam com fonte visivel ao leitor dentro do proprio corpo (Sebrae 2026 com amostra e janela de coleta; Sebrae com FGV IBRE e Google, setembro de 2025, com amostra; e Drucker, com autor, veiculo e ano), como exige o paragrafo 14 da nota 19c.",
+    "cuidadoComUniversos": "os 2 numeros que aparecem lado a lado no slide 3 (96% e 15%) sao da MESMA pesquisa. Os 52% e 46%, de outra pesquisa, ficaram so na legenda e vem declarados la como pesquisa diferente, com universos e datas diferentes, e com a ressalva de que os numeros nao se somam.",
+    "nota": "share_to_feed nao foi enviado: e invalido para carrossel. A publicacao saiu na primeira tentativa, sem erro de transporte, entao nao houve necessidade de reconciliar antes de repetir."
+  },
+  "trilhaSugerida": {
+    "faixa": "Even Keel",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra para competir com a leitura, que nesta peça carrega 4 percentuais de pesquisa e uma lista de 3 perguntas. Andamento constante do começo ao fim, sem virada dramática, porque cada leitor passa o carrossel no próprio ritmo e ninguém está sincronizado com a música. Textura limpa e groove regular, que é o critério que passou a valer depois da correção de 30/08/2026, quando a marca deixou de escolher faixa por familiaridade. Origem licenciada para conta de negócio: a Meta Sound Collection cobre uso comercial no Instagram e no Facebook.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia. Nesta peça, evitar também trilha de tensão tecnológica, que empurraria o tema de inteligência artificial para o tom de alarme.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e a zx-27 pediu perfil parecido com este."
+  },
+  "pendenciaHumana": "adicionar a trilha pelo app, editando o post depois de publicado: a API nao escolhe faixa. A faixa deve vir da Meta Sound Collection."
+}
