@@ -76,6 +76,19 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
 - Todo texto do chrome (ano, temas, microlinha) entra como slot de copy aprovada no contrato; etiquetas internas (`ZX-…`, `S1`) nunca aparecem na arte (G11).
 - O bloco de meta (ano + série + nº) e o corpo vivem na MESMA pilha ancorada embaixo (`.pstack`). Com o meta fixo em `top:40%` o corpo crescia por baixo e colidia quando a copy ficava mais longa — **nenhum gate mede sobreposição**, então isso é regra de construção, não de verificação.
 - Caixa alta só no tipo de display (`.pt1`/`.pt2`). Texto explicativo em caixa normal: parágrafo longo em caixa alta derruba a legibilidade e contraria a regra de copy didática.
+- **O realce (`hl`) vai na PRIMEIRA linha do bloco, nunca na segunda.** Aprendido na zx-29, 01/09/2026. A caixa do realce é
+  `display:inline` com padding vertical, e a altura de linha do display é `.98`: numa segunda linha ela sobe e come a base
+  da linha de cima. Aconteceu no `accent` do `poster-turn` (a caixa cortou "CUSTO ESTÁ") e no `title` do `poster-close` (a
+  caixa cortou "ABRA 1 PLANILHA"). Na primeira linha a caixa só encosta na margem que separa o bloco do anterior, e nada é
+  cortado. **Nenhum gate mede isso**, é regra de construção. E não adianta transformar o bloco em 1 linha só para escapar:
+  no display de 78px o limite prático é cerca de 20 caracteres, e "Custo está na semana." quebrou sozinha, com o G7
+  reprovando 2 vezes, inclusive dentro do próprio span do realce.
+- **Pendência no `poster-statement`: o anel laranja encosta em linha cheia.** O anel decorativo fica em `right:-240px`,
+  `top:40%`, 420px de diâmetro, então ocupa de 900px a 1080px na horizontal e de 540px a 960px na vertical. O corpo do
+  texto vai até 940px. Qualquer linha cheia nessa faixa vertical encosta no anel: a zx-28 saiu com a linha mais larga
+  tocando a borda, e a zx-29 com 2 linhas cruzando o traço. Encurtar o texto **não** resolve, porque a quebra é gulosa e
+  qualquer linha cheia chega perto de 940px. A correção de verdade é de template, estreitar o corpo do `poster-statement`
+  para cerca de 820px, e por isso é decisão de direção visual, não de contrato: nenhuma sessão deve fazê-la sozinha.
 - Parágrafos explicativos aceitam quebra autoral (`\n`), mas com uma condição que o texto anterior omitia e que custou uma
   geração na zx-28: o G7 reprova quando o número de linhas renderizadas passa de `brs + 1`, **em qualquer tamanho de texto,
   não só no display**. Ou seja, enfiar 1 quebra em um parágrafo longo para consertar uma órfã do G6 troca um gate vermelho
