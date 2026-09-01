@@ -1,0 +1,171 @@
+decisao: aprovar e publicar a zx-29, slot da tarde de dia útil
+data: 2026-09-01
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca, então a autorização se aplica.
+  registro_anterior: pieces/zx-28-automatizar-o-errado/decisions/aprovacao-2026-09-01.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, terça-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede conteúdo principal, então a peça entrega método com
+    evidência: um teste de 2 semanas com 3 colunas, ancorado em 3 percentuais de
+    uma pesquisa setorial com recorte declarado. A peça da manhã, a zx-28, era
+    descoberta e entrava por adoção de inteligência artificial; esta não repete
+    nem o assunto nem a fonte.
+
+tema:
+  escolhido: o cliente caro não é o que paga menos, é o que consome mais horas
+  matriz: M09
+  por_que: >
+    Linha M09 da matriz editorial, "cliente que consome mais do que paga",
+    nunca usada. As 9 peças anteriores ocupam M08 (zx-19), M11 (zx-20), M19
+    (zx-21 e zx-22), M18 (zx-23, zx-24 e zx-25), M20 (zx-27), M17 (zx-28) e a
+    zx-26, que saiu sem matriz declarada por ausência da Memory naquela
+    execução. A M09 é a única linha que trata de margem por cliente antes do
+    reajuste, e é o par natural do papel de método que o slot da tarde pede.
+  distancia_da_peca_da_manha: >
+    A zx-28, publicada hoje às 08:52 BRT, trata de eliminar a tarefa antes de
+    automatizar, com dados do Sebrae sobre adoção de inteligência artificial.
+    Esta trata de medir o consumo de hora por cliente antes de mexer em preço,
+    com dados do Sescon-SP sobre prática de cobrança. Assunto diferente, fonte
+    diferente, instituto diferente e ano diferente: nenhuma sobreposição de
+    evidência entre as 2 peças do dia.
+  desejo_primeiro: >
+    A dica prática é a planilha de 3 colunas, cliente, minutos e motivo, rodada
+    por 2 semanas em 5 clientes. Não depende de comprar nada. Os percentuais do
+    Sescon-SP entram como tempero dentro da dica, no slide 3, e não como o post
+    inteiro.
+  jtbd:
+    - JO5 (quero um script para conversar com cliente sobre reajuste, exceção ou retrabalho)
+    - JT1 (quero decidir a carteira com dados da minha própria casa, não com dogma de mercado)
+  repertorio: >
+    nenhum, e de propósito. A nota 19c §14 permite "REPERTÓRIO → ID da §12.2, ou
+    nenhum". A M09 associa R3 (Michael Porter), que a zx-27 usou anteontem, e a
+    peça da manhã de hoje usou R1 (Drucker). Repetir autor em 2 dias seguidos
+    empobrece a conta, e o tema se sustenta em evidência setorial mais método
+    proposto, sem precisar de âncora de repertório.
+
+evidencia:
+  fonte_principal: >
+    Pesquisa de Preços e Serviços Praticados pelas Empresas Contábeis do Estado
+    de São Paulo, Sescon-SP com o Instituto Vox Populi, coleta on-line em junho
+    de 2024, 255 associados respondentes, margem de erro de 5,9%. É a [S21] do
+    ledger da Zionaxs Memory, nota 19a.
+  conferencia_ao_vivo: >
+    Os 3 percentuais usados (33% que não cobram retrabalho, 78% que aplicam taxa
+    adicional anual, e 9% que cobram por hora entre os que cobram retrabalho)
+    foram conferidos nesta execução na cobertura do portal Contábeis sobre o
+    estudo. O PDF original do Sescon-SP não pôde ser lido diretamente: excede o
+    limite de tamanho do buscador desta sessão. A ficha técnica (255 associados,
+    margem de erro 5,9%) veio do ledger [S21], que já a registrava.
+  cuidado_com_a_base: >
+    Os 9% valem sobre o subconjunto que cobra retrabalho, não sobre a amostra
+    inteira. A peça já os apresenta com essa base, no slide 3 e na legenda, e o
+    caption_sources repete a ressalva junto dos 30% por complexidade e 27% por
+    recorrência, que não entram na arte.
+  lacuna_declarada: >
+    Margem por cliente é NC para V2 na nota 19a. Por isso a peça não afirma
+    percentual de margem nenhum: ela ensina a conta, não anuncia um número.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Slide 1: com a foto do despertador em pos "40% 50%", o mostrador claro
+      caía dentro da banda de texto de 46% a 93% e passava por trás de "NÃO É O
+      QUE" e "PAGA MENOS". É o caso 1 da seção de enquadramento da direção
+      visual, que o G5 não pega porque ele mede contraste contra o fundo
+      declarado no CSS, nunca contra os pixels da foto.
+    correcao: >
+      Crop deslocado para pos "10% 50%". Como a foto é paisagem em campo 4x5, só
+      o X move o quadro: o mostrador foi para a borda direita e a manchete
+      inteira passou a cair sobre a área escura. A tinta não foi clareada.
+  - achado: >
+      Slide 4: com o realce (hl) na SEGUNDA linha do bloco `accent`, a caixa do
+      realce subia e comia a base da linha de cima, porque a altura de linha do
+      display é .98 e a caixa do `hl` tem padding vertical. Aconteceu igual no
+      slide 7, onde o realce em "3 colunas." cortava "ABRA 1 PLANILHA".
+    correcao: >
+      Realce movido para a PRIMEIRA linha do bloco em ambos: `hl` virou "Custo
+      está" no slide 4 e "1 planilha" no slide 7. Na primeira linha a caixa só
+      encosta na margem que separa o bloco do anterior, e nada é cortado. Regra
+      registrada na direção visual, porque é de construção e nenhum gate a mede.
+  - achado: >
+      Slide 4: tentar resolver o realce transformando o `accent` em 1 linha só
+      ("Custo está na semana.") fez o texto quebrar sozinho em 2 linhas e o G7
+      reprovou 2 vezes, inclusive dentro do próprio span do realce. Confirma que
+      no display de 78px o limite prático é cerca de 20 caracteres por linha.
+    correcao: voltou para 2 linhas declaradas, com o realce na primeira.
+  - achado: >
+      Slide 6: no layout poster-statement o anel laranja ocupa de 900px a 1080px
+      na horizontal e de 40% a 71% na vertical, e o corpo do texto vai até
+      940px. Qualquer linha cheia nessa faixa encosta no anel, e 2 linhas desta
+      peça encostam. Não é regressão desta peça: a zx-28 saiu com a linha mais
+      larga tocando o mesmo anel.
+    correcao: >
+      O corpo foi encurtado 2 vezes para tentar mudar os pontos de quebra, o que
+      não resolveu, porque a quebra é gulosa e qualquer linha cheia chega perto
+      de 940px. O texto continua legível, preto sobre laranja, e a peça foi
+      publicada assim. A correção de verdade é de template, não de contrato, e
+      por isso não foi feita nesta execução: mexer na largura do corpo do
+      poster-statement é mudança na direção visual aprovada. Fica registrada
+      como pendência na direção visual.
+  - achado: >
+      Candidata de foto para o fechamento descartada antes de gerar: um livro
+      aberto (Greta Schölderle Möller) trazia "EL REVÉS DE LA TRAMA" e
+      "EDITORIAL SUR BUENOS AIRES" legíveis na página. É o caso 2 da seção de
+      enquadramento, nascido na zx-23: texto legível na foto entra na peça como
+      afirmação, e um romance em espanhol não diz o que a peça diz.
+    correcao: >
+      Trocada por uma luminária de mesa acesa em escritório à noite (JC
+      Gellidon), sem texto legível, com a metade de baixo escura sob o scrim.
+      Recebeu scale 1.35 com origin "50% 100%" para levantar o teclado e a
+      cúpula para fora da banda de texto.
+  - achado: >
+      As 3 fotos foram conferidas contra o caso 1 da mesma seção. Capa e
+      fechamento têm a banda de texto escura e quieta, e a manchete em creme se
+      lê inteira nos 2. O slide 2 usa a foto em campo próprio, fora da banda.
+    correcao: nenhuma necessária.
+
+memory:
+  estado: >
+    A Zionaxs Memory NÃO estava no checkout no início da sessão, como nas
+    execuções anteriores em nuvem. Foi anexada com add_repo e clonada em
+    /home/user/zionaxs-memory antes de qualquer decisão editorial.
+  consequencia: >
+    Os códigos editoriais desta peça (M09, JO5, JT1) foram lidos nas notas
+    canônicas 19b e 19c, não copiados da peça anterior. A verificação A9 da
+    auditoria confere a existência deles; a pertinência foi decidida lendo a
+    matriz.
+
+ambiente:
+  achado: >
+    O CDN de imagens do Unsplash (images.unsplash.com, servido por imgix)
+    respondeu 429 "concurrency_exceeded" e "Rate exceeded" na maior parte das
+    tentativas desta sessão em nuvem. URLs com parâmetros de transformação
+    falharam sempre; a URL crua funcionou de forma intermitente, com sucesso
+    depois de várias tentativas espaçadas.
+  consequencia: >
+    A escolha de foto custou muito mais tempo que o normal, e a peça saiu com
+    cerca de 1 hora de atraso em relação ao slot das 13:00 BRT. Quem for
+    executar em nuvem deve contar com isso: baixar sem parâmetros de
+    transformação e repetir com espera entre as tentativas.
+
+trilha:
+  campo: trilha_sugerida
+  origem: Meta Sound Collection
+  pendencia: >
+    O índice da coleção de trilhas vive fora do repositório e a variável de
+    ambiente está vazia nesta sessão em nuvem, então o nome da faixa é uma
+    indicação de perfil, não uma faixa confirmada no acervo. Groove in Bloom, a
+    única verificada, já foi sugerida na zx-25 e na zx-26 e não se repete aqui
+    de propósito. A escolha final é do Fabiano, no app, entre as instrumentais
+    de andamento constante da Meta Sound Collection.

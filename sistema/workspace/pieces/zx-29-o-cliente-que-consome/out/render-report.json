@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-29-o-cliente-que-consome",
+  "generatedAt": "2026-09-01T16:49:45+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-29-o-cliente-que-consome-slide-01.png",
+    "zx-29-o-cliente-que-consome-slide-02.png",
+    "zx-29-o-cliente-que-consome-slide-03.png",
+    "zx-29-o-cliente-que-consome-slide-04.png",
+    "zx-29-o-cliente-que-consome-slide-05.png",
+    "zx-29-o-cliente-que-consome-slide-06.png",
+    "zx-29-o-cliente-que-consome-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Método 01/07 O cliente caro não é o que paga menos. É o que consome mais horas. Todo escritório tem 1 cliente que paga em dia e sai caro assim mesmo. Ele pede o mesmo relatório 3 vezes, manda o documento errado, liga na sexta às 18h. O preço está no contrato, e as horas não estão em lugar nenhum. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1 · foto: Ruslan Sikunov"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 O cliente que liga na sexta. Na proposta o serviço tem escopo. Na semana ele tem exceção: 1 pedido fora do combinado, 2 correções do mesmo documento, 40 minutos ao telefone. Nada disso vira registro, e o que não vira registro não vira preço. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1 · foto: Denny Müller"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 33% não cobram pelo retrabalho. 78% aplicam taxa anual. Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Entre os que cobram retrabalho, só 9% cobram por hora trabalhada. O preço sobe pelo calendário, e quase nunca pelo que cada cliente consome. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Preço está no contrato. Custo está na semana. O contrato diz quanto o cliente paga. Ele não diz quanto o cliente consome. A diferença entre as 2 coisas é a margem, e é ela que responde se aquele cliente sustenta o escritório ou é sustentado por ele. Sem hora registrada por cliente essa conta não existe, e o reajuste acaba subindo igual para toda a carteira. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 Medir 5 clientes em 2 semanas. 01Escolha 5 clientes: os 2 que mais pedem coisas, os 2 que mais pagam e 1 do meio. Comparar extremos ensina mais que olhar a carteira inteira. 02Anote todo dia, em 1 planilha, 3 colunas: cliente, minutos e motivo. O motivo é o que separa serviço combinado de exceção. 03No fim, divida o que cada cliente paga por mês pelas horas que consumiu. Você tem receita por hora e a ordem de quem conversar primeiro. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Cliente caro nem sempre deve sair. Às vezes o caro é o escopo. Antes de decidir reajuste ou saída, leia o registro. Se as horas somam exceção repetida, o problema é o escopo, e a correção é escrever o que fica dentro e o que fica fora. Alguns clientes pagam de outro jeito, com indicação ou aprendizado. E 2 semanas de registro não pegam sazonalidade, porque mês de fechamento e entrega anual mudam a conta. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Abra 1 planilha e crie 3 colunas. Cliente, minutos, motivo. Crie a planilha hoje e comece a anotar amanhã de manhã. Em 2 semanas você troca a impressão de que aquele cliente dá trabalho por 1 número que sustenta a conversa. Medir sai de graça. Reajustar no escuro custa o cliente. Temas: Cliente / Hora / Margem @zionaxs_ · ref d5accab1 · foto: JC Gellidon"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.7,
+  "digest": "21492bfc924ccb7000c625870ebd5466ce4888e8f4f45380a5087b904d9d7aed"
+}

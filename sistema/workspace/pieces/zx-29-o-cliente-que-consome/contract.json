@@ -1,0 +1,323 @@
+{
+  "id": "zx-29-o-cliente-que-consome",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário V2, escritórios contábeis, persona C1, sócio-operador que decide preço e executa entrega (M09, dor: cliente que consome mais do que paga). Secundário V3, persona A1, advogado-gestor solo. Cena concreta: escritório de serviços com carteira em que 1 cliente consome muito mais atendimento que os outros pelo mesmo honorário. Slot editorial: tarde de dia útil, papel de conteúdo principal, entregando método e evidência, não notícia.",
+    "decisao": "Antes de reajustar, dar desconto ou dispensar um cliente, medir por 2 semanas quantas horas cada um consome e por qual motivo, e só então decidir preço, escopo ou saída.",
+    "tensao": "O contrato define o que o cliente paga e nunca define o que ele consome. Como ninguém registra hora por cliente, a percepção de que alguém dá trabalho fica no campo da queixa e nunca vira número. O resultado é que o preço é corrigido pelo calendário, uma vez por ano e para todo mundo igual, enquanto a diferença de consumo entre clientes segue invisível. Sem esse dado, reajuste vira chute, desconto vira hábito e a decisão de manter ou dispensar um cliente é tomada por humor.",
+    "evidencia": [
+      {
+        "claim": "33% dos escritórios contábeis pesquisados declararam não cobrar nada pelo retrabalho, e 78% declararam aplicar uma taxa adicional anual",
+        "status": "E",
+        "fonte": "Pesquisa de Preços e Serviços Praticados pelas Empresas Contábeis do Estado de São Paulo, Sescon-SP com o Instituto Vox Populi, coleta on-line em junho de 2024, 255 associados respondentes, margem de erro de 5,9%. Registrada no ledger de fontes da Zionaxs Memory como [S21], nota 19a. Percentuais conferidos ao vivo nesta execução na cobertura do portal Contábeis sobre o estudo."
+      },
+      {
+        "claim": "entre os escritórios que cobram pelo retrabalho, 30% cobram pela complexidade do serviço, 27% pela recorrência e 9% pelas horas trabalhadas",
+        "status": "E",
+        "fonte": "Mesma pesquisa Sescon-SP e Vox Populi, junho de 2024 [S21]. Base desses 3 percentuais é o subconjunto que cobra retrabalho, não o total da amostra. Conferido ao vivo nesta execução na cobertura do portal Contábeis."
+      },
+      {
+        "claim": "o público quer um script para conversar com cliente sobre reajuste, exceção ou retrabalho, e quer decidir a composição da carteira com dado da própria casa, não com dogma de mercado",
+        "status": "I",
+        "fonte": "[19b] JTBD JO5, sobre o script de conversa de reajuste, exceção e retrabalho, e JT1, sobre decidir a carteira com dados próprios. Notas 19b e 19c lidas nesta execução, com a Zionaxs Memory clonada no checkout."
+      },
+      {
+        "claim": "margem por cliente em escritório de serviços brasileiro não tem dado público conhecido",
+        "status": "NC",
+        "fonte": "[19a] a linha V2 declara clientes por FTE, churn e margem como lacuna NC. A peça não afirma percentual de margem nenhum."
+      },
+      {
+        "claim": "a diferença de consumo entre clientes da mesma faixa de honorário é grande o bastante para mudar a decisão de preço",
+        "status": "H",
+        "fonte": null
+      },
+      {
+        "claim": "o método de medir 5 clientes por 2 semanas com 3 colunas, cliente, minutos e motivo, e a coluna motivo como o que separa escopo de exceção",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 33% que não cobram retrabalho e os 78% que aplicam taxa adicional anual, do Sescon-SP com Vox Populi, junho de 2024, citados com instituição, ano, universo estadual, tamanho de amostra e margem de erro",
+        "os 9% que cobram por hora trabalhada, do mesmo estudo, citados já com a base correta, que é quem cobra retrabalho"
+      ],
+      "I": [
+        "o desejo de um script de conversa sobre reajuste e exceção, e o de decidir a carteira com dado próprio"
+      ],
+      "H": [
+        "a explicação de que o consumo por cliente varia o bastante para mudar a decisão de preço: raciocínio proposto pela Zionaxs, não resultado de pesquisa",
+        "o método das 2 semanas, dos 5 clientes e das 3 colunas: método proposto, não prática comprovada"
+      ],
+      "NC": [
+        "margem por cliente em escritório de serviços no Brasil, sem dado público conhecido, e por isso nenhum percentual de margem aparece na peça"
+      ]
+    },
+    "limites": [
+      "A pesquisa citada é do estado de São Paulo, com 255 associados do Sescon-SP respondendo on-line sobre si mesmos, com margem de erro de 5,9%. Isso é indício setorial e regional, não retrato do Brasil, e a peça declara o recorte no slide 3 e na legenda.",
+      "Os percentuais de forma de cobrança, 30% por complexidade, 27% por recorrência e 9% por hora trabalhada, têm como base o subconjunto que cobra retrabalho, e não a amostra inteira. A peça só cita os 9% e já os apresenta com essa base.",
+      "Os números são declarados pelos respondentes, não medidos em sistema. Declaração de prática de cobrança não prova margem, rentabilidade nem resultado.",
+      "A peça não soma, não subtrai e não cruza os percentuais entre si, e não os apresenta como série histórica.",
+      "Não existe dado público de margem por cliente em escritório de serviços brasileiro, então a peça não afirma percentual de margem nenhum e trata a conta como método de leitura da própria carteira.",
+      "O método de 2 semanas é amostra curta: mês de fechamento, entrega anual e sazonalidade mudam a conta, e a peça declara esse limite no slide 6.",
+      "O exemplo do cliente que pede o mesmo relatório 3 vezes e liga na sexta às 18h é ilustrativo, construído para a peça, e não dado de pesquisa.",
+      "Cliente caro nem sempre deve sair: alguns pagam de outro jeito, com indicação, aprendizado ou porte, e a peça declara isso no slide 6 para não virar convite a demitir carteira.",
+      "A peça não recomenda reajuste unilateral nem quebra de contrato: o que ela recomenda é medir antes de decidir."
+    ],
+    "consequencia": "O leitor sai com uma planilha de 3 colunas e um teste de 2 semanas que transformam a queixa de que um cliente dá trabalho em receita por hora comparável, e com a ação de criar as colunas hoje e começar a anotar amanhã de manhã."
+  },
+  "tese": "O cliente caro não é o que paga menos, é o que consome mais horas. Enquanto ninguém registrar hora por cliente, o reajuste sobe pelo calendário e a decisão de preço é tomada por impressão. O que muda a decisão é medir 5 clientes por 2 semanas, com cliente, minutos e motivo, e só então falar de preço, escopo ou saída.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M09",
+  "jtbd": [
+    "JO5",
+    "JT1"
+  ],
+  "cta": "Abrir hoje 1 planilha com as colunas cliente, minutos e motivo, escolher 5 clientes e começar a anotar amanhã de manhã, por 2 semanas.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela afirmação de que o cliente caro é o que consome, reconhecer a cena do pedido fora do combinado que ninguém registra, receber a evidência de que o preço sobe pelo calendário e quase nunca pela hora, virar para a distinção entre preço e custo, aprender o método das 2 semanas com 3 colunas, ouvir o limite que impede a ideia de virar demissão de carteira e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-29",
+    "M09",
+    "JO5",
+    "JT1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra para competir com a leitura, que nesta peça carrega 3 percentuais de pesquisa e um método de 3 passos. Andamento constante do começo ao fim, sem virada dramática, porque cada leitor passa o carrossel no próprio ritmo e ninguém está sincronizado com a música. Textura limpa e groove regular, que é o critério que passou a valer depois da correção de 30/08/2026, quando a marca deixou de escolher faixa por familiaridade. Origem licenciada para conta de negócio: a Meta Sound Collection cobre uso comercial no Instagram e no Facebook.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia. Nesta peça, evitar ainda trilha de suspense financeiro, que empurraria um assunto de gestão para o tom de aperto de caixa.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e a zx-27 e a zx-28 pediram perfil parecido com este."
+  },
+  "caption": [
+    "Todo escritório tem 1 cliente que paga em dia e sai caro assim mesmo. Ele pede o mesmo relatório 3 vezes, manda o documento errado, liga na sexta às 18h. O preço dele está no contrato. As horas que ele consome não estão em lugar nenhum.",
+    "Sem esse registro, o reajuste vira chute e o desconto vira hábito.",
+    "A Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo e margem de erro de 5,9%, mostrou que 33% não cobram nada pelo retrabalho e 78% aplicam uma taxa adicional anual. Entre os que cobram retrabalho, só 9% cobram por hora trabalhada.",
+    "Ou seja: o preço sobe pelo calendário e quase nunca pelo consumo. São escritórios de São Paulo respondendo sobre si mesmos, então o número é indício, não retrato do Brasil.",
+    "O teste cabe em 2 semanas. Escolha 5 clientes: os 2 que mais pedem, os 2 que mais pagam e 1 do meio. Anote todo dia, em 1 planilha, 3 colunas: cliente, minutos e motivo. No fim, divida o que cada um paga por mês pelas horas que consumiu.",
+    "O motivo é a coluna que decide. Se as horas somam exceção repetida, o problema é o escopo, e a correção é escrever o que está dentro e o que está fora antes de falar em preço.",
+    "Um cuidado: cliente caro nem sempre deve sair. Alguns pagam de outro jeito, com indicação, aprendizado ou porte que abre porta. E 2 semanas não pegam sazonalidade, porque mês de fechamento muda a conta.",
+    "Comece hoje: abra a planilha, crie as 3 colunas e anote a partir de amanhã de manhã. Medir sai de graça. Reajustar no escuro custa o cliente."
+  ],
+  "caption_sources": [
+    "Fonte dos 33%, dos 78% e dos 9%: Pesquisa de Preços e Serviços Praticados pelas Empresas Contábeis do Estado de São Paulo, Sescon-SP em parceria com o Instituto Vox Populi, coleta on-line em junho de 2024, 255 associados respondentes, margem de erro de 5,9%.",
+    "Base dos 9%: o percentual vale entre os escritórios que cobram pelo retrabalho, não sobre a amostra inteira. No mesmo recorte, 30% cobram pela complexidade do serviço e 27% pela recorrência.",
+    "A pesquisa ouve associados do Sescon-SP no estado de São Paulo, que responderam on-line sobre a própria prática. É indício setorial e regional, não retrato do Brasil, e declaração de prática de cobrança não prova margem nem rentabilidade.",
+    "Os percentuais não se somam nem se cruzam, e a peça não os apresenta como série histórica.",
+    "Não há dado público conhecido de margem por cliente em escritório de serviços brasileiro: a nota 19a da Zionaxs Memory declara margem, churn e clientes por FTE como lacuna. Por isso a peça não afirma percentual de margem nenhum.",
+    "O método de 5 clientes, 2 semanas e 3 colunas, e a leitura de que a coluna motivo separa escopo de exceção, são proposta da Zionaxs, não prática comprovada por pesquisa.",
+    "O exemplo do cliente que pede o mesmo relatório 3 vezes e liga na sexta às 18h é ilustrativo, construído para a peça, e não dado de pesquisa.",
+    "Fotos: Ruslan Sikunov, Denny Müller e JC Gellidon, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Método",
+      "copy": {
+        "title": "O cliente caro\nnão é o que\npaga menos.",
+        "accentLine": "É o que consome mais horas.",
+        "hl": "consome mais horas.",
+        "sub": "Todo escritório tem 1 cliente que paga em dia e sai caro assim mesmo. Ele pede o mesmo relatório 3 vezes, manda o documento errado, liga na sexta às 18h. O preço está no contrato, e as horas não estão em lugar nenhum.",
+        "year": "2026",
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1 · foto: Ruslan Sikunov"
+      },
+      "approved_visible_copy": [
+        "Método",
+        "01/07",
+        "O cliente caro não é o que paga menos.",
+        "É o que consome mais horas.",
+        "Todo escritório tem 1 cliente que paga em dia e sai caro assim mesmo. Ele pede o mesmo relatório 3 vezes, manda o documento errado, liga na sexta às 18h. O preço está no contrato, e as horas não estão em lugar nenhum.",
+        "2026",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1 · foto: Ruslan Sikunov"
+      ],
+      "alt": "Slide 1 de 7. O cliente caro não é o que paga menos, é o que consome mais horas. Todo escritório tem 1 cliente que paga em dia e sai caro assim mesmo: pede o mesmo relatório 3 vezes, manda o documento errado, liga na sexta às 18h. O preço está no contrato, e as horas não estão em lugar nenhum. Fotografia escura de um despertador analógico iluminado de lado, com o mostrador visível e o resto do quarto em sombra.",
+      "photo": {
+        "src": "../assets/foto-despertador.jpg",
+        "pos": "10% 50%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "O cliente que\nliga na sexta."
+        ],
+        "closing": "Na proposta o serviço tem escopo. Na semana ele tem exceção: 1 pedido fora do combinado, 2 correções do mesmo documento, 40 minutos ao telefone. Nada disso vira registro, e o que não vira registro não vira preço.",
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1 · foto: Denny Müller"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "O cliente que liga na sexta.",
+        "Na proposta o serviço tem escopo. Na semana ele tem exceção: 1 pedido fora do combinado, 2 correções do mesmo documento, 40 minutos ao telefone. Nada disso vira registro, e o que não vira registro não vira preço.",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1 · foto: Denny Müller"
+      ],
+      "alt": "Slide 2 de 7. O cliente que liga na sexta. Na proposta o serviço tem escopo, mas na semana ele tem exceção: 1 pedido fora do combinado, 2 correções do mesmo documento, 40 minutos ao telefone. Nada disso vira registro, e o que não vira registro não vira preço. Papel claro com fotografia em preto e branco de um telefone de disco antigo sobre uma mesa de trabalho gasta.",
+      "photo": {
+        "src": "../assets/foto-telefone.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "33% não cobram\npelo retrabalho.",
+          "78% aplicam\ntaxa anual."
+        ],
+        "closing": "Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Entre os que cobram retrabalho, só 9% cobram por hora trabalhada. O preço sobe pelo calendário, e quase nunca pelo que cada cliente consome.",
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "33% não cobram pelo retrabalho.",
+        "78% aplicam taxa anual.",
+        "Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Entre os que cobram retrabalho, só 9% cobram por hora trabalhada. O preço sobe pelo calendário, e quase nunca pelo que cada cliente consome.",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1"
+      ],
+      "alt": "Slide 3 de 7. 33% dos escritórios não cobram pelo retrabalho e 78% aplicam uma taxa adicional anual. Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Entre os que cobram retrabalho, só 9% cobram por hora trabalhada, então o preço sobe pelo calendário e quase nunca pelo que cada cliente consome."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Preço está\nno contrato.",
+        "accent": "Custo está\nna semana.",
+        "hl": "Custo está",
+        "ghost": "09",
+        "year": "2026",
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1",
+        "body": "O contrato diz quanto o cliente paga. Ele não diz quanto o cliente consome. A diferença entre as 2 coisas é a margem, e é ela que responde se aquele cliente sustenta o escritório ou é sustentado por ele. Sem hora registrada por cliente essa conta não existe, e o reajuste acaba subindo igual para toda a carteira."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Preço está no contrato.",
+        "Custo está na semana.",
+        "2026",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1",
+        "O contrato diz quanto o cliente paga. Ele não diz quanto o cliente consome. A diferença entre as 2 coisas é a margem, e é ela que responde se aquele cliente sustenta o escritório ou é sustentado por ele. Sem hora registrada por cliente essa conta não existe, e o reajuste acaba subindo igual para toda a carteira."
+      ],
+      "alt": "Slide 4 de 7. Preço está no contrato, custo está na semana. O contrato diz quanto o cliente paga, mas não diz quanto o cliente consome. A diferença entre as 2 coisas é a margem, e é ela que responde se aquele cliente sustenta o escritório ou é sustentado por ele. Sem hora registrada por cliente essa conta não existe, e o reajuste acaba subindo igual para toda a carteira. Campo laranja chapado com o número 09 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "Medir 5 clientes\nem 2 semanas.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Escolha 5 clientes: os 2 que mais pedem coisas, os 2 que mais pagam e 1 do meio. Comparar extremos ensina mais que olhar a carteira inteira."
+          },
+          {
+            "num": "02",
+            "label": "Anote todo dia, em 1 planilha, 3 colunas: cliente, minutos e motivo. O motivo é o que separa serviço combinado de exceção."
+          },
+          {
+            "num": "03",
+            "label": "No fim, divida o que cada cliente paga por mês pelas horas que consumiu. Você tem receita por hora e a ordem de quem conversar primeiro."
+          }
+        ],
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "Medir 5 clientes em 2 semanas.",
+        "01",
+        "Escolha 5 clientes: os 2 que mais pedem coisas, os 2 que mais pagam e 1 do meio. Comparar extremos ensina mais que olhar a carteira inteira.",
+        "02",
+        "Anote todo dia, em 1 planilha, 3 colunas: cliente, minutos e motivo. O motivo é o que separa serviço combinado de exceção.",
+        "03",
+        "No fim, divida o que cada cliente paga por mês pelas horas que consumiu. Você tem receita por hora e a ordem de quem conversar primeiro.",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1"
+      ],
+      "alt": "Slide 5 de 7. Medir 5 clientes em 2 semanas. Primeiro, escolha 5 clientes: os 2 que mais pedem coisas, os 2 que mais pagam e 1 do meio, porque comparar extremos ensina mais que olhar a carteira inteira. Segundo, anote todo dia, em 1 planilha, 3 colunas: cliente, minutos e motivo, e o motivo é o que separa serviço combinado de exceção. Terceiro, no fim divida o que cada cliente paga por mês pelas horas que consumiu, e você tem receita por hora e a ordem de quem conversar primeiro. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Cliente caro nem\nsempre deve sair.",
+        "accent": "Às vezes o caro\né o escopo.",
+        "body": "Antes de decidir reajuste ou saída, leia o registro. Se as horas somam exceção repetida, o problema é o escopo, e a correção é escrever o que fica dentro e o que fica fora. Alguns clientes pagam de outro jeito, com indicação ou aprendizado. E 2 semanas de registro não pegam sazonalidade, porque mês de fechamento e entrega anual mudam a conta.",
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Cliente caro nem sempre deve sair.",
+        "Às vezes o caro é o escopo.",
+        "Antes de decidir reajuste ou saída, leia o registro. Se as horas somam exceção repetida, o problema é o escopo, e a correção é escrever o que fica dentro e o que fica fora. Alguns clientes pagam de outro jeito, com indicação ou aprendizado. E 2 semanas de registro não pegam sazonalidade, porque mês de fechamento e entrega anual mudam a conta.",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1"
+      ],
+      "alt": "Slide 6 de 7. Cliente caro nem sempre deve sair, porque às vezes o caro é o escopo. Antes de decidir reajuste ou saída, leia o registro: se as horas somam exceção repetida, o problema é o escopo, e a correção é escrever o que fica dentro e o que fica fora. Alguns clientes pagam de outro jeito, com indicação ou aprendizado. E 2 semanas de registro não pegam sazonalidade, porque mês de fechamento e entrega anual mudam a conta."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Abra 1 planilha\ne crie 3 colunas.",
+        "hl": "1 planilha",
+        "accent": "Cliente, minutos, motivo.",
+        "body": "Crie a planilha hoje e comece a anotar amanhã de manhã. Em 2 semanas você troca a impressão de que aquele cliente dá trabalho por 1 número que sustenta a conversa. Medir sai de graça. Reajustar no escuro custa o cliente.",
+        "year": "2026",
+        "temas": "Temas: Cliente / Hora / Margem",
+        "micro": "@zionaxs_ · ref d5accab1 · foto: JC Gellidon"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Abra 1 planilha e crie 3 colunas.",
+        "Cliente, minutos, motivo.",
+        "Crie a planilha hoje e comece a anotar amanhã de manhã. Em 2 semanas você troca a impressão de que aquele cliente dá trabalho por 1 número que sustenta a conversa. Medir sai de graça. Reajustar no escuro custa o cliente.",
+        "2026",
+        "Temas: Cliente / Hora / Margem",
+        "@zionaxs_ · ref d5accab1 · foto: JC Gellidon"
+      ],
+      "alt": "Slide 7 de 7. Abra 1 planilha e crie 3 colunas: cliente, minutos, motivo. Crie a planilha hoje e comece a anotar amanhã de manhã. Em 2 semanas você troca a impressão de que aquele cliente dá trabalho por 1 número que sustenta a conversa. Medir sai de graça e reajustar no escuro custa o cliente. Fotografia escura de uma luminária de mesa acesa em um escritório à noite, com a cidade iluminada desfocada ao fundo da janela.",
+      "photo": {
+        "src": "../assets/foto-luminaria.jpg",
+        "pos": "75% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}
