@@ -76,8 +76,12 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
 - Todo texto do chrome (ano, temas, microlinha) entra como slot de copy aprovada no contrato; etiquetas internas (`ZX-…`, `S1`) nunca aparecem na arte (G11).
 - O bloco de meta (ano + série + nº) e o corpo vivem na MESMA pilha ancorada embaixo (`.pstack`). Com o meta fixo em `top:40%` o corpo crescia por baixo e colidia quando a copy ficava mais longa — **nenhum gate mede sobreposição**, então isso é regra de construção, não de verificação.
 - Caixa alta só no tipo de display (`.pt1`/`.pt2`). Texto explicativo em caixa normal: parágrafo longo em caixa alta derruba a legibilidade e contraria a regra de copy didática.
-- Parágrafos explicativos aceitam quebra autoral (`
-`): é como se equilibra a última linha quando o G6 acusa órfã.
+- Parágrafos explicativos aceitam quebra autoral (`\n`), mas com uma condição que o texto anterior omitia e que custou uma
+  geração na zx-28: o G7 reprova quando o número de linhas renderizadas passa de `brs + 1`, **em qualquer tamanho de texto,
+  não só no display**. Ou seja, enfiar 1 quebra em um parágrafo longo para consertar uma órfã do G6 troca um gate vermelho
+  por outro. A quebra autoral só resolve quando **todas** as linhas do bloco são declaradas, o que na prática limita o
+  recurso a blocos curtos (manchete, apoio, `accent`). Em parágrafo de corpo que quebra sozinho em muitas linhas, a saída
+  para a órfã é **reescrever a frase final**, não quebrá-la.
 
 ## Como o padrão se sustenta sozinho
 
