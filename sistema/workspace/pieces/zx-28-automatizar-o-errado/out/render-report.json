@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-28-automatizar-o-errado",
+  "generatedAt": "2026-09-01T11:46:16+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-28-automatizar-o-errado-slide-01.png",
+    "zx-28-automatizar-o-errado-slide-02.png",
+    "zx-28-automatizar-o-errado-slide-03.png",
+    "zx-28-automatizar-o-errado-slide-04.png",
+    "zx-28-automatizar-o-errado-slide-05.png",
+    "zx-28-automatizar-o-errado-slide-06.png",
+    "zx-28-automatizar-o-errado-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Descoberta 01/07 Automatizar a tarefa errada só acelera. A pergunta vem antes da ferramenta. A ferramenta nova entrega em segundos o que levava a manhã inteira. Se aquela tarefa não precisava existir, o que você ganhou foi desperdício mais frequente, com aparência de progresso. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde · foto: Jakub Żerdzicki"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 O relatório sem leitor. Toda segunda alguém monta um relatório de 4 páginas e manda por e-mail. Ninguém responde, ninguém pergunta por ele quando atrasa. Agora a inteligência artificial monta o mesmo relatório em 1 minuto. Ele continua sem leitor, só que chega mais cedo. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde · foto: Camilo Rueda Lopez"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 96% conhecem a IA generativa. 15% usam com frequência. Os 2 números são da mesma pesquisa, do Sebrae com a FGV IBRE e o Google, feita em setembro de 2025 com cerca de 5 mil empresas, e valem para as micro e pequenas. Conhecer a ferramenta é o fácil. O que trava é achar uma tarefa que valha a pena repetir com ela toda semana. A divulgação não publica a definição de uso frequente, então esse número mostra a distância, e não a causa dela. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Eficiência não salva tarefa que não deveria existir. Peter Drucker, escritor austríaco que ajudou a transformar a gestão em disciplina, publicou em 1963, na Harvard Business Review, a ideia de que nada é tão inútil quanto fazer com grande eficiência aquilo que não deveria ser feito. A ferramenta responde com que velocidade a tarefa acontece. Ela não responde se a tarefa precisa acontecer. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 3 perguntas antes de automatizar. 01Se essa tarefa parasse hoje, quem sentiria falta? Se ninguém aparecer em 1 semana, elimine a tarefa. 02Se alguém sentir falta, o que essa pessoa decide com o resultado? Sem decisão associada, corte o que sobra e mantenha só o pedaço usado. 03O que passar pelas 2 perguntas vale automatizar. Aí a ferramenta multiplica algo que serve, e não o desperdício. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Tarefa chata não é tarefa inútil. Conferir e registrar têm dono. Conferência, registro e trilha de auditoria parecem desperdício e não são: existem para provar conformidade, guardar histórico ou proteger de risco. A pergunta continua a mesma, quem usa o resultado, e às vezes a resposta é o auditor, o cliente ou a lei. Vale lembrar também que os percentuais citados são declarados pelos respondentes, não medidos em sistema: eles mostram adoção, não resultado. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Escolha 1 tarefa e pergunte quem usa. Se a resposta demorar, achou o que eliminar. Pense na tarefa repetitiva que você automatizaria primeiro. Antes de contratar qualquer ferramenta, pergunte quem usa o resultado dela e o que essa pessoa decide com ele. Eliminar sai de graça e começa a valer hoje. Ferramenta cobra mensalidade e só compensa depois. Temas: Tarefa / Ferramenta / Decisão @zionaxs_ · ref a1ba7bde · foto: Sven Mieke"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.9,
+  "digest": "6216c677db884a17b6bff6dae45025e10b1d7ef9db926e8b503d132c6e4f4a16"
+}

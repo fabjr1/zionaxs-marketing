@@ -1,0 +1,328 @@
+{
+  "id": "zx-28-automatizar-o-errado",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Transversal / dono, sócio ou gestor que responde pela operação de serviços e está diante da decisão de automatizar uma tarefa repetitiva (M17, dor: automatizar o processo errado). Cena concreta: escritório de serviços, com leitura direta para contabilidade (V2), advocacia (V3) e clínica (V1). Slot editorial: manhã de dia útil, papel de descoberta, tensão atual e pauta encaminhável, entrando por um dado de adoção de inteligência artificial que acabou de ser publicado.",
+    "decisao": "Antes de escolher a ferramenta que vai automatizar uma tarefa, perguntar quem usa o resultado dela, e eliminar a tarefa quando a resposta não aparecer.",
+    "tensao": "A adoção de inteligência artificial em pequeno negócio brasileiro subiu rápido, e a pergunta sobre quais tarefas merecem existir não subiu junto. Como a ferramenta entrega resultado em segundos, a sensação de progresso chega antes de qualquer avaliação sobre a utilidade do que está sendo produzido. Automatizar uma tarefa que ninguém usa não corrige o desperdício: aumenta a frequência dele e ainda dá a ele aparência de modernização.",
+    "evidencia": [
+      {
+        "claim": "52% dos donos de pequenos negócios brasileiros declararam ter usado inteligência artificial em suas atividades nas 2 semanas anteriores, e 46% precisaram desenvolver novos fluxos de trabalho para incorporar essas ferramentas",
+        "status": "E",
+        "fonte": "Sebrae, Transformação Digital nos Pequenos Negócios 2026. Amostra de 7.182 MEIs, microempresas e empresas de pequeno porte, coleta entre 24 de março e 8 de maio de 2026. Registrado no ledger de fontes da Zionaxs Memory como [S39], nota 19a. Números conferidos ao vivo na página da Agência Sebrae nesta execução."
+      },
+      {
+        "claim": "96% das micro e pequenas empresas declararam familiaridade com plataformas de inteligência artificial generativa, enquanto 15% declararam uso frequente; entre médias e grandes a familiaridade foi de 99% e o uso frequente de 35%",
+        "status": "E",
+        "fonte": "Sebrae em parceria com a FGV IBRE e o Google, pesquisa com cerca de 5 mil empresas, setembro de 2025. Registrado no ledger da Zionaxs Memory como [S40], nota 19a. Números conferidos ao vivo na página da Agência Sebrae nesta execução."
+      },
+      {
+        "claim": "existe a ideia, de Peter Drucker, de que nada é tão inútil quanto fazer com grande eficiência aquilo que não deveria ser feito",
+        "status": "E",
+        "fonte": "Peter F. Drucker, escritor e professor austríaco. Frase publicada na Harvard Business Review em 1963, com origem verificada pelo Quote Investigator e registrada no ledger da Zionaxs Memory como [S30]; obra-base The Practice of Management, 1954, registrada como [S29]. É o repertório R1 da nota 19c. A peça usa paráfrase fiel em português, sem aspas e sem citação literal em inglês."
+      },
+      {
+        "claim": "o público quer saber em que ordem atacar, e quer saber o que deliberadamente não vai fazer, antes de contratar ferramenta",
+        "status": "I",
+        "fonte": "[19b] JTBD JO4, sobre a ordem entre padronizar e automatizar, e JT2, sobre decidir o que não fazer. Notas 19b e 19c lidas nesta execução, com a Zionaxs Memory clonada no checkout."
+      },
+      {
+        "claim": "a distância entre conhecer a ferramenta e usá-la toda semana se explica pela falta de uma tarefa que valha a pena automatizar, e não por falta de treinamento",
+        "status": "H",
+        "fonte": null
+      },
+      {
+        "claim": "as 3 perguntas que separam a tarefa que deve ser eliminada da tarefa que vale automatizar",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 52% de uso de inteligência artificial nas 2 semanas anteriores e os 46% que criaram novos fluxos de trabalho, do Sebrae 2026, citados com instituição, ano, tamanho de amostra e janela de coleta",
+        "os 96% de familiaridade e os 15% de uso frequente entre micro e pequenas empresas, do Sebrae com FGV IBRE e Google, setembro de 2025, citados com instituição, ano e tamanho de amostra",
+        "a ideia de Peter Drucker sobre eficiência aplicada ao que não deveria ser feito, publicada em 1963, citada com autor, veículo e ano, em paráfrase fiel"
+      ],
+      "I": [
+        "o desejo de saber em que ordem atacar e o que deliberadamente não fazer antes de contratar ferramenta"
+      ],
+      "H": [
+        "a explicação da distância entre conhecer e usar: raciocínio proposto pela Zionaxs, não resultado de pesquisa",
+        "as 3 perguntas e o corte por quem usa o resultado: método proposto, não prática comprovada"
+      ],
+      "NC": []
+    },
+    "limites": [
+      "Os 2 conjuntos de números vêm de pesquisas DIFERENTES, com universos, amostras e datas diferentes: o Sebrae 2026 ouviu 7.182 pequenos negócios entre março e maio de 2026, e o levantamento do Sebrae com FGV IBRE e Google ouviu cerca de 5 mil empresas em setembro de 2025. A peça não soma, não subtrai e não cruza os percentuais, e diz na legenda que cada pesquisa mostra um pedaço.",
+      "O indicador de 52% mede uso declarado nas 2 semanas anteriores à entrevista. Janela curta e definição ampla não medem uso corporativo integrado nem recorrente, e a peça não afirma que se trata de rotina.",
+      "A divulgação da pesquisa de setembro de 2025 não expõe integralmente o questionário, a amostragem nem a definição de uso frequente. A peça declara esse limite no slide 3 e na legenda.",
+      "Os percentuais são declarados pelos respondentes, não medidos em sistema. Declaração de uso não prova resultado, produtividade nem integração.",
+      "Peter Drucker escreveu sobre eficiência gerencial em geral, não sobre inteligência artificial, que não existia como ferramenta de escritório em 1963. A transposição para a decisão de automatizar é da Zionaxs e está declarada.",
+      "A peça não cita nenhum trecho literal em inglês: a ideia de Drucker entra como paráfrase fiel em português, sem aspas, com autor, veículo e ano.",
+      "O exemplo do relatório de 4 páginas montado toda segunda e sem resposta é ilustrativo, construído para a peça, e não dado de pesquisa.",
+      "As 3 perguntas são método proposto pela Zionaxs, não prática comprovada por pesquisa.",
+      "Eliminar nem sempre é a resposta: tarefa que existe para provar conformidade, guardar histórico ou proteger de risco tem usuário legítimo, e a peça declara isso no slide 6 para não virar convite a cortar controle."
+    ],
+    "consequencia": "O leitor sai com um teste de 3 perguntas que cabe em 1 conversa para separar a tarefa que deve morrer da tarefa que vale automatizar, e com a ação de escolher hoje a tarefa que ele automatizaria primeiro e perguntar quem usa o resultado dela."
+  },
+  "tese": "Automatizar a tarefa errada não corrige o desperdício: aumenta a frequência dele e ainda dá a ele aparência de progresso. Antes de escolher a ferramenta, a pergunta é quem usa o resultado daquela tarefa, e a tarefa sem usuário deve ser eliminada, não acelerada.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M17",
+  "jtbd": [
+    "JO4",
+    "JT2"
+  ],
+  "repertorio": {
+    "id": "R1",
+    "autor": "Peter F. Drucker",
+    "modo": "paráfrase fiel em português, sem aspas, introduzida como ideia do autor, com veículo e ano citados; na peça o autor é apresentado ao leitor como o escritor austríaco que ajudou a transformar a gestão em disciplina",
+    "fonte": "Frase publicada na Harvard Business Review em 1963, origem verificada pelo Quote Investigator [S30]; obra-base The Practice of Management, 1954 [S29]",
+    "nota": "R1 é o repertório que a linha M17 da matriz editorial associa a este tema, na nota 19c. A tensão declarada lá, fazer certo contra fazer a coisa certa, é a mesma que a peça usa. A nota 19c §12.1 permite paráfrase sem aspas, e o padrão de copy da marca proíbe citação literal em inglês, então a frase entra parafraseada."
+  },
+  "cta": "Escolher hoje a tarefa repetitiva que você automatizaria primeiro e perguntar quem usa o resultado dela, eliminando a tarefa se a resposta não aparecer.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela afirmação de que automatizar o errado só acelera, reconhecer a cena do relatório que ninguém lê, receber a evidência que separa conhecer de usar toda semana, virar para a razão de a eficiência não salvar tarefa inútil, aprender as 3 perguntas que decidem entre eliminar e automatizar, ouvir o limite que impede a ideia de virar corte de controle e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-28",
+    "M17",
+    "JO4",
+    "JT2",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Even Keel",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra para competir com a leitura, que nesta peça carrega 4 percentuais de pesquisa e uma lista de 3 perguntas. Andamento constante do começo ao fim, sem virada dramática, porque cada leitor passa o carrossel no próprio ritmo e ninguém está sincronizado com a música. Textura limpa e groove regular, que é o critério que passou a valer depois da correção de 30/08/2026, quando a marca deixou de escolher faixa por familiaridade. Origem licenciada para conta de negócio: a Meta Sound Collection cobre uso comercial no Instagram e no Facebook.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia. Nesta peça, evitar também trilha de tensão tecnológica, que empurraria o tema de inteligência artificial para o tom de alarme.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e a zx-27 pediu perfil parecido com este."
+  },
+  "caption": [
+    "Tem uma tarefa no seu escritório que alguém faz toda semana e ninguém usa o resultado. Um relatório de 4 páginas, montado na segunda, enviado por e-mail, sem 1 resposta. A pergunta que quase ninguém faz é se aquele relatório precisa existir.",
+    "Agora a inteligência artificial monta o mesmo relatório em 1 minuto. Ele continua sem leitor, só que chega mais cedo e com cara de progresso.",
+    "A adoção é real. Em pesquisa do Sebrae com 7.182 pequenos negócios, feita entre 24 de março e 8 de maio de 2026, 52% dos donos disseram ter usado IA nas 2 semanas anteriores, e 46% precisaram criar novos fluxos de trabalho para encaixar a ferramenta.",
+    "Só que conhecer não é usar. Em outra pesquisa, do Sebrae com a FGV IBRE e o Google, feita em setembro de 2025 com cerca de 5 mil empresas, 96% das micro e pequenas empresas conheciam plataformas de IA generativa e 15% usavam com frequência. São 2 pesquisas diferentes, com universos e datas diferentes, então os números não se somam: cada um mostra um pedaço.",
+    "Peter Drucker, escritor austríaco que ajudou a transformar a gestão em disciplina, publicou em 1963, na Harvard Business Review, a ideia de que nada é tão inútil quanto fazer com grande eficiência aquilo que não deveria ser feito. Eficiência não salva tarefa que não deveria existir.",
+    "O teste tem 3 perguntas. Se essa tarefa parasse hoje, quem sentiria falta? Se alguém sentir, o que essa pessoa decide com o resultado? Só o que passar pelas 2 perguntas vale automatizar.",
+    "Um cuidado: tarefa chata não é sempre tarefa inútil. Conferência, registro e trilha de auditoria existem para provar conformidade ou proteger de risco, e às vezes quem usa o resultado é o auditor, o cliente ou a lei.",
+    "Comece hoje: escolha a tarefa repetitiva que você automatizaria primeiro e pergunte quem usa o resultado dela. Se a resposta demorar, você achou o que eliminar, e eliminar é mais barato que qualquer ferramenta."
+  ],
+  "caption_sources": [
+    "Fonte dos 52% e dos 46%: Sebrae, Transformação Digital nos Pequenos Negócios 2026. Amostra de 7.182 MEIs, microempresas e empresas de pequeno porte, coleta entre 24 de março e 8 de maio de 2026. O indicador mede uso declarado nas 2 semanas anteriores à entrevista, janela curta que não comprova rotina nem uso integrado.",
+    "Fonte dos 96% e dos 15%: Sebrae em parceria com a FGV IBRE e o Google, cerca de 5 mil empresas, setembro de 2025. Entre médias e grandes, a familiaridade foi de 99% e o uso frequente de 35%. A divulgação não expõe integralmente o questionário, a amostragem nem a definição de uso frequente.",
+    "As 2 pesquisas têm universos, amostras e datas diferentes. Os percentuais não se somam nem se cruzam, e a peça não os apresenta como série histórica.",
+    "Os percentuais são declarados pelos respondentes, não medidos em sistema. Declaração de uso não prova resultado, produtividade nem integração.",
+    "Referência de gestão: Peter F. Drucker, frase sobre eficiência publicada na Harvard Business Review em 1963, com origem verificada pelo Quote Investigator; obra-base The Practice of Management, 1954. A legenda traz paráfrase fiel em português, sem aspas e sem citação literal em inglês.",
+    "Drucker escreveu sobre eficiência gerencial em geral, não sobre inteligência artificial, que não existia como ferramenta de escritório em 1963. A transposição para a decisão de automatizar é da Zionaxs e está declarada como tal.",
+    "O exemplo do relatório de 4 páginas montado toda segunda e sem resposta é ilustrativo, construído para a peça, e não dado de pesquisa.",
+    "As 3 perguntas e o corte por quem usa o resultado são método proposto pela Zionaxs, não prática comprovada por pesquisa.",
+    "Fotos: Jakub Żerdzicki, Camilo Rueda Lopez e Sven Mieke, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Descoberta",
+      "copy": {
+        "title": "Automatizar\na tarefa errada\nsó acelera.",
+        "accentLine": "A pergunta vem antes da ferramenta.",
+        "hl": "antes da ferramenta.",
+        "sub": "A ferramenta nova entrega em segundos o que levava a manhã inteira. Se aquela tarefa não precisava existir, o que você ganhou foi desperdício mais frequente, com aparência de progresso.",
+        "year": "2026",
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde · foto: Jakub Żerdzicki"
+      },
+      "approved_visible_copy": [
+        "Descoberta",
+        "01/07",
+        "Automatizar a tarefa errada só acelera.",
+        "A pergunta vem antes da ferramenta.",
+        "A ferramenta nova entrega em segundos o que levava a manhã inteira. Se aquela tarefa não precisava existir, o que você ganhou foi desperdício mais frequente, com aparência de progresso.",
+        "2026",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde · foto: Jakub Żerdzicki"
+      ],
+      "alt": "Slide 1 de 7. Automatizar a tarefa errada só acelera, e a pergunta vem antes da ferramenta. A ferramenta nova entrega em segundos o que levava a manhã inteira, mas se aquela tarefa não precisava existir, o que se ganhou foi desperdício mais frequente, com aparência de progresso. Fotografia escura de uma impressora de escritório com a tampa aberta, mostrando o carro de cartuchos, em uma sala com pouca luz.",
+      "photo": {
+        "src": "../assets/foto-impressora.jpg",
+        "pos": "40% 50%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "O relatório\nsem leitor."
+        ],
+        "closing": "Toda segunda alguém monta um relatório de 4 páginas e manda por e-mail. Ninguém responde, ninguém pergunta por ele quando atrasa. Agora a inteligência artificial monta o mesmo relatório em 1 minuto. Ele continua sem leitor, só que chega mais cedo.",
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde · foto: Camilo Rueda Lopez"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "O relatório sem leitor.",
+        "Toda segunda alguém monta um relatório de 4 páginas e manda por e-mail. Ninguém responde, ninguém pergunta por ele quando atrasa. Agora a inteligência artificial monta o mesmo relatório em 1 minuto. Ele continua sem leitor, só que chega mais cedo.",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde · foto: Camilo Rueda Lopez"
+      ],
+      "alt": "Slide 2 de 7. O relatório sem leitor. Toda segunda alguém monta um relatório de 4 páginas e manda por e-mail, ninguém responde e ninguém pergunta por ele quando atrasa; agora a inteligência artificial monta o mesmo relatório em 1 minuto e ele continua sem leitor, só que chega mais cedo. Papel claro com fotografia em preto e branco de uma pilha alta de documentos e papéis empilhados sem ordem.",
+      "photo": {
+        "src": "../assets/foto-papelada.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "96% conhecem\na IA generativa.",
+          "15% usam\ncom frequência."
+        ],
+        "closing": "Os 2 números são da mesma pesquisa, do Sebrae com a FGV IBRE e o Google, feita em setembro de 2025 com cerca de 5 mil empresas, e valem para as micro e pequenas. Conhecer a ferramenta é o fácil. O que trava é achar uma tarefa que valha a pena repetir com ela toda semana. A divulgação não publica a definição de uso frequente, então esse número mostra a distância, e não a causa dela.",
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "96% conhecem a IA generativa.",
+        "15% usam com frequência.",
+        "Os 2 números são da mesma pesquisa, do Sebrae com a FGV IBRE e o Google, feita em setembro de 2025 com cerca de 5 mil empresas, e valem para as micro e pequenas. Conhecer a ferramenta é o fácil. O que trava é achar uma tarefa que valha a pena repetir com ela toda semana. A divulgação não publica a definição de uso frequente, então esse número mostra a distância, e não a causa dela.",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde"
+      ],
+      "alt": "Slide 3 de 7. 96% das micro e pequenas empresas conhecem a inteligência artificial generativa e 15% usam com frequência. Os 2 números são da mesma pesquisa, do Sebrae com a FGV IBRE e o Google, feita em setembro de 2025 com cerca de 5 mil empresas. Conhecer a ferramenta é o fácil, e o que trava é achar uma tarefa que valha a pena repetir com ela toda semana. A divulgação não publica a definição de uso frequente, então esse número mostra a distância, e não a causa dela."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Eficiência não salva",
+        "accent": "tarefa que não\ndeveria existir.",
+        "hl": "existir.",
+        "ghost": "15",
+        "year": "2026",
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde",
+        "body": "Peter Drucker, escritor austríaco que ajudou a transformar a gestão em disciplina, publicou em 1963, na Harvard Business Review, a ideia de que nada é tão inútil quanto fazer com grande eficiência aquilo que não deveria ser feito. A ferramenta responde com que velocidade a tarefa acontece. Ela não responde se a tarefa precisa acontecer."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Eficiência não salva",
+        "tarefa que não deveria existir.",
+        "2026",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde",
+        "Peter Drucker, escritor austríaco que ajudou a transformar a gestão em disciplina, publicou em 1963, na Harvard Business Review, a ideia de que nada é tão inútil quanto fazer com grande eficiência aquilo que não deveria ser feito. A ferramenta responde com que velocidade a tarefa acontece. Ela não responde se a tarefa precisa acontecer."
+      ],
+      "alt": "Slide 4 de 7. Eficiência não salva tarefa que não deveria existir. Peter Drucker, escritor austríaco que ajudou a transformar a gestão em disciplina, publicou em 1963, na Harvard Business Review, a ideia de que nada é tão inútil quanto fazer com grande eficiência aquilo que não deveria ser feito. A ferramenta responde com que velocidade a tarefa acontece, mas não responde se a tarefa precisa acontecer. Campo laranja chapado com o número 15 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "3 perguntas antes\nde automatizar.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Se essa tarefa parasse hoje, quem sentiria falta? Se ninguém aparecer em 1 semana, elimine a tarefa."
+          },
+          {
+            "num": "02",
+            "label": "Se alguém sentir falta, o que essa pessoa decide com o resultado? Sem decisão associada, corte o que sobra e mantenha só o pedaço usado."
+          },
+          {
+            "num": "03",
+            "label": "O que passar pelas 2 perguntas vale automatizar. Aí a ferramenta multiplica algo que serve, e não o desperdício."
+          }
+        ],
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "3 perguntas antes de automatizar.",
+        "01",
+        "Se essa tarefa parasse hoje, quem sentiria falta? Se ninguém aparecer em 1 semana, elimine a tarefa.",
+        "02",
+        "Se alguém sentir falta, o que essa pessoa decide com o resultado? Sem decisão associada, corte o que sobra e mantenha só o pedaço usado.",
+        "03",
+        "O que passar pelas 2 perguntas vale automatizar. Aí a ferramenta multiplica algo que serve, e não o desperdício.",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde"
+      ],
+      "alt": "Slide 5 de 7. São 3 perguntas antes de automatizar. Primeiro, se essa tarefa parasse hoje, quem sentiria falta? Se ninguém aparecer em 1 semana, elimine a tarefa. Segundo, se alguém sentir falta, o que essa pessoa decide com o resultado? Sem decisão associada, corte o que sobra e mantenha só o pedaço usado. Terceiro, o que passar pelas 2 perguntas vale automatizar, e aí a ferramenta multiplica algo que serve. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Tarefa chata não é\ntarefa inútil.",
+        "accent": "Conferir e registrar\ntêm dono.",
+        "body": "Conferência, registro e trilha de auditoria parecem desperdício e não são: existem para provar conformidade, guardar histórico ou proteger de risco. A pergunta continua a mesma, quem usa o resultado, e às vezes a resposta é o auditor, o cliente ou a lei. Vale lembrar também que os percentuais citados são declarados pelos respondentes, não medidos em sistema: eles mostram adoção, não resultado.",
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Tarefa chata não é tarefa inútil.",
+        "Conferir e registrar têm dono.",
+        "Conferência, registro e trilha de auditoria parecem desperdício e não são: existem para provar conformidade, guardar histórico ou proteger de risco. A pergunta continua a mesma, quem usa o resultado, e às vezes a resposta é o auditor, o cliente ou a lei. Vale lembrar também que os percentuais citados são declarados pelos respondentes, não medidos em sistema: eles mostram adoção, não resultado.",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde"
+      ],
+      "alt": "Slide 6 de 7. Tarefa chata não é tarefa inútil, e conferir e registrar têm dono. Conferência, registro e trilha de auditoria parecem desperdício e não são: existem para provar conformidade, guardar histórico ou proteger de risco, e a pergunta continua a mesma, quem usa o resultado, com resposta que às vezes é o auditor, o cliente ou a lei. Os percentuais citados são declarados pelos respondentes, não medidos em sistema, então mostram adoção e não resultado."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escolha 1 tarefa\ne pergunte quem usa.",
+        "hl": "1 tarefa",
+        "accent": "Se a resposta demorar, achou o que eliminar.",
+        "body": "Pense na tarefa repetitiva que você automatizaria primeiro. Antes de contratar qualquer ferramenta, pergunte quem usa o resultado dela e o que essa pessoa decide com ele. Eliminar sai de graça e começa a valer hoje. Ferramenta cobra mensalidade e só compensa depois.",
+        "year": "2026",
+        "temas": "Temas: Tarefa / Ferramenta / Decisão",
+        "micro": "@zionaxs_ · ref a1ba7bde · foto: Sven Mieke"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escolha 1 tarefa e pergunte quem usa.",
+        "Se a resposta demorar, achou o que eliminar.",
+        "Pense na tarefa repetitiva que você automatizaria primeiro. Antes de contratar qualquer ferramenta, pergunte quem usa o resultado dela e o que essa pessoa decide com ele. Eliminar sai de graça e começa a valer hoje. Ferramenta cobra mensalidade e só compensa depois.",
+        "2026",
+        "Temas: Tarefa / Ferramenta / Decisão",
+        "@zionaxs_ · ref a1ba7bde · foto: Sven Mieke"
+      ],
+      "alt": "Slide 7 de 7. Escolha 1 tarefa e pergunte quem usa, porque se a resposta demorar você achou o que eliminar. Pense na tarefa repetitiva que você automatizaria primeiro e, antes de contratar qualquer ferramenta, pergunte quem usa o resultado dela e o que essa pessoa decide com ele. Eliminar sai de graça e começa a valer hoje, enquanto ferramenta cobra mensalidade e só compensa depois. Fotografia escura de um caderno preto fechado, com elástico vermelho, ao lado de uma caneta sobre a mesa.",
+      "photo": {
+        "src": "../assets/foto-caderno-caneta.jpg",
+        "pos": "50% 50%"
+      }
+    }
+  ]
+}

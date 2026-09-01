@@ -1,0 +1,165 @@
+decisao: aprovar e publicar a zx-28, slot da manhã de dia útil
+data: 2026-09-01
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca, então a autorização se aplica.
+  registro_anterior: pieces/zx-27-digitado-duas-vezes/decisions/aprovacao-2026-08-31.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, terça-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede descoberta e tensão atual, então a peça entra por um
+    contraste de pesquisa recente sobre adoção de inteligência artificial e sai
+    com uma pauta encaminhável: 3 perguntas que cabem em 1 conversa. A grade
+    semanal da nota 30 reserva a manhã de terça para "IA aplicada a um processo
+    real", que é exatamente o recorte usado. A peça anterior, zx-27, era o slot
+    principal da tarde e entrava por um número de conectividade; esta entra por
+    um número de adoção e vira para a pergunta anterior à ferramenta.
+
+tema:
+  escolhido: automatizar a tarefa errada só acelera o desperdício, e a pergunta é quem usa o resultado
+  matriz: M17
+  por_que: >
+    Linha M17 da matriz editorial, "automatizar o processo errado", nunca usada.
+    As 8 peças anteriores ocupam M11 (zx-20), M19 (zx-21 e zx-22), M18 (zx-23,
+    zx-24 e zx-25), M20 (zx-27) e a zx-26, que saiu sem matriz declarada por
+    ausência da Memory no checkout daquela execução. A M17 é a única linha da
+    matriz que trata de eliminar antes de automatizar, e é o par natural do
+    tema de IA que a grade pede para a manhã de terça.
+  distancia_da_peca_anterior: >
+    A zx-27 tratou de ferramenta instalada contra processo mudado, com o teste
+    do dado digitado 2 vezes. Esta trata da pergunta anterior: se a tarefa
+    deveria existir. São vizinhas de assunto e distintas de lição, e o dado é de
+    outra pesquisa, outro instituto e outro ano, o que evita repetir repertório
+    e evidência.
+  desejo_primeiro: >
+    A dica prática são as 3 perguntas que separam a tarefa que deve morrer da
+    tarefa que vale automatizar, e ela não depende de comprar nada. Os
+    percentuais do Sebrae entram como tempero dentro da dica, no slide 3, e não
+    como o post inteiro.
+  jtbd:
+    - JO4 (quero saber em que ordem atacar: padronizar antes de automatizar, ou o contrário)
+    - JT2 (quero saber o que deliberadamente não vamos fazer)
+  repertorio: R1 (Peter F. Drucker), que é o repertório que a própria linha M17 associa ao tema na nota 19c
+
+memory:
+  estado: >
+    A Zionaxs Memory NÃO estava no checkout no início da sessão, como nas
+    execuções anteriores em nuvem. Foi anexada com add_repo e clonada em
+    /home/user/zionaxs-memory antes de qualquer decisão editorial.
+  consequencia: >
+    Os códigos editoriais desta peça foram lidos nas notas canônicas, não
+    copiados da peça anterior: M17 na nota 19c (§13.1 e §13.2), JO4 e JT2 na
+    nota 19b (§8), R1 na nota 19c (§12.2) e as fontes [S39], [S40], [S30] e
+    [S29] no ledger da nota 19a.
+
+evidencia_e_limites:
+  - >
+      Os 2 percentuais do slide 3 são E e vêm da MESMA pesquisa, para não
+      cruzar universos: Sebrae com FGV IBRE e Google, cerca de 5 mil empresas,
+      setembro de 2025, familiaridade de 96% contra uso frequente de 15% entre
+      micro e pequenas [S40]. A fonte está visível na própria peça, não só na
+      legenda.
+  - >
+      Os 52% de uso nas 2 semanas anteriores e os 46% que criaram novos fluxos
+      de trabalho, do Sebrae 2026 com 7.182 negócios [S39], ficaram FORA dos
+      slides e entraram só na legenda, justamente porque são de outra pesquisa,
+      outro universo e outra data. Encostar os 2 conjuntos lado a lado no mesmo
+      slide seria transportar dado entre universos, o que a nota 19c proíbe no
+      gate de evidência (§21.2).
+  - >
+      Os 2 limites que mais podem enganar o leitor estão declarados dentro da
+      peça, no slide 3 e no slide 6, e não apenas na legenda: a divulgação não
+      publica a definição de uso frequente, e os percentuais são declarados
+      pelos respondentes, não medidos em sistema.
+  - >
+      Drucker entra como paráfrase fiel em português, sem aspas, com autor,
+      veículo e ano, como manda o padrão de copy da marca e a regra 12.1 da nota
+      19c. Não há citação literal em inglês. A transposição da ideia de 1963
+      para a decisão de automatizar com IA é da Zionaxs e está declarada nos
+      limites do contrato.
+  - >
+      O slide 6 existe para impedir que a peça vire convite a cortar controle:
+      conferência, registro e trilha de auditoria têm usuário legítimo, e às
+      vezes o usuário é o auditor, o cliente ou a lei.
+
+verificacao_das_fontes:
+  metodo: >
+    As 2 páginas da Agência Sebrae foram buscadas ao vivo nesta execução, e os
+    números conferiram com o ledger da nota 19a em todos os campos usados:
+    52%, 46%, 7.182 negócios, coleta de 24 de março a 8 de maio de 2026; e 96%,
+    15%, 99%, 35%, cerca de 5 mil empresas, setembro de 2025.
+
+gates:
+  resultado: 14/14 verdes
+  digest: 6216c677db884a17
+  observacao: >
+    A primeira geração saiu 12/14, com G6 (runt) e G7 (quebra não autoral)
+    vermelhos. As correções foram todas no CONTRATO, nenhuma no pixel.
+
+correcoes_de_gate:
+  - gate: G6
+    achado: >
+      Slide 2: a manchete em 3 linhas deixava "lê." sozinho na última linha, com
+      17% da largura da linha mais larga, abaixo do corte de 18% do gate.
+    correcao: manchete reescrita para 2 linhas.
+  - gate: G6
+    achado: >
+      Slide 3: o parágrafo de fechamento terminava com "causa." sozinho, com 12%
+      da largura. Quebra autoral não serve aqui: em parágrafo de corpo, um \n
+      faria o G7 reprovar, porque o número de linhas passaria a ser maior que o
+      número de quebras declaradas mais 1. A saída é reescrever, não quebrar.
+    correcao: fim do parágrafo reescrito para "esse número mostra a distância, e não a causa dela".
+  - gate: G7
+    achado: >
+      Slide 4: "tarefa que não deveria existir." é texto de display e quebrava
+      em 2 linhas sem quebra autoral declarada.
+    correcao: quebra explícita inserida entre "não" e "deveria".
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Slide 2: com a manchete em 2 linhas, "O relatório sem leitor" ainda
+      atravessava o anel laranja e a moldura da foto. Gate nenhum mede
+      sobreposição de geometria com texto, então isso só aparece olhando o PNG.
+      Foi medido no DOM com Playwright, comparando o retângulo de cada texto
+      contra o anel do layout: o texto cruzava a faixa do anel.
+    correcao: >
+      Manchete encurtada de "O relatório que ninguém lê." para "O relatório sem
+      leitor.", com as 2 linhas parando antes da coluna da foto. A medição foi
+      refeita depois da correção e nenhum texto cruza mais o anel. A frase longa
+      não se perdeu: ela abre o parágrafo de fechamento do mesmo slide.
+  - achado: >
+      Candidatas de foto com texto legível em inglês foram descartadas antes de
+      gerar, seguindo o caso 2 da seção de enquadramento da direção visual, que
+      nasceu na zx-23. Uma prancheta de cardápio trazia frases inteiras em
+      inglês e um caderno trazia "DAYDREAMS No 03" na capa: texto legível na
+      foto entra na peça como afirmação, e nenhum dos 2 diz o que a peça diz.
+    correcao: >
+      Foram escolhidas 3 fotos sem texto legível: impressora de escritório com a
+      tampa aberta (Jakub Żerdzicki) na capa, pilha de papelada (Camilo Rueda
+      Lopez) na cena e caderno fechado com caneta (Sven Mieke) no fechamento.
+  - achado: >
+      As 3 fotos foram conferidas contra o caso 1 da mesma seção, o objeto claro
+      na banda de texto de 46% a 93%. A capa e o fechamento têm a metade de
+      baixo escura e quieta, e a manchete em creme se lê inteira nos 2.
+    correcao: nenhuma necessária.
+
+trilha:
+  campo: trilha_sugerida
+  origem: Meta Sound Collection
+  pendencia: >
+    O índice da coleção de trilhas vive fora do repositório e a variável de
+    ambiente está vazia nesta sessão em nuvem, então o nome da faixa é uma
+    indicação de perfil, não uma faixa confirmada no acervo. Groove in Bloom, a
+    única verificada, já foi sugerida na zx-25 e na zx-26 e não se repete aqui
+    de propósito. A escolha final é do Fabiano, no app, entre as instrumentais
+    de andamento constante da Meta Sound Collection.
