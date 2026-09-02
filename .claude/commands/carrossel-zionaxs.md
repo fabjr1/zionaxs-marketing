@@ -77,10 +77,11 @@ Registre a aprovação e a autorização permanente em `decisions/`, depois publ
 1. **Verifique a identidade da conta ao vivo** com `INSTAGRAM_GET_USER_INFO`. Há duas contas conectadas e só `zionaxs_` (id `37965311306447572`, account `instagram_ascent-utick`) é a certa. Conta divergente aborta tudo.
 2. Converta os PNG em JPEG, commite e empurre, e **confirme que a URL pública responde 200** antes de entregá-la à Meta.
 3. Crie um contêiner filho por slide com `is_carousel_item` e `alt_text`.
-4. Crie o carrossel pai com a legenda, **sem `share_to_feed`** (inválido para carrossel).
-5. Publique e, se der erro de transporte, **reconcilie antes de repetir**: verifique se o post saiu, para não duplicar.
-6. **Reconcilie sempre**: `INSTAGRAM_GET_IG_MEDIA` e `INSTAGRAM_GET_IG_MEDIA_CHILDREN` confirmando conta, permalink, tipo e número de slides.
-7. Grave `publication/published.json` com postId, permalink, digest, contêineres, URLs e a reconciliação.
+4. Crie o carrossel pai com a legenda, **sem `share_to_feed`** (inválido para carrossel). Confira o status dele com `INSTAGRAM_GET_POST_STATUS` antes de mandar publicar.
+5. **Pai em `ERROR` significa recriar os filhos.** Aprendido na zx-30, 02/09/2026: contêiner filho já referenciado por um pai **não se reaproveita**, mesmo continuando a reportar `FINISHED` e mesmo que o pai tenha falhado. O `FINISHED` do filho descreve o processamento da imagem, não a disponibilidade dele para virar slide. Trocar de rota de criação do pai não resolve, e insistir no mesmo par pai novo com filhos velhos repete o `ERROR` indefinidamente, sem nenhuma mensagem que aponte a causa. A receita é: reconcilie, recrie os 7 filhos do zero e só então crie o próximo pai.
+6. Publique e, se der erro de transporte, **reconcilie antes de repetir**: verifique se o post saiu, para não duplicar. A reconciliação vale para falha de pai tanto quanto para falha de transporte.
+7. **Reconcilie sempre**: `INSTAGRAM_GET_IG_MEDIA` e `INSTAGRAM_GET_IG_MEDIA_CHILDREN` confirmando conta, permalink, tipo e número de slides.
+8. Grave `publication/published.json` com postId, permalink, digest, contêineres, URLs e a reconciliação.
 
 ## 9. Entregue o resultado com a música em destaque
 

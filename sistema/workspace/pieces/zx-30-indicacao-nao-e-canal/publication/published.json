@@ -1,0 +1,74 @@
+{
+  "postId": "18138461821596402",
+  "permalink": "https://www.instagram.com/p/DcyLSG_G0Qa/",
+  "shortcode": "DcyLSG_G0Qa",
+  "publishedAt": "2026-09-02T11:54:40+0000",
+  "publishedAtFortaleza": "02/09/2026, 08:54:40",
+  "slot": "08:30 BRT, dia util, papel de descoberta, tensao atual, curiosidade ou pauta encaminhavel",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906708064501214",
+  "childContainers": [
+    "17906707935501214",
+    "17906707932501214",
+    "17906707938501214",
+    "17906707929501214",
+    "17906708007501214",
+    "17906708004501214",
+    "17906708001501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-30-indicacao-nao-e-canal/out/jpg/zx-30-indicacao-nao-e-canal-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18201381538331492",
+    "18223523347332248",
+    "18051696005799731",
+    "18172043311451898",
+    "17964117684173095",
+    "18052239764578402",
+    "17879186229687112"
+  ],
+  "digest": "d32fb1f55ef3674ae774f654ac7a261125aae8a404365eff6696bc8bc88a0227",
+  "commit": "34204a5",
+  "reconciledAt": "2026-09-02T11:56:00+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 1655 caracteres, abaixo do teto de 2200",
+    "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 1 unico post em 02/09/2026; o anterior e a zx-29 de 01/09/2026"
+  },
+  "incidente": {
+    "o_que": "O contêiner PAI entrou em status ERROR em 3 tentativas seguidas antes de funcionar, com os 7 filhos sempre em FINISHED.",
+    "sequencia": [
+      "Filhos 1a leva (17906707398501214 e outros 6): todos FINISHED.",
+      "Pai 1 (17906707554501214) via INSTAGRAM_CREATE_CAROUSEL_CONTAINER: ERROR na publicacao.",
+      "Reconciliacao antes de repetir: INSTAGRAM_GET_IG_USER_MEDIA confirmou que nada tinha sido publicado, e a cota estava em 2 de 100.",
+      "Pai 2 (17906707677501214), mesma rota e mesmos filhos: ERROR.",
+      "Pai 3 (17906707728501214) via INSTAGRAM_POST_IG_USER_MEDIA com media_type CAROUSEL, mesmos filhos: ERROR.",
+      "Filhos 2a leva, recriados do zero (17906707935501214 e outros 6): todos FINISHED.",
+      "Pai 4 (17906708064501214) com os filhos novos: FINISHED, publicado sem erro."
+    ],
+    "licao": "Contêiner filho que ja foi referenciado por um pai NAO se reaproveita, mesmo continuando em FINISHED e mesmo que o pai tenha falhado. Depois de um pai em ERROR, recrie os 7 filhos antes de tentar de novo, senao a falha se repete indefinidamente. A causa da falha do PRIMEIRO pai nao foi identificada: os filhos eram novos, a cota estava livre, nenhum share_to_feed foi enviado e a legenda cabia no teto. Trocar de rota de criacao nao resolve; recriar os filhos resolve.",
+    "duplicacao": "nenhuma. A reconciliacao foi feita antes de cada repeticao, conforme a regra do comando."
+  },
+  "trilha": {
+    "campo": "trilha_sugerida",
+    "origem": "Meta Sound Collection",
+    "estado": "PENDENTE: a musica e adicionada a mao pelo Fabiano, editando o post no app. A API nao escolhe faixa em carrossel."
+  }
+}
