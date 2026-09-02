@@ -1,0 +1,322 @@
+{
+  "id": "zx-30-indicacao-nao-e-canal",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário V2, escritórios contábeis, persona C1, sócio-operador que decide preço, entrega e captação (M12, dor: aquisição só por indicação). Secundário V3, persona A1, advogado-gestor solo, e qualquer prestador de serviço profissional cuja carteira cresce por boca a boca. Cena concreta: cliente satisfeito que promete apresentar o escritório para um conhecido e nunca apresenta, porque não sabe descrever o serviço. Slot editorial: manhã de dia útil, papel de descoberta e pauta encaminhável, com 1 ação que cabe antes do almoço.",
+    "decisao": "Antes de contratar agência, abrir perfil novo ou investir em anúncio, escrever 1 frase de cerca de 12 palavras que diga para quem o escritório trabalha, qual problema resolve e o que muda depois, testá-la com 3 clientes atuais e devolvê-la corrigida para eles repassarem.",
+    "tensao": "Quase todo escritório de serviços diz que cresce por indicação, e trata isso como canal. Não é. Canal é caminho que a casa controla e consegue repetir; indicação depende de alguém lembrar do escritório exatamente na hora em que outra pessoa pede ajuda, e depende sobretudo de essa pessoa ter o que dizer. Como a maioria se descreve pela profissão, e não pelo problema que resolve, o cliente satisfeito fica sem frase para repetir e a indicação morre na intenção. O resultado é uma entrada de clientes que ninguém controla e que ninguém consegue prever, chamada de canal só porque não existe outro.",
+    "evidencia": [
+      {
+        "claim": "47% dos escritórios contábeis pesquisados declararam não usar ferramentas de marketing digital para captar clientes",
+        "status": "E",
+        "fonte": "Pesquisa de Preços e Serviços Praticados pelas Empresas Contábeis do Estado de São Paulo, Sescon-SP com o Instituto Vox Populi, coleta on-line em junho de 2024, 255 associados respondentes, margem de erro de 5,9%. Registrada no ledger de fontes da Zionaxs Memory como [S21], notas 19a e 19b. Percentual conferido ao vivo nesta execução na cobertura do portal Contábeis e no blog da Makrosystem sobre o mesmo estudo."
+      },
+      {
+        "claim": "78% dos escritórios contábeis pesquisados declararam não atuar com nicho de mercado específico",
+        "status": "E",
+        "fonte": "Mesma pesquisa Sescon-SP e Vox Populi, junho de 2024 [S21]. Percentual conferido ao vivo nesta execução nas 2 coberturas citadas acima, que também registram os 22% que declaram foco em nicho, com exemplos de clínicas médicas, escolas e postos de gasolina."
+      },
+      {
+        "claim": "o público quer decidir entre generalista e nicho com dados da própria carteira, e não com dogma de mercado, e quer sentir que está construindo um negócio em vez de sobreviver a uma agenda",
+        "status": "I",
+        "fonte": "[19b] JTBD JT1, sobre decidir generalista ou nicho com dados próprios, e JE1 a JE4, sobre a percepção de estar construindo um negócio. Notas 19b e 19c lidas nesta execução, com a Zionaxs Memory clonada no checkout."
+      },
+      {
+        "claim": "a nota 19b registra ainda que 79% dos escritórios da mesma amostra não tinham departamento comercial estruturado",
+        "status": "NC",
+        "fonte": "O percentual está registrado na nota 19b da Zionaxs Memory como [S21], mas NÃO foi possível confirmá-lo ao vivo nesta execução: o PDF primário excede o limite de leitura da ferramenta e nenhuma das 2 coberturas encontradas traz esse recorte. Pela política de pesquisa 19a §16.1, que manda partir da fonte primária, o número ficou FORA da peça. A peça usa apenas os 2 percentuais confirmados."
+      },
+      {
+        "claim": "a indicação trava porque o cliente satisfeito não tem 1 frase pronta para repetir, e não por falta de vontade",
+        "status": "H",
+        "fonte": null
+      },
+      {
+        "claim": "o método de 1 frase com 3 partes, cerca de 12 palavras, testada com 3 clientes e devolvida corrigida",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 47% que não usam marketing digital para captação, do Sescon-SP com Vox Populi, junho de 2024, citados com instituição, ano, universo estadual, tamanho de amostra e margem de erro",
+        "os 78% que não atuam com nicho específico, do mesmo estudo e com o mesmo recorte declarado"
+      ],
+      "I": [
+        "o desejo de decidir recorte com dado da própria casa, e o de construir negócio em vez de sobreviver à agenda"
+      ],
+      "H": [
+        "a explicação de que a indicação trava por falta de frase repetível, e não por falta de vontade do cliente: raciocínio proposto pela Zionaxs, não resultado de pesquisa",
+        "o método da frase de 3 partes, das 12 palavras e dos 3 clientes: método proposto, não prática comprovada"
+      ],
+      "NC": [
+        "estrutura comercial dos escritórios, incluindo o percentual sem departamento comercial, que a Memory registra mas esta execução não conseguiu confirmar na fonte primária, e que por isso não entrou na peça",
+        "taxa de conversão de indicação, custo de aquisição e origem declarada de cliente novo em escritório de serviços brasileiro, sem dado público conhecido, e por isso a peça não afirma percentual nenhum sobre eficácia de indicação"
+      ]
+    },
+    "limites": [
+      "A pesquisa citada é do estado de São Paulo, com 255 associados do Sescon-SP respondendo on-line sobre si mesmos, com margem de erro de 5,9%. Isso é indício setorial e regional, não retrato do Brasil, e a peça declara o recorte no slide 3 e na legenda.",
+      "Os 2 percentuais são declaração de prática, não medição em sistema. Declarar que não usa marketing digital não prova que a captação depende de indicação, e a peça não faz essa ponte como se fosse dado: ela a apresenta como leitura.",
+      "A peça não soma nem cruza os 2 percentuais entre si, e não os apresenta como série histórica.",
+      "Não existe dado público conhecido de conversão de indicação nem de custo de aquisição em escritório de serviços brasileiro, então a peça não afirma que indicação converte mais nem menos que qualquer outro caminho.",
+      "O percentual sobre departamento comercial que a Zionaxs Memory registra na nota 19b não foi confirmado na fonte primária nesta execução e ficou fora da peça, para não repetir número sem conferência.",
+      "Ter nicho declarado e escrever a frase são coisas diferentes: a peça pede a frase, não pede que ninguém feche a porta para cliente de fora, e diz isso no slide 6.",
+      "O exemplo do cliente que elogia, promete apresentar e some é ilustrativo, construído para a peça, e não dado de pesquisa.",
+      "A frase de indicação não substitui entrega boa nem resolve problema de capacidade: ela só dá ao cliente satisfeito a palavra que faltava, e a peça declara esse limite no slide 6."
+    ],
+    "consequencia": "O leitor sai com 1 frase de cerca de 12 palavras escrita antes do almoço, com o teste de mandá-la para 3 clientes atuais e com o entendimento de que indicação previsível começa por dar ao cliente o que dizer, e não por pedir que ele indique."
+  },
+  "tese": "Indicação não é canal, é consequência. Ela só acontece quando o cliente satisfeito consegue descrever o escritório em 1 frase, e a maioria se descreve pela profissão, não pelo problema que resolve. O que muda isso é escrever 1 frase com 3 partes, para quem, qual problema e o que muda, testá-la com 3 clientes e devolvê-la corrigida.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M12",
+  "jtbd": [
+    "JT1",
+    "JE4"
+  ],
+  "cta": "Escrever hoje 1 frase de cerca de 12 palavras dizendo para quem o escritório trabalha, qual problema resolve e o que muda depois, e mandar para 3 clientes atuais pedindo correção.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela afirmação de que o cliente quer indicar e não sabe como, reconhecer a cena do elogio que não vira cliente, receber a evidência de que a maioria não prospecta e não tem recorte, virar para a distinção entre canal e consequência, aprender o método da frase de 3 partes, ouvir o limite que impede a ideia de virar promessa de crescimento fácil e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-30",
+    "M12",
+    "JT1",
+    "JE4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Referral",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra para competir com a leitura, que nesta peça carrega 2 percentuais de pesquisa e um método de 3 passos. Andamento constante do começo ao fim, sem virada dramática, porque cada leitor passa o carrossel no próprio ritmo e ninguém está sincronizado com a música. Textura limpa e groove regular, que é o critério que passou a valer depois da correção de 30/08/2026, quando a marca deixou de escolher faixa por familiaridade. Como esta peça é de descoberta e abre a manhã, prefira uma faixa de andamento levemente mais adiantado que o da zx-29, para acompanhar a leitura rápida do slot da manhã sem virar urgência. Origem licenciada para conta de negócio: a Meta Sound Collection cobre uso comercial no Instagram e no Facebook.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurra a marca para o tom de coach motivacional e briga com o posicionamento de engenharia. Nesta peça, evitar ainda trilha de vitrine comercial, com sino e brilho de anúncio, porque o assunto é captação e o tom de propaganda contradiz o que a peça diz sobre não terceirizar clareza.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e a zx-27, a zx-28 e a zx-29 pediram perfil parecido com este."
+  },
+  "caption": [
+    "Todo escritório de serviços diz que cresce por indicação. O cliente elogia o trabalho, promete apresentar você para 1 amigo, e não acontece nada. Não é falta de vontade dele. É falta de 1 frase que ele consiga repetir.",
+    "Quando o amigo pergunta o que você faz, a resposta que sai é contabilidade, advocacia ou consultoria. Isso descreve a profissão, não o problema que você resolve, e ninguém contrata uma profissão com pressa.",
+    "A Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo e margem de erro de 5,9%, mostrou que 47% não usam marketing digital para captar clientes e 78% não atuam com nicho definido. São escritórios de São Paulo respondendo sobre si mesmos, então o número é indício, não retrato do Brasil.",
+    "Sem prospecção e sem recorte, a entrada de clientes fica inteira nas mãos de quem lembrar de você na hora certa.",
+    "O teste cabe em 1 manhã. Escreva 1 frase com 3 partes: para quem você trabalha, qual problema resolve e o que muda depois. Sem adjetivo, sem nome de serviço, em torno de 12 palavras. Mande para 3 clientes atuais e pergunte se é assim que eles descreveriam você.",
+    "A resposta deles corrige a sua. Reescreva com as palavras que eles usaram e devolva a frase pronta, para eles copiarem quando alguém perguntar.",
+    "Um cuidado: a frase não substitui entrega boa, e ter recorte não obriga ninguém a recusar cliente de fora. E ela envelhece: quando o serviço mudar, a frase muda junto.",
+    "Comece hoje: escreva a frase e mande para 3 clientes ainda esta semana. Indicação não é canal. É a consequência de alguém saber exatamente o que dizer sobre o seu trabalho."
+  ],
+  "caption_sources": [
+    "Fonte dos 47% e dos 78%: Pesquisa de Preços e Serviços Praticados pelas Empresas Contábeis do Estado de São Paulo, Sescon-SP em parceria com o Instituto Vox Populi, coleta on-line em junho de 2024, 255 associados respondentes, margem de erro de 5,9%.",
+    "Os 47% correspondem a quem declarou não usar ferramentas de marketing digital para captação de clientes. Os 78% correspondem a quem declarou não atuar com nicho específico; os 22% restantes citam exemplos como clínicas médicas, escolas e postos de gasolina.",
+    "A pesquisa ouve associados do Sescon-SP no estado de São Paulo, que responderam on-line sobre a própria prática. É indício setorial e regional, não retrato do Brasil, e declaração de prática de captação não prova origem de cliente novo nem taxa de conversão.",
+    "Os percentuais não se somam nem se cruzam, e a peça não os apresenta como série histórica.",
+    "Não há dado público conhecido de conversão de indicação, custo de aquisição ou origem declarada de cliente novo em escritório de serviços brasileiro. Por isso a peça não afirma que indicação converte mais nem menos que qualquer outro caminho.",
+    "A nota 19b da Zionaxs Memory registra ainda um percentual de escritórios sem departamento comercial estruturado, atribuído ao mesmo estudo. Ele não foi confirmado na fonte primária nesta execução e por isso ficou fora da peça.",
+    "A leitura de que a indicação trava por falta de frase repetível, e o método de 1 frase com 3 partes testada em 3 clientes, são proposta da Zionaxs, não prática comprovada por pesquisa.",
+    "O exemplo do cliente que elogia, promete apresentar e some é ilustrativo, construído para a peça, e não dado de pesquisa.",
+    "Fotos: Ben Kupke, ihor e Amr Taha, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "Descoberta",
+      "copy": {
+        "title": "O cliente quer\nte indicar. E\nnão sabe como.",
+        "accentLine": "Falta 1 frase, não vontade.",
+        "hl": "1 frase",
+        "sub": "Todo escritório de serviços diz que cresce por indicação. O cliente elogia, promete apresentar você para 1 amigo, e não acontece nada. Ele não tem 1 frase pronta para repetir sobre o que você resolve.",
+        "year": "2026",
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e · foto: Ben Kupke"
+      },
+      "approved_visible_copy": [
+        "Descoberta",
+        "01/07",
+        "O cliente quer te indicar. E não sabe como.",
+        "Falta 1 frase, não vontade.",
+        "Todo escritório de serviços diz que cresce por indicação. O cliente elogia, promete apresentar você para 1 amigo, e não acontece nada. Ele não tem 1 frase pronta para repetir sobre o que você resolve.",
+        "2026",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e · foto: Ben Kupke"
+      ],
+      "alt": "Slide 1 de 7. O cliente quer te indicar e não sabe como, porque falta 1 frase, não vontade. Todo escritório de serviços diz que cresce por indicação: o cliente elogia, promete apresentar você para 1 amigo, e não acontece nada. Ele não tem 1 frase pronta para repetir sobre o que você resolve. Fotografia escura de 2 pessoas conversando em silhueta, sentadas a uma mesa diante de uma janela clara.",
+      "photo": {
+        "src": "../assets/foto-mesa-janela.jpg",
+        "pos": "40% 50%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "O elogio que\nnão vira\ncliente."
+        ],
+        "closing": "O cliente promete indicar, e promete de verdade. Só que, quando o amigo pergunta o que você faz, a resposta que sai é contabilidade, advocacia ou consultoria. Isso descreve a profissão, não o problema que você resolve, e ninguém contrata uma profissão com pressa.",
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e · foto: ihor"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "O elogio que não vira cliente.",
+        "O cliente promete indicar, e promete de verdade. Só que, quando o amigo pergunta o que você faz, a resposta que sai é contabilidade, advocacia ou consultoria. Isso descreve a profissão, não o problema que você resolve, e ninguém contrata uma profissão com pressa.",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e · foto: ihor"
+      ],
+      "alt": "Slide 2 de 7. O elogio que não vira cliente. O cliente promete indicar e promete de verdade, mas quando o amigo pergunta o que você faz, a resposta que sai é contabilidade, advocacia ou consultoria. Isso descreve a profissão, não o problema que você resolve, e ninguém contrata uma profissão com pressa. Papel claro com fotografia em preto e branco de 2 pessoas sentadas a uma mesa em um interior de luz forte.",
+      "photo": {
+        "src": "../assets/foto-conversa-pb.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "47% não usam\nmarketing digital.",
+          "78% não atuam\ncom nicho."
+        ],
+        "closing": "Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Sem prospecção e sem recorte, a entrada de clientes fica inteira nas mãos de quem lembrar de você na hora certa.",
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "47% não usam marketing digital.",
+        "78% não atuam com nicho.",
+        "Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Sem prospecção e sem recorte, a entrada de clientes fica inteira nas mãos de quem lembrar de você na hora certa.",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e"
+      ],
+      "alt": "Slide 3 de 7. 47% dos escritórios não usam marketing digital para captar clientes e 78% não atuam com nicho específico. Os 2 números são da Pesquisa de Preços e Serviços do Sescon-SP, feita on-line em junho de 2024 com 255 escritórios contábeis do estado de São Paulo, com margem de erro de 5,9%. Sem prospecção e sem recorte, a entrada de clientes fica inteira nas mãos de quem lembrar de você na hora certa."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Indicação não\né canal.",
+        "accent": "É consequência\nde clareza.",
+        "hl": "É consequência",
+        "ghost": "12",
+        "year": "2026",
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e",
+        "body": "Canal é caminho que você controla e consegue repetir. Indicação não é isso: ela depende de alguém lembrar de você na hora em que outra pessoa pede ajuda. O que você controla é o que essa pessoa tem para dizer. Dê a ela 1 frase que diga para quem você resolve o quê, e a indicação deixa de depender só da memória de quem gosta do seu trabalho."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Indicação não é canal.",
+        "É consequência de clareza.",
+        "2026",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e",
+        "Canal é caminho que você controla e consegue repetir. Indicação não é isso: ela depende de alguém lembrar de você na hora em que outra pessoa pede ajuda. O que você controla é o que essa pessoa tem para dizer. Dê a ela 1 frase que diga para quem você resolve o quê, e a indicação deixa de depender só da memória de quem gosta do seu trabalho."
+      ],
+      "alt": "Slide 4 de 7. Indicação não é canal, é consequência de clareza. Canal é caminho que você controla e consegue repetir, e indicação não é isso: ela depende de alguém lembrar de você na hora em que outra pessoa pede ajuda. O que você controla é o que essa pessoa tem para dizer. Dê a ela 1 frase que diga para quem você resolve o quê, e a indicação deixa de depender só da memória de quem gosta do seu trabalho. Campo laranja chapado com o número 12 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "1 frase que o\ncliente repete.",
+        "items": [
+          {
+            "num": "01",
+            "label": "Escreva 1 frase com 3 partes: para quem você trabalha, qual problema resolve e o que muda depois. Sem adjetivo e sem nome de serviço."
+          },
+          {
+            "num": "02",
+            "label": "Mande a frase para 3 clientes atuais e pergunte se é assim que eles descreveriam você. A resposta deles corrige a sua."
+          },
+          {
+            "num": "03",
+            "label": "Reescreva com as palavras que eles usaram e devolva pronta, para eles copiarem quando alguém perguntar o que você faz."
+          }
+        ],
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "1 frase que o cliente repete.",
+        "01",
+        "Escreva 1 frase com 3 partes: para quem você trabalha, qual problema resolve e o que muda depois. Sem adjetivo e sem nome de serviço.",
+        "02",
+        "Mande a frase para 3 clientes atuais e pergunte se é assim que eles descreveriam você. A resposta deles corrige a sua.",
+        "03",
+        "Reescreva com as palavras que eles usaram e devolva pronta, para eles copiarem quando alguém perguntar o que você faz.",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e"
+      ],
+      "alt": "Slide 5 de 7. 1 frase que o cliente repete. Primeiro, escreva 1 frase com 3 partes: para quem você trabalha, qual problema resolve e o que muda depois, sem adjetivo e sem nome de serviço. Segundo, mande a frase para 3 clientes atuais e pergunte se é assim que eles descreveriam você, porque a resposta deles corrige a sua. Terceiro, reescreva com as palavras que eles usaram e devolva pronta, para eles copiarem quando alguém perguntar o que você faz. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "A frase não faz\no trabalho.",
+        "accent": "Ela só encurta\no caminho.",
+        "body": "Escrever a frase não substitui entrega boa, e ter recorte não obriga ninguém a recusar cliente de fora. Ela também envelhece: quando o serviço mudar, a frase muda junto.",
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "A frase não faz o trabalho.",
+        "Ela só encurta o caminho.",
+        "Escrever a frase não substitui entrega boa, e ter recorte não obriga ninguém a recusar cliente de fora. Ela também envelhece: quando o serviço mudar, a frase muda junto.",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e"
+      ],
+      "alt": "Slide 6 de 7. A frase não faz o trabalho, ela só encurta o caminho. Escrever a frase não substitui entrega boa, e ter recorte não obriga ninguém a recusar cliente de fora. Ela também envelhece: quando o serviço mudar, a frase muda junto."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escreva 1 frase\nem 12 palavras.",
+        "hl": "1 frase",
+        "accent": "Para quem, qual problema, o que muda.",
+        "body": "Escreva hoje e mande para 3 clientes ainda esta semana. Quando a frase voltar corrigida por eles, você tem a única coisa que transforma elogio em cliente novo: alguém sabendo exatamente o que dizer sobre o seu trabalho.",
+        "year": "2026",
+        "temas": "Temas: Indicação / Frase / Nicho",
+        "micro": "@zionaxs_ · ref 41c4a20e · foto: Amr Taha"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escreva 1 frase em 12 palavras.",
+        "Para quem, qual problema, o que muda.",
+        "Escreva hoje e mande para 3 clientes ainda esta semana. Quando a frase voltar corrigida por eles, você tem a única coisa que transforma elogio em cliente novo: alguém sabendo exatamente o que dizer sobre o seu trabalho.",
+        "2026",
+        "Temas: Indicação / Frase / Nicho",
+        "@zionaxs_ · ref 41c4a20e · foto: Amr Taha"
+      ],
+      "alt": "Slide 7 de 7. Escreva 1 frase em 12 palavras: para quem, qual problema, o que muda. Escreva hoje e mande para 3 clientes ainda esta semana. Quando a frase voltar corrigida por eles, você tem a única coisa que transforma elogio em cliente novo, que é alguém sabendo exatamente o que dizer sobre o seu trabalho. Fotografia escura de uma mão escrevendo com caneta sobre papel, iluminada de lado em uma mesa à noite.",
+      "photo": {
+        "src": "../assets/foto-escrevendo.jpg",
+        "pos": "0% 50%"
+      }
+    }
+  ]
+}

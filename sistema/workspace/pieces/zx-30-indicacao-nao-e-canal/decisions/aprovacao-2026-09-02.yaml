@@ -1,0 +1,184 @@
+decisao: aprovar e publicar a zx-30, slot da manhã de dia útil
+data: 2026-09-02
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca, então a autorização se aplica.
+  registro_anterior: pieces/zx-29-o-cliente-que-consome/decisions/aprovacao-2026-09-01.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, quarta-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede descoberta e pauta encaminhável, então a peça entra por
+    uma afirmação que desmonta um hábito ("indicação não é canal") e sai com 1
+    ação que cabe antes do almoço: escrever 1 frase de cerca de 12 palavras e
+    mandar para 3 clientes. O método não é planilha nem reunião, de propósito: a
+    peça da tarde de ontem, a zx-29, já pedia planilha de 3 colunas por 2
+    semanas, e repetir o formato de ação em 2 dias seguidos empobrece a conta.
+
+tema:
+  escolhido: indicação não é canal, é consequência de o cliente ter 1 frase para repetir
+  matriz: M12
+  por_que: >
+    Linha M12 da matriz editorial, "aquisição só por indicação", nunca usada. As
+    10 peças anteriores ocupam M08 (zx-19), M11 (zx-20), M19 (zx-21 e zx-22),
+    M18 (zx-23, zx-24 e zx-25), M20 (zx-27), M17 (zx-28), M09 (zx-29) e a
+    zx-26, que saiu sem matriz declarada por ausência da Memory naquela
+    execução. Todas tratam de operação interna: métrica, rotina, ferramenta,
+    margem. Nenhuma trata de como o trabalho ENTRA na casa. A M12 abre esse eixo
+    pela primeira vez, e é a leitura de variedade deliberada que a nota 19a §6
+    manda fazer olhando o histórico recente.
+  variedade_deliberada: >
+    A 19a proíbe percentual rígido de vertical e manda analisar o histórico. As
+    últimas 5 peças foram 4 transversais e 1 de V2. Esta é de V2 outra vez, mas
+    o eixo é novo para a conta inteira: sai de operação e entra em aquisição.
+    Trocar de vertical mantendo o mesmo enquadramento operacional seria menos
+    variedade, não mais, e por isso a escolha foi de eixo e não de setor. A
+    copy é escrita para qualquer prestador de serviço profissional, com o
+    recorte contábil declarado só onde a evidência exige.
+  distancia_da_peca_anterior: >
+    A zx-29, publicada ontem à tarde, trata de medir hora por cliente antes de
+    mexer em preço. Esta trata de dar ao cliente satisfeito 1 frase para
+    repetir. A fonte é a mesma pesquisa Sescon-SP, mas o recorte é outro: lá
+    foram os percentuais de cobrança de retrabalho, aqui os de captação e
+    nicho. Nenhum número se repete entre as 2 peças.
+  desejo_primeiro: >
+    A dica prática é a frase de 3 partes, com cerca de 12 palavras, testada com
+    3 clientes atuais e devolvida corrigida. Não depende de comprar nada, nem de
+    agência nem de anúncio. Os 2 percentuais do Sescon-SP entram como tempero
+    dentro da dica, no slide 3, e não como o post inteiro.
+  jtbd:
+    - JT1 (quero decidir entre generalista e nicho com dados da minha própria carteira, não com dogma de mercado)
+    - JE4 (quero sentir que estou construindo um negócio, não sobrevivendo a uma agenda)
+  repertorio: >
+    nenhum, e de propósito. A nota 19c §14 permite "REPERTÓRIO → ID da §12.2, ou
+    nenhum". A M12 associa R4 (Henry Mintzberg), e a peça se sustenta em
+    evidência setorial mais método proposto, sem precisar de âncora de
+    repertório. Citar Mintzberg aqui obrigaria a apresentá-lo por extenso dentro
+    de uma peça que já carrega 2 percentuais e 3 passos, e custaria o espaço que
+    a copy didática exige.
+
+evidencia:
+  fonte_principal: >
+    Pesquisa de Preços e Serviços Praticados pelas Empresas Contábeis do Estado
+    de São Paulo, Sescon-SP com o Instituto Vox Populi, coleta on-line em junho
+    de 2024, 255 associados respondentes, margem de erro de 5,9%. É a [S21] do
+    ledger da Zionaxs Memory, nota 19a.
+  conferencia_ao_vivo: >
+    Os 2 percentuais usados (47% que não usam marketing digital para captação e
+    78% que não atuam com nicho específico) foram conferidos nesta execução em 2
+    coberturas independentes do estudo: o portal Contábeis e o blog da
+    Makrosystem. O PDF original do Sescon-SP não pôde ser lido diretamente, pelo
+    mesmo motivo da execução de ontem: excede o limite de tamanho do buscador. A
+    ficha técnica (255 associados, margem de erro 5,9%) veio do ledger [S21].
+  numero_descartado: >
+    A nota 19b registra também "79% não tinham departamento comercial
+    estruturado [S21]", que seria o número mais forte para esta peça. Ele NÃO
+    entrou. Nenhuma das 2 coberturas encontradas traz esse recorte e o primário
+    não pôde ser lido, então repeti-lo seria afirmar com base na matéria e não
+    na fonte, exatamente o que a política de pesquisa 19a §16.1 proíbe. Ficou
+    declarado como NC no research_brief e no caption_sources. Quem tiver o PDF
+    em mãos pode confirmá-lo e promover o número para E na Memory.
+  lacuna_declarada: >
+    Conversão de indicação, custo de aquisição e origem declarada de cliente
+    novo são NC para V2. Por isso a peça não afirma que indicação converte mais
+    nem menos que qualquer outro caminho: ela discute previsibilidade, não
+    eficácia.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Escolha de foto feita por folha de contato antes de gerar, reproduzindo a
+      banda de texto real de 46% a 93% com gradê e scrim do template sobre 7
+      candidatas. Método barato previsto na direção visual, e desta vez ele
+      pagou: 4 das 7 candidatas foram descartadas na folha, sem gastar geração.
+    correcao: >
+      Descartadas: janela com folhagem (ruído na banda), mesa com luminária
+      (cúpula clara dentro da banda), caderno pautado amarelo e caderno com
+      bokeh colorido (ambos claros demais na banda). Escolhidas 3: mesa diante
+      de janela com 2 silhuetas (Ben Kupke) para a capa, conversa em preto e
+      branco (ihor) para a cena, e mão escrevendo à noite (Amr Taha) para o
+      fechamento.
+  - achado: >
+      Slide 4: o G6 reprovou a última linha do corpo, "forma.", em 14% da linha
+      mais larga. Órfã em parágrafo longo que quebra sozinho em muitas linhas.
+    correcao: >
+      Frase final reescrita, não quebrada. A direção visual registra que enfiar
+      quebra autoral em parágrafo longo troca o G6 vermelho pelo G7 vermelho,
+      porque o G7 reprova quando as linhas renderizadas passam de brs + 1. A
+      saída era reescrever, e foi o que se fez.
+  - achado: >
+      Slide 6: no layout poster-statement o anel laranja ocupa de 900px a 1080px
+      na horizontal e de 40% a 71% na vertical, e a primeira linha do corpo
+      passava POR CIMA do traço, com a palavra "ter" sobre o anel. Pior que o
+      encoste registrado na zx-28 e na zx-29.
+    correcao: >
+      O corpo foi encurtado de 7 para 4 linhas renderizadas, de 275 para 168
+      caracteres. Como a pilha do pôster é ancorada embaixo, um corpo mais curto
+      desce o bloco inteiro para fora da faixa vertical do anel, e não depende de
+      onde a quebra gulosa cai. É correção de CONTRATO e resolve de verdade,
+      diferente do encurtamento tentado na zx-29, que só mexia nos pontos de
+      quebra dentro da mesma faixa. Vale registrar como técnica: no
+      poster-statement, o que tira o texto do anel é reduzir o NÚMERO DE LINHAS
+      até o bloco caber abaixo de 71% da altura, não reduzir a largura da frase.
+      A pendência de template continua de pé para corpos que precisem de mais
+      linhas.
+  - achado: >
+      Slide 7: com a foto da mão escrevendo em pos "15% 50%", a mão e o papel
+      claros caíam sobre as 2 últimas linhas do corpo, e "alguém" terminava em
+      cima do ponto mais claro da imagem. É o caso 1 da seção de enquadramento:
+      o G5 mede contraste contra o fundo declarado no CSS, nunca contra o pixel
+      da foto, e passou em 3.38:1 com a tinta ilegível ali.
+    correcao: >
+      Crop deslocado para pos "0% 50%". A foto é paisagem em campo 4x5, então só
+      o X move o quadro: com 1118px de folga horizontal, o extremo esquerdo joga
+      a mão para a borda direita e libera a largura inteira do corpo sobre área
+      escura. A cena continua legível como mão com caneta em mesa à noite. A
+      tinta não foi clareada.
+  - achado: >
+      Slide 1: o sub passa por cima da manga listrada da pessoa à direita, que é
+      a área mais clara dentro da banda. Conferido no render em tamanho real:
+      creme sobre cinza médio com scrim, a tinta se lê inteira.
+    correcao: >
+      Nenhuma. Deslocar mais o X tiraria a segunda pessoa do quadro e a capa
+      deixaria de encenar a conversa que a manchete descreve, que é justamente o
+      que a regra da foto como gancho pede.
+
+memory:
+  estado: >
+    A Zionaxs Memory NÃO estava no checkout no início da sessão, como em toda
+    execução em nuvem. Foi anexada com add_repo e clonada em
+    /home/user/zionaxs-memory antes de qualquer decisão editorial.
+  consequencia: >
+    Os códigos editoriais desta peça (M12, JT1, JE4) foram lidos nas notas
+    canônicas 19b e 19c, não copiados da peça anterior, e a regra de variedade
+    deliberada da 19a §6 foi lida antes de escolher o tema. A verificação A9 da
+    auditoria confere a existência dos códigos; a pertinência foi decidida
+    lendo a matriz.
+
+ambiente:
+  achado: >
+    Ao contrário da execução de ontem, o CDN do Unsplash respondeu normalmente
+    nesta sessão, inclusive com parâmetros de transformação na URL. As 3 fotos
+    finais e as 7 candidatas da folha de contato baixaram de primeira.
+  consequencia: >
+    A peça saiu dentro do slot. O achado de 429 registrado na zx-29 parece ser
+    intermitente e não uma restrição permanente do ambiente em nuvem.
+
+trilha:
+  campo: trilha_sugerida
+  origem: Meta Sound Collection
+  pendencia: >
+    O índice da coleção de trilhas vive fora do repositório e a variável de
+    ambiente está vazia nesta sessão em nuvem, então o nome da faixa é uma
+    indicação de perfil, não uma faixa confirmada no acervo. Groove in Bloom, a
+    única verificada, já foi sugerida na zx-25 e na zx-26 e não se repete aqui
+    de propósito. A escolha final é do Fabiano, no app, entre as instrumentais
+    de andamento constante da Meta Sound Collection.
