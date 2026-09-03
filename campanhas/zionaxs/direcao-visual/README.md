@@ -101,6 +101,21 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   faixa onde vive o acento da linha seguinte. No `poster-turn` da zx-31 o accent "E receber não / é sobrar." teve o
   acento do "É" escondido atrás da caixa; virou "E receber não / quer dizer sobrar." e o problema sumiu. **Nenhum gate
   mede isso.**
+- **A regra do realce é mais larga do que "não começar com maiúscula acentuada".** Aprendido na zx-32, 03/09/2026, e
+  corrige a formulação da zx-31. A caixa do realce cobre uma faixa horizontal definida pela LARGURA dela, não pelo
+  começo da linha, então qualquer maiúscula acentuada da linha seguinte que caia sob essa largura tem o acento
+  escondido. No `poster-turn` da zx-32 o accent "Cada uma pede / outra correção." tinha o realce na primeira linha,
+  como manda a regra da zx-29, e a segunda linha não começava com acento, como manda a regra da zx-31: mesmo assim o
+  "Ã" de CORREÇÃO ficava embaixo da caixa, que vai de x 80 a 745. Virou "outra resposta.", sem acento nenhum. **Regra
+  final: a linha seguinte à do realce não deve ter maiúscula acentuada em NENHUMA posição sob a largura da caixa.** Na
+  prática, para bloco de display de 2 linhas, o mais barato é escrever a segunda linha inteira sem maiúscula acentuada.
+  Nenhum gate mede isso.
+- **O corpo do `poster-turn` cabe em cerca de 340 caracteres, e quem reprova é o G4, no chrome.** Aprendido na zx-32.
+  O bloco de meta e o corpo dividem a `.pstack` ancorada embaixo, então corpo longo empurra ano, kicker e paginação
+  para fora do quadro: com 553 caracteres o G4 reprovou 3 elementos do chrome do slide 4, um deles em `top -11`. A
+  zx-31 usou 336 e passou. A armadilha é de diagnóstico, não de medida: **a mensagem de erro aponta o chrome, e a causa
+  é o texto que cresceu embaixo dele**, então a leitura instintiva ("o chrome está errado") manda a sessão mexer no
+  lugar errado. Ao ver G4 reprovando `year`, `kicker` ou paginação em layout de foto ou laranja, encurte o corpo.
 - **Corredor de texto do `poster-scene` e do `poster-lines`.** Aprendido na zx-31. Nos 2 layouts a geometria laranja e a
   foto invadem a coluna de texto, e nenhum gate mede sobreposição. No `poster-scene` o anel ocupa aproximadamente x 495 a
   705 e y 560 a 770, e a foto começa em x 620: as linhas de display precisam terminar antes de x 495 na faixa do anel e
@@ -109,6 +124,12 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   display de 64px. E há uma armadilha: **a posição vertical do bloco depende do número de linhas do `closing`**, porque a
   pilha é ancorada embaixo. Mudar o texto de apoio move a manchete. Por isso a regra robusta é encurtar as LINHAS até
   caberem no corredor mais estreito, e não calcular onde o bloco vai cair.
+  **E há um segundo corredor que a zx-31 não viu: o do CORPO.** Aprendido na zx-32, 03/09/2026. No `poster-scene`,
+  closing longo empurra o bloco inteiro para cima, e aí quem cruza o anel não é o display, são as primeiras linhas do
+  parágrafo, que correm até a margem direita e não têm como ser encurtadas uma a uma. Com 365 caracteres o corpo
+  começava por volta de y 690, dentro da faixa do anel (y 560 a 770); com 251 ele começa abaixo de y 800 e fica livre.
+  **Limite prático: o closing do `poster-scene` cabe em cerca de 260 caracteres, ou 7 linhas renderizadas.** Passar
+  disso não reprova gate nenhum, só entrega a peça com o anel riscando o texto.
 
 ## Como o padrão se sustenta sozinho
 

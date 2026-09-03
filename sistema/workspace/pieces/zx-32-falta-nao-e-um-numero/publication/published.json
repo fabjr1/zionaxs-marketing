@@ -1,0 +1,64 @@
+{
+ "postId": "17918424204433047",
+ "permalink": "https://www.instagram.com/p/Dc1PFruG1f4/",
+ "shortcode": "Dc1PFruG1f4",
+ "publishedAt": "2026-09-03T16:25:36+0000",
+ "publishedAtFortaleza": "03/09/2026, 13:25:36",
+ "slot": "13:00 BRT, dia util, papel de conteudo principal: diagnostico, framework, metodo, evidencia ou tutorial decisorio",
+ "accountUsername": "zionaxs_",
+ "igUserId": "37965311306447572",
+ "route": "composio-mcp",
+ "composioAccount": "instagram_ascent-utick",
+ "containerId": "17906865117501214",
+ "childContainers": [
+  "17906864982501214",
+  "17906864985501214",
+  "17906864979501214",
+  "17906864976501214",
+  "17906865060501214",
+  "17906865054501214",
+  "17906865057501214"
+ ],
+ "mediaUrls": [
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-01.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-02.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-03.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-04.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-05.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-06.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-32-falta-nao-e-um-numero/out/jpg/zx-32-falta-nao-e-um-numero-slide-07.jpg"
+ ],
+ "childMediaIds": [
+  "18426084589195704",
+  "18134744632619505",
+  "17891639655671784",
+  "17912965326453418",
+  "17951770065254695",
+  "18097063196416030",
+  "18069215726743538"
+ ],
+ "digest": "f4b525037dc4748c1c82a7a523d3f8f698763a0d0137212efdc9862f012bdf8b",
+ "commit": "0596bd5",
+ "reconciledAt": "2026-09-03T16:26:40+0000",
+ "reconciliation": {
+  "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+  "contaConfere": true,
+  "ownerId": "37965311306447572",
+  "username": "zionaxs_",
+  "mediaType": "CAROUSEL_ALBUM",
+  "mediaProductType": "FEED",
+  "slidesEsperados": 7,
+  "slidesConfirmados": 7,
+  "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 2163 caracteres, abaixo do teto de 2200",
+  "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 2 posts em 03/09/2026, a zx-31 as 11:54 e esta as 16:25, dentro da cota de 2 do dia; nenhuma duplicata desta peca",
+  "identidadeAntesDePublicar": "INSTAGRAM_GET_USER_INFO ao vivo antes de criar qualquer conteiner: id 37965311306447572, username zionaxs_, conta MEDIA_CREATOR. Confere com a unica conta autorizada. As outras 2 contas conectadas no Composio (@fabjr1 e @base3br) nao foram tocadas.",
+  "paiEmErro": "nao houve. O conteiner pai foi criado 1 vez, conferido em FINISHED com INSTAGRAM_GET_POST_STATUS antes de publicar, e publicou na primeira tentativa. Nenhum filho precisou ser recriado.",
+  "erroDeTransporte": "nenhum. Nao houve repeticao de chamada de publicacao."
+ },
+ "trilhaSugerida": {
+  "faixa": "Steady Counter",
+  "origem": "Meta Sound Collection",
+  "estado": "pendente de adicao manual pelo Fabiano, no app, editando o post publicado",
+  "nota": "Carrossel recebe a musica pelo app depois de publicado. O nome e indicacao de perfil, nao faixa confirmada no acervo: escolher na Meta Sound Collection uma instrumental de andamento constante, sem letra e sem virada dramatica."
+ }
+}
