@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-31-faturou-nao-e-caixa",
+  "generatedAt": "2026-09-03T11:50:33+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-31-faturou-nao-e-caixa-slide-01.png",
+    "zx-31-faturou-nao-e-caixa-slide-02.png",
+    "zx-31-faturou-nao-e-caixa-slide-03.png",
+    "zx-31-faturou-nao-e-caixa-slide-04.png",
+    "zx-31-faturou-nao-e-caixa-slide-05.png",
+    "zx-31-faturou-nao-e-caixa-slide-06.png",
+    "zx-31-faturou-nao-e-caixa-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Descoberta 01/07 Faturou bem. E o caixa não sentiu. Faturar não é receber. O mês fecha com um bom número no relatório e, no dia 5, a conta do banco não acompanha. Faturamento, recebimento e sobra são 3 números diferentes, e o primeiro é o único que aparece sem ninguém procurar. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75 · foto: Vitaly Gariev"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Vendeu. E não recebeu. Não é que o dinheiro sumiu. Ele ainda não chegou. Você emitiu mais do que nunca, só que parte vence em 30 dias, parte em 60, e uma parte ainda vai atrasar. Quando o salário e o aluguel vencem, o que existe na conta é o que foi recebido, não o que foi emitido. O relatório comemora um mês que o caixa ainda vai levar semanas para viver. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75 · foto: Jonathan Cosens"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 61% pagam a empresa com a conta pessoal. 10% não têm controle nenhum. Os 2 números são da pesquisa Hábitos Financeiros dos Pequenos Negócios, do Sebrae, com dados de 2025, nível de confiança de 95% e margem de erro de 5%. Quando as 2 contas são a mesma, não existe caixa do negócio para olhar: existe 1 saldo só, que responde ao mesmo tempo pela empresa e pela casa. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Faturar não é receber. E receber não quer dizer sobrar. São 3 números e cada um responde uma pergunta. O faturado diz quanto de trabalho você vendeu. O recebido diz quanto disso virou dinheiro na conta. A sobra, depois de pagar tudo do mês, diz se o negócio se paga. O faturamento vira termômetro porque é o único que aparece sozinho, e não porque seja o que mais informa. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 3 números, 1 mês, 10 minutos. 01Pegue o último mês fechado e escreva o total faturado, ou seja, tudo que você cobrou dos clientes naquele mês. 02Escreva o total recebido, que é o que de fato entrou na conta da empresa no mesmo mês, venha de qual cobrança vier. 03Escreva o que sobrou depois de pagar tudo do mês. Repita nos 2 meses anteriores e olhe se as distâncias estão estáveis ou crescendo. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 3 números não são um plano. Eles só mostram onde está o furo. Esta conta de 10 minutos não substitui contabilidade nem fluxo de caixa projetado. E 1 mês isolado engana, por causa de férias, décimo terceiro ou 1 cliente grande. Por isso são 3 meses. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 3 números, antes do almoço. Faturado, recebido, e o que sobrou. Abra o extrato do último mês fechado e escreva os 3 em 1 linha cada. Se a distância entre o primeiro e o segundo for grande, o problema não é venda, é cobrança. Se o terceiro for pequeno mesmo com o segundo alto, o problema é preço ou custo. Temas: Caixa / Recebimento / Margem @zionaxs_ · ref 1c371e75 · foto: Dimitris Apostol"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2,
+  "digest": "db180f3587ff8bb5209a3cba8ea11cf004f6027c3205fc12e5d4fbca2f5557e9"
+}

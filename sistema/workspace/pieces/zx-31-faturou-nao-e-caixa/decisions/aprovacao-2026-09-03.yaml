@@ -1,0 +1,204 @@
+decisao: aprovar e publicar a zx-31, slot da manhã de dia útil
+data: 2026-09-03
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca, então a autorização se aplica.
+  registro_anterior: pieces/zx-30-indicacao-nao-e-canal/decisions/aprovacao-2026-09-02.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, quinta-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede descoberta e pauta encaminhável, então a peça entra por
+    uma constatação que desmonta um hábito de leitura ("faturar não é receber") e
+    sai com 1 ação de 10 minutos que cabe antes do almoço: escrever 3 números de
+    1 mês fechado. A ação é de leitura de extrato, não de planilha contínua nem
+    de reunião, para não repetir o formato de ação das peças recentes.
+
+tema:
+  escolhido: faturar não é receber, e receber não é sobrar
+  matriz: M03
+  por_que: >
+    Linha M03 da matriz editorial, "faturamento confundido com saúde
+    financeira", nunca usada. As 11 peças anteriores ocupam M08 (zx-19), M11
+    (zx-20), M19 (zx-21 e zx-22), M18 (zx-23, zx-24 e zx-25), M20 (zx-27), M17
+    (zx-28), M09 (zx-29), M12 (zx-30) e a zx-26, que saiu sem matriz declarada
+    por ausência da Memory naquela execução. Nenhuma delas trata de dinheiro que
+    entra na conta: a zx-29 chegou perto, mas pelo lado do custo por cliente e
+    da hora consumida, não pelo descasamento entre emitir e receber. A M03 abre
+    o eixo financeiro pela primeira vez, e a cena canônica que a nota 19c associa
+    a ela, "mês recorde com caixa apertado", é exatamente a manchete desta peça.
+  variedade_deliberada: >
+    A 19a proíbe percentual rígido de vertical e manda analisar o histórico. As
+    últimas 2 peças foram de V2 (contábil). Esta ancora em V1, persona P1, dono
+    de clínica, que é onde a M03 mora e cuja 19b registra literalmente o risco
+    de "queda de caixa disfarçada de faturamento". A copy é escrita para
+    qualquer prestador de serviço que emite hoje e recebe depois, porque a cena
+    é a mesma, e a evidência usada não é setorial: é de pequenos negócios em
+    geral.
+  distancia_da_peca_anterior: >
+    A zx-30, publicada ontem de manhã, trata de dar ao cliente satisfeito 1
+    frase para repetir, e o eixo era aquisição. Esta trata do dinheiro depois de
+    a venda acontecer. Fonte diferente (Sebrae, não Sescon-SP), número diferente,
+    persona primária diferente.
+  desejo_primeiro: >
+    A dica prática é a conta de 10 minutos com 3 números de 1 mês fechado, e a
+    leitura das 2 distâncias entre eles. Não depende de comprar nada, nem de
+    sistema nem de contador novo. Os 2 percentuais do Sebrae entram como tempero
+    dentro da dica, no slide 3, e não como o post inteiro.
+  jtbd:
+    - JE2 (quero decidir sem medo de estar olhando um número errado)
+    - JE4 (quero sentir que estou construindo um negócio, não sobrevivendo a uma agenda)
+  repertorio: >
+    nenhum, e de propósito. A nota 19c §14 permite "REPERTÓRIO → ID da §12.2, ou
+    nenhum". A M03 associa R1 (Peter Drucker), e a peça se sustenta em evidência
+    mais método proposto. Citar Drucker aqui obrigaria a apresentá-lo por
+    extenso dentro de uma peça que já carrega 2 percentuais e 3 definições de
+    número, e custaria o espaço que a copy didática exige.
+
+evidencia:
+  fonte_principal: >
+    Pesquisa Hábitos Financeiros dos Pequenos Negócios, do Sebrae, edição com
+    dados de 2025, divulgada em março de 2026, com nível de confiança de 95% e
+    margem de erro de 5%. Fonte nova para a conta: não estava no ledger da
+    Zionaxs Memory, e por isso vale propô-la como [S] novo na Inbox.
+  conferencia_ao_vivo: >
+    Os 2 percentuais usados (61% que pagam despesas da empresa com a conta
+    pessoal e 10% sem controle financeiro nenhum) foram conferidos nesta
+    execução em 2 coberturas independentes: a Agência Sebrae de Notícias, que é
+    o canal da própria instituição, e o portal Contábeis. Ambas trazem os mesmos
+    números, o comparativo com 2023 (60%) e o recorte por setor (construção e
+    indústria 64%, serviços 62%, comércio 57%). O nível de confiança de 95% e a
+    margem de erro de 5% vieram da divulgação do Sebrae/PR sobre a mesma edição.
+  numero_descartado: >
+    O tamanho da amostra da edição 2025 NÃO entrou. As coberturas não o
+    explicitam, e a página do Sebrae/PR com a metodologia completa não respondeu
+    dentro do tempo da ferramenta nesta execução. A edição de 2023 declarou
+    6.126 entrevistas por telefone, universo de 19,4 milhões e erro amostral de
+    1,25%: esse número existe, mas é de OUTRA edição, e transportá-lo seria
+    exatamente o erro que a 19a §16.2 lista. Ficou declarado como NC no
+    research_brief e no caption_sources.
+  lacuna_declarada: >
+    Prazo médio de recebimento e tamanho do intervalo entre faturado e recebido
+    em serviço profissional brasileiro são NC. Por isso os 30 e 60 dias
+    aparecem na peça declarados como exemplo de condição comercial comum, e não
+    como média de mercado.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      Slide 1: com a foto do escritório à noite em pos "8% 50%", o rosto do
+      homem sentado à mesa aparecia de perfil, iluminado pelo monitor, na altura
+      do realce da manchete. A direção visual exige rosto só em silhueta,
+      contraluz ou dissolvido na luz, e este não era nenhum dos 3. Nenhum gate
+      mede isso.
+    correcao: >
+      Crop deslocado para pos "0% 50%". A foto é paisagem em campo 4x5, então só
+      o X move o quadro: o extremo esquerdo tira a pessoa do enquadramento e
+      deixa a cena como escritório escuro com 1 mesa acesa, que é o que a
+      manchete descreve. Sobrou uma mão na borda direita, sem rosto.
+  - achado: >
+      Slide 2: no layout poster-scene o anel laranja ocupa cerca de x 495 a 705
+      e y 560 a 770, e a foto começa em x 620. As 3 linhas de display de 80px
+      cruzavam os 2: "O melhor mês" entrava por baixo da foto e "caixa curto."
+      passava por cima do traço do anel. Nenhum gate mede sobreposição.
+    correcao: >
+      Manchete reescrita para 3 linhas de no máximo 8 caracteres, "Vendeu. E não
+      recebeu.", que terminam antes de x 450 e ficam livres do anel e da foto
+      em qualquer altura em que a pilha ancorada embaixo caia. Vale registrar
+      como técnica: no poster-scene o corredor seguro de texto é x < 495 na
+      faixa vertical do anel e x < 620 acima dela, e a posição vertical do bloco
+      depende do número de linhas do closing, então a regra robusta é encurtar
+      as LINHAS, não contar com onde o bloco vai cair.
+  - achado: >
+      Slide 3: no poster-lines o anel grande da direita entra até cerca de x 760
+      na altura da primeira linha, e "61% pagam a empresa" terminava em x 810,
+      com o "a" final sobre o traço.
+    correcao: >
+      O primeiro bloco passou de 2 para 3 linhas mais curtas ("61% pagam a /
+      empresa com a / conta pessoal."), o que sobe o bloco e encurta as linhas
+      ao mesmo tempo. Texto idêntico, quebra diferente.
+  - achado: >
+      Slide 4: o realce preto do accent estava na primeira linha do bloco, como
+      a direção visual manda desde a zx-29, mas a segunda linha começava com "É"
+      maiúsculo acentuado e o acento ficava escondido atrás da caixa do realce.
+      Caso novo, não registrado: a regra da primeira linha resolve o corte da
+      linha DE CIMA, e não o do acento da linha DE BAIXO.
+    correcao: >
+      Accent reescrito de "E receber não / é sobrar." para "E receber não / quer
+      dizer sobrar.", que começa a segunda linha com letra sem acento. Fica como
+      regra de construção: no bloco com realce, a linha seguinte à do realce não
+      deve começar com maiúscula acentuada.
+  - achado: >
+      Slide 7: com a foto do caderno em pos "50% 50%", o caderno claro caía
+      dentro da banda de texto e as 3 primeiras linhas do corpo passavam sobre
+      ele. É o caso 1 da seção de enquadramento: o G5 mede contraste contra o
+      fundo declarado no CSS e passou em 3.38:1 com a tinta disputando espaço
+      com o papel claro.
+    correcao: >
+      scale 1.22 com origin "50% 0%", que ancora no topo e empurra o caderno
+      para o rodapé, abaixo do corpo. A foto é retrato mais alta que 0.8, então
+      o Y de pos também move, mas sozinho não bastava: o que tira o assunto da
+      banda é a escala com origem no topo. A tinta não foi clareada.
+  - achado: >
+      G6 reprovou 3 vezes na primeira geração, nos parágrafos de apoio dos
+      slides 1, 2 e 3, sempre com a última linha em 11% a 14% da linha mais
+      larga.
+    correcao: >
+      As 3 frases finais foram reescritas, não quebradas, seguindo o que a
+      direção visual registra desde a zx-28: quebra autoral em parágrafo longo
+      troca o G6 vermelho pelo G7 vermelho.
+  - achado: >
+      Slide 6: no poster-statement a linha mais larga do corpo chega perto do
+      anel, que é a pendência de template registrada desde a zx-28. Conferido no
+      render em tamanho real: o corpo tem 4 linhas renderizadas e o bloco fica
+      abaixo da faixa vertical do anel, sem encostar.
+    correcao: >
+      Nenhuma. A técnica registrada na zx-30, reduzir o número de linhas até o
+      bloco cair abaixo de 71% da altura, foi aplicada desde a escrita: o corpo
+      nasceu com 168 caracteres.
+
+memory:
+  estado: >
+    A Zionaxs Memory NÃO estava no checkout no início da sessão, como em toda
+    execução em nuvem. Foi anexada com add_repo e clonada em
+    /home/user/zionaxs-memory antes de qualquer decisão editorial.
+  consequencia: >
+    Os códigos editoriais desta peça (M03, JE2, JE4) foram lidos nas notas
+    canônicas 19b e 19c, não copiados da peça anterior, e a regra de variedade
+    deliberada da 19a §6 foi lida antes de escolher o tema. A verificação A9 da
+    auditoria confere a existência dos códigos; a pertinência foi decidida
+    lendo a matriz.
+  proposta_para_a_inbox: >
+    A pesquisa Hábitos Financeiros dos Pequenos Negócios, do Sebrae, é fonte
+    nova e não está no ledger da 19a. Vale promovê-la a [S] com a ficha do que
+    foi conferido (61%, 10%, recorte por setor, 95% de confiança, 5% de margem)
+    e com a lacuna explícita de amostra e período da edição 2025.
+
+trilha:
+  campo: trilha_sugerida
+  origem: Meta Sound Collection
+  pendencia: >
+    O índice da coleção de trilhas vive fora do repositório e a variável de
+    ambiente está vazia nesta sessão em nuvem, então o nome da faixa é uma
+    indicação de perfil, não uma faixa confirmada no acervo. A escolha final é
+    do Fabiano, no app, entre as instrumentais de andamento constante da Meta
+    Sound Collection. Groove in Bloom já saiu na zx-25 e na zx-26 e não se
+    repete aqui.
+
+ambiente:
+  achado: >
+    O renderizador depende de Playwright e node_modules não é versionado: npm
+    install e npx playwright install --with-deps chromium rodaram sem erro. Não
+    há sharp, Pillow nem ImageMagick no ambiente, então a conversão de PNG para
+    JPEG foi feita com o próprio Chromium do Playwright, por canvas.
+  consequencia: >
+    Vale considerar um bin/exportar-jpg.js versionado no marketing-os, para a
+    conversão deixar de ser um script improvisado por sessão.
