@@ -1,0 +1,78 @@
+{
+  "postId": "17892344739611684",
+  "permalink": "https://www.instagram.com/p/Dc0wG4QG9Xu/",
+  "shortcode": "Dc0wG4QG9Xu",
+  "publishedAt": "2026-09-03T11:54:51+0000",
+  "publishedAtFortaleza": "03/09/2026, 08:54:51",
+  "slot": "08:30 BRT, dia util, papel de descoberta, tensao atual, curiosidade ou pauta encaminhavel",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17906834325501214",
+  "childContainers": [
+    "17906834184501214",
+    "17906834187501214",
+    "17906834190501214",
+    "17906834247501214",
+    "17906834238501214",
+    "17906834241501214",
+    "17906834244501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-31-faturou-nao-e-caixa/out/jpg/zx-31-faturou-nao-e-caixa-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18089595851432081",
+    "18115222621976910",
+    "18174331003447049",
+    "17983605246070238",
+    "17987851887111378",
+    "18090194519647781",
+    "17955346158219084"
+  ],
+  "digest": "db180f3587ff8bb5209a3cba8ea11cf004f6027c3205fc12e5d4fbca2f5557e9",
+  "commit": "3b90d9d",
+  "reconciledAt": "2026-09-03T11:56:00+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 1583 caracteres, abaixo do teto de 2200",
+    "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 1 unico post em 03/09/2026; o anterior e a zx-30 de 02/09/2026",
+    "identidadeAntesDePublicar": "INSTAGRAM_GET_USER_INFO ao vivo antes de criar qualquer conteiner: id 37965311306447572, username zionaxs_, conta MEDIA_CREATOR. Confere com a unica conta autorizada."
+  },
+  "cota": {
+    "fonte": "INSTAGRAM_GET_IG_USER_CONTENT_PUBLISHING_LIMIT antes de criar os conteineres",
+    "usoNaJanela": 1,
+    "limite": 100,
+    "janelaSegundos": 86400
+  },
+  "porteiro": {
+    "comando": "node bin/pode-publicar.js zx-31-faturou-nao-e-caixa --root ../workspace",
+    "resultado": "liberado",
+    "gates": "14/14",
+    "cadencia": "0/2 no dia 03/09/2026, fuso America/Fortaleza, limite pela politica da marca com override declarado",
+    "excecao": "nenhuma. Nao foi usado --excecao e a politica de publicacao da marca nao foi tocada."
+  },
+  "semIncidente": {
+    "nota": "O pai entrou em FINISHED de primeira e publicou na primeira tentativa, sem o ERROR que a zx-30 enfrentou em 3 rodadas. Os 7 filhos foram criados do zero nesta execucao e nenhum conteiner foi reaproveitado, que e a licao registrada na zx-30."
+  },
+  "trilha": {
+    "campo": "trilha_sugerida",
+    "estado": "pendente de adicao manual pelo Fabiano, editando o post no app",
+    "origemExigida": "Meta Sound Collection",
+    "perfil": "instrumental, andamento constante e sobrio, grave presente, sem letra e sem virada dramatica"
+  }
+}

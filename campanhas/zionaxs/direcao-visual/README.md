@@ -95,6 +95,20 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   por outro. A quebra autoral só resolve quando **todas** as linhas do bloco são declaradas, o que na prática limita o
   recurso a blocos curtos (manchete, apoio, `accent`). Em parágrafo de corpo que quebra sozinho em muitas linhas, a saída
   para a órfã é **reescrever a frase final**, não quebrá-la.
+- **A linha seguinte à do realce não começa com maiúscula acentuada.** Aprendido na zx-31, 03/09/2026, e é o par que
+  faltava da regra da zx-29. Pôr o `hl` na primeira linha resolve o corte da linha DE CIMA, e não o da linha DE BAIXO: a
+  caixa do realce tem padding vertical e a altura de linha do display é `.98`, então a borda inferior da caixa cobre a
+  faixa onde vive o acento da linha seguinte. No `poster-turn` da zx-31 o accent "E receber não / é sobrar." teve o
+  acento do "É" escondido atrás da caixa; virou "E receber não / quer dizer sobrar." e o problema sumiu. **Nenhum gate
+  mede isso.**
+- **Corredor de texto do `poster-scene` e do `poster-lines`.** Aprendido na zx-31. Nos 2 layouts a geometria laranja e a
+  foto invadem a coluna de texto, e nenhum gate mede sobreposição. No `poster-scene` o anel ocupa aproximadamente x 495 a
+  705 e y 560 a 770, e a foto começa em x 620: as linhas de display precisam terminar antes de x 495 na faixa do anel e
+  antes de x 620 acima dela, o que dá cerca de 8 caracteres no display de 80px e cerca de 12 acima do anel. No
+  `poster-lines` o anel grande entra até cerca de x 760 na altura da primeira linha, o que dá cerca de 17 caracteres no
+  display de 64px. E há uma armadilha: **a posição vertical do bloco depende do número de linhas do `closing`**, porque a
+  pilha é ancorada embaixo. Mudar o texto de apoio move a manchete. Por isso a regra robusta é encurtar as LINHAS até
+  caberem no corredor mais estreito, e não calcular onde o bloco vai cair.
 
 ## Como o padrão se sustenta sozinho
 
