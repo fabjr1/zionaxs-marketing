@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-32-falta-nao-e-um-numero",
+  "generatedAt": "2026-09-03T16:20:52+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-32-falta-nao-e-um-numero-slide-01.png",
+    "zx-32-falta-nao-e-um-numero-slide-02.png",
+    "zx-32-falta-nao-e-um-numero-slide-03.png",
+    "zx-32-falta-nao-e-um-numero-slide-04.png",
+    "zx-32-falta-nao-e-um-numero-slide-05.png",
+    "zx-32-falta-nao-e-um-numero-slide-06.png",
+    "zx-32-falta-nao-e-um-numero-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O diagnóstico 01/07 A cadeira vazia tem 4 causas. Falta não é 1 número. O horário marcado que não aconteceu chega ao relatório como 1 percentual só. Esse percentual junta 4 situações diferentes, com causas diferentes e correções diferentes, e por isso ele não diz o que mudar na segunda de manhã. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8 · foto: Branislav Rodman"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Marcou. E não veio. O horário estava reservado, a sala estava livre e a hora passou. No fim do mês isso vira 1 percentual, do lado de outras faltas que não têm nada a ver com essa. Quem lê só o percentual conclui que precisa lembrar mais gente, e compra 1 aviso automático. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8 · foto: Eric Rothermel"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 39% marcavam pela Internet. E não existe média nacional. O primeiro número é da TIC Saúde 2024, do Cetic.br, que ouviu estabelecimentos de saúde privados com Internet: 39% ofereciam agendamento pela Internet e 31% ofereciam interação com a equipe. Na maioria, portanto, a marcação ainda passa por uma pessoa e a origem dela não fica registrada. O segundo é o que falta: não existe levantamento nacional de falta em clínica privada, então o único percentual que serve para você decidir é o da sua própria agenda. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 4 faltas. 1 número só. Cada uma pede outra resposta. Somar as 4 em 1 percentual esconde o que decide a ação. Aviso automático serve para quem marcou e ninguém confirmou. Não serve para quem confirmou e não veio, nem para quem marcou com muitas semanas de antecedência, nem para o horário que ficou vazio depois de 1 cancelamento tardio. E 3 dessas 4 causas não dependem de quem faltou. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 4 semanas, 1 letra por falta. NNão confirmou: marcou e ninguém falou com ela depois. Aqui o lembrete resolve. EEsqueceu: confirmou que vinha e não veio. Mais 1 aviso não muda esse caso. LLonge demais: marcou com muitas semanas de antecedência. Abra a agenda mais perto. CCancelou tarde: o horário ficou vazio e ninguém entrou. Falta lista de espera. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 4 letras não enchem a agenda. Elas só dizem onde mexer. Contar falta por causa não recupera o horário perdido, e 4 semanas mostram o mês, não a sazonalidade. Serve para 1 coisa: parar de tratar 4 problemas como se fossem 1. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 1 letra ao lado de cada falta. Depois conte qual apareceu mais. Abra a agenda da semana passada e escreva N, E, L ou C ao lado de cada horário que não aconteceu. Repita por 4 semanas. A letra mais frequente é a que diz onde mexer primeiro, e as outras 3 podem esperar. Temas: Agenda / Falta / Capacidade @zionaxs_ · ref 744f76c8 · foto: nrd"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.9,
+  "digest": "f4b525037dc4748c1c82a7a523d3f8f698763a0d0137212efdc9862f012bdf8b"
+}

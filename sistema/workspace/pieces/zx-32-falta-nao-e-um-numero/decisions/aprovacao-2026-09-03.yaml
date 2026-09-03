@@ -1,0 +1,228 @@
+decisao: aprovar e publicar a zx-32, slot da tarde de dia útil
+data: 2026-09-03
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca. O porteiro reprovou 1 vez, por legenda acima do teto, e a resposta
+    foi encurtar o contrato, não afrouxar a trava.
+  registro_anterior: pieces/zx-31-faturou-nao-e-caixa/decisions/aprovacao-2026-09-03.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, quinta-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede a peça de método, e não a de tensão. Por isso a
+    estrutura entrega uma taxonomia com 4 itens no slide 5, que é o quadro para
+    salvar, e a manchete entra por um diagnóstico ("a cadeira vazia tem 4
+    causas") em vez de por uma constatação de perda. A ação é de recepção, dura
+    4 semanas e não exige comprar nada, o que a separa da ação de 10 minutos da
+    peça da manhã.
+
+tema:
+  escolhido: falta não é 1 número, são 4 causas com 4 correções diferentes
+  matriz: M02
+  por_que: >
+    Linha M02 da matriz editorial, "falta sem causa conhecida", com objetivo
+    declarado de "medir no-show por coorte", nunca usada em nenhuma peça. As 12
+    anteriores ocupam M08 (zx-19), M11 (zx-20), M19 (zx-21 e zx-22), M18 (zx-23,
+    zx-24 e zx-25), M20 (zx-27), M17 (zx-28), M09 (zx-29), M12 (zx-30), M03
+    (zx-31) e a zx-26, que saiu sem matriz declarada por ausência da Memory
+    naquela execução. Nenhuma delas trata da hora reservada que não aconteceu:
+    a família de dor "Previsibilidade" da 19a §10.1 só foi tocada de lado, pela
+    zx-24, e ali pelo ângulo de fila e prazo, não de agenda vazia.
+  variedade_deliberada: >
+    A peça da manhã de hoje, a zx-31, é V1 persona P1 e trata de dinheiro que
+    entra na conta. Esta continua em V1 mas troca a persona primária para P2, o
+    gestor de operação, que é quem a 19b descreve como cobrado por resultado sem
+    autoridade sobre o processo. Assunto, evidência, fonte e ação são outros:
+    lá era Sebrae e extrato bancário, aqui é TIC Saúde e agenda da recepção.
+  distancia_da_peca_anterior: >
+    A zx-31 saiu às 11h54 de hoje com "faturar não é receber". Não há
+    sobreposição de tema, de fonte, de persona primária nem de tipo de ação. A
+    única semelhança é estrutural, que é a da família de layouts.
+  desejo_primeiro: >
+    A dica prática é a contagem por letra, N, E, L e C, ao lado de cada horário
+    perdido, por 4 semanas. Não depende de comprar sistema, e a peça diz
+    explicitamente que o lembrete automático resolve 1 das 4 causas, o que é o
+    contrário de empurrar ferramenta. O dado da TIC Saúde entra como tempero no
+    slide 3, e não como o post inteiro.
+  jtbd:
+    - JF2 (quando a agenda parece cheia mas a produção não acontece, quero medir no-show por canal e procedimento)
+    - JO1 (quero um checklist que a recepção execute sem mim)
+  repertorio: >
+    R9, W. Edwards Deming, no modo paráfrase. Ele entra apresentado ao leitor
+    ("estatístico americano que criou um método de gestão pela qualidade"),
+    sem aspas e sem frase atribuída, porque a 19c §12.1 só permite citação
+    literal com redação conferida na fonte, e esta sessão não abriu a página do
+    Deming Institute. A tensão editorial de R9, culpa individual contra desenho
+    do sistema, é exatamente a da peça: 3 das 4 causas não dependem de quem
+    faltou.
+
+evidencia:
+  fonte_principal: >
+    TIC Saúde 2024, do Cetic.br, indicador C1 de serviços oferecidos pela
+    Internet aos pacientes: 39% dos estabelecimentos de saúde privados com
+    Internet ofereciam agendamento pela Internet e 31% ofereciam interação com
+    a equipe. Fonte já no ledger da Zionaxs Memory como [S2], relida nesta
+    execução com a Memory clonada no checkout.
+  a_lacuna_como_argumento: >
+    A 19a §16.3 declara que taxa privada de no-show é NC: não há dado nacional,
+    independente e recente. Em vez de contornar a lacuna, a peça a usa como
+    metade da unidade de evidência, no slide 3 ("E não existe média nacional"),
+    porque ela sustenta diretamente a tese: se não existe média, o único
+    percentual que decide alguma coisa é o da própria agenda.
+  numero_descartado: >
+    Os 38,6% em consultas e 32,1% em exames do estudo de absenteísmo em rede
+    pública especializada do Espírito Santo, [S14], NÃO entraram na peça nem na
+    legenda. A 19a §16.2 lista o transporte desse número para clínica privada
+    como erro já identificado, e um percentual desses em slide de carrossel é
+    exatamente o que vira captura de tela fora de contexto. A legenda cita só a
+    existência do estudo, com a ressalva de universo, e o percentual fica em
+    caption_sources, que é rastreabilidade e não vai ao leitor.
+  limite_do_39: >
+    O indicador mede oferta do canal, não uso dele, e a TIC Saúde ouve
+    estabelecimentos de saúde, não clínicas privadas independentes. Os 2
+    limites estão no research_brief e a peça fala de "estabelecimentos", não de
+    "clínicas", tanto no slide 3 quanto na legenda.
+
+revisao_humana_do_passo_6:
+  - achado: >
+      G4 reprovou na primeira geração, com 3 elementos do chrome do slide 4
+      fora da área segura, um deles em top -11. É o comportamento registrado na
+      direção visual: o bloco de meta e o corpo vivem na mesma pilha ancorada
+      embaixo, então corpo longo empurra ano, kicker e paginação para fora do
+      quadro.
+    correcao: >
+      O corpo do poster-turn passou de 553 para 332 caracteres, tirando dele a
+      paráfrase de Deming, que ficou só na legenda. Vale como número prático: o
+      corpo do poster-turn cabe em cerca de 340 caracteres, que é a ordem de
+      grandeza do que a zx-31 usou (336). Acima disso o G4 reprova, e ele
+      reprova no CHROME, não no texto que cresceu, o que torna a mensagem de
+      erro pouco óbvia na primeira leitura.
+  - achado: >
+      Slide 1: no crop original, "2026" e o kicker caíam sobre o encosto claro
+      das cadeiras, que sobrevive ao scrim como cinza médio. A manchete já
+      estava sobre os assentos escuros e legível, mas o caso 1 da seção de
+      enquadramento vale para o chrome também. Nenhum gate mede isso: o G5
+      passou em 3.38:1 medindo contra o fundo declarado no CSS.
+    correcao: >
+      scale 1.15 com origin "50% 100%". A foto tem exatamente 0.8 de proporção,
+      então o pos não move nada em nenhum eixo, e a escala é o único recurso.
+      Ancorada embaixo, ela empurra os encostos claros para cima e traz os
+      assentos escuros para a banda do chrome e da manchete. Testado antes em
+      1.3, que resolvia o texto mas fechava tanto o enquadramento que a fileira
+      de cadeiras deixava de se ler como fileira, e a cena concreta é a fileira.
+      A tinta não foi clareada em nenhum momento.
+  - achado: >
+      Slide 2: com o closing em 365 caracteres, o corpo começava em torno de
+      y 690 e as 2 primeiras linhas cruzavam o anel laranja do poster-scene, que
+      ocupa cerca de x 495 a 705 e y 560 a 770. As linhas de display estavam
+      curtas e livres, como a direção visual manda desde a zx-31; o que colidiu
+      foi o CORPO, que ninguém tinha registrado ainda.
+    correcao: >
+      Closing encurtado de 365 para 251 caracteres, o que tira 3 linhas do bloco
+      e, como a pilha é ancorada embaixo, faz o corpo inteiro descer para
+      começar abaixo de y 770, livre do anel. Fica como regra de construção
+      nova: no poster-scene não basta encurtar as LINHAS do display, é preciso
+      limitar o closing a cerca de 7 linhas renderizadas, ou seja, em torno de
+      260 caracteres, senão o corpo sobe para dentro da faixa vertical do anel.
+  - achado: >
+      Slide 4: o accent era "Cada uma pede / outra correção.", com o realce na
+      primeira linha, como manda a regra da zx-29. Mesmo assim a borda inferior
+      da caixa do realce passava sobre o "Ã" de CORREÇÃO, porque a caixa vai de
+      x 80 a 745 e o Ã cai justamente embaixo dela. A regra da zx-31 dizia que a
+      linha seguinte não deve COMEÇAR com maiúscula acentuada; este caso mostra
+      que a regra é mais larga do que isso.
+    correcao: >
+      Accent reescrito para "Cada uma pede / outra resposta.", que não tem
+      acento nenhum na segunda linha. Fica como ampliação da regra: a linha
+      seguinte à do realce não deve ter maiúscula acentuada em NENHUMA posição
+      que caia dentro da largura da caixa, e não apenas no começo. Nenhum gate
+      mede isso.
+  - achado: >
+      Slide 7: a foto da estação de trabalho tem o tampo de madeira claro
+      atravessando a banda de texto, e a linha de apoio ficava sobre ele. Caso 1
+      de enquadramento outra vez, e outra vez com o G5 verde.
+    correcao: >
+      scale 1.3 com origin "50% 100%". A foto é retrato de 0.667, mais alta que
+      o campo, então o X do pos não move nada e só o Y desliza; a escala
+      ancorada embaixo é o que traz a poltrona escura e a sombra do chão para a
+      banda de texto e joga a mesa clara para o terço superior, que é onde a
+      direção visual quer o interesse visual. Registrado porque é o espelho
+      exato da correção da zx-31, que precisou de origin "50% 0%" para o caso
+      oposto: lá o objeto claro estava embaixo, aqui está no meio.
+  - achado: >
+      A escolha da foto do slide 2, uma agenda de mês aberta, traz "Martin
+      Luther King, Jr. Day" impresso em uma célula, o que é texto legível dentro
+      da imagem e cai no caso 2 do enquadramento, o mesmo da zx-23.
+    correcao: >
+      Conferido no render em tamanho real: o bloco do poster-scene mostra a
+      página da direita, com os dias 19 a 29 e nenhuma palavra legível. O texto
+      em inglês fica fora do corte e ainda passaria por preto e branco em
+      380x440. Nenhuma correção necessária, mas registrado porque a foto
+      original tem o problema e um crop diferente o traria de volta.
+  - achado: >
+      Slide 6: no poster-statement o anel laranja é a pendência de template
+      aberta desde a zx-28.
+    correcao: >
+      Nenhuma. O corpo nasceu com 168 caracteres e o bloco cai abaixo da faixa
+      vertical do anel. Conferido no render.
+
+porteiro:
+  reprovacao: >
+    A primeira passagem reprovou por legenda com 2277 caracteres, contra o teto
+    de 2200 do Instagram, que virou trava do porteiro na zx-27.
+  correcao: >
+    O parágrafo 5 da legenda foi encurtado de 470 para 262 caracteres, tirando
+    dele os percentuais do estudo do Espírito Santo. Nenhum texto foi movido
+    para caption_sources para caber, o que a 19c §14 proíbe: a única afirmação E
+    que a peça leva ao leitor, os 39% da TIC Saúde, continua com fonte, ano e
+    recorte dentro do corpo da legenda e dentro do próprio slide 3.
+  resultado: >
+    2163 caracteres, 14/14 gates, cadência 1/2 no dia, trilha declarada.
+    Liberado sem exceção.
+
+memory:
+  estado: >
+    A Zionaxs Memory NÃO estava no checkout no início da sessão, como em toda
+    execução em nuvem. Foi anexada com add_repo e clonada em
+    /home/user/zionaxs-memory antes de qualquer decisão editorial.
+  consequencia: >
+    Os códigos editoriais desta peça (M02, JF2, JO1, R9) foram lidos nas notas
+    canônicas 19b e 19c, não copiados da peça anterior. A verificação A9 confere
+    existência; a pertinência foi decidida lendo a matriz e o mapa de personas.
+  proposta_para_a_inbox: >
+    Vale propor à Memory a taxonomia N, E, L e C como repertório próprio da
+    Zionaxs, marcada como H, junto com a leitura de que 3 das 4 causas de
+    horário perdido não dependem de quem faltou. Hoje ela existe só aqui, no
+    contrato desta peça, e é o tipo de conhecimento de marca que transcende o
+    marketing-os. A promoção é humana.
+
+trilha:
+  campo: trilha_sugerida
+  origem: Meta Sound Collection
+  pendencia: >
+    O índice da coleção de trilhas vive fora do repositório e a variável de
+    ambiente está vazia nesta sessão em nuvem, então o nome da faixa é uma
+    indicação de perfil, não uma faixa confirmada no acervo. A escolha final é
+    do Fabiano, no app. Groove in Bloom já saiu na zx-25 e na zx-26 e não se
+    repete aqui.
+
+ambiente:
+  achado: >
+    npm install e npx playwright install --with-deps chromium rodaram sem erro.
+    Continua sem sharp, sem Pillow e sem ImageMagick.
+  autoprogramacao: >
+    A zx-31 registrou em decisions/ que valia versionar um bin/exportar-jpg.js
+    para a conversão de PNG em JPEG deixar de ser um script improvisado por
+    sessão. Feito nesta execução: bin/exportar-jpg.js, com npm run exportar-jpg,
+    convertendo pelo Chromium do Playwright que já é dependência do renderizador.
+    A conversão é determinística e binária, então é da máquina, e uma sessão
+    nova não precisa mais reinventá-la.

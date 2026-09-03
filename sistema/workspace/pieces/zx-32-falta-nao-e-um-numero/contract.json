@@ -1,0 +1,346 @@
+{
+  "id": "zx-32-falta-nao-e-um-numero",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário V1, clínicas, persona P2, gestor profissional de operação, que responde por recepção, agenda e indicadores e é cobrado por resultado sem ter autoridade sobre o processo (M02, dor: falta sem causa conhecida, objetivo: medir no-show por coorte). Secundário V1, persona P1, o dono que acumula atendimento e agenda, e transversal para V2 e V3, porque reunião marcada que não acontece consome a mesma hora reservada em escritório contábil e em advocacia. Cena concreta: a cadeira que ficou vazia no horário que estava marcado, e o percentual único de falta que aparece no relatório do mês. Slot editorial: tarde de dia útil, papel de conteúdo principal, método com 1 tarefa de 4 semanas que a recepção executa sozinha.",
+    "decisao": "Parar de tratar falta como 1 percentual único. Por 4 semanas, escrever 1 letra ao lado de cada horário marcado que não aconteceu: N para quem marcou e ninguém confirmou, E para quem confirmou e não veio, L para quem marcou com muitas semanas de antecedência, C para quem cancelou tarde demais e deixou o horário vazio. No fim, contar as letras e atacar a maior.",
+    "tensao": "A falta chega ao relatório como 1 número só, e 1 número só sugere 1 solução só. Quem vê 'faltaram 12%' compra lembrete automático, que é a resposta certa para 1 das 4 causas e não faz nada pelas outras 3. Pior: 2 dessas causas não são da pessoa que faltou. Marcação feita com muitas semanas de antecedência é decisão de quem abriu a agenda, e horário vazio depois de cancelamento tardio é ausência de lista de espera. A média junta as 4, esconde qual delas domina e ainda empurra a culpa para a recepção e para o cliente.",
+    "evidencia": [
+      {
+        "claim": "39% dos estabelecimentos de saúde privados com acesso à Internet ofereciam agendamento de consulta pela Internet em 2024, e a interação com a equipe pela Internet aparecia em 31%",
+        "status": "E",
+        "fonte": "TIC Saúde 2024, pesquisa do Cetic.br, do Núcleo de Informação e Coordenação do Ponto BR, módulo de serviços oferecidos pela Internet aos pacientes, indicador C1, disponível em https://cetic.br/pt/tics/saude/2024/estabelecimentos/C1. Registrada no ledger de fontes da base de público da Zionaxs como [S2] e relida nesta execução com a Zionaxs Memory clonada no checkout."
+      },
+      {
+        "claim": "não existe levantamento nacional, independente e recente que quantifique a taxa de falta em clínica privada no Brasil",
+        "status": "NC",
+        "fonte": "Declarado como lacuna na política de pesquisa da base de público da Zionaxs, seção 16.3, que lista taxa privada de no-show entre o que as fontes consultadas não cobrem. Conferido nesta execução na nota 19a."
+      },
+      {
+        "claim": "existe estudo brasileiro que mediu absenteísmo em rede pública especializada, com 38,6% em consultas e 32,1% em exames, no Espírito Santo, publicado em 2019",
+        "status": "E",
+        "fonte": "Estudo indexado na SciELO, https://www.scielo.br/j/sdeb/a/BYJbCp6ZBz9NCynKt3h3X3J/. Registrado como [S14] no ledger da base de público. A própria base proíbe usar esse número como referência de clínica privada, porque universo, ano e contexto são outros. Por isso a peça NÃO leva esse percentual para lugar nenhum: nem para os slides nem para a legenda. A legenda cita apenas a existência do estudo, com a ressalva de que ele não descreve o setor privado, e o percentual fica só em caption_sources, que é registro de rastreabilidade. Encurtar a legenda foi exigência do porteiro, que reprovou o corpo em 2277 caracteres contra o teto de 2200 do Instagram."
+      },
+      {
+        "claim": "o gestor de operação de clínica é cobrado por resultado sem ter autoridade sobre o processo, e teme ser culpado por atraso em cascata",
+        "status": "I",
+        "fonte": "[19b] persona P2, linhas de dores, frustrações e riscos. Nota lida nesta execução."
+      },
+      {
+        "claim": "a métrica recomendada para essa persona inclui no-show medido por canal, e não apenas 1 taxa agregada",
+        "status": "I",
+        "fonte": "[19b] persona P2, linha de métricas, e persona P1, linha de métricas que usa e deveria usar. Notas lidas nesta execução."
+      },
+      {
+        "claim": "antes de responsabilizar uma pessoa por um indicador, é preciso olhar entrada, dependência, variação normal, incentivo e restrição do sistema que produz aquele indicador",
+        "status": "I",
+        "fonte": "Paráfrase da ideia de W. Edwards Deming, estatístico americano que criou um método de gestão pela qualidade, conforme a página institucional do Deming Institute registrada como [S38] no repertório de gestão da Zionaxs, item R9. Entra como paráfrase, sem aspas, e não como fala literal."
+      },
+      {
+        "claim": "as 4 causas propostas, N, E, L e C, cobrem a maior parte dos horários perdidos e cada uma pede uma correção diferente",
+        "status": "H",
+        "fonte": null
+      },
+      {
+        "claim": "4 semanas de contagem manual bastam para revelar qual das 4 causas domina em uma agenda",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 39% de estabelecimentos de saúde privados com agendamento pela Internet e os 31% com interação com a equipe pela Internet, da TIC Saúde 2024 do Cetic.br",
+        "a existência do estudo de absenteísmo em rede pública especializada no Espírito Santo, publicado em 2019, citado apenas como prova de que falta se mede"
+      ],
+      "I": [
+        "a leitura de que o gestor de operação é cobrado por um número que ele não controla, e o risco de ser culpado por atraso em cascata",
+        "a recomendação de medir falta por canal em vez de 1 taxa agregada",
+        "a paráfrase de Deming sobre olhar o sistema antes de responsabilizar a pessoa"
+      ],
+      "H": [
+        "a taxonomia N, E, L e C: proposta da Zionaxs para separar as causas, não resultado de pesquisa",
+        "o prazo de 4 semanas e a leitura da letra mais frequente como próximo passo: método proposto, não prática comprovada"
+      ],
+      "NC": [
+        "a taxa de falta em clínica privada no Brasil, sem levantamento nacional conhecido, motivo pelo qual a peça não afirma percentual nenhum de falta",
+        "a proporção entre as 4 causas em uma agenda real, que é justamente o que a contagem de 4 semanas existe para descobrir"
+      ]
+    },
+    "limites": [
+      "A TIC Saúde ouve estabelecimentos de saúde, e os recortes publicados não isolam clínicas privadas independentes de medicina, odontologia e estética. A peça declara a origem no slide 3 e na legenda, e fala de estabelecimentos, não de clínicas.",
+      "O percentual de 39% descreve a oferta de agendamento pela Internet, não quanto dela é usada. Oferecer o canal e ter a marcação registrada por ele são coisas diferentes.",
+      "Não existe taxa nacional de falta em clínica privada. A peça não afirma magnitude nenhuma e diz isso no slide 3.",
+      "O estudo do Espírito Santo mediu rede pública especializada em 2019. Universo, ano e contexto são outros, e por isso o percentual dele não entra na peça nem na legenda: a legenda cita só a existência do estudo, para mostrar que falta é mensurável.",
+      "As 4 letras são proposta da Zionaxs. Uma agenda real pode ter causas que não cabem nelas, como erro de cadastro ou duplicidade de horário, e nesse caso a letra vira 1 quinta categoria.",
+      "Contar falta por causa não recupera o horário perdido. O método serve para escolher onde mexer, não para preencher a agenda de volta.",
+      "4 semanas mostram o padrão do mês, não sazonalidade. Férias, feriado e período de matrícula distorcem qualquer contagem curta.",
+      "A peça não recomenda cobrar sinal nem multa por falta. Isso depende de contrato, de norma profissional e de decisão comercial que não cabem em 1 carrossel."
+    ],
+    "consequencia": "O leitor sai com 1 tarefa de recepção que cabe em 4 semanas, com as 4 causas separadas por letra, e com o entendimento de que uma taxa agregada de falta não indica o que corrigir porque junta problemas com soluções diferentes."
+  },
+  "tese": "Falta não é 1 número, são 4 causas com 4 correções diferentes. Quando elas viram 1 percentual só no relatório, a leitura mais provável é a de esquecimento, e a compra mais provável é a de lembrete automático, que resolve 1 das 4. Separar cada horário perdido por letra durante 4 semanas mostra qual causa domina antes de comprar qualquer coisa.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M02",
+  "jtbd": [
+    "JF2",
+    "JO1"
+  ],
+  "repertorio": {
+    "id": "R9",
+    "modo": "paráfrase",
+    "nota": "Ideia de W. Edwards Deming apresentada ao leitor na legenda, sem aspas e sem atribuir frase literal, com o autor apresentado antes de ser citado. Ela saiu do slide 4 nesta execução: o corpo daquele slide cresceu e empurrou o bloco de meta para fora da área segura, o G4 reprovou, e a correção foi encurtar o contrato. O slide 4 ficou sem ideia-fonte, o que respeita a regra de no máximo 1 por slide."
+  },
+  "cta": "Abrir a agenda da semana passada e escrever N, E, L ou C ao lado de cada horário marcado que não aconteceu, repetindo por 4 semanas.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela afirmação de que falta não é 1 número, reconhecer a cena do horário reservado que não aconteceu, receber a evidência do que existe e do que não existe medido, virar para as 4 causas com correções diferentes, aprender as 4 letras da contagem, ouvir o limite que impede o método de virar promessa de agenda cheia e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-32",
+    "M02",
+    "JF2",
+    "JO1",
+    "R9",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Counter",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque esta peça pede que o leitor guarde 4 letras e o que cada uma significa, e letra cantada disputa exatamente essa atenção. Andamento constante do começo ao fim, sem virada dramática, porque o carrossel tem 1 slide de método que o leitor vai reler mais devagar que os outros. Textura limpa, com pulso regular e marcado, que ajuda a leitura de lista: o slide 5 tem 4 itens em sequência e uma batida estável dá a eles um ritmo de contagem. Prefira faixa mais leve que a da zx-31: aquela peça abria com uma constatação sobre dinheiro que não chegou, e esta é um método de trabalho, com tom de oficina e não de alerta.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação. Nesta peça, evitar ainda trilha de suspense ou de tensão crescente: falta de cliente já é assunto sensível para quem vive de agenda, e trilha de alarme transformaria um método simples em cobrança.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-31 o perfil pedido foi parecido com este."
+  },
+  "caption": [
+    "Todo mundo que trabalha com hora marcada conhece a cena: o horário estava reservado e a pessoa não apareceu. No fim do mês isso vira 1 percentual no relatório, e 1 percentual sugere 1 solução. Quase sempre a mesma: mandar mais lembrete.",
+    "O problema é que esse percentual junta situações diferentes. Tem quem marcou e ninguém confirmou depois. Tem quem confirmou que vinha e não veio. Tem quem marcou com muitas semanas de antecedência e nem lembrava mais. E tem o horário que ficou vazio porque o cancelamento chegou tarde e ninguém entrou no lugar. Lembrete automático resolve bem a primeira. Nas outras 3 ele não muda quase nada.",
+    "As 2 últimas nem são da pessoa que faltou. Marcar com muita antecedência é decisão de quem abriu a agenda daquele jeito. Horário vazio depois de cancelamento tardio é falta de lista de espera. A ideia de W. Edwards Deming, estatístico americano que criou um método de gestão pela qualidade, ajuda aqui: antes de responsabilizar alguém por um indicador, vale olhar o sistema que produz aquele indicador.",
+    "Sobre número: a TIC Saúde 2024, pesquisa do Cetic.br, mostrou que 39% dos estabelecimentos de saúde privados com Internet ofereciam agendamento pela Internet, e 31% ofereciam interação com a equipe. Ou seja, na maioria a marcação ainda passa por uma pessoa, e a origem dela não fica registrada em lugar nenhum.",
+    "Já a taxa de falta em clínica privada no Brasil não tem levantamento nacional conhecido. Existe estudo brasileiro de absenteísmo em rede pública especializada, publicado em 2019, mas é outro universo, outro ano e outro contexto, e ele não descreve o setor privado. A sua própria agenda é o único percentual que vale para decidir.",
+    "O teste cabe em 4 semanas de recepção. Ao lado de cada horário marcado que não aconteceu, escreva 1 letra. N de não confirmou. E de esqueceu mesmo tendo confirmado. L de marcou de longe demais. C de cancelou tarde e o horário ficou vazio. No fim, conte as letras.",
+    "Um cuidado: contar não recupera o horário perdido, e 4 semanas mostram o mês, não a sazonalidade. Comece hoje: abra a agenda da semana passada e escreva a letra de cada falta. A que mais aparecer é onde mexer primeiro."
+  ],
+  "caption_sources": [
+    "Fonte dos 39% e dos 31%: TIC Saúde 2024, pesquisa do Cetic.br, do Núcleo de Informação e Coordenação do Ponto BR, módulo de serviços oferecidos pela Internet aos pacientes, indicador C1, em https://cetic.br/pt/tics/saude/2024/estabelecimentos/C1.",
+    "Limitação do recorte: a TIC Saúde ouve estabelecimentos de saúde, e os indicadores publicados não isolam clínicas privadas independentes de medicina, odontologia e estética. O percentual descreve oferta do canal, não uso dele.",
+    "Fonte do estudo de absenteísmo: artigo indexado na SciELO sobre absenteísmo em consultas e exames especializados na rede pública do Espírito Santo, publicado em 2019, em https://www.scielo.br/j/sdeb/a/BYJbCp6ZBz9NCynKt3h3X3J/. Universo público, não privado, e por isso o número não serve de referência para clínica particular.",
+    "Não há dado nacional, independente e recente sobre taxa de falta em clínica privada no Brasil. Essa lacuna está declarada na base de inteligência de público da Zionaxs, e por isso a peça não afirma percentual nenhum de falta.",
+    "A ideia de W. Edwards Deming entra como paráfrase, sem aspas e sem frase atribuída, a partir da página institucional do Deming Institute sobre a abordagem de sistema, variação, teoria do conhecimento e psicologia.",
+    "A taxonomia N, E, L e C, o prazo de 4 semanas e a leitura da letra mais frequente são proposta da Zionaxs, não resultado de pesquisa.",
+    "Fotos: Branislav Rodman, Eric Rothermel e nrd, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O diagnóstico",
+      "copy": {
+        "title": "A cadeira\nvazia tem\n4 causas.",
+        "accentLine": "Falta não é 1 número.",
+        "hl": "não é 1 número",
+        "sub": "O horário marcado que não aconteceu chega ao relatório como 1 percentual só. Esse percentual junta 4 situações diferentes, com causas diferentes e correções diferentes, e por isso ele não diz o que mudar na segunda de manhã.",
+        "year": "2026",
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8 · foto: Branislav Rodman"
+      },
+      "approved_visible_copy": [
+        "O diagnóstico",
+        "01/07",
+        "A cadeira vazia tem 4 causas.",
+        "Falta não é 1 número.",
+        "O horário marcado que não aconteceu chega ao relatório como 1 percentual só. Esse percentual junta 4 situações diferentes, com causas diferentes e correções diferentes, e por isso ele não diz o que mudar na segunda de manhã.",
+        "2026",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8 · foto: Branislav Rodman"
+      ],
+      "alt": "Slide 1 de 7. A cadeira vazia tem 4 causas, porque falta não é 1 número. O horário marcado que não aconteceu chega ao relatório como 1 percentual só. Esse percentual junta 4 situações diferentes, com causas diferentes e correções diferentes, e por isso ele não diz o que mudar na segunda de manhã. Fotografia escura de uma fileira de cadeiras vazias encostadas em uma parede.",
+      "photo": {
+        "src": "../assets/foto-cadeiras-vazias.jpg",
+        "scale": 1.15,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Marcou.\nE não\nveio."
+        ],
+        "closing": "O horário estava reservado, a sala estava livre e a hora passou. No fim do mês isso vira 1 percentual, do lado de outras faltas que não têm nada a ver com essa. Quem lê só o percentual conclui que precisa lembrar mais gente, e compra 1 aviso automático.",
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8 · foto: Eric Rothermel"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Marcou. E não veio.",
+        "O horário estava reservado, a sala estava livre e a hora passou. No fim do mês isso vira 1 percentual, do lado de outras faltas que não têm nada a ver com essa. Quem lê só o percentual conclui que precisa lembrar mais gente, e compra 1 aviso automático.",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8 · foto: Eric Rothermel"
+      ],
+      "alt": "Slide 2 de 7. Marcou, e não veio. O horário estava reservado, a sala estava livre e a hora passou. No fim do mês isso vira 1 percentual, do lado de outras faltas que não têm nada a ver com essa. Quem lê só o percentual conclui que precisa lembrar mais gente, e compra 1 aviso automático. Papel claro com fotografia em preto e branco de uma agenda de mês aberta sobre a mesa, com quase todos os dias em branco.",
+      "photo": {
+        "src": "../assets/foto-agenda-mes.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "39% marcavam\npela Internet.",
+          "E não existe\nmédia nacional."
+        ],
+        "closing": "O primeiro número é da TIC Saúde 2024, do Cetic.br, que ouviu estabelecimentos de saúde privados com Internet: 39% ofereciam agendamento pela Internet e 31% ofereciam interação com a equipe. Na maioria, portanto, a marcação ainda passa por uma pessoa e a origem dela não fica registrada. O segundo é o que falta: não existe levantamento nacional de falta em clínica privada, então o único percentual que serve para você decidir é o da sua própria agenda.",
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "39% marcavam pela Internet.",
+        "E não existe média nacional.",
+        "O primeiro número é da TIC Saúde 2024, do Cetic.br, que ouviu estabelecimentos de saúde privados com Internet: 39% ofereciam agendamento pela Internet e 31% ofereciam interação com a equipe. Na maioria, portanto, a marcação ainda passa por uma pessoa e a origem dela não fica registrada. O segundo é o que falta: não existe levantamento nacional de falta em clínica privada, então o único percentual que serve para você decidir é o da sua própria agenda.",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8"
+      ],
+      "alt": "Slide 3 de 7. 39% marcavam pela Internet, e não existe média nacional. O primeiro número é da TIC Saúde 2024, do Cetic.br, que ouviu estabelecimentos de saúde privados com Internet: 39% ofereciam agendamento pela Internet e 31% ofereciam interação com a equipe. Na maioria, portanto, a marcação ainda passa por uma pessoa e a origem dela não fica registrada. O segundo é o que falta: não existe levantamento nacional de falta em clínica privada, então o único percentual que serve para você decidir é o da sua própria agenda."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "4 faltas.\n1 número só.",
+        "accent": "Cada uma pede\noutra resposta.",
+        "hl": "Cada uma pede",
+        "ghost": "4",
+        "year": "2026",
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8",
+        "body": "Somar as 4 em 1 percentual esconde o que decide a ação. Aviso automático serve para quem marcou e ninguém confirmou. Não serve para quem confirmou e não veio, nem para quem marcou com muitas semanas de antecedência, nem para o horário que ficou vazio depois de 1 cancelamento tardio. E 3 dessas 4 causas não dependem de quem faltou."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "4 faltas. 1 número só.",
+        "Cada uma pede outra resposta.",
+        "2026",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8",
+        "Somar as 4 em 1 percentual esconde o que decide a ação. Aviso automático serve para quem marcou e ninguém confirmou. Não serve para quem confirmou e não veio, nem para quem marcou com muitas semanas de antecedência, nem para o horário que ficou vazio depois de 1 cancelamento tardio. E 3 dessas 4 causas não dependem de quem faltou."
+      ],
+      "alt": "Slide 4 de 7. 4 faltas, 1 número só, e cada uma pede outra resposta. Somar as 4 em 1 percentual esconde o que decide a ação. Aviso automático serve para quem marcou e ninguém confirmou. Não serve para quem confirmou e não veio, nem para quem marcou com muitas semanas de antecedência, nem para o horário que ficou vazio depois de 1 cancelamento tardio. E 3 dessas 4 causas não dependem de quem faltou. Campo laranja chapado com o número 4 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "4 semanas,\n1 letra por falta.",
+        "items": [
+          {
+            "num": "N",
+            "label": "Não confirmou: marcou e ninguém falou com ela depois. Aqui o lembrete resolve."
+          },
+          {
+            "num": "E",
+            "label": "Esqueceu: confirmou que vinha e não veio. Mais 1 aviso não muda esse caso."
+          },
+          {
+            "num": "L",
+            "label": "Longe demais: marcou com muitas semanas de antecedência. Abra a agenda mais perto."
+          },
+          {
+            "num": "C",
+            "label": "Cancelou tarde: o horário ficou vazio e ninguém entrou. Falta lista de espera."
+          }
+        ],
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "4 semanas, 1 letra por falta.",
+        "N",
+        "Não confirmou: marcou e ninguém falou com ela depois. Aqui o lembrete resolve.",
+        "E",
+        "Esqueceu: confirmou que vinha e não veio. Mais 1 aviso não muda esse caso.",
+        "L",
+        "Longe demais: marcou com muitas semanas de antecedência. Abra a agenda mais perto.",
+        "C",
+        "Cancelou tarde: o horário ficou vazio e ninguém entrou. Falta lista de espera.",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8"
+      ],
+      "alt": "Slide 5 de 7. 4 semanas, 1 letra por falta. N de não confirmou: marcou e ninguém falou com ela depois, e aqui o lembrete resolve. E de esqueceu: confirmou que vinha e não veio, e mais 1 aviso não muda esse caso. L de longe demais: marcou com muitas semanas de antecedência, então abra a agenda mais perto. C de cancelou tarde: o horário ficou vazio e ninguém entrou, e o que falta é lista de espera. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "4 letras não\nenchem a agenda.",
+        "accent": "Elas só dizem\nonde mexer.",
+        "body": "Contar falta por causa não recupera o horário perdido, e 4 semanas mostram o mês, não a sazonalidade. Serve para 1 coisa: parar de tratar 4 problemas como se fossem 1.",
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "4 letras não enchem a agenda.",
+        "Elas só dizem onde mexer.",
+        "Contar falta por causa não recupera o horário perdido, e 4 semanas mostram o mês, não a sazonalidade. Serve para 1 coisa: parar de tratar 4 problemas como se fossem 1.",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8"
+      ],
+      "alt": "Slide 6 de 7. 4 letras não enchem a agenda, elas só dizem onde mexer. Contar falta por causa não recupera o horário perdido, e 4 semanas mostram o mês, não a sazonalidade. Serve para 1 coisa: parar de tratar 4 problemas como se fossem 1."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "1 letra ao lado\nde cada falta.",
+        "hl": "1 letra ao lado",
+        "accent": "Depois conte qual apareceu mais.",
+        "body": "Abra a agenda da semana passada e escreva N, E, L ou C ao lado de cada horário que não aconteceu. Repita por 4 semanas. A letra mais frequente é a que diz onde mexer primeiro, e as outras 3 podem esperar.",
+        "year": "2026",
+        "temas": "Temas: Agenda / Falta / Capacidade",
+        "micro": "@zionaxs_ · ref 744f76c8 · foto: nrd"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "1 letra ao lado de cada falta.",
+        "Depois conte qual apareceu mais.",
+        "Abra a agenda da semana passada e escreva N, E, L ou C ao lado de cada horário que não aconteceu. Repita por 4 semanas. A letra mais frequente é a que diz onde mexer primeiro, e as outras 3 podem esperar.",
+        "2026",
+        "Temas: Agenda / Falta / Capacidade",
+        "@zionaxs_ · ref 744f76c8 · foto: nrd"
+      ],
+      "alt": "Slide 7 de 7. 1 letra ao lado de cada falta, depois conte qual apareceu mais. Abra a agenda da semana passada e escreva N, E, L ou C ao lado de cada horário que não aconteceu. Repita por 4 semanas. A letra mais frequente é a que diz onde mexer primeiro, e as outras 3 podem esperar. Fotografia escura de uma estação de trabalho vazia, com a cadeira afastada da mesa.",
+      "photo": {
+        "src": "../assets/foto-mesa-escura.jpg",
+        "pos": "50% 100%",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

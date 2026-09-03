@@ -13,6 +13,7 @@
     "gen": "node bin/gen.js",
     "console": "node bin/console.js",
     "auditoria": "node bin/auditoria.js",
+    "exportar-jpg": "node bin/exportar-jpg.js",
     "pode-publicar": "node bin/pode-publicar.js"
   },
   "dependencies": {
