@@ -1,0 +1,325 @@
+{
+  "id": "zx-34-a-media-por-pessoa",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário V2, contabilidade, persona C2, gestor de escala contábil, que responde por capacidade, SLA e exceções de uma carteira que cresce e decide quando entra mais 1 pessoa (M10, dor: crescer multiplicando erro, objetivo: capacidade ajustada por regime e mix). Secundário transversal para V1 e V3, porque a clínica que abre agenda nova e o escritório que aceita mais 1 tipo de caso fazem a mesma conta com outra unidade. Cena concreta: a reunião em que alguém diz que a equipe está no limite e a conta que aparece é clientes divididos por pessoas. Slot editorial: tarde de dia útil, papel de conteúdo principal, com 1 framework de 3 passos que se aplica na própria lista de clientes.",
+    "decisao": "Parar de medir capacidade contando clientes por pessoa. Antes de abrir a vaga, separar a carteira em 3 grupos pelo trabalho que cada cliente dá por mês, dar peso a cada grupo, somar e dividir pelo número de pessoas. Refazer a mesma conta com os números de 12 meses atrás e comparar as 2.",
+    "tensao": "Clientes por pessoa é a medida mais usada de capacidade em negócio de serviço e é uma média que só funciona se todo cliente der o mesmo trabalho. Nenhum dá. Pior: a proporção entre leve e pesado não fica parada, porque crescer costuma significar entrar clientes mais complexos, que são os que pagam mais. Então a conta que autorizou a última contratação envelhece sozinha, e a leitura mais provável quando a equipe satura é que falta gente, quando o que mudou foi a composição da carteira.",
+    "evidencia": [
+      {
+        "claim": "a carteira mediana da amostra da pesquisa do Sescon-SP foi de 150 clientes",
+        "status": "E",
+        "fonte": "Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, Sescon-SP com o instituto Vox Populi, 2024, 255 associados respondentes e margem de erro de 5,9%, em https://sescon.org.br/wp-content/uploads/2024/10/PESQUISA-PRECOS-E-SERVICOS-ERRATA.pdf. Registrada como [S21] no ledger de fontes da base de público da Zionaxs e relida nesta execução com a Zionaxs Memory clonada no checkout, na linha T4 da nota 19a, que cita a carteira mediana de 150 clientes na amostra Sescon-SP."
+      },
+      {
+        "claim": "não existe levantamento conhecido de clientes por FTE, churn ou margem em escritórios contábeis brasileiros",
+        "status": "NC",
+        "fonte": "[19a] tabela de segmentos, linha V2, coluna de lacunas: 'Clientes/FTE, churn, margem, adoção real de IA' marcados como NC. É por isso que a peça não afirma benchmark nenhum de clientes por pessoa, e é justamente essa ausência que sustenta o argumento do slide 3."
+      },
+      {
+        "claim": "a amostra do Sescon-SP não representa o Brasil",
+        "status": "E",
+        "fonte": "[19a] seção de riscos de generalização, linha 'Generalizar a pesquisa Sescon-SP para o Brasil', que registra amostra de 255 associados de São Paulo, autorresposta e margem de erro de 5,9%. Por isso a peça diz Estado de São Paulo e declara o recorte na própria copy do slide 3 e na legenda."
+      },
+      {
+        "claim": "capacidade e demanda aparecem como tensão declarada do público, com carteira que cresce mais que a equipe",
+        "status": "I",
+        "fonte": "[19a] tensão T4, capacidade versus demanda, sustentada por agendamento on-line em 39% dos privados [S2] e pela carteira mediana de 150 clientes na amostra Sescon-SP [S21]. Nota lida nesta execução."
+      },
+      {
+        "claim": "a unidade econômica muda por setor, então o mesmo framework serve clínica, contabilidade e advocacia com nomes diferentes",
+        "status": "E",
+        "fonte": "[19c] seção 9 da base de público, nota de contraste marcada como E a partir de [S17] e [S21]: caso na advocacia, carteira recorrente na contabilidade, agenda e capacidade instalada na clínica."
+      },
+      {
+        "claim": "os pesos 1, 2 e 4 e a leitura da comparação com 12 meses atrás são proposta da Zionaxs",
+        "status": "H",
+        "fonte": "Aplicação contemporânea da Zionaxs, marcada como tal na legenda e no slide 6. Não há pesquisa que fixe esses pesos, e por isso a peça manda ajustar e declara que é estimativa, não medição."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a carteira mediana de 150 clientes na amostra do Sescon-SP, com o recorte de 255 associados de São Paulo, margem de erro de 5,9% e publicação em 2024",
+        "a diferença de unidade econômica entre contabilidade, clínica e advocacia, que sustenta a leitura transversal"
+      ],
+      "I": [
+        "a leitura de que capacidade versus demanda é tensão declarada do público, com carteira que cresce mais que a equipe",
+        "a leitura de que crescer costuma trazer clientes mais complexos, coerente com a linha de dores da persona de escala contábil"
+      ],
+      "H": [
+        "os pesos 1, 2 e 4: proposta da Zionaxs para transformar contagem de clientes em unidades de trabalho, não resultado de pesquisa",
+        "a separação em 3 grupos e a comparação com os números de 12 meses atrás, que ninguém mediu como método"
+      ],
+      "NC": [
+        "clientes por FTE, churn e margem em escritórios contábeis brasileiros, marcados como não conhecidos na base de público",
+        "quantas pessoas atendiam a carteira mediana da amostra do Sescon-SP, porque a pesquisa não perguntou"
+      ]
+    },
+    "limites": [
+      "A pesquisa do Sescon-SP tem amostra de 255 associados do Estado de São Paulo, por autorresposta, e não representa o Brasil. A peça diz Estado de São Paulo e não generaliza o número para o país.",
+      "O estudo é de 2024. A peça declara o ano e não trata o número como retrato de hoje.",
+      "O número de 150 clientes entra na peça só como ordem de grandeza de carteira, e nunca como benchmark de capacidade: o denominador dessa conta, quantas pessoas atendiam a carteira, não foi medido.",
+      "Os pesos 1, 2 e 4 são proposta da Zionaxs. Uma operação real pode precisar de outros pesos ou de mais de 3 grupos, e a peça manda ajustar em vez de tratar os números como fixos.",
+      "Estimar em 3 grupos não é medição de hora. A peça diz isso no slide 6 em vez de prometer precisão que o método não tem.",
+      "A peça não recomenda contratar nem deixar de contratar, nem sugere quantos clientes cabem por pessoa. Ela muda a conta que informa essa decisão, que depende de caixa, de contrato e de escolha comercial que não cabem em 1 carrossel.",
+      "A leitura transversal para clínica e advocacia vem da diferença de unidade econômica registrada na base de público, e por isso a peça descreve a cena nos 3 setores sem afirmar magnitude em nenhum deles."
+    ]
+  },
+  "tese": "Clientes por pessoa não mede capacidade, porque a conta supõe que todo cliente dá o mesmo trabalho e a proporção entre leve e pesado muda justamente quando o negócio cresce. Separar a carteira em 3 grupos, dar peso a cada grupo e dividir a soma pelo número de pessoas mostra se falta gente ou se o que mudou foi a composição da carteira.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M10",
+  "jtbd": [
+    "JF5",
+    "JT1"
+  ],
+  "repertorio": {
+    "id": "R9",
+    "modo": "paráfrase",
+    "nota": "Ideia de W. Edwards Deming apresentada ao leitor na legenda, sem aspas e sem atribuir frase literal, com o autor apresentado antes de ser citado. Fica só na legenda, o que respeita a regra de no máximo 1 ideia-fonte por slide e mantém o corpo dos slides dentro dos limites de comprimento que o G4 e o G7 cobram."
+  },
+  "cta": "Abrir a lista de clientes hoje, marcar os 20 primeiros como leve, médio ou pesado, somar os pesos com 1, 2 e 4 e dividir pelo número de pessoas, guardando esse número para a próxima decisão de contratar.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela conta que decide a vaga, reconhecer a cena em que a planilha e a mesa discordam, receber a evidência de que o denominador dessa conta nunca foi levantado, virar para a razão de a conta envelhecer sozinha, aprender os 3 passos, ouvir o limite que impede o método de virar promessa de precisão e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-34",
+    "M10",
+    "JF5",
+    "JT1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Arithmetic",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque os slides 5 e 7 pedem que o leitor faça 1 conta enquanto lê: letra cantada disputa exatamente essa atenção, e letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a peça não tem clímax, tem soma. Textura limpa, com pulso regular e grave presente, que combina com a capa escura de arquivo e com o fechamento na sala vazia. Aqui a nota específica é preferir uma faixa com sensação de contagem, pulso de metrônomo ou marcação seca, porque o assunto é aritmética: a zx-33 pedia sobriedade de decisão, esta pede cadência de cálculo.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach. Nesta peça, evitar ainda trilha de tensão ou suspense: contratar já é decisão cara para quem tem equipe pequena, e trilha ansiosa transformaria 1 método de 3 passos em alarme.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-33 o perfil pedido foi parecido com este."
+  },
+  "caption": [
+    "Todo negócio de serviço chega no dia em que a conta parece simples: são tantos clientes para tantas pessoas, dá tanto por pessoa, e no ano passado dava conta. A conclusão vem sozinha, que é abrir 1 vaga.",
+    "Essa conta supõe uma coisa que nenhuma carteira cumpre, que é todo cliente dar o mesmo trabalho. Uns pedem 1 conferência por mês, outros pedem 4, e a diferença não entra na conta. Pior: a proporção entre eles não fica parada. Conforme o negócio cresce entram os clientes mais complexos, porque são eles que pagam mais. O número por pessoa continua parecido e o trabalho por trás dele já é outro.",
+    "Na Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, feita pelo Sescon-SP com o instituto Vox Populi e publicada em 2024, com 255 associados e margem de erro de 5,9%, a carteira mediana foi de 150 clientes. Quantas pessoas atendiam essa carteira a pesquisa não perguntou, e levantamento de clientes por pessoa não existe no Brasil, nem nesse setor nem nos outros 2. Ou seja, quem se compara a esse tipo de número compara com uma conta que ninguém fez.",
+    "3 passos antes de abrir a vaga. 1. Separe a carteira em 3 grupos pelo trabalho que cada cliente dá por mês: leve, médio e pesado, contando as idas e vindas e não o tamanho do cliente. 2. Dê peso a cada grupo, começando com 1, 2 e 4, e ajuste se a sua realidade for outra. Some os pesos da carteira inteira. 3. Divida a soma pelo número de pessoas, refaça a conta com os números de 12 meses atrás e compare as 2.",
+    "Um cuidado: peso 1, 2 e 4 é estimativa, não medição. Estimar em 3 grupos não substitui medir hora por hora, substitui a conta que você faz hoje, que trata clientes diferentes como se fossem iguais.",
+    "A ideia por trás disso é de W. Edwards Deming, estatístico norte-americano que ajudou a formar o pensamento moderno de qualidade: antes de cobrar de 1 pessoa o resultado de 1 indicador, vale olhar a variação que o próprio sistema cria. A equipe não ficou mais lenta, a carteira ficou mais pesada.",
+    "Comece hoje. Abra a lista de clientes, marque os 20 primeiros como leve, médio ou pesado e some os pesos. Guarde esse número: é ele que a próxima decisão de contratar precisa comparar."
+  ],
+  "caption_sources": [
+    "Fonte dos 150 clientes: Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, Sescon-SP e Vox Populi, publicada em 2024, com 255 associados respondentes e margem de erro de 5,9%, em https://sescon.org.br/wp-content/uploads/2024/10/PESQUISA-PRECOS-E-SERVICOS-ERRATA.pdf",
+    "Limitação do recorte: a amostra é de associados do Sescon-SP, por autorresposta, e não representa o Brasil. Por isso a peça diz Estado de São Paulo e não generaliza o número para o país.",
+    "Lacuna declarada: clientes por FTE, churn e margem em escritórios contábeis brasileiros estão marcados como não conhecidos na base de inteligência de público da Zionaxs. É essa ausência que sustenta a afirmação de que não existe benchmark confiável de clientes por pessoa.",
+    "A leitura transversal para clínica e advocacia vem da diferença de unidade econômica registrada na base de público da Zionaxs: caso na advocacia, carteira recorrente na contabilidade, agenda e capacidade instalada na clínica.",
+    "Os pesos 1, 2 e 4, a separação em 3 grupos e a comparação com os números de 12 meses atrás são proposta da Zionaxs, não resultado de pesquisa. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: paráfrase da ideia de W. Edwards Deming sobre olhar o sistema antes de responsabilizar a pessoa por 1 indicador. Sem aspas, sem citação literal, e com o autor apresentado ao leitor.",
+    "Fotos: Leiada Krözjhen, Wesley Tingey e Joshua Davis, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "A conta que\ndecide a vaga.",
+        "accentLine": "Ela envelheceu.",
+        "hl": "Ela envelheceu.",
+        "sub": "Dividir a carteira pelo número de pessoas supõe que todo cliente dá o mesmo trabalho. Nenhuma carteira funciona assim, e a diferença entre eles aumenta justamente quando o negócio cresce.",
+        "year": "2026",
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d · foto: Leiada Krözjhen"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "A conta que decide a vaga.",
+        "Ela envelheceu.",
+        "Dividir a carteira pelo número de pessoas supõe que todo cliente dá o mesmo trabalho. Nenhuma carteira funciona assim, e a diferença entre eles aumenta justamente quando o negócio cresce.",
+        "2026",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d · foto: Leiada Krözjhen"
+      ],
+      "alt": "Slide 1 de 7. A conta que decide a vaga envelheceu. Dividir a carteira pelo número de pessoas supõe que todo cliente dá o mesmo trabalho. Nenhuma carteira funciona assim, e a diferença entre eles aumenta justamente quando o negócio cresce. Fotografia escura de uma prateleira de arquivo com pastas e caixas de documentos de espessuras bem diferentes.",
+      "photo": {
+        "src": "../assets/foto-arquivo-escuro.jpg",
+        "pos": "70% 50%",
+        "scale": 1.6,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Aqui\nninguém\né média."
+        ],
+        "closing": "Na planilha eles são 1 número por pessoa. Na mesa eles são pilhas de alturas diferentes. Uns pedem 1 conferência por mês, outros pedem 4, e essa diferença não aparece na conta que decide contratar.",
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d · foto: Wesley Tingey"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Aqui ninguém é média.",
+        "Na planilha eles são 1 número por pessoa. Na mesa eles são pilhas de alturas diferentes. Uns pedem 1 conferência por mês, outros pedem 4, e essa diferença não aparece na conta que decide contratar.",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d · foto: Wesley Tingey"
+      ],
+      "alt": "Slide 2 de 7. Aqui ninguém é média. Na planilha eles são 1 número por pessoa. Na mesa eles são pilhas de alturas diferentes. Uns pedem 1 conferência por mês, outros pedem 4, e essa diferença não aparece na conta que decide contratar. Papel claro com fotografia em preto e branco de várias pilhas de documentos de alturas bem diferentes sobre uma mesa de escritório.",
+      "photo": {
+        "src": "../assets/foto-pilhas-diferentes.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "150 clientes\nna mediana.",
+          "Quantas pessoas,\nninguém contou."
+        ],
+        "closing": "O número vem da Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, feita pelo Sescon-SP com o instituto Vox Populi e publicada em 2024, com 255 associados e margem de erro de 5,9%: a carteira mediana foi de 150 clientes. Quantas pessoas atendiam essa carteira a pesquisa não perguntou, e levantamento de clientes por pessoa não existe no Brasil, nem nesse setor nem nos outros 2.",
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "150 clientes na mediana.",
+        "Quantas pessoas, ninguém contou.",
+        "O número vem da Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, feita pelo Sescon-SP com o instituto Vox Populi e publicada em 2024, com 255 associados e margem de erro de 5,9%: a carteira mediana foi de 150 clientes. Quantas pessoas atendiam essa carteira a pesquisa não perguntou, e levantamento de clientes por pessoa não existe no Brasil, nem nesse setor nem nos outros 2.",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d"
+      ],
+      "alt": "Slide 3 de 7. 150 clientes na mediana, e quantas pessoas ninguém contou. O número vem da Pesquisa de Preços e Serviços Contábeis do Estado de São Paulo, feita pelo Sescon-SP com o instituto Vox Populi e publicada em 2024, com 255 associados e margem de erro de 5,9%: a carteira mediana foi de 150 clientes. Quantas pessoas atendiam essa carteira a pesquisa não perguntou, e levantamento de clientes por pessoa não existe no Brasil, nem nesse setor nem nos outros 2."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "A conta\nenvelheceu.",
+        "accent": "A carteira mudou.",
+        "hl": "A carteira mudou.",
+        "ghost": "3",
+        "year": "2026",
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d",
+        "body": "Toda carteira tem cliente leve e cliente pesado, e a proporção entre eles não fica parada. Conforme o negócio cresce entram os mais complexos, porque são eles que pagam mais. A contagem por pessoa continua parecida, e o trabalho por trás dela já é outro."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "A conta envelheceu.",
+        "A carteira mudou.",
+        "2026",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d",
+        "Toda carteira tem cliente leve e cliente pesado, e a proporção entre eles não fica parada. Conforme o negócio cresce entram os mais complexos, porque são eles que pagam mais. A contagem por pessoa continua parecida, e o trabalho por trás dela já é outro."
+      ],
+      "alt": "Slide 4 de 7. A conta envelheceu porque a carteira mudou. Toda carteira tem cliente leve e cliente pesado, e a proporção entre eles não fica parada. Conforme o negócio cresce entram os mais complexos, porque são eles que pagam mais. A contagem por pessoa continua parecida, e o trabalho por trás dela já é outro. Campo laranja chapado com o número 3 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "3 passos antes\nde contratar.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Separe a carteira em 3 grupos pelo trabalho que cada cliente dá por mês: leve, médio e pesado. Conte as idas e vindas, não o tamanho do cliente."
+          },
+          {
+            "num": "2",
+            "label": "Dê peso a cada grupo. Comece com 1, 2 e 4, e ajuste se a sua realidade for outra. Some os pesos da carteira inteira."
+          },
+          {
+            "num": "3",
+            "label": "Divida a soma pelo número de pessoas. Refaça a mesma conta com os números de 12 meses atrás e compare os 2 resultados."
+          }
+        ],
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "3 passos antes de contratar.",
+        "1",
+        "Separe a carteira em 3 grupos pelo trabalho que cada cliente dá por mês: leve, médio e pesado. Conte as idas e vindas, não o tamanho do cliente.",
+        "2",
+        "Dê peso a cada grupo. Comece com 1, 2 e 4, e ajuste se a sua realidade for outra. Some os pesos da carteira inteira.",
+        "3",
+        "Divida a soma pelo número de pessoas. Refaça a mesma conta com os números de 12 meses atrás e compare os 2 resultados.",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d"
+      ],
+      "alt": "Slide 5 de 7. 3 passos antes de contratar. 1: separe a carteira em 3 grupos pelo trabalho que cada cliente dá por mês, leve, médio e pesado, contando as idas e vindas e não o tamanho do cliente. 2: dê peso a cada grupo, começando com 1, 2 e 4, e ajuste se a sua realidade for outra, somando os pesos da carteira inteira. 3: divida a soma pelo número de pessoas, refaça a mesma conta com os números de 12 meses atrás e compare os 2 resultados. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Peso 1, 2 e 4\né estimativa.",
+        "accent": "E já muda\na decisão.",
+        "body": "Estimar em 3 grupos não substitui medir hora por hora. Substitui a conta que você faz hoje, que trata clientes bem diferentes como se todos dessem o mesmo trabalho.",
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Peso 1, 2 e 4 é estimativa.",
+        "E já muda a decisão.",
+        "Estimar em 3 grupos não substitui medir hora por hora. Substitui a conta que você faz hoje, que trata clientes bem diferentes como se todos dessem o mesmo trabalho.",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d"
+      ],
+      "alt": "Slide 6 de 7. Peso 1, 2 e 4 é estimativa, e já muda a decisão. Estimar em 3 grupos não substitui medir hora por hora. Substitui a conta que você faz hoje, que trata clientes bem diferentes como se todos dessem o mesmo trabalho."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Classifique 20\nclientes hoje.",
+        "hl": "Classifique 20",
+        "accent": "Antes de abrir a próxima vaga.",
+        "body": "Abra a lista de clientes e marque os 20 primeiros como leve, médio ou pesado. Some os pesos com 1, 2 e 4 e divida pelo número de pessoas. Guarde esse número: é ele que a próxima decisão de contratar precisa comparar.",
+        "year": "2026",
+        "temas": "Temas: Capacidade / Carteira / Contratação",
+        "micro": "@zionaxs_ · ref 0ee9e26d · foto: Joshua Davis"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Classifique 20 clientes hoje.",
+        "Antes de abrir a próxima vaga.",
+        "Abra a lista de clientes e marque os 20 primeiros como leve, médio ou pesado. Some os pesos com 1, 2 e 4 e divida pelo número de pessoas. Guarde esse número: é ele que a próxima decisão de contratar precisa comparar.",
+        "2026",
+        "Temas: Capacidade / Carteira / Contratação",
+        "@zionaxs_ · ref 0ee9e26d · foto: Joshua Davis"
+      ],
+      "alt": "Slide 7 de 7. Classifique 20 clientes hoje, antes de abrir a próxima vaga. Abra a lista de clientes e marque os 20 primeiros como leve, médio ou pesado. Some os pesos com 1, 2 e 4 e divida pelo número de pessoas. Guarde esse número: é ele que a próxima decisão de contratar precisa comparar. Fotografia escura de uma sala de trabalho em penumbra, com uma mesa encostada na parede e uma cadeira de escritório vazia diante da janela.",
+      "photo": {
+        "src": "../assets/foto-cadeira-vazia.jpg",
+        "pos": "50% 50%"
+      }
+    }
+  ]
+}

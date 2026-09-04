@@ -1,0 +1,159 @@
+decisao: aprovar e publicar a zx-34, slot da tarde de dia útil
+data: 2026-09-04
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca. O porteiro liberou na primeira passagem, com 1/2 do dia consumidos
+    pela zx-33, publicada às 08:57 BRT.
+  registro_anterior: pieces/zx-33-o-sim-leva-5-minutos/decisions/aprovacao-2026-09-04.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, sexta-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede o quadro de método, não a tensão encaminhável da manhã.
+    Por isso a peça entra por um diagnóstico ("a conta que decide a vaga
+    envelheceu"), passa por uma evidência com recorte declarado e entrega um
+    framework de 3 passos que se aplica na própria lista de clientes. A peça da
+    manhã, a zx-33, foi de descoberta e falou de intake em advocacia; esta é de
+    método e fala de capacidade em contabilidade, então nem o papel nem o
+    segmento se repetem no mesmo dia.
+
+tema:
+  escolhido: clientes por pessoa não mede capacidade, 3 passos antes de contratar
+  matriz: M10
+  jtbd: [JF5, JT1]
+  repertorio: R9 Deming, em paráfrase, só na legenda
+  por_que: >
+    Linha M10 da matriz editorial, "crescer multiplicando erro", com objetivo
+    declarado de "capacidade ajustada por regime e mix", nunca usada em nenhuma
+    peça. Formato sugerido pela própria linha é "modelo de capacidade" e o CTA
+    sugerido é "ajustar antes de contratar", que é exatamente o papel de método
+    do slot da tarde. A decisão que a peça serve, abrir ou não uma vaga, nunca
+    apareceu em nenhuma das 14 peças publicadas, e o segmento V2 não sai desde a
+    zx-30, de 02/09.
+  variedade_deliberada: >
+    M08 ("retrabalho invisível não cobrado") foi a primeira candidata, por ter
+    evidência dura em [S21], e foi descartada por proximidade de método com a
+    zx-29 (M09): aquela peça já mandou medir horas por cliente durante 2 semanas
+    para então falar de preço, escopo ou saída. Duas peças de "meça as horas que
+    esse cliente consome" em 3 dias seria repetição de payload.
+    M01 (denominadores da agenda) foi descartada pelo mesmo motivo que a zx-33
+    registrou, agora agravado: a zx-32, de ontem à tarde, já tratou de agenda e
+    de hora que não aconteceu, e M01 é o mesmo objeto no mesmo segmento.
+    M04 ("o que perguntar antes de comprar mais um software") foi descartada
+    porque a zx-28 já entregou "3 perguntas antes de automatizar" e a zx-27 já
+    entregou a interoperabilidade como diagnóstico; uma terceira peça sobre
+    perguntas antes de comprar ferramenta repetiria a forma.
+    M13 e M16 foram descartadas por serem V3, o segmento que a peça da manhã de
+    hoje já ocupou.
+    M05, M06 e M15 foram descartadas pelo mesmo critério que a zx-33 registrou:
+    a 19c §15.2 exige "responsável pela revisão" declarado em peça de norma, e
+    esta execução é autônoma, sem humano no circuito para assumir essa revisão.
+
+evidencia:
+  E_principal: >
+    A carteira mediana da amostra foi de 150 clientes. Pesquisa de Preços e
+    Serviços Contábeis do Estado de São Paulo, Sescon-SP com o instituto Vox
+    Populi, publicada em 2024, com 255 associados respondentes e margem de erro
+    de 5,9%. Registrada como [S21] no ledger de fontes da base de público e
+    relida nesta execução na linha T4 da nota 19a, com a Zionaxs Memory clonada
+    no checkout.
+  recorte_declarado_na_peca: >
+    A peça diz "Estado de São Paulo", nomeia o instituto, o ano, o número de
+    respondentes e a margem de erro, no slide 3 e na legenda. A 19a registra
+    explicitamente o risco de generalizar a amostra do Sescon-SP para o Brasil,
+    e por isso a peça não o faz.
+  NC_que_sustenta_o_argumento: >
+    A 19a marca "Clientes/FTE, churn, margem, adoção real de IA" como lacuna
+    conhecida do segmento V2. É essa ausência que autoriza a peça a dizer que
+    não existe levantamento de clientes por pessoa no Brasil, e é ela que
+    transforma a lacuna em argumento em vez de em silêncio.
+  H_declarado: >
+    Os pesos 1, 2 e 4, a separação em 3 grupos e a comparação com os números de
+    12 meses atrás são proposta da Zionaxs, não resultado de pesquisa. O slide 6
+    e a legenda declaram que é estimativa, não medição.
+
+producao:
+  gates: 14/14 na segunda geração
+  digest: f276f019c90d2a81
+  correcoes_de_contrato:
+    - >
+      G6 reprovou 3 blocos com linha órfã abaixo de 18% da linha mais larga:
+      o closing do slide 3 (11%), o item 3 do slide 5 (9%) e o corpo do slide 6
+      (15%). A correção foi reescrever o final de cada frase para alongar a
+      última linha, e não inserir quebra autoral, porque o próprio README de
+      direção visual registra que quebra em parágrafo longo troca G6 vermelho
+      por G7 vermelho.
+  correcoes_de_revisao_humana:
+    - >
+      Nenhum gate mede tinta contra o pixel da foto, e a primeira geração da capa
+      falhou exatamente aí: com photo.pos "70% 50%" o kicker "A ENTRADA" caía
+      sobre as pastas creme da foto de arquivo e ficava quase ilegível, e a
+      primeira linha da manchete pegava a mesma faixa clara. A correção foi de
+      enquadramento, como manda o README: scale 1.6 com origin "50% 100%", que
+      ancora no rodapé e empurra a faixa creme para o terço superior, deixando a
+      banda de texto inteira sobre a caixa verde escura. Nada foi clareado.
+
+fotos:
+  - slide: 1
+    arquivo: foto-arquivo-escuro.jpg
+    autor: Leiada Krözjhen (Unsplash)
+    cena: >
+      Prateleira de arquivo com pastas e caixas de documentos de espessuras bem
+      diferentes. É a mesma cena que a manchete descreve: a carteira não é uma
+      fila de iguais.
+  - slide: 2
+    arquivo: foto-pilhas-diferentes.jpg
+    autor: Wesley Tingey (Unsplash)
+    cena: >
+      Pilhas de documentos de alturas visivelmente diferentes sobre uma mesa de
+      escritório. Encena "aqui ninguém é média" sem metáfora.
+  - slide: 7
+    arquivo: foto-cadeira-vazia.jpg
+    autor: Joshua Davis (Unsplash)
+    cena: >
+      Sala em penumbra com uma cadeira de escritório vazia diante da janela. É a
+      vaga que o fechamento pede para não abrir antes de refazer a conta. O
+      interesse visual fica no terço superior e a banda de texto é escura e
+      quieta, como o README exige.
+  candidatas_descartadas:
+    - >
+      Prateleira de pastas gastas (Mota Ehdaei): rótulos manuscritos legíveis em
+      persa e a data 1360 nas lombadas. A regra aprendida na zx-23 proíbe texto
+      legível na foto, e uma data legível ao lado do 2026 do chrome contradiz a
+      peça.
+    - >
+      Mesa com canetas e caderno (Reyhan Aviseno): placa "DESIGNER OF THE YEAR
+      2020 2022" em primeiro plano, mesmo problema de data legível, agravado por
+      contradizer o ano do chrome.
+    - >
+      Estante de biblioteca antiga (Peter Herrmann): lombadas com títulos e datas
+      do século 18 legíveis, e a leitura semântica é "livros", não "carteira de
+      clientes".
+    - >
+      Pilha de papéis com marcadores coloridos (Tanja Tepavac): rosa, verde e
+      laranja neon brigam com a paleta da marca e a foto é clara demais para o
+      campo escuro.
+
+trilha:
+  perfil: instrumental da Meta Sound Collection, andamento constante, com sensação de contagem
+  por_que: >
+    Os slides 5 e 7 pedem que o leitor faça 1 conta enquanto lê, e letra cantada
+    disputa exatamente essa atenção. A peça não tem clímax, tem soma, então
+    andamento constante e sem virada dramática.
+  licenca: >
+    Meta Sound Collection, liberada para uso comercial. O catálogo popular do app
+    continua fora de cogitação: a licença dele é de uso pessoal e não vale para
+    marca.
+  pendencia: >
+    Esta sessão em nuvem não enxerga o índice do acervo, que vive fora do
+    repositório. O nome "Quiet Arithmetic" é indicação de perfil, não faixa
+    confirmada. A escolha final é do Fabiano, no app, depois de publicado.
