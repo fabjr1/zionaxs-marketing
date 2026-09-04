@@ -1,0 +1,64 @@
+{
+  "postId": "17871072492637174",
+  "permalink": "https://www.instagram.com/p/Dc3z_ZPoGtk/",
+  "shortcode": "Dc3z_ZPoGtk",
+  "publishedAt": "2026-09-04T16:26:35+0000",
+  "publishedAtFortaleza": "04/09/2026, 13:26:35",
+  "slot": "13:00 BRT, dia util, papel de conteudo principal: diagnostico, framework, metodo, evidencia ou tutorial decisorio",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17907018054501214",
+  "childContainers": [
+    "17907017919501214",
+    "17907017916501214",
+    "17907017913501214",
+    "17907017922501214",
+    "17907017988501214",
+    "17907017994501214",
+    "17907017991501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-34-a-media-por-pessoa/out/jpg/zx-34-a-media-por-pessoa-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18124392613894837",
+    "18087169535625761",
+    "18109804265006528",
+    "18147929674499683",
+    "18112118372028698",
+    "18108735512139230",
+    "17900420337572859"
+  ],
+  "digest": "f276f019c90d2a81",
+  "commit": "f70dcea",
+  "reconciledAt": "2026-09-04T16:27:10+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 2163 caracteres, abaixo do teto de 2200",
+    "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 2 posts em 04/09/2026: a zx-33 as 08:57 BRT e esta as 13:26 BRT. Cota do dia 2 de 2, nenhuma duplicata desta peca",
+    "identidadeAntesDePublicar": "INSTAGRAM_GET_USER_INFO ao vivo antes de criar qualquer conteiner: id 37965311306447572, username zionaxs_, 98 posts. Confere com a conta certa; as outras 2 contas conectadas, @fabjr1 e @base3br, nao foram tocadas",
+    "urlPublicaAntesDeEntregar": "os 7 JPEG responderam HTTP 200 em raw.githubusercontent.com, com o tamanho em bytes conferindo com o arquivo local, antes de qualquer URL ser entregue a Meta",
+    "statusDoPaiAntesDePublicar": "INSTAGRAM_GET_POST_STATUS no conteiner pai retornou FINISHED antes do publish, e nao ERROR. Nenhum filho precisou ser recriado, e a receita da zx-30 nao foi acionada",
+    "errosDeTransporte": "nenhum. 7 filhos, 1 pai e 1 publish, todos na primeira tentativa"
+  },
+  "trilha": {
+    "estado": "pendente de escolha humana no app",
+    "perfil": "instrumental da Meta Sound Collection, andamento constante, com sensacao de contagem",
+    "nota": "Carrossel recebe a musica pelo app depois de publicado. A faixa nomeada no contrato e indicacao de perfil, nao faixa confirmada no acervo: esta sessao em nuvem nao enxerga o indice de trilhas, que vive fora do repositorio"
+  }
+}

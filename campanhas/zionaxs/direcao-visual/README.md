@@ -139,6 +139,23 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   começava por volta de y 690, dentro da faixa do anel (y 560 a 770); com 251 ele começa abaixo de y 800 e fica livre.
   **Limite prático: o closing do `poster-scene` cabe em cerca de 260 caracteres, ou 7 linhas renderizadas.** Passar
   disso não reprova gate nenhum, só entrega a peça com o anel riscando o texto.
+- **`origin: "50% 100%"` é o par que faltava do ajuste de crop.** Aprendido na zx-34, 04/09/2026. O texto da zx-23
+  ensina `scale` com `origin: "50% 0%"` para **empurrar o assunto para baixo**, para fora da manchete, e essa é a
+  metade do problema. A outra metade é a foto cujo trecho claro cai bem no meio, na banda de texto: aí a correção é
+  ancorar no rodapé, `origin: "50% 100%"`, que joga o trecho claro **para cima**, para o terço superior, que é
+  justamente onde o README já pede que o interesse visual fique. Na capa da zx-34 a foto de arquivo tinha as pastas
+  creme atravessando a faixa de 40% a 60%: com `pos: "70% 50%"` sozinho o kicker "A ENTRADA" ficava ilegível sobre o
+  papel claro e a primeira linha da manchete pegava a mesma faixa. `scale: 1.6` com `origin: "50% 100%"` levou o creme
+  todo para cima de 30% e deixou a banda de texto inteira sobre a caixa verde escura. Regra prática: **assunto claro
+  abaixo do texto pede origem no topo; assunto claro dentro do texto pede origem no rodapé.** Os 14 gates passaram
+  verdes nas 2 gerações, então quem mede isto é o passo 6.
+- **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
+  isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
+  e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de
+  biblioteca com títulos e datas do século 18, e monitor com uma lista de vídeos legível. A regra da zx-23 já proibia
+  texto legível na foto; o que a zx-34 acrescenta é o **custo**: em busca de acervo, contar com 3 ou 4 descartes por
+  vaga de foto e olhar a imagem antes de escrever o contrato, não depois. Rótulo pequeno de catálogo, sem data e sem
+  frase, passa; qualquer ano legível ao lado do `2026` do chrome não passa.
 
 ## Como o padrão se sustenta sozinho
 
