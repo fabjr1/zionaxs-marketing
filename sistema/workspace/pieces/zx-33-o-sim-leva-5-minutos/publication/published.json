@@ -1,0 +1,65 @@
+{
+ "postId": "17874767007565234",
+ "permalink": "https://www.instagram.com/p/Dc3VOUcmw-T/",
+ "shortcode": "Dc3VOUcmw-T",
+ "publishedAt": "2026-09-04T11:57:43+0000",
+ "publishedAtFortaleza": "04/09/2026, 08:57:43",
+ "slot": "08:30 BRT, dia util, papel de descoberta: tensao atual, curiosidade ou pauta encaminhavel",
+ "accountUsername": "zionaxs_",
+ "igUserId": "37965311306447572",
+ "route": "composio-mcp",
+ "composioAccount": "instagram_ascent-utick",
+ "containerId": "17906983839501214",
+ "childContainers": [
+  "17906983704501214",
+  "17906983713501214",
+  "17906983707501214",
+  "17906983710501214",
+  "17906983782501214",
+  "17906983779501214",
+  "17906983785501214"
+ ],
+ "mediaUrls": [
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-01.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-02.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-03.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-04.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-05.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-06.jpg",
+  "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-33-o-sim-leva-5-minutos/out/jpg/zx-33-o-sim-leva-5-minutos-slide-07.jpg"
+ ],
+ "childMediaIds": [
+  "18113325550800273",
+  "18139062913612204",
+  "18137678746617524",
+  "17954648361214855",
+  "18172919413453736",
+  "17874963021565024",
+  "18152388697514189"
+ ],
+ "digest": "2cb8b28645102f5c",
+ "commit": "aed4336",
+ "reconciledAt": "2026-09-04T11:58:20+0000",
+ "reconciliation": {
+  "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+  "contaConfere": true,
+  "ownerId": "37965311306447572",
+  "username": "zionaxs_",
+  "mediaType": "CAROUSEL_ALBUM",
+  "mediaProductType": "FEED",
+  "slidesEsperados": 7,
+  "slidesConfirmados": 7,
+  "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 1812 caracteres, abaixo do teto de 2200",
+  "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 1 unico post em 04/09/2026, este, as 08:57 BRT; a publicacao anterior e a zx-32, de 03/09/2026 as 13:25 BRT. Cota do dia 1 de 2, nenhuma duplicata desta peca",
+  "identidadeAntesDePublicar": "INSTAGRAM_GET_USER_INFO ao vivo antes de criar qualquer conteiner: id 37965311306447572, username zionaxs_, conta MEDIA_CREATOR. Confere com a unica conta autorizada. As outras 2 contas conectadas no Composio (@fabjr1 e @base3br) nao foram tocadas.",
+  "cotaDePublicacao": "INSTAGRAM_GET_IG_USER_CONTENT_PUBLISHING_LIMIT antes de criar conteiner: 1 de 100 na janela de 24h",
+  "paiEmErro": "nao houve. O conteiner pai foi criado 1 vez, conferido em FINISHED com INSTAGRAM_GET_POST_STATUS antes de publicar, e publicou na primeira tentativa. Nenhum filho precisou ser recriado.",
+  "erroDeTransporte": "nenhum. Nao houve repeticao de chamada de publicacao."
+ },
+ "trilhaSugerida": {
+  "faixa": "Slow Ledger",
+  "origem": "Meta Sound Collection",
+  "estado": "pendente de adicao manual pelo Fabiano, editando o post no app",
+  "nota": "Carrossel recebe musica pelo app depois de publicado. O nome e indicacao de perfil, nao faixa confirmada no acervo: esta sessao em nuvem nao teve acesso ao indice de trilhas. Na Meta Sound Collection, escolher instrumental de andamento constante, sem virada dramatica, textura limpa e grave, e evitar faixa ja usada nas ultimas pecas."
+ }
+}
