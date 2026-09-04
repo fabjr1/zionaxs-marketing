@@ -1,0 +1,330 @@
+{
+  "id": "zx-33-o-sim-leva-5-minutos",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário V3, advocacia, persona A1, advogado gestor solo ou de microescritório, que acumula técnica, atendimento, prazo, financeiro e conteúdo, decide sozinho qual caso entra e depois é quem executa (M14, dor: aceitar caso que destrói margem, objetivo: intake com critério e recusa ética). Secundário transversal para V1 e V2, porque a clínica que encaixa o procedimento fora do padrão e o escritório contábil que aceita o cliente de regime diferente vivem a mesma cena com outro nome. Cena concreta: a conversa curta em que alguém descreve o que precisa, elogia quem vai fazer e pergunta se dá para começar. Slot editorial: manhã de dia útil, papel de descoberta e pauta encaminhável, com 4 perguntas que cabem em 1 papel ao lado do telefone.",
+    "decisao": "Parar de decidir aceite pela descrição que a outra parte deu. Antes de dizer sim, responder 4 perguntas: quem decide do outro lado, quanto tempo do próprio dono aquilo consome por semana, o que sai da agenda para aquilo entrar e como e quando é pago. A pergunta que ficar sem resposta é a que precisa ser respondida primeiro.",
+    "tensao": "A decisão de aceitar leva 5 minutos e compromete semanas. E ela é tomada com a informação mais pobre de todo o ciclo: o que existe naquele momento é a versão que a outra parte contou, que é sempre a mais curta e a mais otimista. Trabalho ruim não chega marcado como ruim, chega mal definido, e escopo mal definido não aparece como problema no dia do sim: aparece 3 semanas depois, quando cada resposta abre outra pergunta e a conta de horas não fecha. Em estrutura pequena não existe ninguém entre o sim e a agenda, porque quem aceita é quem executa.",
+    "evidencia": [
+      {
+        "claim": "72% dos participantes do Perfil ADV atuavam como autônomos",
+        "status": "E",
+        "fonte": "Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, produzido por OAB e FGV, publicado em abril de 2024, com coleta entre 28/08 e 15/10/2023 e 20.885 respostas ponderadas por seccional, sexo e idade, em https://conhecimento.fgv.br/sites/default/files/2025-01/publicacoes/perfil_adv_1o-estudo_demografico_da_advocacia_brasileira.pdf. Registrado como [S17] no ledger de fontes da base de público da Zionaxs e relido nesta execução com a Zionaxs Memory clonada no checkout."
+      },
+      {
+        "claim": "aceitar caso ruim e trabalhar sem receber estão entre os riscos que a persona A1 declara temer",
+        "status": "I",
+        "fonte": "[19b] persona A1, linha de riscos que teme, e linha de exemplos que ressoam, que traz 'caso aceito que consumiu o mês'. Nota lida nesta execução."
+      },
+      {
+        "claim": "a persona A1 não tem intake estruturado nem medição de margem por caso",
+        "status": "I",
+        "fonte": "[19b] persona A1, linha de lacunas. Nota lida nesta execução."
+      },
+      {
+        "claim": "a unidade econômica muda por setor: caso na advocacia, carteira recorrente na contabilidade, agenda e capacidade instalada na clínica",
+        "status": "E",
+        "fonte": "[19b] seção 9, nota de contraste marcada como E de contraste a partir de [S17] e [S21]. É o que autoriza dizer que a mesma cena aparece nos 3 setores com nome diferente, sem afirmar dor específica de setor não pesquisado."
+      },
+      {
+        "claim": "não existe levantamento conhecido que quantifique quantos trabalhos são recusados por critério, nem a margem média por caso ou por procedimento no Brasil",
+        "status": "NC",
+        "fonte": "Lacuna declarada na política de pesquisa da base de público da Zionaxs, seção 16.3, e coerente com a linha de lacunas da persona A1, que registra ausência de medição de margem por caso. Por isso a peça não afirma percentual nenhum de recusa nem de margem."
+      },
+      {
+        "claim": "as 4 perguntas propostas cobrem as causas mais frequentes de aceite ruim: decisor ausente, tempo do dono, custo de oportunidade da agenda e condição de pagamento",
+        "status": "H",
+        "fonte": null
+      },
+      {
+        "claim": "responder as 4 perguntas antes do aceite reduz o número de trabalhos que consomem mais do que devolvem",
+        "status": "H",
+        "fonte": null
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 72% de participantes do Perfil ADV que atuavam como autônomos, com o recorte de 20.885 respostas e publicação em 2024",
+        "a diferença de unidade econômica entre advocacia, contabilidade e clínica, que sustenta a leitura transversal"
+      ],
+      "I": [
+        "a leitura de que aceitar caso ruim é um risco declarado pela persona e não uma suposição da Zionaxs",
+        "a ausência de intake estruturado e de medição de margem por caso nessa persona"
+      ],
+      "H": [
+        "as 4 perguntas: proposta da Zionaxs para trazer o preço para dentro da conversa de aceite, não resultado de pesquisa",
+        "o efeito esperado de responder as 4 antes do sim, que ninguém mediu"
+      ],
+      "NC": [
+        "quantos trabalhos são recusados por critério no Brasil, em qualquer dos 3 setores",
+        "a margem média por caso, por cliente ou por procedimento, motivo pelo qual a peça não promete ganho nenhum"
+      ]
+    },
+    "limites": [
+      "O Perfil ADV retrata advogados em geral, não apenas quem gere escritório. O percentual descreve forma de atuação, não qualidade de intake, e a peça usa o número apenas para mostrar que quem aceita costuma ser quem executa.",
+      "O estudo é de coleta em 2023 e publicação em 2024. A peça declara o ano e não trata o número como retrato de hoje.",
+      "As 4 perguntas são proposta da Zionaxs. Uma operação real pode precisar de uma quinta, por exemplo conflito de interesse ou exigência regulatória do setor.",
+      "Recusar nem sempre é possível. Contrato em vigor, dever profissional e situação de caixa limitam a escolha, e a peça diz isso no slide 6 em vez de prometer que dá para dizer não.",
+      "As 4 perguntas não substituem contrato nem proposta escrita: elas são a conversa que vem antes disso.",
+      "A peça não recomenda preço, reajuste nem multa. Isso depende de norma profissional, de contrato e de decisão comercial que não cabem em 1 carrossel.",
+      "A leitura transversal para clínica e contabilidade vem da diferença de unidade econômica registrada na base de público, e por isso a peça descreve a cena nos 3 setores sem afirmar magnitude em nenhum deles."
+    ],
+    "consequencia": "O leitor sai com 4 perguntas que cabem em 1 papel ao lado do telefone, com o entendimento de que o aceite é uma decisão tomada com a informação mais pobre do ciclo, e com 1 passo para hoje que não depende de sistema, de equipe nem de contrato novo."
+  },
+  "tese": "O sim leva 5 minutos e a conta leva 3 meses. Trabalho ruim não chega marcado como ruim, chega mal definido e com pressa, e a decisão de aceitar é tomada com a versão mais curta e mais otimista que a outra parte contou. Responder 4 perguntas antes do aceite traz o preço para dentro da conversa, enquanto ele ainda é reversível.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M14",
+  "jtbd": [
+    "JF7",
+    "JT2"
+  ],
+  "cta": "Anotar as 4 perguntas em 1 papel hoje, deixar do lado do telefone e responder as 4 antes de dizer sim ao próximo trabalho que aparecer.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela assimetria entre o tempo do sim e o tempo da consequência, reconhecer a cena do trabalho que virou o mês inteiro, receber a evidência de que quem aceita costuma ser quem executa, virar para a razão de o aceite ser a pior decisão informada do ciclo, aprender as 4 perguntas, ouvir o limite que impede o método de virar promessa de recusa fácil e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-33",
+    "M14",
+    "JF7",
+    "JT2",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Slow Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque o slide 5 pede que o leitor guarde 4 perguntas e volte a elas: letra cantada disputa exatamente essa leitura, e letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque o carrossel abre com uma tensão de dinheiro e tempo e não pode soar como alarme. Textura limpa e grave, com pulso regular, que combina com a cor escura da capa e do fechamento e dá ritmo de lista ao slide de método. Prefira algo mais sóbrio que a trilha da zx-32: aquela peça era uma oficina de contagem, esta é uma decisão que envolve dizer não.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach. Nesta peça, evitar ainda trilha de suspense: recusar trabalho já é assunto delicado para quem vive de agenda cheia, e trilha de tensão transformaria 4 perguntas em ameaça.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-32 o perfil pedido foi parecido com este."
+  },
+  "caption": [
+    "Quem vende o próprio tempo conhece a cena. Alguém procura você, é urgente, elogia o seu trabalho e pergunta se dá para começar. A conversa dura 5 minutos e termina com sim. O que ela compromete são semanas.",
+    "Trabalho ruim não chega marcado como ruim. Ele chega mal definido, e é isso que custa caro: cada resposta abre outra pergunta, o escopo cresce sem contrato novo e a conta de horas nunca fecha. No dia do sim nada disso é visível, porque a única informação disponível é a versão que a outra parte contou, que é sempre a mais curta e a mais otimista.",
+    "No Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, feito pela OAB junto com a FGV e publicado em 2024 com 20.885 respostas, 72% dos participantes atuavam como autônomos. Em estrutura assim, quem decide aceitar é a mesma pessoa que vai executar, então não existe ninguém entre o sim e a agenda. Em clínica e em escritório de contabilidade a unidade muda, procedimento ali, carteira aqui, e o efeito é o mesmo.",
+    "As 4 perguntas que cabem antes do sim. 1. Quem decide do outro lado, porque quando a resposta depende de alguém que não está na conversa o trabalho ainda não começou. 2. Quanto tempo seu, e não da equipe, isto consome por semana. 3. O que sai da agenda para isto entrar, porque todo sim é 1 não a outra coisa. 4. Como e quando isto é pago, com entrada, parcelas e o que acontece se atrasar.",
+    "Um cuidado: recusar nem sempre é possível, e trabalho difícil às vezes compensa. As 4 perguntas não decidem por você, elas mostram o preço enquanto ele ainda é reversível. E não substituem contrato: são a conversa que vem antes dele.",
+    "Comece hoje. Anote as 4 perguntas em 1 papel e deixe do lado do telefone. No próximo trabalho que aparecer, responda as 4 antes de dizer sim. A que ficar sem resposta é a que precisa ser respondida primeiro."
+  ],
+  "caption_sources": [
+    "Fonte dos 72%: Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, OAB e FGV, publicado em abril de 2024, coleta entre 28/08 e 15/10/2023, 20.885 respostas ponderadas por seccional, sexo e idade, em https://conhecimento.fgv.br/sites/default/files/2025-01/publicacoes/perfil_adv_1o-estudo_demografico_da_advocacia_brasileira.pdf",
+    "Limitação do recorte: o Perfil ADV retrata advogados em geral, não apenas quem gere escritório, e descreve forma de atuação, não qualidade de intake. O número entra na peça só para sustentar que quem aceita costuma ser quem executa.",
+    "A leitura transversal para clínica e contabilidade vem da diferença de unidade econômica registrada na base de inteligência de público da Zionaxs: caso na advocacia, carteira recorrente na contabilidade, agenda e capacidade instalada na clínica.",
+    "Não há levantamento conhecido sobre quantos trabalhos são recusados por critério, nem sobre margem média por caso, cliente ou procedimento no Brasil. Por isso a peça não afirma percentual nenhum de recusa nem promete ganho de margem.",
+    "As 4 perguntas, a ordem delas e a leitura da pergunta sem resposta como próximo passo são proposta da Zionaxs, não resultado de pesquisa.",
+    "Fotos: chris panas, Giuseppe Famiani e Calvin Wise, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "O sim leva\n5 minutos.",
+        "accentLine": "A conta leva 3 meses.",
+        "hl": "leva 3 meses",
+        "sub": "Trabalho ruim não chega marcado como ruim. Ele chega com pressa, com elogio e com uma descrição curta do que precisa. A decisão de aceitar cabe em 1 conversa, e a consequência dela ocupa a agenda por semanas.",
+        "year": "2026",
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697 · foto: chris panas"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "O sim leva 5 minutos.",
+        "A conta leva 3 meses.",
+        "Trabalho ruim não chega marcado como ruim. Ele chega com pressa, com elogio e com uma descrição curta do que precisa. A decisão de aceitar cabe em 1 conversa, e a consequência dela ocupa a agenda por semanas.",
+        "2026",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697 · foto: chris panas"
+      ],
+      "alt": "Slide 1 de 7. O sim leva 5 minutos e a conta leva 3 meses. Trabalho ruim não chega marcado como ruim. Ele chega com pressa, com elogio e com uma descrição curta do que precisa. A decisão de aceitar cabe em 1 conversa, e a consequência dela ocupa a agenda por semanas. Fotografia escura de uma mão segurando uma caneta sobre a mesa, iluminada por um único facho de luz.",
+      "photo": {
+        "src": "../assets/foto-mao-caneta.jpg",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Virou\no mês\ninteiro."
+        ],
+        "closing": "O trabalho entrou com pressa e ficou. Não era grande, era mal definido: cada resposta abria outra pergunta e a conta de horas nunca fechou. Nada disso apareceu na conversa de 5 minutos que terminou com sim.",
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697 · foto: Giuseppe Famiani"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Virou o mês inteiro.",
+        "O trabalho entrou com pressa e ficou. Não era grande, era mal definido: cada resposta abria outra pergunta e a conta de horas nunca fechou. Nada disso apareceu na conversa de 5 minutos que terminou com sim.",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697 · foto: Giuseppe Famiani"
+      ],
+      "alt": "Slide 2 de 7. Virou o mês inteiro. O trabalho entrou com pressa e ficou. Não era grande, era mal definido: cada resposta abria outra pergunta e a conta de horas nunca fechou. Nada disso apareceu na conversa de 5 minutos que terminou com sim. Papel claro com fotografia em preto e branco de uma pilha alta de processos e pastas empilhados, com etiquetas dobradas saindo das bordas.",
+      "photo": {
+        "src": "../assets/foto-pilha-processos.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "72% atuavam\ncomo autônomos.",
+          "Quem aceita\ntambém executa."
+        ],
+        "closing": "O número vem do Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, feito pela OAB junto com a FGV e publicado em 2024, com 20.885 respostas: 72% dos participantes atuavam como autônomos. Em estrutura assim, quem decide aceitar é a mesma pessoa que vai executar, então não existe ninguém entre o sim e a agenda. Em clínica e em escritório de contabilidade a unidade muda, procedimento ali e carteira aqui, e a cena é a mesma.",
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "72% atuavam como autônomos.",
+        "Quem aceita também executa.",
+        "O número vem do Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, feito pela OAB junto com a FGV e publicado em 2024, com 20.885 respostas: 72% dos participantes atuavam como autônomos. Em estrutura assim, quem decide aceitar é a mesma pessoa que vai executar, então não existe ninguém entre o sim e a agenda. Em clínica e em escritório de contabilidade a unidade muda, procedimento ali e carteira aqui, e a cena é a mesma.",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697"
+      ],
+      "alt": "Slide 3 de 7. 72% atuavam como autônomos, e quem aceita também executa. O número vem do Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, feito pela OAB junto com a FGV e publicado em 2024, com 20.885 respostas: 72% dos participantes atuavam como autônomos. Em estrutura assim, quem decide aceitar é a mesma pessoa que vai executar, então não existe ninguém entre o sim e a agenda. Em clínica e em escritório de contabilidade a unidade muda, procedimento ali e carteira aqui, e a cena é a mesma."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "1 conversa.\n3 meses.",
+        "accent": "O preço vem depois.",
+        "hl": "O preço vem depois.",
+        "ghost": "4",
+        "year": "2026",
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697",
+        "body": "Aceitar leva 5 minutos e compromete semanas de capacidade. E essa decisão é tomada com a informação mais pobre de todo o ciclo, porque o que existe na hora é a versão que a outra parte contou. As 4 perguntas do próximo slide servem para trazer o preço para dentro dessa conversa."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "1 conversa. 3 meses.",
+        "O preço vem depois.",
+        "2026",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697",
+        "Aceitar leva 5 minutos e compromete semanas de capacidade. E essa decisão é tomada com a informação mais pobre de todo o ciclo, porque o que existe na hora é a versão que a outra parte contou. As 4 perguntas do próximo slide servem para trazer o preço para dentro dessa conversa."
+      ],
+      "alt": "Slide 4 de 7. 1 conversa, 3 meses, e o preço vem depois. Aceitar leva 5 minutos e compromete semanas de capacidade. E essa decisão é tomada com a informação mais pobre de todo o ciclo, porque o que existe na hora é a versão que a outra parte contou. As 4 perguntas do próximo slide servem para trazer o preço para dentro dessa conversa. Campo laranja chapado com o número 4 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "4 perguntas antes\nde dizer sim.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Quem decide do outro lado? Se depender de alguém que não está na conversa, ainda não começou."
+          },
+          {
+            "num": "2",
+            "label": "Quanto tempo seu, e não da equipe, isto consome por semana? Escreva 1 número."
+          },
+          {
+            "num": "3",
+            "label": "O que sai da agenda para isto entrar? Todo sim é 1 não a outra coisa."
+          },
+          {
+            "num": "4",
+            "label": "Como e quando isto é pago? Entrada, parcelas e o que acontece se atrasar."
+          }
+        ],
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "4 perguntas antes de dizer sim.",
+        "1",
+        "Quem decide do outro lado? Se depender de alguém que não está na conversa, ainda não começou.",
+        "2",
+        "Quanto tempo seu, e não da equipe, isto consome por semana? Escreva 1 número.",
+        "3",
+        "O que sai da agenda para isto entrar? Todo sim é 1 não a outra coisa.",
+        "4",
+        "Como e quando isto é pago? Entrada, parcelas e o que acontece se atrasar.",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697"
+      ],
+      "alt": "Slide 5 de 7. 4 perguntas antes de dizer sim. 1: quem decide do outro lado, porque se depender de alguém que não está na conversa, ainda não começou. 2: quanto tempo seu, e não da equipe, isto consome por semana, escrevendo 1 número. 3: o que sai da agenda para isto entrar, porque todo sim é 1 não a outra coisa. 4: como e quando isto é pago, com entrada, parcelas e o que acontece se atrasar. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "4 perguntas não\ndecidem por você.",
+        "accent": "Elas mostram\no preço.",
+        "body": "Recusar nem sempre é possível, e trabalho difícil às vezes compensa. O que muda é entrar sabendo o preço, em vez de descobrir no meio do caminho.",
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "4 perguntas não decidem por você.",
+        "Elas mostram o preço.",
+        "Recusar nem sempre é possível, e trabalho difícil às vezes compensa. O que muda é entrar sabendo o preço, em vez de descobrir no meio do caminho.",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697"
+      ],
+      "alt": "Slide 6 de 7. 4 perguntas não decidem por você, elas mostram o preço. Recusar nem sempre é possível, e trabalho difícil às vezes compensa. O que muda é entrar sabendo o preço, em vez de descobrir no meio do caminho."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escreva as 4\nperguntas hoje.",
+        "hl": "Escreva as 4",
+        "accent": "Use no próximo que chegar.",
+        "body": "Anote as 4 perguntas em 1 papel e deixe do lado do telefone. No próximo trabalho que aparecer, responda as 4 antes de dizer sim. A que ficar sem resposta é a que precisa ser respondida primeiro.",
+        "year": "2026",
+        "temas": "Temas: Entrada / Margem / Capacidade",
+        "micro": "@zionaxs_ · ref ab0b8697 · foto: Calvin Wise"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escreva as 4 perguntas hoje.",
+        "Use no próximo que chegar.",
+        "Anote as 4 perguntas em 1 papel e deixe do lado do telefone. No próximo trabalho que aparecer, responda as 4 antes de dizer sim. A que ficar sem resposta é a que precisa ser respondida primeiro.",
+        "2026",
+        "Temas: Entrada / Margem / Capacidade",
+        "@zionaxs_ · ref ab0b8697 · foto: Calvin Wise"
+      ],
+      "alt": "Slide 7 de 7. Escreva as 4 perguntas hoje e use no próximo que chegar. Anote as 4 perguntas em 1 papel e deixe do lado do telefone. No próximo trabalho que aparecer, responda as 4 antes de dizer sim. A que ficar sem resposta é a que precisa ser respondida primeiro. Fotografia escura de uma mesa à noite com um bloco de papel aberto e um lápis sob a luz de uma luminária.",
+      "photo": {
+        "src": "../assets/foto-caderno-noite.jpg",
+        "scale": 1.8,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

@@ -110,6 +110,15 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   final: a linha seguinte à do realce não deve ter maiúscula acentuada em NENHUMA posição sob a largura da caixa.** Na
   prática, para bloco de display de 2 linhas, o mais barato é escrever a segunda linha inteira sem maiúscula acentuada.
   Nenhum gate mede isso.
+- **No `poster-turn` com `big: true`, realce em bloco de 2 linhas corta a linha de baixo inteira, não só o acento.**
+  Aprendido na zx-33, 04/09/2026, e é o terceiro degrau da regra que começou na zx-29. A zx-31 e a zx-32 descreveram o
+  dano como "o acento da linha seguinte some". No display grande do `poster-turn` o dano é maior: a caixa do realce na
+  primeira linha do `accent` cobriu o topo das MAIÚSCULAS de "DEPOIS.", que não tem acento nenhum, porque a altura de
+  linha de `.98` no corpo maior aproxima as linhas mais do que o padding da caixa permite. **Regra prática: em `accent`
+  de `poster-turn` com `big`, o realce só é seguro quando o bloco tem 1 linha só.** Se a frase não couber em 1 linha,
+  a saída é encurtá-la ou publicar o bloco sem `hl`, nunca deixar a caixa na primeira de 2 linhas. O limite medido é
+  de cerca de 20 caracteres: "O preço vem depois." tem 19 e coube com folga, ocupando de x 80 a 940. **Nenhum gate mede
+  isso**, e os 14 passaram verdes na geração que saiu com o corte.
 - **O corpo do `poster-turn` cabe em cerca de 340 caracteres, e quem reprova é o G4, no chrome.** Aprendido na zx-32.
   O bloco de meta e o corpo dividem a `.pstack` ancorada embaixo, então corpo longo empurra ano, kicker e paginação
   para fora do quadro: com 553 caracteres o G4 reprovou 3 elementos do chrome do slide 4, um deles em `top -11`. A

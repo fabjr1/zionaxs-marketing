@@ -1,0 +1,110 @@
+decisao: aprovar e publicar a zx-33, slot da manhã de dia útil
+data: 2026-09-04
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro,
+    incluindo as travas: trava que reprova não se contorna. Esta execução não
+    contornou nada, não usou --excecao e não tocou na política de publicação da
+    marca. O porteiro liberou na primeira passagem, com 0/2 do dia consumidos.
+  registro_anterior: pieces/zx-32-falta-nao-e-um-numero/decisions/aprovacao-2026-09-03.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, sexta-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede tensão e pauta encaminhável, não o quadro de método da
+    tarde. Por isso a peça entra por uma assimetria de tempo ("o sim leva 5
+    minutos, a conta leva 3 meses") em vez de por um diagnóstico, e o que ela
+    entrega é uma lista de 4 perguntas que cabe em 1 papel ao lado do telefone,
+    o formato mais fácil de encaminhar para um sócio. A ação de hoje não exige
+    sistema, equipe nem contrato novo.
+
+tema:
+  escolhido: o sim leva 5 minutos e a conta leva 3 meses, 4 perguntas antes do aceite
+  matriz: M14
+  jtbd: [JF7, JT2]
+  repertorio: nenhum
+  por_que: >
+    Linha M14 da matriz editorial, "aceitar caso que destrói margem", com
+    objetivo declarado de "intake com critério e recusa ética", nunca usada em
+    nenhuma peça. É também a primeira peça da conta com público primário V3,
+    advocacia, persona A1: as 13 anteriores falaram a V1, V2 ou transversal, e
+    a base de público registra V3 como segmento pesquisado sem peça
+    correspondente. Slot de descoberta é justamente onde cabe alcançar público
+    novo.
+  variedade_deliberada: >
+    M04 ("o que perguntar antes de comprar mais um software") foi a primeira
+    candidata, pelo CTA de encaminhar para quem decide o sistema, e foi
+    descartada depois de ler as peças vizinhas: a zx-27 (M20) já entregou
+    "ferramenta instalada não é processo mudado" com um passo a passo para achar
+    a digitação dupla, e a zx-28 (M17) já entregou "3 perguntas antes de
+    automatizar". Uma terceira peça sobre compra de ferramenta em 5 dias seria
+    repetição de payload, não de assunto.
+    M06 (consentimento de imagem, finalidade, escopo e revogação) também foi
+    considerada e descartada por outro motivo: a 19c §15.2 exige, em peça de
+    norma, "responsável pela revisão" declarado, e esta execução é autônoma, sem
+    humano no circuito para assumir essa revisão. Conteúdo normativo fica para
+    execução com revisão humana.
+    M01 (denominadores da agenda) foi descartada por proximidade de assunto e de
+    data: a zx-32, publicada ontem à tarde, já tratou de agenda e de hora que não
+    aconteceu, e o único E disponível para M01 era o mesmo 39% da TIC Saúde que a
+    zx-32 usou.
+
+evidencia:
+  E_principal: >
+    72% dos participantes do Perfil ADV atuavam como autônomos. Perfil ADV, 1º
+    Estudo Demográfico da Advocacia Brasileira, OAB e FGV, publicado em abril de
+    2024, coleta entre 28/08 e 15/10/2023, 20.885 respostas ponderadas por
+    seccional, sexo e idade. Registrado como [S17] no ledger da base de público e
+    relido nesta execução com a Memory clonada no checkout.
+  recorte_declarado: >
+    O estudo retrata advogados em geral, não apenas quem gere escritório, e
+    descreve forma de atuação, não qualidade de intake. A peça usa o número só
+    para sustentar que quem aceita costuma ser quem executa, e declara ano e
+    tamanho da amostra no próprio slide 3.
+  NC_declarado: >
+    Não existe levantamento conhecido sobre quantos trabalhos são recusados por
+    critério, nem sobre margem por caso, cliente ou procedimento no Brasil. Por
+    isso a peça não afirma percentual nenhum de recusa nem promete ganho de
+    margem, e o slide 6 existe para dizer isso ao leitor.
+
+producao:
+  gates: 14/14
+  digest: 2cb8b28645102f5c
+  geracoes: 2
+  correcao_entre_geracoes: >
+    A primeira geração passou nos 14 gates e foi reprovada na revisão humana do
+    passo 6, que nenhum gate cobre: no slide 4 a caixa do realce, posta na
+    primeira linha do accent ("O preço aparece / depois."), cortou o topo das
+    maiúsculas de DEPOIS. A correção foi de contrato, não de pixel: o accent
+    virou 1 linha só, "O preço vem depois.", com o realce cobrindo a linha
+    inteira. Aprendizado registrado em campanhas/zionaxs/direcao-visual/README.md.
+
+fotos:
+  - slide: 1
+    arquivo: assets/foto-mao-caneta.jpg
+    credito: chris panas, via Unsplash
+    por_que: >
+      A cena concreta do "sim": uma mão com a caneta, no escuro, sob um único
+      facho. O interesse visual fica no terço superior e a metade de baixo é
+      escura e quieta, que é o que a banda de texto de 46% a 93% exige. Corrigida
+      com scale 1.3 e origem embaixo para empurrar a mão para fora da banda.
+  - slide: 2
+    arquivo: assets/foto-pilha-processos.jpg
+    credito: Giuseppe Famiani, via Unsplash
+    por_que: >
+      A pilha de processos com etiquetas dobradas é o que o sim de 5 minutos
+      virou. Encena a mesma frase da manchete ("virou o mês inteiro") em vez de
+      ilustrar a palavra abstrata do tema.
+  - slide: 7
+    arquivo: assets/foto-caderno-noite.jpg
+    credito: Calvin Wise, via Unsplash
+    por_que: >
+      O bloco de papel aberto e o lápis sob a luminária são o passo de hoje:
+      anotar as 4 perguntas. Corrigida com scale 1.8 e origem embaixo, para levar
+      o papel claro para fora da banda de texto.

@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-33-o-sim-leva-5-minutos",
+  "generatedAt": "2026-09-04T11:54:06+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-33-o-sim-leva-5-minutos-slide-01.png",
+    "zx-33-o-sim-leva-5-minutos-slide-02.png",
+    "zx-33-o-sim-leva-5-minutos-slide-03.png",
+    "zx-33-o-sim-leva-5-minutos-slide-04.png",
+    "zx-33-o-sim-leva-5-minutos-slide-05.png",
+    "zx-33-o-sim-leva-5-minutos-slide-06.png",
+    "zx-33-o-sim-leva-5-minutos-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A entrada 01/07 O sim leva 5 minutos. A conta leva 3 meses. Trabalho ruim não chega marcado como ruim. Ele chega com pressa, com elogio e com uma descrição curta do que precisa. A decisão de aceitar cabe em 1 conversa, e a consequência dela ocupa a agenda por semanas. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697 · foto: chris panas"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Virou o mês inteiro. O trabalho entrou com pressa e ficou. Não era grande, era mal definido: cada resposta abria outra pergunta e a conta de horas nunca fechou. Nada disso apareceu na conversa de 5 minutos que terminou com sim. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697 · foto: Giuseppe Famiani"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 72% atuavam como autônomos. Quem aceita também executa. O número vem do Perfil ADV, 1º Estudo Demográfico da Advocacia Brasileira, feito pela OAB junto com a FGV e publicado em 2024, com 20.885 respostas: 72% dos participantes atuavam como autônomos. Em estrutura assim, quem decide aceitar é a mesma pessoa que vai executar, então não existe ninguém entre o sim e a agenda. Em clínica e em escritório de contabilidade a unidade muda, procedimento ali e carteira aqui, e a cena é a mesma. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 1 conversa. 3 meses. O preço vem depois. Aceitar leva 5 minutos e compromete semanas de capacidade. E essa decisão é tomada com a informação mais pobre de todo o ciclo, porque o que existe na hora é a versão que a outra parte contou. As 4 perguntas do próximo slide servem para trazer o preço para dentro dessa conversa. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 4 perguntas antes de dizer sim. 1Quem decide do outro lado? Se depender de alguém que não está na conversa, ainda não começou. 2Quanto tempo seu, e não da equipe, isto consome por semana? Escreva 1 número. 3O que sai da agenda para isto entrar? Todo sim é 1 não a outra coisa. 4Como e quando isto é pago? Entrada, parcelas e o que acontece se atrasar. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 4 perguntas não decidem por você. Elas mostram o preço. Recusar nem sempre é possível, e trabalho difícil às vezes compensa. O que muda é entrar sabendo o preço, em vez de descobrir no meio do caminho. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Escreva as 4 perguntas hoje. Use no próximo que chegar. Anote as 4 perguntas em 1 papel e deixe do lado do telefone. No próximo trabalho que aparecer, responda as 4 antes de dizer sim. A que ficar sem resposta é a que precisa ser respondida primeiro. Temas: Entrada / Margem / Capacidade @zionaxs_ · ref ab0b8697 · foto: Calvin Wise"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "6 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.8,
+  "digest": "2cb8b28645102f5c9b19d651740347f09a01fb43618a61191499f927cbd7cdfb"
+}
