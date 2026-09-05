@@ -1,0 +1,65 @@
+{
+  "postId": "18108170080896911",
+  "permalink": "https://www.instagram.com/p/Dc6GpfiIC9p/",
+  "shortcode": "Dc6GpfiIC9p",
+  "publishedAt": "2026-09-05T13:48:01+0000",
+  "publishedAtFortaleza": "05/09/2026, 10:48:01",
+  "slot": "10:30 BRT, fim de semana, papel de repertorio, cultura, comportamento, curiosidade e conteudo visualmente experimental",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17907144399501214",
+  "childContainers": [
+    "17907144243501214",
+    "17907144234501214",
+    "17907144240501214",
+    "17907144237501214",
+    "17907144318501214",
+    "17907144321501214",
+    "17907144324501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-35-o-trabalho-ocupa-o-prazo/out/jpg/zx-35-o-trabalho-ocupa-o-prazo-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "17919356310428866",
+    "18071797643465118",
+    "18025345940856869",
+    "17890237758440069",
+    "18404363755095691",
+    "18120357998303148",
+    "17885927184469012"
+  ],
+  "digest": "80ac1a2efc8d",
+  "commit": "457582c",
+  "reconciledAt": "2026-09-05T13:49:20+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 2066 caracteres, abaixo do teto de 2200",
+    "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 1 unico post em 05/09/2026, este, as 10:48 BRT. Cota do dia 1 de 2, nenhuma duplicata",
+    "identidadeAntesDePublicar": "INSTAGRAM_GET_USER_INFO ao vivo antes de criar qualquer conteiner: id 37965311306447572, username zionaxs_, 99 posts. Confere com a conta certa; nenhuma outra conta conectada foi tocada",
+    "urlPublicaAntesDeEntregar": "os 7 JPEG responderam HTTP 200 em raw.githubusercontent.com, com o tamanho em bytes conferindo com o arquivo local, antes de qualquer URL ser entregue a Meta",
+    "statusDosFilhosAntesDoPai": "INSTAGRAM_GET_POST_STATUS nos 7 filhos retornou FINISHED antes de criar o pai",
+    "statusDoPaiAntesDePublicar": "INSTAGRAM_GET_POST_STATUS no conteiner pai retornou FINISHED antes do publish, e nao ERROR. Nenhum filho precisou ser recriado, e a receita da zx-30 nao foi acionada",
+    "errosDeTransporte": "nenhum. 7 filhos, 1 pai e 1 publish, todos na primeira tentativa"
+  },
+  "trilha": {
+    "estado": "pendente de escolha humana no app",
+    "perfil": "instrumental da Meta Sound Collection, andamento constante, com pulso de relogio",
+    "nota": "Carrossel recebe a musica pelo app depois de publicado. A faixa nomeada no contrato, Steady Hours, e indicacao de perfil e nao faixa confirmada no acervo: esta sessao em nuvem nao enxerga o indice de trilhas, que vive fora do repositorio"
+  }
+}
