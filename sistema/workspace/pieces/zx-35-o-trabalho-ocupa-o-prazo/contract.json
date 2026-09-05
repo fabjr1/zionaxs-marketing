@@ -1,0 +1,325 @@
+{
+  "id": "zx-35-o-trabalho-ocupa-o-prazo",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário transversal, linha M17 da matriz editorial, que atende as 3 verticais pesquisadas com a mesma cena: quem decide quanto tempo uma tarefa recebe. Secundário nenhum, porque o slot é de repertório e a cena não depende de setor. Cena concreta: a reunião marcada para 1 hora que termina na hora marcada mesmo tendo acabado o assunto aos 20 minutos, e a entrega de prazo longo que fica pronta no último dia. Slot editorial: manhã de fim de semana, papel de repertório, cultura, comportamento e curiosidade, então a peça é mais aberta que a de dia útil e entrega 1 ideia com história, e não 1 tutorial operacional.",
+    "decisao": "Parar de tratar o prazo como o único limite da tarefa. Escolher 1 reunião recorrente e 1 entrega de prazo longo, cortar o tempo de cada uma pela metade mantendo a mesma pauta e o mesmo objetivo, e anotar o que deixou de caber. Essa lista é o diagnóstico, e não o horário que sobrou.",
+    "tensao": "Todo mundo já sentiu que a reunião de 1 hora dura 1 hora e que a entrega de 2 semanas fica pronta no dia 14, e a explicação instintiva é enrolação ou falta de disciplina. A explicação mais provável é outra e é bem menos moral: quando o prazo é o único limite declarado, ele deixa de ser teto e vira medida, porque a tarefa encontra em conferência, em revisão e em 1 reunião a mais tudo de que precisa para preencher o espaço que existia. Isso importa em negócio de serviço, em que o produto é hora de gente e o custo do espaço vazio não aparece em relatório nenhum.",
+    "evidencia": [
+      {
+        "claim": "a lei foi formulada como o trabalho se expandindo até preencher o tempo disponível para a sua conclusão",
+        "status": "E",
+        "fonte": "C. Northcote Parkinson, ensaio publicado na revista The Economist em 1955, depois reunido no livro Parkinson's Law and Other Studies in Administration, de 1958. A frase de abertura do ensaio é 'Work expands so as to fill the time available for its completion', conferida nesta execução no texto do ensaio reproduzido em https://www.panarchy.org/parkinson/parkinsonlaw.html e confirmada na entrada Parkinson's law da Wikipedia em inglês, que registra a publicação em The Economist em 1955. A peça usa a ideia em paráfrase, sem aspas e sem citação literal em inglês, como manda o padrão de copy da marca."
+      },
+      {
+        "claim": "entre 1914 e 1928 os navios de guerra em serviço do Almirantado britânico caíram de 62 para 20 e os funcionários do Almirantado subiram de 2.000 para 3.569",
+        "status": "E",
+        "fonte": "Tabela do próprio ensaio de Parkinson, 1955, reproduzida em https://www.panarchy.org/parkinson/parkinsonlaw.html: 1914 com 62 navios de guerra em serviço, 146.000 oficiais e marinheiros e 2.000 funcionários do Almirantado; 1928 com 20 navios, 100.000 oficiais e marinheiros e 3.569 funcionários. O autor apresenta as variações como queda de 67,74% nos navios e alta de 78,45% nos funcionários. A peça arredonda para 78% e declara a origem na própria copy do slide 3 e na legenda."
+      },
+      {
+        "claim": "a contagem é do próprio autor, em ensaio satírico sobre 1 órgão do governo britânico, e não é estudo com amostra e método declarados",
+        "status": "E",
+        "fonte": "O texto é apresentado como ensaio na própria revista e a numeração é levantamento do autor, sem amostra, sem método e sem revisão externa declarados. A entrada Parkinson's law da Wikipedia em inglês descreve o texto como ensaio satírico publicado em The Economist em 1955. Por isso a peça declara o limite no slide 6 e na legenda, e não transporta o percentual para nenhum setor do público da Zionaxs."
+      },
+      {
+        "claim": "automatizar ou acelerar o processo errado apenas acelera o desperdício, e a pergunta sobre a existência do processo vem antes",
+        "status": "E",
+        "fonte": "[19c] linha M17 da matriz editorial, lição de gestão R1 Drucker, com citação literal verificada registrada em [S30]. Nesta peça a ideia entra só como parentesco editorial da linha M17 e não vira ideia-fonte de slide nenhum, o que mantém o máximo de 1 ideia-fonte por slide."
+      },
+      {
+        "claim": "o corte de prazo pela metade e a leitura do que deixa de caber são proposta da Zionaxs",
+        "status": "H",
+        "fonte": "Aplicação contemporânea da Zionaxs, marcada como tal na legenda e no slide 6. Parkinson descreveu o efeito e não prescreveu método nenhum de correção. Não existe pesquisa que fixe a metade como fração certa, e por isso a peça manda observar o resultado em vez de prometer ganho."
+      },
+      {
+        "claim": "a cena vale igual em clínica, escritório contábil e banca de advocacia, com nomes diferentes",
+        "status": "I",
+        "fonte": "[19c] seção 13.1, linha M17, marcada como transversal e válida para todas as personas, e seção 9 da base de público, que registra a diferença de unidade econômica entre os 3 setores. A peça descreve a cena sem afirmar magnitude em nenhum deles."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a formulação da lei de Parkinson e a publicação do ensaio na revista The Economist em 1955",
+        "os números da tabela do ensaio: 62 navios em 1914 e 20 em 1928, 2.000 funcionários em 1914 e 3.569 em 1928",
+        "a natureza do texto, que é ensaio com contagem do próprio autor e não estudo com amostra e método"
+      ],
+      "I": [
+        "a leitura de que a cena se repete igual nos 3 setores pesquisados, com nomes diferentes",
+        "a leitura de que o efeito aparece por falta de limite declarado, e não por falta de disciplina da equipe"
+      ],
+      "H": [
+        "cortar o tempo pela metade como teste barato: proposta da Zionaxs, não recomendação do autor",
+        "tratar a lista do que deixou de caber como diagnóstico do que era espaço sobrando"
+      ],
+      "NC": [
+        "quanto tempo uma reunião recorrente típica de escritório de serviços no Brasil de fato consome, porque não existe levantamento conhecido",
+        "qual fração de corte funciona melhor, porque ninguém mediu isso em negócio de serviço brasileiro"
+      ]
+    },
+    "limites": [
+      "O ensaio de Parkinson é de 1955, é satírico e trata de 1 órgão do governo britânico. A peça declara isso no slide 6 e na legenda, e usa a ideia sem tratar o número como benchmark de nenhum setor.",
+      "Os números vêm de contagem do próprio autor, sem amostra, sem método e sem revisão externa declarados. A peça atribui a contagem a ele em vez de apresentá-la como pesquisa.",
+      "A peça não afirma que reunião longa é sempre desperdício. Ela afirma que prazo sozinho não separa o trabalho do espaço, e propõe 1 teste para descobrir a diferença.",
+      "Cortar prazo sem cortar escopo produz trabalho pior, e a peça diz isso antes de recomendar o corte, no slide 6.",
+      "A metade é ponto de partida escolhido pela Zionaxs por ser fácil de executar, e não fração validada por pesquisa.",
+      "A peça não trata de dimensionamento de equipe nem de preço. Ela mexe apenas no tempo que cada tarefa recebe."
+    ]
+  },
+  "tese": "O trabalho se espalha até ocupar o tempo que você reservou para ele, então prazo sozinho não separa o que é trabalho do que é espaço sobrando. Cortar o tempo de 1 reunião e de 1 entrega pela metade, mantendo a mesma pauta, revela essa diferença em 15 dias e sem custo nenhum.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M17",
+  "jtbd": [
+    "JE4",
+    "JT2"
+  ],
+  "repertorio": {
+    "autor": "C. Northcote Parkinson",
+    "modo": "paráfrase fiel na legenda e no slide 3, com autor, veículo e ano citados; na peça, o autor é apresentado ao leitor como historiador naval britânico, e a frase original em inglês não entra",
+    "fonte": "Ensaio publicado na revista The Economist em 1955, depois reunido no livro Parkinson's Law and Other Studies in Administration, 1958",
+    "nota": "Id do ledger pendente: o repertório canônico da nota 19c vai de R1 a R9 e não inclui Parkinson. Deixar o campo id em branco é deliberado, para não declarar código que não existe na nota canônica e não repetir o erro que a verificação A9 passou a cobrar. A proposta de inclusão está na Inbox da Zionaxs Memory, para promoção humana."
+  },
+  "cta": "Abrir a agenda hoje, achar a reunião recorrente mais longa da semana, marcar a próxima com metade do tempo e a mesma pauta, e anotar no fim o que deixou de caber.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela cena da reunião que dura exatamente o tempo marcado, reconhecer que ninguém enrolou, receber a evidência histórica que deu nome ao efeito, virar para a razão de o prazo virar medida, aprender os 3 cortes, ouvir o limite que impede o corte de virar pressa e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-35",
+    "M17",
+    "JE4",
+    "JT2",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Hours",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça é de leitura e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax, tem revelação calma. A nota específica desta peça é preferir uma faixa com pulso regular e sensação de relógio andando, algo próximo de um tique constante em fundo grave: o assunto é tempo passando dentro de um espaço que já estava reservado, e uma trilha que marca compasso conta isso sozinha. Também combina com o slot de fim de semana, que pede tom mais aberto e menos operacional que a peça de dia útil.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach. Nesta peça, evitar ainda trilha de urgência ou contagem regressiva: o assunto é cortar tempo com calma, e uma trilha ansiosa transformaria 1 teste barato em alarme de produtividade.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-34 o perfil pedido foi parecido com este."
+  },
+  "caption": [
+    "Existe 1 efeito colateral em todo prazo, e ele é mais estranho do que parece: o trabalho se espalha até ocupar o tempo que você reservou para ele. A reunião marcada para 1 hora dura 1 hora. O relatório com 2 semanas de prazo fica pronto no dia 14.",
+    "Quem descreveu isso primeiro foi C. Northcote Parkinson, historiador naval britânico. Em 1955 ele publicou 1 ensaio na revista The Economist com uma contagem que ele mesmo fez do Almirantado, que era o comando da Marinha britânica. Entre 1914 e 1928 os navios de guerra em serviço caíram de 62 para 20 e os funcionários do Almirantado subiram de 2.000 para 3.569, um aumento de 78%. Menos frota, mais gente para administrar a frota.",
+    "A ideia que ficou é simples: o trabalho se expande até preencher o tempo disponível para terminá-lo. Não é preguiça e não é má vontade. Quando o prazo é o único limite declarado, ele deixa de ser teto e vira medida: a tarefa cresce em conferência, em revisão, em 1 reunião a mais, e chega ao fim exatamente no dia marcado.",
+    "3 cortes para testar isso na sua semana. 1. Escolha 1 reunião recorrente e marque a próxima com metade do tempo, mantendo a mesma pauta. 2. Escolha 1 entrega de prazo longo e defina uma versão utilizável para a metade do prazo. Entregue essa versão e pare. 3. Anote o que deixou de caber nos 2 cortes.",
+    "Um cuidado antes de sair cortando: prazo menor sem escopo menor só produz trabalho pior. O corte serve para revelar o que era essencial e o que era espaço sobrando. Se a qualidade cair de verdade, o teste respondeu: aquele trabalho precisava mesmo do tempo inteiro.",
+    "Vale dizer o limite da história também. O ensaio é de 1955, é satírico, e a contagem é do próprio autor sobre 1 órgão do governo britânico. Ele não mediu escritório de contabilidade, clínica nem banca de advocacia. O que a peça usa é a ideia, e não o número como referência de setor.",
+    "Comece hoje. Abra a agenda, ache a reunião recorrente mais longa da sua semana e marque a próxima com metade do tempo. No fim, anote o que não coube. Essa lista vale mais que o horário que você recuperou."
+  ],
+  "caption_sources": [
+    "Fonte da lei e dos números: C. Northcote Parkinson, ensaio publicado na revista The Economist em 1955, depois reunido no livro Parkinson's Law and Other Studies in Administration, 1958. A tabela do ensaio traz 1914 com 62 navios de guerra em serviço e 2.000 funcionários do Almirantado, e 1928 com 20 navios e 3.569 funcionários, apresentados pelo autor como queda de 67,74% e alta de 78,45%. Texto do ensaio conferido em https://www.panarchy.org/parkinson/parkinsonlaw.html",
+    "Limitação do recorte: o texto é ensaio satírico, a contagem é do próprio autor, trata de 1 órgão do governo britânico e não declara amostra, método nem revisão externa. Por isso a peça declara o limite no slide 6 e na legenda, e não transporta o percentual para nenhum setor.",
+    "Repertório: paráfrase da lei de Parkinson, sem aspas e sem citação literal em inglês, com autor, veículo e ano apresentados ao leitor. O ledger de repertório da Zionaxs vai de R1 a R9 e não inclui Parkinson: a proposta de inclusão está registrada na Inbox da Zionaxs Memory, para promoção humana.",
+    "Os 3 cortes, a escolha da metade como fração de teste e a leitura da lista do que deixou de caber são aplicação contemporânea da Zionaxs, não recomendação do autor. A peça declara isso no slide 6 e na legenda.",
+    "A leitura transversal para clínica, contabilidade e advocacia vem da linha M17 da matriz editorial da Zionaxs, registrada como transversal a todas as personas. A peça descreve a cena nos 3 setores sem afirmar magnitude em nenhum deles.",
+    "Fotos: Firas Wardhana, Michael Fousert e Crew, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "A reunião de\n1 hora dura\n1 hora.",
+        "accentLine": "Sempre.",
+        "hl": "Sempre.",
+        "sub": "O assunto acabou aos 20 minutos e a sala ficou ocupada até o fim. Todo prazo tem esse efeito: o trabalho se espalha até tomar o tempo que você reservou para ele.",
+        "year": "2026",
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd · foto: Firas Wardhana"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "A reunião de 1 hora dura 1 hora.",
+        "Sempre.",
+        "O assunto acabou aos 20 minutos e a sala ficou ocupada até o fim. Todo prazo tem esse efeito: o trabalho se espalha até tomar o tempo que você reservou para ele.",
+        "2026",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd · foto: Firas Wardhana"
+      ],
+      "alt": "Slide 1 de 7. A reunião de 1 hora dura 1 hora, sempre. O assunto acabou aos 20 minutos e a sala ficou ocupada até o fim. Todo prazo tem esse efeito: o trabalho se espalha até tomar o tempo que você reservou para ele. Fotografia escura de uma sala de reunião vazia em penumbra, com fileiras de mesas e cadeiras e a luz do fim de tarde entrando por cortinas altas.",
+      "photo": {
+        "src": "../assets/foto-sala-penumbra.jpg",
+        "pos": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ninguém\nenrolou."
+        ],
+        "closing": "Cada pessoa trabalhou o tempo todo. A pauta rendeu comentário, o comentário virou revisão, e a revisão coube porque havia espaço. No fim, o tempo mandou no trabalho.",
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd · foto: Michael Fousert"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ninguém enrolou.",
+        "Cada pessoa trabalhou o tempo todo. A pauta rendeu comentário, o comentário virou revisão, e a revisão coube porque havia espaço. No fim, o tempo mandou no trabalho.",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd · foto: Michael Fousert"
+      ],
+      "alt": "Slide 2 de 7. Ninguém enrolou. Cada pessoa trabalhou o tempo todo. A pauta rendeu comentário, o comentário virou revisão, e a revisão coube porque havia espaço. No fim, o tempo mandou no trabalho. Papel claro com fotografia em preto e branco de uma fileira de cadeiras de reunião vazias ao longo de uma mesa comprida.",
+      "photo": {
+        "src": "../assets/foto-cadeiras-mesa.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "62 navios\nviraram 20.",
+          "Os cargos\nsubiram 78%."
+        ],
+        "closing": "Em 1955 o historiador naval britânico C. Northcote Parkinson publicou 1 ensaio na revista The Economist com uma contagem que ele mesmo fez do Almirantado, o comando da Marinha britânica. Entre 1914 e 1928 os navios de guerra em serviço caíram de 62 para 20 e os funcionários do Almirantado subiram de 2.000 para 3.569. Menos frota, mais gente para administrar a frota.",
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "62 navios viraram 20.",
+        "Os cargos subiram 78%.",
+        "Em 1955 o historiador naval britânico C. Northcote Parkinson publicou 1 ensaio na revista The Economist com uma contagem que ele mesmo fez do Almirantado, o comando da Marinha britânica. Entre 1914 e 1928 os navios de guerra em serviço caíram de 62 para 20 e os funcionários do Almirantado subiram de 2.000 para 3.569. Menos frota, mais gente para administrar a frota.",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd"
+      ],
+      "alt": "Slide 3 de 7. 62 navios viraram 20 e os cargos subiram 78%. Em 1955 o historiador naval britânico C. Northcote Parkinson publicou 1 ensaio na revista The Economist com uma contagem que ele mesmo fez do Almirantado, o comando da Marinha britânica. Entre 1914 e 1928 os navios de guerra em serviço caíram de 62 para 20 e os funcionários do Almirantado subiram de 2.000 para 3.569. Menos frota, mais gente para administrar a frota."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "O prazo virou\na medida.",
+        "accent": "E deixou de ser teto.",
+        "hl": "E deixou de ser teto.",
+        "ghost": "78",
+        "year": "2026",
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd",
+        "body": "Quando o tempo reservado é o único limite declarado, a tarefa cresce até encostar nele. Aparece 1 conferência a mais, 1 revisão a mais, 1 reunião a mais, e tudo isso cabe porque havia espaço para caber."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O prazo virou a medida.",
+        "E deixou de ser teto.",
+        "2026",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd",
+        "Quando o tempo reservado é o único limite declarado, a tarefa cresce até encostar nele. Aparece 1 conferência a mais, 1 revisão a mais, 1 reunião a mais, e tudo isso cabe porque havia espaço para caber."
+      ],
+      "alt": "Slide 4 de 7. O prazo virou a medida e deixou de ser teto. Quando o tempo reservado é o único limite declarado, a tarefa cresce até encostar nele. Aparece 1 conferência a mais, 1 revisão a mais, 1 reunião a mais, e tudo isso cabe porque havia espaço para caber. Campo laranja chapado com o número 78 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "3 cortes para\ntestar isso.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escolha 1 reunião recorrente e marque a próxima com metade do tempo, mantendo a mesma pauta e as mesmas pessoas."
+          },
+          {
+            "num": "2",
+            "label": "Escolha 1 entrega de prazo longo e defina uma versão utilizável para a metade do prazo. Entregue essa versão e pare."
+          },
+          {
+            "num": "3",
+            "label": "Anote o que deixou de caber nos 2 cortes. O que ninguém sentiu falta em 15 dias pode sair da rotina."
+          }
+        ],
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "3 cortes para testar isso.",
+        "1",
+        "Escolha 1 reunião recorrente e marque a próxima com metade do tempo, mantendo a mesma pauta e as mesmas pessoas.",
+        "2",
+        "Escolha 1 entrega de prazo longo e defina uma versão utilizável para a metade do prazo. Entregue essa versão e pare.",
+        "3",
+        "Anote o que deixou de caber nos 2 cortes. O que ninguém sentiu falta em 15 dias pode sair da rotina.",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd"
+      ],
+      "alt": "Slide 5 de 7. 3 cortes para testar isso. 1: escolha 1 reunião recorrente e marque a próxima com metade do tempo, mantendo a mesma pauta e as mesmas pessoas. 2: escolha 1 entrega de prazo longo e defina uma versão utilizável para a metade do prazo, entregue essa versão e pare. 3: anote o que deixou de caber nos 2 cortes, porque o que ninguém sentiu falta em 15 dias pode sair da rotina. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Cortar prazo\nnão é apressar.",
+        "accent": "O escopo cai junto.",
+        "body": "Prazo menor sem escopo menor entrega trabalho pior. E o ensaio de Parkinson é de 1955, satírico, com contagem do próprio autor sobre 1 órgão do governo britânico: a ideia serve, o número não é referência de setor.",
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Cortar prazo não é apressar.",
+        "O escopo cai junto.",
+        "Prazo menor sem escopo menor entrega trabalho pior. E o ensaio de Parkinson é de 1955, satírico, com contagem do próprio autor sobre 1 órgão do governo britânico: a ideia serve, o número não é referência de setor.",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd"
+      ],
+      "alt": "Slide 6 de 7. Cortar prazo não é apressar, porque o escopo cai junto. Prazo menor sem escopo menor entrega trabalho pior. E o ensaio de Parkinson é de 1955, satírico, com contagem do próprio autor sobre 1 órgão do governo britânico: a ideia serve, o número não é referência de setor."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Corte 1 reunião\npela metade.",
+        "hl": "Corte 1 reunião",
+        "accent": "E anote o que deixa de caber.",
+        "body": "Abra a agenda e ache a reunião recorrente mais longa da sua semana. Marque a próxima com metade do tempo e a mesma pauta. No fim, escreva o que não coube: essa lista vale mais que o horário que você recuperou.",
+        "year": "2026",
+        "temas": "Temas: Tempo / Prazo / Rotina",
+        "micro": "@zionaxs_ · ref 3354eabd · foto: Crew"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Corte 1 reunião pela metade.",
+        "E anote o que deixa de caber.",
+        "Abra a agenda e ache a reunião recorrente mais longa da sua semana. Marque a próxima com metade do tempo e a mesma pauta. No fim, escreva o que não coube: essa lista vale mais que o horário que você recuperou.",
+        "2026",
+        "Temas: Tempo / Prazo / Rotina",
+        "@zionaxs_ · ref 3354eabd · foto: Crew"
+      ],
+      "alt": "Slide 7 de 7. Corte 1 reunião pela metade e anote o que deixa de caber. Abra a agenda e ache a reunião recorrente mais longa da sua semana. Marque a próxima com metade do tempo e a mesma pauta. No fim, escreva o que não coube: essa lista vale mais que o horário que você recuperou. Fotografia escura de uma sala de reunião vazia, com mesa comprida e cadeiras escuras diante de janelas altas.",
+      "photo": {
+        "src": "../assets/foto-sala-janela-alta.jpg",
+        "pos": "80% 50%",
+        "scale": 1.5,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

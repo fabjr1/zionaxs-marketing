@@ -1,0 +1,177 @@
+decisao: aprovar e publicar a zx-35, slot da manhã de fim de semana
+data: 2026-09-05
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0/2 do dia consumidos.
+  registro_anterior: pieces/zx-34-a-media-por-pessoa/decisions/aprovacao-2026-09-04.yaml
+
+slot_editorial:
+  horario: "10:30 BRT, sábado"
+  papel: "repertório, cultura, comportamento, curiosidade e conteúdo visualmente experimental"
+  leitura: >
+    O slot de fim de semana pede o oposto do slot de dia útil: o leitor não está
+    no meio da operação, então a peça pode ser mais aberta e menos tática, sem
+    deixar de ser útil. Por isso esta entra por uma cena que todo mundo já viveu
+    (a reunião de 1 hora que dura 1 hora), sustenta o argumento com uma história
+    de 1955 em vez de dado setorial brasileiro, e só depois entrega o método, que
+    é 1 teste barato de 15 dias e não 1 processo novo. As peças de dia útil da
+    semana foram todas de diagnóstico e método com evidência de pesquisa
+    setorial; esta é a primeira em que o repertório carrega a peça inteira desde
+    a zx-25, de 31/08.
+
+tema:
+  escolhido: a lei de Parkinson, o trabalho que ocupa o tempo reservado, e 3 cortes para testar
+  matriz: M17
+  jtbd: [JE4, JT2]
+  repertorio: >
+    C. Northcote Parkinson, em paráfrase, no slide 3 e na legenda. Sem id de
+    ledger, porque o repertório canônico da nota 19c vai de R1 a R9 e não o
+    inclui. Proposta de inclusão registrada na Inbox da Zionaxs Memory.
+  por_que: >
+    Linha M17 da matriz editorial, "automatizar o processo errado é desperdício
+    em alta velocidade", cujo objetivo declarado é "eliminar, simplificar ou
+    escalar". O tema de tempo e prazo nunca apareceu nas 15 peças anteriores: a
+    zx-22 tratou de rito semanal (M19, criar 1 reunião), e esta trata do
+    contrário, que é encolher o tempo das reuniões que já existem. Os jobs
+    escolhidos são JE4 ("construir um negócio, não sobreviver a uma agenda"),
+    que é justamente o job de fim de semana, e JT2 ("saber o que
+    deliberadamente não vamos fazer"), que é o que a lista do slide 5 produz.
+  variedade_deliberada: >
+    Parkinson foi escolhido no lugar de 3 outros candidatos de repertório.
+    R5 Edmondson (segurança psicológica) foi descartado por proximidade com a
+    zx-26, que já tratou de erro que volta e do limite de pedir atenção; duas
+    peças sobre erro não reportado em 6 dias repetiria o objeto.
+    R4 Mintzberg foi descartado porque já é o repertório declarado da zx-22, e a
+    agenda como raio-X da gestão é exatamente o assunto daquela peça.
+    A lei de Goodhart, sobre a medida que vira meta, foi descartada por
+    saturação de território: a zx-23 (número que ninguém confia), a zx-32 (falta
+    não é 1 número) e a zx-34 (média por pessoa) já são 3 peças sobre indicador
+    mal construído em 8 dias, e uma quarta cansaria a conta.
+    M01 e M02 foram descartadas por serem agenda de clínica, tratada na zx-32.
+
+evidencia:
+  E_principal: >
+    C. Northcote Parkinson, ensaio publicado na revista The Economist em 1955,
+    depois reunido no livro Parkinson's Law and Other Studies in Administration,
+    de 1958. A tabela do ensaio traz 1914 com 62 navios de guerra em serviço e
+    2.000 funcionários do Almirantado, e 1928 com 20 navios e 3.569
+    funcionários, apresentados pelo autor como queda de 67,74% e alta de 78,45%.
+    Texto do ensaio conferido nesta execução em
+    https://www.panarchy.org/parkinson/parkinsonlaw.html, e a publicação em The
+    Economist em 1955 confirmada na entrada Parkinson's law da Wikipedia em
+    inglês. A peça arredonda a alta para 78%.
+  recorte_declarado_na_peca: >
+    O slide 3 nomeia o autor, apresenta quem ele é, nomeia a revista e o ano, e
+    diz explicitamente que a contagem foi feita por ele. O slide 6 e a legenda
+    declaram que o ensaio é satírico, de 1955, sobre 1 órgão do governo
+    britânico, e que o número não é referência de setor.
+  limite_que_a_peca_assume: >
+    Não há amostra, método nem revisão externa declarados: é levantamento do
+    próprio autor em texto satírico. Por isso a peça usa a ideia e nunca o
+    percentual como benchmark, e não transporta o número para contabilidade,
+    clínica ou advocacia.
+  H_declarado: >
+    Os 3 cortes, a escolha da metade como fração de teste e a leitura da lista
+    do que deixou de caber são aplicação contemporânea da Zionaxs. Parkinson
+    descreveu o efeito e não prescreveu correção nenhuma. O slide 6 e a legenda
+    declaram isso.
+
+producao:
+  gates: 14/14 na segunda geração
+  digest: 80ac1a2efc8d
+  correcoes_de_contrato:
+    - >
+      G6 reprovou 1 bloco com linha órfã: o item 3 do slide 5 terminava em "de
+      vez." sozinho, a 8% da linha mais larga. A correção foi reescrever o final
+      da frase para "pode sair da rotina", alongando a última linha, e não
+      inserir quebra autoral, porque o README de direção visual registra que
+      quebra em parágrafo longo troca G6 vermelho por G7 vermelho.
+  correcoes_de_revisao_humana:
+    - >
+      Nenhum gate mede tinta contra o pixel da foto, e a primeira geração do
+      fechamento falhou exatamente aí. Com photo.pos "80% 50%" sozinho, o crop
+      pegou a faixa clara da foto (janela alta, piso claro e o tampo de madeira
+      quente) bem no meio do quadro: o kicker "HOJE AINDA", que é laranja e
+      pequeno, caiu sobre a madeira clara e ficou quase ilegível, e o "2026"
+      pegou a mesma faixa. A correção foi de enquadramento, como manda o README:
+      scale 1.5 com origin "50% 100%", que ancora no rodapé e empurra a faixa
+      clara para o terço superior, deixando a banda de texto sobre as cadeiras
+      escuras. Nada foi clareado, e a regra aplicada é a da zx-34: assunto claro
+      dentro do texto pede origem no rodapé.
+  o_que_passou_limpo:
+    - >
+      O accent do slide 4 é poster-turn com big, e o realce ficou em bloco de 1
+      linha só ("E deixou de ser teto.", 21 caracteres), como a regra da zx-33
+      exige. Conferido no PNG: a caixa não corta a linha de cima nem a de baixo.
+    - >
+      O anel laranja do poster-statement no slide 6 não encostou em linha
+      nenhuma, porque o corpo tem 208 caracteres e começa abaixo da faixa
+      vertical do anel. A pendência de template registrada na zx-28 e na zx-29
+      continua aberta e não foi tocada nesta execução.
+    - >
+      O closing do poster-scene tem 168 caracteres, dentro do limite prático de
+      cerca de 260 registrado na zx-32, e o corpo do poster-turn tem 205,
+      dentro dos cerca de 340 que o G4 tolera.
+
+fotos:
+  - slide: 1
+    arquivo: foto-sala-penumbra.jpg
+    autor: Firas Wardhana (Unsplash)
+    cena: >
+      Sala de reunião vazia em penumbra, com fileiras de mesas e cadeiras e a luz
+      do fim de tarde entrando por cortinas altas. É a mesma cena que a manchete
+      descreve: a sala que ficou ocupada até o fim. O interesse visual (a luz das
+      cortinas) fica no terço superior e a banda de texto é escura e quieta, com
+      pos "50% 100%", como o README exige.
+  - slide: 2
+    arquivo: foto-cadeiras-mesa.jpg
+    autor: Michael Fousert (Unsplash)
+    cena: >
+      Fileira de cadeiras de reunião vazias ao longo de uma mesa comprida, em
+      foco raso. Encena "ninguém enrolou" sem metáfora: as cadeiras estiveram
+      ocupadas o tempo todo. A figura humana no mural ao fundo é silhueta
+      desfocada, o que a regra de rosto permite, e não há texto legível.
+  - slide: 7
+    arquivo: foto-sala-janela-alta.jpg
+    autor: Crew (Unsplash)
+    cena: >
+      Sala de reunião vazia com mesa comprida e cadeiras escuras diante de
+      janelas altas. É a reunião que o fechamento manda cortar pela metade.
+      Depois do ajuste de crop, o interesse visual fica no terço superior e as
+      cadeiras escuras seguram a banda de texto.
+  criterio_de_descarte: >
+    Uma quarta candidata (sala de reunião clara com persianas brancas) foi
+    descartada por ser clara demais para campo escuro: a banda de texto inteira
+    cairia sobre persiana branca, e o problema não teria correção por crop.
+
+trilha:
+  perfil: instrumental da Meta Sound Collection, andamento constante, com pulso de relógio
+  por_que: >
+    A peça é de leitura e de 1 teste calmo, não de urgência. Letra disputa a
+    atenção com o texto e letra em português é o pior caso. O assunto é tempo
+    passando dentro de um espaço já reservado, então uma faixa com pulso regular
+    conta isso sozinha, sem virada dramática.
+  licenca: >
+    Meta Sound Collection, liberada para uso comercial. O catálogo popular do app
+    continua fora de cogitação: a licença dele é de uso pessoal e não vale para
+    marca.
+  pendencia: >
+    Esta sessão em nuvem não enxerga o índice do acervo, que vive fora do
+    repositório. O nome "Steady Hours" é indicação de perfil, não faixa
+    confirmada. A escolha final é do Fabiano, no app, depois de publicado.
+
+proposta_para_a_memory:
+  arquivo: Inbox/2026-09-05-repertorio-parkinson-r10.md
+  o_que: >
+    Propor a inclusão da lei de Parkinson no ledger de repertório da nota 19c
+    (§12.2), que hoje vai de R1 a R9. Esta peça deixou repertorio.id em branco
+    de propósito, para não declarar código inexistente e não repetir o erro que
+    a verificação A9 passou a cobrar.
