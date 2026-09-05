@@ -1,0 +1,67 @@
+{
+  "postId": "17906066718512785",
+  "permalink": "https://www.instagram.com/p/Dc6mJdJG_nx/",
+  "shortcode": "Dc6mJdJG_nx",
+  "publishedAt": "2026-09-05T18:23:15+0000",
+  "publishedAtFortaleza": "05/09/2026, 15:23:15",
+  "slot": "15:00 BRT, fim de semana, papel de guia salvavel, analise longa, biblioteca ou aplicacao pratica",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17907178602501214",
+  "childContainers": [
+    "17907178392501214",
+    "17907178389501214",
+    "17907178386501214",
+    "17907178383501214",
+    "17907178458501214",
+    "17907178461501214",
+    "17907178464501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-36-o-retrabalho-sem-nome/out/jpg/zx-36-o-retrabalho-sem-nome-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18202162513370410",
+    "18108066548165874",
+    "18126257773762126",
+    "18081733100320159",
+    "17961666527981565",
+    "17952183396254365",
+    "18477651430108329"
+  ],
+  "digest": "b0fe756f341c",
+  "commit": "52a874a",
+  "reconciledAt": "2026-09-05T18:24:10+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_IG_MEDIA, INSTAGRAM_GET_IG_MEDIA_CHILDREN e INSTAGRAM_GET_IG_USER_MEDIA, todos apos a publicacao",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesEsperados": 7,
+    "slidesConfirmados": 7,
+    "legendaConfere": "o corpo publicado e identico ao campo caption do contrato, sem caption_sources, com 1981 caracteres, abaixo do teto de 2200",
+    "duplicataVerificada": "INSTAGRAM_GET_IG_USER_MEDIA confirma 2 posts em 05/09/2026: a zx-35 as 10:48 BRT e esta as 15:23 BRT. Cota do dia 2 de 2, nenhuma duplicata",
+    "identidadeAntesDePublicar": "INSTAGRAM_GET_USER_INFO ao vivo antes de criar qualquer conteiner: id 37965311306447572, username zionaxs_, 100 posts. Confere com a conta certa; as outras 2 contas conectadas, @fabjr1 e @base3br, nao foram tocadas",
+    "urlPublicaAntesDeEntregar": "os 7 JPEG responderam HTTP 200 em raw.githubusercontent.com, com o tamanho em bytes conferindo com o arquivo local, antes de qualquer URL ser entregue a Meta",
+    "statusDosFilhosAntesDoPai": "INSTAGRAM_GET_POST_STATUS nos 7 filhos retornou FINISHED antes de criar o pai. A primeira chamada de status falhou por campo errado no argumento, creation_id e nao ig_container_id, e essa falha nao criou nem consumiu conteiner nenhum",
+    "statusDoPaiAntesDePublicar": "INSTAGRAM_GET_POST_STATUS no conteiner pai retornou FINISHED antes do publish, e nao ERROR. Nenhum filho precisou ser recriado, e a receita da zx-30 nao foi acionada",
+    "errosDeTransporte": "nenhum. 7 filhos, 1 pai e 1 publish, todos na primeira tentativa"
+  },
+  "trilha": {
+    "estado": "pendente, adicionar pelo app",
+    "faixa": "Quiet Ledger",
+    "artista": "Meta Sound Collection",
+    "origem": "Meta Sound Collection, unica biblioteca licenciada para conta de marca",
+    "nota": "O nome e indicacao de perfil, nao faixa confirmada no acervo: esta sessao em nuvem nao teve acesso ao indice de trilhas. Escolher no app uma instrumental de andamento constante e textura seca, sem letra e sem virada dramatica, e nunca do catalogo popular"
+  }
+}
