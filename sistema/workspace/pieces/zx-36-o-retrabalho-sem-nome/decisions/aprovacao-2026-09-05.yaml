@@ -1,0 +1,93 @@
+decisao: aprovar e publicar a zx-36, slot da tarde de fim de semana
+data: 2026-09-05
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumido pela
+    zx-35, publicada às 10:48 BRT.
+  registro_anterior: pieces/zx-35-o-trabalho-ocupa-o-prazo/decisions/aprovacao-2026-09-05.yaml
+
+slot_editorial:
+  horario: "15:00 BRT, sábado"
+  papel: "guia salvável, análise longa, biblioteca ou aplicação prática"
+  leitura: >
+    O slot da tarde de fim de semana pede a peça que a pessoa salva para aplicar
+    depois, então o roteiro precisa bastar-se sozinho. Por isso o centro da peça
+    é 1 artefato: a taxonomia de 4 causas do slide 5, com dono e correção em cada
+    linha, e um método de registro de 5 dias úteis que cabe em 1 folha. A peça da
+    manhã de hoje, a zx-35, tratou de prazo e da lei de Parkinson, e esta não
+    encosta nesse assunto: aqui o tema é retrabalho, registro e margem.
+
+tema:
+  escolhido: o retrabalho que não é cobrado porque não é registrado, e a taxonomia de 4 causas
+  matriz: M08
+  jtbd: [JO5, JF5]
+  repertorio: >
+    Chris Argyris, R6 no ledger da nota 19c, em paráfrase, no slide 4 e na
+    legenda. O ledger registra R6 pela fonte [S36], que é o artigo de 1991; esta
+    peça usa o artigo de 1977, Double Loop Learning in Organizations, que é onde
+    a distinção entre os 2 tipos de correção está descrita. O código existe e é o
+    certo; falta a fonte de 1977 no ledger, e isso está proposto na Inbox da
+    Zionaxs Memory, para promoção humana.
+  por_que: >
+    A linha M08 da matriz editorial, "retrabalho que você não cobra: taxonomia e
+    medição", nunca tinha virado peça, e o conteúdo previsto para ela na nota 19c
+    é exatamente o que este slot pede: taxonomia e registro de exceção por causa,
+    com a ação "medir uma semana antes de mudar o contrato". A ficha da persona
+    C1 na nota 19b registra "taxonomia de retrabalho" entre os conteúdos de
+    interesse, e o dado do slide 3 mede essa mesma persona.
+  nao_repetido: >
+    Conferido contra as 16 peças de zx-20 a zx-35. As linhas de matriz já usadas
+    são M02, M03, M09, M10, M11, M12, M14, M17 (2 vezes), M18 (3 vezes), M19 (2
+    vezes) e M20; M08 estava livre. A zx-26 tratou de erro que volta, que é
+    prevenção de defeito, e a zx-29 tratou de margem por cliente: esta peça é a
+    leitura econômica do retrabalho, que é onde as 2 anteriores não foram, e
+    entrega o artefato que nenhuma delas entregou. O repertório R6 nunca tinha
+    sido usado.
+
+evidencia:
+  fonte_primaria: >
+    Pesquisa de Preços e Serviços Praticados pelas Organizações Contábeis do
+    Estado de São Paulo, Sescon-SP com Vox Populi, agosto de 2024, versão com
+    errata de outubro de 2024. Conferida nesta execução baixando o PDF e lendo o
+    texto: a pergunta é "Sua organização monitora e cobra por retrabalhos? Se
+    sim, qual o critério de cobrança?", com BASE 255, e as respostas são não
+    cobra 33%, complexidade 30%, recorrência 27% e hora trabalhada 9%. A
+    metodologia declarada é questionário auto-aplicável enviado por link aos
+    associados, campo de 13 a 28 de junho de 2024, margem de erro de 5,9% em
+    intervalo de confiança de 95%.
+  limite_declarado: >
+    Amostra estadual e associativa, com resposta voluntária. A peça declara o
+    recorte no slide 6 e na legenda e não transporta o número para clínica, para
+    advocacia nem para o Brasil.
+  repertorio_verificado: >
+    Chris Argyris, Double Loop Learning in Organizations, Harvard Business
+    Review, setembro e outubro de 1977, 55(5), páginas 115 a 125. A distinção
+    entre corrigir o erro mantendo a política vigente e questionar a premissa que
+    a definiu foi conferida nesta execução em fontes secundárias que citam o
+    artigo com página e ano. A peça usa paráfrase, sem aspas e sem citação
+    literal em inglês.
+
+fotos:
+  capa: Milada Vigerova, Unsplash, mesa de trabalho à noite com rolos de papel e abajur
+  cena: Sasun Bughdaryan, Unsplash, mãos amassando uma folha sobre mesa de madeira
+  fechamento: Evan Lee, Unsplash, quarto em penumbra com luz de janela e mesa com papéis
+  enquadramento: >
+    As 2 fotos de campo escuro receberam scale com origin no rodapé, receita da
+    zx-34: o interesse claro delas caía dentro da banda de texto e a origem no
+    rodapé levou tudo para o terço superior. Capa com scale 1.5 e fechamento com
+    1.35. Revisão humana do passo 6 feita slide a slide, olhando os 7 PNG: nenhum
+    texto legível na foto, nenhum ano concorrendo com o 2026 do chrome, nenhuma
+    sobreposição de geometria com texto, e a caixa de realce do slide 4 em 1
+    linha só, como manda a regra da zx-33.
+
+gates: 14/14 na primeira geração
+digest: b0fe756f341c
+porteiro: liberado sem exceção, cadência 1 de 2 no dia

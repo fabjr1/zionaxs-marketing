@@ -1,0 +1,333 @@
+{
+  "id": "zx-36-o-retrabalho-sem-nome",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário V2 / C1, o sócio de escritório contábil que decide preço, aceitação e entrega e ainda executa revisão, que é exatamente a persona medida na pesquisa que sustenta o slide 3. Secundário nenhum: o público primário é 1 só, e a cena é descrita de forma que clínica e banca de advocacia se reconheçam sem que a peça afirme número nenhum sobre elas. Cena concreta: a correção que entra entre 2 tarefas, ninguém abre linha para ela, e no fim do mês ela aparece só como margem que sumiu. Slot editorial: tarde de fim de semana, papel de guia salvável e aplicação prática, então a peça precisa bastar-se sozinha e entregar 1 artefato que a pessoa salva para aplicar na semana seguinte.",
+    "decisao": "Parar de tentar cobrar retrabalho antes de conseguir enxergá-lo. Passar 5 dias úteis anotando 1 linha por refação, com o que foi refeito, o tempo gasto e 1 das 4 causas, e só depois decidir o que muda: combinado de entrada, aditivo de escopo, processo interno ou preço.",
+    "tensao": "Quem toca um negócio de serviço já sentiu que refez trabalho a semana inteira e não consegue mostrar isso em lugar nenhum. A explicação instintiva é que falta cobrar mais firme do cliente. A explicação mais provável é anterior e menos confortável: o retrabalho não é cobrado porque não é registrado, e não é registrado porque não tem nome. Sem nome ele não tem hora, não tem causa e não tem dono, e a conversa de reajuste começa sem nada na mão. Isso importa em negócio cujo produto é hora de gente, porque ali o retrabalho consome exatamente o insumo que se vende.",
+    "evidencia": [
+      {
+        "claim": "33% das organizações contábeis respondentes declararam não cobrar por retrabalho, e entre as que cobram 30% cobram por complexidade, 27% por recorrência e 9% por hora trabalhada",
+        "status": "E",
+        "fonte": "Pesquisa de Preços e Serviços Praticados pelas Organizações Contábeis do Estado de São Paulo, Sescon-SP com Vox Populi, agosto de 2024, versão com errata publicada em outubro de 2024. A pergunta é 'Sua organização monitora e cobra por retrabalhos? Se sim, qual o critério de cobrança?', com BASE 255. As respostas registradas são: não cobra por retrabalho 33%, cobra por hora trabalhada 9%, cobra por complexidade 30%, cobra por recorrência 27%. Conferido nesta execução no texto do PDF em https://sescon.org.br/wp-content/uploads/2024/10/PESQUISA-PRECOS-E-SERVICOS-ERRATA.pdf"
+      },
+      {
+        "claim": "a pesquisa foi respondida por associados do Sescon-SP em questionário auto-aplicável, com campo de 13 a 28 de junho de 2024, amostra de 255 casos e margem de erro de 5,9% em intervalo de confiança de 95%",
+        "status": "E",
+        "fonte": "Seções METODOLOGIA e MARGEM DE ERRO do mesmo PDF, conferidas nesta execução: 'Pesquisa realizada através de link enviado pelo Sescon-SP para seus associados, onde tinham acesso ao questionário auto-aplicável. O período de campo foi de 13 a 28 de junho de 2024' e 'A margem de erro para o total da amostra de 255 casos é 5,9% considerando um intervalo de confiança de 95%'. Por isso a peça declara o recorte no slide 6 e na legenda e trata o número como ordem de grandeza, nunca como média do setor."
+      },
+      {
+        "claim": "existem 2 tipos de correção, uma que conserta o caso mantendo a regra em pé e outra que questiona a regra que tornou o caso possível",
+        "status": "E",
+        "fonte": "Chris Argyris, Double Loop Learning in Organizations, Harvard Business Review, setembro e outubro de 1977, 55(5), páginas 115 a 125. O autor descreve a correção de erro que mantém as políticas vigentes, comparada a um termostato que liga e desliga ao atingir a temperatura marcada, e a correção que questiona a própria temperatura escolhida. A peça usa a ideia em paráfrase, sem aspas e sem citação literal em inglês, como manda o padrão de copy da marca, e apresenta o autor ao leitor."
+      },
+      {
+        "claim": "o público quer um script para conversar com cliente sobre reajuste, exceção ou retrabalho, e quer exceções mensuráveis para crescer sem multiplicar erro",
+        "status": "I",
+        "fonte": "[19b] seção 8, JTBD JO5 e JF5. A nota 19b também registra, na ficha da persona C1, que o conteúdo de interesse inclui taxonomia de retrabalho e roteiro de comunicação, o que é a origem editorial desta peça."
+      },
+      {
+        "claim": "a taxonomia de 4 causas, o dono e a correção de cada uma, e a semana de registro antes de mexer no contrato são proposta da Zionaxs",
+        "status": "H",
+        "fonte": "Aplicação contemporânea da Zionaxs, marcada como tal no slide 6 e na legenda. A pesquisa do Sescon-SP mede se o escritório cobra e por qual critério, e não propõe classificação de causa nem método de registro. Não existe pesquisa conhecida que valide 5 dias como janela suficiente, e por isso a peça manda observar o resultado em vez de prometer ganho."
+      },
+      {
+        "claim": "a cena do retrabalho invisível aparece igual em clínica, escritório contábil e banca de advocacia, com nomes diferentes",
+        "status": "I",
+        "fonte": "[19a] seção de tensões, linha T4 e a linha de retrabalho da tabela de dores transversais, marcada como E parcial em contabilidade e I nos demais setores. A peça descreve a cena sem afirmar magnitude fora de São Paulo e fora da contabilidade."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 4 percentuais da pergunta sobre retrabalho na pesquisa Sescon-SP de 2024, com BASE 255",
+        "o método da pesquisa: questionário auto-aplicável enviado a associados, campo de 13 a 28 de junho de 2024, margem de erro de 5,9%",
+        "a distinção, descrita por Chris Argyris em 1977 na Harvard Business Review, entre corrigir o caso e questionar a regra que o produziu"
+      ],
+      "I": [
+        "a leitura de que o retrabalho deixa de ser cobrado porque não é registrado, e não porque falta firmeza na cobrança",
+        "a leitura de que a mesma cena se repete em clínica e em banca de advocacia, com outros nomes"
+      ],
+      "H": [
+        "as 4 causas, com 1 dono e 1 correção para cada, como taxonomia proposta pela Zionaxs",
+        "os 5 dias úteis de registro como janela de teste barata, antes de qualquer conversa de preço"
+      ],
+      "NC": [
+        "quantas horas de retrabalho um escritório de serviços brasileiro consome por mês, porque não existe levantamento conhecido",
+        "qual das 4 causas responde pela maior parte do retrabalho, porque ninguém mediu isso por causa em negócio de serviço brasileiro"
+      ]
+    },
+    "limites": [
+      "Os percentuais são de organizações contábeis associadas ao Sescon-SP no estado de São Paulo, com resposta voluntária e auto-aplicável. A peça declara o recorte no slide 6 e na legenda e não transporta o número para clínica, para advocacia nem para o Brasil.",
+      "A pesquisa mede se a organização cobra retrabalho e por qual critério. Ela não mede quanto retrabalho existe, nem por qual causa, e a peça não afirma nenhuma das 2 coisas.",
+      "A taxonomia de 4 causas é proposta editorial da Zionaxs e não sai da pesquisa nem do texto de Argyris.",
+      "Registrar retrabalho não é o mesmo que cobrar retrabalho, e a peça diz isso antes de qualquer sugestão de preço, no slide 6.",
+      "A peça não trata de tabela de honorários nem de reajuste contratual. Ela para no registro e na leitura da causa.",
+      "O texto de Argyris é de 1977 e trata de aprendizagem organizacional em geral, não de escritórios de serviço no Brasil. A peça usa a ideia, não um resultado medido."
+    ]
+  },
+  "tese": "Retrabalho não é cobrado porque não é registrado, e não é registrado porque não tem nome. Anotar 1 linha por refação durante 5 dias úteis, com 1 das 4 causas ao lado, transforma margem que some em uma lista com dono e correção.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M08",
+  "jtbd": [
+    "JO5",
+    "JF5"
+  ],
+  "repertorio": {
+    "id": "R6",
+    "autor": "Chris Argyris",
+    "modo": "paráfrase fiel no slide 4 e na legenda, com autor, veículo e ano citados; o autor é apresentado ao leitor como professor de comportamento organizacional em Harvard, e a frase original em inglês não entra",
+    "fonte": "Double Loop Learning in Organizations, Harvard Business Review, setembro e outubro de 1977, 55(5), páginas 115 a 125",
+    "nota": "O ledger da nota 19c registra R6 como Chris Argyris com a fonte [S36], que é o artigo Teaching Smart People How to Learn, de 1991. Esta peça usa o artigo de 1977 do mesmo autor, que é onde a distinção entre os 2 tipos de correção está descrita. O código R6 existe e é o certo; o que falta é a fonte de 1977 no ledger, e a proposta de acréscimo fica na Inbox da Zionaxs Memory, para promoção humana."
+  },
+  "cta": "Pegar 1 folha hoje e escrever 1 linha por retrabalho durante 5 dias úteis, com o que foi refeito, o tempo gasto e qual das 4 causas.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela cena da correção que ninguém anotou, reconhecer que o problema é de registro e não de firmeza, receber a evidência de que a maioria já convive com isso, virar para a diferença entre corrigir o caso e mudar a regra, aprender as 4 causas com dono e correção, ouvir o limite que impede a lista de virar fatura, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-36",
+    "M08",
+    "JO5",
+    "JF5",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça é de leitura e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax, tem uma lista que se monta devagar. A nota específica desta peça é preferir uma faixa de textura seca e baixa, com pulso discreto e sem brilho, algo que soe como sala de trabalho em silêncio: o assunto é anotar o que ninguém anotava, e trilha discreta deixa o leitor contando as próprias refações em vez de acompanhar a música. Combina com o slot de tarde de fim de semana, que pede peça salvável e tom de estudo, não de urgência.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach. Nesta peça, evitar ainda trilha de tensão ou suspense: o assunto pode soar como acusação ao cliente, e uma trilha sombria reforçaria exatamente a leitura errada, porque o post diz que 2 das 4 causas são de casa.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante e textura seca que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-35 o perfil pedido foi de pulso constante, então aqui vale procurar algo ainda mais discreto."
+  },
+  "caption": [
+    "Existe 1 tipo de trabalho que você faz, entrega e nunca cobra: o retrabalho. A correção entra entre 2 tarefas, sem linha, sem hora e sem nome. No fim do mês ela não aparece em relatório nenhum, aparece só como margem que sumiu.",
+    "E isso já foi medido. Em junho de 2024 o Sescon-SP, sindicato das empresas de serviços contábeis de São Paulo, perguntou a 255 organizações associadas se elas monitoram e cobram retrabalho. 33% responderam que não cobram. Entre as que cobram, 30% cobram por complexidade, 27% por recorrência e 9% por hora trabalhada. A pesquisa é do estado de São Paulo, foi respondida de forma voluntária pelos associados e tem margem de erro de 5,9%.",
+    "Antes de mexer em preço, vale entender por que a correção some. Chris Argyris, professor de comportamento organizacional em Harvard, descreveu em 1977, na Harvard Business Review, 2 tipos de correção. Uma conserta o caso e deixa a regra em pé. A outra pergunta que regra deixou o caso acontecer. Refazer o documento é a primeira. Descobrir por que ele chega errado toda vez é a segunda.",
+    "Para chegar na segunda, o retrabalho precisa de nome. 4 causas dão conta da maior parte. 1. Entrada ruim: o material chegou errado de fora, e a correção é no combinado de entrada. 2. Escopo mudou: o pedido virou outro depois do começo, e isso é aditivo. 3. Falha interna: a informação estava certa e a entrega saiu errada, e a correção é no seu processo. 4. Regra mudou: norma, sistema ou prazo mudaram no meio, e isso é custo que entra no preço.",
+    "Um cuidado antes de sair anotando: registrar não é cobrar. A semana de registro serve para enxergar. Falha de casa não vira fatura para o cliente, e 2 das 4 causas são de casa. A taxonomia das 4 causas é proposta da Zionaxs, não recomendação da pesquisa.",
+    "Comece hoje. Pegue 1 folha e escreva 1 linha por retrabalho durante 5 dias úteis: o que foi refeito, quanto tempo levou e qual das 4 causas. No fim da semana a lista mostra onde mexer, e mostra também o que dá para cobrar."
+  ],
+  "caption_sources": [
+    "Fonte dos percentuais: Pesquisa de Preços e Serviços Praticados pelas Organizações Contábeis do Estado de São Paulo, Sescon-SP com Vox Populi, agosto de 2024, versão com errata de outubro de 2024. Pergunta 'Sua organização monitora e cobra por retrabalhos? Se sim, qual o critério de cobrança?', BASE 255: não cobra por retrabalho 33%, cobra por complexidade 30%, cobra por recorrência 27%, cobra por hora trabalhada 9%. PDF conferido em https://sescon.org.br/wp-content/uploads/2024/10/PESQUISA-PRECOS-E-SERVICOS-ERRATA.pdf",
+    "Recorte e limitação: pesquisa realizada por link enviado pelo Sescon-SP aos seus associados, questionário auto-aplicável, campo de 13 a 28 de junho de 2024, amostra de 255 casos e margem de erro de 5,9% em intervalo de confiança de 95%. É amostra estadual e associativa, com resposta voluntária, e por isso a peça declara o recorte no slide 6 e na legenda e não transporta o número para clínica, para advocacia nem para o Brasil.",
+    "Repertório: paráfrase de Chris Argyris, Double Loop Learning in Organizations, Harvard Business Review, setembro e outubro de 1977, 55(5), páginas 115 a 125, sem aspas e sem citação literal em inglês, com autor, veículo e ano apresentados ao leitor. O ledger de repertório da Zionaxs registra R6 como Chris Argyris pela fonte de 1991; a inclusão do artigo de 1977 está proposta na Inbox da Zionaxs Memory, para promoção humana.",
+    "As 4 causas, com dono e correção para cada uma, e os 5 dias úteis de registro antes de qualquer conversa de preço são aplicação contemporânea da Zionaxs, não resultado da pesquisa nem recomendação do autor. A peça declara isso no slide 6 e na legenda.",
+    "A leitura de que a mesma cena aparece em clínica e em banca de advocacia vem das tensões transversais da base de público da Zionaxs, registrada como evidência parcial em contabilidade e inferência nos demais setores. A peça descreve a cena sem afirmar magnitude fora do recorte medido.",
+    "Fotos: Milada Vigerova, Sasun Bughdaryan e Evan Lee, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "Você refez.\nE não\ncobrou.",
+        "accentLine": "De novo.",
+        "hl": "De novo.",
+        "sub": "A correção entrou entre 2 tarefas, sem linha, sem hora e sem nome. Trabalho que ninguém registra não vira preço. Vira margem que some no fim do mês.",
+        "year": "2026",
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835 · foto: Milada Vigerova"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "Você refez. E não cobrou.",
+        "De novo.",
+        "A correção entrou entre 2 tarefas, sem linha, sem hora e sem nome. Trabalho que ninguém registra não vira preço. Vira margem que some no fim do mês.",
+        "2026",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835 · foto: Milada Vigerova"
+      ],
+      "alt": "Slide 1 de 7. Você refez, e não cobrou. De novo. A correção entrou entre 2 tarefas, sem linha, sem hora e sem nome. Trabalho que ninguém registra não vira preço, vira margem que some no fim do mês. Fotografia escura de uma mesa de trabalho à noite, com rolos de papel em uma cesta, um abajur aceso e uma cadeira vazia ao lado.",
+      "photo": {
+        "src": "../assets/foto-mesa-noite.jpg",
+        "pos": "50% 50%",
+        "scale": 1.5,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ninguém\nanotou."
+        ],
+        "closing": "A refação entrou entre 2 tarefas e ninguém abriu uma linha para ela. Sem registro, o retrabalho não tem hora, não tem causa e não tem dono. Ele só reaparece no fechamento, como margem menor sem explicação.",
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835 · foto: Sasun Bughdaryan"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ninguém anotou.",
+        "A refação entrou entre 2 tarefas e ninguém abriu uma linha para ela. Sem registro, o retrabalho não tem hora, não tem causa e não tem dono. Ele só reaparece no fechamento, como margem menor sem explicação.",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835 · foto: Sasun Bughdaryan"
+      ],
+      "alt": "Slide 2 de 7. Ninguém anotou. A refação entrou entre 2 tarefas e ninguém abriu uma linha para ela. Sem registro, o retrabalho não tem hora, não tem causa e não tem dono. Ele só reaparece no fechamento, como margem menor sem explicação. Papel claro com fotografia em preto e branco de duas mãos amassando uma folha sobre uma mesa de madeira, com outras bolas de papel ao redor.",
+      "photo": {
+        "src": "../assets/foto-maos-amassando.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "33% não cobram\no retrabalho.",
+          "Quem cobra usa\n3 critérios."
+        ],
+        "closing": "Em junho de 2024 o Sescon-SP, sindicato das empresas de serviços contábeis de São Paulo, perguntou a 255 organizações associadas se elas monitoram e cobram retrabalho. 33% responderam que não cobram. Entre as que cobram, 30% cobram por complexidade, 27% por recorrência e 9% por hora trabalhada.",
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "33% não cobram o retrabalho.",
+        "Quem cobra usa 3 critérios.",
+        "Em junho de 2024 o Sescon-SP, sindicato das empresas de serviços contábeis de São Paulo, perguntou a 255 organizações associadas se elas monitoram e cobram retrabalho. 33% responderam que não cobram. Entre as que cobram, 30% cobram por complexidade, 27% por recorrência e 9% por hora trabalhada.",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835"
+      ],
+      "alt": "Slide 3 de 7. 33% não cobram o retrabalho, e quem cobra usa 3 critérios. Em junho de 2024 o Sescon-SP, sindicato das empresas de serviços contábeis de São Paulo, perguntou a 255 organizações associadas se elas monitoram e cobram retrabalho. 33% responderam que não cobram. Entre as que cobram, 30% cobram por complexidade, 27% por recorrência e 9% por hora trabalhada."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Corrigir o caso\nnão muda a regra.",
+        "accent": "A regra fica.",
+        "hl": "A regra fica.",
+        "ghost": "33",
+        "year": "2026",
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835",
+        "body": "Chris Argyris, professor de comportamento organizacional em Harvard, separou 2 tipos de correção. Uma conserta o caso e deixa a regra em pé. A outra pergunta que regra deixou o caso acontecer. Refazer o documento é a primeira. Descobrir por que ele chega errado toda vez é a segunda."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Corrigir o caso não muda a regra.",
+        "A regra fica.",
+        "2026",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835",
+        "Chris Argyris, professor de comportamento organizacional em Harvard, separou 2 tipos de correção. Uma conserta o caso e deixa a regra em pé. A outra pergunta que regra deixou o caso acontecer. Refazer o documento é a primeira. Descobrir por que ele chega errado toda vez é a segunda."
+      ],
+      "alt": "Slide 4 de 7. Corrigir o caso não muda a regra, a regra fica. Chris Argyris, professor de comportamento organizacional em Harvard, separou 2 tipos de correção. Uma conserta o caso e deixa a regra em pé. A outra pergunta que regra deixou o caso acontecer. Refazer o documento é a primeira. Descobrir por que ele chega errado toda vez é a segunda. Campo laranja chapado com o número 33 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "4 causas, 1\npor refação.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Entrada ruim. Veio errado de fora, e a correção é no combinado de entrada."
+          },
+          {
+            "num": "2",
+            "label": "Escopo mudou. O pedido virou outro depois do começo, e isso é aditivo."
+          },
+          {
+            "num": "3",
+            "label": "Falha interna. A informação estava certa, e a correção é no seu processo."
+          },
+          {
+            "num": "4",
+            "label": "Regra mudou. Norma, sistema ou prazo mudaram, e isso entra no preço."
+          }
+        ],
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "4 causas, 1 por refação.",
+        "1",
+        "Entrada ruim. Veio errado de fora, e a correção é no combinado de entrada.",
+        "2",
+        "Escopo mudou. O pedido virou outro depois do começo, e isso é aditivo.",
+        "3",
+        "Falha interna. A informação estava certa, e a correção é no seu processo.",
+        "4",
+        "Regra mudou. Norma, sistema ou prazo mudaram, e isso entra no preço.",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835"
+      ],
+      "alt": "Slide 5 de 7. 4 causas, 1 por refação. 1: entrada ruim, veio errado de fora, e a correção é no combinado de entrada. 2: escopo mudou, o pedido virou outro depois do começo, e isso é aditivo. 3: falha interna, a informação estava certa, e a correção é no seu processo. 4: regra mudou, norma, sistema ou prazo mudaram, e isso entra no preço. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Registrar não\né cobrar.",
+        "accent": "E nem tudo se cobra.",
+        "body": "A semana de registro serve para enxergar, não para faturar: 2 das 4 causas são de casa, e falha de casa não vira fatura. Os números são de 255 organizações contábeis de São Paulo, com resposta voluntária, então valem como ordem de grandeza.",
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Registrar não é cobrar.",
+        "E nem tudo se cobra.",
+        "A semana de registro serve para enxergar, não para faturar: 2 das 4 causas são de casa, e falha de casa não vira fatura. Os números são de 255 organizações contábeis de São Paulo, com resposta voluntária, então valem como ordem de grandeza.",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835"
+      ],
+      "alt": "Slide 6 de 7. Registrar não é cobrar, e nem tudo se cobra. A semana de registro serve para enxergar, não para faturar: 2 das 4 causas são de casa, e falha de casa não vira fatura. Os números são de 255 organizações contábeis de São Paulo, com resposta voluntária, então valem como ordem de grandeza."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Anote o próximo\nretrabalho.",
+        "hl": "Anote o próximo",
+        "accent": "Com a causa do lado.",
+        "body": "Pegue 1 folha e escreva 1 linha por retrabalho durante 5 dias úteis: o que foi refeito, quanto tempo levou e qual das 4 causas. No fim da semana a lista mostra onde mexer, e mostra também o que dá para cobrar.",
+        "year": "2026",
+        "temas": "Temas: Retrabalho / Margem / Registro",
+        "micro": "@zionaxs_ · ref d7816835 · foto: Evan Lee"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Anote o próximo retrabalho.",
+        "Com a causa do lado.",
+        "Pegue 1 folha e escreva 1 linha por retrabalho durante 5 dias úteis: o que foi refeito, quanto tempo levou e qual das 4 causas. No fim da semana a lista mostra onde mexer, e mostra também o que dá para cobrar.",
+        "2026",
+        "Temas: Retrabalho / Margem / Registro",
+        "@zionaxs_ · ref d7816835 · foto: Evan Lee"
+      ],
+      "alt": "Slide 7 de 7. Anote o próximo retrabalho, com a causa do lado. Pegue 1 folha e escreva 1 linha por retrabalho durante 5 dias úteis: o que foi refeito, quanto tempo levou e qual das 4 causas. No fim da semana a lista mostra onde mexer, e mostra também o que dá para cobrar. Fotografia escura de um quarto em penumbra, com a luz da janela atravessando uma cortina fina e uma mesa com papéis logo abaixo.",
+      "photo": {
+        "src": "../assets/foto-quarto-janela.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

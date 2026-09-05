@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-36-o-retrabalho-sem-nome",
+  "generatedAt": "2026-09-05T18:19:09+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-36-o-retrabalho-sem-nome-slide-01.png",
+    "zx-36-o-retrabalho-sem-nome-slide-02.png",
+    "zx-36-o-retrabalho-sem-nome-slide-03.png",
+    "zx-36-o-retrabalho-sem-nome-slide-04.png",
+    "zx-36-o-retrabalho-sem-nome-slide-05.png",
+    "zx-36-o-retrabalho-sem-nome-slide-06.png",
+    "zx-36-o-retrabalho-sem-nome-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A entrada 01/07 Você refez. E não cobrou. De novo. A correção entrou entre 2 tarefas, sem linha, sem hora e sem nome. Trabalho que ninguém registra não vira preço. Vira margem que some no fim do mês. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835 · foto: Milada Vigerova"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Ninguém anotou. A refação entrou entre 2 tarefas e ninguém abriu uma linha para ela. Sem registro, o retrabalho não tem hora, não tem causa e não tem dono. Ele só reaparece no fechamento, como margem menor sem explicação. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835 · foto: Sasun Bughdaryan"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 33% não cobram o retrabalho. Quem cobra usa 3 critérios. Em junho de 2024 o Sescon-SP, sindicato das empresas de serviços contábeis de São Paulo, perguntou a 255 organizações associadas se elas monitoram e cobram retrabalho. 33% responderam que não cobram. Entre as que cobram, 30% cobram por complexidade, 27% por recorrência e 9% por hora trabalhada. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Corrigir o caso não muda a regra. A regra fica. Chris Argyris, professor de comportamento organizacional em Harvard, separou 2 tipos de correção. Uma conserta o caso e deixa a regra em pé. A outra pergunta que regra deixou o caso acontecer. Refazer o documento é a primeira. Descobrir por que ele chega errado toda vez é a segunda. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 4 causas, 1 por refação. 1Entrada ruim. Veio errado de fora, e a correção é no combinado de entrada. 2Escopo mudou. O pedido virou outro depois do começo, e isso é aditivo. 3Falha interna. A informação estava certa, e a correção é no seu processo. 4Regra mudou. Norma, sistema ou prazo mudaram, e isso entra no preço. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Registrar não é cobrar. E nem tudo se cobra. A semana de registro serve para enxergar, não para faturar: 2 das 4 causas são de casa, e falha de casa não vira fatura. Os números são de 255 organizações contábeis de São Paulo, com resposta voluntária, então valem como ordem de grandeza. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Anote o próximo retrabalho. Com a causa do lado. Pegue 1 folha e escreva 1 linha por retrabalho durante 5 dias úteis: o que foi refeito, quanto tempo levou e qual das 4 causas. No fim da semana a lista mostra onde mexer, e mostra também o que dá para cobrar. Temas: Retrabalho / Margem / Registro @zionaxs_ · ref d7816835 · foto: Evan Lee"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "6 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.1,
+  "digest": "b0fe756f341ca96d6737a0a3cec0462698b915ee9eb6e74668cc29e5f2ecb851"
+}
