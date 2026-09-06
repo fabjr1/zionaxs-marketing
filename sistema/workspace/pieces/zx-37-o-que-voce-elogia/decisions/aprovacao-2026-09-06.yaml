@@ -1,0 +1,103 @@
+decisao: aprovar e publicar a zx-37, slot da manhã de fim de semana
+data: 2026-09-06
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0 de 2 do dia consumido.
+  registro_anterior: pieces/zx-36-o-retrabalho-sem-nome/decisions/aprovacao-2026-09-05.yaml
+
+slot_editorial:
+  horario: "10:30 BRT, domingo"
+  papel: "repertório, cultura, comportamento, curiosidade e conteúdo visualmente experimental"
+  leitura: >
+    O slot da manhã de fim de semana pede peça mais aberta que a de dia útil,
+    porque o leitor não está no meio da operação. Por isso o centro aqui é 1 ideia
+    de repertório, e não 1 planilha: o artigo de Steven Kerr de 1975 sobre
+    recompensar um comportamento esperando outro. A utilidade continua, e mora no
+    slide 5, que é um teste de 4 passos que a pessoa faz sozinha em 10 minutos
+    com o próprio histórico de elogios.
+
+tema:
+  escolhido: o que você elogia em público é o que a equipe repete, e o resgate costuma ser o único momento com plateia
+  matriz: nenhuma declarada
+  jtbd: [JE1, JS1]
+  repertorio: >
+    R2 no ledger da nota 19c, a linha "Cultura (sem frase apócrifa)", em paráfrase,
+    no slide 4 e na legenda. A fonte primária usada é Steven Kerr, On the folly of
+    rewarding A, while hoping for B, Academy of Management Journal, dezembro de
+    1975, volume 18, número 4, páginas 769 a 783, apresentado ao leitor no slide 3.
+    A frase sobre cultura e estratégia no café da manhã, que a mesma linha do
+    ledger proíbe atribuir a Drucker, não aparece na peça.
+  por_que: >
+    Das 17 peças de zx-20 a zx-36, nenhuma tratou de incentivo e comportamento
+    recompensado: elas cobriram capacidade, métrica, prazo, margem, retrabalho,
+    automação e canal. Este slot pede repertório e cultura, e a assimetria entre
+    o resgate que tem plateia e a entrega tranquila que não tem é justamente uma
+    peça de comportamento com aplicação imediata. O repertório R2 nunca tinha sido
+    usado, e era o único do ledger sem fonte primária positiva.
+  nao_repetido: >
+    Conferido contra as 17 peças anteriores, olhando tese, matriz, JTBD e
+    repertório de cada contrato. A zx-33 tratou de aceitar trabalho ruim e a zx-35
+    de prazo que se ocupa sozinho; nenhuma das 2 fala de reconhecimento nem de
+    incentivo. Repertórios já usados: R1, R3, R4, R5, R6, R7, R9, R10 e R11. R2
+    estava livre.
+
+matriz_ausente:
+  motivo: >
+    A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha cobre
+    comportamento recompensado contra valor declarado. A mais próxima, M19, é
+    dependência de pessoa-chave e limites de decisão, que não é o assunto desta
+    peça. Declarar M19 só para preencher o campo estragaria a análise posterior em
+    silêncio, que é exatamente o erro que a verificação A9 existe para impedir, e
+    a própria A9 só cobra código declarado, tratando campo ausente como lacuna
+    assumida.
+  encaminhamento: >
+    Proposta de linha nova de matriz, comportamento recompensado contra valor
+    declarado, registrada na Inbox da Zionaxs Memory para promoção humana, junto
+    com a proposta de incluir o artigo de Kerr de 1975 como fonte primária de R2.
+
+evidencia:
+  fonte_primaria: >
+    Steven Kerr, On the folly of rewarding A, while hoping for B, Academy of
+    Management Journal, dezembro de 1975, volume 18, número 4, páginas 769 a 783.
+    A referência foi conferida nesta execução em 2 lugares independentes: o
+    registro do periódico em journals.aom.org, sob o DOI 10.5465/255378, e o
+    cabeçalho de catalogação do próprio PDF do artigo, que traz "Academy of
+    Management Journal (pre-1986); Dec 1975; 18, 4; pg. 769". O PDF é digitalizado
+    e não tem camada de texto, então o conteúdo foi conferido em reprodução do
+    texto do artigo, de onde saíram o argumento central, o exemplo da universidade
+    e a lista de 4 causas.
+  limite_declarado: >
+    O artigo é de 1975 e trata de sistemas de recompensa em organizações em geral.
+    Ele não mede escritório de serviço brasileiro, e a peça não afirma percentual
+    nenhum sobre elogio ou urgência no Brasil. O slide 6 declara que o teste dos 5
+    elogios é proposta da Zionaxs, e não recomendação do artigo.
+  aplicacao_zionaxs: >
+    O teste dos 5 elogios, com nome, data e marcação do que cada elogio paga, e o
+    corte de 4 em 5 como sinal, são aplicação contemporânea da Zionaxs.
+
+fotos:
+  capa: james chan, Unsplash, mesa de trabalho iluminada em escritório às escuras
+  cena: Sam, Unsplash, pessoas trabalhando em silhueta diante de janelas grandes
+  fechamento: taylorllc, Unsplash, pessoa em silhueta de perfil sentada a uma mesa
+  enquadramento: >
+    As 2 fotos de campo escuro receberam scale com origin no rodapé, receita da
+    zx-34. A capa exigiu 3 rodadas de revisão humana e é o aprendizado desta
+    execução: com scale 1.3 e 1.6 a banda de texto ainda pegava a mesa iluminada,
+    e a 2.1 os rostos das pessoas ficaram grandes e legíveis, o que a regra de
+    rosto proíbe. Com scale 2.6 e pos 50% 22% os rostos saem de quadro pelo topo,
+    sobram costas e mãos, e a banda de texto inteira fica escura. O fechamento
+    passou por problema igual: no enquadramento original um rosto aparecia lit e
+    reconhecível, e o corte foi para pos 0% 50% com scale 1.7, que deixa só a
+    silhueta de perfil. Nenhum gate mede rosto: quem pegou isso foi o passo 6.
+
+gates: 14/14
+digest: f295ba7315fb1ea9
+porteiro: liberado sem exceção, cadência 0 de 2 no dia

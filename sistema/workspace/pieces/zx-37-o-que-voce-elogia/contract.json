@@ -1,0 +1,339 @@
+{
+  "id": "zx-37-o-que-voce-elogia",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal / persona C1, o sócio de escritório de serviço que decide, elogia e cobra a mesma equipe todos os dias. Secundário nenhum: o público primário é 1 só, e a cena é descrita de forma que clínica, escritório contábil e banca de advocacia se reconheçam sem que a peça afirme número nenhum sobre eles. Cena concreta: a sexta à noite em que alguém apagou o incêndio e foi elogiado na frente de todos, e a semana inteira de trabalho que não gerou incêndio nenhum e não foi citada por ninguém. Slot editorial: manhã de fim de semana, papel de repertório, cultura e comportamento, então a peça pode ser mais aberta e menos tática que a de dia útil, sem deixar de entregar 1 teste que a pessoa aplica sozinha na segunda.",
+    "decisao": "Parar de tratar reconhecimento como gentileza e começar a tratá-lo como pagamento. Listar os 5 últimos elogios públicos que você fez, marcar o que cada um paga, e citar em público 1 entrega desta semana que correu sem susto.",
+    "tensao": "Todo mundo que toca um negócio de serviço já elogiou quem resolveu a emergência, e ninguém acha isso errado, porque não é. O que passa despercebido é a outra metade da conta: a entrega que correu bem não tem história, não tem hora dramática e não tem plateia, então ela não é citada. A equipe repara nisso muito antes de reclamar, e passa a repetir o que rende reconhecimento. O resultado é um negócio que paga pelo incêndio sem nunca ter decidido comprar incêndio, e que ainda estranha por que tudo vira urgência.",
+    "evidencia": [
+      {
+        "claim": "existe um artigo acadêmico de 1975 que descreve organizações recompensando um comportamento enquanto esperam outro, e ele se chama On the Folly of Rewarding A, While Hoping for B, de Steven Kerr",
+        "status": "E",
+        "fonte": "Steven Kerr, On the folly of rewarding A, while hoping for B, Academy of Management Journal, dezembro de 1975, volume 18, número 4, páginas 769 a 783. Conferido nesta execução em 2 lugares: o registro do periódico em https://journals.aom.org/doi/abs/10.5465/255378, e o cabeçalho de catalogação do próprio PDF do artigo, que traz Academy of Management Journal (pre-1986); Dec 1975; 18, 4; pg. 769."
+      },
+      {
+        "claim": "o argumento central do artigo é que as pessoas procuram saber quais atividades são recompensadas e passam a fazer aquilo, muitas vezes deixando de lado o que não é recompensado",
+        "status": "E",
+        "fonte": "Reprodução do texto do artigo consultada nesta execução em https://www.deanewaldman.com/kerrs-folly.html, que traz o corpo do artigo e a citação bibliográfica Academy of Management Journal, 1975, 18, 769 a 783. A peça usa a ideia em paráfrase, sem aspas e sem citação literal em inglês, como manda o padrão de copy da marca."
+      },
+      {
+        "claim": "o artigo usa a universidade como exemplo: espera-se que o professor não descuide do ensino, e a recompensa vem quase toda de pesquisa e publicação",
+        "status": "E",
+        "fonte": "Passagem do artigo reproduzida na mesma fonte, na formulação de que a sociedade espera que os professores não negligenciem suas responsabilidades de ensino, mas os recompensa quase inteiramente por pesquisa e publicações. A peça apresenta a tradução como editorial e não usa aspas."
+      },
+      {
+        "claim": "o artigo lista 4 causas para o sistema de recompensa continuar torto, e uma delas é a ênfase excessiva em comportamentos muito visíveis",
+        "status": "E",
+        "fonte": "As 4 causas listadas no artigo, conferidas na mesma reprodução: fascínio por critério objetivo, ênfase excessiva em comportamentos altamente visíveis, hipocrisia, e ênfase em moralidade ou equidade em vez de eficiência. A peça usa apenas a segunda, que é a que explica o resgate ter plateia e a semana quieta não ter."
+      },
+      {
+        "claim": "cultura é o comportamento que a casa recompensa, tolera e pune, e não o valor declarado no cartaz",
+        "status": "I",
+        "fonte": "[19c] seção 12.2, linha R2 do ledger de repertório da Zionaxs, que registra a oposição entre valor declarado e comportamento recompensado e determina uso apenas em paráfrase. A mesma linha proíbe atribuir a Peter Drucker a frase sobre cultura e estratégia no café da manhã, cuja autoria a investigação de origem não sustenta, e esta peça não usa essa frase."
+      },
+      {
+        "claim": "o teste dos 5 elogios, com a marcação do que cada elogio paga, é proposta da Zionaxs",
+        "status": "H",
+        "fonte": "Aplicação contemporânea da Zionaxs, marcada como tal no slide 6 e na legenda. O artigo de Kerr descreve o problema e as causas, e não propõe auditoria de elogios nem número de casos a revisar. Não existe pesquisa conhecida que valide 5 como a quantidade suficiente, e por isso a peça manda observar o resultado em vez de prometer ganho."
+      },
+      {
+        "claim": "o público quer ser visto pela equipe como alguém que decide com critério e quer parar de sentir que a operação anda porque ele empurra",
+        "status": "I",
+        "fonte": "[19b] seção 8, jobs JE1 e JS1. A ficha da persona registra a dependência do dono e o desejo de decidir por critério declarado, que é onde esta peça entra: elogio dado por impulso é decisão por humor, e ele tem consequência operacional."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, o título, o autor, o periódico, o ano, o volume, o número e as páginas do artigo de Steven Kerr de 1975",
+        "o argumento central do artigo, de que as pessoas descobrem o que é recompensado e passam a fazer aquilo",
+        "o exemplo da universidade, que espera bom ensino e recompensa quase só pesquisa e publicação",
+        "as 4 causas listadas no artigo, entre elas a ênfase excessiva em comportamentos muito visíveis"
+      ],
+      "I": [
+        "a leitura de que a mesma assimetria aparece em escritório de serviço brasileiro, onde o resgate tem plateia e a entrega tranquila não tem",
+        "a leitura de que cultura é o comportamento recompensado, tolerado e punido, e não o valor declarado"
+      ],
+      "H": [
+        "o teste dos 5 elogios, com nome, data e marcação do que cada elogio paga",
+        "o corte de 4 em 5 como sinal de que o incêndio é o que rende na casa"
+      ],
+      "NC": [
+        "quanto do reconhecimento público em escritórios de serviço brasileiros vai para resgate e quanto vai para entrega tranquila, porque não existe levantamento conhecido",
+        "se citar em público o trabalho sem susto reduz a quantidade de urgências, porque ninguém mediu isso em negócio de serviço no Brasil"
+      ]
+    },
+    "limites": [
+      "O artigo de Kerr é de 1975 e trata de sistemas de recompensa em organizações em geral, com exemplos de universidade, medicina, esporte e governo. Ele não mede escritório de serviço brasileiro, e a peça não afirma que mede.",
+      "A peça não afirma nenhum percentual sobre elogio, reconhecimento ou urgência em negócios brasileiros, porque não existe levantamento conhecido sobre isso.",
+      "Elogio não é o único mecanismo de recompensa. Salário, promoção, folga e escolha de projeto pesam, e a peça diz isso no slide 6 em vez de prometer que reconhecimento resolve sozinho.",
+      "A peça não diz para parar de elogiar quem resolve emergência. Ela diz para o resgate deixar de ser o único momento com plateia.",
+      "O teste dos 5 elogios é proposta editorial da Zionaxs e não sai do artigo nem de pesquisa conhecida.",
+      "A peça fala de comportamento dentro da casa e não trata de política salarial, avaliação de desempenho formal nem regra trabalhista."
+    ]
+  },
+  "tese": "O que você elogia em público é o que a equipe repete. Se o único momento de aplauso é o resgate de sexta à noite, o negócio comprou mais sextas assim, e a entrega que correu bem some justamente por ter corrido bem.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JE1",
+    "JS1"
+  ],
+  "repertorio": {
+    "id": "R2",
+    "autor": "Steven Kerr",
+    "modo": "paráfrase fiel no slide 3 e na legenda, com autor, veículo, ano e páginas citados; o autor é apresentado ao leitor como professor de administração, a tradução do título é marcada como editorial e nenhuma frase em inglês entra na copy",
+    "fonte": "On the folly of rewarding A, while hoping for B, Academy of Management Journal, dezembro de 1975, volume 18, número 4, páginas 769 a 783",
+    "nota": "O ledger da nota 19c registra R2 como Cultura, sem frase apócrifa, com a oposição entre valor declarado e comportamento recompensado, e a única fonte listada é [S31], que serve para desautorizar a frase atribuída a Drucker sobre cultura e estratégia. R2 é o código certo para esta peça, e o que falta é uma fonte primária positiva na linha: o artigo de Kerr de 1975 é essa fonte, e a proposta de acréscimo fica na Inbox da Zionaxs Memory, para promoção humana."
+  },
+  "matriz_nota": "Sem código de matriz declarado de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de comportamento recompensado contra valor declarado: a mais próxima, M19, é dependência de pessoa-chave e limites de decisão, que não é o assunto desta peça. Declarar um código só para preencher o campo estragaria a análise posterior, que é justamente o que a verificação A9 existe para impedir, então o campo fica vazio e a proposta de uma linha nova de matriz vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "cta": "Escolher 1 entrega desta semana que correu sem susto, descobrir quem fez e citar essa pessoa em público, com o nome do que deu certo.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela cena do elogio da sexta à noite, reconhecer que o trabalho tranquilo não é citado por não ter história, receber a evidência de que isso já foi descrito e por quê, virar para a ideia de que elogio é uma forma de pagamento, aprender o teste que mede o próprio comportamento, ouvir o limite que impede a peça de virar acusação a quem elogia, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-37",
+    "R2",
+    "JE1",
+    "JS1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Slow Applause",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça é de leitura e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax. A nota específica desta peça é procurar uma faixa de textura quente e sem pressa, com pulso leve, algo que soe como fim de expediente e não como corrida: o assunto é justamente o trabalho que corre bem e não vira drama, e trilha tensa contaria a história errada logo na capa. Combina com o slot de manhã de fim de semana, que pede tom de repertório e leitura calma, não de urgência.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda percussão de tensão e trilha de suspense: a copy diz que elogiar quem salvou não é errado, e trilha de ameaça faria a peça soar como repreensão a quem elogia.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante e textura quente que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-36 o perfil pedido foi de pulso constante e textura seca, então aqui vale procurar algo mais aberto e menos áspero."
+  },
+  "caption": [
+    "Na sexta à noite alguém apagou o incêndio, e você elogiou essa pessoa na frente de todos. Fez bem. Só que a mesma semana teve entregas que saíram no prazo, sem susto e sem reunião de emergência, e nenhuma delas foi citada por ninguém. Trabalho que corre bem não tem história para contar.",
+    "Isso já foi descrito, e faz tempo. Steven Kerr, professor de administração, publicou em 1975 na Academy of Management Journal o artigo On the Folly of Rewarding A, While Hoping for B, páginas 769 a 783, que em tradução nossa seria algo como a insensatez de recompensar A enquanto se espera B. O argumento é direto: as pessoas descobrem quais comportamentos são recompensados e passam a fazer aqueles, mesmo quando o discurso pede outra coisa. O exemplo dele é a universidade, que espera bons professores e recompensa quase só publicação de pesquisa.",
+    "Kerr também explica por que isso não se corrige sozinho. Uma das 4 causas que ele lista é a ênfase excessiva no que é muito visível. O resgate é visível: tem hora, tem drama e tem plateia. A semana que correu bem não tem nenhuma das 3 coisas, então ela não aparece.",
+    "Elogio público é uma forma de pagamento, e o teste é barato. Liste os 5 últimos elogios que você fez na frente da equipe, com nome e data. Ao lado de cada um, marque o que ele paga: resgate de problema ou trabalho que não virou problema. Se 4 forem resgate, você já sabe o que vai receber mais na semana que vem. Esse teste é proposta da Zionaxs, não recomendação do artigo.",
+    "Um cuidado antes de mudar qualquer coisa: elogiar quem salvou não é errado, e emergência existe. O problema é o resgate ser o único momento com plateia. E reconhecimento não substitui salário, prazo nem processo. Ele decide o que a equipe repete, não o resto.",
+    "Comece hoje. Escolha 1 entrega desta semana que correu sem susto, descubra quem fez e cite essa pessoa em público, com o nome do que deu certo. Custa o mesmo que o elogio de sexta à noite, e paga outro comportamento."
+  ],
+  "caption_sources": [
+    "Fonte do repertório: Steven Kerr, On the folly of rewarding A, while hoping for B, Academy of Management Journal, dezembro de 1975, volume 18, número 4, páginas 769 a 783. Registro do periódico conferido nesta execução em https://journals.aom.org/doi/abs/10.5465/255378, e o cabeçalho de catalogação do PDF do artigo traz Academy of Management Journal (pre-1986); Dec 1975; 18, 4; pg. 769.",
+    "Conteúdo do artigo conferido nesta execução na reprodução do texto em https://www.deanewaldman.com/kerrs-folly.html: o argumento de que as pessoas descobrem o que é recompensado e passam a fazer aquilo, o exemplo da universidade que espera bom ensino e recompensa quase só pesquisa e publicação, e a lista de 4 causas, entre elas a ênfase excessiva em comportamentos altamente visíveis. A peça usa paráfrase, sem aspas, e marca a tradução do título como editorial.",
+    "Recorte e limitação: o artigo é de 1975, trata de sistemas de recompensa em organizações em geral e usa exemplos de universidade, medicina, esporte e governo. Ele não mede escritório de serviço brasileiro, e por isso a peça não afirma percentual nenhum sobre elogio ou urgência no Brasil e trata a ideia como leitura, não como medida.",
+    "O teste dos 5 elogios, com nome, data e marcação do que cada elogio paga, e o corte de 4 em 5 como sinal são aplicação contemporânea da Zionaxs, não resultado do artigo. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: a linha R2 do ledger da Zionaxs registra a oposição entre valor declarado e comportamento recompensado e determina uso apenas em paráfrase, além de proibir atribuir a Peter Drucker a frase sobre cultura e estratégia no café da manhã, cuja autoria a investigação de origem não sustenta. Esta peça não usa essa frase, e a inclusão do artigo de Kerr de 1975 como fonte primária de R2 está proposta na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: james chan, Sam e taylorllc, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "Você elogiou\no incêndio.",
+        "accentLine": "Sem querer.",
+        "hl": "Sem querer.",
+        "sub": "Quem apagou o problema na sexta à noite recebeu o aplauso na frente de todos. Quem trabalhou de um jeito que não gerou problema nenhum não foi citado por ninguém, e a equipe repara nisso muito antes de reclamar.",
+        "year": "2026",
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019 · foto: james chan"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "Você elogiou o incêndio.",
+        "Sem querer.",
+        "Quem apagou o problema na sexta à noite recebeu o aplauso na frente de todos. Quem trabalhou de um jeito que não gerou problema nenhum não foi citado por ninguém, e a equipe repara nisso muito antes de reclamar.",
+        "2026",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019 · foto: james chan"
+      ],
+      "alt": "Slide 1 de 7. Você elogiou o incêndio, sem querer. Quem apagou o problema na sexta à noite recebeu o aplauso na frente de todos. Quem trabalhou de um jeito que não gerou problema nenhum não foi citado por ninguém, e a equipe repara nisso muito antes de reclamar. Fotografia escura de uma mesa de trabalho à noite, vista de cima, iluminada por uma luminária de mesa, com notebooks abertos e pessoas trabalhando de costas, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-escritorio-noite.jpg",
+        "pos": "50% 22%",
+        "scale": 2.6,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ninguém\nelogia\no calmo."
+        ],
+        "closing": "A entrega que saiu no prazo, sem susto e sem reunião de emergência, não aparece em lugar nenhum. Ela não tem história para contar. Só o resgate tem plateia, e por isso só o resgate vira exemplo.",
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019 · foto: Sam"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ninguém elogia o calmo.",
+        "A entrega que saiu no prazo, sem susto e sem reunião de emergência, não aparece em lugar nenhum. Ela não tem história para contar. Só o resgate tem plateia, e por isso só o resgate vira exemplo.",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019 · foto: Sam"
+      ],
+      "alt": "Slide 2 de 7. Ninguém elogia o calmo. A entrega que saiu no prazo, sem susto e sem reunião de emergência, não aparece em lugar nenhum. Ela não tem história para contar. Só o resgate tem plateia, e por isso só o resgate vira exemplo. Papel claro com fotografia em preto e branco de 2 pessoas trabalhando em silhueta diante de janelas grandes.",
+      "photo": {
+        "src": "../assets/foto-mesas-janela.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "A universidade\npede aula.",
+          "E paga\npesquisa."
+        ],
+        "closing": "Steven Kerr, professor de administração, descreveu isso em 1975 na Academy of Management Journal. A sociedade espera que o professor não descuide do ensino, e a carreira recompensa quase só pesquisa e publicação. As pessoas descobrem o que é recompensado e passam a fazer aquilo.",
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "A universidade pede aula.",
+        "E paga pesquisa.",
+        "Steven Kerr, professor de administração, descreveu isso em 1975 na Academy of Management Journal. A sociedade espera que o professor não descuide do ensino, e a carreira recompensa quase só pesquisa e publicação. As pessoas descobrem o que é recompensado e passam a fazer aquilo.",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019"
+      ],
+      "alt": "Slide 3 de 7. A universidade pede aula e paga pesquisa. Steven Kerr, professor de administração, descreveu isso em 1975 na Academy of Management Journal. A sociedade espera que o professor não descuide do ensino, e a carreira recompensa quase só pesquisa e publicação. As pessoas descobrem o que é recompensado e passam a fazer aquilo."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Elogio é\npagamento.",
+        "accent": "Você pagou o susto.",
+        "hl": "Você pagou o susto.",
+        "ghost": "75",
+        "year": "2026",
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019",
+        "body": "A equipe descobre o que rende reconhecimento e repete aquilo. Se o aplauso só aparece no resgate de sexta à noite, a casa está comprando mais sextas assim. Cultura não é o cartaz na parede, é o comportamento que a casa recompensa, tolera e pune."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Elogio é pagamento.",
+        "Você pagou o susto.",
+        "2026",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019",
+        "A equipe descobre o que rende reconhecimento e repete aquilo. Se o aplauso só aparece no resgate de sexta à noite, a casa está comprando mais sextas assim. Cultura não é o cartaz na parede, é o comportamento que a casa recompensa, tolera e pune."
+      ],
+      "alt": "Slide 4 de 7. Elogio é pagamento, você pagou o susto. A equipe descobre o que rende reconhecimento e repete aquilo. Se o aplauso só aparece no resgate de sexta à noite, a casa está comprando mais sextas assim. Cultura não é o cartaz na parede, é o comportamento que a casa recompensa, tolera e pune. Campo laranja chapado com o número 75 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O teste dos\n5 elogios.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Liste os 5 últimos elogios que você fez na frente da equipe, com nome e data."
+          },
+          {
+            "num": "2",
+            "label": "Marque o que cada um paga: resgate de problema ou trabalho que não virou problema."
+          },
+          {
+            "num": "3",
+            "label": "Conte. Se 4 forem resgate, o incêndio é o que rende dentro de casa."
+          },
+          {
+            "num": "4",
+            "label": "Escolha 1 entrega desta semana que correu sem susto e cite ela em público."
+          }
+        ],
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O teste dos 5 elogios.",
+        "1",
+        "Liste os 5 últimos elogios que você fez na frente da equipe, com nome e data.",
+        "2",
+        "Marque o que cada um paga: resgate de problema ou trabalho que não virou problema.",
+        "3",
+        "Conte. Se 4 forem resgate, o incêndio é o que rende dentro de casa.",
+        "4",
+        "Escolha 1 entrega desta semana que correu sem susto e cite ela em público.",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019"
+      ],
+      "alt": "Slide 5 de 7. O teste dos 5 elogios. 1: liste os 5 últimos elogios que você fez na frente da equipe, com nome e data. 2: marque o que cada um paga, resgate de problema ou trabalho que não virou problema. 3: conte, e se 4 forem resgate, o incêndio é o que rende dentro de casa. 4: escolha 1 entrega desta semana que correu sem susto e cite ela em público. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "O resgate\nmerece elogio.",
+        "accent": "E não pode ser o único.",
+        "body": "Emergência existe, e quem resolveu merece crédito. Reconhecimento também não substitui salário, prazo nem processo: ele decide o que a equipe repete, e nada além disso. O teste dos 5 elogios é proposta da Zionaxs, e não uma recomendação do artigo de 1975.",
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "O resgate merece elogio.",
+        "E não pode ser o único.",
+        "Emergência existe, e quem resolveu merece crédito. Reconhecimento também não substitui salário, prazo nem processo: ele decide o que a equipe repete, e nada além disso. O teste dos 5 elogios é proposta da Zionaxs, e não uma recomendação do artigo de 1975.",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019"
+      ],
+      "alt": "Slide 6 de 7. O resgate merece elogio, e não pode ser o único. Emergência existe, e quem resolveu merece crédito. Reconhecimento também não substitui salário, prazo nem processo: ele decide o que a equipe repete, e nada além disso. O teste dos 5 elogios é proposta da Zionaxs, e não uma recomendação do artigo de 1975."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Cite o trabalho\nsem susto.",
+        "hl": "Cite o trabalho",
+        "accent": "Hoje, em voz alta.",
+        "body": "Escolha 1 entrega desta semana que correu bem, descubra quem fez e diga isso na frente do time, com o nome do que deu certo. Custa o mesmo que o elogio de sexta à noite, e paga outro comportamento.",
+        "year": "2026",
+        "temas": "Temas: Reconhecimento / Incentivo / Cultura",
+        "micro": "@zionaxs_ · ref 74714019 · foto: taylorllc"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Cite o trabalho sem susto.",
+        "Hoje, em voz alta.",
+        "Escolha 1 entrega desta semana que correu bem, descubra quem fez e diga isso na frente do time, com o nome do que deu certo. Custa o mesmo que o elogio de sexta à noite, e paga outro comportamento.",
+        "2026",
+        "Temas: Reconhecimento / Incentivo / Cultura",
+        "@zionaxs_ · ref 74714019 · foto: taylorllc"
+      ],
+      "alt": "Slide 7 de 7. Cite o trabalho sem susto, hoje, em voz alta. Escolha 1 entrega desta semana que correu bem, descubra quem fez e diga isso na frente do time, com o nome do que deu certo. Custa o mesmo que o elogio de sexta à noite, e paga outro comportamento. Fotografia escura de uma pessoa em silhueta sentada a uma mesa, de perfil contra a luz que bate na parede, com copos sobre a mesa ao lado.",
+      "photo": {
+        "src": "../assets/foto-conversa-mesa.jpg",
+        "pos": "0% 50%",
+        "scale": 1.7,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}
