@@ -1,0 +1,59 @@
+{
+  "postId": "18060177266788411",
+  "permalink": "https://www.instagram.com/p/Dc8sCsLm5YI/",
+  "shortcode": "Dc8sCsLm5YI",
+  "publishedAt": "2026-09-06T13:53:17+0000",
+  "publishedAtFortaleza": "06/09/2026, 10:53:17",
+  "slot": "10:30 BRT, fim de semana, papel de repertorio, cultura, comportamento, curiosidade e conteudo visualmente experimental",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17907294498501214",
+  "childContainers": [
+    "17907294213501214",
+    "17907294210501214",
+    "17907294216501214",
+    "17907294219501214",
+    "17907294285501214",
+    "17907294291501214",
+    "17907294288501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-37-o-que-voce-elogia/out/jpg/zx-37-o-que-voce-elogia-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18027380870683924",
+    "18103500941261856",
+    "18123563617875811",
+    "18178828291425483",
+    "18630207334028197",
+    "17905049721476347",
+    "18086630150418468"
+  ],
+  "digest": "f295ba7315fb",
+  "commit": "8cbbbfb",
+  "reconciledAt": "2026-09-06T13:56:00+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_USER_INFO antes de publicar, e INSTAGRAM_GET_IG_MEDIA mais INSTAGRAM_GET_IG_MEDIA_CHILDREN depois",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "mediaProductType": "FEED",
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "nota": "A identidade da conta foi conferida ao vivo antes de criar qualquer conteiner: INSTAGRAM_GET_USER_INFO devolveu username zionaxs_ e id 37965311306447572, que sao os da marca. As 7 URLs publicas responderam 200 com content-type image/jpeg antes de irem para a Meta. O pai foi criado sem share_to_feed e conferido em FINISHED por INSTAGRAM_GET_POST_STATUS antes do publish, entao nao houve pai em ERROR e nenhum filho precisou ser recriado. Nao houve erro de transporte e o publish rodou 1 vez so. A chamada INSTAGRAM_GET_IG_MEDIA sem lista de fields falhou pedindo total_views_count, campo que a Media node nao suporta neste toolkit; repetida com fields explicitos, devolveu tudo. Isso e da rota, nao da peca."
+  },
+  "trilha": {
+    "estado": "pendente de escolha humana no app",
+    "perfil": "instrumental da Meta Sound Collection, andamento constante e textura quente, sem letra e sem virada dramatica",
+    "nota": "Carrossel recebe a musica editando o post no app depois de publicado. A escolha esta descrita em trilha_sugerida no contrato."
+  }
+}

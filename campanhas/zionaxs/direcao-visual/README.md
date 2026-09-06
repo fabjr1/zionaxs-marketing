@@ -149,6 +149,19 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   todo para cima de 30% e deixou a banda de texto inteira sobre a caixa verde escura. Regra prática: **assunto claro
   abaixo do texto pede origem no topo; assunto claro dentro do texto pede origem no rodapé.** Os 14 gates passaram
   verdes nas 2 gerações, então quem mede isto é o passo 6.
+- **A regra de rosto é de enquadramento, não só de escolha de foto, e o custo dela é alto.** Aprendido na zx-37,
+  06/09/2026. As 2 fotos de campo escuro da peça foram escolhidas na folha de contato como seguras, com as pessoas
+  aparentemente em silhueta nas miniaturas: no render de 1080x1350, com gradê e scrim, os rostos apareceram lit e
+  reconhecíveis nas 2. **Os 14 gates ficaram verdes em todas as gerações**, inclusive nas que saíram com rosto
+  legível, porque nenhum gate mede rosto. Quem pega isso é o passo 6, olhando os PNG.
+  A correção é a mesma alavanca do crop, usada com outro alvo: `scale` alto com `origin: "50% 100%"` empurra o
+  assunto para cima até **sair de quadro pelo topo**, e não só para fora da banda de texto. Na capa da zx-37 foram 3
+  rodadas: `scale: 1.3` deixava a mesa iluminada na banda de texto, `1.6` resolveu a tinta mas manteve 2 rostos
+  visíveis, e `2.6` levou os rostos para fora do quadro, deixando costas e mãos, com a banda de texto inteira
+  escura. No fechamento, `pos: "0% 50%"` com `scale: 1.7` cortou o lado do quadro onde estava o rosto lit e deixou
+  só a silhueta de perfil. Regra prática: **zoom que tira o rosto costuma ser maior do que o zoom que salva a
+  tinta**, então em foto com pessoas de frente conte com scale acima de 2 e baixe o arquivo em resolução alta antes
+  de tentar, porque a 1080 de largura o upscale aparece.
 - **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
   isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
   e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de
