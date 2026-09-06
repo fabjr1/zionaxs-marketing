@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-38-o-cliente-que-pergunta",
+  "generatedAt": "2026-09-06T18:20:07+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-38-o-cliente-que-pergunta-slide-01.png",
+    "zx-38-o-cliente-que-pergunta-slide-02.png",
+    "zx-38-o-cliente-que-pergunta-slide-03.png",
+    "zx-38-o-cliente-que-pergunta-slide-04.png",
+    "zx-38-o-cliente-que-pergunta-slide-05.png",
+    "zx-38-o-cliente-que-pergunta-slide-06.png",
+    "zx-38-o-cliente-que-pergunta-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A entrada 01/07 A resposta leva 2 minutos. A volta leva 25. O cliente manda uma mensagem curta no meio da tarde e você responde na hora. Quem não volta na hora é o trabalho que estava aberto na sua frente, e é aí que a pergunta fica cara. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2 · foto: Akshar Dave"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Ele não está ansioso. A pergunta não nasce de desconfiança, nasce de silêncio. Enquanto ninguém conta nada, perguntar é a única forma que o cliente tem de saber se o trabalho anda. Quem não avisa, é cobrado. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2 · foto: Julian Hochgesang"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 A volta leva 25 minutos. Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, observou com 2 colegas 24 profissionais no próprio trabalho, em estudo publicado em 2005. Quando a pessoa retomava no mesmo dia a tarefa interrompida, levava em média 25 minutos e 26 segundos até chegar lá, passando por mais de 2 outros assuntos no caminho. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Avisar é mais barato. Do que responder. A pergunta do cliente é uma interrupção cuja hora você não escolheu. Uma mensagem sua, enviada antes, é a mesma conversa em horário escolhido: entra no seu bloco, cobre 1 semana inteira e responde a dúvida antes de ela virar mensagem. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O status de 3 linhas. 1Marque 1 dia e 1 horário fixos por semana na agenda, repetindo, e trate como compromisso. 2Linha 1: o que andou desde a última mensagem, com o nome da entrega. 3Linha 2: o que está parado e de quem depende, inclusive quando depende do cliente. 4Linha 3: o que vem até a próxima mensagem, com a data de cada item. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Avisar não é entregar. O prazo continua de pé. Se atrasou, o status conta o atraso e a data nova, e o cliente cobra do mesmo jeito. Frase sem fato, do tipo seguimos trabalhando, não conta como status. E a ligação entre silêncio e interrupção é leitura da Zionaxs, não resultado do estudo. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Marque a sexta, 16h. E mande 3 linhas. Abra a agenda agora, crie 20 minutos toda sexta às 16h repetindo toda semana e escolha 3 clientes para começar. Escreva o que andou, o que travou e o que vem, com data. Na semana seguinte, faça a conta e veja quantas perguntas de andamento deixaram de chegar. Temas: Comunicação / Interrupção / Rotina @zionaxs_ · ref 37ded7b2 · foto: Polina Kuzovkova"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "6 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.8,
+  "digest": "8d2681d1c5316e112d6c5ed98b6338ae05bf3b211264fbe19ea8cc222e1649d9"
+}

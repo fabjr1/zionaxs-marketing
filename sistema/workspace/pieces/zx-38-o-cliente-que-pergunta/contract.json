@@ -1,0 +1,315 @@
+{
+  "id": "zx-38-o-cliente-que-pergunta",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal / persona C1, o sócio de escritório de serviço que atende cliente, produz entrega e responde mensagem no mesmo dia. Secundário nenhum: o público primário é 1 só, e a cena é escrita de forma que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre eles. Cena concreta: a mensagem curta do cliente no meio da tarde perguntando como está o trabalho, a resposta de 2 minutos, e a tarefa aberta na tela que não volta junto. Slot editorial: tarde de fim de semana, papel de guia salvável e aplicação prática, então a peça precisa entregar um método que a pessoa aplica sozinha na segunda, sem depender de nenhuma outra peça.",
+    "decisao": "Parar de tratar comunicação com cliente como resposta e começar a tratar como rotina enviada antes da pergunta. Criar 20 minutos fixos por semana na agenda e mandar a cada cliente ativo 1 mensagem de 3 linhas: o que andou, o que está parado e de quem depende, e o que vem até a próxima mensagem, com data.",
+    "tensao": "Quem toca um negócio de serviço responde o cliente na hora, e acha isso barato, porque a resposta cabe em 2 minutos. A conta que ninguém faz é a da volta: o trabalho que estava aberto quando a mensagem chegou não retoma junto com a resposta. E a origem da pergunta é justamente o silêncio de quem está executando: enquanto ninguém conta nada, perguntar é a única forma que o cliente tem de saber se o trabalho anda. O resultado é um dia inteiro fatiado por perguntas que a própria casa produziu.",
+    "evidencia": [
+      {
+        "claim": "existe um estudo de 2005 que observou 24 trabalhadores da informação no próprio ambiente de trabalho e mediu a fragmentação do trabalho, incluindo interrupções e retomada de tarefa",
+        "status": "E",
+        "fonte": "Gloria Mark, Victor M. Gonzalez e Justin Harris, No Task Left Behind? Examining the Nature of Fragmented Work, Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2005, Portland, páginas 321 a 330, DOI 10.1145/1054972.1055017. Conferido nesta execução no PDF do artigo hospedado pela Universidade da Califórnia em Irvine, em https://ics.uci.edu/~gmark/CHI2005.pdf, cujo resumo abre com a apresentação de dados de observação detalhada de 24 trabalhadores da informação."
+      },
+      {
+        "claim": "quando a pessoa retomava no mesmo dia a tarefa interrompida, levava em média 25 minutos e 26 segundos até voltar",
+        "status": "E",
+        "fonte": "Passagem do mesmo artigo, conferida nesta execução no texto extraído do PDF: quando as pessoas retomavam o trabalho no mesmo dia, isso levava em média 25 minutos e 26 segundos, com desvio padrão de 54 minutos e 48 segundos. A peça usa o número em paráfrase, apresenta a autora ao leitor e não usa aspas nem frase em inglês."
+      },
+      {
+        "claim": "a retomada passava, em média, por mais de 2 outros assuntos de trabalho antes de voltar à tarefa interrompida, e 77% do trabalho interrompido era retomado no mesmo dia",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido no texto extraído do PDF: os autores relatam ter encontrado uma média de mais de 2 esferas de trabalho intervenientes antes de uma atividade interrompida ser retomada, e que 77% do trabalho era retomado no mesmo dia."
+      },
+      {
+        "claim": "57% das esferas de trabalho observadas eram interrompidas, e o tempo médio dentro de um assunto antes de trocar ou ser interrompido era de 11 minutos e 4 segundos",
+        "status": "E",
+        "fonte": "Mesmo artigo. O resumo declara que 57% das esferas de trabalho são interrompidas, e o corpo registra que o tempo médio que os observados passavam em esferas de trabalho centrais e periféricas era de 11 minutos e 4 segundos, com desvio padrão de 18 minutos e 9 segundos, antes de trocar de assunto ou ser interrompido."
+      },
+      {
+        "claim": "a pergunta do cliente nasce mais de falta de informação do que de desconfiança, e um status enviado antes reduz a quantidade dessas perguntas",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs a partir da cena descrita pelo público, sem levantamento que meça isso em negócio de serviço no Brasil. A peça declara essa leitura como leitura, e não como resultado do estudo."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, o título, os autores, a conferência, o ano, as páginas e o DOI do artigo de 2005 sobre trabalho fragmentado",
+        "a observação de 24 trabalhadores da informação no próprio ambiente de trabalho",
+        "a média de 25 minutos e 26 segundos até a retomada da tarefa interrompida, quando ela acontecia no mesmo dia",
+        "a média de mais de 2 assuntos intervenientes antes da retomada e os 77% de trabalho retomado no mesmo dia",
+        "os 57% de esferas de trabalho interrompidas e os 11 minutos e 4 segundos de permanência média em um assunto"
+      ],
+      "I": [
+        "a leitura de que a pergunta do cliente nasce de falta de informação, e não de desconfiança",
+        "a leitura de que o silêncio de quem executa é o que produz a interrupção que depois atrapalha quem executa"
+      ],
+      "H": [
+        "o status de 3 linhas, com dia e horário fixos, como formato que reduz a quantidade de perguntas avulsas",
+        "os 20 minutos semanais como tempo suficiente para escrever o status de uma carteira pequena"
+      ],
+      "NC": [
+        "quantas mensagens de cliente por semana chegam a um escritório de serviço brasileiro, e quantas delas são pedido de status, porque não existe levantamento conhecido",
+        "quanto o status semanal reduz a quantidade dessas mensagens, porque ninguém mediu isso em negócio de serviço no Brasil"
+      ]
+    },
+    "limites": [
+      "O estudo de 2005 observou 24 trabalhadores da informação em uma empresa nos Estados Unidos, com nomes preservados pelos autores. Ele não mede escritório de serviço brasileiro, e a peça não afirma que mede.",
+      "O estudo mediu interrupção e retomada de trabalho em geral. Ele não trata de comunicação com cliente, e a ligação entre as 2 coisas é leitura da Zionaxs, declarada como leitura no slide 6 e na legenda.",
+      "Os 25 minutos e 26 segundos são a média do tempo até a retomada, com desvio padrão maior que a própria média, o que mostra dispersão alta. A peça usa o número como ordem de grandeza, não como previsão do que acontece em cada interrupção.",
+      "O status de 3 linhas é proposta editorial da Zionaxs. Ele não sai do artigo nem de pesquisa conhecida, e a peça diz isso.",
+      "A peça não promete que avisar resolve atraso, preço, escopo ou qualidade. Ela trata de 1 coisa: a dúvida do cliente sobre o andamento.",
+      "A peça não trata de cliente que interrompe por outro motivo, como mudança de escopo, urgência real ou reclamação. Status semanal não substitui essas conversas."
+    ]
+  },
+  "tese": "O cliente não pergunta porque desconfia, pergunta porque não sabe. Cada pergunta dessas custa muito mais que os 2 minutos da resposta, porque o trabalho que estava aberto não volta junto. Uma mensagem de 3 linhas por semana, enviada antes da pergunta, troca uma interrupção que você não escolheu por 20 minutos que você escolheu.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": ["JO5", "JE4"],
+  "matriz_nota": "Sem código de matriz declarado de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de comunicação de andamento com o cliente: a mais próxima, M12, é máquina mínima de indicação, que é aquisição e não acompanhamento de trabalho em curso. Declarar um código só para preencher o campo estragaria a análise posterior, que é exatamente o que a verificação A9 existe para impedir, então o campo fica vazio e a proposta de uma linha nova de matriz vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Sem código de repertório declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre custo de interrupção e retomada de tarefa: R4, de Henry Mintzberg, chega perto ao descrever o cotidiano gerencial como fragmentado e reativo, mas descreve o gestor e não a interrupção vinda do cliente, e usá-la aqui seria forçar o código. A fonte desta peça é o estudo de 2005 de Gloria Mark, Victor Gonzalez e Justin Harris, e a proposta de acrescentá-lo ao ledger como linha nova de repertório fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "cta": "Abrir a agenda agora, criar 20 minutos toda sexta às 16h repetindo toda semana, escolher 3 clientes e mandar as 3 linhas de status.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela cena da mensagem respondida em 2 minutos, entender que a pergunta nasce de silêncio e não de desconfiança, receber a medida de quanto custa a volta, virar para a ideia de que avisar antes é mais barato que responder depois, receber o formato de 3 linhas que a pessoa salva e aplica, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": ["zx-38", "JO5", "JE4", "acquisition"],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Signal",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça é de leitura e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax. A nota específica desta peça é procurar uma faixa de pulso regular e textura limpa, com pouca reverberação, algo que soe como uma tarde de trabalho que segue sem sobressalto: o assunto é interrupção, e trilha entrecortada, com paradas e retomadas, encenaria o problema em vez de sustentar a leitura. Combina com o slot de tarde de fim de semana, que pede tom de guia e leitura calma.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda faixa com percussão de alerta, sino, bipe ou efeito de notificação, porque o som de mensagem chegando é justamente o que a peça está pedindo para reduzir.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante e textura limpa que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-37 o perfil pedido variou entre pulso seco e textura quente, então aqui vale procurar algo mais discreto e sem ataque marcado."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "A resposta\nleva 2\nminutos.",
+        "accentLine": "A volta leva 25.",
+        "hl": "A volta leva 25.",
+        "sub": "O cliente manda uma mensagem curta no meio da tarde e você responde na hora. Quem não volta na hora é o trabalho que estava aberto na sua frente, e é aí que a pergunta fica cara.",
+        "year": "2026",
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2 · foto: Akshar Dave"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "A resposta leva 2 minutos.",
+        "A volta leva 25.",
+        "O cliente manda uma mensagem curta no meio da tarde e você responde na hora. Quem não volta na hora é o trabalho que estava aberto na sua frente, e é aí que a pergunta fica cara.",
+        "2026",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2 · foto: Akshar Dave"
+      ],
+      "alt": "Slide 1 de 7. A resposta leva 2 minutos, a volta leva 25. O cliente manda uma mensagem curta no meio da tarde e você responde na hora. Quem não volta na hora é o trabalho que estava aberto na sua frente, e é aí que a pergunta fica cara. Fotografia quase toda escura de uma mão segurando um celular aceso em um quarto sem luz, com o brilho da tela iluminando só os dedos, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-mensagem-noite.jpg",
+        "pos": "50% 35%",
+        "scale": 1.5,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ele não\nestá\nansioso."
+        ],
+        "closing": "A pergunta não nasce de desconfiança, nasce de silêncio. Enquanto ninguém conta nada, perguntar é a única forma que o cliente tem de saber se o trabalho anda. Quem não avisa, é cobrado.",
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2 · foto: Julian Hochgesang"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ele não está ansioso.",
+        "A pergunta não nasce de desconfiança, nasce de silêncio. Enquanto ninguém conta nada, perguntar é a única forma que o cliente tem de saber se o trabalho anda. Quem não avisa, é cobrado.",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2 · foto: Julian Hochgesang"
+      ],
+      "alt": "Slide 2 de 7. Ele não está ansioso. A pergunta não nasce de desconfiança, nasce de silêncio. Enquanto ninguém conta nada, perguntar é a única forma que o cliente tem de saber se o trabalho anda. Quem não avisa, é cobrado. Papel claro com fotografia em preto e branco de um telefone de mesa de escritório, com o fone no gancho e o fio enrolado sobre a mesa.",
+      "photo": {
+        "src": "../assets/foto-telefone-mesa.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "A volta leva",
+          "25 minutos."
+        ],
+        "closing": "Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, observou com 2 colegas 24 profissionais no próprio trabalho, em estudo publicado em 2005. Quando a pessoa retomava no mesmo dia a tarefa interrompida, levava em média 25 minutos e 26 segundos até chegar lá, passando por mais de 2 outros assuntos no caminho.",
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "A volta leva",
+        "25 minutos.",
+        "Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, observou com 2 colegas 24 profissionais no próprio trabalho, em estudo publicado em 2005. Quando a pessoa retomava no mesmo dia a tarefa interrompida, levava em média 25 minutos e 26 segundos até chegar lá, passando por mais de 2 outros assuntos no caminho.",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2"
+      ],
+      "alt": "Slide 3 de 7. A volta leva 25 minutos. Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, observou com 2 colegas 24 profissionais no próprio trabalho, em estudo publicado em 2005. Quando a pessoa retomava no mesmo dia a tarefa interrompida, levava em média 25 minutos e 26 segundos até chegar lá, passando por mais de 2 outros assuntos no caminho."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Avisar é\nmais barato.",
+        "accent": "Do que responder.",
+        "hl": "Do que responder.",
+        "ghost": "25",
+        "year": "2026",
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2",
+        "body": "A pergunta do cliente é uma interrupção cuja hora você não escolheu. Uma mensagem sua, enviada antes, é a mesma conversa em horário escolhido: entra no seu bloco, cobre 1 semana inteira e responde a dúvida antes de ela virar mensagem."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Avisar é mais barato.",
+        "Do que responder.",
+        "2026",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2",
+        "A pergunta do cliente é uma interrupção cuja hora você não escolheu. Uma mensagem sua, enviada antes, é a mesma conversa em horário escolhido: entra no seu bloco, cobre 1 semana inteira e responde a dúvida antes de ela virar mensagem."
+      ],
+      "alt": "Slide 4 de 7. Avisar é mais barato do que responder. A pergunta do cliente é uma interrupção cuja hora você não escolheu. Uma mensagem sua, enviada antes, é a mesma conversa em horário escolhido: entra no seu bloco, cobre 1 semana inteira e responde a dúvida antes de ela virar mensagem. Campo laranja chapado com o número 25 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O status de\n3 linhas.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Marque 1 dia e 1 horário fixos por semana na agenda, repetindo, e trate como compromisso."
+          },
+          {
+            "num": "2",
+            "label": "Linha 1: o que andou desde a última mensagem, com o nome da entrega."
+          },
+          {
+            "num": "3",
+            "label": "Linha 2: o que está parado e de quem depende, inclusive quando depende do cliente."
+          },
+          {
+            "num": "4",
+            "label": "Linha 3: o que vem até a próxima mensagem, com a data de cada item."
+          }
+        ],
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O status de 3 linhas.",
+        "1",
+        "Marque 1 dia e 1 horário fixos por semana na agenda, repetindo, e trate como compromisso.",
+        "2",
+        "Linha 1: o que andou desde a última mensagem, com o nome da entrega.",
+        "3",
+        "Linha 2: o que está parado e de quem depende, inclusive quando depende do cliente.",
+        "4",
+        "Linha 3: o que vem até a próxima mensagem, com a data de cada item.",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2"
+      ],
+      "alt": "Slide 5 de 7. O status de 3 linhas. 1: marque 1 dia e 1 horário fixos por semana na agenda, repetindo, e trate como compromisso. 2: linha 1, o que andou desde a última mensagem, com o nome da entrega. 3: linha 2, o que está parado e de quem depende, inclusive quando depende do cliente. 4: linha 3, o que vem até a próxima mensagem, com a data de cada item. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Avisar não\né entregar.",
+        "accent": "O prazo continua de pé.",
+        "body": "Se atrasou, o status conta o atraso e a data nova, e o cliente cobra do mesmo jeito. Frase sem fato, do tipo seguimos trabalhando, não conta como status. E a ligação entre silêncio e interrupção é leitura da Zionaxs, não resultado do estudo.",
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Avisar não é entregar.",
+        "O prazo continua de pé.",
+        "Se atrasou, o status conta o atraso e a data nova, e o cliente cobra do mesmo jeito. Frase sem fato, do tipo seguimos trabalhando, não conta como status. E a ligação entre silêncio e interrupção é leitura da Zionaxs, não resultado do estudo.",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2"
+      ],
+      "alt": "Slide 6 de 7. Avisar não é entregar, o prazo continua de pé. Se atrasou, o status conta o atraso e a data nova, e o cliente cobra do mesmo jeito. Frase sem fato, do tipo seguimos trabalhando, não conta como status. E a ligação entre silêncio e interrupção é leitura da Zionaxs, não resultado do estudo."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Marque a\nsexta, 16h.",
+        "hl": "Marque a",
+        "accent": "E mande 3 linhas.",
+        "body": "Abra a agenda agora, crie 20 minutos toda sexta às 16h repetindo toda semana e escolha 3 clientes para começar. Escreva o que andou, o que travou e o que vem, com data. Na semana seguinte, faça a conta e veja quantas perguntas de andamento deixaram de chegar.",
+        "year": "2026",
+        "temas": "Temas: Comunicação / Interrupção / Rotina",
+        "micro": "@zionaxs_ · ref 37ded7b2 · foto: Polina Kuzovkova"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Marque a sexta, 16h.",
+        "E mande 3 linhas.",
+        "Abra a agenda agora, crie 20 minutos toda sexta às 16h repetindo toda semana e escolha 3 clientes para começar. Escreva o que andou, o que travou e o que vem, com data. Na semana seguinte, faça a conta e veja quantas perguntas de andamento deixaram de chegar.",
+        "2026",
+        "Temas: Comunicação / Interrupção / Rotina",
+        "@zionaxs_ · ref 37ded7b2 · foto: Polina Kuzovkova"
+      ],
+      "alt": "Slide 7 de 7. Marque a sexta, 16h, e mande 3 linhas. Abra a agenda agora, crie 20 minutos toda sexta às 16h repetindo toda semana e escolha 3 clientes para começar. Escreva o que andou, o que travou e o que vem, com data. Na semana seguinte, faça a conta e veja quantas perguntas de andamento deixaram de chegar. Fotografia escura de uma pessoa sentada de costas diante de uma janela ao anoitecer, em silhueta, com um celular aceso na mão e a cidade ao fundo.",
+      "photo": {
+        "src": "../assets/foto-janela-anoitecer.jpg",
+        "pos": "55% 45%",
+        "scale": 1.65,
+        "origin": "50% 100%"
+      }
+    }
+  ],
+  "caption": [
+    "Toda semana chega aquela mensagem curta do cliente perguntando como está o trabalho. Você responde em 2 minutos e acha que custou 2 minutos. Custou mais: o que estava aberto na sua tela quando o celular apitou não volta junto com a resposta.",
+    "Alguém já mediu essa volta. Gloria Mark, professora de informática na Universidade da Califórnia em Irvine, publicou em 2005 com Victor Gonzalez e Justin Harris um estudo em que 24 profissionais foram observados no próprio ambiente de trabalho. Quando a pessoa retomava no mesmo dia a tarefa interrompida, levava em média 25 minutos e 26 segundos até chegar lá, passando por mais de 2 outros assuntos no caminho. E 57% dos assuntos de trabalho observados eram interrompidos.",
+    "O detalhe que muda a decisão é a origem da pergunta. O cliente não pergunta porque desconfia, pergunta porque não sabe. Enquanto ninguém conta nada, perguntar é a única forma que ele tem de saber se o trabalho anda. Silêncio não é neutro: ele produz interrupção.",
+    "A saída cabe em 3 linhas, enviadas 1 vez por semana, no mesmo dia e no mesmo horário, para cada cliente ativo. Linha 1: o que andou desde a última mensagem, com o nome da entrega. Linha 2: o que está parado e de quem depende, inclusive quando depende do cliente. Linha 3: o que vem até a próxima mensagem, com a data de cada item.",
+    "Um cuidado antes de começar: avisar não é entregar. Se atrasou, o status conta o atraso e a data nova, e o cliente vai cobrar do mesmo jeito, com razão. E frase sem fato, do tipo seguimos trabalhando, não conta como status. A ligação entre interrupção e silêncio é leitura da Zionaxs, e não resultado do estudo, que mediu trabalho interrompido e não conversa com cliente.",
+    "Comece hoje. Abra a agenda, crie 20 minutos toda sexta às 16h repetindo toda semana e escolha 3 clientes. Na semana seguinte, faça a conta e veja quantas perguntas de andamento deixaram de chegar."
+  ],
+  "caption_sources": [
+    "Fonte da evidência: Gloria Mark, Victor M. Gonzalez e Justin Harris, No Task Left Behind? Examining the Nature of Fragmented Work, Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2005, Portland, páginas 321 a 330, DOI 10.1145/1054972.1055017. Conferido nesta execução no PDF hospedado pela Universidade da Califórnia em Irvine, em https://ics.uci.edu/~gmark/CHI2005.pdf.",
+    "Números conferidos no texto do artigo nesta execução: observação detalhada de 24 trabalhadores da informação; 57% das esferas de trabalho interrompidas; permanência média de 11 minutos e 4 segundos em uma esfera de trabalho antes de trocar ou ser interrompido; 77% do trabalho interrompido retomado no mesmo dia; e média de 25 minutos e 26 segundos, com desvio padrão de 54 minutos e 48 segundos, até a retomada quando ela ocorria no mesmo dia, passando por mais de 2 esferas de trabalho intervenientes.",
+    "Recorte e limitação: o estudo é de 2005, foi feito em uma empresa nos Estados Unidos, com nomes preservados pelos autores, e mede trabalho de escritório em geral. Ele não mede escritório de serviço brasileiro nem trata de comunicação com cliente, e por isso a peça não afirma percentual nenhum sobre o Brasil e trata a ideia como leitura, não como medida. O desvio padrão maior que a média mostra dispersão alta, então o número vale como ordem de grandeza.",
+    "O status de 3 linhas, com dia e horário fixos e 20 minutos semanais na agenda, é aplicação contemporânea da Zionaxs, não recomendação do estudo. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: nenhuma linha do ledger da Zionaxs cobre custo de interrupção e retomada de tarefa, e a inclusão do estudo de 2005 como linha nova está proposta na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Akshar Dave, Julian Hochgesang e Polina Kuzovkova, via Unsplash."
+  ]
+}

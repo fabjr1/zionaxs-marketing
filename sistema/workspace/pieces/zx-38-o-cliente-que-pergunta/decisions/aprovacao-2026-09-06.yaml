@@ -1,0 +1,134 @@
+decisao: aprovar e publicar a zx-38, slot da tarde de fim de semana
+data: 2026-09-06
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumido pela zx-37.
+  registro_anterior: pieces/zx-37-o-que-voce-elogia/decisions/aprovacao-2026-09-06.yaml
+
+slot_editorial:
+  horario: "15:00 BRT, domingo"
+  papel: "guia salvável, análise longa, biblioteca ou aplicação prática"
+  leitura: >
+    O slot da tarde de fim de semana pede a peça que a pessoa salva para aplicar
+    depois, então o roteiro precisa bastar-se sozinho. Por isso o centro é 1
+    formato reproduzível, o status de 3 linhas do slide 5, com dia e horário
+    fixos na agenda, e a evidência entra para explicar por que o custo da
+    interrupção é maior que o da resposta. A peça não depende de nenhuma outra
+    para ser aplicada.
+
+tema:
+  escolhido: >
+    o cliente que pergunta como está o trabalho não está ansioso, está sem
+    informação, e cada pergunta dessas custa muito mais que os 2 minutos da
+    resposta, porque o trabalho aberto não volta junto
+  matriz: nenhuma declarada
+  jtbd: [JO5, JE4]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é guia salvável e aplicação prática, e a peça precisa entregar
+    um método que a pessoa executa sozinha na segunda. Comunicação de andamento
+    com o cliente nunca foi tratada nas 18 peças anteriores, é transversal a
+    clínica, contabilidade, advocacia e agência, e tem formato salvável óbvio: 3
+    linhas, 1 vez por semana, em horário marcado. A evidência de custo de
+    interrupção dá a razão pela qual isso não é gentileza, e sim economia de
+    tempo próprio.
+  nao_repetido: >
+    Conferido contra as 18 peças de zx-20 a zx-37, olhando tese, matriz, JTBD e
+    repertório de cada contrato. A peça publicada hoje de manhã, a zx-37, trata de
+    reconhecimento e do que a casa recompensa, assunto de comportamento interno;
+    esta trata de informação enviada ao cliente e de custo de interrupção, e não
+    encosta no tema da manhã. A zx-30 fala de indicação, que é aquisição, e a
+    zx-29 de margem por cliente, que é preço; nenhuma das 2 trata de acompanhar
+    trabalho em curso. A zx-35, sobre prazo que se ocupa sozinho, é a mais
+    próxima em tempo, e trata de duração de tarefa, não de interrupção vinda de
+    fora.
+
+matriz_ausente:
+  motivo: >
+    A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha cobre
+    comunicação de andamento com o cliente. A mais próxima, M12, é máquina mínima
+    de indicação, que é aquisição e não acompanhamento de trabalho em curso.
+    Declarar M12 só para preencher o campo estragaria a análise posterior em
+    silêncio, que é exatamente o erro que a verificação A9 existe para impedir, e
+    a própria A9 só cobra código declarado, tratando campo ausente como lacuna
+    assumida.
+  encaminhamento: >
+    Proposta de linha nova de matriz, comunicação de andamento como rotina que
+    reduz interrupção, registrada na Inbox da Zionaxs Memory para promoção humana.
+
+repertorio_ausente:
+  motivo: >
+    O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre custo de interrupção
+    e retomada de tarefa. R4, de Henry Mintzberg, chega perto ao descrever o
+    cotidiano gerencial como fragmentado e reativo, mas descreve o gestor e não a
+    interrupção vinda do cliente, e usá-la aqui seria forçar o código.
+  encaminhamento: >
+    Proposta de linha nova de repertório, o estudo de 2005 de Gloria Mark, Victor
+    Gonzalez e Justin Harris sobre trabalho fragmentado, registrada na Inbox da
+    Zionaxs Memory para promoção humana.
+
+evidencia:
+  fonte_primaria: >
+    Gloria Mark, Victor M. Gonzalez e Justin Harris, No Task Left Behind?
+    Examining the Nature of Fragmented Work, Proceedings of the SIGCHI Conference
+    on Human Factors in Computing Systems, CHI 2005, Portland, páginas 321 a 330,
+    DOI 10.1145/1054972.1055017. Os números foram conferidos nesta execução no
+    próprio PDF do artigo, hospedado pela Universidade da Califórnia em Irvine em
+    ics.uci.edu/~gmark/CHI2005.pdf, extraindo o texto das streams do arquivo: o
+    resumo declara observação detalhada de 24 trabalhadores da informação e 57%
+    de esferas de trabalho interrompidas; o corpo registra 11 minutos e 4 segundos
+    de permanência média em uma esfera antes de trocar ou ser interrompido, 77% de
+    trabalho retomado no mesmo dia, e média de 25 minutos e 26 segundos, com
+    desvio padrão de 54 minutos e 48 segundos, até a retomada quando ela ocorria
+    no mesmo dia, passando por mais de 2 esferas intervenientes.
+  limite_declarado: >
+    O estudo é de 2005, foi feito em uma empresa nos Estados Unidos e mede
+    trabalho de escritório em geral, não escritório de serviço brasileiro e não
+    comunicação com cliente. O desvio padrão é maior que a própria média, o que
+    mostra dispersão alta, então a peça usa o número como ordem de grandeza. O
+    slide 6 declara que a ligação entre silêncio e interrupção é leitura da
+    Zionaxs, e não resultado do estudo.
+  aplicacao_zionaxs: >
+    O status de 3 linhas, com dia e horário fixos e 20 minutos semanais na agenda,
+    é aplicação contemporânea da Zionaxs, não recomendação do estudo.
+
+fotos:
+  capa: Akshar Dave, Unsplash, mão segurando um celular aceso em quarto escuro
+  cena: Julian Hochgesang, Unsplash, telefone de mesa de escritório em preto e branco
+  fechamento: Polina Kuzovkova, Unsplash, pessoa de costas diante da janela ao anoitecer
+  enquadramento: >
+    As 2 fotos de campo escuro receberam scale com origin no rodapé, receita da
+    zx-34, porque em ambas o trecho claro caía dentro da banda de texto. Na capa,
+    scale 1.5 com pos 50% 35% levou os dedos iluminados e o brilho da tela para
+    cima da manchete, deixando a banda de texto sobre preto. No fechamento, scale
+    1.4 ainda deixava os prédios cinzentos atrás do ano e do kicker: com 1.65 a
+    cidade sobe e a banda inteira fica escura, sobrando a silhueta de costas.
+    Nenhuma das 3 fotos tem rosto visível nem texto legível.
+
+correcoes_do_passo_6:
+  runt_lines: >
+    O G6 reprovou 2 blocos na primeira geração, nos slides 5 e 7, com última linha
+    em 10% e 13% da largura. Corrigido reescrevendo a frase final de cada um, como
+    manda a direção visual, e não inserindo quebra autoral, que trocaria o G6
+    vermelho pelo G7.
+  anel_do_poster_statement: >
+    Na primeira versão do slide 6 a segunda linha do corpo chegava a x 933 e
+    encostava no anel laranja, que ocupa de x 900 a 1080 e de y 540 a 960. A
+    pendência de template está registrada na direção visual e nenhuma sessão deve
+    resolvê-la sozinha, então a correção foi de contrato: encurtar o corpo em 26
+    caracteres mudou a quebra e a linha mais larga da faixa do anel passou a
+    terminar em x 884, livre do traço. O aprendizado é que encurtar o corpo às
+    vezes resolve, ao contrário do que o texto da zx-28 e da zx-29 sugere, porque
+    a quebra gulosa muda de lugar; o que não dá para garantir é que resolva sempre.
+
+gates: 14/14
+digest: 8d2681d1c5316e11
+porteiro: liberado sem exceção, cadência 1 de 2 no dia
