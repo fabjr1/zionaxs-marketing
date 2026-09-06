@@ -1,0 +1,60 @@
+{
+  "postId": "18480036895104079",
+  "permalink": "https://www.instagram.com/p/Dc9LBNaHfb1/",
+  "shortcode": "Dc9LBNaHfb1",
+  "publishedAt": "2026-09-06T18:23:54+0000",
+  "publishedAtFortaleza": "06/09/2026, 15:23:54",
+  "slot": "15:00 BRT, fim de semana, papel de guia salvavel, analise longa, biblioteca ou aplicacao pratica",
+  "accountUsername": "zionaxs_",
+  "igUserId": "37965311306447572",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "containerId": "17907333039501214",
+  "childContainers": [
+    "17907332733501214",
+    "17907332739501214",
+    "17907332730501214",
+    "17907332736501214",
+    "17907332889501214",
+    "17907332802501214",
+    "17907332805501214"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-38-o-cliente-que-pergunta/out/jpg/zx-38-o-cliente-que-pergunta-slide-07.jpg"
+  ],
+  "childMediaIds": [
+    "18443761600124520",
+    "18087045740302499",
+    "18112889251820381",
+    "18139329793591871",
+    "18281723446291974",
+    "18113252725822279",
+    "18071847218467182"
+  ],
+  "digest": "8d2681d1c531",
+  "commit": "4c7360f",
+  "reconciledAt": "2026-09-06T18:25:00+0000",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_USER_INFO antes de publicar, e INSTAGRAM_GET_IG_MEDIA mais INSTAGRAM_GET_IG_MEDIA_CHILDREN depois",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "nota": "A identidade da conta foi conferida ao vivo antes de criar qualquer conteiner: INSTAGRAM_GET_USER_INFO devolveu zionaxs_, id 37965311306447572, que e a conta certa entre as 3 conectadas no Composio. Depois de publicar, INSTAGRAM_GET_IG_MEDIA confirmou owner 37965311306447572, tipo CAROUSEL_ALBUM e a legenda identica ao corpo do campo caption do contrato, e INSTAGRAM_GET_IG_MEDIA_CHILDREN devolveu 7 filhos. As 7 URLs publicas foram conferidas com HTTP 200 antes de entregar a Meta.",
+    "incidente": "O conteiner filho do slide 5 falhou na primeira criacao com 'Fatal - Create media fail, please try to re-create media', erro de criacao e nao de publicacao. Como nenhum pai tinha sido criado ainda, nenhum filho estava comprometido: bastou recriar aquele filho. O caso da zx-30, em que filho ja referenciado por um pai nao se reaproveita, nao se aplica aqui, porque o pai so foi criado depois, com os 7 filhos em FINISHED."
+  },
+  "trilha": {
+    "estado": "pendente de escolha humana no app",
+    "perfil": "instrumental da Meta Sound Collection, pulso regular e textura limpa, pouca reverberacao, sem letra e sem virada dramatica",
+    "evitar": "faixa com percussao de alerta, sino, bipe ou efeito de notificacao, porque o som de mensagem chegando e justamente o que a peca pede para reduzir",
+    "nota": "Carrossel recebe a musica editando o post no app depois de publicado. A escolha esta descrita em trilha_sugerida no contrato."
+  }
+}

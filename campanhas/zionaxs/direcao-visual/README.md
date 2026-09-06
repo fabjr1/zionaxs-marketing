@@ -162,6 +162,16 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   só a silhueta de perfil. Regra prática: **zoom que tira o rosto costuma ser maior do que o zoom que salva a
   tinta**, então em foto com pessoas de frente conte com scale acima de 2 e baixe o arquivo em resolução alta antes
   de tentar, porque a 1080 de largura o upscale aparece.
+- **Encurtar o corpo do `poster-statement` às vezes livra o anel, ao contrário do que a pendência acima sugere.**
+  Aprendido na zx-38, 06/09/2026. O texto da pendência diz que encurtar "não resolve, porque a quebra é gulosa e
+  qualquer linha cheia chega perto de 940px". Isso descreve o pior caso, não todos: a quebra gulosa **muda de lugar**
+  quando o texto muda, e por isso vale medir em vez de desistir. Na zx-38 o corpo de 262 caracteres tinha a segunda
+  linha terminando em x 933, encostada no anel; com 236 caracteres, e trocando "e o cliente vai cobrar do mesmo jeito,
+  com razão" por "e o cliente cobra do mesmo jeito", a linha mais larga dentro da faixa do anel (y 540 a 960) passou a
+  terminar em x 884, livre do traço. A regra prática é: **tentar 1 reescrita curta e olhar o PNG antes de aceitar o
+  encosto**, lembrando que isso não é garantia e que a correção definitiva continua sendo estreitar o corpo do
+  `poster-statement` no template, decisão de direção visual que nenhuma sessão deve tomar sozinha. **Nenhum gate mede
+  isso**, e os 14 ficaram verdes nas 2 gerações, com anel encostado e sem.
 - **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
   isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
   e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de
