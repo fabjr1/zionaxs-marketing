@@ -1,0 +1,329 @@
+{
+  "id": "zx-40-o-trabalho-troca-de-mao",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, persona C2, quem coordena o trabalho de outras pessoas e divide tarefa com pelo menos 1 colega. Secundário nenhum: o público primário é 1 só, e a cena é escrita para que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a tarefa que sai de uma pessoa e chega em outra por mensagem, por recado rápido no corredor ou por um arquivo compartilhado, sem que ninguém confira o que ficou de fora. Slot editorial: tarde de dia útil, papel de conteúdo principal, então a peça precisa entregar mecanismo, evidência medida e um método que a pessoa salva e aplica hoje, sem depender de nenhuma outra peça.",
+    "decisao": "Parar de tratar a passagem de trabalho como aviso e passar a tratá-la como etapa com roteiro. Escrever 4 linhas antes de mandar a tarefa adiante: estado, próximo passo com dono e data, risco conhecido, e a repetição de quem recebe. A passagem termina quando quem recebe repete o que entendeu, não quando a mensagem sai.",
+    "tensao": "Quem toca um negócio de serviço procura o atraso dentro da tarefa, e olha para quem estava executando. A conta que ninguém faz é a da troca: o trabalho quase não trava enquanto alguém está fazendo, trava quando muda de mão. Quem passa conta o que lembra naquele minuto, quem recebe não tem como saber o que ficou de fora, e a falta só aparece dias depois, com nome de lentidão da equipe.",
+    "evidencia": [
+      {
+        "claim": "existe um estudo de 2014, publicado na revista New England Journal of Medicine, sobre um programa de padronização da passagem de plantão entre médicos residentes",
+        "status": "E",
+        "fonte": "Amy J. Starmer e colegas, do I-PASS Study Group, Changes in Medical Errors after Implementation of a Handoff Program, The New England Journal of Medicine, volume 371, número 19, páginas 1803 a 1812, novembro de 2014, DOI 10.1056/NEJMsa1405556, PMID 25372088. Conferido nesta execução no registro completo da Europe PMC, em https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25372088&resultType=core&format=json, que traz o resumo integral do artigo."
+      },
+      {
+        "claim": "o estudo foi feito em 9 hospitais e acompanhou 10.740 internações",
+        "status": "E",
+        "fonte": "Resumo do mesmo artigo, conferido nesta execução no registro da Europe PMC: estudo prospectivo de intervenção em 9 hospitais, com 10.740 internações de pacientes no total das fases anterior e posterior à intervenção."
+      },
+      {
+        "claim": "a taxa de erro médico caiu 23%, de 24,5 para 18,8 por 100 internações, e a de eventos adversos evitáveis caiu 30%, de 4,7 para 3,3 por 100 internações",
+        "status": "E",
+        "fonte": "Seção Results do resumo do mesmo artigo, conferida nesta execução: medical-error rate decreased by 23% from the preintervention period to the postintervention period (24.5 vs. 18.8 per 100 admissions, P<0.001), and the rate of preventable adverse events decreased by 30% (4.7 vs. 3.3 events per 100 admissions, P<0.001)."
+      },
+      {
+        "claim": "o tempo da passagem falada não aumentou: 2,4 minutos por paciente antes e 2,5 minutos depois, sem diferença estatística",
+        "status": "E",
+        "fonte": "Seção Results do resumo do mesmo artigo, conferida nesta execução: there were no significant changes from the preintervention period to the postintervention period in the duration of oral handoffs (2.4 and 2.5 minutes per patient, respectively; P=0.55) or in resident workflow."
+      },
+      {
+        "claim": "a última etapa do roteiro usado no estudo é quem recebe resumir o que ouviu, perguntar o que não entendeu e repetir a lista de tarefas",
+        "status": "E",
+        "fonte": "Descrição das 5 etapas do roteiro I-PASS em Georgia Garvey, Improving verbal sign-outs: One simple method you need, American Medical Association, 23 de julho de 2026, conferida nesta execução em https://www.ama-assn.org/medical-residents/residency-life/improving-verbal-sign-outs-one-simple-method-you-need: Synthesis by receiver, the receiver summarizes what was heard, asks any questions and restates the key action items or to-do list."
+      },
+      {
+        "claim": "a passagem de trabalho em um negócio de serviço falha pelo mesmo mecanismo: quem passa conta o que lembra e quem recebe não sabe o que perguntar",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs a partir da cena descrita pelo público. O estudo mediu hospital infantil, com residentes, treino formal e acompanhamento, e não escritório de serviço. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, o título, a autoria, a revista, o volume, o número, as páginas e o ano do estudo de 2014 sobre programa de passagem de plantão",
+        "os 9 hospitais e as 10.740 internações acompanhadas",
+        "a queda de 23% no erro médico, de 24,5 para 18,8 por 100 internações, e a de 30% nos eventos adversos evitáveis, de 4,7 para 3,3",
+        "a ausência de aumento no tempo da passagem falada, 2,4 contra 2,5 minutos por paciente",
+        "a etapa final do roteiro, em que quem recebe resume o que ouviu e repete as tarefas"
+      ],
+      "I": [
+        "a leitura de que o trabalho de serviço trava mais na troca de mão do que dentro da tarefa",
+        "a leitura de que a lentidão atribuída à equipe é, em boa parte, informação perdida na passagem"
+      ],
+      "H": [
+        "as 4 linhas como formato mínimo de passagem em negócio de serviço, com estado, próximo passo com dono e data, risco conhecido e repetição de quem recebe",
+        "a repetição de quem recebe como o passo que mais devolve tempo, por ser o único que revela a falta antes do prazo"
+      ],
+      "NC": [
+        "quanto a passagem escrita reduz retrabalho ou atraso em escritório de serviço brasileiro, porque não existe levantamento conhecido",
+        "que proporção do prazo de uma entrega de serviço é consumida em trocas de mão, porque ninguém mediu isso fora da saúde e da indústria"
+      ]
+    },
+    "limites": [
+      "O estudo de 2014 foi feito em 9 hospitais infantis, com médicos residentes, treino formal, desenvolvimento de professores e campanha de sustentação. Ele não mede escritório de serviço, não mede equipe pequena e não mede passagem por mensagem de texto, e a peça não afirma que mede.",
+      "A ligação entre o resultado do estudo e a passagem de trabalho em um negócio de serviço é leitura da Zionaxs, declarada como leitura no slide 6 e na legenda.",
+      "As 4 linhas são adaptação editorial da Zionaxs a partir do roteiro do estudo. Elas não saem do artigo e não têm medida própria, e a peça diz isso.",
+      "A peça não promete redução de erro, de atraso ou de retrabalho no negócio de quem lê. Ela trata de 1 coisa: fechar a passagem com a repetição de quem recebe.",
+      "A peça não trata de documentação de processo, de manual nem de sistema de gestão de tarefas. Ela trata do momento em que 1 tarefa muda de mão.",
+      "Os 3 dias que aparecem na cena de abertura são exemplo de narrativa, escrito em segunda pessoa, e não estatística sobre prazo de nenhum setor."
+    ]
+  },
+  "tese": "O trabalho de serviço quase não trava enquanto alguém está fazendo: trava quando muda de mão. Quem passa conta o que lembra naquele minuto e quem recebe não sabe o que perguntar, então a falta só aparece dias depois com nome de lentidão. A saída não é pedir mais atenção, é fechar a passagem com 4 linhas e com a repetição de quem recebe.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JF4",
+    "JO1"
+  ],
+  "matriz_nota": "Sem código de matriz declarado de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata da passagem de trabalho entre pessoas. As 2 mais próximas não servem: M19 é dependência de pessoa-chave, resolvida com limites de decisão e alçada, portanto quem pode decidir sem o dono, e não o que se diz na hora de entregar a tarefa a outra pessoa; e M08 é retrabalho não cobrado, que trata de medir e conversar com o cliente sobre refação, enquanto esta peça trata de evitar a perda de informação que gera a refação. Declarar um código só para preencher o campo estragaria a análise posterior, que é o que a verificação A9 existe para impedir, então o campo fica vazio e a proposta de uma linha nova de matriz vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Sem código de repertório declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre transferência de informação entre turnos ou pessoas. R8, do sistema Toyota, chega perto pela ideia de parar a linha, e a repetição de quem recebe funciona como um jeito de parar a linha quando o entendimento não bate, mas R8 está registrada para o caso de congelar entrega com dado duvidoso, e usá-la como fonte da evidência desta peça seria forçar o código. A fonte desta peça é o estudo de 2014 de Amy Starmer e colegas no New England Journal of Medicine, e a proposta de acrescentá-lo ao ledger como linha nova de repertório fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "cta": "Escolher 1 tarefa que muda de mão hoje e escrever as 4 linhas antes de mandar, terminando com o pedido para quem recebe repetir o que entendeu e o que vai fazer.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela cena do trabalho que trava na troca e não na tarefa, entender por que a troca perde informação, receber a medida do que muda quando a troca ganha roteiro, virar para a ideia de que a passagem termina na repetição de quem recebe, receber as 4 linhas que a pessoa salva e aplica, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-40",
+    "JF4",
+    "JO1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Even Hands",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça é de leitura e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax. A nota específica desta peça é procurar uma faixa de pulso regular e marcado, quase de metrônomo, com textura limpa e poucos elementos: o assunto é uma entrega que passa de mão em mão sem perder nada, e trilha com pulso regular conta essa história. Combina com o slot da tarde, que pede leitura atenta e peça salvável, então vale uma faixa mais sóbria e menos adiantada que a da manhã.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda faixa com sirene, bipe de monitor cardíaco ou qualquer efeito de hospital, que puxaria a leitura para o cenário do estudo em vez do negócio de quem lê.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso regular e textura limpa que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-39 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado e baixo presente com harmonia parada, então aqui vale procurar algo de pulso regular e quase mecânico."
+  },
+  "caption": [
+    "O trabalho de serviço quase não trava enquanto alguém está fazendo. Ele trava quando muda de mão.",
+    "A cena é conhecida: a tarefa sai de uma pessoa e chega em outra por mensagem, por recado rápido ou por um arquivo compartilhado. Quem passa conta o que lembra naquele minuto. Quem recebe não tem como saber o que ficou de fora, e a falta aparece 3 dias depois, como atraso, refação ou cliente repetindo o que já tinha dito.",
+    "Vale olhar um lugar onde isso foi medido. Em 2014, Amy Starmer e colegas publicaram na revista New England Journal of Medicine um estudo feito em 9 hospitais infantis, que passaram a fazer a troca de plantão com um roteiro fixo. Em 10.740 internações, o erro médico caiu 23%, de 24,5 para 18,8 a cada 100 internações. E o tempo da passagem não subiu: 2,4 minutos por paciente antes, 2,5 depois.",
+    "A etapa do roteiro que mais viaja para fora do hospital é a última: quem recebe resume o que ouviu, pergunta o que não entendeu e repete as tarefas. É nesse instante que o que faltou aparece, e custa 30 segundos.",
+    "Na prática, 4 linhas antes de mandar. 1: estado, em que ponto a tarefa está e o que já foi feito. 2: próximo passo, com o nome de quem faz e a data. 3: o que pode dar errado e o que fazer se der. 4: quem recebe repete o que entendeu e o que vai fazer.",
+    "Um cuidado antes de começar: o estudo é de hospital infantil, com treino e acompanhamento, e não de escritório de serviço. A ponte entre as 2 coisas é leitura da Zionaxs. Roteiro também não resolve equipe sem gente: ele resolve informação perdida na troca.",
+    "Comece hoje. Escolha 1 tarefa que muda de mão e escreva as 4 linhas antes de mandar. Depois peça a repetição."
+  ],
+  "caption_sources": [
+    "Fonte da evidência: Amy J. Starmer e colegas, do I-PASS Study Group, Changes in Medical Errors after Implementation of a Handoff Program, The New England Journal of Medicine, volume 371, número 19, páginas 1803 a 1812, novembro de 2014, DOI 10.1056/NEJMsa1405556, PMID 25372088. Conferido nesta execução no registro completo da Europe PMC, em https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25372088&resultType=core&format=json.",
+    "Números conferidos no resumo do artigo nesta execução: estudo prospectivo de intervenção em 9 hospitais, 10.740 internações; queda de 23% na taxa de erro médico, de 24,5 para 18,8 por 100 internações, com P menor que 0,001; queda de 30% nos eventos adversos evitáveis, de 4,7 para 3,3 por 100 internações; e ausência de mudança significativa no tempo da passagem falada, 2,4 contra 2,5 minutos por paciente, com P igual a 0,55.",
+    "Descrição das 5 etapas do roteiro I-PASS, incluindo a repetição de quem recebe: Georgia Garvey, Improving verbal sign-outs: One simple method you need, American Medical Association, 23 de julho de 2026, conferida nesta execução em https://www.ama-assn.org/medical-residents/residency-life/improving-verbal-sign-outs-one-simple-method-you-need.",
+    "Recorte e limitação: o estudo é de 2014 e foi feito em 9 hospitais infantis, com médicos residentes, treino formal e campanha de sustentação. Ele não mede escritório de serviço nem passagem por mensagem de texto, e por isso a peça não afirma percentual nenhum sobre negócio de serviço e trata a passagem para esse contexto como leitura, não como medida.",
+    "As 4 linhas, com estado, próximo passo com dono e data, risco conhecido e repetição de quem recebe, são adaptação editorial da Zionaxs a partir do roteiro do estudo, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Os 3 dias da cena de abertura são exemplo de narrativa em segunda pessoa, não estatística de mercado.",
+    "Repertório: nenhuma linha do ledger da Zionaxs cobre transferência de informação entre turnos ou pessoas, e a inclusão do estudo de 2014 como linha nova está proposta na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Sam, Van Tay Media e Clint Patterson, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A troca",
+      "copy": {
+        "title": "O trabalho\ntrava na\npassagem.",
+        "accentLine": "Não na tarefa.",
+        "hl": "Não na tarefa.",
+        "sub": "Cada vez que uma tarefa muda de mão, quem passa conta o que lembra e quem recebe não sabe o que perguntar. O que ficou de fora aparece 3 dias depois, como atraso.",
+        "year": "2026",
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa · foto: Sam"
+      },
+      "approved_visible_copy": [
+        "A troca",
+        "01/07",
+        "O trabalho trava na passagem.",
+        "Não na tarefa.",
+        "Cada vez que uma tarefa muda de mão, quem passa conta o que lembra e quem recebe não sabe o que perguntar. O que ficou de fora aparece 3 dias depois, como atraso.",
+        "2026",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa · foto: Sam"
+      ],
+      "alt": "Slide 1 de 7. O trabalho trava na passagem, não na tarefa. Cada vez que uma tarefa muda de mão, quem passa conta o que lembra e quem recebe não sabe o que perguntar. O que ficou de fora aparece 3 dias depois, como atraso. Fotografia escura de um escritório em contraluz, com 2 pessoas em silhueta trabalhando em mesas separadas diante de janelas claras, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-duas-mesas-contraluz.jpg",
+        "pos": "50% 50%",
+        "scale": 1.45,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Passa\no que\nlembra."
+        ],
+        "closing": "A tarefa sai de uma pessoa e chega em outra por mensagem, por recado rápido ou por um arquivo compartilhado. Quem passa conta o que lembra naquele minuto. Quem recebe não sabe o que ficou de fora, e a falta só aparece quando o prazo chega.",
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa · foto: Van Tay Media"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Passa o que lembra.",
+        "A tarefa sai de uma pessoa e chega em outra por mensagem, por recado rápido ou por um arquivo compartilhado. Quem passa conta o que lembra naquele minuto. Quem recebe não sabe o que ficou de fora, e a falta só aparece quando o prazo chega.",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa · foto: Van Tay Media"
+      ],
+      "alt": "Slide 2 de 7. Passa o que lembra. A tarefa sai de uma pessoa e chega em outra por mensagem, por recado rápido ou por um arquivo compartilhado. Quem passa conta o que lembra naquele minuto. Quem recebe não sabe o que ficou de fora, e a falta só aparece quando o prazo chega. Papel claro com fotografia em preto e branco de 2 mãos passando uma folha em branco de uma para a outra diante de uma janela, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-folha-passada.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "O roteiro fixo",
+          "mudou o erro."
+        ],
+        "closing": "Em 2014, Amy Starmer e colegas publicaram no New England Journal of Medicine um estudo feito em 9 hospitais infantis, que passaram a fazer a troca de plantão com um roteiro fixo. Em 10.740 internações, o erro médico caiu 23%, de 24,5 para 18,8 a cada 100. E a passagem não ficou mais demorada.",
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "O roteiro fixo",
+        "mudou o erro.",
+        "Em 2014, Amy Starmer e colegas publicaram no New England Journal of Medicine um estudo feito em 9 hospitais infantis, que passaram a fazer a troca de plantão com um roteiro fixo. Em 10.740 internações, o erro médico caiu 23%, de 24,5 para 18,8 a cada 100. E a passagem não ficou mais demorada.",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa"
+      ],
+      "alt": "Slide 3 de 7. O roteiro fixo mudou o erro. Em 2014, Amy Starmer e colegas publicaram no New England Journal of Medicine um estudo feito em 9 hospitais infantis, que passaram a fazer a troca de plantão com um roteiro fixo. Em 10.740 internações, o erro médico caiu 23%, de 24,5 para 18,8 a cada 100. E a passagem não ficou mais demorada."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Quem recebe\nrepete.",
+        "accent": "De volta.",
+        "hl": "De volta.",
+        "ghost": "23",
+        "year": "2026",
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa",
+        "body": "A passagem não termina quando a mensagem sai. Ela termina quando a outra pessoa repete o que entendeu e o que vai fazer. É aí que aparece o que faltou, por 30 segundos. No estudo de 2014, essa era a última etapa do roteiro fixo."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Quem recebe repete.",
+        "De volta.",
+        "2026",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa",
+        "A passagem não termina quando a mensagem sai. Ela termina quando a outra pessoa repete o que entendeu e o que vai fazer. É aí que aparece o que faltou, por 30 segundos. No estudo de 2014, essa era a última etapa do roteiro fixo."
+      ],
+      "alt": "Slide 4 de 7. Quem recebe repete de volta. A passagem não termina quando a mensagem sai. Ela termina quando a outra pessoa repete o que entendeu e o que vai fazer. É aí que aparece o que faltou, por 30 segundos. No estudo de 2014, essa era a última etapa do roteiro fixo. Campo laranja chapado com o número 23 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "A passagem em\n4 linhas.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Estado: em que ponto a tarefa está agora e o que já foi feito, em 1 linha."
+          },
+          {
+            "num": "2",
+            "label": "Próximo passo, com o nome de quem faz e a data. Sem dono e sem data é aviso, não é passagem."
+          },
+          {
+            "num": "3",
+            "label": "O que pode dar errado e o que fazer se der. O risco que você já conhece vai junto."
+          },
+          {
+            "num": "4",
+            "label": "Quem recebe repete o que entendeu e o que vai fazer. A passagem termina aí, não no envio."
+          }
+        ],
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "A passagem em 4 linhas.",
+        "1",
+        "Estado: em que ponto a tarefa está agora e o que já foi feito, em 1 linha.",
+        "2",
+        "Próximo passo, com o nome de quem faz e a data. Sem dono e sem data é aviso, não é passagem.",
+        "3",
+        "O que pode dar errado e o que fazer se der. O risco que você já conhece vai junto.",
+        "4",
+        "Quem recebe repete o que entendeu e o que vai fazer. A passagem termina aí, não no envio.",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa"
+      ],
+      "alt": "Slide 5 de 7. A passagem em 4 linhas. 1: estado, em que ponto a tarefa está agora e o que já foi feito, em 1 linha. 2: próximo passo, com o nome de quem faz e a data. Sem dono e sem data é aviso, não é passagem. 3: o que pode dar errado e o que fazer se der. O risco que você já conhece vai junto. 4: quem recebe repete o que entendeu e o que vai fazer. A passagem termina aí, não no envio. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Não é mais\num relatório.",
+        "accent": "São 4 linhas.",
+        "body": "O estudo mediu hospital infantil, com treino e acompanhamento, e não escritório de serviço: a ponte entre as 2 coisas é leitura da Zionaxs. Roteiro também não resolve equipe sem gente, resolve informação perdida na troca.",
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Não é mais um relatório.",
+        "São 4 linhas.",
+        "O estudo mediu hospital infantil, com treino e acompanhamento, e não escritório de serviço: a ponte entre as 2 coisas é leitura da Zionaxs. Roteiro também não resolve equipe sem gente, resolve informação perdida na troca.",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa"
+      ],
+      "alt": "Slide 6 de 7. Não é mais um relatório, são 4 linhas. O estudo mediu hospital infantil, com treino e acompanhamento, e não escritório de serviço: a ponte entre as 2 coisas é leitura da Zionaxs. Roteiro também não resolve equipe sem gente, resolve informação perdida na troca."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escolha 1\npassagem.",
+        "hl": "Escolha 1",
+        "accent": "E peça a repetição.",
+        "body": "Escolha 1 tarefa que muda de mão hoje e escreva as 4 linhas antes de mandar. Depois peça para quem recebeu repetir o que entendeu e o que vai fazer. Se a repetição vier diferente da sua, você acabou de achar o atraso da semana que vem.",
+        "year": "2026",
+        "temas": "Temas: Passagem / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref d47abbfa · foto: Clint Patterson"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escolha 1 passagem.",
+        "E peça a repetição.",
+        "Escolha 1 tarefa que muda de mão hoje e escreva as 4 linhas antes de mandar. Depois peça para quem recebeu repetir o que entendeu e o que vai fazer. Se a repetição vier diferente da sua, você acabou de achar o atraso da semana que vem.",
+        "2026",
+        "Temas: Passagem / Equipe / Prazo",
+        "@zionaxs_ · ref d47abbfa · foto: Clint Patterson"
+      ],
+      "alt": "Slide 7 de 7. Escolha 1 passagem e peça a repetição. Escolha 1 tarefa que muda de mão hoje e escreva as 4 linhas antes de mandar. Depois peça para quem recebeu repetir o que entendeu e o que vai fazer. Se a repetição vier diferente da sua, você acabou de achar o atraso da semana que vem. Fotografia escura de uma mesa de trabalho vazia à noite, com a tela acesa, o abajur ligado e a cadeira sem ninguém.",
+      "photo": {
+        "src": "../assets/foto-mesa-vazia-noite.jpg",
+        "pos": "0% 50%"
+      }
+    }
+  ]
+}

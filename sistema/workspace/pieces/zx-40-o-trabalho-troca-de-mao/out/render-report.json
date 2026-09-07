@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-40-o-trabalho-troca-de-mao",
+  "generatedAt": "2026-09-07T16:20:35+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-40-o-trabalho-troca-de-mao-slide-01.png",
+    "zx-40-o-trabalho-troca-de-mao-slide-02.png",
+    "zx-40-o-trabalho-troca-de-mao-slide-03.png",
+    "zx-40-o-trabalho-troca-de-mao-slide-04.png",
+    "zx-40-o-trabalho-troca-de-mao-slide-05.png",
+    "zx-40-o-trabalho-troca-de-mao-slide-06.png",
+    "zx-40-o-trabalho-troca-de-mao-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A troca 01/07 O trabalho trava na passagem. Não na tarefa. Cada vez que uma tarefa muda de mão, quem passa conta o que lembra e quem recebe não sabe o que perguntar. O que ficou de fora aparece 3 dias depois, como atraso. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa · foto: Sam"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Passa o que lembra. A tarefa sai de uma pessoa e chega em outra por mensagem, por recado rápido ou por um arquivo compartilhado. Quem passa conta o que lembra naquele minuto. Quem recebe não sabe o que ficou de fora, e a falta só aparece quando o prazo chega. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa · foto: Van Tay Media"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 O roteiro fixo mudou o erro. Em 2014, Amy Starmer e colegas publicaram no New England Journal of Medicine um estudo feito em 9 hospitais infantis, que passaram a fazer a troca de plantão com um roteiro fixo. Em 10.740 internações, o erro médico caiu 23%, de 24,5 para 18,8 a cada 100. E a passagem não ficou mais demorada. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Quem recebe repete. De volta. A passagem não termina quando a mensagem sai. Ela termina quando a outra pessoa repete o que entendeu e o que vai fazer. É aí que aparece o que faltou, por 30 segundos. No estudo de 2014, essa era a última etapa do roteiro fixo. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 A passagem em 4 linhas. 1Estado: em que ponto a tarefa está agora e o que já foi feito, em 1 linha. 2Próximo passo, com o nome de quem faz e a data. Sem dono e sem data é aviso, não é passagem. 3O que pode dar errado e o que fazer se der. O risco que você já conhece vai junto. 4Quem recebe repete o que entendeu e o que vai fazer. A passagem termina aí, não no envio. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Não é mais um relatório. São 4 linhas. O estudo mediu hospital infantil, com treino e acompanhamento, e não escritório de serviço: a ponte entre as 2 coisas é leitura da Zionaxs. Roteiro também não resolve equipe sem gente, resolve informação perdida na troca. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Escolha 1 passagem. E peça a repetição. Escolha 1 tarefa que muda de mão hoje e escreva as 4 linhas antes de mandar. Depois peça para quem recebeu repetir o que entendeu e o que vai fazer. Se a repetição vier diferente da sua, você acabou de achar o atraso da semana que vem. Temas: Passagem / Equipe / Prazo @zionaxs_ · ref d47abbfa · foto: Clint Patterson"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.8,
+  "digest": "7b3df1d2c86fefa1404495db16a57af1b4c1a026dadc6fc3e15fbc84bd96352f"
+}

@@ -1,0 +1,142 @@
+decisao: aprovar e publicar a zx-40, slot da tarde
+data: 2026-09-07
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumidos pela
+    zx-39, publicada às 08:49 de Fortaleza.
+  registro_anterior: pieces/zx-39-o-desconto-vira-o-preco/decisions/aprovacao-2026-09-07.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, segunda-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede a peça que a pessoa salva e aplica, com mecanismo,
+    evidência medida e método, e não a leitura rápida da manhã. Por isso o
+    centro é um diagnóstico com framework: o trabalho de serviço trava na troca
+    de mão e não dentro da tarefa, a evidência entra medida em um estudo
+    publicado, e o slide 5 entrega as 4 linhas que a pessoa aplica na primeira
+    tarefa que passar adiante hoje.
+
+tema:
+  escolhido: >
+    o trabalho de serviço quase não trava enquanto alguém está fazendo, trava
+    quando muda de mão: quem passa conta o que lembra e quem recebe não sabe o
+    que perguntar, e a passagem só fecha quando quem recebe repete o que
+    entendeu
+  matriz: nenhuma declarada
+  jtbd: [JF4, JO1]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é conteúdo principal, e a peça precisa entregar mecanismo,
+    evidência e método salvável. A passagem de trabalho atende os 3: o mecanismo
+    é a perda de informação na troca, a evidência é um estudo multicêntrico
+    publicado com números conferidos nesta execução, e o método são 4 linhas que
+    cabem em uma mensagem. O assunto é transversal a clínica, contabilidade,
+    advocacia e agência, e passa no teste "isso eu vou usar" da nota 19c.
+  nao_repete: >
+    A peça da manhã de hoje, a zx-39, tratou de preço e desconto, e a tarde
+    precisa de outro assunto. Nenhuma das 20 peças de zx-20 a zx-39 tratou de
+    passagem de trabalho entre pessoas: a zx-21 tratou de alçada de decisão, a
+    zx-24 de trabalho em aberto ao mesmo tempo, a zx-36 de retrabalho sem nome e
+    a zx-38 de pergunta de cliente, que são vizinhas e não são isto. Nas 6 peças
+    anteriores os assuntos foram capacidade média, prazo que se enche, retrabalho
+    sem nome, elogio em público, cliente que pergunta e desconto que vira preço.
+
+codigos_editoriais:
+  memory_no_checkout: true
+  clonada_em: /home/user/zionaxs-memory
+  matriz: >
+    Nenhum código declarado. A matriz da nota 19c vai de M01 a M20 e nenhuma
+    linha trata da passagem de trabalho entre pessoas. As 2 mais próximas não
+    servem: M19 é dependência de pessoa-chave resolvida por alçada de decisão, e
+    M08 é retrabalho não cobrado, que trata de medir e cobrar a refação, não de
+    evitar a perda de informação que a gera. Declarar código por preencher campo
+    é exatamente o erro que a verificação A9 existe para impedir.
+  repertorio: >
+    Nenhum código declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha
+    cobre transferência de informação entre turnos ou pessoas. R8, do sistema
+    Toyota, chega perto pela ideia de parar a linha, mas está registrada para o
+    caso de congelar entrega com dado duvidoso.
+  proposta_na_inbox: >
+    2026-09-07-passagem-de-trabalho-como-linha-de-matriz-e-repertorio.md, na
+    Inbox da Zionaxs Memory, propondo 1 linha nova de matriz e 1 linha nova de
+    repertório. Promoção é humana.
+
+evidencia:
+  fonte: >
+    Amy J. Starmer e colegas, do I-PASS Study Group, Changes in Medical Errors
+    after Implementation of a Handoff Program, The New England Journal of
+    Medicine, volume 371, número 19, páginas 1803 a 1812, novembro de 2014, DOI
+    10.1056/NEJMsa1405556, PMID 25372088.
+  conferida_em: >
+    Registro completo da Europe PMC nesta execução, com o resumo integral do
+    artigo, em
+    https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25372088&resultType=core&format=json
+  numeros:
+    - 9 hospitais e 10.740 internações
+    - erro médico de 24,5 para 18,8 por 100 internações, queda de 23%, P menor que 0,001
+    - eventos adversos evitáveis de 4,7 para 3,3 por 100 internações, queda de 30%, P menor que 0,001
+    - passagem falada de 2,4 para 2,5 minutos por paciente, P igual a 0,55, sem diferença
+  segunda_fonte: >
+    As 5 etapas do roteiro I-PASS, incluindo a repetição de quem recebe, em
+    Georgia Garvey, Improving verbal sign-outs: One simple method you need,
+    American Medical Association, 23 de julho de 2026, conferida nesta execução.
+  limite_declarado: >
+    O estudo é de hospital infantil, com residentes, treino formal e campanha de
+    sustentação, e não de escritório de serviço. A ponte é leitura da Zionaxs, e
+    a peça declara isso no slide 6 e na legenda.
+
+geracao:
+  gates: 14/14
+  digest: 7b3df1d2c86fefa1
+  rodadas: 2
+  correcao_entre_rodadas: >
+    A primeira geração reprovou o G6 em 3 unidades, com última linha órfã nos
+    slides 2, 4 e 7. A correção foi reescrever a frase final de cada bloco, como
+    manda a direção visual, e não inserir quebra autoral, que trocaria G6 por G7.
+
+revisao_humana_do_passo_6:
+  rosto: >
+    A foto da capa é contraluz de janela e a pessoa aparece em silhueta escura,
+    sem traço de rosto legível no render de 1080x1350. A do slide 2 mostra só 2
+    mãos passando uma folha, e a do slide 7 não tem ninguém.
+  texto_na_foto: nenhuma das 3 fotos traz texto, data ou marca legível
+  banda_de_texto: >
+    Na capa a foto entrou com scale 1,45 e origem no rodapé, o que levou a janela
+    clara para o terço superior e deixou a banda de texto inteira sobre a mesa
+    escura. No fechamento, pos 0% 50% cortou a poltrona clara do lado direito e
+    deixou a banda de texto sobre a parede escura.
+  anel_do_poster_statement: >
+    Conferido no PNG do slide 6: a linha mais larga do corpo dentro da faixa
+    vertical do anel termina antes do traço, com folga visível. O encosto
+    descrito na pendência da direção visual não aconteceu nesta peça.
+  realce: >
+    O realce do slide 4 está em bloco de 1 linha só, como manda a regra da zx-33
+    para poster-turn com big. No slide 7 o realce está na primeira linha e a
+    linha seguinte, "passagem.", não tem maiúscula acentuada.
+
+porteiro:
+  comando: node bin/pode-publicar.js zx-40-o-trabalho-troca-de-mao --root ../workspace
+  resultado: liberado na primeira passagem
+  cadencia: 1 de 2 do dia, fuso America/Fortaleza, política da marca com override declarado
+  excecao_usada: não
+
+trilha:
+  faixa: Even Hands
+  artista: Meta Sound Collection
+  criterio: >
+    instrumental, pulso regular e quase mecânico, textura limpa e poucos
+    elementos, sem crescendo, porque o assunto é uma entrega que passa de mão em
+    mão sem perder nada
+  estado: pendente de adição manual pelo Fabiano, editando o post no app
+  nota: >
+    O nome é indicação de perfil, não faixa confirmada no acervo: esta sessão em
+    nuvem não teve acesso ao índice de trilhas, que vive fora do repositório.
