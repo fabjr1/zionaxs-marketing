@@ -1,0 +1,61 @@
+{
+  "postId": "18105459260606241",
+  "permalink": "https://www.instagram.com/p/Dc_Cuf9oELr/",
+  "shortcode": "Dc_Cuf9oELr",
+  "digest": "560fcc5236c16044",
+  "publishedAt": "2026-09-07T11:49:57Z",
+  "publishedAtFortaleza": "2026-09-07T08:49:57-03:00",
+  "slot": "08:30 BRT, manha de segunda, papel de descoberta, tensao atual, curiosidade ou pauta encaminhavel",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "containerId": "17907423510501214",
+  "childContainers": [
+    "17907423366501214",
+    "17907423363501214",
+    "17907423372501214",
+    "17907423369501214",
+    "17907423447501214",
+    "17907423438501214",
+    "17907423444501214"
+  ],
+  "childMediaIds": [
+    "18110123504027350",
+    "18087116903245557",
+    "17945855805280150",
+    "18090514991643237",
+    "17884333626618771",
+    "17944099989072544",
+    "18103055294349698"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-39-o-desconto-vira-o-preco/out/jpg/zx-39-o-desconto-vira-o-preco-slide-07.jpg"
+  ],
+  "commit": "5f3f02c",
+  "trilha": {
+    "estado": "pendente de adicao manual pelo Fabiano, editando o post no app",
+    "faixa": "Steady Ledger",
+    "artista": "Meta Sound Collection",
+    "criterio": "instrumental, andamento constante, baixo firme e harmonia estavel, sem crescendo e sem resolucao marcada, porque o assunto e uma referencia que nao se move",
+    "nota": "A API nao escolhe faixa. O nome e indicacao de perfil, nao faixa confirmada no acervo: esta sessao em nuvem nao teve acesso ao indice de trilhas, que vive fora do repositorio."
+  },
+  "reconciledAt": "2026-09-07T11:50:30Z",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_USER_INFO antes de criar qualquer conteiner, e INSTAGRAM_GET_IG_MEDIA mais INSTAGRAM_GET_IG_MEDIA_CHILDREN depois de publicar",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "nota": "A identidade da conta foi conferida ao vivo antes de criar qualquer conteiner: INSTAGRAM_GET_USER_INFO devolveu zionaxs_, id 37965311306447572, que e a conta certa entre as 3 conectadas no Composio. A conta padrao do Composio nesta sessao era @fabjr1, nao a da marca, entao todas as chamadas passaram a conta explicitamente. Depois de publicar, INSTAGRAM_GET_IG_MEDIA confirmou owner 37965311306447572, username zionaxs_, tipo CAROUSEL_ALBUM, permalink e a legenda identica ao corpo do campo caption do contrato, e INSTAGRAM_GET_IG_MEDIA_CHILDREN devolveu 7 filhos. As 7 URLs publicas foram conferidas com HTTP 200 e content-type image/jpeg antes de entregar a Meta.",
+    "incidente": "Nenhum. Os 7 filhos foram criados de uma vez e os 7 chegaram a FINISHED na primeira verificacao; o pai foi criado so depois disso, ja com todos em FINISHED, e chegou a FINISHED antes do publish. A receita da zx-30, de recriar os filhos quando o pai vai a ERROR, nao precisou ser usada."
+  }
+}
