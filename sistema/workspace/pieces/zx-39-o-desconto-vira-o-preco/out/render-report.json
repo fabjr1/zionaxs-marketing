@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-39-o-desconto-vira-o-preco",
+  "generatedAt": "2026-09-07T11:45:47+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-39-o-desconto-vira-o-preco-slide-01.png",
+    "zx-39-o-desconto-vira-o-preco-slide-02.png",
+    "zx-39-o-desconto-vira-o-preco-slide-03.png",
+    "zx-39-o-desconto-vira-o-preco-slide-04.png",
+    "zx-39-o-desconto-vira-o-preco-slide-05.png",
+    "zx-39-o-desconto-vira-o-preco-slide-06.png",
+    "zx-39-o-desconto-vira-o-preco-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A entrada 01/07 O desconto não acaba na venda. Ele vira o preço. Você tira 20% para fechar o contrato e trata isso como exceção daquele mês. O cliente guarda o número, e é dele que a próxima conversa de preço começa. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868 · foto: Nguyen Hiep"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Ele guarda o número. Você deu o desconto em março, para fechar. Em março era exceção. Na renovação, é de onde a conversa começa, e o cliente não está sendo duro: ele está usando o único preço que você já cobrou dele. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868 · foto: Rendy Novantino"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 O número muda a resposta. Amos Tversky e Daniel Kahneman, psicólogos que trabalhavam na Universidade Hebraica de Jerusalém, publicaram em 1974 um estudo em que giravam uma roleta na frente da pessoa antes de perguntar qual era a porcentagem de países africanos membros da ONU. Quem tirou 10 respondeu 25 na mediana. Quem tirou 65 respondeu 45. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Corte o escopo. Não o preço. Quando o cliente pede desconto, a resposta padrão é tirar do preço e manter a entrega inteira. A outra saída é tirar da entrega e manter o preço por item: menos itens, menos frequência, prazo maior. O número que fica registrado continua sendo o seu. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 A escada de escopo. 1Escreva o preço cheio com tudo que está incluído, item por item, antes de qualquer conversa de valor. 2Monte 2 versões menores da mesma entrega, tirando itens ou frequência, cada uma com o preço proporcional. 3Quando pedirem desconto, mande a versão menor pelo preço dela e diga em 1 linha o que sai. 4Se ainda assim der desconto, escreva na proposta a data de validade dele e o preço que volta depois. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Desconto não é proibido. Ele só precisa de prazo. O estudo de 1974 mediu estimativa de número, não memória de preço, e a ponte entre as 2 coisas é leitura da Zionaxs. Desconto com data de validade escrita, ou desconto por escopo menor, continua sendo ferramenta legítima. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Abra a sua proposta. E monte a versão menor. Abra a sua última proposta agora e escreva embaixo 2 versões menores da mesma entrega, com o que sai de cada uma e o preço dela. Na próxima conversa de preço, mande a versão menor, não o desconto. Depois compare o preço por hora das 3. Temas: Preço / Escopo / Proposta @zionaxs_ · ref 8d469868 · foto: Dillon Shook"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 3,
+  "digest": "560fcc5236c16044b747ad8edd312e5af66717e75ba9cf67cbe49d595e8fb10a"
+}

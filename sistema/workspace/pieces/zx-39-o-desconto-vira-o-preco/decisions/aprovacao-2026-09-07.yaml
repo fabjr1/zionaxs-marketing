@@ -1,0 +1,150 @@
+decisao: aprovar e publicar a zx-39, slot da manhã
+data: 2026-09-07
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0 de 2 do dia consumidos.
+  registro_anterior: pieces/zx-38-o-cliente-que-pergunta/decisions/aprovacao-2026-09-06.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, segunda-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede a peça que entrega uma leitura que a pessoa ainda não
+    tinha feito e um passo que ela executa no mesmo dia, não a análise longa de
+    fim de semana. Por isso o centro é uma reclassificação de custo, o desconto
+    que não acaba na venda porque vira referência de preço, e a evidência entra
+    para mostrar o quanto um número arbitrário puxa a resposta seguinte. A
+    escada de escopo do slide 5 é a pauta encaminhável: 4 passos que cabem na
+    própria proposta que a pessoa já tem em aberto.
+
+tema:
+  escolhido: >
+    o desconto dado para fechar não sai só do caixa daquele contrato, ele fica no
+    preço: o número aceitado uma vez vira o ponto de partida da próxima conversa,
+    e a saída é cortar o escopo, não o preço
+  matriz: nenhuma declarada
+  jtbd: [JO5, JT2]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é descoberta e pauta encaminhável, e a leitura de que o
+    desconto é permanente enquanto a concessão é tratada como pontual é
+    exatamente o tipo de reclassificação que passa no teste "isso eu não tinha
+    pensado" da nota 19c. O assunto é transversal a clínica, contabilidade,
+    advocacia e agência, e o método é aplicável hoje, sobre um documento que a
+    pessoa já tem. O JO5 cobre o script de conversa com cliente sobre preço e
+    exceção, e o JT2 cobre a decisão sobre o que deliberadamente não entra na
+    entrega, que é o mecanismo da escada de escopo.
+  nao_repetido: >
+    Conferido contra as 19 peças de zx-20 a zx-38, olhando tese, JTBD, matriz e
+    repertório de cada contrato. As 2 peças de preço já publicadas tratam de
+    outra decisão: a zx-29 mede horas por cliente para decidir reajuste em
+    carteira existente, e a zx-31 separa faturado, recebido e sobra. Nenhuma das
+    2 trata da concessão feita no momento da proposta. A zx-33, sobre o sim que
+    leva 5 minutos, é a mais próxima em tempo por acontecer no aceite, mas trata
+    de decidir se aceita o trabalho, e esta trata de como responder ao pedido de
+    desconto em um trabalho que se quer aceitar.
+
+matriz_ausente:
+  motivo: >
+    A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha cobre a
+    concessão de preço no momento da proposta. As 2 mais próximas não servem:
+    M09 é o relatório de margem por cliente que antecede o reajuste ou o
+    desligamento, portanto decisão sobre carteira já existente, e M14 é intake,
+    isto é, decidir se aceita ou recusa o caso. Declarar qualquer uma delas só
+    para preencher o campo estragaria a análise posterior em silêncio, que é
+    exatamente o erro que a verificação A9 existe para impedir, e a própria A9
+    só cobra código declarado, tratando campo ausente como lacuna assumida.
+  encaminhamento: >
+    Proposta de linha nova de matriz, a concessão de preço na proposta e a
+    referência que ela deixa, registrada na Inbox da Zionaxs Memory para
+    promoção humana.
+
+repertorio_ausente:
+  motivo: >
+    O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre ancoragem de número
+    ou preço de referência. R3, de Michael Porter, chega perto por tratar de
+    escolha e do que deliberadamente não fazer, e de fato sustenta a virada da
+    peça, mas descreve posicionamento competitivo e não a memória de um número em
+    uma negociação, então usá-la como fonte da evidência seria forçar o código.
+  encaminhamento: >
+    Proposta de linha nova de repertório, o artigo de 1974 de Amos Tversky e
+    Daniel Kahneman sobre julgamento sob incerteza e o efeito de ancoragem,
+    registrada na Inbox da Zionaxs Memory para promoção humana.
+
+evidencia:
+  fonte_primaria: >
+    Amos Tversky e Daniel Kahneman, Judgment under Uncertainty: Heuristics and
+    Biases, Science, New Series, volume 185, número 4157, 27 de setembro de 1974,
+    páginas 1124 a 1131, American Association for the Advancement of Science. Os
+    números foram conferidos nesta execução no texto extraído do PDF do artigo,
+    hospedado pela Warrington College of Business da Universidade da Flórida em
+    bear.warrington.ufl.edu/brenner/mar7588/Papers/tversky-kahneman-science-1974.pdf.
+    A folha de rosto traz a linha de citação completa, e a seção Adjustment and
+    Anchoring registra o desenho do experimento, com número entre 0 e 100
+    sorteado por uma roleta na presença do participante antes da pergunta, as
+    estimativas medianas de 25 e 45 para a porcentagem de países africanos
+    membros das Nações Unidas nos grupos que receberam 10 e 65 como pontos de
+    partida, e a observação de que recompensas por acurácia não reduziram o
+    efeito.
+  limite_declarado: >
+    O artigo é de 1974 e mede estimativa de quantidade sob incerteza em
+    experimento de laboratório, com número sorteado na hora. Ele não mede preço,
+    não mede negociação comercial e não mede memória de um número ao longo de
+    meses. O slide 6 e a legenda declaram que a ponte entre o efeito medido e o
+    preço de referência de um cliente é leitura da Zionaxs, e não resultado do
+    estudo. Os 20% da cena de abertura são exemplo de narrativa em segunda
+    pessoa, não estatística de mercado.
+  aplicacao_zionaxs: >
+    A escada de escopo, com preço cheio escrito item por item, 2 versões menores
+    da mesma entrega com preço proporcional, e data de validade escrita para o
+    desconto que ainda assim for dado, é aplicação contemporânea da Zionaxs, não
+    recomendação do estudo.
+
+fotos:
+  capa: Nguyễn Hiệp, Unsplash, mesa redonda iluminada em sala escura com cadeiras vazias
+  cena: Rendy Novantino, Unsplash, 2 pessoas em silhueta diante de uma janela, mãos se encontrando
+  fechamento: Dillon Shook, Unsplash, mesa de trabalho em quarto escuro, monitor desligado
+  enquadramento: >
+    As 2 fotos de campo escuro receberam scale com origin no rodapé, receita da
+    zx-34. Na capa, scale 1.35 mantém a mesa iluminada no terço superior e deixa
+    a banda de texto inteira sobre as cadeiras e o chão escuros, que é o caso
+    fácil descrito no README: interesse visual em cima, metade de baixo escura e
+    quieta. Nenhuma das 3 fotos tem rosto visível: a da cena tem as 2 figuras em
+    silhueta plena contra a janela, que é o caso que a regra permite.
+
+correcoes_do_passo_6:
+  corredor_do_poster_scene: >
+    Na primeira geração o display do slide 2 estava quebrado em "Ele guarda / o /
+    número.", e a primeira linha, com 10 caracteres, terminava em cima do anel
+    laranja. É exatamente o corredor descrito na direção visual, aprendido na
+    zx-31: na faixa do anel a linha precisa terminar antes de x 495, o que dá
+    cerca de 8 caracteres no display de 80px. Correção de contrato, redistribuindo
+    a mesma frase em "Ele / guarda o / número.", com 3, 8 e 7 caracteres. Os 14
+    gates estavam verdes na geração que saiu com o encosto, porque nenhum gate
+    mede sobreposição.
+  marca_legivel_na_foto: >
+    Na primeira geração o slide 7 trazia a marca LG legível no monitor, no centro
+    do quadro. A regra da zx-23 proíbe texto legível na foto, e marca é o caso
+    mais grave, porque entra na peça como afirmação. Correção de contrato, sem
+    trocar a foto: mudar pos de 50% para 0% deslocou o corte para a esquerda e
+    tirou o logotipo do quadro, mantendo a mesa, o monitor desligado e o quarto
+    escuro. A ficha clara sobre a caixa de som que ficou visível foi ampliada 7
+    vezes e o texto dela não se resolve, além de estar no terço superior, fora da
+    banda de texto.
+  anel_do_poster_statement: >
+    A pendência de template do slide 6 foi medida, e não estimada a olho, como
+    manda o aprendizado da zx-38: a linha mais larga dentro da faixa do anel
+    termina em x 903 e o anel começa em x 963, folga de 60px. Nenhuma correção
+    foi necessária.
+
+gates: 14/14
+digest: 560fcc5236c16044
+porteiro: liberado sem exceção, cadência 0 de 2 no dia

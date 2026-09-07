@@ -1,0 +1,324 @@
+{
+  "id": "zx-39-o-desconto-vira-o-preco",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "format": "carousel-4x5",
+  "piece": "Avulso",
+  "tese": "O desconto não acaba na venda. O número que você aceitou uma vez vira o ponto de partida da próxima conversa de preço, e o cliente não está sendo duro: ele está usando o único preço que você já cobrou dele. A saída não é segurar o preço na base do não, é mudar o que entra na entrega, oferecendo uma versão menor pelo preço dela em vez de a mesma entrega mais barata.",
+  "jtbd": [
+    "JO5",
+    "JT2"
+  ],
+  "matriz_nota": "Sem código de matriz declarado de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata da concessão de preço no momento da proposta. As 2 mais próximas não servem: M09 é o relatório de margem por cliente que antecede o reajuste ou o desligamento, portanto decisão sobre carteira já existente e não sobre a objeção de preço em uma proposta em aberto, e M14 é intake, isto é, decidir se aceita ou recusa o caso, enquanto esta peça trata de um caso que se quer aceitar e de como responder ao pedido de desconto sem rebaixar a referência de preço. Declarar um código só para preencher o campo estragaria a análise posterior, que é justamente o que a verificação A9 existe para impedir, então o campo fica vazio e a proposta de uma linha nova de matriz vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Sem código de repertório declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre ancoragem de número nem preço de referência. R3, de Michael Porter, chega perto por tratar de escolha e do que deliberadamente não fazer, e sustenta a virada da peça, mas descreve posicionamento competitivo e não a memória do número em uma negociação, então usá-la como fonte da evidência seria forçar o código. A fonte desta peça é o artigo de 1974 de Amos Tversky e Daniel Kahneman, e a proposta de acrescentá-lo ao ledger como linha nova de repertório fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "cta": "Abrir a última proposta hoje e escrever embaixo dela 2 versões menores da mesma entrega, cada uma com o que sai e o preço dela, para oferecer a versão menor em vez do desconto na próxima conversa de preço.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela cena do desconto dado para fechar, entender que o número foi guardado e virou referência, receber a medida de quanto um número arbitrário puxa a resposta seguinte, virar para a ideia de que o que se corta é o escopo e não o preço, receber a escada de escopo que a pessoa salva e aplica, ouvir o limite que impede a peça de virar proibição de desconto, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça é de leitura e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante e moderado, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax. A nota específica desta peça é procurar uma faixa de baixo firme e harmonia estável, sem crescendo e sem resolução marcada no fim: o assunto é uma referência que não se move, e trilha que sobe e desce contaria a história errada. Combina com o slot da manhã, que pede tom de descoberta e leitura desperta, então vale uma faixa com pulso um pouco mais adiantado que o de peça de fim de semana, sem virar urgência.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda faixa com registradora, moeda, sino de caixa ou qualquer efeito de dinheiro, que empurra a leitura para o clichê de vendas e briga com o posicionamento de engenharia.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante e textura limpa que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-38 o perfil pedido variou entre pulso seco, textura quente e som discreto sem ataque marcado, então aqui vale procurar algo de baixo mais presente e harmonia parada."
+  },
+  "research_brief": {
+    "publico": "Primário Transversal / persona C1, o sócio de escritório de serviço que faz a proposta, negocia o preço e depois executa a entrega. Secundário nenhum: o público primário é 1 só, e a cena é escrita de forma que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre eles. Cena concreta: a proposta em aberto, o pedido de um preço melhor para fechar, o desconto dado como exceção daquele mês, e a mesma conversa voltando na renovação com o número menor já virado referência. Slot editorial: manhã, papel de descoberta e tensão atual, então a peça precisa entregar uma leitura que a pessoa ainda não tinha feito e um passo que ela executa hoje mesmo, sem depender de nenhuma outra peça.",
+    "decisao": "Parar de responder ao pedido de desconto mexendo no preço e passar a responder mexendo no escopo. Escrever o preço cheio com os itens incluídos, montar 2 versões menores da mesma entrega com preço proporcional, e oferecer a versão menor quando pedirem desconto. Se ainda assim der desconto, escrever a data de validade dele e o preço que volta depois, na própria proposta.",
+    "tensao": "Quem toca um negócio de serviço trata o desconto como um gasto único, do tamanho da diferença daquele contrato. A conta que ninguém faz é a da referência: o número aceitado uma vez passa a ser o número que o cliente conhece, e é dele que a conversa seguinte parte, na renovação, no serviço adicional e na indicação que aquele cliente faz. O desconto sai do caixa uma vez e fica no preço para sempre, e a impressão de dureza do cliente na renovação é, na maior parte, a memória de um número que a própria casa deu.",
+    "evidencia": [
+      {
+        "claim": "existe um artigo de 1974 de Amos Tversky e Daniel Kahneman, publicado na revista Science, que descreve o efeito de ancoragem",
+        "status": "E",
+        "fonte": "Amos Tversky e Daniel Kahneman, Judgment under Uncertainty: Heuristics and Biases, Science, New Series, volume 185, número 4157, 27 de setembro de 1974, páginas 1124 a 1131, publicado pela American Association for the Advancement of Science. Conferido nesta execução no texto extraído do PDF hospedado pela Warrington College of Business da Universidade da Flórida, em https://bear.warrington.ufl.edu/brenner/mar7588/Papers/tversky-kahneman-science-1974.pdf, cuja folha de rosto traz exatamente essa linha de citação."
+      },
+      {
+        "claim": "no experimento, um número entre 0 e 100 era sorteado girando uma roleta na frente da pessoa, e só depois se perguntava qual era a porcentagem de países africanos membros da ONU",
+        "status": "E",
+        "fonte": "Passagem da seção Adjustment and Anchoring do mesmo artigo, conferida nesta execução no texto extraído do PDF: para cada quantidade, um número entre 0 e 100 era determinado girando uma roleta na presença dos participantes, que primeiro diziam se aquele número era maior ou menor que o valor procurado e depois estimavam o valor movendo para cima ou para baixo a partir do número dado."
+      },
+      {
+        "claim": "as estimativas medianas para a porcentagem de países africanos na ONU foram 25 e 45 nos grupos que receberam, respectivamente, 10 e 65 como ponto de partida",
+        "status": "E",
+        "fonte": "Mesma seção do artigo, conferida no texto extraído do PDF: os autores relatam que as estimativas medianas da porcentagem de países africanos nas Nações Unidas foram 25 e 45 para os grupos que receberam 10 e 65 como pontos de partida."
+      },
+      {
+        "claim": "pagar as pessoas por acerto não reduziu o efeito do número sorteado sobre a resposta",
+        "status": "E",
+        "fonte": "Mesma seção do artigo, conferida no texto extraído do PDF: os autores registram que recompensas por acurácia não reduziram o efeito de ancoragem."
+      },
+      {
+        "claim": "o preço concedido uma vez funciona como ponto de partida das conversas de preço seguintes com aquele cliente",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs a partir da cena descrita pelo público. O artigo de 1974 mediu estimativa de quantidade sob incerteza, com número sorteado na hora, e não memória de preço em relação comercial. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, o título, os autores, a revista, o volume, o número, a data e as páginas do artigo de 1974 sobre julgamento sob incerteza",
+        "o desenho do experimento da roleta, com número sorteado entre 0 e 100 antes da pergunta",
+        "as estimativas medianas de 25 e 45 nos grupos que receberam 10 e 65",
+        "o fato de que pagamento por acurácia não reduziu o efeito"
+      ],
+      "I": [
+        "a leitura de que o desconto concedido vira a referência de preço daquele cliente",
+        "a leitura de que a dureza percebida do cliente na renovação é, em boa parte, a memória do número que a própria casa concedeu"
+      ],
+      "H": [
+        "a escada de escopo, com 2 versões menores da mesma entrega e preço proporcional, como formato que substitui o desconto sem perder o negócio",
+        "a data de validade escrita do desconto como forma de impedir que a exceção vire preço"
+      ],
+      "NC": [
+        "quantos escritórios de serviço brasileiros concedem desconto para fechar e com que frequência, porque não existe levantamento conhecido",
+        "quanto a escada de escopo altera a taxa de fechamento ou o preço médio, porque ninguém mediu isso em negócio de serviço no Brasil"
+      ]
+    },
+    "limites": [
+      "O artigo de 1974 mediu estimativa de quantidade sob incerteza, em experimento de laboratório com número sorteado na hora. Ele não mede preço, não mede negociação comercial e não mede memória de um número ao longo de meses, e a peça não afirma que mede.",
+      "A ligação entre o efeito medido no artigo e o preço de referência de um cliente é leitura da Zionaxs, declarada como leitura no slide 6 e na legenda.",
+      "A escada de escopo é proposta editorial da Zionaxs. Ela não sai do artigo nem de pesquisa conhecida, e a peça diz isso.",
+      "Os 20% que aparecem na cena de abertura são exemplo de narrativa, escrito em segunda pessoa, e não estatística sobre desconto praticado em nenhum setor.",
+      "A peça não trata de desconto como política deliberada, como preço de entrada anunciado com prazo ou como campanha. Ela trata da concessão feita caso a caso para fechar uma proposta.",
+      "A peça não promete que a escada de escopo aumenta fechamento, preço ou margem. Ela trata de 1 coisa: preservar a referência de preço quando o desconto é pedido."
+    ]
+  },
+  "caption": [
+    "O desconto que você dá para fechar sai do caixa uma vez. O problema é que ele não sai do preço.",
+    "A cena é conhecida: a proposta está em aberto, o cliente pede um preço melhor, você tira uma parte para fechar naquele mês e trata isso como exceção. Na renovação, a conversa não começa do seu preço de tabela. Começa do número que você aceitou. E o cliente não está sendo duro: ele está usando o único preço que você já cobrou dele.",
+    "Vale olhar o quanto um número arbitrário puxa a resposta seguinte. Amos Tversky e Daniel Kahneman, psicólogos que trabalhavam na Universidade Hebraica de Jerusalém, publicaram em 1974 um estudo na revista Science em que giravam uma roleta na frente da pessoa e só depois perguntavam qual era a porcentagem de países africanos membros da ONU. Quem tirou 10 respondeu 25 na mediana. Quem tirou 65 respondeu 45. Pagar por acerto não mudou o resultado.",
+    "A saída não é segurar o preço na base do não, que costuma custar o negócio. É mudar o que está sendo comparado. Quando pedirem desconto, ofereça uma versão menor da mesma entrega pelo preço dela: menos itens, menos frequência ou prazo maior. O preço por item continua sendo o seu, e o que muda é o tamanho do que foi comprado.",
+    "Na prática, 4 passos. 1: escreva o preço cheio com tudo que está incluído, item por item. 2: monte 2 versões menores da mesma entrega, cada uma com o preço proporcional. 3: quando pedirem desconto, mande a versão menor e diga o que sai. 4: se ainda assim der desconto, escreva na proposta a data de validade dele e o preço que volta depois.",
+    "Um cuidado antes de começar: desconto não é proibido, e a peça não está dizendo isso. O estudo de 1974 mediu estimativa de número, não memória de preço, e a ponte entre as 2 coisas é leitura da Zionaxs. Desconto com prazo escrito, ou desconto por escopo menor, continua sendo ferramenta legítima.",
+    "Comece hoje. Abra a sua última proposta e escreva embaixo 2 versões menores da mesma entrega, com o que sai de cada uma e o preço dela. Depois compare o preço por hora das 3."
+  ],
+  "caption_sources": [
+    "Fonte da evidência: Amos Tversky e Daniel Kahneman, Judgment under Uncertainty: Heuristics and Biases, Science, New Series, volume 185, número 4157, 27 de setembro de 1974, páginas 1124 a 1131, American Association for the Advancement of Science. Conferido nesta execução no texto extraído do PDF hospedado pela Warrington College of Business da Universidade da Flórida, em https://bear.warrington.ufl.edu/brenner/mar7588/Papers/tversky-kahneman-science-1974.pdf.",
+    "Números conferidos no texto do artigo nesta execução, na seção Adjustment and Anchoring: número entre 0 e 100 sorteado com uma roleta na presença do participante antes da pergunta; estimativas medianas de 25 e 45 para a porcentagem de países africanos membros das Nações Unidas nos grupos que receberam 10 e 65 como pontos de partida; e registro de que recompensas por acurácia não reduziram o efeito.",
+    "Recorte e limitação: o artigo é de 1974 e mede estimativa de quantidade sob incerteza em experimento de laboratório, com número sorteado na hora. Ele não mede preço, negociação comercial nem memória de número ao longo de meses, e por isso a peça não afirma percentual nenhum sobre desconto praticado e trata a passagem para preço como leitura, não como medida.",
+    "A escada de escopo, com 2 versões menores da mesma entrega, preço proporcional e data de validade escrita para o desconto, é aplicação contemporânea da Zionaxs, não recomendação do estudo. A peça declara isso no slide 6 e na legenda.",
+    "Os 20% da cena de abertura são exemplo de narrativa em segunda pessoa, não estatística de mercado.",
+    "Repertório: nenhuma linha do ledger da Zionaxs cobre ancoragem de número ou preço de referência, e a inclusão do artigo de 1974 como linha nova está proposta na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Nguyễn Hiệp, Rendy Novantino e Dillon Shook, via Unsplash."
+  ],
+  "internal_metadata": [
+    "zx-39",
+    "JO5",
+    "JT2",
+    "acquisition"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A entrada",
+      "copy": {
+        "title": "O desconto\nnão acaba\nna venda.",
+        "accentLine": "Ele vira o preço.",
+        "hl": "Ele vira o preço.",
+        "sub": "Você tira 20% para fechar o contrato e trata isso como exceção daquele mês. O cliente guarda o número, e é dele que a próxima conversa de preço começa.",
+        "year": "2026",
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868 · foto: Nguyen Hiep"
+      },
+      "approved_visible_copy": [
+        "A entrada",
+        "01/07",
+        "O desconto não acaba na venda.",
+        "Ele vira o preço.",
+        "Você tira 20% para fechar o contrato e trata isso como exceção daquele mês. O cliente guarda o número, e é dele que a próxima conversa de preço começa.",
+        "2026",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868 · foto: Nguyen Hiep"
+      ],
+      "alt": "Slide 1 de 7. O desconto não acaba na venda, ele vira o preço. Você tira 20% para fechar o contrato e trata isso como exceção daquele mês. O cliente guarda o número, e é dele que a próxima conversa de preço começa. Fotografia escura de uma sala quase sem luz, com uma mesa redonda de madeira iluminada por uma luz baixa e cadeiras vazias em volta, sem ninguém sentado.",
+      "photo": {
+        "src": "../assets/foto-mesa-sala-escura.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ele\nguarda o\nnúmero."
+        ],
+        "closing": "Você deu o desconto em março, para fechar. Em março era exceção. Na renovação, é de onde a conversa começa, e o cliente não está sendo duro: ele está usando o único preço que você já cobrou dele.",
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868 · foto: Rendy Novantino"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ele guarda o número.",
+        "Você deu o desconto em março, para fechar. Em março era exceção. Na renovação, é de onde a conversa começa, e o cliente não está sendo duro: ele está usando o único preço que você já cobrou dele.",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868 · foto: Rendy Novantino"
+      ],
+      "alt": "Slide 2 de 7. Ele guarda o número. Você deu o desconto em março, para fechar. Em março era exceção. Na renovação, é de onde a conversa começa, e o cliente não está sendo duro: ele está usando o único preço que você já cobrou dele. Papel claro com fotografia em preto e branco de 2 pessoas em silhueta diante de uma janela clara, de pé, com as mãos se encontrando no gesto de fechar um acordo, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-aperto-janela.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "O número muda",
+          "a resposta."
+        ],
+        "closing": "Amos Tversky e Daniel Kahneman, psicólogos que trabalhavam na Universidade Hebraica de Jerusalém, publicaram em 1974 um estudo em que giravam uma roleta na frente da pessoa antes de perguntar qual era a porcentagem de países africanos membros da ONU. Quem tirou 10 respondeu 25 na mediana. Quem tirou 65 respondeu 45.",
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "O número muda",
+        "a resposta.",
+        "Amos Tversky e Daniel Kahneman, psicólogos que trabalhavam na Universidade Hebraica de Jerusalém, publicaram em 1974 um estudo em que giravam uma roleta na frente da pessoa antes de perguntar qual era a porcentagem de países africanos membros da ONU. Quem tirou 10 respondeu 25 na mediana. Quem tirou 65 respondeu 45.",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868"
+      ],
+      "alt": "Slide 3 de 7. O número muda a resposta. Amos Tversky e Daniel Kahneman, psicólogos que trabalhavam na Universidade Hebraica de Jerusalém, publicaram em 1974 um estudo em que giravam uma roleta na frente da pessoa antes de perguntar qual era a porcentagem de países africanos membros da ONU. Quem tirou 10 respondeu 25 na mediana. Quem tirou 65 respondeu 45."
+      },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Corte o\nescopo.",
+        "accent": "Não o preço.",
+        "hl": "Não o preço.",
+        "ghost": "20",
+        "year": "2026",
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868",
+        "body": "Quando o cliente pede desconto, a resposta padrão é tirar do preço e manter a entrega inteira. A outra saída é tirar da entrega e manter o preço por item: menos itens, menos frequência, prazo maior. O número que fica registrado continua sendo o seu."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Corte o escopo.",
+        "Não o preço.",
+        "2026",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868",
+        "Quando o cliente pede desconto, a resposta padrão é tirar do preço e manter a entrega inteira. A outra saída é tirar da entrega e manter o preço por item: menos itens, menos frequência, prazo maior. O número que fica registrado continua sendo o seu."
+      ],
+      "alt": "Slide 4 de 7. Corte o escopo, não o preço. Quando o cliente pede desconto, a resposta padrão é tirar do preço e manter a entrega inteira. A outra saída é tirar da entrega e manter o preço por item: menos itens, menos frequência, prazo maior. O número que fica registrado continua sendo o seu. Campo laranja chapado com o número 20 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "A escada de\nescopo.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escreva o preço cheio com tudo que está incluído, item por item, antes de qualquer conversa de valor."
+          },
+          {
+            "num": "2",
+            "label": "Monte 2 versões menores da mesma entrega, tirando itens ou frequência, cada uma com o preço proporcional."
+          },
+          {
+            "num": "3",
+            "label": "Quando pedirem desconto, mande a versão menor pelo preço dela e diga em 1 linha o que sai."
+          },
+          {
+            "num": "4",
+            "label": "Se ainda assim der desconto, escreva na proposta a data de validade dele e o preço que volta depois."
+          }
+        ],
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "A escada de escopo.",
+        "1",
+        "Escreva o preço cheio com tudo que está incluído, item por item, antes de qualquer conversa de valor.",
+        "2",
+        "Monte 2 versões menores da mesma entrega, tirando itens ou frequência, cada uma com o preço proporcional.",
+        "3",
+        "Quando pedirem desconto, mande a versão menor pelo preço dela e diga em 1 linha o que sai.",
+        "4",
+        "Se ainda assim der desconto, escreva na proposta a data de validade dele e o preço que volta depois.",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868"
+      ],
+      "alt": "Slide 5 de 7. A escada de escopo. 1: escreva o preço cheio com tudo que está incluído, item por item, antes de qualquer conversa de valor. 2: monte 2 versões menores da mesma entrega, tirando itens ou frequência, cada uma com o preço proporcional. 3: quando pedirem desconto, mande a versão menor pelo preço dela e diga em 1 linha o que sai. 4: se ainda assim der desconto, escreva na proposta a data de validade dele e o preço que volta depois. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Desconto não\né proibido.",
+        "accent": "Ele só precisa de prazo.",
+        "body": "O estudo de 1974 mediu estimativa de número, não memória de preço, e a ponte entre as 2 coisas é leitura da Zionaxs. Desconto com data de validade escrita, ou desconto por escopo menor, continua sendo ferramenta legítima.",
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Desconto não é proibido.",
+        "Ele só precisa de prazo.",
+        "O estudo de 1974 mediu estimativa de número, não memória de preço, e a ponte entre as 2 coisas é leitura da Zionaxs. Desconto com data de validade escrita, ou desconto por escopo menor, continua sendo ferramenta legítima.",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868"
+      ],
+      "alt": "Slide 6 de 7. Desconto não é proibido, ele só precisa de prazo. O estudo de 1974 mediu estimativa de número, não memória de preço, e a ponte entre as 2 coisas é leitura da Zionaxs. Desconto com data de validade escrita, ou desconto por escopo menor, continua sendo ferramenta legítima."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Abra a sua\nproposta.",
+        "hl": "Abra a sua",
+        "accent": "E monte a versão menor.",
+        "body": "Abra a sua última proposta agora e escreva embaixo 2 versões menores da mesma entrega, com o que sai de cada uma e o preço dela. Na próxima conversa de preço, mande a versão menor, não o desconto. Depois compare o preço por hora das 3.",
+        "year": "2026",
+        "temas": "Temas: Preço / Escopo / Proposta",
+        "micro": "@zionaxs_ · ref 8d469868 · foto: Dillon Shook"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Abra a sua proposta.",
+        "E monte a versão menor.",
+        "Abra a sua última proposta agora e escreva embaixo 2 versões menores da mesma entrega, com o que sai de cada uma e o preço dela. Na próxima conversa de preço, mande a versão menor, não o desconto. Depois compare o preço por hora das 3.",
+        "2026",
+        "Temas: Preço / Escopo / Proposta",
+        "@zionaxs_ · ref 8d469868 · foto: Dillon Shook"
+      ],
+      "alt": "Slide 7 de 7. Abra a sua proposta e monte a versão menor. Abra a sua última proposta agora e escreva embaixo 2 versões menores da mesma entrega, com o que sai de cada uma e o preço dela. Na próxima conversa de preço, mande a versão menor, não o desconto. Depois compare o preço por hora das 3. Fotografia escura de uma mesa de trabalho encostada em uma parede escura, com o monitor desligado e a cadeira vazia, em um quarto sem luz acesa.",
+      "photo": {
+        "src": "../assets/foto-mesa-noite.jpg",
+        "pos": "0% 50%",
+        "scale": 1.5,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}
