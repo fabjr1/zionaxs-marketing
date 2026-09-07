@@ -1,0 +1,61 @@
+{
+  "postId": "17939510520349214",
+  "permalink": "https://www.instagram.com/p/Dc_iKOyIE6g/",
+  "shortcode": "Dc_iKOyIE6g",
+  "digest": "7b3df1d2c86fefa1",
+  "publishedAt": "2026-09-07T16:24:36Z",
+  "publishedAtFortaleza": "2026-09-07T13:24:36-03:00",
+  "slot": "13:00 BRT, almoco de segunda, papel de conteudo principal: diagnostico, framework, metodo, evidencia ou tutorial decisorio",
+  "route": "composio-mcp",
+  "composioAccount": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "containerId": "17907456903501214",
+  "childContainers": [
+    "17907456681501214",
+    "17907456675501214",
+    "17907456684501214",
+    "17907456678501214",
+    "17907456768501214",
+    "17907456765501214",
+    "17907456771501214"
+  ],
+  "childMediaIds": [
+    "18085591997441767",
+    "17948179542289081",
+    "18147918997552392",
+    "18281925307288273",
+    "17971799658143248",
+    "18123936295874944",
+    "17927863644164215"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-40-o-trabalho-troca-de-mao/out/jpg/zx-40-o-trabalho-troca-de-mao-slide-07.jpg"
+  ],
+  "commit": "b625241",
+  "trilha": {
+    "estado": "pendente de adicao manual pelo Fabiano, editando o post no app",
+    "faixa": "Even Hands",
+    "artista": "Meta Sound Collection",
+    "criterio": "instrumental, pulso regular e quase mecanico, textura limpa e poucos elementos, sem crescendo, porque o assunto e uma entrega que passa de mao em mao sem perder nada",
+    "nota": "A API nao escolhe faixa. O nome e indicacao de perfil, nao faixa confirmada no acervo: esta sessao em nuvem nao teve acesso ao indice de trilhas, que vive fora do repositorio."
+  },
+  "reconciledAt": "2026-09-07T16:25:10Z",
+  "reconciliation": {
+    "fonte": "INSTAGRAM_GET_USER_INFO antes de criar qualquer conteiner, e INSTAGRAM_GET_IG_MEDIA mais INSTAGRAM_GET_IG_MEDIA_CHILDREN depois de publicar",
+    "contaConfere": true,
+    "ownerId": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "slidesConfirmados": 7,
+    "legendaConfere": true,
+    "nota": "A identidade da conta foi conferida ao vivo antes de criar qualquer conteiner: INSTAGRAM_GET_USER_INFO devolveu zionaxs_, id 37965311306447572, que e a conta certa entre as 3 conectadas no Composio. A conta padrao do Composio nesta sessao continua sendo @fabjr1, entao todas as chamadas passaram o campo account com @zionaxs_. Depois de publicar, INSTAGRAM_GET_IG_MEDIA confirmou owner 37965311306447572, username zionaxs_, tipo CAROUSEL_ALBUM, permalink e a legenda identica ao corpo do campo caption do contrato, e INSTAGRAM_GET_IG_MEDIA_CHILDREN devolveu 7 filhos. As 7 URLs publicas foram conferidas com HTTP 200 e content-type image/jpeg antes de entregar a Meta.",
+    "incidente": "Nenhum incidente de publicacao. Os 7 filhos foram criados de uma vez e os 7 chegaram a FINISHED na primeira verificacao; o pai foi criado so depois disso e tambem chegou a FINISHED antes do publish, entao a receita da zx-30, de recriar os filhos quando o pai vai a ERROR, nao precisou ser usada. Uma so falha, e de leitura: INSTAGRAM_GET_IG_MEDIA com os campos padrao devolve HTTP 400, porque a lista padrao do Composio pede total_views_count, que o no Media nao suporta. A reconciliacao passou na segunda chamada com um conjunto minimo de campos, id,caption,media_type,permalink,shortcode,timestamp,username,owner. Vale ja chamar com esse conjunto na proxima peca."
+  }
+}
