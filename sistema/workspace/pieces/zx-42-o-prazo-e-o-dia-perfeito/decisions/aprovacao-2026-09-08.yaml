@@ -1,0 +1,119 @@
+decisao: aprovar e publicar a zx-42, slot da tarde
+data: 2026-09-08
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumidos, porque a
+    zx-41 saiu no slot da manhã.
+  registro_anterior: pieces/zx-41-a-agenda-cheia-atrasa/decisions/aprovacao-2026-09-08.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, terça-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede a peça que entrega, e não só a que provoca. Por isso a
+    estrutura tem 2 unidades de evidência, e não 1: o slide 3 traz a medida
+    principal e o slide 4 traz o dado que fecha o argumento, que é a estimativa
+    pessimista também ficar curta. O método de 4 passos é o quadro salvável, e a
+    peça termina com 1 ação que cabe em 1 tarde.
+
+tema:
+  escolhido: >
+    o prazo que você promete descreve um dia perfeito, porque nasce de imaginar
+    o trabalho correndo limpo, e não de olhar o que trabalhos parecidos levaram
+    de verdade; a saída é trocar a origem do número, usando as 5 últimas
+    entregas do mesmo tipo e prometendo o valor do meio
+  matriz: M18
+  jtbd: [JF7, JE2]
+  repertorio: R4
+  por_que: >
+    O papel do slot é conteúdo principal, e o assunto entrega diagnóstico,
+    evidência e método na mesma peça. O tema não repete nenhuma das 22 peças
+    publicadas: a zx-35 tratou do trabalho que ocupa todo o prazo disponível,
+    que é sobre o que acontece DEPOIS de o prazo existir, e a zx-41, publicada
+    nesta mesma manhã, tratou do custo de fila da ocupação alta, que é sobre
+    capacidade. Esta peça ataca um terceiro ponto, anterior aos 2: a origem do
+    número prometido. A conferência foi feita lendo o campo de manchete de todos
+    os contratos de pieces/ antes de escrever.
+  distancia_da_peca_da_manha: >
+    A zx-41 e a zx-42 tocam em atraso, e por isso a separação foi escrita de
+    propósito. A zx-41 diagnostica ocupação e receita folga na agenda; a zx-42
+    diagnostica a estimativa e receita histórico. Nenhuma palavra de ocupação,
+    fila ou folga entra nesta peça, e nenhuma palavra de estimativa entrou na
+    daquela.
+
+evidencia:
+  fontes_verificadas_nesta_execucao:
+    - >
+      Verbete Planning fallacy da Wikipedia, em
+      https://en.wikipedia.org/wiki/Planning_fallacy, de onde saem a definição do
+      efeito e os números do estudo de 1994: previsão média de 33,9 dias,
+      estimativa otimista de 27,4, estimativa pessimista de 48,6, tempo real
+      médio de 55,5 e cerca de 30% concluindo no tempo previsto.
+    - >
+      Verbete Reference class forecasting da Wikipedia, em
+      https://en.wikipedia.org/wiki/Reference_class_forecasting, de onde sai a
+      definição de visão de fora e a atribuição a Daniel Kahneman e Amos Tversky.
+    - >
+      Resumo publicado do artigo de Buehler, Griffin e Ross, Journal of
+      Personality and Social Psychology, volume 67, número 3, páginas 366 a 381,
+      1994, conferido pelo índice de busca que o reproduz.
+  limite_da_verificacao: >
+    O texto integral do artigo de 1994 está atrás de paywall. A cópia em PDF
+    encontrada em web.mit.edu não pôde ser extraída neste ambiente, porque não há
+    poppler nem biblioteca de PDF instalada. Os números foram conferidos no
+    verbete enciclopédico que cita o original, e o resumo pelo índice de busca.
+    Isso está declarado no contrato, no campo limites, e é a razão de nenhuma
+    afirmação da peça depender do corpo do artigo.
+
+producao:
+  geracoes: 3
+  gates: "14/14 verdes na geração final, digest 31a894ed6dbc"
+  correcoes:
+    - >
+      G6 reprovou na primeira geração: a última linha do corpo do slide 7 tinha
+      16% de largura. A frase final foi reescrita, e não quebrada à mão, como
+      manda a direção visual para parágrafo que quebra sozinho em muitas linhas.
+    - >
+      Revisão visual do passo 6 reprovou a capa: a janela clara da foto ficava na
+      banda de texto, de 46% a 93%, e a manchete em creme caía em cima dela.
+      Corrigido com scale 1.35 e origin 50% 100%, que é a receita da zx-34 para
+      assunto claro dentro do texto, e a janela subiu para o terço superior.
+      Nenhum gate mediu isso.
+    - >
+      Revisão visual do passo 6 reprovou o fechamento: a foto escolhida na folha
+      de contato era uma mão folheando um livro, e no render de 1080x1350 o texto
+      da página ficou legível, em inglês, e o livro era religioso. A regra da
+      zx-23 proíbe texto legível na foto, e a zx-34 registrou o custo disso em
+      descartes. A foto foi trocada por uma sala escura à noite com escrivaninha
+      e persiana, sem texto e sem pessoa.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso regular e quase metronômico, intensidade estável do
+    começo ao fim, sem aceleração nem virada
+  por_que: >
+    O assunto é a diferença entre o tempo imaginado e o tempo medido, e trilha
+    que acelera no meio faz o leitor sentir uma pressa que o argumento está
+    tentando desmontar. Evitar também som de relógio ou contagem regressiva, que
+    é literal demais e vira piada em cima do próprio tema.
+  origem_obrigatoria: Meta Sound Collection
+  estado: pendente de adição manual pelo Fabiano, editando o post no app
+
+propostas_para_a_memory:
+  - >
+    Acrescentar à matriz editorial da nota 19c uma linha própria para estimativa
+    de prazo por histórico. Hoje o assunto entra em M18 por analogia, porque o
+    prazo é um número sem fórmula e sem fonte, mas M18 foi escrita para
+    dicionário de métricas, e não para previsão.
+  - >
+    Acrescentar ao ledger de repertório da nota 19c a falácia do planejamento,
+    de Daniel Kahneman e Amos Tversky, com a correção de visão de fora. A peça
+    declarou R4, Mintzberg, que sustenta a virada mas não é a fonte da evidência.

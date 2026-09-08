@@ -1,0 +1,341 @@
+{
+  "id": "zx-42-o-prazo-e-o-dia-perfeito",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e é quem responde a pergunta \"quando fica pronto?\". Secundário nenhum: a cena é escrita para que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre esses setores. Cena concreta: o cliente pergunta o prazo, a pessoa percorre o trabalho de cabeça e responde uma data que nasceu ali, sem consultar nada. Slot editorial: tarde de dia útil, papel de conteúdo principal, então a peça precisa entregar diagnóstico, evidência e método aplicável no mesmo dia, e não apenas a tensão.",
+    "decisao": "Parar de estimar prazo por dentro, imaginando este trabalho, e passar a estimar por fora, olhando o que trabalhos parecidos levaram de verdade. Na prática: separar as 5 últimas entregas do mesmo tipo, contar os dias reais de cada uma, ordenar e usar o valor do meio como prazo prometido.",
+    "tensao": "Quem toca um negócio de serviço trata o atraso como falha de execução, de quem estava tocando o trabalho. A conta que ninguém faz é a da origem do número: o prazo não saiu de dado nenhum, saiu de um filme mental em que tudo corre limpo do começo ao fim. E o efeito é medido: a estimativa fica curta mesmo em quem sabe que os trabalhos anteriores demoraram mais do que o previsto.",
+    "evidencia": [
+      {
+        "claim": "existe um efeito com nome, falácia do planejamento, em que a previsão de quanto tempo uma tarefa vai levar sai otimista e subestima o tempo necessário, e isso acontece mesmo quando a pessoa sabe que tarefas parecidas anteriores demoraram mais do que o planejado",
+        "status": "E",
+        "fonte": "Verbete Planning fallacy da Wikipedia, conferido nesta execução em https://en.wikipedia.org/wiki/Planning_fallacy, com a definição literal: \"The planning fallacy is a phenomenon in which predictions about how much time will be needed to complete a future task display an optimism bias and underestimate the time needed. This phenomenon sometimes occurs regardless of the individual's knowledge that past tasks of a similar nature have taken longer to complete than generally planned.\" O verbete atribui a proposta do termo a Daniel Kahneman e Amos Tversky."
+      },
+      {
+        "claim": "existe um estudo de 1994, de Roger Buehler, Dale Griffin e Michael Ross, publicado na revista Journal of Personality and Social Psychology, sobre por que as pessoas subestimam o próprio tempo de conclusão",
+        "status": "E",
+        "fonte": "Roger Buehler, Dale Griffin e Michael Ross, Exploring the \"planning fallacy\": Why people underestimate their task completion times, Journal of Personality and Social Psychology, volume 67, número 3, páginas 366 a 381, 1994. Citação completa conferida nesta execução no verbete Planning fallacy da Wikipedia (\"Journal of Personality and Social Psychology. 67 (3): 366-381\") e no índice de busca acadêmica, que reproduz o resumo publicado."
+      },
+      {
+        "claim": "no estudo com estudantes de monografia, a média prevista foi de 33,9 dias, a média real foi de 55,5 dias e cerca de 30% dos estudantes entregaram dentro do prazo que eles mesmos previram",
+        "status": "E",
+        "fonte": "Mesmo verbete, conferido nesta execução, com o trecho literal: \"The average estimate was 33.9 days. They also estimated how long it would take 'if everything went as well as it possibly could' (averaging 27.4 days) and 'if everything went as poorly as it possibly could' (averaging 48.6 days). The average actual completion time was 55.5 days, with about 30% of the students completing their thesis in the amount of time they predicted.\""
+      },
+      {
+        "claim": "no mesmo estudo, a estimativa pessimista, feita com a instrução de supor que tudo desse errado, ficou em 48,6 dias em média, abaixo dos 55,5 dias reais",
+        "status": "E",
+        "fonte": "Mesmo trecho literal do verbete, conferido nesta execução: a estimativa \"if everything went as poorly as it possibly could\" ficou em 48,6 dias e o tempo real médio foi 55,5 dias. A comparação entre os 2 números é aritmética direta: 48,6 é menor que 55,5."
+      },
+      {
+        "claim": "o resumo publicado do estudo de 1994 registra que as pessoas se apoiam em cenários de plano e não em experiências passadas relevantes ao gerar a previsão, e que o viés otimista desapareceu entre os participantes instruídos a ligar experiências passadas relevantes às suas previsões",
+        "status": "E",
+        "fonte": "Resumo publicado do artigo, conferido nesta execução pelo índice de busca, que o reproduz: \"people focus on plan-based scenarios rather than on relevant past experiences while generating their predictions\" e \"The optimistic bias was eliminated for participants instructed to connect relevant past experiences with their predictions.\" O texto integral do artigo está atrás de paywall e a cópia em PDF encontrada não pôde ser extraída neste ambiente, o que fica registrado como limite da verificação."
+      },
+      {
+        "claim": "a correção conhecida como visão de fora, ou previsão por classe de referência, prevê o resultado de uma ação planejada a partir dos resultados reais de um conjunto de ações parecidas, em vez de olhar apenas para os componentes deste plano",
+        "status": "E",
+        "fonte": "Verbete Reference class forecasting da Wikipedia, conferido nesta execução em https://en.wikipedia.org/wiki/Reference_class_forecasting: a técnica \"predicts the outcome of a planned action based on actual outcomes in a reference class of similar actions to that being forecast\", em oposição à visão de dentro, que se concentra em \"the constituents of the specific planned action\". O verbete credita a teoria a Daniel Kahneman e Amos Tversky e lista o trabalho Intuitive prediction: Biases and corrective procedures, de 1977."
+      },
+      {
+        "claim": "o prazo que um negócio de serviço promete ao cliente é uma previsão do mesmo tipo, feita do mesmo jeito, e por isso sai curta pelo mesmo motivo",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. O estudo de 1994 mediu estudantes universitários e prazos de monografia, e a técnica de classe de referência foi desenvolvida para previsão de custo e prazo de projetos. Nenhum dos 2 mediu entrega de escritório de serviço brasileiro. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência e a definição da falácia do planejamento, incluindo a parte de acontecer mesmo com conhecimento do passado",
+        "a existência, a autoria, a revista, o volume, o número, as páginas e o ano do estudo de 1994",
+        "os números 33,9 dias previstos, 55,5 dias reais e cerca de 30% de entregas no prazo previsto",
+        "os 48,6 dias da estimativa pessimista e o fato de ficarem abaixo dos 55,5 reais",
+        "o que o resumo publicado do estudo registra sobre cenários de plano e sobre o viés desaparecer com a instrução de olhar o passado",
+        "a definição de previsão por classe de referência e a oposição entre visão de dentro e visão de fora"
+      ],
+      "I": [
+        "a leitura de que o prazo prometido em negócio de serviço é uma previsão do mesmo tipo",
+        "a leitura de que boa parte do atraso atribuído à execução nasce no momento em que o número foi dito"
+      ],
+      "H": [
+        "os 4 passos como método mínimo de estimativa por histórico em negócio de serviço",
+        "a escolha de 5 entregas como tamanho inicial da amostra e do valor do meio como número a prometer, no lugar da média"
+      ],
+      "NC": [
+        "de quanto é a diferença entre prazo previsto e prazo real em escritório de serviço brasileiro, porque não existe levantamento conhecido",
+        "quanto do atraso vem de estimativa otimista e quanto vem de mudança de escopo depois do aceite, porque ninguém separou as 2 causas nesse contexto"
+      ]
+    },
+    "limites": [
+      "O estudo de 1994 mediu estudantes universitários e prazo de monografia, na América do Norte. Ele não mede escritório de serviço, não mede equipe e não mede entrega a cliente, e a peça não afirma que mede.",
+      "A previsão por classe de referência foi desenvolvida para previsão de custo e prazo de projeto. A peça a usa como método de leitura do próprio histórico, em escala pequena, e diz isso.",
+      "Os 4 passos, as 5 entregas e o uso do valor do meio são adaptação editorial da Zionaxs. Eles não saem das fontes e não têm medida própria, e a peça declara isso.",
+      "A peça não promete redução de prazo, de custo nem de retrabalho. Ela trata de 1 coisa: trocar a origem do número que você promete.",
+      "A peça não trata de precificação, de contrato nem de renegociação de escopo. O passo 4 aponta o tamanho do trabalho como diagnóstico possível, sem entrar em como resolver isso.",
+      "A verificação do resumo publicado do artigo de 1994 foi feita pelo índice de busca, que o reproduz, e não pelo texto integral, que está atrás de paywall. Os números do estudo foram conferidos no verbete enciclopédico que cita o original."
+    ]
+  },
+  "tese": "O prazo que você promete não sai de dado nenhum: sai de um filme mental em que o trabalho corre limpo do começo ao fim. Isso tem medida, e a medida é dura: em 1994 estudantes previram 33,9 dias e levaram 55,5, e nem a estimativa pessimista deles, de 48,6 dias, alcançou o real. A saída não é cobrar execução, é trocar a origem do número: olhar as últimas 5 entregas parecidas e prometer o valor do meio.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz": "M18",
+  "repertorio": {
+    "id": "R4"
+  },
+  "jtbd": [
+    "JF7",
+    "JE2"
+  ],
+  "matriz_nota": "Código de matriz declarado: M18, número que ninguém confia. A linha M18 da nota 19c trata do número que circula sem fórmula, sem fonte, sem dono e sem ação associada, e a saída registrada é o dicionário de métricas, com o gancho \"Dicionário de métricas: fórmula, fonte, dono, frequência, ação\" e o sinal \"três telas, três números\". O prazo prometido é exatamente esse tipo de número: ele vira compromisso com o cliente sem ter fórmula nem fonte, porque nasce de imaginar o trabalho. Os 4 passos desta peça dão fonte (as 5 últimas entregas do mesmo tipo) e fórmula (o valor do meio) a um número que não tinha nenhuma das 2. M01 foi considerada e descartada: ela trata de ler capacidade com o denominador certo, que foi o território da zx-41 nesta mesma manhã, e o assunto aqui não é ocupação, é a origem da estimativa. A proposta de acrescentar à matriz uma linha própria para estimativa de prazo por histórico vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Código de repertório declarado: R4, Henry Mintzberg, cargo formal contra trabalho real. A linha R4 do ledger da nota 19c registra que a agenda é o raio-X da gestão e que o cotidiano gerencial é fragmentado, relacional e reativo, com a aplicação para serviço \"o cargo diz sócio; o calendário diz conferência de lançamento\". É a mesma virada desta peça: a estimativa supõe a versão planejada e contínua do trabalho, e o trabalho real é interrompido e reativo, então o número nasce descrevendo um dia que não existe. A fonte da evidência desta peça, porém, não está no ledger: nem o estudo de 1994 de Buehler, Griffin e Ross nem a falácia do planejamento de Kahneman e Tversky aparecem como linha de repertório, e a proposta de acrescentar a falácia do planejamento ao ledger fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "cta": "Separar 1 tipo de trabalho que se repete, voltar no histórico, contar os dias reais das 5 entregas mais recentes desse tipo e anotar o número do meio, para usar como prazo na próxima vez que pedirem.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela constatação de que a data prometida descreve um dia perfeito, ver a cena do número que nasce do papel em branco, receber a medida que mostra o tamanho do erro, virar para o dado mais duro, que é a estimativa pessimista também ficar curta, receber os 4 passos que a pessoa aplica hoje, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo dado.",
+  "internal_metadata": [
+    "zx-42",
+    "JF7",
+    "JE2",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax. A nota específica desta peça é procurar uma faixa de pulso regular e quase metronômico, com pouca variação de intensidade do começo ao fim: o assunto é justamente a diferença entre o tempo imaginado e o tempo medido, e trilha com aceleração no meio faz o leitor sentir uma pressa que o argumento está tentando desmontar. Combina com o slot da tarde, que pede conteúdo principal, então vale uma faixa mais sóbria e mais grave que a da manhã.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda qualquer faixa com aceleração, contagem regressiva ou som de relógio, que soa literal demais e vira piada em cima do próprio tema.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso regular e intensidade estável que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-41 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico e arranjo esparso com espaço audível. Aqui o pedido é o mais uniforme de todos, sem nenhum ponto de virada."
+  },
+  "caption": [
+    "Seu prazo é o dia perfeito. Ele nunca chega.",
+    "Para dar a data, você percorre o trabalho de cabeça: começa aqui, passa por ali, entrega. Nesse filme não tem telefone tocando, cliente sumido nem correção para refazer. O prazo sai dele, e a semana não é ele.",
+    "Isso tem medida. Em 1994, os psicólogos Roger Buehler, Dale Griffin e Michael Ross publicaram na revista Journal of Personality and Social Psychology um estudo em que estudantes previram quando entregariam a monografia. A média prevista foi de 33,9 dias. A média real foi de 55,5. E só cerca de 30% entregaram no prazo que eles mesmos deram.",
+    "O dado mais duro é outro. No mesmo estudo eles também estimaram quanto levariam se tudo desse errado: 48,6 dias em média. O tempo real passou disso. Nem a versão pessimista deles alcançou a realidade.",
+    "O efeito tem nome, falácia do planejamento, e foi descrito pelos psicólogos Daniel Kahneman e Amos Tversky. Ele aparece mesmo em quem sabe que os trabalhos anteriores demoraram mais do que o previsto. A correção é trocar a visão de dentro, que imagina este trabalho, pela visão de fora, que olha o que trabalhos parecidos levaram de verdade.",
+    "Na prática, 4 passos. 1: escolha as suas 5 últimas entregas parecidas com a que vão te pedir agora. 2: anote quantos dias cada uma levou de verdade, do aceite até a entrega final. 3: ordene os 5 números e use o do meio, que é o mais provável, e não o menor. 4: se o número do meio não cabe na venda, o problema é o tamanho do trabalho, não o prazo.",
+    "Um cuidado antes de começar: o estudo mediu estudantes e monografia, não escritório de serviço, e a ponte para o seu negócio é leitura da Zionaxs. Olhar o histórico também não encurta o trabalho. Ele troca um prazo imaginado por um prazo que já aconteceu.",
+    "Comece hoje. Separe 1 tipo de trabalho que se repete, conte os dias reais das 5 entregas mais recentes desse tipo e anote o número do meio."
+  ],
+  "caption_sources": [
+    "Fonte do estudo: Roger Buehler, Dale Griffin e Michael Ross, Exploring the \"planning fallacy\": Why people underestimate their task completion times, Journal of Personality and Social Psychology, volume 67, número 3, páginas 366 a 381, 1994.",
+    "Números conferidos nesta execução no verbete Planning fallacy da Wikipedia, em https://en.wikipedia.org/wiki/Planning_fallacy, que cita o artigo original: previsão média de 33,9 dias, estimativa otimista de 27,4 dias, estimativa pessimista de 48,6 dias, tempo real médio de 55,5 dias e cerca de 30% dos estudantes concluindo no tempo previsto.",
+    "Definição conferida no mesmo verbete: \"The planning fallacy is a phenomenon in which predictions about how much time will be needed to complete a future task display an optimism bias and underestimate the time needed. This phenomenon sometimes occurs regardless of the individual's knowledge that past tasks of a similar nature have taken longer to complete than generally planned.\"",
+    "Resumo publicado do artigo de 1994, conferido nesta execução pelo índice de busca que o reproduz: \"people focus on plan-based scenarios rather than on relevant past experiences while generating their predictions\" e \"The optimistic bias was eliminated for participants instructed to connect relevant past experiences with their predictions.\" O texto integral está atrás de paywall e a cópia em PDF localizada não pôde ser extraída neste ambiente.",
+    "Fonte da correção: verbete Reference class forecasting da Wikipedia, conferido nesta execução em https://en.wikipedia.org/wiki/Reference_class_forecasting, que define a técnica como prever o resultado de uma ação planejada a partir dos resultados reais de um conjunto de ações parecidas, credita a teoria a Daniel Kahneman e Amos Tversky e lista o trabalho Intuitive prediction: Biases and corrective procedures, de 1977.",
+    "Recorte e limitação: o estudo de 1994 mediu estudantes universitários e prazo de monografia. Ele não mede escritório de serviço, e por isso a peça não afirma percentual nenhum sobre negócio de serviço e trata a passagem para esse contexto como leitura, não como medida.",
+    "Os 4 passos, a amostra de 5 entregas e o uso do valor do meio são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: a linha R4 do ledger da Zionaxs, sobre cargo formal contra trabalho real, sustenta a virada da peça. A falácia do planejamento não está no ledger, e a proposta de acrescentá-la está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Sergio Franklin, Kelly Sikkema e Clint Patterson, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O prazo",
+      "copy": {
+        "title": "Seu prazo\né o dia\nperfeito.",
+        "accentLine": "Ele nunca chega.",
+        "hl": "Ele nunca chega.",
+        "sub": "Para dar a data você imagina o trabalho correndo do começo ao fim sem interrupção. O trabalho real tem espera, correção e pedido novo no meio, e a data prometida não tem espaço para nada disso.",
+        "year": "2026",
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc · foto: Sergio Franklin"
+      },
+      "approved_visible_copy": [
+        "O prazo",
+        "01/07",
+        "Seu prazo é o dia perfeito.",
+        "Ele nunca chega.",
+        "Para dar a data você imagina o trabalho correndo do começo ao fim sem interrupção. O trabalho real tem espera, correção e pedido novo no meio, e a data prometida não tem espaço para nada disso.",
+        "2026",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc · foto: Sergio Franklin"
+      ],
+      "alt": "Slide 1 de 7. Seu prazo é o dia perfeito, e ele nunca chega. Para dar a data você imagina o trabalho correndo do começo ao fim sem interrupção. O trabalho real tem espera, correção e pedido novo no meio, e a data prometida não tem espaço para nada disso. Fotografia escura de um escritório vazio ao anoitecer, com mesas, um computador aberto e a janela cinza ao fundo, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-escritorio-anoitecer.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Do papel\nem\nbranco."
+        ],
+        "closing": "Quando perguntam quando fica pronto, você percorre o trabalho de cabeça e escreve um número. Nesse filme não tem telefone tocando, cliente sumido nem correção para refazer. O prazo sai dele. A semana não é ele.",
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc · foto: Kelly Sikkema"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Do papel em branco.",
+        "Quando perguntam quando fica pronto, você percorre o trabalho de cabeça e escreve um número. Nesse filme não tem telefone tocando, cliente sumido nem correção para refazer. O prazo sai dele. A semana não é ele.",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc · foto: Kelly Sikkema"
+      ],
+      "alt": "Slide 2 de 7. Do papel em branco. Quando perguntam quando fica pronto, você percorre o trabalho de cabeça e escreve um número. Nesse filme não tem telefone tocando, cliente sumido nem correção para refazer. O prazo sai dele. A semana não é ele. Papel claro com fotografia em preto e branco de um caderno de folha quadriculada aberto em branco, com uma caneta em cima.",
+      "photo": {
+        "src": "../assets/foto-caderno-em-branco.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Disseram 34 dias.",
+          "Levaram 55."
+        ],
+        "closing": "Em 1994, os psicólogos Roger Buehler, Dale Griffin e Michael Ross acompanharam estudantes que previram quando entregariam a monografia. A média prevista foi de 33,9 dias. A média real foi de 55,5. E só cerca de 30% entregaram no prazo que deram.",
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Disseram 34 dias.",
+        "Levaram 55.",
+        "Em 1994, os psicólogos Roger Buehler, Dale Griffin e Michael Ross acompanharam estudantes que previram quando entregariam a monografia. A média prevista foi de 33,9 dias. A média real foi de 55,5. E só cerca de 30% entregaram no prazo que deram.",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc"
+      ],
+      "alt": "Slide 3 de 7. Disseram 34 dias. Levaram 55. Em 1994, os psicólogos Roger Buehler, Dale Griffin e Michael Ross acompanharam estudantes que previram quando entregariam a monografia. A média prevista foi de 33,9 dias. A média real foi de 55,5. E só cerca de 30% entregaram no prazo que deram."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "O pior\ncaso\nerrou.",
+        "accent": "E errou feio.",
+        "hl": "E errou feio.",
+        "ghost": "48",
+        "year": "2026",
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc",
+        "body": "No mesmo estudo os estudantes também estimaram quanto levariam se tudo desse errado: 48,6 dias em média. O tempo real foi 55,5. Nem a versão pessimista alcançou a realidade. O erro não vem de descuido: vem de a conta nascer de um filme mental, e não do histórico."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O pior caso errou.",
+        "E errou feio.",
+        "2026",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc",
+        "No mesmo estudo os estudantes também estimaram quanto levariam se tudo desse errado: 48,6 dias em média. O tempo real foi 55,5. Nem a versão pessimista alcançou a realidade. O erro não vem de descuido: vem de a conta nascer de um filme mental, e não do histórico."
+      ],
+      "alt": "Slide 4 de 7. O pior caso errou, e errou feio. No mesmo estudo os estudantes também estimaram quanto levariam se tudo desse errado: 48,6 dias em média. O tempo real foi 55,5. Nem a versão pessimista alcançou a realidade. O erro não vem de descuido: vem de a conta nascer de um filme mental, e não do histórico. Campo laranja chapado com o número 48 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O prazo em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escolha as suas 5 últimas entregas parecidas com a que vão te pedir agora."
+          },
+          {
+            "num": "2",
+            "label": "Anote quantos dias cada uma levou de verdade, do aceite até a entrega final."
+          },
+          {
+            "num": "3",
+            "label": "Ordene os 5 números e use o do meio. Ele é o mais provável, e não o menor."
+          },
+          {
+            "num": "4",
+            "label": "Se o número do meio não cabe na venda, o problema é o tamanho do trabalho."
+          }
+        ],
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O prazo em 4 passos.",
+        "1",
+        "Escolha as suas 5 últimas entregas parecidas com a que vão te pedir agora.",
+        "2",
+        "Anote quantos dias cada uma levou de verdade, do aceite até a entrega final.",
+        "3",
+        "Ordene os 5 números e use o do meio. Ele é o mais provável, e não o menor.",
+        "4",
+        "Se o número do meio não cabe na venda, o problema é o tamanho do trabalho.",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc"
+      ],
+      "alt": "Slide 5 de 7. O prazo em 4 passos. 1: escolha as suas 5 últimas entregas parecidas com a que vão te pedir agora. 2: anote quantos dias cada uma levou de verdade, do aceite até a entrega final. 3: ordene os 5 números e use o do meio. Ele é o mais provável, e não o menor. 4: se o número do meio não cabe na venda, o problema é o tamanho do trabalho. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Não é para\nprometer mais.",
+        "accent": "É para acertar mais.",
+        "body": "O estudo mediu estudantes e monografia, não escritório de serviço: a ponte é leitura da Zionaxs. E olhar o histórico não encurta o trabalho. Ele troca um prazo imaginado por um prazo que já aconteceu.",
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Não é para prometer mais.",
+        "É para acertar mais.",
+        "O estudo mediu estudantes e monografia, não escritório de serviço: a ponte é leitura da Zionaxs. E olhar o histórico não encurta o trabalho. Ele troca um prazo imaginado por um prazo que já aconteceu.",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc"
+      ],
+      "alt": "Slide 6 de 7. Não é para prometer mais, é para acertar mais. O estudo mediu estudantes e monografia, não escritório de serviço: a ponte é leitura da Zionaxs. E olhar o histórico não encurta o trabalho. Ele troca um prazo imaginado por um prazo que já aconteceu."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Antes de dar\no prazo.",
+        "hl": "Antes de dar",
+        "accent": "Olhe as 5 últimas.",
+        "body": "Separe 1 tipo de trabalho que se repete no seu negócio. Volte no histórico, conte os dias reais das 5 entregas mais recentes desse tipo e anote o número do meio. Esse passa a ser o prazo que você responde quando perguntarem.",
+        "year": "2026",
+        "temas": "Temas: Prazo / Estimativa / Histórico",
+        "micro": "@zionaxs_ · ref 25aa7cdc · foto: Clint Patterson"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Antes de dar o prazo.",
+        "Olhe as 5 últimas.",
+        "Separe 1 tipo de trabalho que se repete no seu negócio. Volte no histórico, conte os dias reais das 5 entregas mais recentes desse tipo e anote o número do meio. Esse passa a ser o prazo que você responde quando perguntarem.",
+        "2026",
+        "Temas: Prazo / Estimativa / Histórico",
+        "@zionaxs_ · ref 25aa7cdc · foto: Clint Patterson"
+      ],
+      "alt": "Slide 7 de 7. Antes de dar o prazo, olhe as 5 últimas. Separe 1 tipo de trabalho que se repete no seu negócio. Volte no histórico, conte os dias reais das 5 entregas mais recentes desse tipo e anote o número do meio. Esse passa a ser o prazo que você responde quando perguntarem. Fotografia escura de uma sala à noite, com uma escrivaninha de madeira, um computador aberto e uma persiana fechada ao fundo, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-noite.jpg",
+        "pos": "0% 50%"
+      }
+    }
+  ]
+}

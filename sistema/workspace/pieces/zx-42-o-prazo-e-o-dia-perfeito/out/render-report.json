@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-42-o-prazo-e-o-dia-perfeito",
+  "generatedAt": "2026-09-08T16:25:11+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-01.png",
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-02.png",
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-03.png",
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-04.png",
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-05.png",
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-06.png",
+    "zx-42-o-prazo-e-o-dia-perfeito-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O prazo 01/07 Seu prazo é o dia perfeito. Ele nunca chega. Para dar a data você imagina o trabalho correndo do começo ao fim sem interrupção. O trabalho real tem espera, correção e pedido novo no meio, e a data prometida não tem espaço para nada disso. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc · foto: Sergio Franklin"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Do papel em branco. Quando perguntam quando fica pronto, você percorre o trabalho de cabeça e escreve um número. Nesse filme não tem telefone tocando, cliente sumido nem correção para refazer. O prazo sai dele. A semana não é ele. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc · foto: Kelly Sikkema"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Disseram 34 dias. Levaram 55. Em 1994, os psicólogos Roger Buehler, Dale Griffin e Michael Ross acompanharam estudantes que previram quando entregariam a monografia. A média prevista foi de 33,9 dias. A média real foi de 55,5. E só cerca de 30% entregaram no prazo que deram. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 O pior caso errou. E errou feio. No mesmo estudo os estudantes também estimaram quanto levariam se tudo desse errado: 48,6 dias em média. O tempo real foi 55,5. Nem a versão pessimista alcançou a realidade. O erro não vem de descuido: vem de a conta nascer de um filme mental, e não do histórico. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O prazo em 4 passos. 1Escolha as suas 5 últimas entregas parecidas com a que vão te pedir agora. 2Anote quantos dias cada uma levou de verdade, do aceite até a entrega final. 3Ordene os 5 números e use o do meio. Ele é o mais provável, e não o menor. 4Se o número do meio não cabe na venda, o problema é o tamanho do trabalho. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Não é para prometer mais. É para acertar mais. O estudo mediu estudantes e monografia, não escritório de serviço: a ponte é leitura da Zionaxs. E olhar o histórico não encurta o trabalho. Ele troca um prazo imaginado por um prazo que já aconteceu. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Antes de dar o prazo. Olhe as 5 últimas. Separe 1 tipo de trabalho que se repete no seu negócio. Volte no histórico, conte os dias reais das 5 entregas mais recentes desse tipo e anote o número do meio. Esse passa a ser o prazo que você responde quando perguntarem. Temas: Prazo / Estimativa / Histórico @zionaxs_ · ref 25aa7cdc · foto: Clint Patterson"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.5,
+  "digest": "31a894ed6dbccc8c7a8c607b1d6a4045cf84212edb26da1e2407f9b472df68ec"
+}
