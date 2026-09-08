@@ -1,0 +1,64 @@
+{
+  "postId": "18134930917627824",
+  "permalink": "https://www.instagram.com/p/DdCHeAvoJ1G/",
+  "shortcode": "DdCHeAvoJ1G",
+  "digest": "31a894ed6dbccc8c",
+  "publishedAt": "2026-09-08T16:29:10+0000",
+  "publishedAtFortaleza": "2026-09-08 13:29 (America/Fortaleza)",
+  "slot": {
+    "hora": "13:00",
+    "utc": "16:00",
+    "papel": "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório",
+    "nota": "publicado às 13:29 de Fortaleza, 29 minutos depois do horário canônico do slot, por conta do preparo do ambiente, das 3 gerações e das 2 correções da revisão visual, que trocaram o crop da capa e a foto do fechamento"
+  },
+  "route": "composio · INSTAGRAM_POST_IG_USER_MEDIA + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "containerId": "17907600885501214",
+  "childContainers": [
+    "17907600738501214",
+    "17907600735501214",
+    "17907600744501214",
+    "17907600741501214",
+    "17907600813501214",
+    "17907600810501214",
+    "17907600807501214"
+  ],
+  "childMediaIds": [
+    "18392248102200206",
+    "18425417740178840",
+    "18132893224645045",
+    "18403855510088564",
+    "18147276985541353",
+    "18134301457650279",
+    "18392838616206475"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-42-o-prazo-e-o-dia-perfeito/out/jpg/zx-42-o-prazo-e-o-dia-perfeito-slide-07.jpg"
+  ],
+  "commit": "6f363f467d2fa493201c03133e24d7f35940ab05",
+  "trilha": {
+    "faixa_indicada": "Steady Ledger — Meta Sound Collection",
+    "estado": "pendente de adição manual pelo Fabiano, editando o post no app",
+    "perfil": "instrumental, pulso regular e quase metronômico, intensidade estável do começo ao fim, sem aceleração nem virada",
+    "ressalva": "nome é indicação de perfil, não faixa confirmada no acervo: esta sessão em nuvem não teve acesso ao índice da coleção, que vive fora do repositório"
+  },
+  "reconciledAt": "2026-09-08T16:30Z",
+  "reconciliation": {
+    "conta": "zionaxs_ (owner.id 37965311306447572) — confere com a conta autorizada, verificada ao vivo por INSTAGRAM_GET_USER_INFO antes de criar qualquer contêiner",
+    "permalink": "https://www.instagram.com/p/DdCHeAvoJ1G/",
+    "media_type": "CAROUSEL_ALBUM — confere",
+    "slides": "7 filhos IMAGE retornados por INSTAGRAM_GET_IG_MEDIA_CHILDREN — confere com as 7 unidades do contrato",
+    "caption": "conferida ao vivo: é o corpo do campo caption, sem caption_sources, 1891 caracteres, abaixo do teto de 2200",
+    "fields_explicitos": "INSTAGRAM_GET_IG_MEDIA chamado com fields explícito (id,caption,media_type,permalink,shortcode,timestamp,username,owner), conforme o aprendizado da zx-40",
+    "urls_publicas": "as 7 URLs cruas foram conferidas com HTTP 200 e tamanho maior que zero antes de serem entregues à Meta",
+    "duplicidade": "nenhuma: pai criado 1 vez, status FINISHED conferido antes de publicar, publicação bem-sucedida na primeira tentativa, sem erro de transporte e sem recriação de filhos"
+  }
+}
