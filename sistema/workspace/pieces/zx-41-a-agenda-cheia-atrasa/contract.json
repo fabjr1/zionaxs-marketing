@@ -1,0 +1,335 @@
+{
+  "id": "zx-41-a-agenda-cheia-atrasa",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e decide como a semana da equipe é preenchida. Secundário nenhum: a cena é escrita para que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a semana que abre com cada hora já reservada, e o pedido fora do plano que chega no meio dela e não tem para onde ir. Slot editorial: manhã de dia útil, papel de descoberta e tensão atual, então a peça precisa entrar por uma constatação contraintuitiva, entregar o mecanismo em poucas linhas e sair com 1 passo que a pessoa encaminha para um sócio ou faz sozinha hoje.",
+    "decisao": "Parar de tratar a agenda cheia como sinal de saúde e passar a tratar a ocupação como um número com teto. Medir a ocupação da semana, e quando ela passar de 85%, abrir folga de propósito em vez de cobrar ritmo da equipe. A folga não é hora perdida: é o espaço que absorve o pedido que sempre chega fora do plano.",
+    "tensao": "Quem toca um negócio de serviço lê agenda cheia como eficiência, e lê atraso como falta de ritmo da equipe. A conta que ninguém faz é a da fila: perto do teto de ocupação, a espera para de crescer em proporção e passa a crescer em disparada. A equipe não ficou mais lenta, o sistema é que ficou sem espaço para absorver o que chega fora do plano.",
+    "evidencia": [
+      {
+        "claim": "existe uma fórmula publicada em 1961 pelo matemático britânico John Kingman que aproxima o tempo médio de espera em uma fila de 1 atendente",
+        "status": "E",
+        "fonte": "J. F. C. Kingman, The single server queue in heavy traffic, Mathematical Proceedings of the Cambridge Philosophical Society, volume 57, número 4, páginas 902 a 904, outubro de 1961, DOI 10.1017/S0305004100036094. Conferido nesta execução no verbete Kingman's formula da Wikipedia, em https://en.wikipedia.org/wiki/Kingman's_formula, que traz a citação original e a forma da fórmula."
+      },
+      {
+        "claim": "na fórmula, o termo de ocupação é a ocupação dividida pelo espaço que sobra, e ele cresce sem limite conforme a ocupação se aproxima de 100%",
+        "status": "E",
+        "fonte": "Mesmo verbete, conferido nesta execução: a fórmula é E(Wq) aproximadamente igual a (rô dividido por 1 menos rô) vezes ((ca ao quadrado mais cs ao quadrado) dividido por 2) vezes tau, em que rô é a utilização. O termo rô sobre 1 menos rô cresce sem limite quando rô tende a 1."
+      },
+      {
+        "claim": "esse termo vale 4 a 80% de ocupação e vale 9 a 90% de ocupação",
+        "status": "E",
+        "fonte": "Aritmética direta do termo rô sobre 1 menos rô da fórmula acima, conferida nesta execução: 0,8 dividido por 0,2 é igual a 4, e 0,9 dividido por 0,1 é igual a 9. A razão entre os 2 é 2,25, o que sustenta a afirmação de que subir de 80% para 90% mais que dobra a espera."
+      },
+      {
+        "claim": "existe um estudo de 1999, publicado na revista médica BMJ, que simulou a chegada de pacientes de urgência a um hospital e mediu o risco de faltar leito conforme a ocupação",
+        "status": "E",
+        "fonte": "A. Bagust, M. Place e J. W. Posnett, Dynamics of bed use in accommodating emergency admissions: stochastic simulation model, BMJ, volume 319, número 7203, páginas 155 a 158, 17 de julho de 1999, DOI 10.1136/bmj.319.7203.155, PMID 10406748, PMCID PMC28163. Resumo integral conferido nesta execução em https://pubmed.ncbi.nlm.nih.gov/10406748/."
+      },
+      {
+        "claim": "o resultado do estudo é que o risco aparece acima de cerca de 85% de ocupação média, e que a partir de 90% a falta de leito vira rotina",
+        "status": "E",
+        "fonte": "Seção Results do resumo do mesmo artigo, conferida nesta execução: risks are discernible when average bed occupancy rates exceed about 85%, and an acute hospital can expect regular bed shortages and periodic bed crises if average bed occupancy rises to 90% or more."
+      },
+      {
+        "claim": "a conclusão dos autores é que capacidade ociosa é essencial, e não desperdício",
+        "status": "E",
+        "fonte": "Seção Conclusions do resumo do mesmo artigo, conferida nesta execução: spare bed capacity is therefore essential for the effective management of emergency admissions, and its cost should be borne by purchasers as an essential element of an acute hospital service."
+      },
+      {
+        "claim": "a agenda de um negócio de serviço se comporta como fila pelo mesmo mecanismo: a chegada de trabalho não é regular, e sem folga o que chega fora do plano empurra tudo que já estava marcado",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. A fórmula de 1961 descreve uma fila de 1 atendente com chegada e atendimento variáveis, e o estudo de 1999 mediu leito de hospital. Nenhum dos 2 mediu agenda de escritório de serviço. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, o título, a revista, o volume, o número, as páginas e o ano da fórmula de fila de 1961",
+        "o termo de ocupação da fórmula, que é a ocupação dividida pelo espaço que sobra, e o fato de ele crescer sem limite perto de 100%",
+        "os valores 4 a 80% e 9 a 90%, que são aritmética direta desse termo",
+        "a existência, a autoria, a revista, o volume, o número, as páginas e o ano do estudo de 1999 sobre ocupação de leito",
+        "o limiar de cerca de 85% e a rotina de falta a partir de 90% medidos nesse estudo",
+        "a conclusão dos autores de que capacidade ociosa é essencial para atender urgência"
+      ],
+      "I": [
+        "a leitura de que a agenda de um negócio de serviço se comporta como fila",
+        "a leitura de que o atraso atribuído ao ritmo da equipe é, em boa parte, ocupação alta demais sem espaço para o imprevisto"
+      ],
+      "H": [
+        "os 4 passos como método mínimo de leitura e abertura de folga em negócio de serviço",
+        "o bloco de 2 horas por semana como tamanho inicial de folga, e a regra de que 4 semanas seguidas de consumo indicam falta de gente e não falta de folga"
+      ],
+      "NC": [
+        "qual é o limiar de ocupação certo para escritório de serviço brasileiro, porque não existe levantamento conhecido e o 85% vem de leito de hospital",
+        "quanto da espera percebida pelo cliente de um negócio de serviço vem de ocupação alta e quanto vem de outras causas, porque ninguém mediu isso fora da saúde e da indústria"
+      ]
+    },
+    "limites": [
+      "A fórmula de 1961 descreve uma fila de 1 atendente com chegada e atendimento variáveis. Ela é modelo matemático, não medida de nenhum negócio, e a peça a apresenta como modelo.",
+      "O estudo de 1999 simulou leito de hospital de urgência na Inglaterra. Ele não mede escritório de serviço, não mede equipe pequena e não mede agenda, e a peça não afirma que mede.",
+      "O limiar de 85% é do contexto hospitalar. A peça o usa como referência de ordem de grandeza para começar a medir, e diz isso no slide 6 e na legenda, sem prometer que 85% é o número certo para o negócio de quem lê.",
+      "Os 4 passos e o bloco de 2 horas são adaptação editorial da Zionaxs. Eles não saem de nenhuma das 2 fontes e não têm medida própria, e a peça declara isso.",
+      "A peça não promete redução de prazo, de atraso ou de custo. Ela trata de 1 coisa: medir a ocupação da semana e abrir folga de propósito quando ela passa do teto.",
+      "A peça não trata de contratação, de dimensionamento de equipe nem de preço. O passo 4 aponta para falta de gente como um diagnóstico possível, sem entrar em como resolver isso."
+    ]
+  },
+  "tese": "A agenda cheia parece eficiência e é o motivo de tudo demorar. Perto do teto de ocupação a espera para de crescer em proporção e passa a crescer em disparada, então o pedido que chega fora do plano empurra tudo que já estava marcado. A saída não é cobrar ritmo da equipe, é medir a ocupação da semana e reservar 1 bloco vazio de propósito.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "jtbd": [
+    "JF5",
+    "JS4"
+  ],
+  "matriz_nota": "Código de matriz declarado: M01, agenda cheia sem produção. A linha M01 da nota 19c está registrada para a tensão da agenda que parece cheia sem que a produção apareça, e a saída dela é ler capacidade com o denominador certo, o que trata a agenda cheia como problema de medição: o gancho registrado é 7 denominadores que mudam a leitura da agenda, e o sinal é sala ociosa em horário cheio. Esta peça fica na mesma família de tensão e ataca outro mecanismo: não a ociosidade escondida por denominador errado, e sim o custo de fila que aparece quando a ocupação medida chega perto do teto. As 2 leituras convivem, porque a primeira corrige o número e a segunda diz o que fazer quando o número está certo e alto. M10 foi considerada e descartada: ela trata de crescer multiplicando erro, com capacidade ajustada por regime e mix, e é sobre composição de carteira, que foi o assunto da zx-34, não sobre o efeito da ocupação sobre a espera. A proposta de acrescentar à matriz uma linha própria para o custo de ocupação alta vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Código de repertório declarado: R9, W. Edwards Deming, culpa individual contra desenho do sistema. A linha R9 do ledger da nota 19c manda mapear entrada, dependência, variação normal, incentivo e restrição antes de responsabilizar uma pessoa por um indicador, e a aplicação registrada para serviço é culpar a recepção pelo atraso em cascata. É exatamente a virada desta peça: o atraso é do desenho do sistema, que roda sem espaço para variação normal, e não do ritmo de quem está executando. A fonte da evidência desta peça, porém, não está no ledger: nem a fórmula de fila de 1961 de John Kingman nem o estudo de 1999 de Bagust e colegas aparecem como linha de repertório, e a proposta de acrescentar a teoria de filas ao ledger fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "cta": "Abrir a agenda desta semana e marcar 1 bloco de 2 horas como reservado, sem tarefa nenhuma dentro, para receber o pedido que ainda vai chegar.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela constatação contraintuitiva de que a agenda cheia é a mais lenta, ver a cena da semana sem folga, receber a medida que mostra onde fica o teto, virar para a ideia de que a folga é o amortecedor e não sobra, receber os 4 passos que a pessoa aplica hoje, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3.",
+  "internal_metadata": [
+    "zx-41",
+    "JF5",
+    "JS4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Room",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e a narrativa não tem clímax. A nota específica desta peça é procurar uma faixa com espaço entre os elementos, poucos instrumentos e silêncio audível entre as batidas, o oposto de arranjo cheio: o assunto é justamente o valor do espaço vazio, e trilha densa contradiz o argumento no ouvido enquanto o texto o defende. Combina com o slot da manhã, que pede entrada leve e curiosa, então vale uma faixa mais clara e menos sóbria que a da tarde.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda arranjo denso, camada de sintetizador contínua ou percussão apressada, que contradizem o argumento do espaço vazio.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de andamento constante e arranjo esparso que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-40 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada e pulso regular quase mecânico. Aqui o pedido é o mais vazio de todos, com espaço audível entre os elementos."
+  },
+  "caption": [
+    "A agenda cheia parece eficiência. Ela é o motivo de tudo demorar.",
+    "Quando cada hora da semana já tem dono, o pedido que chega fora do plano não tem para onde ir. Ele entra em uma fila. E a fila não cresce junto com a ocupação: ela cresce em disparada.",
+    "Isso tem conta. Em 1961, o matemático britânico John Kingman publicou uma fórmula que aproxima a espera em uma fila. Nela, a espera cresce conforme a ocupação dividida pelo espaço que sobra. A 80% de ocupação esse fator vale 4. A 90% vale 9. Ou seja, subir 10 pontos mais que dobra a espera de todo mundo.",
+    "E tem medida. Em 1999, Adrian Bagust e colegas publicaram na revista médica BMJ a simulação da chegada de pacientes de urgência a um hospital. O risco de faltar leito aparece acima de 85% de ocupação, e a partir de 90% a falta vira rotina. A conclusão dos autores é que capacidade ociosa é essencial, e não desperdício.",
+    "Na prática, 4 passos. 1: some as horas que a semana já tem comprometidas e divida pelas horas que a equipe tem. 2: se passa de 85%, o problema não é ritmo, é falta de espaço. 3: reserve 1 bloco de 2 horas por semana e deixe vazio. 4: se o bloco vazio for consumido 4 semanas seguidas, ele virou trabalho fixo, e aí falta gente mesmo.",
+    "Um cuidado antes de começar: a fórmula é modelo e o estudo mediu leito de hospital, não escritório de serviço. A ponte para o seu negócio é leitura da Zionaxs, e o 85% serve como ordem de grandeza para começar a medir, não como número certo. Folga também não conserta processo ruim: ela absorve o imprevisto.",
+    "Comece hoje. Abra a agenda desta semana e marque 1 bloco de 2 horas como reservado. E não preencha."
+  ],
+  "caption_sources": [
+    "Fonte da fórmula: J. F. C. Kingman, The single server queue in heavy traffic, Mathematical Proceedings of the Cambridge Philosophical Society, volume 57, número 4, páginas 902 a 904, outubro de 1961, DOI 10.1017/S0305004100036094. Forma da fórmula e citação original conferidas nesta execução em https://en.wikipedia.org/wiki/Kingman's_formula.",
+    "Os valores 4 a 80% e 9 a 90% são aritmética direta do termo de ocupação da fórmula, conferida nesta execução: 0,8 dividido por 0,2 é igual a 4; 0,9 dividido por 0,1 é igual a 9.",
+    "Fonte da medida: A. Bagust, M. Place e J. W. Posnett, Dynamics of bed use in accommodating emergency admissions: stochastic simulation model, BMJ, volume 319, número 7203, páginas 155 a 158, 17 de julho de 1999, DOI 10.1136/bmj.319.7203.155, PMID 10406748. Resumo integral conferido nesta execução em https://pubmed.ncbi.nlm.nih.gov/10406748/.",
+    "Números conferidos no resumo do artigo nesta execução: risks are discernible when average bed occupancy rates exceed about 85%, and an acute hospital can expect regular bed shortages and periodic bed crises if average bed occupancy rises to 90% or more. E a conclusão: spare bed capacity is therefore essential for the effective management of emergency admissions.",
+    "Recorte e limitação: a fórmula de 1961 é modelo matemático de uma fila de 1 atendente, e o estudo de 1999 simulou leito de hospital de urgência na Inglaterra. Nenhum dos 2 mede agenda de escritório de serviço, e por isso a peça não afirma percentual nenhum sobre negócio de serviço e trata a passagem para esse contexto como leitura, não como medida.",
+    "Os 4 passos e o bloco de 2 horas por semana são adaptação editorial da Zionaxs a partir das 2 fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: a linha R9 do ledger da Zionaxs, sobre desenho do sistema contra culpa individual, sustenta a virada da peça. A teoria de filas não está no ledger, e a proposta de acrescentá-la está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Ozan Safak, Ed Wingate e Annie Williams, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A conta",
+      "copy": {
+        "title": "A agenda\ncheia é a\nmais lenta.",
+        "accentLine": "Parece o oposto.",
+        "hl": "Parece o oposto.",
+        "sub": "Quando cada hora da semana já tem dono, o pedido que chega fora do plano entra em uma fila. E a fila não cresce junto com a ocupação: ela cresce em disparada.",
+        "year": "2026",
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7 · foto: Ozan Safak"
+      },
+      "approved_visible_copy": [
+        "A conta",
+        "01/07",
+        "A agenda cheia é a mais lenta.",
+        "Parece o oposto.",
+        "Quando cada hora da semana já tem dono, o pedido que chega fora do plano entra em uma fila. E a fila não cresce junto com a ocupação: ela cresce em disparada.",
+        "2026",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7 · foto: Ozan Safak"
+      ],
+      "alt": "Slide 1 de 7. A agenda cheia é a mais lenta, e parece o oposto. Quando cada hora da semana já tem dono, o pedido que chega fora do plano entra em uma fila. E a fila não cresce junto com a ocupação: ela cresce em disparada. Fotografia escura, em preto e branco, de 4 pessoas de costas paradas diante de uma parede clara, em silhueta, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-fila-parede-contraluz.jpg",
+        "pos": "50% 50%",
+        "scale": 1.8,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Sem\nfolga\nnenhuma."
+        ],
+        "closing": "A semana abre com cada hora já reservada. Aí chega 1 pedido urgente, 1 cliente com pressa, 1 erro para refazer. Não existe hora vaga para receber isso, então tudo entra na fila e a fila empurra o resto para frente.",
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7 · foto: Ed Wingate"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Sem folga nenhuma.",
+        "A semana abre com cada hora já reservada. Aí chega 1 pedido urgente, 1 cliente com pressa, 1 erro para refazer. Não existe hora vaga para receber isso, então tudo entra na fila e a fila empurra o resto para frente.",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7 · foto: Ed Wingate"
+      ],
+      "alt": "Slide 2 de 7. Sem folga nenhuma. A semana abre com cada hora já reservada. Aí chega 1 pedido urgente, 1 cliente com pressa, 1 erro para refazer. Não existe hora vaga para receber isso, então tudo entra na fila e a fila empurra o resto para frente. Papel claro com fotografia aérea em preto e branco de um estacionamento visto de cima, com todas as vagas ocupadas e nenhuma livre.",
+      "photo": {
+        "src": "../assets/foto-estacionamento-lotado.jpg"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Acima de 85%,",
+          "o risco aparece."
+        ],
+        "closing": "Em 1999, Adrian Bagust e colegas publicaram na revista médica BMJ a simulação da chegada de pacientes de urgência a um hospital. O risco de faltar leito aparece acima de 85% de ocupação, e a partir de 90% a falta vira rotina.",
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Acima de 85%,",
+        "o risco aparece.",
+        "Em 1999, Adrian Bagust e colegas publicaram na revista médica BMJ a simulação da chegada de pacientes de urgência a um hospital. O risco de faltar leito aparece acima de 85% de ocupação, e a partir de 90% a falta vira rotina.",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7"
+      ],
+      "alt": "Slide 3 de 7. Acima de 85%, o risco aparece. Em 1999, Adrian Bagust e colegas publicaram na revista médica BMJ a simulação da chegada de pacientes de urgência a um hospital. O risco de faltar leito aparece acima de 85% de ocupação, e a partir de 90% a falta vira rotina."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "A folga\nnão é\nsobra.",
+        "accent": "O vazio trabalha.",
+        "hl": "O vazio trabalha.",
+        "ghost": "85",
+        "year": "2026",
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7",
+        "body": "Pela fórmula de fila que o matemático britânico John Kingman publicou em 1961, a espera cresce conforme a ocupação dividida pelo espaço que sobra. A 80% esse fator vale 4. A 90% vale 9. Subir de 80% para 90% mais que dobra a espera de todo mundo."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "A folga não é sobra.",
+        "O vazio trabalha.",
+        "2026",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7",
+        "Pela fórmula de fila que o matemático britânico John Kingman publicou em 1961, a espera cresce conforme a ocupação dividida pelo espaço que sobra. A 80% esse fator vale 4. A 90% vale 9. Subir de 80% para 90% mais que dobra a espera de todo mundo."
+      ],
+      "alt": "Slide 4 de 7. A folga não é sobra, o vazio trabalha. Pela fórmula de fila que o matemático britânico John Kingman publicou em 1961, a espera cresce conforme a ocupação dividida pelo espaço que sobra. A 80% esse fator vale 4. A 90% vale 9. Subir de 80% para 90% mais que dobra a espera de todo mundo. Campo laranja chapado com o número 85 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "A conta em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Some as horas que a semana já tem comprometidas e divida pelas horas que a equipe tem."
+          },
+          {
+            "num": "2",
+            "label": "Se passa de 85%, o problema não é ritmo de trabalho, é agenda sem espaço para o imprevisto."
+          },
+          {
+            "num": "3",
+            "label": "Reserve 1 bloco de 2 horas por semana e deixe vazio. Ele é para o pedido que ainda vai chegar."
+          },
+          {
+            "num": "4",
+            "label": "Se o bloco vazio for consumido 4 semanas seguidas, ele virou trabalho fixo: aí falta gente mesmo."
+          }
+        ],
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "A conta em 4 passos.",
+        "1",
+        "Some as horas que a semana já tem comprometidas e divida pelas horas que a equipe tem.",
+        "2",
+        "Se passa de 85%, o problema não é ritmo de trabalho, é agenda sem espaço para o imprevisto.",
+        "3",
+        "Reserve 1 bloco de 2 horas por semana e deixe vazio. Ele é para o pedido que ainda vai chegar.",
+        "4",
+        "Se o bloco vazio for consumido 4 semanas seguidas, ele virou trabalho fixo: aí falta gente mesmo.",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7"
+      ],
+      "alt": "Slide 5 de 7. A conta em 4 passos. 1: some as horas que a semana já tem comprometidas e divida pelas horas que a equipe tem. 2: se passa de 85%, o problema não é ritmo de trabalho, é agenda sem espaço para o imprevisto. 3: reserve 1 bloco de 2 horas por semana e deixe vazio. Ele é para o pedido que ainda vai chegar. 4: se o bloco vazio for consumido 4 semanas seguidas, ele virou trabalho fixo: aí falta gente mesmo. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Não é para\ntrabalhar menos.",
+        "accent": "É para esperar menos.",
+        "body": "A fórmula é modelo e o estudo mediu leito de hospital, não escritório de serviço: a ponte é leitura da Zionaxs. O 85% serve para começar a medir, não como número certo. E folga não conserta processo ruim.",
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Não é para trabalhar menos.",
+        "É para esperar menos.",
+        "A fórmula é modelo e o estudo mediu leito de hospital, não escritório de serviço: a ponte é leitura da Zionaxs. O 85% serve para começar a medir, não como número certo. E folga não conserta processo ruim.",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7"
+      ],
+      "alt": "Slide 6 de 7. Não é para trabalhar menos, é para esperar menos. A fórmula é modelo e o estudo mediu leito de hospital, não escritório de serviço: a ponte é leitura da Zionaxs. O 85% serve para começar a medir, não como número certo. E folga não conserta processo ruim."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Reserve 1\nbloco vazio.",
+        "hl": "Reserve 1",
+        "accent": "E não preencha.",
+        "body": "Abra a agenda desta semana e marque 1 bloco de 2 horas como reservado, sem tarefa nenhuma dentro. Quando o pedido urgente chegar, ele tem para onde ir, e o resto da semana continua de pé. Se nada chegar, você ganhou 2 horas de volta.",
+        "year": "2026",
+        "temas": "Temas: Agenda / Capacidade / Fila",
+        "micro": "@zionaxs_ · ref 86886dd7 · foto: Annie Williams"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Reserve 1 bloco vazio.",
+        "E não preencha.",
+        "Abra a agenda desta semana e marque 1 bloco de 2 horas como reservado, sem tarefa nenhuma dentro. Quando o pedido urgente chegar, ele tem para onde ir, e o resto da semana continua de pé. Se nada chegar, você ganhou 2 horas de volta.",
+        "2026",
+        "Temas: Agenda / Capacidade / Fila",
+        "@zionaxs_ · ref 86886dd7 · foto: Annie Williams"
+      ],
+      "alt": "Slide 7 de 7. Reserve 1 bloco vazio e não preencha. Abra a agenda desta semana e marque 1 bloco de 2 horas como reservado, sem tarefa nenhuma dentro. Quando o pedido urgente chegar, ele tem para onde ir, e o resto da semana continua de pé. Se nada chegar, você ganhou 2 horas de volta. Fotografia escura de uma poltrona vazia em uma sala de espera com pouca luz, sem ninguém sentado.",
+      "photo": {
+        "src": "../assets/foto-poltrona-vazia.jpg",
+        "pos": "0% 50%"
+      }
+    }
+  ]
+}

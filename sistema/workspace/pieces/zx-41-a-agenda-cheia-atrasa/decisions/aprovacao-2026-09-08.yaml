@@ -1,0 +1,101 @@
+decisao: aprovar e publicar a zx-41, slot da manhã
+data: 2026-09-08
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0 de 2 do dia consumidos.
+  registro_anterior: pieces/zx-40-o-trabalho-troca-de-mao/decisions/aprovacao-2026-09-07.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, terça-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede entrada leve, constatação que surpreende e passo que a
+    pessoa encaminha para um sócio, e não o guia longo da tarde. Por isso o
+    centro é uma inversão contraintuitiva que cabe em 1 frase: a agenda cheia é
+    a mais lenta. A evidência entra curta, em 1 slide, e o método é a conta de
+    4 passos que a pessoa faz hoje sem ferramenta nenhuma.
+
+tema:
+  escolhido: >
+    a agenda cheia parece eficiência e é o motivo de tudo demorar, porque perto
+    do teto de ocupação a espera para de crescer em proporção e passa a crescer
+    em disparada, então a saída não é cobrar ritmo da equipe, é medir a ocupação
+    da semana e reservar 1 bloco vazio de propósito
+  matriz: M01
+  jtbd: [JF5, JS4]
+  repertorio: R9
+  por_que: >
+    O papel do slot é descoberta e pauta encaminhável, e o assunto entrega os 2:
+    a afirmação contraria o instinto de quem lê agenda cheia como saúde, e a
+    conta de 4 passos é curta o bastante para virar mensagem para um sócio. O
+    assunto também não repete nenhuma das 21 peças publicadas: a zx-34 tratou de
+    composição de carteira para decidir vaga, a zx-35 tratou do trabalho que se
+    espalha até ocupar o prazo reservado, e a zx-38 tratou do custo da
+    interrupção. Nenhuma tratou do efeito da ocupação alta sobre a espera, que é
+    outro mecanismo.
+
+codigos_editoriais:
+  matriz_M01:
+    linha: "Agenda cheia sem produção — Ler capacidade com denominador certo"
+    leitura: >
+      A linha M01 da nota 19c trata a agenda cheia como problema de medição, com
+      o gancho dos 7 denominadores e o sinal da sala ociosa em horário cheio.
+      Esta peça fica na mesma família de tensão e ataca outro mecanismo, o custo
+      de fila quando a ocupação medida chega perto do teto. As 2 convivem: a
+      primeira corrige o número, a segunda diz o que fazer quando o número está
+      certo e alto. M10 foi considerada e descartada por tratar de composição de
+      carteira, que foi o assunto da zx-34.
+  repertorio_R9:
+    linha: "W. Edwards Deming — culpa individual contra desenho do sistema"
+    leitura: >
+      R9 manda mapear entrada, dependência, variação normal, incentivo e
+      restrição antes de responsabilizar uma pessoa por um indicador, e a
+      aplicação registrada para serviço é culpar a recepção pelo atraso em
+      cascata. É a virada desta peça: o atraso é do sistema que roda sem espaço
+      para variação normal, não do ritmo de quem executa.
+  pendente_de_promocao_humana: >
+    A fonte da evidência não está no ledger de repertório: nem a fórmula de fila
+    de 1961 de John Kingman nem o estudo de 1999 de Bagust e colegas aparecem
+    como linha. A proposta de acrescentar teoria de filas ao ledger, e de abrir
+    uma linha de matriz própria para o custo de ocupação alta, vai para a Inbox
+    da Zionaxs Memory.
+
+verificacao_visual:
+  achado: >
+    O kicker laranja da capa saiu ilegível na primeira geração, sobre a faixa
+    clara de concreto da foto: contraste medido de 1,32:1 contra o fundo real de
+    pixel, com os 14 gates verdes. O G5 não pega isso, porque mede contraste
+    contra o fundo declarado no CSS e não contra os pixels da foto.
+  correcao: >
+    scale de 1,5 para 1,8 com origin "50% 100%", que levou a parede clara para
+    cima de 33% da altura e deixou a faixa inteira de texto sobre o piso escuro.
+    O fundo do kicker foi de L 0,211 para L 0,018, e o contraste do laranja de
+    1,32:1 para 2,90:1, acima do que a zx-40 publicou (1,90:1) e em linha com a
+    zx-39 (3,11:1). A foto foi rebaixada de novo em 4200px de largura antes do
+    corte, para o zoom maior não aparecer. Nenhum texto foi clareado.
+  segundo_achado: >
+    No fechamento, a poltrona creme caía dentro da faixa de texto e disputava
+    com a manchete em creme. Corrigido com pos "0% 50%", que joga a poltrona
+    para a direita da manchete e deixa o armário escuro atrás do texto. O corte
+    também tirou de quadro um porta-retratos com texto legível, que a regra da
+    zx-23 proíbe.
+
+trilha:
+  faixa_indicada: "Steady Room — Meta Sound Collection"
+  perfil: >
+    instrumental, andamento constante, arranjo esparso com silêncio audível
+    entre os elementos. O assunto é o valor do espaço vazio, e trilha densa
+    contradiz o argumento no ouvido enquanto o texto o defende.
+  ressalva: >
+    Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que
+    vive fora do repositório. O nome é indicação de perfil, não faixa confirmada
+    no acervo. A escolha final é do Fabiano, na Meta Sound Collection, editando
+    o post depois de publicado.
