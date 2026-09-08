@@ -1,0 +1,63 @@
+{
+  "postId": "18096612485548527",
+  "permalink": "https://www.instagram.com/p/DdBn2GxIC56/",
+  "shortcode": "DdBn2GxIC56",
+  "digest": "cdd2b3edb7d0a8ca",
+  "publishedAt": "2026-09-08T11:52:48+0000",
+  "publishedAtFortaleza": "2026-09-08 08:52 (America/Fortaleza)",
+  "slot": {
+    "hora": "08:30",
+    "utc": "11:30",
+    "papel": "descoberta, tensão atual, curiosidade ou pauta encaminhável",
+    "nota": "publicado às 08:52 de Fortaleza, 22 minutos depois do horário canônico do slot, por conta do tempo de preparo do ambiente e das 2 correções de enquadramento da revisão visual"
+  },
+  "route": "composio · INSTAGRAM_POST_IG_USER_MEDIA + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "containerId": "17907566376501214",
+  "childContainers": [
+    "17907566241501214",
+    "17907566235501214",
+    "17907566238501214",
+    "17907566232501214",
+    "17907566310501214",
+    "17907566304501214",
+    "17907566307501214"
+  ],
+  "childMediaIds": [
+    "18094670633411267",
+    "18194462875383668",
+    "18111027037860025",
+    "17979691871906102",
+    "18066192740771893",
+    "18114313540977918",
+    "18137252077658599"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-41-a-agenda-cheia-atrasa/out/jpg/zx-41-a-agenda-cheia-atrasa-slide-07.jpg"
+  ],
+  "commit": "e1e85f03616883a544a8bcd85f049ced9e4ddbee",
+  "trilha": {
+    "faixa_indicada": "Steady Room — Meta Sound Collection",
+    "estado": "pendente de adição manual pelo Fabiano, editando o post no app",
+    "perfil": "instrumental, andamento constante, arranjo esparso com silêncio audível entre os elementos",
+    "ressalva": "nome é indicação de perfil, não faixa confirmada no acervo: esta sessão em nuvem não teve acesso ao índice da coleção"
+  },
+  "reconciledAt": "2026-09-08T11:53Z",
+  "reconciliation": {
+    "conta": "zionaxs_ (owner.id 37965311306447572) — confere com a conta autorizada",
+    "permalink": "https://www.instagram.com/p/DdBn2GxIC56/",
+    "media_type": "CAROUSEL_ALBUM — confere",
+    "slides": "7 filhos IMAGE retornados por INSTAGRAM_GET_IG_MEDIA_CHILDREN — confere com as 7 unidades do contrato",
+    "caption": "conferida ao vivo: é o corpo do campo caption, sem caption_sources, 1625 caracteres, abaixo do teto de 2200",
+    "fields_explicitos": "INSTAGRAM_GET_IG_MEDIA chamado com fields explícito (id,caption,media_type,permalink,shortcode,timestamp,username,owner), conforme o aprendizado da zx-40: a lista padrão do Composio pede total_views_count, que o nó Media não suporta, e volta HTTP 400",
+    "duplicidade": "nenhuma: pai criado 1 vez, status FINISHED conferido antes de publicar, publicação bem-sucedida na primeira tentativa, sem erro de transporte e sem recriação de filhos"
+  }
+}
