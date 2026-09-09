@@ -1,0 +1,69 @@
+{
+  "postId": "17888873205447067",
+  "permalink": "https://www.instagram.com/p/DdEsNBGoNQg/",
+  "shortcode": "DdEsNBGoNQg",
+  "digest": "63f95e53979f",
+  "publishedAt": "2026-09-09T16:28:46+0000",
+  "publishedAtFortaleza": "2026-09-09 13:28 (America/Fortaleza)",
+  "slot": {
+    "hora": "13:00",
+    "utc": "16:00",
+    "papel": "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório",
+    "nota": "publicado às 13:28 de Fortaleza, 28 minutos depois do horário canônico do slot, por conta do preparo do ambiente (o Playwright 1.62.1 pede o build 1234 do Chromium e a máquina trazia o 1194 pré-instalado), da verificação das 2 fontes primárias e das 4 gerações"
+  },
+  "route": "composio · INSTAGRAM_POST_IG_USER_MEDIA + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "containerId": "17907736656501214",
+  "childContainers": [
+    "17907736413501214",
+    "17907736410501214",
+    "17907736407501214",
+    "17907736416501214",
+    "17907736497501214",
+    "17907736518501214",
+    "17907736500501214"
+  ],
+  "childMediaIds": [
+    "18169662148393290",
+    "18119605054729034",
+    "18113306234019505",
+    "18102427490208057",
+    "17907319275305594",
+    "18131171980673317",
+    "18144366700602753"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-44-a-conversa-boa-engana/out/jpg/zx-44-a-conversa-boa-engana-slide-07.jpg"
+  ],
+  "commit": "aef2384",
+  "trilha": {
+    "faixa_indicada": "Steady Frame — Meta Sound Collection",
+    "estado": "pendente de adição manual pelo Fabiano, editando o post no app",
+    "perfil": "instrumental, pulso claro e marcado, quase metronômico, textura seca, intensidade estável do começo ao fim",
+    "ressalva": "nome é indicação de perfil, não faixa confirmada no acervo: esta sessão em nuvem não teve acesso ao índice da coleção, que vive fora do repositório",
+    "evitar_nesta_peca": "faixa de tom acolhedor ou emotivo, do tipo que acompanha vídeo institucional de equipe: o texto diz que a simpatia engana, e trilha simpática briga com ele"
+  },
+  "reconciledAt": "2026-09-09T16:31Z",
+  "reconciliation": {
+    "conta": "zionaxs_ (owner.id 37965311306447572) — confere com a conta autorizada, verificada ao vivo por INSTAGRAM_GET_USER_INFO antes de criar qualquer contêiner",
+    "permalink": "https://www.instagram.com/p/DdEsNBGoNQg/",
+    "media_type": "CAROUSEL_ALBUM — confere",
+    "slides": "7 filhos IMAGE retornados por INSTAGRAM_GET_IG_MEDIA_CHILDREN — confere com as 7 unidades do contrato",
+    "caption": "conferida ao vivo: é o corpo do campo caption, sem caption_sources, 1820 caracteres, abaixo do teto de 2200",
+    "chamada_de_leitura": "INSTAGRAM_GET_IG_MEDIA chamado já com fields explícito (id,caption,media_type,permalink,shortcode,timestamp,username,owner), como manda o aprendizado da zx-40: a lista padrão do Composio pede total_views_count, que o nó Media não suporta, e volta HTTP 400. Nesta execução a leitura passou de primeira.",
+    "erros_de_transporte": "nenhum. Os 7 filhos foram criados em 1 rodada, o pai foi criado em 1 rodada e chegou a FINISHED antes do publish, e não houve necessidade de recriar filho nenhum."
+  },
+  "cadencia": {
+    "posicao_no_dia": "2 de 2",
+    "peca_anterior_do_dia": "zx-43-a-interrupcao-nao-e-o-minuto, publicada às 08:48 de Fortaleza",
+    "porteiro": "liberado na primeira passagem, sem --excecao e sem tocar em brands/zionaxs/politica-de-publicacao.json"
+  }
+}
