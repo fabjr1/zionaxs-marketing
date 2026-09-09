@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-44-a-conversa-boa-engana",
+  "generatedAt": "2026-09-09T16:24:55+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-44-a-conversa-boa-engana-slide-01.png",
+    "zx-44-a-conversa-boa-engana-slide-02.png",
+    "zx-44-a-conversa-boa-engana-slide-03.png",
+    "zx-44-a-conversa-boa-engana-slide-04.png",
+    "zx-44-a-conversa-boa-engana-slide-05.png",
+    "zx-44-a-conversa-boa-engana-slide-06.png",
+    "zx-44-a-conversa-boa-engana-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A escolha 01/07 A conversa boa engana. E atrapalha. Você conversa com quem quer a vaga, sai com uma impressão forte e decide por ela. Em experimento controlado, essa conversa não somou informação: ela piorou a previsão de quem já tinha o histórico na mão. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d · foto: Eddie Wingertsahn"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 A gente se deu bem. Você sai da conversa com certeza sobre a pessoa. Em 2013, os pesquisadores Jason Dana, Robyn Dawes e Nathanial Peterson levaram essa certeza para o laboratório, em 3 experimentos, e o resultado foi o contrário do esperado. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d · foto: minho jeong"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Com a conversa, acertaram menos. Estudantes previram a nota de colegas. Só com o histórico, acertaram 0,65 em uma escala em que 1 seria o acerto perfeito. Com o histórico mais a entrevista livre, caíram para 0,31. A conversa não somou, subtraiu. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 O problema não é entrevistar. É perguntar solto. No mesmo estudo, os entrevistadores não perceberam quando as respostas foram sorteadas: seguiram confiantes. O que prevê desempenho é a entrevista com roteiro. Na revisão de 2022 do pesquisador Paul Sackett e colegas, ela fica em 0,42, à frente do teste de capacidade cognitiva, em 0,31. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O roteiro em 4 passos. 1Escreva 5 perguntas antes de ver o primeiro currículo e faça as mesmas 5 para todo mundo. 2Peça 1 tarefa pequena e paga, parecida com o trabalho real, com o mesmo enunciado para todos. 3Dê nota de 1 a 5 por pergunta logo depois de cada conversa, antes de comentar com alguém. 4Só compare as notas no fim, com todos entrevistados, e decida pela soma. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Não é para robotizar. É para comparar. O estudo de 2013 mediu estudantes prevendo nota, não empresa contratando. E 0,42 está longe de 1: roteiro erra bastante, só erra menos. A ponte para a sua contratação é leitura da Zionaxs. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Escreva as 5 perguntas. Antes da vaga. Abra um documento agora e escreva 5 perguntas sobre situações reais do trabalho. Use as mesmas 5 com todo candidato e dê nota logo depois de cada conversa. Você passa a comparar respostas, e não impressões. Temas: Contratação / Entrevista / Decisão @zionaxs_ · ref fcebab2d · foto: Kelly Sikkema"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.4,
+  "digest": "63f95e53979fccc87f93cbb14261a39fa9e4802c923e5bc5e7162b56ea3f26ad"
+}

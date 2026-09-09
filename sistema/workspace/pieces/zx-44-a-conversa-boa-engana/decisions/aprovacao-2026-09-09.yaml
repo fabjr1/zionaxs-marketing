@@ -1,0 +1,136 @@
+decisao: aprovar e publicar a zx-44, slot da tarde
+data: 2026-09-09
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumidos pela
+    zx-43, publicada de manhã.
+  registro_anterior: pieces/zx-43-a-interrupcao-nao-e-o-minuto/decisions/aprovacao-2026-09-09.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, quarta-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede método e evidência, não só tensão. Por isso a peça
+    carrega 2 blocos de números, o do estudo de 2013 no slide 3 e o da revisão
+    de 2022 no slide 4, e entrega no slide 5 um roteiro de 4 passos que a pessoa
+    aplica na próxima vaga sem precisar de ferramenta nenhuma. É tutorial
+    decisório: ele muda como a decisão é tomada, e não apenas como ela é
+    percebida.
+
+tema:
+  escolhido: >
+    a conversa livre com quem quer a vaga não é neutra, ela atrapalha: em
+    experimento, a previsão feita só com o histórico acertou mais do que a
+    feita com histórico mais entrevista livre, e os entrevistadores continuaram
+    confiantes mesmo quando as respostas eram sorteadas; o que prevê desempenho
+    é a entrevista com roteiro fixo
+  matriz: nenhuma declarada
+  jtbd: [JF5, JS1]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é conteúdo principal, e o assunto tem evidência forte, um
+    resultado contraintuitivo e um método barato de aplicar. O tema não repete
+    nenhuma das 24 peças publicadas: contratação nunca foi assunto da conta. A
+    peça da manhã, zx-43, tratou do custo da interrupção, e as 6 anteriores
+    trataram de prazo, fila, passagem de trabalho, desconto, pergunta de cliente
+    e elogio. Contratar é território novo, e equilibra uma sequência que vinha
+    concentrada em tempo e operação.
+  codigos_editoriais: >
+    Nenhum código de matriz e nenhum de repertório foram declarados, de
+    propósito. A nota 19c não tem linha para contratação ou seleção de pessoas:
+    M14 é intake com critério, e o critério ali é para aceitar ou recusar caso
+    de cliente, não candidato; M19 é dependência de pessoa-chave, com saída em
+    alçada, território da zx-21. O ledger de repertório também não tem linha
+    para previsão ou julgamento: R9, de W. Edwards Deming, trata de variação em
+    processo produtivo, e não da validade de um método de previsão sobre
+    pessoas. Declarar código que a verificação A9 aceita, por medir existência e
+    não pertinência, seria exatamente o erro que a A9 existe para conter. As 2
+    propostas de linha nova vão para a Inbox da Zionaxs Memory, para promoção
+    humana.
+
+evidencia:
+  fontes_verificadas_nesta_execucao:
+    - >
+      Jason Dana, Robyn Dawes e Nathanial Peterson, Belief in the unstructured
+      interview: The persistence of an illusion, Judgment and Decision Making,
+      8(5), 512-520, 2013, DOI 10.1017/S1930297500003612. Registro do artigo lido
+      em cambridge.org, com o resumo literal, o desenho dos 3 estudos (76, 64 e
+      169 participantes), a condição de resposta sorteada e os valores de
+      validade 0,65 sem entrevista contra 0,31 com entrevista, t(73) igual a
+      3,77, p menor que 0,05.
+    - >
+      Paul R. Sackett, Charlene Zhang, Christopher M. Berry e Filip Lievens,
+      Revisiting meta-analytic estimates of validity in personnel selection,
+      Journal of Applied Psychology, 107(11), 2040-2068, 2022. Valores conferidos
+      no texto integral de Berry, Lievens, Zhang e Sackett, Insights from an
+      Updated Personnel Selection Meta-analytic Matrix, lido em
+      filiplievens.squarespace.com, com o trecho literal que registra 0,42 para
+      entrevista com roteiro e 0,31 para teste de capacidade cognitiva, e a
+      conclusão de que o teste deixou de ser o preditor mais forte.
+  limite_declarado: >
+    O estudo de 2013 é de laboratório, com estudantes prevendo nota de colegas, e
+    a revisão de 2022 agrega processos de seleção maiores que os de um escritório
+    pequeno. A peça declara a ponte como leitura da Zionaxs, no slide 6 e na
+    legenda, e não atribui os 4 passos aos autores. A peça também declara, no
+    slide 6, que 0,42 está longe de 1: roteiro erra bastante, só erra menos.
+  simplificacao_declarada: >
+    Os valores 0,65, 0,31 e 0,42 são correlações. A peça os apresenta como escala
+    em que 1 seria o acerto perfeito, que é paráfrase para leitor leigo, não a
+    definição estatística completa. A simplificação está registrada nos limites
+    do research_brief e em caption_sources.
+
+producao:
+  gates: 14/14
+  digest: 63f95e53979fccc8
+  geracoes: 4
+  correcoes:
+    - >
+      Os 14 gates ficaram verdes já na primeira geração. Todas as correções vieram
+      da revisão humana do passo 6, que nenhum gate mede.
+    - >
+      A foto do slide 2 saía como um retângulo quase todo preto, com a cadeira
+      pequena e cortada no rodapé. As 2 primeiras tentativas de corrigir por
+      contrato não mudaram 1 pixel, e a causa é de template: o layout
+      poster-scene monta a foto em `.pblock img` com object-fit cover e sem
+      object-position, então ele IGNORA photo.pos, photo.scale e photo.origin.
+      Só os campos escuros (poster-cover e poster-close) usam .pbgwrap e
+      respeitam esses 3 campos. Aprendizado novo, registrado na direção visual.
+    - >
+      Correção aplicada: recortar o arquivo da foto para a janela desejada, na
+      proporção 380 por 440 do quadro do layout, e deixar o contrato com pos
+      neutro. A cadeira passou a ocupar o quadro e o tampo branco ficou embaixo.
+      O alt do slide 2 foi reescrito junto, porque o copo de café saiu do
+      enquadramento e descrevê-lo seria falso.
+
+fotos:
+  - arquivo: foto-cadeira-janela-noite.jpg
+    autor: Eddie Wingertsahn (Unsplash)
+    cena: cadeira dobrável vazia diante de uma janela à noite, a cadeira do candidato
+  - arquivo: foto-cadeira-cafe-mesa.jpg
+    autor: minho jeong (Unsplash)
+    cena: encosto de cadeira vazia atrás de uma mesa branca, a conversa que acabou
+    nota: arquivo recortado nesta execução para a janela do layout, ver correções
+  - arquivo: foto-folha-em-branco.jpg
+    autor: Kelly Sikkema (Unsplash)
+    cena: folha em branco sobre mesa de madeira, as 5 perguntas ainda por escrever
+  regra_de_rosto: nenhuma das 3 fotos tem pessoa em quadro
+
+vizinhanca_editorial:
+  peca: zx-26-o-erro-que-volta (31/08/2026)
+  nota: >
+    A zx-26 defendeu trocar o pedido de atenção pelo desenho da tarefa, com
+    Shigeo Shingo e o poka-yoke. A zx-44 divide com ela a família de ideia "não
+    confie na disposição da pessoa no momento", e não repete a peça: lá o assunto
+    é erro de execução em tarefa repetida, e a saída é o dispositivo acoplado à
+    tarefa; aqui o assunto é uma decisão que acontece poucas vezes por ano, a
+    evidência é de validade de previsão e não de qualidade de processo, e a saída
+    é um roteiro comparável entre candidatos. A zx-26 inclusive deixa a
+    conferência e a conversa como resíduo, que é onde esta peça entra.

@@ -1,0 +1,336 @@
+{
+  "id": "zx-44-a-conversa-boa-engana",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e é a pessoa que decide quem entra na equipe, normalmente sem área de gente e sem processo escrito. Secundário nenhum: a cena é escrita para que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a pessoa conversa 1 hora com quem quer a vaga, sai com a sensação de que conheceu bem a pessoa, contrata por essa sensação e 3 meses depois descobre que a entrega não vem. Slot editorial: tarde de dia útil, papel de conteúdo principal, então a peça precisa entregar método e evidência, e não só a tensão.",
+    "decisao": "Parar de decidir contratação pela impressão que a conversa livre deixou e passar a usar um roteiro fixo. Na prática: escrever as perguntas antes de ver o primeiro currículo, fazer as mesmas perguntas para todo mundo, pedir 1 tarefa pequena e paga igual para todos, dar nota logo depois de cada conversa e só comparar as notas no fim.",
+    "tensao": "Quem contrata acredita que a conversa livre revela a pessoa, e é justamente por ser livre que ela engana. O efeito medido é mais duro do que parece: a entrevista solta não apenas deixou de ajudar, ela piorou a previsão de quem já tinha informação boa na mão. E os entrevistadores não perceberam nada de errado quando as respostas foram sorteadas.",
+    "evidencia": [
+      {
+        "claim": "existe um estudo de 2013 de Jason Dana, Robyn Dawes e Nathanial Peterson sobre a crença na entrevista não estruturada, publicado na revista Judgment and Decision Making",
+        "status": "E",
+        "fonte": "Jason Dana, Robyn Dawes e Nathanial Peterson, Belief in the unstructured interview: The persistence of an illusion, Judgment and Decision Making, volume 8, número 5, páginas 512 a 520, 2013, DOI 10.1017/S1930297500003612. Dados bibliográficos e resumo conferidos nesta execução no registro do artigo em https://www.cambridge.org/core/journals/judgment-and-decision-making/article/belief-in-the-unstructured-interview-the-persistence-of-an-illusion/5BBA77932EF22EBEAA1E8020126A1925"
+        },
+      {
+        "claim": "esse estudo tem 3 experimentos e investiga 2 mecanismos, o de dar sentido a qualquer coisa que o entrevistado diga e o de diluir a informação boa com informação disponível mas sem valor de previsão",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução, com o trecho literal do resumo: \"In three studies, we investigated the propensity for 'sensemaking' - the ability for interviewers to make sense of virtually anything the interviewee says - and 'dilution' - the tendency for available but non-diagnostic information to weaken the predictive value of quality information.\""
+      },
+      {
+        "claim": "no primeiro experimento, a previsão da nota de colegas feita só com o histórico escolar teve correlação de 0,65 com a nota real, e a previsão feita com o histórico mais a entrevista livre caiu para 0,31, com a diferença dando estatisticamente significativa",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução: validade de 0,65 usando apenas a nota anterior contra 0,31 com entrevista, t(73) igual a 3,77, p menor que 0,05. Estudo 1 com 76 estudantes de graduação; estudo 2 com 64; estudo 3 com 169."
+      },
+      {
+        "claim": "em uma das condições desse estudo o entrevistado respondia por sorteio, e os participantes formaram impressão da entrevista com a mesma confiança de quando as respostas eram verdadeiras",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução: em uma condição do estudo 1 a entrevista era sem sentido, porque o entrevistado respondia com um sistema de resposta aleatória, e os participantes formaram impressões com a mesma confiança das entrevistas reais. O estudo 3 registra ainda que os participantes preferem entrevista aleatória a nenhuma entrevista."
+      },
+      {
+        "claim": "na revisão meta-analítica de Paul Sackett, Charlene Zhang, Christopher Berry e Filip Lievens, de 2022, a entrevista com roteiro fixo tem validade de 0,42 para prever desempenho no trabalho e o teste de capacidade cognitiva tem 0,31, ou seja, o teste deixou de ser o método mais forte",
+        "status": "E",
+        "fonte": "Paul R. Sackett, Charlene Zhang, Christopher M. Berry e Filip Lievens, Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range, Journal of Applied Psychology, volume 107, número 11, páginas 2040 a 2068, 2022. Números conferidos nesta execução no texto integral de Berry, Lievens, Zhang e Sackett, Insights from an Updated Personnel Selection Meta-analytic Matrix, lido em https://filiplievens.squarespace.com/s/APL-2022-4078_R3.pdf, com o trecho literal: \"Sackett et al.'s (2022) validities for those same selection methods were .38, .31, .19, .42, and .31. In particular, note that the validity for GMA tests is reduced from .52 to .31 and that GMA tests are no longer the strongest predictor of job performance, but instead lag behind structured interviews and biodata.\""
+      },
+      {
+        "claim": "a contratação em um negócio de serviço brasileiro, com 1 vaga e poucos candidatos, funciona do mesmo jeito que a seleção medida nesses estudos",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. O estudo de 2013 mediu estudantes prevendo nota de colegas em laboratório, e a revisão de 2022 agrega estudos de seleção em empresas, a maioria fora do Brasil e em processos com muitos candidatos. Nenhum mediu escritório de serviço brasileiro contratando 1 pessoa. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, a revista, o volume, o número, as páginas e o ano do estudo de 2013",
+        "os 3 experimentos e os 2 mecanismos que o resumo publicado declara",
+        "os 0,65 sem entrevista e os 0,31 com entrevista, e a significância estatística da diferença",
+        "a condição de resposta sorteada e a confiança igual dos participantes",
+        "os 0,42 da entrevista com roteiro e os 0,31 do teste de capacidade cognitiva na revisão de 2022"
+      ],
+      "I": [
+        "a leitura de que a contratação de um negócio de serviço brasileiro funciona como a seleção medida nesses estudos",
+        "a leitura de que a sensação de ter conhecido a pessoa na conversa é justamente o sinal de que a conversa livre está atrapalhando"
+      ],
+      "H": [
+        "os 4 passos como roteiro mínimo de contratação em negócio de serviço",
+        "a escolha de 5 perguntas e de nota de 1 a 5 como tamanhos iniciais",
+        "a tarefa pequena e paga com enunciado igual para todos como forma prática de comparar trabalho, e não conversa"
+      ],
+      "NC": [
+        "quantas contratações por ano faz um negócio de serviço brasileiro de porte pequeno, porque não existe levantamento conhecido desse recorte",
+        "quanto do custo de uma contratação errada vem da escolha e quanto vem da falta de integração depois, porque ninguém separou as 2 causas nesse contexto"
+      ]
+    },
+    "limites": [
+      "O estudo de 2013 mediu estudantes de graduação prevendo a nota de colegas, com entrevistas de laboratório. Ele não mede contratação de empresa, não mede desempenho no trabalho e a peça não afirma que mede.",
+      "Os 0,65 e os 0,31 são correlações. A peça os apresenta como escala em que 1 seria o acerto perfeito, que é paráfrase para leitor leigo e não a definição estatística completa.",
+      "A revisão de 2022 agrega estudos de seleção majoritariamente fora do Brasil e em processos com volume de candidatos maior que o de um escritório pequeno.",
+      "Os 4 passos, as 5 perguntas e a nota de 1 a 5 são adaptação editorial da Zionaxs. Eles não saem das fontes e não têm medida própria, e a peça declara isso.",
+      "A peça não promete acerto na contratação nem redução de rotatividade. Ela trata de 1 coisa: por que a conversa livre atrapalha e o que colocar no lugar dela.",
+      "A peça não trata de salário, de descrição de vaga nem de integração depois da entrada. O passo 2 encosta na descrição da vaga sem entrar nela."
+    ]
+  },
+  "tese": "A conversa livre com quem quer a vaga não é neutra: ela atrapalha. Em experimento, a previsão feita só com o histórico acertou 0,65 e a feita com histórico mais entrevista livre caiu para 0,31, e os entrevistadores continuaram confiantes mesmo quando as respostas eram sorteadas. O que prevê desempenho é a entrevista com roteiro fixo, hoje o método mais forte da literatura de seleção.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A nota 19c não tem linha para contratação ou seleção de pessoas: M14 trata de intake com critério, e o critério ali é para aceitar ou recusar caso de cliente, não candidato; M19 trata de dependência de pessoa-chave, com a saída em limites de decisão, que foi território da zx-21. O assunto desta peça é como decidir quem entra na equipe, e nenhuma linha da matriz cobre isso. Declarar M14 seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para decisão de contratação em negócio de serviço vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c não tem linha para julgamento clínico, previsão ou seleção de pessoas: R9, de W. Edwards Deming, chega perto ao tratar de decisão com medida em vez de opinião, mas ele trata de variação em processo produtivo e não da validade de um método de previsão sobre pessoas. A fonte desta peça, portanto, é externa ao ledger, e a proposta de acrescentar a linha de previsão e julgamento, com Jason Dana, Robyn Dawes e Nathanial Peterson em 2013 e Paul Sackett e colegas em 2022, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF5",
+    "JS1"
+  ],
+  "cta": "Abrir um documento hoje e escrever 5 perguntas sobre situações reais do trabalho, para usar as mesmas 5 com todo candidato da próxima vaga.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela correção da crença de que a conversa boa revela a pessoa, ver a cena da impressão que se forma sozinha, receber o dado de que a entrevista livre piorou a previsão, virar para a causa, que é a falta de roteiro e não a entrevista em si, receber os 4 passos aplicáveis na próxima vaga, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo bloco de números.",
+  "internal_metadata": [
+    "zx-44",
+    "JF5",
+    "JS1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Frame",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo. A nota específica desta peça é procurar uma faixa com pulso claro e marcado, quase metronômico, de textura seca: o assunto é trocar impressão por método, e trilha com pulso regular soa como o próprio roteiro que a peça está defendendo. Combina com o slot da tarde, que pede conteúdo principal, então vale uma faixa mais grave e mais firme que a da manhã.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda faixa de tom acolhedor ou emotivo, do tipo que acompanha vídeo institucional de equipe: o texto está dizendo que a simpatia engana, e trilha simpática briga com ele.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso regular e intensidade estável que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-43 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada e textura contínua sem ataques. Aqui o pedido acrescenta 1 restrição nova: nada de trilha calorosa de vídeo institucional."
+  },
+  "caption": [
+    "A conversa boa engana.",
+    "Você conversa com quem quer a vaga, sai com uma impressão forte e decide por ela. O problema é que a conversa livre não é informação neutra: ela entra na sua cabeça e empurra para o lado o que você já sabia.",
+    "Isso foi medido. Em 2013, os pesquisadores Jason Dana, Robyn Dawes e Nathanial Peterson publicaram na revista Judgment and Decision Making um trabalho com 3 experimentos. Estudantes previram a nota de colegas. Só com o histórico, acertaram 0,65 em uma escala em que 1 seria o acerto perfeito. Com o histórico mais uma entrevista livre, caíram para 0,31.",
+    "A conversa não somou, subtraiu. E tem uma parte pior: em uma das condições, o entrevistado respondia por sorteio. Os participantes não perceberam e formaram impressão com a mesma confiança de sempre.",
+    "O problema não é entrevistar, é perguntar solto. Na revisão de 2022 do pesquisador Paul Sackett e colegas, publicada no Journal of Applied Psychology, a entrevista com roteiro fixo fica em 0,42 para prever desempenho no trabalho, à frente do teste de capacidade cognitiva, em 0,31. Ela é hoje o método mais forte da lista.",
+    "Na prática, 4 passos. 1: escreva 5 perguntas antes de ver o primeiro currículo e faça as mesmas 5 para todo mundo. 2: peça 1 tarefa pequena e paga, parecida com o trabalho real, com o mesmo enunciado para todos. 3: dê nota de 1 a 5 por pergunta logo depois de cada conversa, antes de comentar com alguém. 4: só compare as notas no fim, com todos entrevistados.",
+    "Um cuidado antes de começar: o estudo de 2013 é de laboratório e a revisão de 2022 agrega processos maiores que os de um escritório pequeno, então a ponte para a sua contratação é leitura da Zionaxs. Os 4 passos também são adaptação nossa, e não recomendação dos autores.",
+    "Comece hoje. Abra um documento e escreva as 5 perguntas da próxima vaga."
+  ],
+  "caption_sources": [
+    "Fonte do mecanismo e dos números da entrevista livre: Jason Dana, Robyn Dawes e Nathanial Peterson, Belief in the unstructured interview: The persistence of an illusion, Judgment and Decision Making, volume 8, número 5, páginas 512 a 520, 2013, DOI 10.1017/S1930297500003612. Registro conferido nesta execução em https://www.cambridge.org/core/journals/judgment-and-decision-making/article/belief-in-the-unstructured-interview-the-persistence-of-an-illusion/5BBA77932EF22EBEAA1E8020126A1925",
+    "Trecho literal do resumo de 2013, conferido nesta execução: \"In three studies, we investigated the propensity for 'sensemaking' - the ability for interviewers to make sense of virtually anything the interviewee says - and 'dilution' - the tendency for available but non-diagnostic information to weaken the predictive value of quality information.\"",
+    "Números conferidos no mesmo registro: validade de 0,65 prevendo a nota apenas com o histórico anterior contra 0,31 com a entrevista, t(73) igual a 3,77, p menor que 0,05; 76 participantes no estudo 1, 64 no estudo 2 e 169 no estudo 3; em uma condição do estudo 1 o entrevistado respondia por sistema de resposta aleatória e os participantes formaram impressões com a mesma confiança.",
+    "Fonte dos números da entrevista com roteiro: Paul R. Sackett, Charlene Zhang, Christopher M. Berry e Filip Lievens, Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range, Journal of Applied Psychology, volume 107, número 11, páginas 2040 a 2068, 2022.",
+    "Valores conferidos nesta execução no texto integral de Berry, Lievens, Zhang e Sackett, Insights from an Updated Personnel Selection Meta-analytic Matrix, lido em https://filiplievens.squarespace.com/s/APL-2022-4078_R3.pdf, com o trecho literal: \"Sackett et al.'s (2022) validities for those same selection methods were .38, .31, .19, .42, and .31. In particular, note that the validity for GMA tests is reduced from .52 to .31 and that GMA tests are no longer the strongest predictor of job performance, but instead lag behind structured interviews and biodata.\"",
+    "Recorte e limitação: o estudo de 2013 mediu estudantes de graduação prevendo nota de colegas em laboratório, não empresa contratando; a revisão de 2022 agrega estudos de seleção majoritariamente fora do Brasil e em processos com mais candidatos que os de um escritório pequeno. Por isso a peça não afirma percentual nenhum sobre contratação em negócio de serviço e trata a passagem para esse contexto como leitura, não como medida.",
+    "Os valores 0,65, 0,31 e 0,42 são correlações. A peça os descreve como escala em que 1 seria o acerto perfeito, o que é paráfrase para leitor leigo e não a definição estatística completa.",
+    "Os 4 passos, as 5 perguntas e a nota de 1 a 5 são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: o ledger da nota 19c da Zionaxs não tem linha para previsão, julgamento ou seleção de pessoas, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Eddie Wingertsahn, minho jeong e Kelly Sikkema, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A escolha",
+      "copy": {
+        "title": "A conversa\nboa engana.",
+        "accentLine": "E atrapalha.",
+        "hl": "E atrapalha.",
+        "sub": "Você conversa com quem quer a vaga, sai com uma impressão forte e decide por ela. Em experimento controlado, essa conversa não somou informação: ela piorou a previsão de quem já tinha o histórico na mão.",
+        "year": "2026",
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d · foto: Eddie Wingertsahn"
+      },
+      "approved_visible_copy": [
+        "A escolha",
+        "01/07",
+        "A conversa boa engana.",
+        "E atrapalha.",
+        "Você conversa com quem quer a vaga, sai com uma impressão forte e decide por ela. Em experimento controlado, essa conversa não somou informação: ela piorou a previsão de quem já tinha o histórico na mão.",
+        "2026",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d · foto: Eddie Wingertsahn"
+      ],
+      "alt": "Slide 1 de 7. A conversa boa engana, e atrapalha. Você conversa com quem quer a vaga, sai com uma impressão forte e decide por ela. Em experimento controlado, essa conversa não somou informação: ela piorou a previsão de quem já tinha o histórico na mão. Fotografia escura de uma cadeira dobrável vazia diante de uma janela à noite, com luzes quentes da rua ao fundo, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-cadeira-janela-noite.jpg",
+        "pos": "45% 50%",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "A gente\nse deu\nbem."
+        ],
+        "closing": "Você sai da conversa com certeza sobre a pessoa. Em 2013, os pesquisadores Jason Dana, Robyn Dawes e Nathanial Peterson levaram essa certeza para o laboratório, em 3 experimentos, e o resultado foi o contrário do esperado.",
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d · foto: minho jeong"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "A gente se deu bem.",
+        "Você sai da conversa com certeza sobre a pessoa. Em 2013, os pesquisadores Jason Dana, Robyn Dawes e Nathanial Peterson levaram essa certeza para o laboratório, em 3 experimentos, e o resultado foi o contrário do esperado.",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d · foto: minho jeong"
+      ],
+      "alt": "Slide 2 de 7. A gente se deu bem. Você sai da conversa com certeza sobre a pessoa. Em 2013, os pesquisadores Jason Dana, Robyn Dawes e Nathanial Peterson levaram essa certeza para o laboratório, em 3 experimentos, e o resultado foi o contrário do esperado. Papel claro com fotografia em preto e branco do encosto de uma cadeira vazia atrás de uma mesa branca, em fundo escuro, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-cadeira-cafe-mesa.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Com a conversa,",
+          "acertaram menos."
+        ],
+        "closing": "Estudantes previram a nota de colegas. Só com o histórico, acertaram 0,65 em uma escala em que 1 seria o acerto perfeito. Com o histórico mais a entrevista livre, caíram para 0,31. A conversa não somou, subtraiu.",
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Com a conversa,",
+        "acertaram menos.",
+        "Estudantes previram a nota de colegas. Só com o histórico, acertaram 0,65 em uma escala em que 1 seria o acerto perfeito. Com o histórico mais a entrevista livre, caíram para 0,31. A conversa não somou, subtraiu.",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d"
+      ],
+      "alt": "Slide 3 de 7. Com a conversa, acertaram menos. Estudantes previram a nota de colegas. Só com o histórico, acertaram 0,65 em uma escala em que 1 seria o acerto perfeito. Com o histórico mais a entrevista livre, caíram para 0,31. A conversa não somou, subtraiu."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "O problema\nnão é\nentrevistar.",
+        "accent": "É perguntar solto.",
+        "hl": "É perguntar solto.",
+        "ghost": "42",
+        "year": "2026",
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d",
+        "body": "No mesmo estudo, os entrevistadores não perceberam quando as respostas foram sorteadas: seguiram confiantes. O que prevê desempenho é a entrevista com roteiro. Na revisão de 2022 do pesquisador Paul Sackett e colegas, ela fica em 0,42, à frente do teste de capacidade cognitiva, em 0,31."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O problema não é entrevistar.",
+        "É perguntar solto.",
+        "2026",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d",
+        "No mesmo estudo, os entrevistadores não perceberam quando as respostas foram sorteadas: seguiram confiantes. O que prevê desempenho é a entrevista com roteiro. Na revisão de 2022 do pesquisador Paul Sackett e colegas, ela fica em 0,42, à frente do teste de capacidade cognitiva, em 0,31."
+      ],
+      "alt": "Slide 4 de 7. O problema não é entrevistar, é perguntar solto. No mesmo estudo, os entrevistadores não perceberam quando as respostas foram sorteadas: seguiram confiantes. O que prevê desempenho é a entrevista com roteiro. Na revisão de 2022 do pesquisador Paul Sackett e colegas, ela fica em 0,42, à frente do teste de capacidade cognitiva, em 0,31. Campo laranja chapado com o número 42 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O roteiro em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escreva 5 perguntas antes de ver o primeiro currículo e faça as mesmas 5 para todo mundo."
+          },
+          {
+            "num": "2",
+            "label": "Peça 1 tarefa pequena e paga, parecida com o trabalho real, com o mesmo enunciado para todos."
+          },
+          {
+            "num": "3",
+            "label": "Dê nota de 1 a 5 por pergunta logo depois de cada conversa, antes de comentar com alguém."
+          },
+          {
+            "num": "4",
+            "label": "Só compare as notas no fim, com todos entrevistados, e decida pela soma."
+          }
+        ],
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O roteiro em 4 passos.",
+        "1",
+        "Escreva 5 perguntas antes de ver o primeiro currículo e faça as mesmas 5 para todo mundo.",
+        "2",
+        "Peça 1 tarefa pequena e paga, parecida com o trabalho real, com o mesmo enunciado para todos.",
+        "3",
+        "Dê nota de 1 a 5 por pergunta logo depois de cada conversa, antes de comentar com alguém.",
+        "4",
+        "Só compare as notas no fim, com todos entrevistados, e decida pela soma.",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d"
+      ],
+      "alt": "Slide 5 de 7. O roteiro em 4 passos. 1: escreva 5 perguntas antes de ver o primeiro currículo e faça as mesmas 5 para todo mundo. 2: peça 1 tarefa pequena e paga, parecida com o trabalho real, com o mesmo enunciado para todos. 3: dê nota de 1 a 5 por pergunta logo depois de cada conversa, antes de comentar com alguém. 4: só compare as notas no fim, com todos entrevistados, e decida pela soma. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Não é para\nrobotizar.",
+        "accent": "É para comparar.",
+        "body": "O estudo de 2013 mediu estudantes prevendo nota, não empresa contratando. E 0,42 está longe de 1: roteiro erra bastante, só erra menos. A ponte para a sua contratação é leitura da Zionaxs.",
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Não é para robotizar.",
+        "É para comparar.",
+        "O estudo de 2013 mediu estudantes prevendo nota, não empresa contratando. E 0,42 está longe de 1: roteiro erra bastante, só erra menos. A ponte para a sua contratação é leitura da Zionaxs.",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d"
+      ],
+      "alt": "Slide 6 de 7. Não é para robotizar, é para comparar. O estudo de 2013 mediu estudantes prevendo nota, não empresa contratando. E 0,42 está longe de 1: roteiro erra bastante, só erra menos. A ponte para a sua contratação é leitura da Zionaxs."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escreva as\n5 perguntas.",
+        "hl": "Escreva as",
+        "accent": "Antes da vaga.",
+        "body": "Abra um documento agora e escreva 5 perguntas sobre situações reais do trabalho. Use as mesmas 5 com todo candidato e dê nota logo depois de cada conversa. Você passa a comparar respostas, e não impressões.",
+        "year": "2026",
+        "temas": "Temas: Contratação / Entrevista / Decisão",
+        "micro": "@zionaxs_ · ref fcebab2d · foto: Kelly Sikkema"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escreva as 5 perguntas.",
+        "Antes da vaga.",
+        "Abra um documento agora e escreva 5 perguntas sobre situações reais do trabalho. Use as mesmas 5 com todo candidato e dê nota logo depois de cada conversa. Você passa a comparar respostas, e não impressões.",
+        "2026",
+        "Temas: Contratação / Entrevista / Decisão",
+        "@zionaxs_ · ref fcebab2d · foto: Kelly Sikkema"
+      ],
+      "alt": "Slide 7 de 7. Escreva as 5 perguntas, antes da vaga. Abra um documento agora e escreva 5 perguntas sobre situações reais do trabalho. Use as mesmas 5 com todo candidato e dê nota logo depois de cada conversa. Você passa a comparar respostas, e não impressões. Fotografia escura de uma folha em branco de papel escuro sobre uma mesa de madeira rústica, vista de cima, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-folha-em-branco.jpg",
+        "pos": "50% 50%",
+        "scale": 1.15,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

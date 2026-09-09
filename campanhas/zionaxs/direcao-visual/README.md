@@ -172,6 +172,19 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   encosto**, lembrando que isso não é garantia e que a correção definitiva continua sendo estreitar o corpo do
   `poster-statement` no template, decisão de direção visual que nenhuma sessão deve tomar sozinha. **Nenhum gate mede
   isso**, e os 14 ficaram verdes nas 2 gerações, com anel encostado e sem.
+- **`photo.pos`, `photo.scale` e `photo.origin` só valem nos campos escuros. O `poster-scene` ignora os 3.**
+  Aprendido na zx-44, 09/09/2026. Todo o texto acima sobre crop descreve os layouts `poster-cover` e
+  `poster-close`, onde a foto vive em `.pbgwrap` com `.pbg` e o renderer aplica os 3 campos. No `poster-scene` a
+  foto é montada por `posterBleed` em `<div class="pblock"><img></div>`, e o CSS de `.pblock img` é
+  `width:100%;height:100%;object-fit:cover` **sem `object-position` e sem transform**: o recorte é sempre o
+  centro do arquivo, e mudar `pos`, `scale` ou `origin` no contrato não move 1 pixel. A armadilha é silenciosa,
+  porque o contrato aceita os campos, os 14 gates ficam verdes e a geração roda inteira sem reclamar; na zx-44
+  custou 2 gerações antes de a causa aparecer. **Enquanto o template não mudar, a correção de enquadramento no
+  `poster-scene` é recortar o arquivo da foto**, na proporção do quadro, que é 380x440, ou seja 0,864, e deixar o
+  contrato com `pos` neutro. Consequência para a escolha de foto: no `poster-scene` a foto tem de funcionar no
+  recorte central, então assunto encostado em uma borda do arquivo é descarte na folha de contato, e não problema
+  a resolver depois no contrato. Dar `object-position` ao `.pblock img` é decisão de direção visual, e nenhuma
+  sessão deve tomá-la sozinha.
 - **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
   isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
   e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de
