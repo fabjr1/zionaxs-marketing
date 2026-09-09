@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-43-a-interrupcao-nao-e-o-minuto",
+  "generatedAt": "2026-09-09T11:45:55+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-01.png",
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-02.png",
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-03.png",
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-04.png",
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-05.png",
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-06.png",
+    "zx-43-a-interrupcao-nao-e-o-minuto-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A interrupção 01/07 Não são 5 minutos. É o que fica. Quando alguém interrompe, o custo não é o tempo da conversa. Parte da sua cabeça continua na tarefa anterior, e é essa parte que faz você reler o mesmo trecho 3 vezes quando volta. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903 · foto: Advaith Narayan"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Só uma pergunta rápida. Você está no meio de um trabalho que exige cabeça e alguém pede 1 minuto. Em 2009, a pesquisadora Sophie Leroy mostrou em 2 experimentos que, para ir bem na tarefa seguinte, a pessoa precisa parar de pensar na anterior. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903 · foto: Giorgio Trovato"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Interrompido, foi mais rápido. Em 2008, os pesquisadores Gloria Mark, Daniela Gudith e Ulrich Klocke testaram 48 pessoas em uma tarefa de e-mail. Sem interrupção, elas levaram 22,77 minutos. Interrompidas, 20,31. Mesma qualidade, e respostas mais curtas. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 O preço não é tempo. É desgaste. No mesmo estudo, quem foi interrompido relatou mais estresse, mais frustração, mais pressão de tempo e mais esforço. Em uma escala de 1 a 20, o estresse foi de 6,92 para 9,46. Segundo os autores, quem é interrompido acelera para compensar o tempo que sabe que vai perder, e paga a conta em desgaste. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O corte em 4 passos. 1Antes de sair de uma tarefa, escreva 1 linha: onde parou e qual é o próximo passo. 2Junte as mensagens em 3 janelas fixas por dia, em vez de responder a cada apito. 3Reserve 1 bloco de 60 minutos por dia, sem mensagem, para o trabalho que exige cabeça. 4Quando o pedido puder virar recado, peça o recado e responda na janela seguinte. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Não é para parar tudo. É para agrupar. Os 2 estudos são de laboratório: 48 pessoas em uma tarefa de e-mail e experimentos de troca de tarefa. Nenhum mediu escritório em dia cheio, e a ponte para o seu dia é leitura da Zionaxs. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Antes de atender. Escreva 1 linha. Na próxima vez que alguém interromper, antes de responder escreva 1 linha dizendo onde você parou e qual é o próximo passo. Depois atenda. Quando voltar, você retoma do papel, e não da memória. Temas: Interrupção / Atenção / Rotina @zionaxs_ · ref 28527903 · foto: Avtar Singh"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.6,
+  "digest": "b1c5fc8de7a54fbf7c925bef46dd3a5b5b944b15fa2853e6fc71bb638d518e70"
+}

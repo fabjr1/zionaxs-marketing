@@ -1,0 +1,101 @@
+decisao: aprovar e publicar a zx-43, slot da manhã
+data: 2026-09-09
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0 de 2 do dia consumidos.
+  registro_anterior: pieces/zx-42-o-prazo-e-o-dia-perfeito/decisions/aprovacao-2026-09-08.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, quarta-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede a peça que faz o leitor parar, e não a que ensina tudo.
+    Por isso a entrada é uma correção de conta que quase todo mundo faz errado, e
+    o slide 3 carrega o dado contraintuitivo: em laboratório, o trabalho
+    interrompido saiu MAIS rápido. A utilidade continua presente, com 4 passos
+    aplicáveis hoje, mas o eixo é a descoberta.
+
+tema:
+  escolhido: >
+    a interrupção não custa os minutos que dura, custa o que fica na cabeça
+    depois dela; quem é interrompido acelera para compensar e paga a conta em
+    estresse, frustração, pressão de tempo e esforço, então a saída não é
+    acelerar, é cortar a quantidade de trocas
+  matriz: nenhuma declarada
+  jtbd: [JF4, JE4]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é descoberta, e o assunto tem um fato que contraria a
+    intuição: o estudo de 2008 mediu tarefa interrompida terminando em menos
+    tempo, com a mesma qualidade, e o preço aparecendo em autorrelato de
+    desgaste. O tema não repete nenhuma das 23 peças publicadas. A zx-35 tratou
+    do trabalho que se espalha até ocupar o prazo reservado, a zx-41 tratou da
+    fila que a agenda cheia cria e a zx-42 tratou da origem do número que vira
+    prazo. Nenhuma delas trata do custo de trocar de tarefa dentro da mesma
+    cabeça, que é o assunto aqui.
+  codigos_editoriais: >
+    Nenhum código de matriz e nenhum de repertório foram declarados, de
+    propósito. A nota 19c não tem linha para custo de interrupção e troca de
+    tarefa: M19 é dependência de pessoa-chave, com saída em alçada, e M01 é
+    leitura de capacidade, território da zx-41. O ledger de repertório também
+    não tem linha para atenção: R4, de Henry Mintzberg, descreve o dia
+    fragmentado do gestor, e não o custo cognitivo da troca. Declarar código que
+    a verificação A9 aceita, por medir existência e não pertinência, seria
+    exatamente o erro que a A9 existe para conter. As 2 propostas de linha nova
+    vão para a Inbox da Zionaxs Memory, para promoção humana.
+
+evidencia:
+  fontes_verificadas_nesta_execucao:
+    - >
+      Sophie Leroy, Why is it so hard to do my work? The challenge of attention
+      residue when switching between work tasks, Organizational Behavior and
+      Human Decision Processes, 109(2), 168-181, 2009. Resumo publicado e dados
+      bibliográficos lidos em ideas.repec.org.
+    - >
+      Gloria Mark, Daniela Gudith e Ulrich Klocke, The Cost of Interrupted Work:
+      More Speed and Stress, CHI 2008. Texto integral lido em
+      ics.uci.edu/~gmark/chi08-mark.pdf, com Tabela 1 (tempo de tarefa), Tabela 3
+      (carga, estresse, frustração, pressão de tempo e esforço em escala de 1 a
+      20) e a explicação dos autores na discussão.
+  limite_declarado: >
+    Os 2 estudos são de laboratório e nenhum mediu escritório de serviço em dia
+    cheio. A peça declara a ponte como leitura da Zionaxs, no slide 6 e na
+    legenda, e não atribui os 4 passos aos autores.
+
+producao:
+  gates: 14/14
+  digest: b1c5fc8de7a5
+  geracoes: 3
+  correcoes:
+    - >
+      G6 reprovou na primeira geração: o corpo do slide 4 terminava com
+      "perder." sozinho na última linha, a 14% da largura. Corrigido reescrevendo
+      a frase final, como manda a nota de direção visual, e não com quebra
+      autoral, que trocaria G6 vermelho por G7 vermelho.
+    - >
+      Revisão humana do passo 6, que nenhum gate mede: na capa, a faixa de luz da
+      porta caía no meio da banda de texto e a manchete em creme corria por cima
+      dela. Corrigido no contrato com pos "26% 50%", que leva a porta para o
+      terço superior direito e deixa a coluna de texto inteira sobre a área
+      escura. Os 14 gates ficaram verdes nas 3 gerações, inclusive na que saiu
+      com a tinta sobre a porta iluminada.
+
+fotos:
+  - arquivo: foto-porta-entreaberta.jpg
+    autor: Advaith Narayan (Unsplash)
+    cena: porta entreaberta com luz quente em cômodo escuro, a interrupção chegando
+  - arquivo: foto-telefone-mesa.jpg
+    autor: Giorgio Trovato (Unsplash)
+    cena: telefone fixo de mesa de escritório, o pedido de 1 minuto
+  - arquivo: foto-mesa-lampada-noite.jpg
+    autor: Avtar Singh (Unsplash)
+    cena: mesa de trabalho à noite, o trabalho ao qual se volta
+  regra_de_rosto: nenhuma das 3 fotos tem pessoa em quadro

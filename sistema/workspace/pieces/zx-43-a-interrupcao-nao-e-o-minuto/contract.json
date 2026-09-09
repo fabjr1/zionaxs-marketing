@@ -1,0 +1,341 @@
+{
+  "id": "zx-43-a-interrupcao-nao-e-o-minuto",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e é interrompido o dia inteiro porque quase tudo passa por ele. Secundário nenhum: a cena é escrita para que clínica, escritório contábil, banca de advocacia e agência se reconheçam sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a pessoa está no meio de um trabalho que exige cabeça, alguém pede 1 minuto, ela atende, e ao voltar relê o mesmo trecho 3 vezes antes de destravar. Slot editorial: manhã de dia útil, papel de descoberta e tensão atual, então a peça precisa entrar por um fato contraintuitivo e sair com 1 passo aplicável ainda hoje.",
+    "decisao": "Parar de medir o custo da interrupção pelo relógio e passar a tratar o que ela deixa para trás. Na prática: escrever 1 linha de onde parou antes de sair da tarefa, juntar as mensagens em 3 janelas fixas por dia e reservar 1 bloco de 60 minutos sem mensagem para o trabalho que exige cabeça.",
+    "tensao": "Quem toca um negócio de serviço calcula a interrupção como duração: foram 5 minutos, perdi 5 minutos. A conta que ninguém faz é a do resíduo, porque parte da atenção continua na tarefa anterior depois que a conversa acaba. E o efeito medido é ainda menos intuitivo: em laboratório, o trabalho interrompido saiu mais rápido, e o preço apareceu em estresse, frustração, pressão de tempo e esforço.",
+    "evidencia": [
+      {
+        "claim": "existe um estudo de 2009 de Sophie Leroy, publicado na revista Organizational Behavior and Human Decision Processes, sobre a dificuldade de transferir a atenção de uma tarefa para outra",
+        "status": "E",
+        "fonte": "Sophie Leroy, Why is it so hard to do my work? The challenge of attention residue when switching between work tasks, Organizational Behavior and Human Decision Processes, volume 109, número 2, páginas 168 a 181, 2009. Dados bibliográficos e resumo publicado conferidos nesta execução no registro do artigo em https://ideas.repec.org/a/eee/jobhdp/v109y2009i2p168-181.html"
+      },
+      {
+        "claim": "o resumo publicado desse estudo registra que, em 2 experimentos, as pessoas precisam parar de pensar em uma tarefa para transferir a atenção por inteiro e ir bem na tarefa seguinte, e que é difícil transferir a atenção para longe de uma tarefa não terminada, com prejuízo no desempenho seguinte",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução, com o trecho literal do resumo: \"As revealed by two experiments, people need to stop thinking about one task in order to fully transition their attention and perform well on another. Yet, results indicate it is difficult for people to transition their attention away from an unfinished task and their subsequent task performance suffers.\""
+      },
+      {
+        "claim": "existe um estudo de 2008 de Gloria Mark, Daniela Gudith e Ulrich Klocke, apresentado na conferência CHI da ACM, com 48 participantes em uma tarefa simulada de e-mail em laboratório",
+        "status": "E",
+        "fonte": "Gloria Mark, Daniela Gudith e Ulrich Klocke, The Cost of Interrupted Work: More Speed and Stress, Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2008. Texto integral recuperado e lido nesta execução em https://ics.uci.edu/~gmark/chi08-mark.pdf, com a frase literal do desenho: \"Forty-eight subjects participated.\""
+      },
+      {
+        "claim": "nesse estudo de 2008, a tarefa sem interrupção levou 22,77 minutos em média e as 2 condições com interrupção levaram 20,31 e 20,60 minutos, sem diferença de qualidade medida",
+        "status": "E",
+        "fonte": "Mesmo texto integral, conferido nesta execução na Tabela 1: baseline sem interrupção 22,77 minutos, interrupção de mesmo contexto 20,31 e de contexto diferente 20,60, com o resumo registrando literalmente \"people completed interrupted tasks in less time with no difference in quality\". O artigo também registra que as mensagens escritas ficaram mais curtas na condição sem interrupção, ou seja, quem foi interrompido escreveu menos."
+      },
+      {
+        "claim": "no mesmo estudo, quem foi interrompido relatou mais estresse, mais frustração, mais pressão de tempo e mais esforço, e o estresse médio foi de 6,92 sem interrupção para 9,46 na interrupção de mesmo contexto, em escala de 1 a 20",
+        "status": "E",
+        "fonte": "Mesmo texto integral, conferido nesta execução na Tabela 3, cuja legenda declara \"Scale is 1(low)-20 (high)\": estresse 6,92 no baseline, 9,46 na interrupção de mesmo contexto e 9,13 na de contexto diferente; frustração 4,73 contra 6,63 e 6,48; pressão de tempo 11,02 contra 12,69 e 12,17; esforço 9,50 contra 11,04 e 11,52. O resumo declara literalmente \"people compensate for interruptions by working faster, but this comes at a price: experiencing more stress, higher frustration, time pressure and effort\"."
+      },
+      {
+        "claim": "a explicação oferecida pelos próprios autores é que a pessoa constantemente interrompida passa a trabalhar mais rápido para compensar o tempo que sabe que vai perder",
+        "status": "E",
+        "fonte": "Mesmo texto integral, seção de discussão, com a frase literal: \"When people are constantly interrupted, they develop a mode of working faster (and writing less) to compensate for the time they know they will lose by being interrupted.\""
+      },
+      {
+        "claim": "a interrupção do dia de um negócio de serviço, com cliente, equipe e telefone, funciona do mesmo jeito que a troca de tarefa medida em laboratório",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. Os 2 estudos são de laboratório: 1 com estudantes em tarefa simulada de e-mail e outro com experimentos de troca de tarefa. Nenhum mediu escritório de serviço brasileiro em dia cheio. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, a revista, o volume, o número, as páginas e o ano do estudo de 2009",
+        "o que o resumo publicado do estudo de 2009 registra sobre precisar parar de pensar na tarefa anterior e sobre a dificuldade com tarefa não terminada",
+        "a existência, a autoria, o veículo, o ano e os 48 participantes do estudo de 2008",
+        "os 22,77 minutos sem interrupção, os 20,31 e 20,60 com interrupção e a ausência de diferença de qualidade",
+        "os valores de estresse, frustração, pressão de tempo e esforço, e a escala de 1 a 20 em que foram medidos",
+        "a explicação dos autores de que a pessoa passa a trabalhar mais rápido para compensar"
+      ],
+      "I": [
+        "a leitura de que a interrupção do dia de um negócio de serviço funciona do mesmo jeito que a troca de tarefa de laboratório",
+        "a leitura de que boa parte do desgaste atribuído ao volume de trabalho nasce na quantidade de trocas, e não na quantidade de horas"
+      ],
+      "H": [
+        "os 4 passos como corte mínimo de interrupção em negócio de serviço",
+        "a escolha de 3 janelas fixas de mensagem por dia e de 1 bloco de 60 minutos como tamanhos iniciais",
+        "a linha escrita antes de sair da tarefa como forma prática de retomar do papel em vez da memória"
+      ],
+      "NC": [
+        "quantas interrupções por dia recebe quem toca um negócio de serviço no Brasil, porque não existe levantamento conhecido desse recorte",
+        "quanto do atraso de uma entrega vem de troca de tarefa e quanto vem de espera por terceiro, porque ninguém separou as 2 causas nesse contexto"
+      ]
+    },
+    "limites": [
+      "O estudo de 2008 mediu 48 pessoas em uma tarefa simulada de e-mail em laboratório, com interrupções provocadas pelo experimentador. Ele não mede escritório de serviço, não mede dia inteiro e não mede cliente, e a peça não afirma que mede.",
+      "O estudo de 2009 mediu troca de tarefa em experimento controlado, não interrupção de cliente em rotina real.",
+      "Os números de estresse, frustração, pressão de tempo e esforço são autorrelato em escala de 1 a 20, não medida fisiológica.",
+      "Os 4 passos, as 3 janelas e o bloco de 60 minutos são adaptação editorial da Zionaxs. Eles não saem das fontes e não têm medida própria, e a peça declara isso.",
+      "A peça não promete ganho de produtividade, de prazo nem de faturamento. Ela trata de 1 coisa: onde está o custo da interrupção.",
+      "A peça não trata de delegação, de alçada nem de desenho de equipe. O passo 4 encosta nesse assunto sem entrar nele."
+    ]
+  },
+  "tese": "A interrupção não custa os minutos que ela dura: custa o que fica na sua cabeça depois dela. Isso tem medida, e a medida surpreende: em laboratório, quem foi interrompido terminou a tarefa mais rápido, com a mesma qualidade, e pagou a conta em estresse, que subiu de 6,92 para 9,46 em uma escala de 1 a 20. A saída não é acelerar, é cortar a quantidade de trocas.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A nota 19c não tem linha para o custo da interrupção e da troca de tarefa: M19 trata de dependência de pessoa-chave, com a saída em limites de decisão e cadência de gestão, e M01 trata de ler capacidade com o denominador certo, que foi território da zx-41. O assunto desta peça não é alçada nem ocupação, é o que sobra da tarefa anterior depois da troca. Declarar M19 seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para custo de interrupção e desenho de janelas de atenção vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c não tem linha para atenção, interrupção ou troca de tarefa: R4, de Henry Mintzberg, chega perto ao registrar que o cotidiano gerencial é fragmentado e reativo, mas ele descreve o formato do dia do gestor e não o custo cognitivo da troca, que é o que esta peça mede. A fonte desta peça, portanto, é externa ao ledger, e a proposta de acrescentar a linha de resíduo de atenção, com Sophie Leroy em 2009 e Gloria Mark, Daniela Gudith e Ulrich Klocke em 2008, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF4",
+    "JE4"
+  ],
+  "cta": "Na próxima vez que alguém interromper, antes de responder escrever 1 linha dizendo onde parou e qual é o próximo passo, e só então atender.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela correção da conta que todo mundo faz, ver a cena do pedido de 1 minuto e o mecanismo do resíduo, receber o dado contraintuitivo de que o trabalho interrompido saiu mais rápido, virar para onde o preço aparece de fato, receber os 4 passos aplicáveis hoje, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo bloco de números.",
+  "internal_metadata": [
+    "zx-43",
+    "JF4",
+    "JE4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Signal",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo. A nota específica desta peça é procurar uma faixa contínua e sem ataques marcados, de textura quase estática: o assunto é justamente a interrupção, e trilha com corte, batida seca ou entrada súbita de instrumento reproduz no ouvido o incômodo que o texto está explicando. Combina com o slot da manhã, que pede descoberta, então vale uma faixa mais clara e mais leve que a da tarde.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda qualquer faixa com efeito de notificação, telefone, alarme ou silêncio abrupto, que soa literal demais e vira piada em cima do próprio tema.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental contínua e de intensidade estável que atenda aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-42 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível e pulso uniforme sem ponto de virada. Aqui o pedido acrescenta 1 restrição nova: nada de ruído que imite notificação."
+  },
+  "caption": [
+    "Não são 5 minutos. É o que fica.",
+    "Quando alguém interrompe, o custo não é o tempo da conversa. Parte da sua cabeça continua na tarefa anterior, e é por isso que você relê o mesmo trecho 3 vezes quando volta.",
+    "Isso tem nome e tem estudo. Em 2009, a pesquisadora Sophie Leroy publicou na revista Organizational Behavior and Human Decision Processes um trabalho com 2 experimentos sobre troca de tarefa. O resultado: para ir bem na tarefa seguinte, a pessoa precisa parar de pensar na anterior, e tarefa deixada aberta torna isso difícil.",
+    "E tem um dado que surpreende. Em 2008, os pesquisadores Gloria Mark, Daniela Gudith e Ulrich Klocke testaram 48 pessoas em uma tarefa simulada de e-mail, em estudo apresentado na conferência CHI, da ACM. Sem interrupção, elas levaram 22,77 minutos. Interrompidas, 20,31. Mais rápido, com a mesma qualidade.",
+    "O preço apareceu em outro lugar. Quem foi interrompido relatou mais estresse, mais frustração, mais pressão de tempo e mais esforço. Em uma escala de 1 a 20, o estresse foi de 6,92 para 9,46. A explicação dos próprios autores é que a pessoa passa a trabalhar mais rápido para compensar o tempo que sabe que vai perder.",
+    "Na prática, 4 passos. 1: antes de sair de uma tarefa, escreva 1 linha com onde parou e qual é o próximo passo. 2: junte as mensagens em 3 janelas fixas por dia, em vez de responder a cada apito. 3: reserve 1 bloco de 60 minutos por dia, sem mensagem, para o trabalho que exige cabeça. 4: quando o pedido puder virar recado, peça o recado e responda na janela seguinte.",
+    "Um cuidado antes de começar: os 2 estudos são de laboratório e não mediram escritório em dia cheio, então a ponte para o seu dia é leitura da Zionaxs. Os 4 passos também são adaptação nossa, e não recomendação dos autores.",
+    "Comece hoje. Na próxima interrupção, escreva 1 linha antes de atender."
+  ],
+  "caption_sources": [
+    "Fonte do mecanismo: Sophie Leroy, Why is it so hard to do my work? The challenge of attention residue when switching between work tasks, Organizational Behavior and Human Decision Processes, volume 109, número 2, páginas 168 a 181, 2009. Dados e resumo conferidos nesta execução em https://ideas.repec.org/a/eee/jobhdp/v109y2009i2p168-181.html",
+    "Trecho literal do resumo de 2009, conferido nesta execução: \"As revealed by two experiments, people need to stop thinking about one task in order to fully transition their attention and perform well on another. Yet, results indicate it is difficult for people to transition their attention away from an unfinished task and their subsequent task performance suffers.\"",
+    "Fonte dos números: Gloria Mark, Daniela Gudith e Ulrich Klocke, The Cost of Interrupted Work: More Speed and Stress, Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2008. Texto integral lido nesta execução em https://ics.uci.edu/~gmark/chi08-mark.pdf",
+    "Números conferidos no texto integral: 48 participantes; tempo de tarefa de 22,77 minutos sem interrupção, 20,31 na interrupção de mesmo contexto e 20,60 na de contexto diferente, sem diferença de qualidade; estresse de 6,92 para 9,46 e 9,13, frustração de 4,73 para 6,63 e 6,48, pressão de tempo de 11,02 para 12,69 e 12,17, esforço de 9,50 para 11,04 e 11,52, em escala declarada de 1 a 20.",
+    "Explicação dos autores, conferida no mesmo texto: \"When people are constantly interrupted, they develop a mode of working faster (and writing less) to compensate for the time they know they will lose by being interrupted.\"",
+    "Recorte e limitação: os 2 estudos são de laboratório. O de 2008 usou tarefa simulada de e-mail com interrupções provocadas pelo experimentador, e o de 2009 mediu troca de tarefa em experimento controlado. Nenhum mediu escritório de serviço, e por isso a peça não afirma percentual nenhum sobre negócio de serviço e trata a passagem para esse contexto como leitura, não como medida.",
+    "Os 4 passos, as 3 janelas de mensagem e o bloco de 60 minutos são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: o ledger da nota 19c da Zionaxs não tem linha para atenção, interrupção ou troca de tarefa, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Advaith Narayan, Giorgio Trovato e Avtar Singh, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A interrupção",
+      "copy": {
+        "title": "Não são\n5 minutos.",
+        "accentLine": "É o que fica.",
+        "hl": "É o que fica.",
+        "sub": "Quando alguém interrompe, o custo não é o tempo da conversa. Parte da sua cabeça continua na tarefa anterior, e é essa parte que faz você reler o mesmo trecho 3 vezes quando volta.",
+        "year": "2026",
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903 · foto: Advaith Narayan"
+      },
+      "approved_visible_copy": [
+        "A interrupção",
+        "01/07",
+        "Não são 5 minutos.",
+        "É o que fica.",
+        "Quando alguém interrompe, o custo não é o tempo da conversa. Parte da sua cabeça continua na tarefa anterior, e é essa parte que faz você reler o mesmo trecho 3 vezes quando volta.",
+        "2026",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903 · foto: Advaith Narayan"
+      ],
+      "alt": "Slide 1 de 7. Não são 5 minutos, é o que fica. Quando alguém interrompe, o custo não é o tempo da conversa. Parte da sua cabeça continua na tarefa anterior, e é essa parte que faz você reler o mesmo trecho 3 vezes quando volta. Fotografia escura de uma porta entreaberta em um cômodo às escuras, com uma faixa de luz quente vindo do outro lado, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-porta-entreaberta.jpg",
+        "pos": "26% 50%",
+        "scale": 1.25,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Só uma\npergunta\nrápida."
+        ],
+        "closing": "Você está no meio de um trabalho que exige cabeça e alguém pede 1 minuto. Em 2009, a pesquisadora Sophie Leroy mostrou em 2 experimentos que, para ir bem na tarefa seguinte, a pessoa precisa parar de pensar na anterior.",
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903 · foto: Giorgio Trovato"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Só uma pergunta rápida.",
+        "Você está no meio de um trabalho que exige cabeça e alguém pede 1 minuto. Em 2009, a pesquisadora Sophie Leroy mostrou em 2 experimentos que, para ir bem na tarefa seguinte, a pessoa precisa parar de pensar na anterior.",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903 · foto: Giorgio Trovato"
+      ],
+      "alt": "Slide 2 de 7. Só uma pergunta rápida. Você está no meio de um trabalho que exige cabeça e alguém pede 1 minuto. Em 2009, a pesquisadora Sophie Leroy mostrou em 2 experimentos que, para ir bem na tarefa seguinte, a pessoa precisa parar de pensar na anterior. Papel claro com fotografia em preto e branco de um telefone fixo de mesa de escritório, com o fio enrolado ao lado.",
+      "photo": {
+        "src": "../assets/foto-telefone-mesa.jpg",
+        "pos": "50% 40%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Interrompido,",
+          "foi mais rápido."
+        ],
+        "closing": "Em 2008, os pesquisadores Gloria Mark, Daniela Gudith e Ulrich Klocke testaram 48 pessoas em uma tarefa de e-mail. Sem interrupção, elas levaram 22,77 minutos. Interrompidas, 20,31. Mesma qualidade, e respostas mais curtas.",
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Interrompido,",
+        "foi mais rápido.",
+        "Em 2008, os pesquisadores Gloria Mark, Daniela Gudith e Ulrich Klocke testaram 48 pessoas em uma tarefa de e-mail. Sem interrupção, elas levaram 22,77 minutos. Interrompidas, 20,31. Mesma qualidade, e respostas mais curtas.",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903"
+      ],
+      "alt": "Slide 3 de 7. Interrompido, foi mais rápido. Em 2008, os pesquisadores Gloria Mark, Daniela Gudith e Ulrich Klocke testaram 48 pessoas em uma tarefa de e-mail. Sem interrupção, elas levaram 22,77 minutos. Interrompidas, 20,31. Mesma qualidade, e respostas mais curtas."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "O preço\nnão é\ntempo.",
+        "accent": "É desgaste.",
+        "hl": "É desgaste.",
+        "ghost": "20",
+        "year": "2026",
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903",
+        "body": "No mesmo estudo, quem foi interrompido relatou mais estresse, mais frustração, mais pressão de tempo e mais esforço. Em uma escala de 1 a 20, o estresse foi de 6,92 para 9,46. Segundo os autores, quem é interrompido acelera para compensar o tempo que sabe que vai perder, e paga a conta em desgaste."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O preço não é tempo.",
+        "É desgaste.",
+        "2026",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903",
+        "No mesmo estudo, quem foi interrompido relatou mais estresse, mais frustração, mais pressão de tempo e mais esforço. Em uma escala de 1 a 20, o estresse foi de 6,92 para 9,46. Segundo os autores, quem é interrompido acelera para compensar o tempo que sabe que vai perder, e paga a conta em desgaste."
+      ],
+      "alt": "Slide 4 de 7. O preço não é tempo, é desgaste. No mesmo estudo, quem foi interrompido relatou mais estresse, mais frustração, mais pressão de tempo e mais esforço. Em uma escala de 1 a 20, o estresse foi de 6,92 para 9,46. Segundo os autores, quem é interrompido acelera para compensar o tempo que sabe que vai perder, e paga a conta em desgaste. Campo laranja chapado com o número 20 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O corte em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Antes de sair de uma tarefa, escreva 1 linha: onde parou e qual é o próximo passo."
+          },
+          {
+            "num": "2",
+            "label": "Junte as mensagens em 3 janelas fixas por dia, em vez de responder a cada apito."
+          },
+          {
+            "num": "3",
+            "label": "Reserve 1 bloco de 60 minutos por dia, sem mensagem, para o trabalho que exige cabeça."
+          },
+          {
+            "num": "4",
+            "label": "Quando o pedido puder virar recado, peça o recado e responda na janela seguinte."
+          }
+        ],
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O corte em 4 passos.",
+        "1",
+        "Antes de sair de uma tarefa, escreva 1 linha: onde parou e qual é o próximo passo.",
+        "2",
+        "Junte as mensagens em 3 janelas fixas por dia, em vez de responder a cada apito.",
+        "3",
+        "Reserve 1 bloco de 60 minutos por dia, sem mensagem, para o trabalho que exige cabeça.",
+        "4",
+        "Quando o pedido puder virar recado, peça o recado e responda na janela seguinte.",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903"
+      ],
+      "alt": "Slide 5 de 7. O corte em 4 passos. 1: antes de sair de uma tarefa, escreva 1 linha com onde parou e qual é o próximo passo. 2: junte as mensagens em 3 janelas fixas por dia, em vez de responder a cada apito. 3: reserve 1 bloco de 60 minutos por dia, sem mensagem, para o trabalho que exige cabeça. 4: quando o pedido puder virar recado, peça o recado e responda na janela seguinte. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Não é para\nparar tudo.",
+        "accent": "É para agrupar.",
+        "body": "Os 2 estudos são de laboratório: 48 pessoas em uma tarefa de e-mail e experimentos de troca de tarefa. Nenhum mediu escritório em dia cheio, e a ponte para o seu dia é leitura da Zionaxs.",
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Não é para parar tudo.",
+        "É para agrupar.",
+        "Os 2 estudos são de laboratório: 48 pessoas em uma tarefa de e-mail e experimentos de troca de tarefa. Nenhum mediu escritório em dia cheio, e a ponte para o seu dia é leitura da Zionaxs.",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903"
+      ],
+      "alt": "Slide 6 de 7. Não é para parar tudo, é para agrupar. Os 2 estudos são de laboratório: 48 pessoas em uma tarefa de e-mail e experimentos de troca de tarefa. Nenhum mediu escritório em dia cheio, e a ponte para o seu dia é leitura da Zionaxs."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Antes de\natender.",
+        "hl": "Antes de",
+        "accent": "Escreva 1 linha.",
+        "body": "Na próxima vez que alguém interromper, antes de responder escreva 1 linha dizendo onde você parou e qual é o próximo passo. Depois atenda. Quando voltar, você retoma do papel, e não da memória.",
+        "year": "2026",
+        "temas": "Temas: Interrupção / Atenção / Rotina",
+        "micro": "@zionaxs_ · ref 28527903 · foto: Avtar Singh"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Antes de atender.",
+        "Escreva 1 linha.",
+        "Na próxima vez que alguém interromper, antes de responder escreva 1 linha dizendo onde você parou e qual é o próximo passo. Depois atenda. Quando voltar, você retoma do papel, e não da memória.",
+        "2026",
+        "Temas: Interrupção / Atenção / Rotina",
+        "@zionaxs_ · ref 28527903 · foto: Avtar Singh"
+      ],
+      "alt": "Slide 7 de 7. Antes de atender, escreva 1 linha. Na próxima vez que alguém interromper, antes de responder escreva 1 linha dizendo onde você parou e qual é o próximo passo. Depois atenda. Quando voltar, você retoma do papel, e não da memória. Fotografia escura de uma mesa de madeira à noite, com um computador portátil fechado pela luz baixa e o brilho quente de uma luminária ao fundo, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-lampada-noite.jpg",
+        "pos": "60% 45%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}
