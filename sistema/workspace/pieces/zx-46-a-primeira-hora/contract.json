@@ -1,0 +1,336 @@
+{
+  "id": "zx-46-a-primeira-hora",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e recebe pedido de orçamento pela internet, por formulário do site, por mensagem direta ou por aplicativo de conversa: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a mensagem pedindo orçamento chega de manhã, a pessoa quer responder com capricho, junta os números, manda no fim do dia, e nesse intervalo quem respondeu em 10 minutos já conversou com o cliente. Slot editorial: tarde de dia útil, papel de conteúdo principal, então a peça precisa entregar diagnóstico, evidência e método aplicável, e não apenas um achado curioso.",
+    "decisao": "Parar de tratar a resposta a um pedido novo como tarefa que espera a proposta ficar pronta e passar a tratá-la como plantão com hora marcada. Na prática: definir quem responde em cada horário do dia, mandar em até 1 hora uma resposta curta que confirma o pedido e propõe horário de conversa, separar essa resposta do orçamento, e medir toda semana o tempo entre a mensagem nova e a primeira resposta.",
+    "tensao": "Quem entrega serviço acredita que perde o cliente no preço ou na proposta, e por isso investe em caprichar no documento antes de responder. O que foi medido em pedidos vindos da internet é outra coisa: a chance de conversar com quem decide cai de maneira acentuada com o tempo de resposta, e a maioria das empresas responde em uma escala de horas, não de minutos. O resultado desconfortável é que a demora de caprichar custa mais do que o capricho rende.",
+    "evidencia": [
+      {
+        "claim": "existe um artigo de 2011 de James Oldroyd, Kristina McElheran e David Elkington na Harvard Business Review sobre o tempo de resposta a pedidos vindos da internet",
+        "status": "E",
+        "fonte": "James B. Oldroyd, Kristina McElheran e David Elkington, The Short Life of Online Sales Leads, Harvard Business Review, edição de março de 2011, referência de produto F1103B. Registro conferido nesta execução na página oficial do artigo em hbr.org e no repositório institucional ScholarsArchive da Brigham Young University."
+      },
+      {
+        "claim": "nesse trabalho os autores auditaram 2.241 empresas dos Estados Unidos com um pedido de teste enviado pelo site, e entre as que responderam a primeira resposta levou 42 horas em média",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução. A auditoria cobriu 2.241 empresas dos Estados Unidos com um pedido de teste gerado pela web, e a média de primeira resposta entre as respondentes foi de 42 horas."
+      },
+      {
+        "claim": "na mesma auditoria, 37 por cento responderam em até 1 hora, 16 por cento entre 1 e 24 horas, 24 por cento levaram mais de 24 horas e 23 por cento não responderam",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução. Os 4 valores somam 100 por cento do universo de 2.241 empresas auditadas."
+      },
+      {
+        "claim": "os autores também analisaram 1,25 milhão de pedidos recebidos por 42 empresas dos Estados Unidos, sendo 29 que vendem para consumidor final e 13 que vendem para outras empresas",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução, com o trecho literal: \"a study of 1.25 million sales leads received by 29 B2C and 13 B2B companies in the U.S.\""
+      },
+      {
+        "claim": "nesse conjunto, tentar contato dentro de 1 hora deu quase 7 vezes mais chance de qualificar o pedido, definido como ter uma conversa de conteúdo com quem decide, do que tentar 1 hora depois, e mais de 60 vezes a chance de quem esperou 24 horas ou mais",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução, com o trecho literal: \"Firms that tried to contact potential customers within an hour of receiving a query were nearly seven times as likely to qualify the lead (which we defined as having a meaningful conversation with a key decision maker) as those that tried to contact the customer even an hour later and more than 60 times as likely as companies that waited 24 hours or longer.\""
+      },
+      {
+        "claim": "o mesmo padrão de tempo de resposta vale para o pedido de orçamento que chega em uma clínica, em um escritório contábil ou em uma banca de advocacia no Brasil",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. O artigo mediu pedidos comerciais vindos da internet em empresas dos Estados Unidos, com dados coletados até 2011, e não mediu negócio de serviço profissional brasileiro nem canal de aplicativo de conversa. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      },
+      {
+        "claim": "os 4 passos do slide 5, o teto de 1 hora como meta operacional e as 3 linhas da resposta curta",
+        "status": "NC",
+        "fonte": "Adaptação editorial da Zionaxs a partir do artigo. Os autores descrevem o efeito do tempo de resposta e as causas organizacionais da demora, e não prescrevem esse roteiro. A peça declara isso na legenda."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, o veículo, o mês e o ano do artigo de 2011",
+        "as 2.241 empresas auditadas e as 42 horas de média de primeira resposta entre as respondentes",
+        "os 37 por cento em até 1 hora, os 16 por cento entre 1 e 24 horas, os 24 por cento acima de 24 horas e os 23 por cento que não responderam",
+        "o 1,25 milhão de pedidos recebidos por 42 empresas, 29 de consumidor final e 13 de venda para empresa",
+        "as quase 7 vezes dentro de 1 hora contra 1 hora depois, e as mais de 60 vezes contra 24 horas ou mais, com qualificar definido como conversa de conteúdo com quem decide"
+      ],
+      "I": [
+        "a passagem do achado para o pedido de orçamento de um negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos, o teto de 1 hora como meta e as 3 linhas da resposta curta, que são adaptação editorial da Zionaxs"
+      ]
+    },
+    "limites": [
+      "O artigo mediu pedidos comerciais vindos da internet em empresas dos Estados Unidos, com dados coletados até 2011. Ele não mediu clínica, escritório contábil ou banca de advocacia no Brasil, e a peça não afirma que mediu.",
+      "Qualificar o pedido, no artigo, quer dizer ter uma conversa de conteúdo com quem decide. Não quer dizer contrato assinado nem venda fechada, e a peça apresenta o número assim.",
+      "As 42 horas são média entre as empresas que responderam. Elas não incluem os 23 por cento que não responderam, cujo tempo é indefinido, e por isso o retrato real de demora é pior do que a média sugere.",
+      "As comparações de quase 7 vezes e mais de 60 vezes são de chance relativa entre faixas de tempo de resposta, e o estudo é observacional. Ele não isola por si só o efeito causal do tempo contra outras diferenças entre as empresas, e a peça não promete resultado.",
+      "Os 4 passos, o teto de 1 hora e as 3 linhas da resposta curta são adaptação editorial da Zionaxs, não recomendação dos autores."
+    ]
+  },
+  "tese": "O pedido de orçamento que chega pela internet tem prazo de validade curto, e o que decide se ele vira conversa é o tempo até a primeira resposta, não o capricho da proposta. Em auditoria com 2.241 empresas, a primeira resposta levou 42 horas em média entre as que responderam e 23 por cento não responderam; em 1,25 milhão de pedidos, tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide do que tentar 1 hora depois. Consequência prática: a resposta rápida e curta é mais barata de organizar do que a proposta perfeita, e rende mais.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata do tempo de resposta a um pedido novo. As 2 mais próximas não servem: M12 é a máquina mínima de comercial sem departamento, registrada com o gancho da indicação previsível, do CRM leve e do ritual semanal de 30 minutos, portanto aquisição planejada em cadência de semana, e não o plantão de minutos que esta peça descreve, além de a indicação já ter sido território da zx-30; e M01 é ler capacidade com o denominador certo, que trata de ocupação de agenda e foi território da zx-41. Declarar M12 porque as 2 falam de comercial seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para tempo de resposta a pedido novo em negócio de serviço vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre tempo de resposta, atendimento de pedido novo ou o custo de esperar. R3, de Michael Porter, chega perto por separar eficácia operacional de estratégia, e alguém poderia lê-la como contraponto, já que esta peça defende justamente uma melhoria operacional; mas R3 está registrada para a discussão de onde jogar e como vencer, e usá-la aqui inverteria o sentido dela. R8, do Sistema Toyota de Produção, trata de parar a linha, que é o oposto do movimento desta peça. A fonte desta peça é externa ao ledger, e a proposta de acrescentar a linha de tempo de resposta e atendimento de demanda, com James Oldroyd, Kristina McElheran e David Elkington em 2011, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF7",
+    "JO1"
+  ],
+  "cta": "Pegar as 10 mensagens novas mais recentes, anotar quanto tempo passou até a primeira resposta de cada uma, dividir a soma por 10 e comparar com 1 hora.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo contraste entre a janela de 1 hora e a média de 42 horas, ver a cena do pedido que chegou de manhã e foi respondido no fim do dia, receber a evidência do 1,25 milhão de pedidos com as quase 7 vezes, virar para o que o número significa, que é a disputa se decidir na chegada e não na qualidade, receber os 4 passos aplicáveis nesta semana, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo bloco de números.",
+  "internal_metadata": [
+    "zx-46",
+    "JF7",
+    "JO1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Hand",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa com pulso adiantado e seco, do tipo que dá sensação de relógio andando, com percussão curta e pouca reverberação. O assunto é o tempo que passa entre a mensagem e a resposta, e trilha com pulso audível faz o próprio ponto da peça sem precisar de virada. Combina com o slot da tarde, que pede conteúdo principal, então cabe uma faixa mais firme e mais presente que as da manhã.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça, evitar ainda trilha de tensão crescente ou de contagem regressiva, do tipo que sugere urgência ansiosa: o texto defende plantão organizado, não correria, e trilha aflita contradiz o argumento.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso seco e regular, intensidade estável e sem virada, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-45 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques, pulso metronômico de textura seca e final que decai. Aqui o pedido acrescenta 1 restrição nova: o pulso tem de ser audível o tempo todo, porque ele é o relógio da peça."
+  },
+  "caption": [
+    "A primeira hora decide o orçamento.",
+    "Chega uma mensagem pedindo orçamento. Você quer responder com capricho, junta os números, confere o escopo e manda no fim do dia. Enquanto isso a pessoa perguntou em mais 2 lugares, e alguém respondeu em 10 minutos.",
+    "Isso foi medido. Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington publicaram na Harvard Business Review uma auditoria com 2.241 empresas dos Estados Unidos, usando um pedido de teste enviado pelo site. Entre as que responderam, a primeira resposta levou 42 horas em média. E 23 por cento não responderam nunca.",
+    "No mesmo trabalho eles analisaram 1,25 milhão de pedidos recebidos por 42 empresas, 29 que vendem para consumidor final e 13 que vendem para outras empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de ter uma conversa de conteúdo com quem decide do que tentar 1 hora depois, e mais de 60 vezes a chance de quem esperou 24 horas ou mais.",
+    "Repare no que isso significa. A disputa não se decide na qualidade da proposta, porque na maior parte das vezes ela nem chega a ser comparada. Ela se decide na chegada, enquanto a pessoa ainda está com o problema na cabeça e quer resolver.",
+    "Na prática, 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e escreva esse nome no combinado da equipe. 2: responda em até 1 hora com 3 linhas, confirmando o que a pessoa pediu e propondo 2 horários de conversa. 3: separe a resposta do orçamento, porque a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta.",
+    "Um cuidado antes de começar: o artigo mediu pedidos vindos da internet em empresas dos Estados Unidos, com dados até 2011, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs, e os 4 passos também são adaptação nossa, não recomendação dos autores. E responder rápido não salva proposta ruim.",
+    "Comece hoje. Pegue as 10 mensagens novas mais recentes e conte quantas horas cada uma esperou."
+  ],
+  "caption_sources": [
+    "Fonte do mecanismo e de todos os números: James B. Oldroyd, Kristina McElheran e David Elkington, The Short Life of Online Sales Leads, Harvard Business Review, edição de março de 2011, referência de produto F1103B. Registro conferido nesta execução na página oficial do artigo em hbr.org e no repositório institucional ScholarsArchive da Brigham Young University.",
+    "Recorte da auditoria: 2.241 empresas dos Estados Unidos receberam um pedido de teste gerado pelo site. Entre as respondentes, a média de primeira resposta foi de 42 horas. A distribuição foi de 37 por cento em até 1 hora, 16 por cento entre 1 e 24 horas, 24 por cento acima de 24 horas e 23 por cento sem resposta.",
+    "Recorte do segundo conjunto, com o trecho literal do artigo: \"a study of 1.25 million sales leads received by 29 B2C and 13 B2B companies in the U.S.\"",
+    "Trecho literal do achado principal: \"Firms that tried to contact potential customers within an hour of receiving a query were nearly seven times as likely to qualify the lead (which we defined as having a meaningful conversation with a key decision maker) as those that tried to contact the customer even an hour later and more than 60 times as likely as companies that waited 24 hours or longer.\"",
+    "Limitação de universo: o artigo mediu pedidos comerciais vindos da internet em empresas dos Estados Unidos, com dados coletados até 2011. Ele não mediu clínica, escritório contábil ou banca de advocacia no Brasil, nem canal de aplicativo de conversa. Por isso a peça não afirma percentual nenhum sobre esses setores e trata a passagem para esse contexto como leitura.",
+    "Limitação de definição: qualificar o pedido, no artigo, quer dizer ter uma conversa de conteúdo com quem decide, e não contrato assinado. A peça apresenta o número assim.",
+    "Limitação de leitura da média: as 42 horas são média entre as empresas que responderam e não incluem os 23 por cento que não responderam, cujo tempo é indefinido. O retrato real de demora é portanto pior do que a média sugere.",
+    "Limitação de desenho: as comparações de quase 7 vezes e mais de 60 vezes são de chance relativa entre faixas de tempo de resposta, em estudo observacional. Elas não isolam por si sós o efeito causal do tempo contra outras diferenças entre as empresas, e a peça não promete resultado.",
+    "Os 4 passos, o teto de 1 hora como meta e as 3 linhas da resposta curta são adaptação editorial da Zionaxs a partir da fonte, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Matriz: a nota 19c da Zionaxs não tem linha para tempo de resposta a pedido novo, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Repertório: o ledger da nota 19c não tem linha para tempo de resposta ou atendimento de demanda, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Akshar Dave, Faraaz Zuberi e Hans, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A primeira hora",
+      "copy": {
+        "title": "A janela\né de 1 hora.",
+        "accentLine": "A média é 42.",
+        "hl": "A média é 42.",
+        "sub": "Uma mensagem nova tem prazo de validade curto. Em auditoria com 2.241 empresas dos Estados Unidos, entre as que responderam a primeira resposta levou 42 horas em média, e 23 por cento não responderam.",
+        "year": "2026",
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac · foto: Akshar Dave"
+      },
+      "approved_visible_copy": [
+        "A primeira hora",
+        "01/07",
+        "A janela é de 1 hora.",
+        "A média é 42.",
+        "Uma mensagem nova tem prazo de validade curto. Em auditoria com 2.241 empresas dos Estados Unidos, entre as que responderam a primeira resposta levou 42 horas em média, e 23 por cento não responderam.",
+        "2026",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac · foto: Akshar Dave"
+      ],
+      "alt": "Slide 1 de 7. A janela é de 1 hora, a média é 42. Uma mensagem nova tem prazo de validade curto. Em auditoria com 2.241 empresas dos Estados Unidos, entre as que responderam a primeira resposta levou 42 horas em média, e 23 por cento não responderam. Fotografia escura de uma mão segurando um celular na penumbra, com a tela acesa em azul iluminando apenas os dedos, sem rosto visível.",
+      "photo": {
+        "src": "../assets/foto-mensagem-na-tela.jpg",
+        "pos": "50% 40%",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Você\nainda\npensava."
+        ],
+        "closing": "A mensagem chegou às 9 da manhã pedindo orçamento. Você quis responder com calma, juntou os números e mandou no fim do dia. Nesse intervalo a pessoa perguntou em mais 2 lugares, e 1 deles respondeu em 10 minutos.",
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac · foto: Faraaz Zuberi"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Você ainda pensava.",
+        "A mensagem chegou às 9 da manhã pedindo orçamento. Você quis responder com calma, juntou os números e mandou no fim do dia. Nesse intervalo a pessoa perguntou em mais 2 lugares, e 1 deles respondeu em 10 minutos.",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac · foto: Faraaz Zuberi"
+      ],
+      "alt": "Slide 2 de 7. Você ainda pensava. A mensagem chegou às 9 da manhã pedindo orçamento. Você quis responder com calma, juntou os números e mandou no fim do dia. Nesse intervalo a pessoa perguntou em mais 2 lugares, e 1 deles respondeu em 10 minutos. Papel claro com fotografia em preto e branco de uma mesa de trabalho na penumbra, com uma luminária acesa e um porta-lápis, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-luminaria.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "A conta da hora:",
+          "7 vezes mais."
+        ],
+        "closing": "Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington analisaram 1,25 milhão de pedidos de orçamento recebidos por empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide, na comparação com quem tentou 1 hora depois.",
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "A conta da hora:",
+        "7 vezes mais.",
+        "Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington analisaram 1,25 milhão de pedidos de orçamento recebidos por empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide, na comparação com quem tentou 1 hora depois.",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac"
+      ],
+      "alt": "Slide 3 de 7. A conta da hora: 7 vezes mais. Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington analisaram 1,25 milhão de pedidos de orçamento recebidos por empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide do que tentar 1 hora depois."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Não é\no melhor.",
+        "accent": "É o primeiro.",
+        "hl": "É o primeiro.",
+        "ghost": "60",
+        "year": "2026",
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac",
+        "body": "Quem responde primeiro raramente ganha por ser melhor: ganha porque a pessoa ainda está com o problema na cabeça e quer resolver logo. No mesmo estudo, tentar contato dentro de 1 hora deu mais de 60 vezes a chance de falar com quem decide, na comparação com esperar 24 horas ou mais."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Não é o melhor.",
+        "É o primeiro.",
+        "2026",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac",
+        "Quem responde primeiro raramente ganha por ser melhor: ganha porque a pessoa ainda está com o problema na cabeça e quer resolver logo. No mesmo estudo, tentar contato dentro de 1 hora deu mais de 60 vezes a chance de falar com quem decide, na comparação com esperar 24 horas ou mais."
+      ],
+      "alt": "Slide 4 de 7. Não é o melhor, é o primeiro. Quem responde primeiro raramente ganha por ser melhor: ganha porque a pessoa ainda está com o problema na cabeça e quer resolver logo. No mesmo estudo, tentar contato dentro de 1 hora deu mais de 60 vezes a chance de falar com quem decide, na comparação com esperar 24 horas ou mais. Campo laranja chapado com o número 60 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "A hora em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Defina quem responde mensagem nova em cada horário do dia e deixe esse nome escrito no combinado."
+          },
+          {
+            "num": "2",
+            "label": "Responda em até 1 hora com 3 linhas: confirme o que a pessoa pediu e proponha 2 horários de conversa."
+          },
+          {
+            "num": "3",
+            "label": "Separe a resposta do orçamento. A primeira serve para marcar a conversa, o preço vem depois dela."
+          },
+          {
+            "num": "4",
+            "label": "Meça 1 número por semana: o tempo entre a mensagem nova e a sua primeira resposta."
+          }
+        ],
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "A hora em 4 passos.",
+        "1",
+        "Defina quem responde mensagem nova em cada horário do dia e deixe esse nome escrito no combinado.",
+        "2",
+        "Responda em até 1 hora com 3 linhas: confirme o que a pessoa pediu e proponha 2 horários de conversa.",
+        "3",
+        "Separe a resposta do orçamento. A primeira serve para marcar a conversa, o preço vem depois dela.",
+        "4",
+        "Meça 1 número por semana: o tempo entre a mensagem nova e a sua primeira resposta.",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac"
+      ],
+      "alt": "Slide 5 de 7. A hora em 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e escreva esse nome no combinado da equipe. 2: responda em até 1 hora com 3 linhas, confirme o que a pessoa pediu e proponha 2 horários de conversa. 3: separe a resposta do orçamento, a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Rápido\nnão é tudo.",
+        "accent": "É só o começo.",
+        "body": "O estudo mediu pedidos vindos da internet nos Estados Unidos, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs. E responder rápido não salva proposta ruim.",
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Rápido não é tudo.",
+        "É só o começo.",
+        "O estudo mediu pedidos vindos da internet nos Estados Unidos, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs. E responder rápido não salva proposta ruim.",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac"
+      ],
+      "alt": "Slide 6 de 7. Rápido não é tudo, é só o começo. O estudo mediu pedidos vindos da internet nos Estados Unidos, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs. E responder rápido não salva proposta ruim."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Abra a\ncaixa agora.",
+        "hl": "Abra a",
+        "accent": "Conte as horas.",
+        "body": "Pegue as 10 mensagens novas mais recentes e anote quanto tempo passou até a sua primeira resposta. Divida a soma por 10 e compare com 1 hora. Esse número decide quantas conversas você começa.",
+        "year": "2026",
+        "temas": "Temas: Atendimento / Orçamento / Tempo",
+        "micro": "@zionaxs_ · ref b3ed74ac · foto: Hans"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Abra a caixa agora.",
+        "Conte as horas.",
+        "Pegue as 10 mensagens novas mais recentes e anote quanto tempo passou até a sua primeira resposta. Divida a soma por 10 e compare com 1 hora. Esse número decide quantas conversas você começa.",
+        "2026",
+        "Temas: Atendimento / Orçamento / Tempo",
+        "@zionaxs_ · ref b3ed74ac · foto: Hans"
+      ],
+      "alt": "Slide 7 de 7. Abra a caixa agora, conte as horas. Pegue as 10 mensagens novas mais recentes e anote quanto tempo passou até a sua primeira resposta. Divida a soma por 10 e compare com 1 hora. Esse número decide quantas conversas você começa. Fotografia escura de uma mesa de trabalho à noite, com uma luminária de teto acesa acima e um computador portátil fechado sobre o tampo, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-noite.jpg",
+        "pos": "35% 45%",
+        "scale": 1.15,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

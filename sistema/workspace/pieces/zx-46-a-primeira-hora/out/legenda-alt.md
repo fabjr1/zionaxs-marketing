@@ -1,0 +1,46 @@
+# zx-46-a-primeira-hora — legenda e alt text
+
+## Trilha sugerida
+
+**Steady Hand** — Meta Sound Collection (instrumental, biblioteca da Meta Sound Collection)
+
+Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa com pulso adiantado e seco, do tipo que dá sensação de relógio andando, com percussão curta e pouca reverberação. O assunto é o tempo que passa entre a mensagem e a resposta, e trilha com pulso audível faz o próprio ponto da peça sem precisar de virada. Combina com o slot da tarde, que pede conteúdo principal, então cabe uma faixa mais firme e mais presente que as da manhã.
+
+Evitar: Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça, evitar ainda trilha de tensão crescente ou de contagem regressiva, do tipo que sugere urgência ansiosa: o texto defende plantão organizado, não correria, e trilha aflita contradiz o argumento.
+
+## Legenda
+
+A primeira hora decide o orçamento.
+
+Chega uma mensagem pedindo orçamento. Você quer responder com capricho, junta os números, confere o escopo e manda no fim do dia. Enquanto isso a pessoa perguntou em mais 2 lugares, e alguém respondeu em 10 minutos.
+
+Isso foi medido. Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington publicaram na Harvard Business Review uma auditoria com 2.241 empresas dos Estados Unidos, usando um pedido de teste enviado pelo site. Entre as que responderam, a primeira resposta levou 42 horas em média. E 23 por cento não responderam nunca.
+
+No mesmo trabalho eles analisaram 1,25 milhão de pedidos recebidos por 42 empresas, 29 que vendem para consumidor final e 13 que vendem para outras empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de ter uma conversa de conteúdo com quem decide do que tentar 1 hora depois, e mais de 60 vezes a chance de quem esperou 24 horas ou mais.
+
+Repare no que isso significa. A disputa não se decide na qualidade da proposta, porque na maior parte das vezes ela nem chega a ser comparada. Ela se decide na chegada, enquanto a pessoa ainda está com o problema na cabeça e quer resolver.
+
+Na prática, 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e escreva esse nome no combinado da equipe. 2: responda em até 1 hora com 3 linhas, confirmando o que a pessoa pediu e propondo 2 horários de conversa. 3: separe a resposta do orçamento, porque a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta.
+
+Um cuidado antes de começar: o artigo mediu pedidos vindos da internet em empresas dos Estados Unidos, com dados até 2011, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs, e os 4 passos também são adaptação nossa, não recomendação dos autores. E responder rápido não salva proposta ruim.
+
+Comece hoje. Pegue as 10 mensagens novas mais recentes e conte quantas horas cada uma esperou.
+
+Fonte do mecanismo e de todos os números: James B. Oldroyd, Kristina McElheran e David Elkington, The Short Life of Online Sales Leads, Harvard Business Review, edição de março de 2011, referência de produto F1103B. Registro conferido nesta execução na página oficial do artigo em hbr.org e no repositório institucional ScholarsArchive da Brigham Young University. Recorte da auditoria: 2.241 empresas dos Estados Unidos receberam um pedido de teste gerado pelo site. Entre as respondentes, a média de primeira resposta foi de 42 horas. A distribuição foi de 37 por cento em até 1 hora, 16 por cento entre 1 e 24 horas, 24 por cento acima de 24 horas e 23 por cento sem resposta. Recorte do segundo conjunto, com o trecho literal do artigo: "a study of 1.25 million sales leads received by 29 B2C and 13 B2B companies in the U.S." Trecho literal do achado principal: "Firms that tried to contact potential customers within an hour of receiving a query were nearly seven times as likely to qualify the lead (which we defined as having a meaningful conversation with a key decision maker) as those that tried to contact the customer even an hour later and more than 60 times as likely as companies that waited 24 hours or longer." Limitação de universo: o artigo mediu pedidos comerciais vindos da internet em empresas dos Estados Unidos, com dados coletados até 2011. Ele não mediu clínica, escritório contábil ou banca de advocacia no Brasil, nem canal de aplicativo de conversa. Por isso a peça não afirma percentual nenhum sobre esses setores e trata a passagem para esse contexto como leitura. Limitação de definição: qualificar o pedido, no artigo, quer dizer ter uma conversa de conteúdo com quem decide, e não contrato assinado. A peça apresenta o número assim. Limitação de leitura da média: as 42 horas são média entre as empresas que responderam e não incluem os 23 por cento que não responderam, cujo tempo é indefinido. O retrato real de demora é portanto pior do que a média sugere. Limitação de desenho: as comparações de quase 7 vezes e mais de 60 vezes são de chance relativa entre faixas de tempo de resposta, em estudo observacional. Elas não isolam por si sós o efeito causal do tempo contra outras diferenças entre as empresas, e a peça não promete resultado. Os 4 passos, o teto de 1 hora como meta e as 3 linhas da resposta curta são adaptação editorial da Zionaxs a partir da fonte, não recomendação dos autores. A peça declara isso no slide 6 e na legenda. Matriz: a nota 19c da Zionaxs não tem linha para tempo de resposta a pedido novo, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana. Repertório: o ledger da nota 19c não tem linha para tempo de resposta ou atendimento de demanda, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana. Fotos: Akshar Dave, Faraaz Zuberi e Hans, via Unsplash.
+
+## Alt text por slide
+
+**01/07** · Slide 1 de 7. A janela é de 1 hora, a média é 42. Uma mensagem nova tem prazo de validade curto. Em auditoria com 2.241 empresas dos Estados Unidos, entre as que responderam a primeira resposta levou 42 horas em média, e 23 por cento não responderam. Fotografia escura de uma mão segurando um celular na penumbra, com a tela acesa em azul iluminando apenas os dedos, sem rosto visível.
+
+**02/07** · Slide 2 de 7. Você ainda pensava. A mensagem chegou às 9 da manhã pedindo orçamento. Você quis responder com calma, juntou os números e mandou no fim do dia. Nesse intervalo a pessoa perguntou em mais 2 lugares, e 1 deles respondeu em 10 minutos. Papel claro com fotografia em preto e branco de uma mesa de trabalho na penumbra, com uma luminária acesa e um porta-lápis, sem ninguém presente.
+
+**03/07** · Slide 3 de 7. A conta da hora: 7 vezes mais. Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington analisaram 1,25 milhão de pedidos de orçamento recebidos por empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide do que tentar 1 hora depois.
+
+**04/07** · Slide 4 de 7. Não é o melhor, é o primeiro. Quem responde primeiro raramente ganha por ser melhor: ganha porque a pessoa ainda está com o problema na cabeça e quer resolver logo. No mesmo estudo, tentar contato dentro de 1 hora deu mais de 60 vezes a chance de falar com quem decide, na comparação com esperar 24 horas ou mais. Campo laranja chapado com o número 60 gigante em marca d'água.
+
+**05/07** · Slide 5 de 7. A hora em 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e escreva esse nome no combinado da equipe. 2: responda em até 1 hora com 3 linhas, confirme o que a pessoa pediu e proponha 2 horários de conversa. 3: separe a resposta do orçamento, a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta. Este é o quadro para salvar.
+
+**06/07** · Slide 6 de 7. Rápido não é tudo, é só o começo. O estudo mediu pedidos vindos da internet nos Estados Unidos, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs. E responder rápido não salva proposta ruim.
+
+**07/07** · Slide 7 de 7. Abra a caixa agora, conte as horas. Pegue as 10 mensagens novas mais recentes e anote quanto tempo passou até a sua primeira resposta. Divida a soma por 10 e compare com 1 hora. Esse número decide quantas conversas você começa. Fotografia escura de uma mesa de trabalho à noite, com uma luminária de teto acesa acima e um computador portátil fechado sobre o tampo, sem ninguém presente.
+

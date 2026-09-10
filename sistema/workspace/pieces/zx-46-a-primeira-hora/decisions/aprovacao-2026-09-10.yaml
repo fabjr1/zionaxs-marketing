@@ -1,0 +1,154 @@
+decisao: aprovar e publicar a zx-46, slot da tarde
+data: 2026-09-10
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumidos pela
+    zx-45, publicada às 08:49 BRT.
+  registro_anterior: pieces/zx-45-o-cliente-lembra-o-fim/decisions/aprovacao-2026-09-10.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, quinta-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede peça que entregue método aplicável, e não apenas um
+    achado curioso. Esta peça tem as 3 camadas: o diagnóstico de que a disputa
+    se decide na chegada e não na proposta, a evidência com recorte declarado, e
+    um roteiro de 4 passos que cabe em uma semana. O passo do slide 7 é uma
+    medição de 10 minutos que não depende de ferramenta nenhuma.
+  nao_repete_a_manha: >
+    A zx-45, publicada nesta mesma manhã, trata da lembrança que o cliente
+    guarda do FIM de uma entrega já contratada. Esta peça trata do COMEÇO, do
+    tempo entre o pedido novo e a primeira resposta, portanto antes de existir
+    trabalho. Os 2 assuntos não se encostam nem na cena nem na fonte.
+
+tema:
+  escolhido: >
+    o pedido de orçamento que chega pela internet tem prazo de validade curto, e
+    o que decide se ele vira conversa é o tempo até a primeira resposta, não o
+    capricho da proposta; em auditoria com 2.241 empresas a primeira resposta
+    levou 42 horas em média entre as que responderam e 23 por cento não
+    responderam, e em 1,25 milhão de pedidos tentar contato dentro de 1 hora deu
+    quase 7 vezes mais chance de falar com quem decide do que tentar 1 hora
+    depois
+  matriz: nenhuma declarada
+  jtbd: [JF7, JO1]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é conteúdo principal, e o tema entrega diagnóstico, evidência
+    e método na mesma peça. Ele não repete nenhuma das 26 peças anteriores: a
+    zx-33 trata do critério para aceitar ou recusar um caso, a zx-30 de indicação
+    e posicionamento, a zx-39 do pedido de desconto dentro de uma proposta em
+    aberto e a zx-38 de comunicar andamento durante o trabalho. Nenhuma delas
+    trata do intervalo entre a mensagem nova e a primeira resposta, que é onde
+    esta peça mora. A ponte da evidência para o negócio de serviço brasileiro é
+    declarada como leitura da Zionaxs, no slide 6 e na legenda, e não atribuída
+    aos autores.
+
+evidencia:
+  fontes_conferidas_nesta_execucao:
+    - >
+      James B. Oldroyd, Kristina McElheran e David Elkington, The Short Life of
+      Online Sales Leads, Harvard Business Review, março de 2011, referência de
+      produto F1103B. Registro conferido na página oficial do artigo em hbr.org
+      e no repositório institucional ScholarsArchive da Brigham Young
+      University, onde o artigo está depositado pela coautoria.
+  numeros_e_recorte:
+    - "auditoria: 2.241 empresas dos Estados Unidos, pedido de teste gerado pelo site"
+    - "42 horas de média de primeira resposta, medida apenas entre as que responderam"
+    - "37 por cento em até 1 hora, 16 por cento entre 1 e 24 horas, 24 por cento acima de 24 horas, 23 por cento sem resposta"
+    - "segundo conjunto: 1,25 milhão de pedidos recebidos por 42 empresas, 29 de consumidor final e 13 de venda para empresa"
+    - "quase 7 vezes dentro de 1 hora contra 1 hora depois; mais de 60 vezes contra 24 horas ou mais"
+    - "qualificar, no artigo, é ter conversa de conteúdo com quem decide, e não contrato assinado"
+  limites_declarados_na_peca:
+    - universo dos Estados Unidos, dados até 2011, não mede clínica, contabilidade ou advocacia no Brasil
+    - a medida é conversa com quem decide, não venda fechada
+    - a média de 42 horas exclui os 23 por cento que não responderam, então o retrato real é pior
+    - estudo observacional, comparação de chance relativa entre faixas, sem promessa de resultado
+    - os 4 passos, o teto de 1 hora e as 3 linhas são adaptação editorial da Zionaxs
+
+producao:
+  gates: 14/14
+  digest_da_geracao: 526d5d429715
+  geracoes: 3
+  o_que_custou_geracao:
+    - >
+      G6 runt em 2 blocos na primeira geração: o fechamento do slide 3 terminava
+      com "depois." em 13 por cento da largura e o item 1 do slide 5 com
+      "equipe." em 14 por cento. Corrigidos reescrevendo o fim das 2 frases, como
+      manda a nota da zx-28, e não com quebra autoral, que trocaria G6 vermelho
+      por G7 vermelho.
+    - >
+      Troca da foto do slide 7 depois de olhar o PNG. O relógio de parede
+      escolhido na folha de contato media bem, com banda de texto em luminância
+      17,7 e desvio 20,5, e mesmo assim foi descartado: no render de 1080x1350 o
+      recorte deixou só um aro claro contra um corte vertical duro, que não se
+      lê como relógio nem como cena de leitor. Trocado por uma mesa de trabalho à
+      noite com luminária acesa no terço superior. Os 14 gates ficaram verdes nas
+      2 versões, porque nenhum gate mede se a foto encena a cena da manchete.
+
+verificacao_do_passo_6:
+  metodo: >
+    Além de olhar os 7 PNG, esta execução mediu no pixel a folga entre o texto e
+    a geometria laranja nos layouts de papel, varrendo linha a linha o extremo
+    direito da tinta e o extremo esquerdo do anel.
+  resultado_slide_6: >
+    A menor folga do corpo do poster-statement ficou em 49 pixels, na linha que
+    termina em x 915 com o anel começando em x 964. A pendência do anel que a
+    direção visual registra continua de pé como decisão de template, mas nesta
+    peça o texto não encosta. A primeira versão do corpo, com 219 caracteres,
+    tinha a mesma linha terminando em x 918 contra anel em x 912, ou seja
+    sobreposta; a reescrita curta, trocando "em empresas dos Estados Unidos" por
+    "nos Estados Unidos", resolveu, o que confirma a leitura da zx-38 de que vale
+    tentar 1 reescrita e medir antes de aceitar o encosto.
+  resultado_slide_2: >
+    A folga de 1 pixel que a varredura acusou é entre a foto em preto e branco e
+    o anel, que se sobrepõem por desenho do layout, e não entre texto e anel. As
+    3 linhas de display terminam muito antes do corredor.
+
+aprendizado_de_enquadramento: >
+  Medir a banda de texto na folha de contato não basta para aprovar uma foto: ela
+  diz se a tinta vai sobreviver, e não se a imagem ainda se lê como a cena que a
+  manchete descreve. O relógio desta peça passou na medida com folga e reprovou
+  no olho, porque o recorte de 4x5 deixou dele apenas um aro. O par que faltava
+  ao teste da zx-45, que olha a metade de baixo do arquivo, é olhar também o que
+  sobra do assunto DENTRO do quadro de 1080x1350: se o objeto que dá sentido à
+  foto não aparece inteiro o bastante para ser reconhecido, a candidata é
+  descarte, por mais escura e quieta que a banda esteja. Proposta de acrescentar
+  isso à direção visual vai junto com a peça.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso seco e adiantado, audível o tempo todo, intensidade
+    estável e sem virada
+  por_que: >
+    o assunto é o tempo que corre entre a mensagem e a resposta, então trilha com
+    pulso constante faz o argumento da peça sem precisar de clímax; trilha de
+    tensão crescente ou de contagem regressiva foi excluída de propósito, porque
+    o texto defende plantão organizado e não correria
+  origem_obrigatoria: Meta Sound Collection
+  observacao: >
+    a sessão em nuvem não tem acesso ao índice do acervo de trilhas, então o nome
+    no contrato é perfil, não faixa confirmada; a escolha final é do Fabiano no
+    app, depois de publicado
+
+memory:
+  propostas_para_inbox:
+    - >
+      linha de matriz editorial própria para tempo de resposta a pedido novo em
+      negócio de serviço; nenhuma linha de M01 a M20 cobre o intervalo entre a
+      mensagem e a primeira resposta, e M12 trata de máquina de indicação em
+      cadência semanal, que é outra coisa
+    - >
+      linha de repertório para tempo de resposta e atendimento de demanda, com
+      Oldroyd, McElheran e Elkington em 2011
+    - >
+      acréscimo à direção visual: a folha de contato mede a banda de texto, mas
+      não mede se o assunto continua reconhecível dentro do quadro de 1080x1350
