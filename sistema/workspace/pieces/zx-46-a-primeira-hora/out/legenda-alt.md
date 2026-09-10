@@ -20,7 +20,7 @@ No mesmo trabalho eles analisaram 1,25 milhão de pedidos recebidos por 42 empre
 
 Repare no que isso significa. A disputa não se decide na qualidade da proposta, porque na maior parte das vezes ela nem chega a ser comparada. Ela se decide na chegada, enquanto a pessoa ainda está com o problema na cabeça e quer resolver.
 
-Na prática, 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e escreva esse nome no combinado da equipe. 2: responda em até 1 hora com 3 linhas, confirmando o que a pessoa pediu e propondo 2 horários de conversa. 3: separe a resposta do orçamento, porque a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta.
+Na prática, 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e deixe esse nome escrito no combinado. 2: responda em até 1 hora com 3 linhas, confirmando o que a pessoa pediu e propondo 2 horários de conversa. 3: separe a resposta do orçamento, porque a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta.
 
 Um cuidado antes de começar: o artigo mediu pedidos vindos da internet em empresas dos Estados Unidos, com dados até 2011, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs, e os 4 passos também são adaptação nossa, não recomendação dos autores. E responder rápido não salva proposta ruim.
 
@@ -34,11 +34,11 @@ Fonte do mecanismo e de todos os números: James B. Oldroyd, Kristina McElheran 
 
 **02/07** · Slide 2 de 7. Você ainda pensava. A mensagem chegou às 9 da manhã pedindo orçamento. Você quis responder com calma, juntou os números e mandou no fim do dia. Nesse intervalo a pessoa perguntou em mais 2 lugares, e 1 deles respondeu em 10 minutos. Papel claro com fotografia em preto e branco de uma mesa de trabalho na penumbra, com uma luminária acesa e um porta-lápis, sem ninguém presente.
 
-**03/07** · Slide 3 de 7. A conta da hora: 7 vezes mais. Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington analisaram 1,25 milhão de pedidos de orçamento recebidos por empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide do que tentar 1 hora depois.
+**03/07** · Slide 3 de 7. A conta da hora: 7 vezes mais. Em 2011, os pesquisadores James Oldroyd, Kristina McElheran e David Elkington analisaram 1,25 milhão de pedidos de orçamento recebidos por empresas. Tentar contato dentro de 1 hora deu quase 7 vezes mais chance de falar com quem decide, na comparação com quem tentou 1 hora depois.
 
 **04/07** · Slide 4 de 7. Não é o melhor, é o primeiro. Quem responde primeiro raramente ganha por ser melhor: ganha porque a pessoa ainda está com o problema na cabeça e quer resolver logo. No mesmo estudo, tentar contato dentro de 1 hora deu mais de 60 vezes a chance de falar com quem decide, na comparação com esperar 24 horas ou mais. Campo laranja chapado com o número 60 gigante em marca d'água.
 
-**05/07** · Slide 5 de 7. A hora em 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e escreva esse nome no combinado da equipe. 2: responda em até 1 hora com 3 linhas, confirme o que a pessoa pediu e proponha 2 horários de conversa. 3: separe a resposta do orçamento, a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta. Este é o quadro para salvar.
+**05/07** · Slide 5 de 7. A hora em 4 passos. 1: defina quem responde mensagem nova em cada horário do dia e deixe esse nome escrito no combinado. 2: responda em até 1 hora com 3 linhas, confirme o que a pessoa pediu e proponha 2 horários de conversa. 3: separe a resposta do orçamento, a primeira serve para marcar a conversa e o preço vem depois dela. 4: meça 1 número por semana, o tempo entre a mensagem nova e a sua primeira resposta. Este é o quadro para salvar.
 
 **06/07** · Slide 6 de 7. Rápido não é tudo, é só o começo. O estudo mediu pedidos vindos da internet nos Estados Unidos, e mediu conversa com quem decide, não contrato assinado. A ponte para o seu negócio é leitura da Zionaxs. E responder rápido não salva proposta ruim.
 

@@ -76,7 +76,7 @@ evidencia:
 
 producao:
   gates: 14/14
-  digest_da_geracao: 526d5d429715
+  digest_da_geracao: b32e645bb4b8
   geracoes: 3
   o_que_custou_geracao:
     - >

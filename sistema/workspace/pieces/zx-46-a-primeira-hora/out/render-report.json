@@ -1,6 +1,6 @@
 {
   "pieceId": "zx-46-a-primeira-hora",
-  "generatedAt": "2026-09-10T16:23:20+00:00",
+  "generatedAt": "2026-09-10T16:27:16+00:00",
   "chromium": "151.0.7922.34",
   "format": "carousel-4x5",
   "canvas": {
@@ -260,6 +260,6 @@
     }
   ],
   "pass": true,
-  "durationSeconds": 2.7,
-  "digest": "526d5d429715bfdeaae7f7160c742bff6c526ceb6523ec7b701c230c28718378"
+  "durationSeconds": 2.6,
+  "digest": "b32e645bb4b808801ae441e6fb8aea130d545d3aaf5d46e5f2b861d99dfa3c4a"
 }
