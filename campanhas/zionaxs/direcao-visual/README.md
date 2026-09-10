@@ -199,6 +199,23 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   **precisa haver escuro embaixo para ocupar a banda de texto**. Os 14 gates ficaram verdes nas 4 gerações, inclusive
   nas que saíram com a tinta sobre a pele, porque o G5 mede contraste contra o fundo declarado no CSS, e não contra os
   pixels da foto.
+- **A folha de contato aprova a tinta, não a cena. O que ela não mede é se o assunto continua reconhecível dentro do
+  quadro.** Aprendido na zx-46, 10/09/2026, e é o par que faltava ao teste da zx-45. O teste da zx-45 olha a metade de
+  baixo do arquivo e diz se a manchete vai sobreviver; ele é sobre luminância, e passa fotos que depois não se leem. Na
+  zx-46 o fechamento usou um relógio de parede fotografado na penumbra: a banda de texto mediu luminância 17,7 com
+  desvio 20,5, das melhores da folha de contato, e mesmo assim a peça saiu errada, porque o recorte de 4x5 deixou do
+  relógio apenas um aro claro contra um corte vertical duro. O leitor não via um relógio, via uma forma. O `alt` ainda
+  descrevia um relógio de parede, o que é falso para quem depende dele. **Os 14 gates ficaram verdes**, porque nenhum
+  gate mede se a foto encena a cena da manchete. Regra prática: depois de escolher pela banda, olhar o quadro de
+  1080x1350 e perguntar que objeto a foto mostra; se o objeto que dá sentido à imagem não aparece inteiro o bastante
+  para ser nomeado sem ajuda da legenda, a candidata é descarte, por mais escura e quieta que a banda esteja. A troca
+  saiu barata: 1 geração, contra as 3 que a zx-45 gastou insistindo no recorte.
+- **Alt text não é medido contra o texto renderizado, então reescrita de copy exige reescrita do alt.** Aprendido na
+  zx-46. Os 2 blocos reescritos para resolver o G6 deixaram o `alt` dos slides 3 e 5 com a redação anterior, e a peça
+  passou nos 14 gates assim: o **G12 cobra presença** de alt por unidade, e o G9 e o G10 comparam a
+  `approved_visible_copy` com o pixel, sem tocar no alt. O erro só apareceu na conferência manual, na hora de montar os
+  contêineres filhos. Regra prática: toda mudança em slot de copy pede a mesma mudança em 3 lugares, o `copy`, a
+  `approved_visible_copy` e o `alt`, e o terceiro é o único que nenhuma trava cobra.
 - **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
   isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
   e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de
