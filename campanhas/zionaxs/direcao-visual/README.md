@@ -185,6 +185,20 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   recorte central, então assunto encostado em uma borda do arquivo é descarte na folha de contato, e não problema
   a resolver depois no contrato. Dar `object-position` ao `.pblock img` é decisão de direção visual, e nenhuma
   sessão deve tomá-la sozinha.
+- **Assunto claro que ENCOSTA na borda de baixo do arquivo não tem recorte bom em campo escuro.** Aprendido na zx-45,
+  10/09/2026, e é o limite das alavancas que a zx-23 e a zx-34 ensinaram. `scale` com `origin: "50% 0%"` empurra o
+  assunto para baixo e `origin: "50% 100%"` empurra para cima, mas as 2 só funcionam porque trazem **outra região do
+  arquivo** para a banda de texto. Quando o assunto claro vai do meio do quadro até a borda inferior, essa outra
+  região não existe: na zx-45 a foto de uma mão com caneta gastou 3 gerações e nenhuma resolveu. `scale: 1.5` deixou
+  os dedos na banda; `pos: "18% 50%"` limpou a tinta e cortou a mão fora, deixando a peça sem a cena que a manchete
+  descrevia; `scale: 1.9` com origem no rodapé apenas trocou os dedos pelo punho, igualmente claro. A saída foi
+  **trocar a foto**, e a lição é que a troca deveria ter vindo na primeira tentativa.
+  **Teste barato, antes de escrever o contrato:** olhar a metade de baixo do arquivo. Se ela não for escura e quieta
+  em pelo menos metade da largura, a candidata é descarte para `poster-cover` e `poster-close`, e não problema a
+  resolver depois no contrato. Isso completa a regra do terço superior: não basta o interesse visual estar em cima,
+  **precisa haver escuro embaixo para ocupar a banda de texto**. Os 14 gates ficaram verdes nas 4 gerações, inclusive
+  nas que saíram com a tinta sobre a pele, porque o G5 mede contraste contra o fundo declarado no CSS, e não contra os
+  pixels da foto.
 - **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
   isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
   e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de

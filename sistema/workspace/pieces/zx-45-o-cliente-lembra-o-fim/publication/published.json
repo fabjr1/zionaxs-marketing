@@ -1,0 +1,65 @@
+{
+  "postId": "18187221298405308",
+  "permalink": "https://www.instagram.com/p/DdGxB2nIMHU/",
+  "shortcode": "DdGxB2nIMHU",
+  "digest": "607f3b573d799fd39908d15ac995626dda199f445d6f840242b1c627000b00b2",
+  "publishedAt": "2026-09-10T11:49:12+00:00",
+  "publishedAtFortaleza": "2026-09-10T08:49:12-03:00",
+  "slot": "manha-08:30-BRT",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "INSTAGRAM_GET_USER_INFO antes de criar qualquer conteiner: username zionaxs_, id 37965311306447572, conta MEDIA_CREATOR",
+  "containerId": "17907837399501214",
+  "childContainers": [
+    "17907837222501214",
+    "17907837219501214",
+    "17907837216501214",
+    "17907837213501214",
+    "17907837291501214",
+    "17907837288501214",
+    "17907837294501214"
+  ],
+  "childMediaIds": [
+    "17989405307852765",
+    "18342092800280721",
+    "18115145086980643",
+    "18089610134459345",
+    "18368741227300507",
+    "17891825076612304",
+    "18147378889544190"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-45-o-cliente-lembra-o-fim/out/jpg/zx-45-o-cliente-lembra-o-fim-slide-07.jpg"
+  ],
+  "urlsConferidas": "HTTP 200 e content-type image/jpeg nas 7 URLs antes de entregar a lista a Meta",
+  "commit": "7a9ad01",
+  "trilha": {
+    "faixa": "Slow Return",
+    "artista": "Meta Sound Collection",
+    "estado": "pendente: sugestao de perfil, a adicionar a mao pelo app",
+    "perfil": "instrumental, pulso leve, intensidade estavel e final que decai em vez de cortar seco"
+  },
+  "reconciledAt": "2026-09-10T11:50:00+00:00",
+  "reconciliation": {
+    "tool": "INSTAGRAM_GET_IG_MEDIA com fields explicito id,caption,media_type,permalink,shortcode,timestamp,username,owner",
+    "owner": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "children": 7,
+    "captionConferida": true,
+    "nota": "fields explicito conforme aprendizado da zx-40: a lista padrao do Composio pede total_views_count, que o no Media nao suporta"
+  },
+  "cadencia": {
+    "limitePolitica": 2,
+    "consumidoAntes": 0,
+    "consumidoDepois": 1
+  }
+}
