@@ -1,0 +1,118 @@
+decisao: aprovar e publicar a zx-45, slot da manhã
+data: 2026-09-10
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0 de 2 do dia consumidos.
+  registro_anterior: pieces/zx-44-a-conversa-boa-engana/decisions/aprovacao-2026-09-09.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, quinta-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede um achado que o leitor não esperava e um passo que ele
+    consegue dar hoje. O tema entrega os 2: a lembrança de uma experiência não é
+    a média dela, e o resultado que fecha o argumento é contraintuitivo ao ponto
+    de virar assunto, porque acrescentar desconforto ao total melhorou a
+    lembrança. O passo do slide 7 custa 10 minutos e não depende de ferramenta
+    nenhuma.
+
+tema:
+  escolhido: >
+    a lembrança que o cliente guarda de uma entrega não é a média do trabalho
+    inteiro: ela acompanha o pior momento e o momento final, e a duração quase
+    não pesa; em ensaio aleatorizado com 682 pacientes, acrescentar um trecho
+    calmo ao final de um exame piorou a média e melhorou a lembrança
+  matriz: nenhuma declarada
+  jtbd: [JO1, JS4]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é descoberta, e o achado é genuinamente surpreendente, com
+    fonte primária forte e recorte declarado. O tema não repete nenhuma das 25
+    peças anteriores: a zx-38 trata de cliente que pergunta, a zx-29 de cliente
+    que consome margem e a zx-30 de indicação, e nenhuma delas trata de como a
+    experiência entregue vira lembrança. A ponte para negócio de serviço é
+    declarada como leitura da Zionaxs, no slide 6 e na legenda, e não atribuída
+    aos autores.
+
+evidencia:
+  fontes_conferidas_nesta_execucao:
+    - >
+      Donald A. Redelmeier e Daniel Kahneman, Patients' memories of painful
+      medical treatments, Pain 66(1):3-8, julho de 1996, DOI
+      10.1016/0304-3959(96)02994-6, PMID 8857625. Registro e resumo integral
+      lidos pela API oficial do PubMed (eutils efetch), não por busca web.
+    - >
+      Donald A. Redelmeier, Joel Katz e Daniel Kahneman, Memories of
+      colonoscopy: a randomized trial, Pain 104(1-2):187-194, julho de 2003,
+      DOI 10.1016/s0304-3959(03)00003-4, PMID 12855328. Mesmo caminho.
+  nota_de_metodo: >
+    A busca web estava indisponível nesta execução e devolveu, no lugar do
+    resultado, uma resposta de modelo que errou os veículos dos 2 artigos: disse
+    JAMA para o de 2003 e PNAS para o de 1996, quando ambos saíram na revista
+    Pain. Nenhum dado dessa resposta entrou na peça. Os 2 registros foram
+    conferidos na API oficial do PubMed, que devolve XML sem exigir cookie, e
+    todos os números da peça saem do resumo publicado. Fica o aprendizado: com
+    a busca web fora do ar, a saída barata para fonte acadêmica é
+    eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi, e a resposta de fallback
+    da busca não é fonte.
+
+producao:
+  gates: 14/14
+  digest_da_geracao: 607f3b573d79
+  geracoes: 4
+  o_que_custou_geracao:
+    - >
+      G6 runt no slide 4: a última linha do corpo ficou com 16 por cento da
+      largura, com a palavra "melhor." sozinha. Corrigido reescrevendo o fim da
+      frase, e não com quebra autoral, como manda a nota da zx-28: quebra em
+      parágrafo longo troca G6 vermelho por G7 vermelho.
+    - >
+      Enquadramento do slide 7, 3 tentativas com a foto da caneta. A foto tinha
+      a mão ocupando do meio do quadro até a borda de baixo, então não existia
+      recorte que deixasse a mão visível e a banda de texto escura ao mesmo
+      tempo: scale alto com origem no rodapé só trocou a mão pelo punho, também
+      claro. A saída foi trocar a foto, e não continuar ajustando o recorte.
+
+aprendizado_de_enquadramento: >
+  Foto cujo assunto claro TOCA a borda inferior do arquivo não tem recorte bom
+  em campo escuro. As alavancas descritas na direção visual, scale com origem no
+  topo ou no rodapé, movem o assunto para fora da banda de texto quando existe
+  região escura para trazer no lugar dele. Quando o assunto encosta embaixo,
+  não existe: qualquer recorte que o mantenha em quadro o mantém na banda de
+  texto, e qualquer recorte que o tire deixa a peça sem a cena. O teste barato,
+  antes de escrever o contrato, é olhar a metade de baixo do arquivo: se ela não
+  for escura e quieta em pelo menos metade da largura, a candidata é descarte
+  para poster-cover e poster-close, e não problema a resolver depois no
+  contrato. Proposta de acrescentar isso à direção visual vai junto com a peça.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso leve, intensidade estável e final que decai em vez de
+    cortar seco
+  por_que: >
+    o assunto é o fim que fica na lembrança, então trilha que termina em corte
+    abrupto contradiz o argumento da própria peça
+  origem_obrigatoria: Meta Sound Collection
+  observacao: >
+    a sessão em nuvem não tem acesso ao índice do acervo de trilhas, então o
+    nome no contrato é perfil, não faixa confirmada; a escolha final é do
+    Fabiano no app, depois de publicado
+
+memory:
+  propostas_para_inbox:
+    - >
+      linha de matriz editorial própria para desenho do fim da entrega em
+      negócio de serviço; nenhuma linha de M01 a M20 cobre experiência e memória
+      do cliente
+    - >
+      linha de repertório para experiência e memória, com Redelmeier e Kahneman
+      em 1996 e Redelmeier, Katz e Kahneman em 2003; pode ser promovida junto
+      com a proposta de previsão e julgamento deixada pela zx-44

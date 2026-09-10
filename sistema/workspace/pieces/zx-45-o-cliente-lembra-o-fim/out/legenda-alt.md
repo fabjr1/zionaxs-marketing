@@ -1,0 +1,46 @@
+# zx-45-o-cliente-lembra-o-fim — legenda e alt text
+
+## Trilha sugerida
+
+**Slow Return** — Meta Sound Collection (instrumental, biblioteca da Meta Sound Collection)
+
+Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo. A nota específica desta peça é procurar uma faixa que termine bem: textura clara, pulso leve e uma cauda que decai em vez de cortar seco. O assunto é o fim que fica na lembrança, e trilha que some com calma no último compasso faz o próprio ponto da peça. Combina com o slot da manhã, que pede descoberta, então vale uma faixa mais leve e mais aberta que as da tarde.
+
+Evitar: Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda faixa que termine em corte abrupto ou em acorde suspenso, do tipo que deixa a sensação de que faltou alguma coisa: o texto está defendendo fechamento bem feito, e trilha que acaba no susto contradiz o argumento.
+
+## Legenda
+
+O cliente lembra o fim.
+
+Você entrega um trabalho que correu bem do começo ao fim e fica com a sensação de que o cliente guardou o conjunto. Não é o que acontece. A lembrança não é a média: ela se apoia no pior momento e no momento final.
+
+Isso foi medido em pacientes. Em 1996, os pesquisadores Donald Redelmeier e Daniel Kahneman publicaram na revista Pain um trabalho em que registraram a dor em tempo real durante 2 exames desconfortáveis, com 154 e 133 pacientes. A lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos. Exame mais longo não foi lembrado como pior.
+
+Em 2003, os mesmos pesquisadores, agora com Joel Katz, foram além e fizeram um sorteio com 682 pacientes. Metade teve um trecho calmo acrescentado ao final do exame, sem tirar nada do resto. Esse grupo avaliou a experiência inteira como menos desagradável, 4,4 contra 4,9 em uma escala de desconforto em que menos é melhor.
+
+Repare no que isso significa. O grupo do trecho calmo passou mais tempo desconfortável no total, ou seja, teve a média piorada, e mesmo assim lembrou melhor. O fim reescreveu a experiência inteira.
+
+Na prática, 4 passos para a sua entrega. 1: escreva o que acontece nos últimos 10 minutos de toda entrega e deixe igual para todo cliente. 2: tire cobrança, pendência e má notícia de perto da despedida, e resolva isso no meio do caminho. 3: feche com 5 linhas dizendo o que foi feito e o que o cliente ganhou. 4: combine o próximo passo com data na mesma mensagem.
+
+Um cuidado antes de começar: os 2 estudos mediram dor em exame médico, não satisfação com serviço, então a ponte para a sua entrega é leitura da Zionaxs. Os 4 passos também são adaptação nossa, e não recomendação dos autores. E fim bem feito não conserta trabalho ruim.
+
+Comece hoje. Pegue a entrega que termina esta semana e escreva agora a mensagem de encerramento.
+
+Fonte do mecanismo e dos números do estudo em tempo real: Donald A. Redelmeier e Daniel Kahneman, Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures, Pain, volume 66, número 1, páginas 3 a 8, julho de 1996, DOI 10.1016/0304-3959(96)02994-6, PMID 8857625. Registro e resumo integral conferidos nesta execução pela API oficial do PubMed. Trecho literal do resumo de 1996, conferido nesta execução: "We recorded in real-time the intensity of pain experienced by patients undergoing colonoscopy (n = 154) and lithotripsy (n = 133). (...) Patients' judgments of total pain were strongly correlated with the peak intensity of pain (P < 0.005) and with the intensity of pain recorded during the last 3 min of the procedure (P < 0.005). Despite substantial variation in the duration of the experience, lengthy procedures were not remembered as particularly aversive." Fonte do ensaio aleatorizado: Donald A. Redelmeier, Joel Katz e Daniel Kahneman, Memories of colonoscopy: a randomized trial, Pain, volume 104, números 1 e 2, páginas 187 a 194, julho de 2003, DOI 10.1016/s0304-3959(03)00003-4, PMID 12855328. Registro e resumo integral conferidos nesta execução pela API oficial do PubMed. Trecho literal do resumo de 2003, conferido nesta execução: "By random assignment, half the patients had a short interval added to the end of their procedure during which the tip of the colonoscope remained in the rectum. (...) patients who underwent the extended procedure experienced the final moments as less painful (1.7 vs. 2.5 on a ten point intensity scale, P<0.001), rated the entire experience as less unpleasant (4.4 vs. 4.9 on a 10 cm visual analogue scale, P=0.006), and ranked the procedure as less aversive compared to seven other unpleasant experiences (4.1 vs. 4.6 with eight as the worst, P=0.002). Rates of returning for a repeat colonoscopy (median duration of follow-up 5.3 years) averaged 50.4% and were slightly higher (odds ratio=1.41, P=0.038) for those who underwent the longer procedure controlling for prior colonoscopy, procedure indications, and abnormal findings." Recorte e limitação: os 2 estudos mediram dor física durante exame médico, com pacientes avaliando desconforto lembrado, e não satisfação de cliente com trabalho entregue nem recompra de serviço. Por isso a peça não afirma percentual nenhum sobre negócio de serviço e trata a passagem para esse contexto como leitura, não como medida. Os valores 4,4 e 4,9 são notas em uma escala visual de 10 centímetros de desconforto lembrado, em que menos é melhor. A peça os descreve assim, e não como nota de satisfação. A taxa de retorno de 50,4 por cento e a razão de chances de 1,41 do estudo de 2003 se referem a voltar para repetir um exame de rastreio, com acompanhamento de 5,3 anos de mediana. A peça não transporta esse número para recompra de serviço. Os 4 passos, os 10 minutos e as 5 linhas são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda. Repertório: o ledger da nota 19c da Zionaxs não tem linha para experiência, memória ou avaliação retrospectiva, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana. Fotos: Yzy Pop, Kari Shea e Muhammad Fauzan Azhima, via Unsplash.
+
+## Alt text por slide
+
+**01/07** · Slide 1 de 7. O cliente lembra o fim, não a média. Você entrega um trabalho que correu bem do começo ao fim e imagina que o cliente guardou o conjunto. Em experimento controlado, a lembrança se apoiou em 2 pontos apenas: o pior momento e o último. Fotografia escura de um corredor vazio à noite, com uma porta clara iluminada ao fundo e o piso de madeira em penumbra, sem ninguém presente.
+
+**02/07** · Slide 2 de 7. Correu tudo bem. O trabalho saiu no prazo e sem erro, e mesmo assim a lembrança que ficou no cliente foi de outra coisa. Em 1996, os pesquisadores Donald Redelmeier e Daniel Kahneman foram medir como essa lembrança se forma, minuto a minuto. Papel claro com fotografia em preto e branco de uma mesa de trabalho arrumada, com um computador portátil de tela apagada ao centro, sem ninguém presente.
+
+**03/07** · Slide 3 de 7. O que ficou: o pior e o fim. Eles registraram a dor em tempo real durante 2 exames desconfortáveis, com 154 e 133 pacientes. A lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos. Exame mais longo não foi lembrado como pior.
+
+**04/07** · Slide 4 de 7. Piorou a média, melhorou o fim. Em 2003 os mesmos pesquisadores sortearam 682 pacientes. Metade teve 1 trecho calmo acrescentado ao final do exame, sem tirar nada do resto. Esse grupo passou mais tempo desconfortável e ainda assim lembrou o exame inteiro como menos ruim, 4,4 contra 4,9 em uma escala de desconforto. Campo laranja chapado com o número 682 gigante em marca d'água.
+
+**05/07** · Slide 5 de 7. O fim em 4 passos. 1: escreva o que acontece nos últimos 10 minutos de toda entrega e deixe igual para todo cliente. 2: tire cobrança, pendência e má notícia de perto da despedida, e resolva isso no meio do caminho. 3: feche com 5 linhas dizendo o que foi feito e o que o cliente ganhou com isso. 4: combine o próximo passo com data na mesma mensagem, sem deixar para depois. Este é o quadro para salvar.
+
+**06/07** · Slide 6 de 7. Não é maquiagem, é desenho. Os 2 estudos mediram dor em exame médico, não satisfação com serviço. A ponte para a sua entrega é leitura da Zionaxs. E fim bem feito não conserta trabalho ruim: ele decide o que fica na lembrança.
+
+**07/07** · Slide 7 de 7. Escreva o fim agora, antes da entrega. Pegue o trabalho que termina esta semana e escreva a mensagem de encerramento: o que foi feito, o que o cliente ganhou e o próximo passo com data. Guarde o texto e use o mesmo nas próximas entregas. Fotografia escura de uma escrivaninha à noite, com uma luminária acesa iluminando um computador portátil aberto e um porta-lápis, e o resto do quarto no escuro, sem ninguém presente.
+

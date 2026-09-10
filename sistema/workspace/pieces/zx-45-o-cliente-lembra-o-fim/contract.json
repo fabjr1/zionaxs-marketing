@@ -1,0 +1,334 @@
+{
+  "id": "zx-45-o-cliente-lembra-o-fim",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e entrega trabalho para cliente com começo, meio e fim: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: o trabalho inteiro correu bem, a entrega saiu no prazo, e mesmo assim o cliente guardou da experiência a fila do último dia e o silêncio depois do envio. Slot editorial: manhã de dia útil, papel de descoberta e curiosidade, então a peça precisa entrar por um achado que o leitor não esperava e sair com 1 passo que ele consegue dar hoje.",
+    "decisao": "Parar de tratar o fim da entrega como o momento em que o trabalho simplesmente acaba e passar a desenhá-lo. Na prática: escrever o que acontece nos últimos minutos de toda entrega, tirar a parte mais penosa de perto da despedida, fechar com um resumo curto do que foi feito e do que o cliente ganhou, e combinar o próximo passo com data ali mesmo.",
+    "tensao": "Quem entrega serviço acredita que a lembrança do cliente é a média do trabalho inteiro, e por isso distribui capricho por igual. O que foi medido é outra coisa: a lembrança acompanha o pior momento e o momento final, e a duração quase não pesa. O resultado desconfortável é que acrescentar tempo calmo no fim, ou seja piorar a média, melhorou a lembrança.",
+    "evidencia": [
+      {
+        "claim": "existe um estudo de 1996 de Donald Redelmeier e Daniel Kahneman sobre memória de procedimentos médicos dolorosos, publicado na revista Pain",
+        "status": "E",
+        "fonte": "Donald A. Redelmeier e Daniel Kahneman, Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures, Pain, volume 66, número 1, páginas 3 a 8, julho de 1996, DOI 10.1016/0304-3959(96)02994-6. Registro bibliográfico e resumo integral conferidos nesta execução pela API oficial do PubMed, PMID 8857625."
+      },
+      {
+        "claim": "nesse estudo a dor foi registrada em tempo real em 154 pacientes de um exame e 133 de outro, e a lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos, com procedimento longo não sendo lembrado como especialmente pior",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução, com o trecho literal do resumo: \"We recorded in real-time the intensity of pain experienced by patients undergoing colonoscopy (n = 154) and lithotripsy (n = 133). (...) Patients' judgments of total pain were strongly correlated with the peak intensity of pain (P < 0.005) and with the intensity of pain recorded during the last 3 min of the procedure (P < 0.005). Despite substantial variation in the duration of the experience, lengthy procedures were not remembered as particularly aversive.\""
+      },
+      {
+        "claim": "existe um ensaio aleatorizado de 2003 de Donald Redelmeier, Joel Katz e Daniel Kahneman, com 682 pacientes, também publicado na revista Pain",
+        "status": "E",
+        "fonte": "Donald A. Redelmeier, Joel Katz e Daniel Kahneman, Memories of colonoscopy: a randomized trial, Pain, volume 104, números 1 e 2, páginas 187 a 194, julho de 2003, DOI 10.1016/s0304-3959(03)00003-4. Registro bibliográfico e resumo integral conferidos nesta execução pela API oficial do PubMed, PMID 12855328."
+      },
+      {
+        "claim": "nesse ensaio, metade dos pacientes recebeu por sorteio um trecho calmo acrescentado ao final do exame, e esse grupo avaliou a experiência inteira como menos desagradável, 4,4 contra 4,9 em uma escala visual de 10 centímetros",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução, com o trecho literal do resumo: \"By random assignment, half the patients had a short interval added to the end of their procedure during which the tip of the colonoscope remained in the rectum. (...) patients who underwent the extended procedure experienced the final moments as less painful (1.7 vs. 2.5 on a ten point intensity scale, P<0.001), rated the entire experience as less unpleasant (4.4 vs. 4.9 on a 10 cm visual analogue scale, P=0.006), and ranked the procedure as less aversive compared to seven other unpleasant experiences (4.1 vs. 4.6 with eight as the worst, P=0.002).\""
+      },
+      {
+        "claim": "nesse mesmo ensaio, a taxa de retorno para repetir o exame foi de 50,4 por cento na média e ficou um pouco maior no grupo do exame mais longo, com razão de chances de 1,41",
+        "status": "E",
+        "fonte": "Mesmo registro, conferido nesta execução, com o trecho literal do resumo: \"Rates of returning for a repeat colonoscopy (median duration of follow-up 5.3 years) averaged 50.4% and were slightly higher (odds ratio=1.41, P=0.038) for those who underwent the longer procedure controlling for prior colonoscopy, procedure indications, and abnormal findings.\""
+      },
+      {
+        "claim": "a lembrança que um cliente de serviço guarda de uma entrega se forma do mesmo jeito que a lembrança de dor medida nesses estudos",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. Os 2 estudos mediram dor física em exame médico, com pacientes avaliando desconforto, e não satisfação de cliente com trabalho entregue. Nenhum mediu escritório de serviço. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, a revista, o volume, o número, as páginas e o ano do estudo de 1996",
+        "os 154 e os 133 pacientes, o pico e os últimos 3 minutos como o que a lembrança acompanhou, e a duração pesando pouco",
+        "a existência, a autoria, a revista, o volume, os números, as páginas e o ano do ensaio de 2003, com 682 pacientes",
+        "o trecho calmo sorteado no final e os 4,4 contra 4,9 na escala de 10 centímetros",
+        "a taxa de retorno de 50,4 por cento e a razão de chances de 1,41 a favor do exame mais longo"
+      ],
+      "I": [
+        "a leitura de que a lembrança do cliente de serviço se forma como a lembrança de dor medida nesses estudos",
+        "a leitura de que o fim da entrega é o trecho barato de melhorar porque pesa mais do que o tamanho dele sugere"
+      ],
+      "H": [
+        "os 4 passos como roteiro mínimo de fechamento de entrega em negócio de serviço",
+        "a escolha dos últimos 10 minutos e de 5 linhas de resumo como tamanhos iniciais",
+        "tirar cobrança, pendência e má notícia de perto da despedida como forma prática de não deixar o pior momento coincidir com o último"
+      ],
+      "NC": [
+        "quanto da decisão de um cliente de serviço recontratar vem da lembrança da última entrega, porque ninguém isolou esse peso nesse contexto",
+        "qual é o tamanho ideal do fechamento de uma entrega, porque não existe medida desse recorte fora de laboratório"
+      ]
+    },
+    "limites": [
+      "Os 2 estudos mediram dor física em exame médico. Eles não medem satisfação de cliente, não medem recompra em serviço profissional e a peça não afirma que medem.",
+      "O 4,4 e o 4,9 são notas em uma escala visual de 10 centímetros de desconforto lembrado, em que menos é melhor. A peça os apresenta assim, e não como nota de satisfação.",
+      "A taxa de retorno de 50,4 por cento e a razão de chances de 1,41 são de retorno para repetir um exame de rastreio, e não de recompra de serviço. A peça cita o retorno sem transportá-lo para o contexto comercial.",
+      "Os 4 passos, os 10 minutos e as 5 linhas são adaptação editorial da Zionaxs. Eles não saem das fontes e não têm medida própria, e a peça declara isso.",
+      "A peça não promete retenção, recompra nem indicação. Ela trata de 1 coisa: por que o fim pesa mais na lembrança do que o tamanho dele sugere, e o que colocar nele.",
+      "A peça não trata de preço, de escopo nem de qualidade técnica da entrega. Fim bem feito não conserta trabalho ruim, e o slide 6 diz isso."
+    ]
+  },
+  "tese": "A lembrança que o cliente guarda de uma entrega não é a média do trabalho inteiro: ela acompanha o pior momento e o momento final, e a duração quase não pesa. Em ensaio aleatorizado com 682 pacientes, acrescentar um trecho calmo ao final de um exame piorou a média e melhorou a lembrança. Consequência prática: o fim da entrega é o trecho mais barato de melhorar, porque pesa mais do que o tamanho dele sugere.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A nota 19c não tem linha para experiência de entrega ou memória do cliente: M08 trata de retrabalho invisível, M09 de margem por cliente e M12 de máquina mínima de indicação, e nenhuma delas trata de como a experiência entregue vira lembrança. Declarar M12 porque indicação e lembrança se encostam seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para desenho do fim da entrega em negócio de serviço vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c não tem linha para julgamento, memória ou avaliação de experiência: R8, do Sistema Toyota de Produção, chega perto ao tratar de parar a linha, e R9, de W. Edwards Deming, ao tratar de decidir com medida, mas os 2 tratam de processo produtivo e não de como uma experiência vivida vira lembrança. A fonte desta peça, portanto, é externa ao ledger, e a proposta de acrescentar a linha de experiência e memória, com Donald Redelmeier e Daniel Kahneman em 1996 e com Donald Redelmeier, Joel Katz e Daniel Kahneman em 2003, fica na Inbox da Zionaxs Memory, para promoção humana. A zx-44 deixou proposta parecida para previsão e julgamento, e as 2 podem virar uma linha só na promoção.",
+  "jtbd": [
+    "JO1",
+    "JS4"
+  ],
+  "cta": "Pegar a entrega que termina esta semana e escrever agora a mensagem de encerramento, com o que foi feito, o que o cliente ganhou e o próximo passo com data.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pela correção da crença de que a lembrança é a média do trabalho, ver a cena do trabalho que correu bem e mesmo assim ficou marcado por outra coisa, receber a evidência de que a lembrança acompanha o pico e o fim, virar para o achado que inverte a intuição, que é o fim acrescentado melhorando a lembrança e piorando a média, receber os 4 passos aplicáveis na próxima entrega, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo bloco de números.",
+  "internal_metadata": [
+    "zx-45",
+    "JO1",
+    "JS4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Slow Return",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo. A nota específica desta peça é procurar uma faixa que termine bem: textura clara, pulso leve e uma cauda que decai em vez de cortar seco. O assunto é o fim que fica na lembrança, e trilha que some com calma no último compasso faz o próprio ponto da peça. Combina com o slot da manhã, que pede descoberta, então vale uma faixa mais leve e mais aberta que as da tarde.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional. Nesta peça, evitar ainda faixa que termine em corte abrupto ou em acorde suspenso, do tipo que deixa a sensação de que faltou alguma coisa: o texto está defendendo fechamento bem feito, e trilha que acaba no susto contradiz o argumento.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso leve, intensidade estável e final que decai, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-44 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques e pulso metronômico de textura seca. Aqui o pedido acrescenta 1 restrição nova: o final da faixa tem de decair, e não cortar."
+  },
+  "caption": [
+    "O cliente lembra o fim.",
+    "Você entrega um trabalho que correu bem do começo ao fim e fica com a sensação de que o cliente guardou o conjunto. Não é o que acontece. A lembrança não é a média: ela se apoia no pior momento e no momento final.",
+    "Isso foi medido em pacientes. Em 1996, os pesquisadores Donald Redelmeier e Daniel Kahneman publicaram na revista Pain um trabalho em que registraram a dor em tempo real durante 2 exames desconfortáveis, com 154 e 133 pacientes. A lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos. Exame mais longo não foi lembrado como pior.",
+    "Em 2003, os mesmos pesquisadores, agora com Joel Katz, foram além e fizeram um sorteio com 682 pacientes. Metade teve um trecho calmo acrescentado ao final do exame, sem tirar nada do resto. Esse grupo avaliou a experiência inteira como menos desagradável, 4,4 contra 4,9 em uma escala de desconforto em que menos é melhor.",
+    "Repare no que isso significa. O grupo do trecho calmo passou mais tempo desconfortável no total, ou seja, teve a média piorada, e mesmo assim lembrou melhor. O fim reescreveu a experiência inteira.",
+    "Na prática, 4 passos para a sua entrega. 1: escreva o que acontece nos últimos 10 minutos de toda entrega e deixe igual para todo cliente. 2: tire cobrança, pendência e má notícia de perto da despedida, e resolva isso no meio do caminho. 3: feche com 5 linhas dizendo o que foi feito e o que o cliente ganhou. 4: combine o próximo passo com data na mesma mensagem.",
+    "Um cuidado antes de começar: os 2 estudos mediram dor em exame médico, não satisfação com serviço, então a ponte para a sua entrega é leitura da Zionaxs. Os 4 passos também são adaptação nossa, e não recomendação dos autores. E fim bem feito não conserta trabalho ruim.",
+    "Comece hoje. Pegue a entrega que termina esta semana e escreva agora a mensagem de encerramento."
+  ],
+  "caption_sources": [
+    "Fonte do mecanismo e dos números do estudo em tempo real: Donald A. Redelmeier e Daniel Kahneman, Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures, Pain, volume 66, número 1, páginas 3 a 8, julho de 1996, DOI 10.1016/0304-3959(96)02994-6, PMID 8857625. Registro e resumo integral conferidos nesta execução pela API oficial do PubMed.",
+    "Trecho literal do resumo de 1996, conferido nesta execução: \"We recorded in real-time the intensity of pain experienced by patients undergoing colonoscopy (n = 154) and lithotripsy (n = 133). (...) Patients' judgments of total pain were strongly correlated with the peak intensity of pain (P < 0.005) and with the intensity of pain recorded during the last 3 min of the procedure (P < 0.005). Despite substantial variation in the duration of the experience, lengthy procedures were not remembered as particularly aversive.\"",
+    "Fonte do ensaio aleatorizado: Donald A. Redelmeier, Joel Katz e Daniel Kahneman, Memories of colonoscopy: a randomized trial, Pain, volume 104, números 1 e 2, páginas 187 a 194, julho de 2003, DOI 10.1016/s0304-3959(03)00003-4, PMID 12855328. Registro e resumo integral conferidos nesta execução pela API oficial do PubMed.",
+    "Trecho literal do resumo de 2003, conferido nesta execução: \"By random assignment, half the patients had a short interval added to the end of their procedure during which the tip of the colonoscope remained in the rectum. (...) patients who underwent the extended procedure experienced the final moments as less painful (1.7 vs. 2.5 on a ten point intensity scale, P<0.001), rated the entire experience as less unpleasant (4.4 vs. 4.9 on a 10 cm visual analogue scale, P=0.006), and ranked the procedure as less aversive compared to seven other unpleasant experiences (4.1 vs. 4.6 with eight as the worst, P=0.002). Rates of returning for a repeat colonoscopy (median duration of follow-up 5.3 years) averaged 50.4% and were slightly higher (odds ratio=1.41, P=0.038) for those who underwent the longer procedure controlling for prior colonoscopy, procedure indications, and abnormal findings.\"",
+    "Recorte e limitação: os 2 estudos mediram dor física durante exame médico, com pacientes avaliando desconforto lembrado, e não satisfação de cliente com trabalho entregue nem recompra de serviço. Por isso a peça não afirma percentual nenhum sobre negócio de serviço e trata a passagem para esse contexto como leitura, não como medida.",
+    "Os valores 4,4 e 4,9 são notas em uma escala visual de 10 centímetros de desconforto lembrado, em que menos é melhor. A peça os descreve assim, e não como nota de satisfação.",
+    "A taxa de retorno de 50,4 por cento e a razão de chances de 1,41 do estudo de 2003 se referem a voltar para repetir um exame de rastreio, com acompanhamento de 5,3 anos de mediana. A peça não transporta esse número para recompra de serviço.",
+    "Os 4 passos, os 10 minutos e as 5 linhas são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Repertório: o ledger da nota 19c da Zionaxs não tem linha para experiência, memória ou avaliação retrospectiva, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Yzy Pop, Kari Shea e Muhammad Fauzan Azhima, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A lembrança",
+      "copy": {
+        "title": "O cliente\nlembra o fim.",
+        "accentLine": "Não a média.",
+        "hl": "Não a média.",
+        "sub": "Você entrega um trabalho que correu bem do começo ao fim e imagina que o cliente guardou o conjunto. Em experimento controlado, a lembrança se apoiou em 2 pontos apenas: o pior momento e o último.",
+        "year": "2026",
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506 · foto: Yzy Pop"
+      },
+      "approved_visible_copy": [
+        "A lembrança",
+        "01/07",
+        "O cliente lembra o fim.",
+        "Não a média.",
+        "Você entrega um trabalho que correu bem do começo ao fim e imagina que o cliente guardou o conjunto. Em experimento controlado, a lembrança se apoiou em 2 pontos apenas: o pior momento e o último.",
+        "2026",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506 · foto: Yzy Pop"
+      ],
+      "alt": "Slide 1 de 7. O cliente lembra o fim, não a média. Você entrega um trabalho que correu bem do começo ao fim e imagina que o cliente guardou o conjunto. Em experimento controlado, a lembrança se apoiou em 2 pontos apenas: o pior momento e o último. Fotografia escura de um corredor vazio à noite, com uma porta clara iluminada ao fundo e o piso de madeira em penumbra, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-corredor-porta-iluminada.jpg",
+        "pos": "50% 45%",
+        "scale": 1.25,
+        "origin": "50% 0%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Correu\ntudo\nbem."
+        ],
+        "closing": "O trabalho saiu no prazo e sem erro, e mesmo assim a lembrança que ficou no cliente foi de outra coisa. Em 1996, os pesquisadores Donald Redelmeier e Daniel Kahneman foram medir como essa lembrança se forma, minuto a minuto.",
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506 · foto: Kari Shea"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Correu tudo bem.",
+        "O trabalho saiu no prazo e sem erro, e mesmo assim a lembrança que ficou no cliente foi de outra coisa. Em 1996, os pesquisadores Donald Redelmeier e Daniel Kahneman foram medir como essa lembrança se forma, minuto a minuto.",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506 · foto: Kari Shea"
+      ],
+      "alt": "Slide 2 de 7. Correu tudo bem. O trabalho saiu no prazo e sem erro, e mesmo assim a lembrança que ficou no cliente foi de outra coisa. Em 1996, os pesquisadores Donald Redelmeier e Daniel Kahneman foram medir como essa lembrança se forma, minuto a minuto. Papel claro com fotografia em preto e branco de uma mesa de trabalho arrumada, com um computador portátil de tela apagada ao centro, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-entregue.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "O que ficou:",
+          "o pior e o fim."
+        ],
+        "closing": "Eles registraram a dor em tempo real durante 2 exames desconfortáveis, com 154 e 133 pacientes. A lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos. Exame mais longo não foi lembrado como pior.",
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "O que ficou:",
+        "o pior e o fim.",
+        "Eles registraram a dor em tempo real durante 2 exames desconfortáveis, com 154 e 133 pacientes. A lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos. Exame mais longo não foi lembrado como pior.",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506"
+      ],
+      "alt": "Slide 3 de 7. O que ficou: o pior e o fim. Eles registraram a dor em tempo real durante 2 exames desconfortáveis, com 154 e 133 pacientes. A lembrança do total acompanhou o pico de dor e a dor dos últimos 3 minutos. Exame mais longo não foi lembrado como pior."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Piorou\na média.",
+        "accent": "Melhorou o fim.",
+        "hl": "Melhorou o fim.",
+        "ghost": "682",
+        "year": "2026",
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506",
+        "body": "Em 2003 os mesmos pesquisadores sortearam 682 pacientes. Metade teve 1 trecho calmo acrescentado ao final do exame, sem tirar nada do resto. Esse grupo passou mais tempo desconfortável e ainda assim lembrou o exame inteiro como menos ruim, 4,4 contra 4,9 em uma escala de desconforto."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Piorou a média.",
+        "Melhorou o fim.",
+        "2026",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506",
+        "Em 2003 os mesmos pesquisadores sortearam 682 pacientes. Metade teve 1 trecho calmo acrescentado ao final do exame, sem tirar nada do resto. Esse grupo passou mais tempo desconfortável e ainda assim lembrou o exame inteiro como menos ruim, 4,4 contra 4,9 em uma escala de desconforto."
+      ],
+      "alt": "Slide 4 de 7. Piorou a média, melhorou o fim. Em 2003 os mesmos pesquisadores sortearam 682 pacientes. Metade teve 1 trecho calmo acrescentado ao final do exame, sem tirar nada do resto. Esse grupo passou mais tempo desconfortável e ainda assim lembrou o exame inteiro como menos ruim, 4,4 contra 4,9 em uma escala de desconforto. Campo laranja chapado com o número 682 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O fim em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escreva o que acontece nos últimos 10 minutos de toda entrega e deixe igual para todo cliente."
+          },
+          {
+            "num": "2",
+            "label": "Tire cobrança, pendência e má notícia de perto da despedida, e resolva isso no meio do caminho."
+          },
+          {
+            "num": "3",
+            "label": "Feche com 5 linhas dizendo o que foi feito e o que o cliente ganhou com isso."
+          },
+          {
+            "num": "4",
+            "label": "Combine o próximo passo com data na mesma mensagem, sem deixar para depois."
+          }
+        ],
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O fim em 4 passos.",
+        "1",
+        "Escreva o que acontece nos últimos 10 minutos de toda entrega e deixe igual para todo cliente.",
+        "2",
+        "Tire cobrança, pendência e má notícia de perto da despedida, e resolva isso no meio do caminho.",
+        "3",
+        "Feche com 5 linhas dizendo o que foi feito e o que o cliente ganhou com isso.",
+        "4",
+        "Combine o próximo passo com data na mesma mensagem, sem deixar para depois.",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506"
+      ],
+      "alt": "Slide 5 de 7. O fim em 4 passos. 1: escreva o que acontece nos últimos 10 minutos de toda entrega e deixe igual para todo cliente. 2: tire cobrança, pendência e má notícia de perto da despedida, e resolva isso no meio do caminho. 3: feche com 5 linhas dizendo o que foi feito e o que o cliente ganhou com isso. 4: combine o próximo passo com data na mesma mensagem, sem deixar para depois. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Não é\nmaquiagem.",
+        "accent": "É desenho.",
+        "body": "Os 2 estudos mediram dor em exame médico, não satisfação com serviço. A ponte para a sua entrega é leitura da Zionaxs. E fim bem feito não conserta trabalho ruim: ele decide o que fica na lembrança.",
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Não é maquiagem.",
+        "É desenho.",
+        "Os 2 estudos mediram dor em exame médico, não satisfação com serviço. A ponte para a sua entrega é leitura da Zionaxs. E fim bem feito não conserta trabalho ruim: ele decide o que fica na lembrança.",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506"
+      ],
+      "alt": "Slide 6 de 7. Não é maquiagem, é desenho. Os 2 estudos mediram dor em exame médico, não satisfação com serviço. A ponte para a sua entrega é leitura da Zionaxs. E fim bem feito não conserta trabalho ruim: ele decide o que fica na lembrança."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Escreva o\nfim agora.",
+        "hl": "Escreva o",
+        "accent": "Antes da entrega.",
+        "body": "Pegue o trabalho que termina esta semana e escreva a mensagem de encerramento: o que foi feito, o que o cliente ganhou e o próximo passo com data. Guarde o texto e use o mesmo nas próximas entregas.",
+        "year": "2026",
+        "temas": "Temas: Entrega / Experiência / Cliente",
+        "micro": "@zionaxs_ · ref 7b737506 · foto: Muhammad Fauzan Azhima"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Escreva o fim agora.",
+        "Antes da entrega.",
+        "Pegue o trabalho que termina esta semana e escreva a mensagem de encerramento: o que foi feito, o que o cliente ganhou e o próximo passo com data. Guarde o texto e use o mesmo nas próximas entregas.",
+        "2026",
+        "Temas: Entrega / Experiência / Cliente",
+        "@zionaxs_ · ref 7b737506 · foto: Muhammad Fauzan Azhima"
+      ],
+      "alt": "Slide 7 de 7. Escreva o fim agora, antes da entrega. Pegue o trabalho que termina esta semana e escreva a mensagem de encerramento: o que foi feito, o que o cliente ganhou e o próximo passo com data. Guarde o texto e use o mesmo nas próximas entregas. Fotografia escura de uma escrivaninha à noite, com uma luminária acesa iluminando um computador portátil aberto e um porta-lápis, e o resto do quarto no escuro, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-luminaria-mesa-noite.jpg",
+        "pos": "50% 100%"
+      }
+    }
+  ]
+}
