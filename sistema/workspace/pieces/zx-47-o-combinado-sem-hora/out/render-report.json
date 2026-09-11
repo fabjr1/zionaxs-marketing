@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-47-o-combinado-sem-hora",
+  "generatedAt": "2026-09-11T11:53:12+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-47-o-combinado-sem-hora-slide-01.png",
+    "zx-47-o-combinado-sem-hora-slide-02.png",
+    "zx-47-o-combinado-sem-hora-slide-03.png",
+    "zx-47-o-combinado-sem-hora-slide-04.png",
+    "zx-47-o-combinado-sem-hora-slide-05.png",
+    "zx-47-o-combinado-sem-hora-slide-06.png",
+    "zx-47-o-combinado-sem-hora-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O combinado sem hora 01/07 Motivar deu 35. Marcar deu 91. Em experimento com 248 pessoas, quem recebeu material para se motivar cumpriu o combinado em 35 por cento dos casos. Quem escreveu antes o dia, a hora e o lugar cumpriu em 91 por cento. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254 · foto: Nick Brice"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Ficou de ver. A reunião terminou com 5 combinados anotados e todo mundo concordou. Uma semana depois, 4 continuam iguais. Ninguém foi desleixado: nenhum deles saiu da sala com dia e hora, e cada um ficou esperando uma folga que não veio. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254 · foto: Kelly Sikkema"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 A conta do plano: 91 contra 35. Em 2002, os pesquisadores Sarah Milne, Sheina Orbell e Paschal Sheeran acompanharam 248 pessoas por 2 semanas. Entre as que receberam só material para se motivar, 35 por cento cumpriram o combinado. Entre as que escreveram dia, hora e lugar, 91 por cento. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Não falta vontade. Falta hora. No mesmo estudo, o grupo que recebeu só material para se motivar ficou no mesmo lugar de quem não recebeu nada: 35 por cento contra 38. O gargalo não estava na vontade, estava na hora. Ninguém tinha decidido em que momento do dia aquilo ia acontecer. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O combinado em 4 passos. 1Escreva cada combinado com 4 partes: quem faz, o que faz, em que dia e em que horário. 2Crie o evento na agenda ainda dentro da reunião. Combinado sem evento criado não tem hora. 31 combinado por pessoa por semana. Lista de 5 vira lista de 0. 4Na semana seguinte, abra a agenda e leia o que estava marcado antes de qualquer assunto novo. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Marcar não faz. Só começa. O experimento mediu exercício em estudantes por 2 semanas, e não combinado de equipe. A ponte para o seu negócio é leitura da Zionaxs. E marcar hora não salva combinado que não cabe na semana. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Abra a agenda agora. Marque 1 hora. Pegue o combinado mais antigo que ainda não saiu do papel e escolha o dia e o horário. Crie o evento com o nome do combinado. Enquanto ele não tiver hora, ele continua esperando uma folga que não vem. Temas: Combinados / Agenda / Execução @zionaxs_ · ref 3e0ef254 · foto: Clint Patterson"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.7,
+  "digest": "a35fc1ae313b53aa360ce4a777fd26fd6469e87b24921b1963f8d605a7815bae"
+}

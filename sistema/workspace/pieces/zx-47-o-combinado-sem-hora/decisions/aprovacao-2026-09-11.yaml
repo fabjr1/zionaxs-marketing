@@ -1,0 +1,164 @@
+decisao: aprovar e publicar a zx-47, slot da manhã
+data: 2026-09-11
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 0 de 2 do dia consumidos.
+  registro_anterior: pieces/zx-46-a-primeira-hora/decisions/aprovacao-2026-09-10.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, sexta-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã pede entrada por um achado que surpreende e saída por um
+    passo encaminhável no mesmo dia. Esta peça entra pelo resultado
+    contraintuitivo de que material feito para motivar deixou o cumprimento
+    praticamente onde estava, e sai com 1 passo que cabe na próxima reunião,
+    criar o evento na agenda ainda dentro dela. O achado é o gancho e o método
+    é curto de propósito: método longo é matéria do slot da tarde.
+  nao_repete_a_vespera: >
+    A zx-46, publicada em 10/09, trata do tempo até a primeira resposta a um
+    pedido novo, portanto de atendimento a quem chega de fora. Esta peça trata
+    do combinado interno que já foi decidido por todos e mesmo assim não
+    acontece. Não se encostam nem na cena, nem na fonte, nem no público da cena.
+
+tema:
+  escolhido: >
+    combinado que sai de uma reunião sem dia e sem hora não é combinado, é
+    intenção; em experimento com 248 pessoas, material feito para aumentar a
+    motivação deixou o cumprimento em 35 por cento, praticamente o mesmo dos 38
+    por cento de quem não recebeu nada, e escrever antes o dia, a hora e o lugar
+    levou o cumprimento a 91 por cento
+  matriz: nenhuma declarada
+  jtbd: [JF4, JE1]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é descoberta, e a inversão que o experimento entrega é
+    exatamente isso: a leitura instintiva de que faltou vontade é a leitura
+    errada, e o gargalo é a ausência de hora marcada. O tema não repete nenhuma
+    das 27 peças anteriores. A zx-21 trata de decisão que espera o dono por
+    falta de alçada, ou seja, do que ainda não foi decidido; aqui a decisão já
+    foi tomada por todos e mesmo assim não anda. A zx-22 trata do rito semanal
+    de 30 minutos, que é o continente da reunião, e não a forma do combinado que
+    sai dela. A zx-35 trata de prazo que se estica até ocupar o tempo reservado,
+    que pressupõe trabalho já em curso. A zx-24 trata de excesso de coisas
+    abertas ao mesmo tempo. Nenhuma trata do que separa decidir de fazer, que é
+    onde esta peça mora. A ponte da evidência para o combinado de equipe em
+    negócio de serviço brasileiro é declarada como leitura da Zionaxs, no slide 6
+    e na legenda, e não atribuída aos autores.
+
+evidencia:
+  fontes_conferidas_nesta_execucao:
+    - >
+      Sarah Milne, Sheina Orbell e Paschal Sheeran, Combining motivational and
+      volitional interventions to promote exercise participation: Protection
+      motivation theory and implementation intentions, British Journal of Health
+      Psychology, volume 7, 2002, páginas 163 a 184, DOI
+      10.1348/135910702169420. Registro conferido na página oficial do artigo na
+      Wiley Online Library e no PubMed, identificador 14596707.
+    - >
+      Peter M. Gollwitzer e Paschal Sheeran, Implementation Intentions and Goal
+      Achievement: A Meta-Analysis of Effects and Processes, Advances in
+      Experimental Social Psychology, volume 38, 2006, páginas 69 a 119.
+      Registro conferido na página do capítulo na ScienceDirect e no repositório
+      KOPS da Universidade de Konstanz.
+  numeros_e_recorte:
+    - "experimento: 248 participantes sorteados em 3 grupos, 3 ondas de coleta em 2 semanas"
+    - "grupo 3 escreveu dia, horário e lugar em que faria pelo menos 20 minutos de exercício vigoroso"
+    - "desfecho por proporção que cumpriu pelo menos 1 vez: 38 por cento controle, 35 por cento motivação, 91 por cento plano de execução"
+    - "meta-análise: 94 testes independentes, efeito de magnitude média para grande, d igual a 0,65"
+  limites_declarados_na_peca:
+    - o experimento mediu exercício físico em estudantes do Reino Unido, e não combinado de equipe
+    - os 91 por cento são proporção que cumpriu pelo menos 1 vez em 2 semanas, não medida de constância
+    - a distância entre 35 e 38 por cento é pequena e a peça a trata como empate, sem afirmar que motivar piora
+    - efeito médio para grande é média entre estudos e não garante resultado em um caso específico
+    - os 4 passos, o limite de 1 combinado por pessoa por semana e a leitura da agenda são adaptação editorial da Zionaxs
+  nota_de_apuracao: >
+    Os 3 percentuais do desfecho não aparecem no resumo público do artigo, que
+    descreve o desenho e a direção do resultado sem os números por grupo. Eles
+    foram confirmados em fontes secundárias que citam a leitura por proporção de
+    participantes, e a peça usa os 3 juntos, com o recorte declarado, em vez de
+    citar só os 91 por cento. Citar apenas o número alto seria o uso frágil.
+
+producao:
+  gates: 14/14
+  digest_da_geracao: a35fc1ae313b
+  geracoes: 3
+  o_que_custou_geracao:
+    - >
+      G6 runt na primeira geração: o apoio da capa terminava com "cento." em 11
+      por cento da largura. Corrigido reescrevendo o fim da frase, como manda a
+      nota da zx-28, e não com quebra autoral, que trocaria G6 vermelho por G7
+      vermelho. A reescrita também enxugou a capa, tirando dela a comparação com
+      o grupo de controle, que já é o assunto inteiro do slide 4.
+    - >
+      Troca de enquadramento da capa depois de olhar o PNG. Com o recorte
+      central, a janela clara da sala de reunião caía justamente sob a caixa de
+      paginação do chrome, que vive a cerca de 47 por cento da altura: cream
+      sobre vidro claro, ilegível. Corrigido com scale 1.35 e origin 50% 100%,
+      que levou a janela inteira para o terço superior e deixou a banda de texto
+      sobre o carpete escuro. É a alavanca que a zx-34 registrou, aplicada a um
+      alvo que o texto de lá não nomeia: não a manchete, mas o chrome.
+
+verificacao_do_passo_6:
+  metodo: >
+    Além de olhar os 7 PNG, esta execução mediu no pixel a folga entre a tinta do
+    corpo e a geometria laranja no poster-statement, varrendo linha a linha o
+    extremo direito do texto escuro e o extremo esquerdo do anel, dentro da faixa
+    vertical do anel.
+  resultado_slide_6: >
+    A menor folga ficou em 59 pixels, com a linha mais larga terminando em x 906
+    e o anel começando em x 965. Nenhuma reescrita foi necessária, ao contrário
+    da zx-46, que precisou de 1. A pendência do anel que a direção visual
+    registra continua de pé como decisão de template.
+  fotos_descartadas: >
+    3 candidatas de campo de papel foram descartadas por ano legível: uma agenda
+    com "July 2016" na página, outra com "June 2016" e uma terceira com "FEBRUARY
+    2019" e "MONTHLY PLANNER" em inglês. É a regra da zx-23 sobre texto legível
+    na foto, e o custo que a zx-34 previu, de 3 a 4 descartes por vaga, se
+    confirmou quase exatamente. A escolhida é um caderno de espiral fechado com
+    a capa em branco, sem texto nenhum.
+  folha_de_contato: >
+    9 candidatas de campo escuro e 7 de campo de papel foram medidas antes de
+    escrever o contrato, com gradê e scrim aplicados e a banda de 46 a 93 por
+    cento marcada. As 2 salas de reunião mais claras, com banda em 115,7 e 116,8
+    de luminância, foram descartadas na medida, antes de chegar ao olho.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso calmo e regular no fundo, nota longa sustentada,
+    intensidade estável e sem virada
+  por_que: >
+    o assunto é a semana que passou sem nada acontecer, então a trilha deve
+    segurar sem empurrar; e há um motivo específico desta peça para excluir
+    trilha de arrancada: o texto afirma que material motivacional não muda
+    resultado, então música inspiradora contradiria o próprio argumento. O pedido
+    também inverte de propósito o da zx-46, que pediu pulso audível o tempo todo,
+    para as 2 peças não soarem iguais no feed.
+  origem_obrigatoria: Meta Sound Collection
+  observacao: >
+    a sessão em nuvem não tem acesso ao índice do acervo de trilhas, então o nome
+    no contrato é perfil, não faixa confirmada; a escolha final é do Fabiano no
+    app, depois de publicado
+
+memory:
+  propostas_para_inbox:
+    - >
+      linha de matriz editorial própria para combinado que não vira execução;
+      nenhuma linha de M01 a M20 cobre o que separa decidir de fazer, e M19 trata
+      de alçada, ou seja, de quem pode decidir, que é o problema anterior a este
+    - >
+      linha de repertório para intenção e plano de execução, com Milne, Orbell e
+      Sheeran em 2002 e Gollwitzer e Sheeran em 2006
+    - >
+      acréscimo à direção visual: a alavanca de crop da zx-34 também serve para
+      tirar assunto claro de baixo do CHROME, e não só de baixo da manchete; a
+      caixa de paginação vive a cerca de 47 por cento da altura e é o primeiro
+      elemento a ser engolido por janela ou parede clara

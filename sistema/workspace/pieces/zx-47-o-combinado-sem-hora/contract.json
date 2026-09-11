@@ -1,0 +1,330 @@
+{
+  "id": "zx-47-o-combinado-sem-hora",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e sai de reuniões com combinados: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a reunião termina com 5 combinados anotados, todo mundo concorda, e uma semana depois 4 continuam iguais, porque nenhum deles saiu da sala com dia e hora. Slot editorial: manhã de dia útil, papel de descoberta, tensão atual, curiosidade ou pauta encaminhável, então a peça precisa entrar por um achado que surpreende e sair com um passo que cabe no mesmo dia.",
+    "decisao": "Parar de tratar combinado como intenção que a equipe cumpre quando sobrar tempo e passar a tratá-lo como evento com dia e hora. Na prática: escrever cada combinado com quem faz, o que faz, em que dia e em que horário, criar o evento na agenda ainda dentro da reunião, limitar a 1 combinado por pessoa por semana, e abrir a agenda na semana seguinte para ler o que estava marcado.",
+    "tensao": "Quando o combinado não acontece, a leitura instintiva é que faltou vontade ou empenho, e a correção instintiva é cobrar mais, motivar mais, repetir a importância na reunião seguinte. O que foi medido em experimento é desconfortável para essa leitura: material feito para aumentar a motivação deixou o resultado praticamente onde estava, e o que mudou o resultado foi escrever antes em que dia, em que hora e em que lugar a pessoa faria o que tinha decidido.",
+    "evidencia": [
+      {
+        "claim": "existe um experimento de 2002 de Sarah Milne, Sheina Orbell e Paschal Sheeran publicado no British Journal of Health Psychology sobre motivação e plano de execução",
+        "status": "E",
+        "fonte": "Sarah Milne, Sheina Orbell e Paschal Sheeran, Combining motivational and volitional interventions to promote exercise participation: Protection motivation theory and implementation intentions, British Journal of Health Psychology, volume 7, 2002, páginas 163 a 184, DOI 10.1348/135910702169420. Registro conferido nesta execução na página oficial do artigo na Wiley Online Library e no PubMed, identificador 14596707."
+      },
+      {
+        "claim": "nesse experimento 248 pessoas foram sorteadas em 3 grupos e acompanhadas por 2 semanas, sendo 1 grupo de controle, 1 grupo que recebeu material para aumentar a motivação e 1 grupo que recebeu o mesmo material e ainda escreveu dia, hora e lugar do que faria",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução. O desenho é longitudinal, com 3 ondas de coleta em 2 semanas, manipulação experimental das variáveis de motivação na onda 1 e a intervenção de plano de execução na onda 2. O terceiro grupo completou uma frase especificando dia, horário e lugar em que faria pelo menos 20 minutos de exercício vigoroso na semana seguinte."
+      },
+      {
+        "claim": "o desfecho medido foi a proporção de participantes que cumpriram o combinado pelo menos 1 vez, e deu 38 por cento no controle, 35 por cento no grupo que recebeu só motivação e 91 por cento no grupo que escreveu dia, hora e lugar",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução. Na leitura por proporção de participantes que se exercitaram pelo menos 1 vez, 38 por cento do grupo de controle e 35 por cento do grupo que recebeu apenas a intervenção motivacional cumpriram, contra 91 por cento do grupo que recebeu a intervenção motivacional somada ao plano de execução."
+      },
+      {
+        "claim": "em 2006 Peter Gollwitzer e Paschal Sheeran reuniram 94 testes independentes desse tipo de plano e encontraram efeito de tamanho médio para grande sobre cumprir o que foi decidido",
+        "status": "E",
+        "fonte": "Peter M. Gollwitzer e Paschal Sheeran, Implementation Intentions and Goal Achievement: A Meta-Analysis of Effects and Processes, Advances in Experimental Social Psychology, volume 38, 2006, páginas 69 a 119. Registro conferido nesta execução na página do capítulo na ScienceDirect e no repositório KOPS da Universidade de Konstanz. A meta-análise cobre 94 testes independentes e relata efeito de magnitude média para grande, d igual a 0,65, sobre o alcance da meta."
+      },
+      {
+        "claim": "o mesmo padrão vale para o combinado que sai de uma reunião de trabalho em uma clínica, em um escritório contábil ou em uma banca de advocacia no Brasil",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. O experimento de 2002 mediu exercício físico em estudantes do Reino Unido, e a meta-análise de 2006 cobre sobretudo metas pessoais e de saúde. Nenhum dos 2 mediu combinado de equipe em negócio de serviço brasileiro. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      },
+      {
+        "claim": "os 4 passos do slide 5, o limite de 1 combinado por pessoa por semana e a leitura da agenda na semana seguinte",
+        "status": "NC",
+        "fonte": "Adaptação editorial da Zionaxs a partir das 2 fontes. Os autores descrevem o efeito de especificar quando, onde e como, e não prescrevem esse roteiro de reunião. A peça declara isso na legenda."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, o veículo, o volume e o ano do experimento de 2002",
+        "as 248 pessoas, os 3 grupos sorteados e as 2 semanas de acompanhamento",
+        "os 38 por cento do controle, os 35 por cento do grupo de motivação e os 91 por cento do grupo que escreveu dia, hora e lugar",
+        "a existência, a autoria, o veículo e o ano da meta-análise de 2006, com 94 testes independentes e efeito de magnitude média para grande"
+      ],
+      "I": [
+        "a passagem do achado para o combinado que sai de uma reunião de trabalho em negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos, o limite de 1 combinado por pessoa por semana e a leitura da agenda na semana seguinte, que são adaptação editorial da Zionaxs"
+      ]
+    },
+    "limites": [
+      "O experimento de 2002 mediu exercício físico em estudantes do Reino Unido, com 2 semanas de acompanhamento. Ele não mediu tarefa de escritório nem combinado de equipe, e a peça não afirma que mediu.",
+      "O desfecho de 91 por cento é a proporção de participantes que cumpriram pelo menos 1 vez no período. Ele não é medida de constância ao longo de meses, e a peça apresenta o número assim.",
+      "A diferença entre os 35 por cento do grupo de motivação e os 38 por cento do controle é pequena. A peça a trata como empate, ou seja, como ausência de efeito da motivação isolada, e não afirma que motivar piora o resultado.",
+      "A meta-análise de 2006 reúne sobretudo metas pessoais e de saúde. Efeito médio para grande é média entre estudos e não garante o mesmo resultado em um caso específico, e a peça não promete resultado.",
+      "Os 4 passos, o limite de 1 combinado por pessoa por semana e a leitura da agenda na semana seguinte são adaptação editorial da Zionaxs, não recomendação dos autores."
+    ]
+  },
+  "tese": "Combinado que sai de uma reunião sem dia e sem hora não é combinado, é intenção, e intenção não se cumpre sozinha. Em experimento com 248 pessoas, material feito para aumentar a motivação deixou o cumprimento em 35 por cento, praticamente o mesmo dos 38 por cento de quem não recebeu nada; escrever antes o dia, a hora e o lugar levou o cumprimento a 91 por cento. Consequência prática: cobrar empenho é a correção cara e fraca, e marcar o horário dentro da própria reunião é a correção barata e forte.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de como um combinado vira execução. As 2 mais próximas não servem: M19 é dependência de pessoa-chave, registrada com o gancho de limites de decisão e alçada, portanto quem pode decidir sem o dono, que foi território da zx-21, e não o que acontece depois que a decisão já foi tomada por todos; e M17 é eliminar, simplificar ou escalar, que trata de escolher o processo certo antes de automatizar, e foi território da zx-28. Declarar M19 porque as 2 falam de reunião e de gestão seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para combinado que não vira execução vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre intenção, plano de execução ou o que separa decidir de fazer. R9, de W. Edwards Deming, chega perto por tratar de sistema em vez de esforço individual, e a tese desta peça é parente disso; mas R9 está registrada para a discussão de variação e medição de processo, e usá-la aqui esticaria o registro. R5, de Amy Edmondson, trata de segurança para falar, que é outro problema de reunião e não este. A fonte desta peça é externa ao ledger, e a proposta de acrescentar a linha de intenção e plano de execução, com Sarah Milne, Sheina Orbell e Paschal Sheeran em 2002 e Peter Gollwitzer e Paschal Sheeran em 2006, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF4",
+    "JE1"
+  ],
+  "cta": "Pegar o combinado mais antigo que ainda não saiu do papel, escolher o dia e o horário agora, e criar o evento na agenda com o nome do combinado.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo contraste entre os 35 por cento de quem só recebeu motivação e os 91 por cento de quem marcou dia e hora, ver a cena da reunião que terminou com 5 combinados e da semana que passou sem nenhum deles, receber a evidência com os 3 grupos e as 248 pessoas, virar para o que o número significa, que é a vontade não ser o gargalo, receber os 4 passos aplicáveis na próxima reunião, ouvir o limite que impede a peça de virar promessa, e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo bloco de números.",
+  "internal_metadata": [
+    "zx-47",
+    "JF4",
+    "JE1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa de pulso calmo e regular, com nota longa sustentada por baixo e pouca percussão, do tipo que soa como uma sala silenciosa depois que a reunião acabou. O assunto é a semana que passou sem nada acontecer, então a trilha deve segurar o leitor sem empurrar; energia demais contradiz a cena da peça. Combina com o slot da manhã, que pede descoberta, então cabe uma faixa mais leve e mais aberta que as da tarde.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça o cuidado é maior que o normal: o texto diz que material motivacional não muda resultado, então trilha de arrancada ou de virada inspiradora contradiz o próprio argumento da peça. Evitar também pulso metronômico marcado, que já foi o pedido da zx-46 e faria as 2 peças soarem iguais no feed.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso calmo e regular, intensidade estável e sem virada, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-46 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques, pulso metronômico de textura seca, final que decai e pulso audível o tempo todo. Aqui o pedido inverte o da zx-46 de propósito: o pulso deve ficar no fundo, e o que sustenta é a nota longa."
+  },
+  "caption": [
+    "O combinado sem hora não acontece.",
+    "A reunião terminou com 5 combinados anotados. Todo mundo concordou. Uma semana depois, 4 continuam iguais. A leitura fácil é que faltou vontade, e a correção fácil é cobrar mais na reunião seguinte. Existe uma leitura melhor, e ela foi medida.",
+    "Em 2002, os pesquisadores Sarah Milne, Sheina Orbell e Paschal Sheeran publicaram no British Journal of Health Psychology um experimento com 248 pessoas, acompanhadas por 2 semanas. Elas foram sorteadas em 3 grupos: 1 grupo de controle, 1 grupo que recebeu material feito para aumentar a motivação, e 1 grupo que recebeu o mesmo material e ainda escreveu antes em que dia, em que hora e em que lugar faria o que tinha decidido.",
+    "O resultado, medido pela proporção de pessoas que cumpriram pelo menos 1 vez. No controle, 38 por cento. No grupo que recebeu só motivação, 35 por cento, ou seja, o mesmo lugar. No grupo que escreveu dia, hora e lugar, 91 por cento.",
+    "E isso não é um achado solto. Em 2006, Peter Gollwitzer, professor de psicologia da Universidade de Nova York, e Paschal Sheeran reuniram 94 testes independentes desse mesmo tipo de plano e encontraram um efeito de tamanho médio para grande sobre cumprir o que foi decidido.",
+    "Na prática, 4 passos. 1: escreva cada combinado com 4 partes, quem faz, o que faz, em que dia e em que horário. 2: crie o evento na agenda ainda dentro da reunião, não depois. 3: 1 combinado por pessoa por semana, porque lista de 5 vira lista de 0. 4: na semana seguinte, abra a agenda e leia o que estava marcado, antes de qualquer assunto novo.",
+    "Um cuidado antes de começar: o experimento mediu exercício físico em estudantes, e não combinado de equipe. A ponte para o seu negócio é leitura da Zionaxs, e os 4 passos também são adaptação nossa, não recomendação dos autores. E marcar hora não salva combinado que não cabe na semana.",
+    "Comece hoje. Pegue o combinado mais antigo que ainda não saiu do papel e crie o evento na agenda agora."
+  ],
+  "caption_sources": [
+    "Fonte do experimento e dos 3 percentuais: Sarah Milne, Sheina Orbell e Paschal Sheeran, Combining motivational and volitional interventions to promote exercise participation: Protection motivation theory and implementation intentions, British Journal of Health Psychology, volume 7, 2002, páginas 163 a 184, DOI 10.1348/135910702169420. Registro conferido nesta execução na página oficial do artigo na Wiley Online Library e no PubMed, identificador 14596707.",
+    "Recorte do experimento: 248 participantes sorteados em 1 grupo de controle e 2 grupos de intervenção, com 3 ondas de coleta em 2 semanas. O terceiro grupo completou uma frase especificando dia, horário e lugar em que faria pelo menos 20 minutos de exercício vigoroso na semana seguinte.",
+    "Recorte do desfecho: na leitura por proporção de participantes que cumpriram pelo menos 1 vez, foram 38 por cento no controle, 35 por cento no grupo que recebeu apenas a intervenção motivacional e 91 por cento no grupo que recebeu a intervenção motivacional somada ao plano de execução.",
+    "Fonte da meta-análise: Peter M. Gollwitzer e Paschal Sheeran, Implementation Intentions and Goal Achievement: A Meta-Analysis of Effects and Processes, Advances in Experimental Social Psychology, volume 38, 2006, páginas 69 a 119. Registro conferido nesta execução na página do capítulo na ScienceDirect e no repositório KOPS da Universidade de Konstanz. São 94 testes independentes, com efeito de magnitude média para grande, d igual a 0,65, sobre o alcance da meta.",
+    "Limitação de universo: o experimento de 2002 mediu exercício físico em estudantes do Reino Unido e a meta-análise de 2006 cobre sobretudo metas pessoais e de saúde. Nenhum dos 2 mediu combinado de equipe em negócio de serviço brasileiro. Por isso a peça não afirma percentual nenhum sobre esses setores e trata a passagem para esse contexto como leitura.",
+    "Limitação de desfecho: os 91 por cento são a proporção de participantes que cumpriram pelo menos 1 vez no período de 2 semanas, e não medida de constância ao longo de meses.",
+    "Limitação de leitura da diferença: a distância entre os 35 por cento do grupo de motivação e os 38 por cento do controle é pequena, e a peça a trata como empate, ou seja, como ausência de efeito da motivação isolada. Ela não afirma que motivar piora o resultado.",
+    "Limitação de generalização: efeito de tamanho médio para grande é média entre estudos e não garante o mesmo resultado em um caso específico. A peça não promete resultado.",
+    "Os 4 passos, o limite de 1 combinado por pessoa por semana e a leitura da agenda na semana seguinte são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. A peça declara isso no slide 6 e na legenda.",
+    "Matriz: a nota 19c da Zionaxs não tem linha para combinado que não vira execução, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Repertório: o ledger da nota 19c não tem linha para intenção e plano de execução, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Nick Brice, Kelly Sikkema e Clint Patterson, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O combinado sem hora",
+      "copy": {
+        "title": "Motivar\ndeu 35.",
+        "accentLine": "Marcar deu 91.",
+        "hl": "Marcar deu 91.",
+        "sub": "Em experimento com 248 pessoas, quem recebeu material para se motivar cumpriu o combinado em 35 por cento dos casos. Quem escreveu antes o dia, a hora e o lugar cumpriu em 91 por cento.",
+        "year": "2026",
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254 · foto: Nick Brice"
+      },
+      "approved_visible_copy": [
+        "O combinado sem hora",
+        "01/07",
+        "Motivar deu 35.",
+        "Marcar deu 91.",
+        "Em experimento com 248 pessoas, quem recebeu material para se motivar cumpriu o combinado em 35 por cento dos casos. Quem escreveu antes o dia, a hora e o lugar cumpriu em 91 por cento.",
+        "2026",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254 · foto: Nick Brice"
+      ],
+      "alt": "Slide 1 de 7. Motivar deu 35, marcar deu 91. Em experimento com 248 pessoas, quem recebeu material para se motivar cumpriu o combinado em 35 por cento dos casos. Quem escreveu antes o dia, a hora e o lugar cumpriu em 91 por cento. Fotografia escura de uma sala de reunião vazia, com a mesa e as cadeiras na penumbra e a luz da janela entrando pela parte de cima do quadro, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-sala-de-reuniao.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ficou\nde ver."
+        ],
+        "closing": "A reunião terminou com 5 combinados anotados e todo mundo concordou. Uma semana depois, 4 continuam iguais. Ninguém foi desleixado: nenhum deles saiu da sala com dia e hora, e cada um ficou esperando uma folga que não veio.",
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254 · foto: Kelly Sikkema"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ficou de ver.",
+        "A reunião terminou com 5 combinados anotados e todo mundo concordou. Uma semana depois, 4 continuam iguais. Ninguém foi desleixado: nenhum deles saiu da sala com dia e hora, e cada um ficou esperando uma folga que não veio.",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254 · foto: Kelly Sikkema"
+      ],
+      "alt": "Slide 2 de 7. Ficou de ver. A reunião terminou com 5 combinados anotados e todo mundo concordou. Uma semana depois, 4 continuam iguais. Ninguém foi desleixado: nenhum deles saiu da sala com dia e hora, e cada um ficou esperando uma folga que não veio. Papel claro com fotografia em preto e branco de um caderno de espiral fechado, com a capa em branco, apoiado sobre tábuas de madeira, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-caderno-fechado.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "A conta do plano:",
+          "91 contra 35."
+        ],
+        "closing": "Em 2002, os pesquisadores Sarah Milne, Sheina Orbell e Paschal Sheeran acompanharam 248 pessoas por 2 semanas. Entre as que receberam só material para se motivar, 35 por cento cumpriram o combinado. Entre as que escreveram dia, hora e lugar, 91 por cento.",
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "A conta do plano:",
+        "91 contra 35.",
+        "Em 2002, os pesquisadores Sarah Milne, Sheina Orbell e Paschal Sheeran acompanharam 248 pessoas por 2 semanas. Entre as que receberam só material para se motivar, 35 por cento cumpriram o combinado. Entre as que escreveram dia, hora e lugar, 91 por cento.",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254"
+      ],
+      "alt": "Slide 3 de 7. A conta do plano: 91 contra 35. Em 2002, os pesquisadores Sarah Milne, Sheina Orbell e Paschal Sheeran acompanharam 248 pessoas por 2 semanas. Entre as que receberam só material para se motivar, 35 por cento cumpriram o combinado. Entre as que escreveram dia, hora e lugar, 91 por cento."
+      },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "big": true,
+        "title": "Não falta\nvontade.",
+        "accent": "Falta hora.",
+        "hl": "Falta hora.",
+        "ghost": "38",
+        "year": "2026",
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254",
+        "body": "No mesmo estudo, o grupo que recebeu só material para se motivar ficou no mesmo lugar de quem não recebeu nada: 35 por cento contra 38. O gargalo não estava na vontade, estava na hora. Ninguém tinha decidido em que momento do dia aquilo ia acontecer."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Não falta vontade.",
+        "Falta hora.",
+        "2026",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254",
+        "No mesmo estudo, o grupo que recebeu só material para se motivar ficou no mesmo lugar de quem não recebeu nada: 35 por cento contra 38. O gargalo não estava na vontade, estava na hora. Ninguém tinha decidido em que momento do dia aquilo ia acontecer."
+      ],
+      "alt": "Slide 4 de 7. Não falta vontade, falta hora. No mesmo estudo, o grupo que recebeu só material para se motivar ficou no mesmo lugar de quem não recebeu nada: 35 por cento contra 38. O gargalo não estava na vontade, estava na hora. Ninguém tinha decidido em que momento do dia aquilo ia acontecer. Campo laranja chapado com o número 38 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O combinado\nem 4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escreva cada combinado com 4 partes: quem faz, o que faz, em que dia e em que horário."
+          },
+          {
+            "num": "2",
+            "label": "Crie o evento na agenda ainda dentro da reunião. Combinado sem evento criado não tem hora."
+          },
+          {
+            "num": "3",
+            "label": "1 combinado por pessoa por semana. Lista de 5 vira lista de 0."
+          },
+          {
+            "num": "4",
+            "label": "Na semana seguinte, abra a agenda e leia o que estava marcado antes de qualquer assunto novo."
+          }
+        ],
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O combinado em 4 passos.",
+        "1",
+        "Escreva cada combinado com 4 partes: quem faz, o que faz, em que dia e em que horário.",
+        "2",
+        "Crie o evento na agenda ainda dentro da reunião. Combinado sem evento criado não tem hora.",
+        "3",
+        "1 combinado por pessoa por semana. Lista de 5 vira lista de 0.",
+        "4",
+        "Na semana seguinte, abra a agenda e leia o que estava marcado antes de qualquer assunto novo.",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254"
+      ],
+      "alt": "Slide 5 de 7. O combinado em 4 passos. 1: escreva cada combinado com 4 partes, quem faz, o que faz, em que dia e em que horário. 2: crie o evento na agenda ainda dentro da reunião, porque combinado sem evento criado não tem hora. 3: 1 combinado por pessoa por semana, porque lista de 5 vira lista de 0. 4: na semana seguinte, abra a agenda e leia o que estava marcado antes de qualquer assunto novo. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Marcar\nnão faz.",
+        "accent": "Só começa.",
+        "body": "O experimento mediu exercício em estudantes por 2 semanas, e não combinado de equipe. A ponte para o seu negócio é leitura da Zionaxs. E marcar hora não salva combinado que não cabe na semana.",
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Marcar não faz.",
+        "Só começa.",
+        "O experimento mediu exercício em estudantes por 2 semanas, e não combinado de equipe. A ponte para o seu negócio é leitura da Zionaxs. E marcar hora não salva combinado que não cabe na semana.",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254"
+      ],
+      "alt": "Slide 6 de 7. Marcar não faz, só começa. O experimento mediu exercício em estudantes por 2 semanas, e não combinado de equipe. A ponte para o seu negócio é leitura da Zionaxs. E marcar hora não salva combinado que não cabe na semana."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Abra a\nagenda agora.",
+        "hl": "Abra a",
+        "accent": "Marque 1 hora.",
+        "body": "Pegue o combinado mais antigo que ainda não saiu do papel e escolha o dia e o horário. Crie o evento com o nome do combinado. Enquanto ele não tiver hora, ele continua esperando uma folga que não vem.",
+        "year": "2026",
+        "temas": "Temas: Combinados / Agenda / Execução",
+        "micro": "@zionaxs_ · ref 3e0ef254 · foto: Clint Patterson"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Abra a agenda agora.",
+        "Marque 1 hora.",
+        "Pegue o combinado mais antigo que ainda não saiu do papel e escolha o dia e o horário. Crie o evento com o nome do combinado. Enquanto ele não tiver hora, ele continua esperando uma folga que não vem.",
+        "2026",
+        "Temas: Combinados / Agenda / Execução",
+        "@zionaxs_ · ref 3e0ef254 · foto: Clint Patterson"
+      ],
+      "alt": "Slide 7 de 7. Abra a agenda agora, marque 1 hora. Pegue o combinado mais antigo que ainda não saiu do papel e escolha o dia e o horário. Crie o evento com o nome do combinado. Enquanto ele não tiver hora, ele continua esperando uma folga que não vem. Fotografia escura de uma sala à noite, com uma luminária de mesa acesa, um monitor com a tela ligada e um computador portátil aberto sobre uma mesa de madeira, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-lampada-noite.jpg",
+        "pos": "50% 50%",
+        "scale": 1,
+        "origin": "50% 50%"
+      }
+    }
+  ]
+}
