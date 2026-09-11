@@ -210,6 +210,24 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   1080x1350 e perguntar que objeto a foto mostra; se o objeto que dá sentido à imagem não aparece inteiro o bastante
   para ser nomeado sem ajuda da legenda, a candidata é descarte, por mais escura e quieta que a banda esteja. A troca
   saiu barata: 1 geração, contra as 3 que a zx-45 gastou insistindo no recorte.
+- **A alavanca de crop também serve para tirar assunto claro de baixo do CHROME, e não só de baixo da manchete.**
+  Aprendido na zx-47, 11/09/2026. A zx-23 e a zx-34 descrevem o problema sempre em relação ao texto: objeto claro na
+  banda engole a manchete. Há um alvo menor e mais frágil que o texto dessas notas não nomeia, e que é o **primeiro** a
+  ser engolido: a **caixa de paginação** do chrome, 84x84 com borda de 3px, que vive a cerca de 47% da altura, ou seja
+  exatamente na borda de cima da banda. Ela é fina, é só contorno e não tem scrim próprio, então basta um trecho claro
+  pequeno atrás dela para sumir, muito antes de a manchete correr risco. Na capa da zx-47 a sala de reunião tinha a
+  janela ocupando de y 170 a 620 e a caixa caía sobre o vidro claro: creme sobre vidro, ilegível, com a manchete logo
+  abaixo ainda perfeitamente legível sobre o carpete escuro. A correção é a mesma da zx-34, `scale: 1.35` com
+  `origin: "50% 100%"`, que levou a janela inteira para o terço superior. **Os 14 gates ficaram verdes nas 2 gerações**,
+  porque o G5 mede contraste contra o fundo declarado no CSS. Consequência para o passo 6: ao olhar a capa e o
+  fechamento, conferir a caixa de paginação ANTES da manchete, porque ela reprova primeiro.
+- **Foto de agenda, planner e calendário quase sempre traz ano legível, e o descarte é quase certo.** Aprendido na
+  zx-47, em que 3 candidatas de campo de papel caíram na mesma regra em sequência: 2 agendas abertas com "July 2016" e
+  "June 2016" impressos na página, e uma terceira com "FEBRUARY 2019" mais "MONTHLY PLANNER" em inglês. É a regra da
+  zx-23 sobre texto legível na foto, e confirma o custo que a zx-34 previu, de 3 a 4 descartes por vaga. O agravante
+  desta família é que o ano é o **conteúdo** do objeto, não um rótulo de fundo: agenda existe para marcar data, então
+  procurar agenda sem data é procurar a exceção. Regra prática: para o campo de papel, quando a cena pede papel de
+  anotação, buscar **caderno fechado ou página em branco** em vez de agenda datada; foi o que resolveu a zx-47.
 - **Alt text não é medido contra o texto renderizado, então reescrita de copy exige reescrita do alt.** Aprendido na
   zx-46. Os 2 blocos reescritos para resolver o G6 deixaram o `alt` dos slides 3 e 5 com a redação anterior, e a peça
   passou nos 14 gates assim: o **G12 cobra presença** de alt por unidade, e o G9 e o G10 comparam a

@@ -1,0 +1,71 @@
+{
+  "postId": "17905124286552820",
+  "permalink": "https://www.instagram.com/p/DdJWu3bIJS0/",
+  "shortcode": "DdJWu3bIJS0",
+  "digest": "a35fc1ae313b53aa",
+  "publishedAt": "2026-09-11T11:57:11+0000",
+  "publishedAtFortaleza": "2026-09-11 08:57 BRT",
+  "slot": "manha-08:30-BRT",
+  "papelEditorial": "descoberta, tensão atual, curiosidade ou pauta encaminhável",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "INSTAGRAM_GET_USER_INFO antes de criar qualquer contêiner: username zionaxs_, id 37965311306447572, conta MEDIA_CREATOR, 4.844 seguidores, 111 mídias",
+  "notaDeConta": "O Composio segue listando 3 contas Instagram conectadas: @fabjr1, @zionaxs_ e @base3br. A primeira chamada sem o campo account falhou pedindo desambiguação, o que é o comportamento correto e funcionou como trava, igual à zx-46. Toda chamada desta publicação declarou account @zionaxs_ de forma explícita.",
+  "containerId": "17907990696501214",
+  "containerStatusAntesDePublicar": "FINISHED, conferido com INSTAGRAM_GET_POST_STATUS",
+  "childContainers": [
+    "17907990540501214",
+    "17907990537501214",
+    "17907990534501214",
+    "17907990531501214",
+    "17907990618501214",
+    "17907990621501214",
+    "17907990615501214"
+  ],
+  "childMediaIds": [
+    "17934105837389915",
+    "18021418112920282",
+    "18120669418920106",
+    "17943795354316721",
+    "17945679276282738",
+    "18085474271694369",
+    "18013452269748679"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-47-o-combinado-sem-hora/out/jpg/zx-47-o-combinado-sem-hora-slide-07.jpg"
+  ],
+  "urlsConferidas": "HTTP 200 e content-type image/jpeg nas 7 URLs antes de entregar a lista à Meta, com o tamanho em bytes de cada resposta batendo com o arquivo em disco",
+  "commit": "0b170e5",
+  "trilha": {
+    "faixa": "Quiet Ledger",
+    "artista": "Meta Sound Collection",
+    "estado": "pendente: sugestão de perfil, a adicionar à mão pelo app",
+    "perfil": "instrumental, pulso calmo e regular no fundo, nota longa sustentada, intensidade estável e sem virada",
+    "porque": "o assunto é a semana que passou sem nada acontecer, então a trilha deve segurar sem empurrar; e como o texto afirma que material motivacional não muda resultado, música inspiradora contradiria o próprio argumento da peça",
+    "evitar": "catálogo popular do app, trilha com letra, faixa épica de superação, e nesta peça também pulso metronômico marcado, que foi o pedido da zx-46 e faria as 2 peças soarem iguais no feed"
+  },
+  "reconciledAt": "2026-09-11T11:58:00+0000",
+  "reconciliation": {
+    "tool": "INSTAGRAM_GET_IG_MEDIA com fields explícito id,caption,media_type,permalink,shortcode,timestamp,username,owner",
+    "owner": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "children": 7,
+    "captionConferida": true,
+    "nota": "fields explícito conforme aprendizado da zx-40: a lista padrão do Composio pede total_views_count, que o nó Media não suporta. Nenhum erro de transporte nesta execução, e o pai saiu FINISHED na primeira tentativa, então não houve necessidade de recriar filhos como na zx-30. A legenda no ar é o corpo do campo caption e só ele, com 1.959 caracteres, abaixo do teto de 2.200; o caption_sources ficou no contrato, como manda o padrão de copy."
+  },
+  "cadencia": {
+    "limitePolitica": 2,
+    "consumidoAntes": 0,
+    "consumidoDepois": 1,
+    "nota": "primeira vaga do dia 11/09, slot da manhã; a zx-46 saiu em 10/09 e não consome cota desta data"
+  }
+}
