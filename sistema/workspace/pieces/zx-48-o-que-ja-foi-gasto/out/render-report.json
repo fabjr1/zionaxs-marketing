@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-48-o-que-ja-foi-gasto",
+  "generatedAt": "2026-09-11T16:26:15+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-48-o-que-ja-foi-gasto-slide-01.png",
+    "zx-48-o-que-ja-foi-gasto-slide-02.png",
+    "zx-48-o-que-ja-foi-gasto-slide-03.png",
+    "zx-48-o-que-ja-foi-gasto-slide-04.png",
+    "zx-48-o-que-ja-foi-gasto-slide-05.png",
+    "zx-48-o-que-ja-foi-gasto-slide-06.png",
+    "zx-48-o-que-ja-foi-gasto-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O que já foi gasto 01/07 Deu errado. Investiu mais. 13,07 de 20. Em experimento com 240 pessoas, quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 da rodada seguinte. Quem recebeu a decisão pronta de outra pessoa destinou 8,89. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46 · foto: Naseem Buras"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Custou demais. O projeto está aberto há 8 meses. Já consumiu horas, dinheiro e 2 pessoas, e não entregou. Parar agora parece jogar fora tudo isso, então ele segue aberto, e o mês novo entra na conta pelo mesmo motivo do mês anterior. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46 · foto: Steffen Lemmerzahl"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Quem escolheu pôs 13,07. Em 1976, o pesquisador Barry Staw pediu a 240 estudantes de administração que decidissem onde colocar a verba de pesquisa de uma empresa. Quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 seguintes. Quem não escolheu destinou 8,89. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Não é teimosia. Custa admitir. O que puxa recurso novo não é o projeto, é quem decidiu. Encerrar significa registrar que a escolha foi errada, e essa conta é pessoal. No mesmo estudo, quem recebeu a decisão pronta de outra pessoa colocou menos: 8,89 milhões contra 11,08. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 Parar em 4 passos. 1Escreva o critério de parada antes de começar: que resultado, em que data, encerra o projeto. 2Na revisão, faça a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora? 3Escreva o que aquelas horas fariam em outro lugar. Custo de oportunidade visível segura a insistência. 4Quem decide continuar não pode ser só quem começou. Chame 1 pessoa de fora para a revisão. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 Parar não é a regra. É a pergunta. O estudo foi uma simulação em sala, com estudantes, e não um negócio de serviço. Em revisão de 166 amostras, o peso do gasto passado apareceu menor do que se supunha, e projeto perto do fim é caso próprio. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Abra a lista dos projetos. Faça 1 pergunta. Escolha o projeto mais antigo da lista e escreva a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora? Se a resposta for não, marque a conversa de encerramento para esta semana. Temas: Projetos / Decisão / Custo @zionaxs_ · ref 0cb83e46 · foto: Sergio Franklin"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.7,
+  "digest": "b50b797ed67cdb6e8faff7ff0e692bb352873b91922e846cca959d9e827650b9"
+}

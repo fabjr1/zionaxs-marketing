@@ -1,0 +1,174 @@
+decisao: aprovar e publicar a zx-48, slot da tarde
+data: 2026-09-11
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira passagem, com 1 de 2 do dia consumidos pela
+    zx-47, publicada de manhã.
+  registro_anterior: pieces/zx-47-o-combinado-sem-hora/decisions/aprovacao-2026-09-11.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, sexta-feira"
+  papel: "conteúdo principal, ou seja, diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede a peça que ensina, não a que apenas surpreende: entra
+    pelo achado medido, explica o mecanismo por trás dele e entrega método
+    aplicável. Esta peça faz os 3: o número contraintuitivo na capa, o mecanismo
+    no slide 4, que é a autoria da decisão e não a chance de dar certo, e 4
+    passos no slide 5, dos quais 2 se apoiam em achados da revisão de 2012.
+  nao_repete_a_manha: >
+    A zx-47, publicada hoje de manhã, trata do combinado que sai de uma reunião
+    sem dia e sem hora, portanto do que separa decidir de fazer, e a correção
+    dela é marcar o horário. Esta peça trata do oposto na linha do tempo: o
+    projeto que já está em curso há meses, já consumiu recurso e precisa ser
+    encerrado ou continuado. Fonte diferente, cena diferente e decisão diferente.
+    A única vizinhança é o ambiente de reunião, e ela não chega à tese.
+
+tema:
+  escolhido: >
+    projeto que já custou caro fica aberto pelo que já consumiu; em experimento
+    com 240 pessoas, quem tinha escolhido a divisão que foi mal destinou a ela
+    13,07 milhões dos 20 da rodada seguinte, contra 8,89 milhões de quem recebeu
+    a decisão pronta de outra pessoa, e a comparação direta de efeito principal é
+    11,08 contra 8,89
+  matriz: nenhuma declarada
+  jtbd: [JT2, JS1]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é conteúdo principal, e o tema entrega diagnóstico, evidência
+    e método na mesma peça. Ele não repete nenhuma das 28 peças anteriores. A
+    zx-33 trata do sim rápido a trabalho mal definido, ou seja, do filtro na
+    porta de entrada; aqui o trabalho já entrou e está em casa há meses. A zx-24
+    trata de excesso de coisas abertas ao mesmo tempo, que é carga simultânea, e
+    não o critério para encerrar 1 delas. A zx-28 trata de automatizar o processo
+    errado, que é escolha de alvo antes de investir. A zx-29 trata de cliente que
+    consome mais horas do que paga, portanto de margem, não de decisão de
+    continuar. Nenhuma trata do que puxa recurso novo para uma escolha que já foi
+    feita, que é onde esta peça mora. A ponte da evidência para o projeto interno
+    de negócio de serviço brasileiro é declarada como leitura da Zionaxs, no
+    slide 6 e na legenda, e não atribuída aos autores.
+
+evidencia:
+  fontes_conferidas_nesta_execucao:
+    - >
+      Barry M. Staw, Knee-Deep in the Big Muddy: A Study of Escalating Commitment
+      to a Chosen Course of Action, Organizational Behavior and Human
+      Performance, volume 16, 1976, páginas 27 a 44. O PDF do artigo foi lido
+      diretamente nesta execução, com cabeçalho, resumo e seção de resultados
+      extraídos do arquivo; a página do artigo foi conferida na ScienceDirect,
+      identificador 0030507376900052.
+    - >
+      Dustin J. Sleesman, Donald E. Conlon, Gerry McNamara e Jonathan E. Miles,
+      Cleaning Up the Big Muddy: A Meta-Analytic Review of the Determinants of
+      Escalation of Commitment, Academy of Management Journal, volume 55, número
+      3, 2012, páginas 541 a 562. O PDF foi lido diretamente nesta execução, com
+      as 166 amostras independentes lidas na seção de métodos, e a ficha do
+      artigo foi conferida no repositório OUCI.
+  numeros_e_recorte:
+    - "experimento: 240 estudantes de administração, exercício de papel sobre a Adams and Smith Company"
+    - "primeira decisão: 10 milhões de dólares de verba de pesquisa para 1 das 2 divisões; segunda decisão, 5 anos depois dentro do caso: 20 milhões para dividir"
+    - "efeito principal de responsabilidade: 11,08 milhões sob alta responsabilidade contra 8,89 milhões sob baixa"
+    - "efeito principal de consequência: 8,77 milhões sob resultado positivo contra 11,20 milhões sob resultado negativo"
+    - "célula de alta responsabilidade com resultado negativo: 13,07 milhões dos 20"
+    - "revisão de 2012: 166 amostras independentes; proeminência do custo já gasto menor do que o esperado; ameaça à imagem entre os motores mais fortes; arrependimento antecipado, saliência de custo de oportunidade e busca de informação entre os maiores inibidores"
+  limites_declarados_na_peca:
+    - o experimento é simulação em sala com estudantes, e não projeto real de negócio de serviço
+    - a comparação de 13,07 contra 8,89 da capa cruza 1 célula com a média de 1 grupo inteiro, e a legenda traz a comparação direta, 11,08 contra 8,89
+    - a revisão de 2012 encontrou o peso do gasto passado menor do que se supunha, então a peça não o trata como causa única
+    - projeto perto do fim é determinante próprio na revisão de 2012, e a peça declara isso para não virar convite a encerrar tudo
+    - os 4 passos são adaptação editorial da Zionaxs a partir das fontes
+  nota_de_apuracao: >
+    Os 3 números do experimento foram lidos no próprio artigo, extraindo o texto
+    das streams do PDF, e não em fonte secundária. Foi essa leitura que impediu
+    um erro de uso: a comparação mais vendável, 13,07 contra 8,89, mistura 1
+    célula do desenho com a média de 1 grupo. A peça usa essa comparação na capa,
+    onde o número é gancho, e traz a comparação limpa no slide 4 e na legenda. O
+    experimento do teatro de Arkes e Blumer, de 1985, foi levantado e descartado
+    como evidência desta peça: os números existem, mas a própria literatura
+    registra que não houve replicação do experimento de campo, e a peça não
+    precisa dele.
+
+producao:
+  gates: 14/14
+  digest_da_geracao: b50b797ed67c
+  geracoes: 3
+  o_que_custou_geracao:
+    - >
+      A legenda da primeira geração tinha 2.271 caracteres de corpo, acima do
+      teto de 2.200 que o porteiro cobra. Corrigida encurtando 3 parágrafos, sem
+      mover nenhuma fonte para caption_sources, porque empurrar fonte para lá
+      para caber é falsificar rastreabilidade, e a nota 19c proíbe.
+    - >
+      O realce do fechamento cortou o acento de ESTÁ na segunda linha. É
+      exatamente a regra da zx-31 e da zx-32, e foi descumprida por escrever a
+      manchete sem conferir a linha de baixo contra a largura da caixa. Corrigido
+      trocando a manchete de "Liste o que está aberto." para "Abra a lista dos
+      projetos.", que não tem maiúscula acentuada na segunda linha. Os 14 gates
+      ficaram verdes nas 2 gerações, com o acento cortado e sem, porque nenhum
+      gate mede isso.
+
+verificacao_do_passo_6:
+  metodo: >
+    Os 7 PNG foram olhados um a um, e 2 medidas foram feitas no pixel: a folga
+    entre a tinta do corpo e o anel laranja no poster-statement, varrendo linha a
+    linha dentro da faixa vertical do anel, e a luminância da banda de texto e da
+    caixa de paginação nas fotos de campo escuro, antes de escrever o contrato.
+  resultado_slide_6: >
+    A menor folga ficou em 146 pixels, com a linha mais larga terminando em x 816
+    e o anel começando em x 962. Nenhuma reescrita foi necessária. A pendência do
+    anel que a direção visual registra continua de pé como decisão de template.
+  folha_de_contato: >
+    As candidatas de campo escuro foram medidas na banda de 46 a 93 por cento
+    antes de escrever o contrato, e a medida decidiu 2 descartes: um canteiro de
+    obras ao pôr do sol com banda em 72,1 de luminância e desvio de 62,2, e uma
+    pilha de papéis sobre a mesa com banda em 74,3, ambos casos de assunto claro
+    dentro da banda de texto, que é o que a zx-45 manda descartar. A capa
+    escolhida mede 8,4 no recorte central, mas com a caixa de paginação em 102,5
+    de luminância, sobre a neblina iluminada. Com scale 1,2 e origin 50% 100%,
+    a alavanca que a zx-47 registrou para o chrome, a caixa caiu para 14,3 e a
+    banda para 1,5, com o guindaste ainda reconhecível no topo.
+  foto_do_campo_de_papel: >
+    A foto do poster-scene foi recortada no arquivo, na proporção 0,864 do
+    quadro, como manda a nota da zx-44, porque o layout ignora pos, scale e
+    origin. O recorte também serviu para tirar do quadro 3 latas de tinta com
+    marca legível, mantendo apenas a escada, a parede de concreto e a janela.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso grave e regular, baixo presente com harmonia parada,
+    intensidade estável e sem virada
+  por_que: >
+    o slot é o da tarde e a peça é de conteúdo principal, então cabe faixa um
+    pouco mais densa e mais escura que a da manhã. O assunto é dinheiro que já
+    saiu, e há um cuidado específico desta peça: trilha melancólica ou de lamento
+    transformaria diagnóstico em luto, e trilha de superação empurraria a peça
+    para o tom de coach. O pedido também evita a nota longa sustentada da zx-47,
+    para as 2 peças do mesmo dia não soarem iguais no feed.
+  origem_obrigatoria: Meta Sound Collection
+  observacao: >
+    a sessão em nuvem não tem acesso ao índice do acervo de trilhas, então o nome
+    no contrato é perfil, não faixa confirmada; a escolha final é do Fabiano no
+    app, depois de publicado
+
+memory:
+  propostas_para_inbox:
+    - >
+      linha de matriz editorial própria para encerramento de projeto e escalada
+      de compromisso; nenhuma linha de M01 a M20 cobre o critério para continuar
+      ou parar algo que já consumiu recurso, e M14 trata do filtro de entrada,
+      que é o problema anterior a este
+    - >
+      linha de repertório para escalada de compromisso, com Barry Staw em 1976 e
+      Dustin Sleesman, Donald Conlon, Gerry McNamara e Jonathan Miles em 2012
+    - >
+      acréscimo à direção visual: a regra do realce da zx-32 precisa ser conferida
+      na escrita da manchete, e não depois do render; o teste barato é ler a
+      segunda linha em caixa alta e procurar qualquer maiúscula acentuada sob a
+      largura da caixa, antes de gerar

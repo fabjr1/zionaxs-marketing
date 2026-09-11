@@ -1,0 +1,331 @@
+{
+  "id": "zx-48-o-que-ja-foi-gasto",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço e carrega projeto aberto que já custou caro: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: o projeto interno está aberto há 8 meses, já consumiu horas, dinheiro e 2 pessoas, não entregou, e parar agora parece jogar fora tudo o que já foi gasto. Slot editorial: tarde de dia útil, papel de conteúdo principal, ou seja, diagnóstico com evidência e método aplicável, então a peça precisa entrar por um achado medido, explicar o mecanismo e sair com um passo que cabe no mesmo dia.",
+    "decisao": "Parar de decidir a continuidade de um projeto pelo que ele já consumiu e passar a decidir pelo que vem daqui para frente. Na prática: escrever o critério de parada antes de começar, fazer a pergunta do zero na revisão, escrever o que aquelas horas fariam em outro lugar, e não deixar a decisão de continuar só com quem começou.",
+    "tensao": "Quando um projeto atrasa e encarece, a leitura instintiva é que falta empenho ou que falta pouco para terminar, e a correção instintiva é colocar mais tempo e mais dinheiro no mesmo lugar. O que foi medido em experimento é desconfortável para essa leitura: a mesma pessoa investe mais justamente onde ela própria decidiu antes, e mais ainda quando aquela decisão foi mal. Ou seja, o que puxa recurso novo não é a chance de dar certo, é a autoria da escolha anterior.",
+    "evidencia": [
+      {
+        "claim": "existe um experimento de 1976 de Barry M. Staw, publicado na revista Organizational Behavior and Human Performance, sobre aumento de compromisso com um curso de ação que vai mal",
+        "status": "E",
+        "fonte": "Barry M. Staw, Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action, Organizational Behavior and Human Performance, volume 16, 1976, páginas 27 a 44. Registro conferido nesta execução no PDF do artigo, cabeçalho e resumo lidos diretamente, e na página do artigo na ScienceDirect, identificador 0030507376900052."
+      },
+      {
+        "claim": "nesse experimento 240 estudantes de administração fizeram um exercício de papel em que decidiam a alocação de verba de pesquisa e desenvolvimento de uma empresa fictícia, primeiro 10 milhões entre 2 divisões e depois 20 milhões em uma segunda rodada",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução. O caso descreve a Adams and Smith Company, com 10 milhões de dólares adicionais de pesquisa e desenvolvimento para 1 das 2 maiores divisões na primeira decisão, e 20 milhões liberados de reserva de capital na segunda decisão, 5 anos depois dentro do exercício. Responsabilidade pessoal e consequência da primeira decisão foram as 2 variáveis manipuladas."
+      },
+      {
+        "claim": "quem tinha feito a primeira escolha destinou em média 11,08 milhões à mesma divisão na segunda rodada, contra 8,89 milhões de quem recebeu a decisão já tomada por outra pessoa",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução, seção de resultados: sob alta responsabilidade pessoal os participantes alocaram em média 11,08 milhões de dólares às divisões que eles próprios haviam escolhido antes; sob baixa responsabilidade pessoal alocaram 8,89 milhões às divisões escolhidas por outro diretor financeiro."
+      },
+      {
+        "claim": "quando a divisão escolhida pela própria pessoa teve resultado ruim, a média destinada a ela na segunda rodada subiu para 13,07 milhões dos 20 disponíveis",
+        "status": "E",
+        "fonte": "Mesmo artigo, conferido nesta execução: na célula de alta responsabilidade pessoal com consequência negativa, os participantes alocaram em média 13,07 milhões de dólares à mesma alternativa escolhida antes. No recorte por consequência, a média foi 8,77 milhões sob consequência positiva e 11,20 milhões sob consequência negativa."
+      },
+      {
+        "claim": "em 2012 Dustin Sleesman, Donald Conlon, Gerry McNamara e Jonathan Miles reuniram 166 amostras independentes sobre escalada de compromisso e encontraram que o peso do dinheiro já gasto é menor do que se supunha, com a ameaça à imagem de quem decidiu entre os empurrões mais fortes",
+        "status": "E",
+        "fonte": "Dustin J. Sleesman, Donald E. Conlon, Gerry McNamara e Jonathan E. Miles, Cleaning Up the Big Muddy: A Meta-Analytic Review of the Determinants of Escalation of Commitment, Academy of Management Journal, volume 55, número 3, 2012, páginas 541 a 562. Registro conferido nesta execução no PDF do artigo, com a contagem de 166 amostras independentes lida na seção de métodos, e a página do artigo conferida no repositório OUCI. O texto relata que a proeminência do custo já gasto foi menor do que o esperado, que 1 dos motores mais fortes é a ameaça à imagem de quem decide, e que entre os maiores inibidores estão o arrependimento antecipado, a saliência do custo de oportunidade e a busca de informação."
+      },
+      {
+        "claim": "o mesmo padrão vale para o projeto interno de uma clínica, de um escritório contábil ou de uma agência no Brasil",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. O experimento de 1976 mediu decisão simulada de alocação de verba por estudantes de administração nos Estados Unidos, e a revisão de 2012 cobre sobretudo estudos experimentais do mesmo tipo. Nenhum dos 2 mediu projeto interno de negócio de serviço brasileiro. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      },
+      {
+        "claim": "os 4 passos do slide 5, entre eles o critério de parada escrito antes de começar e a pessoa de fora na revisão",
+        "status": "NC",
+        "fonte": "Adaptação editorial da Zionaxs a partir das 2 fontes. Os autores descrevem o efeito da autoria da decisão e listam inibidores medidos, como saliência de custo de oportunidade e busca de informação, e não prescrevem esse roteiro de revisão de projetos. A peça declara isso na legenda."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a existência, a autoria, o veículo, o volume e o ano do experimento de 1976",
+        "os 240 estudantes, o exercício de papel com 10 milhões na primeira decisão e 20 milhões na segunda",
+        "os 11,08 milhões sob alta responsabilidade e os 8,89 milhões sob baixa responsabilidade",
+        "os 13,07 milhões da célula de alta responsabilidade com consequência negativa",
+        "a existência, a autoria, o veículo e o ano da revisão de 2012, com 166 amostras independentes"
+      ],
+      "I": [
+        "a passagem do achado para o projeto interno de negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos do slide 5, que são adaptação editorial da Zionaxs a partir das fontes"
+      ]
+    },
+    "limites": [
+      "O experimento de 1976 é uma simulação em sala, com estudantes de administração decidindo sobre uma empresa fictícia. Ele não mediu projeto real de negócio de serviço, e a peça não afirma que mediu.",
+      "A comparação de 13,07 contra 8,89 cruza a célula de alta responsabilidade com consequência negativa contra a média do grupo de baixa responsabilidade. A comparação direta de efeito principal é 11,08 contra 8,89, e a peça traz as 2 leituras, a primeira no slide 1 e a segunda na legenda.",
+      "A revisão de 2012 encontrou o peso do custo já gasto menor do que se supunha, então a peça não trata o gasto passado como causa única e nomeia a ameaça à imagem de quem decidiu.",
+      "Projeto perto do fim é outro caso, medido como determinante próprio na revisão de 2012, e a peça declara isso no slide 6 para não virar convite a encerrar tudo."
+    ]
+  },
+  "tese": "Projeto que já custou caro fica aberto pelo que já consumiu, e o que já foi gasto não volta. Em experimento com 240 pessoas, quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 da rodada seguinte, contra 8,89 milhões de quem recebeu a decisão pronta de outra pessoa. Consequência prática: o que puxa recurso novo não é a chance de dar certo, é a autoria da escolha anterior, então a correção barata é escrever o critério de parada antes de começar e tirar a decisão de continuar das mãos de quem começou.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de quando encerrar um projeto que já consumiu recurso. As 2 mais próximas não servem: M14 é intake com critério e recusa ética, portanto o filtro na porta de entrada, que foi território da zx-33, e não a revisão de algo que já está dentro de casa há meses; e M17 é eliminar, simplificar ou escalar, que trata de escolher o processo certo antes de automatizar, e foi território da zx-28. Declarar M14 porque as 2 falam de dizer não seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para encerramento de projeto e escalada de compromisso vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e nenhuma linha cobre escalada de compromisso ou o custo já gasto. R8, do sistema Toyota, chega perto pela capacidade de parar, mas está registrada para parar a linha diante de defeito e dado duvidoso, que é interrupção de fluxo e não encerramento de investimento. R6, de Chris Argyris, trata de revisar a premissa depois do erro, e é parente da pergunta do zero desta peça, mas está registrada para retrospectiva e aprendizagem, não para decisão de continuar ou encerrar. R7, de James March, trata de não cobrar de experimento nascente o retorno de operação madura, que é quase o oposto do caso aqui. A fonte desta peça é externa ao ledger, e a proposta de acrescentar a linha de escalada de compromisso, com Barry Staw em 1976 e Dustin Sleesman e colegas em 2012, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JT2",
+    "JS1"
+  ],
+  "cta": "Listar hoje os projetos que estão abertos, escolher o mais antigo e escrever a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora?",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura fácil, ou seja, dar errado e receber mais recurso; ver a cena do projeto aberto há 8 meses que ninguém encerra; receber a evidência com os 240 participantes e os 2 números; virar para o mecanismo, que é a autoria da decisão e não a chance de dar certo; receber os 4 passos aplicáveis na próxima revisão; ouvir o limite que impede a peça de virar convite a encerrar tudo; e sair com o passo de hoje. A unidade de evidência existe e é o slide 3, e o slide 4 carrega o segundo bloco de números.",
+  "internal_metadata": [
+    "zx-48",
+    "JT2",
+    "JS1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Ground",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa de pulso grave e regular, com baixo presente e harmonia parada, do tipo que soa como uma sala em que a conta está sendo refeita com calma. O slot é o da tarde, que pede conteúdo principal, então cabe faixa um pouco mais densa e mais escura que a da manhã, e o assunto é dinheiro que já saiu, então a trilha deve sustentar a leitura sem dramatizar a perda.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça o cuidado extra é com trilha melancólica ou de lamento, porque o texto trata de perda de dinheiro e a música não pode transformar diagnóstico em luto. Evitar também a nota longa sustentada que foi o pedido da zx-47, para as 2 peças não soarem iguais no feed do mesmo dia.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso grave e regular, intensidade estável e sem virada, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-47 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques, pulso metronômico de textura seca, final que decai, pulso audível o tempo todo e nota longa por baixo."
+  },
+  "caption": [
+    "O projeto que já custou caro é o mais difícil de encerrar.",
+    "Ele está aberto há 8 meses. Já consumiu horas, dinheiro e 2 pessoas, e não entregou. Parar agora parece jogar fora tudo isso, então ele continua aberto, e o mês novo entra na conta pelo mesmo motivo.",
+    "Isso já foi medido. Em 1976, o pesquisador Barry Staw publicou na revista Organizational Behavior and Human Performance um experimento com 240 estudantes de administração. Cada um assumiu o papel de diretor financeiro e escolheu em qual das 2 divisões colocar 10 milhões de verba de pesquisa. Dentro do exercício, 5 anos depois, o resultado aparecia e vinha uma segunda decisão, com 20 milhões para dividir.",
+    "O que apareceu na segunda decisão: quem tinha feito a primeira escolha destinou à mesma divisão 11,08 milhões, contra 8,89 milhões de quem tinha recebido a decisão já tomada por outra pessoa. E quando a divisão escolhida pela própria pessoa tinha ido mal, a média subiu para 13,07 milhões dos 20.",
+    "A leitura prática: o que puxa recurso novo não é a chance de dar certo, é a autoria da escolha anterior. Encerrar significa registrar que a decisão foi errada, e essa conta é pessoal antes de ser contábil.",
+    "Na prática, 4 passos. 1: escreva o critério de parada antes de começar, ou seja, que resultado, em que data, encerra o projeto. 2: na revisão, faça a pergunta do zero, sabendo o que sei hoje, eu começaria este projeto agora? 3: escreva o que aquelas horas fariam em outro lugar, porque custo de oportunidade visível segura a insistência. 4: quem decide continuar não pode ser só quem começou, então chame 1 pessoa de fora para a revisão.",
+    "Um cuidado antes de aplicar. O experimento foi uma simulação em sala, com estudantes, e não um negócio de serviço. Em 2012, Dustin Sleesman e colegas reuniram 166 amostras independentes na Academy of Management Journal e encontraram que o peso do dinheiro já gasto é menor do que se supunha, que a ameaça à imagem de quem decidiu é 1 dos empurrões mais fortes, e que projeto perto do fim é caso próprio. Os 4 passos são adaptação da Zionaxs, não recomendação dos autores.",
+    "Comece hoje. Abra a lista dos projetos abertos, escolha o mais antigo e escreva a pergunta do zero."
+  ],
+  "caption_sources": [
+    "Fonte do experimento e dos 3 números: Barry M. Staw, Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action, Organizational Behavior and Human Performance, volume 16, 1976, páginas 27 a 44. Registro conferido nesta execução no PDF do artigo e na página do artigo na ScienceDirect, identificador 0030507376900052.",
+    "Recorte do experimento: 240 estudantes de administração em exercício de papel sobre a Adams and Smith Company, com 10 milhões de dólares na primeira decisão de verba de pesquisa e 20 milhões na segunda, 5 anos depois dentro do caso. As variáveis manipuladas foram a responsabilidade pessoal pela primeira decisão e a consequência dela.",
+    "Recorte dos desfechos: sob alta responsabilidade pessoal, média de 11,08 milhões alocados à alternativa escolhida antes; sob baixa responsabilidade, 8,89 milhões. Por consequência, 8,77 milhões sob resultado positivo e 11,20 milhões sob resultado negativo. Na célula de alta responsabilidade com resultado negativo, 13,07 milhões.",
+    "Limitação de leitura dos números: a comparação de 13,07 contra 8,89, usada na capa, cruza 1 célula do experimento com a média de 1 grupo inteiro. A comparação direta de efeito principal é 11,08 contra 8,89, e é ela que está na legenda.",
+    "Fonte da revisão: Dustin J. Sleesman, Donald E. Conlon, Gerry McNamara e Jonathan E. Miles, Cleaning Up the Big Muddy: A Meta-Analytic Review of the Determinants of Escalation of Commitment, Academy of Management Journal, volume 55, número 3, 2012, páginas 541 a 562. Registro conferido nesta execução no PDF do artigo, com as 166 amostras independentes lidas na seção de métodos.",
+    "Limitação de universo: o experimento de 1976 é simulação em sala com estudantes nos Estados Unidos, e a revisão de 2012 cobre sobretudo estudos do mesmo tipo. Nenhum dos 2 mediu projeto interno de negócio de serviço brasileiro. Por isso a peça não afirma percentual nenhum sobre esses setores e trata a passagem para esse contexto como leitura.",
+    "Limitação de causa: a revisão de 2012 encontrou a proeminência do custo já gasto menor do que se supunha e aponta a ameaça à imagem de quem decidiu entre os motores mais fortes, além de listar a proximidade do fim do projeto como determinante próprio. A peça declara isso no slide 6 e na legenda, e não trata o gasto passado como causa única.",
+    "Os 4 passos, o critério de parada escrito antes de começar e a pessoa de fora na revisão são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. O passo 3 e o passo 4 se apoiam em 2 achados da revisão de 2012, a saliência do custo de oportunidade e a ameaça à imagem de quem decide.",
+    "Matriz: a nota 19c da Zionaxs não tem linha para encerramento de projeto e escalada de compromisso, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Repertório: o ledger da nota 19c não tem linha para escalada de compromisso, então esta peça não declara código de repertório. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Naseem Buras, Steffen Lemmerzahl e Sergio Franklin, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O que já foi gasto",
+      "copy": {
+        "title": "Deu errado.\nInvestiu mais.",
+        "accentLine": "13,07 de 20.",
+        "hl": "13,07 de 20.",
+        "sub": "Em experimento com 240 pessoas, quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 da rodada seguinte. Quem recebeu a decisão pronta de outra pessoa destinou 8,89.",
+        "year": "2026",
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46 · foto: Naseem Buras"
+      },
+      "approved_visible_copy": [
+        "O que já foi gasto",
+        "01/07",
+        "Deu errado. Investiu mais.",
+        "13,07 de 20.",
+        "Em experimento com 240 pessoas, quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 da rodada seguinte. Quem recebeu a decisão pronta de outra pessoa destinou 8,89.",
+        "2026",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46 · foto: Naseem Buras"
+      ],
+      "alt": "Slide 1 de 7. Deu errado, investiu mais: 13,07 de 20. Em experimento com 240 pessoas, quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 da rodada seguinte. Quem recebeu a decisão pronta de outra pessoa destinou 8,89. Fotografia noturna de um canteiro de obras na neblina, com guindastes e postes de luz ao fundo e a metade de baixo do quadro escura, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-obra-neblina.jpg",
+        "pos": "50% 50%",
+        "scale": 1.2,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "diagnóstico",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Custou\ndemais."
+        ],
+        "closing": "O projeto está aberto há 8 meses. Já consumiu horas, dinheiro e 2 pessoas, e não entregou. Parar agora parece jogar fora tudo isso, então ele segue aberto, e o mês novo entra na conta pelo mesmo motivo do mês anterior.",
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46 · foto: Steffen Lemmerzahl"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Custou demais.",
+        "O projeto está aberto há 8 meses. Já consumiu horas, dinheiro e 2 pessoas, e não entregou. Parar agora parece jogar fora tudo isso, então ele segue aberto, e o mês novo entra na conta pelo mesmo motivo do mês anterior.",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46 · foto: Steffen Lemmerzahl"
+      ],
+      "alt": "Slide 2 de 7. Custou demais. O projeto está aberto há 8 meses. Já consumiu horas, dinheiro e 2 pessoas, e não entregou. Parar agora parece jogar fora tudo isso, então ele segue aberto, e o mês novo entra na conta pelo mesmo motivo do mês anterior. Papel claro com fotografia em preto e branco de uma escada de alumínio aberta em um cômodo em obra, com parede de concreto cru e uma janela ao fundo, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-escada-obra.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Quem escolheu",
+          "pôs 13,07."
+        ],
+        "closing": "Em 1976, o pesquisador Barry Staw pediu a 240 estudantes de administração que decidissem onde colocar a verba de pesquisa de uma empresa. Quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 seguintes. Quem não escolheu destinou 8,89.",
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Quem escolheu",
+        "pôs 13,07.",
+        "Em 1976, o pesquisador Barry Staw pediu a 240 estudantes de administração que decidissem onde colocar a verba de pesquisa de uma empresa. Quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 seguintes. Quem não escolheu destinou 8,89.",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46"
+      ],
+      "alt": "Slide 3 de 7. Quem escolheu pôs 13,07. Em 1976, o pesquisador Barry Staw pediu a 240 estudantes de administração que decidissem onde colocar a verba de pesquisa de uma empresa. Quem tinha escolhido a divisão que foi mal destinou a ela 13,07 milhões dos 20 seguintes. Quem não escolheu destinou 8,89."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "Não é\nteimosia.",
+        "accent": "Custa admitir.",
+        "hl": "Custa admitir.",
+        "ghost": "20",
+        "year": "2026",
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46",
+        "body": "O que puxa recurso novo não é o projeto, é quem decidiu. Encerrar significa registrar que a escolha foi errada, e essa conta é pessoal. No mesmo estudo, quem recebeu a decisão pronta de outra pessoa colocou menos: 8,89 milhões contra 11,08."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Não é teimosia.",
+        "Custa admitir.",
+        "2026",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46",
+        "O que puxa recurso novo não é o projeto, é quem decidiu. Encerrar significa registrar que a escolha foi errada, e essa conta é pessoal. No mesmo estudo, quem recebeu a decisão pronta de outra pessoa colocou menos: 8,89 milhões contra 11,08."
+      ],
+      "alt": "Slide 4 de 7. Não é teimosia, custa admitir. O que puxa recurso novo não é o projeto, é quem decidiu. Encerrar significa registrar que a escolha foi errada, e essa conta é pessoal. No mesmo estudo, quem recebeu a decisão pronta de outra pessoa colocou menos: 8,89 milhões contra 11,08. Campo laranja chapado com o número 20 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "Parar em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escreva o critério de parada antes de começar: que resultado, em que data, encerra o projeto."
+          },
+          {
+            "num": "2",
+            "label": "Na revisão, faça a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora?"
+          },
+          {
+            "num": "3",
+            "label": "Escreva o que aquelas horas fariam em outro lugar. Custo de oportunidade visível segura a insistência."
+          },
+          {
+            "num": "4",
+            "label": "Quem decide continuar não pode ser só quem começou. Chame 1 pessoa de fora para a revisão."
+          }
+        ],
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "Parar em 4 passos.",
+        "1",
+        "Escreva o critério de parada antes de começar: que resultado, em que data, encerra o projeto.",
+        "2",
+        "Na revisão, faça a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora?",
+        "3",
+        "Escreva o que aquelas horas fariam em outro lugar. Custo de oportunidade visível segura a insistência.",
+        "4",
+        "Quem decide continuar não pode ser só quem começou. Chame 1 pessoa de fora para a revisão.",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46"
+      ],
+      "alt": "Slide 5 de 7. Parar em 4 passos. 1: escreva o critério de parada antes de começar, ou seja, que resultado, em que data, encerra o projeto. 2: na revisão, faça a pergunta do zero, sabendo o que sei hoje, eu começaria este projeto agora? 3: escreva o que aquelas horas fariam em outro lugar, porque custo de oportunidade visível segura a insistência. 4: quem decide continuar não pode ser só quem começou, então chame 1 pessoa de fora para a revisão. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Parar não\né a regra.",
+        "accent": "É a pergunta.",
+        "body": "O estudo foi uma simulação em sala, com estudantes, e não um negócio de serviço. Em revisão de 166 amostras, o peso do gasto passado apareceu menor do que se supunha, e projeto perto do fim é caso próprio.",
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Parar não é a regra.",
+        "É a pergunta.",
+        "O estudo foi uma simulação em sala, com estudantes, e não um negócio de serviço. Em revisão de 166 amostras, o peso do gasto passado apareceu menor do que se supunha, e projeto perto do fim é caso próprio.",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46"
+      ],
+      "alt": "Slide 6 de 7. Parar não é a regra, é a pergunta. O estudo foi uma simulação em sala, com estudantes, e não um negócio de serviço. Em revisão de 166 amostras, o peso do gasto passado apareceu menor do que se supunha, e projeto perto do fim é caso próprio."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Abra a lista\ndos projetos.",
+        "hl": "Abra a lista",
+        "accent": "Faça 1 pergunta.",
+        "body": "Escolha o projeto mais antigo da lista e escreva a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora? Se a resposta for não, marque a conversa de encerramento para esta semana.",
+        "year": "2026",
+        "temas": "Temas: Projetos / Decisão / Custo",
+        "micro": "@zionaxs_ · ref 0cb83e46 · foto: Sergio Franklin"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Abra a lista dos projetos.",
+        "Faça 1 pergunta.",
+        "Escolha o projeto mais antigo da lista e escreva a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora? Se a resposta for não, marque a conversa de encerramento para esta semana.",
+        "2026",
+        "Temas: Projetos / Decisão / Custo",
+        "@zionaxs_ · ref 0cb83e46 · foto: Sergio Franklin"
+      ],
+      "alt": "Slide 7 de 7. Abra a lista dos projetos, faça 1 pergunta. Escolha o projeto mais antigo da lista e escreva a pergunta do zero: sabendo o que sei hoje, eu começaria este projeto agora? Se a resposta for não, marque a conversa de encerramento para esta semana. Fotografia muito escura de uma sala de trabalho na penumbra, com uma janela clara na parte de cima do quadro, a fachada de um prédio vizinho à direita e o restante em sombra, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-escritorio-penumbra.jpg",
+        "pos": "50% 50%"
+      }
+    }
+  ]
+}
