@@ -234,6 +234,15 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   `approved_visible_copy` com o pixel, sem tocar no alt. O erro só apareceu na conferência manual, na hora de montar os
   contêineres filhos. Regra prática: toda mudança em slot de copy pede a mesma mudança em 3 lugares, o `copy`, a
   `approved_visible_copy` e o `alt`, e o terceiro é o único que nenhuma trava cobra.
+- **A regra do realce se confere na escrita da manchete, não depois do render, e o teste é de 10 segundos.**
+  Aprendido na zx-48, 11/09/2026, e é o custo de tratar a regra da zx-32 como conhecimento passivo. O fechamento saiu
+  com "Liste o que / está aberto.", o realce na primeira linha como manda a zx-29, e o acento do "Á" de ESTÁ, que cai
+  sob a largura da caixa, apareceu cortado no PNG. Os 14 gates ficaram verdes nas 2 gerações, com o acento cortado e
+  sem. O que faltou não foi a regra, que já estava escrita 3 vezes acima, foi aplicá-la antes de gastar geração.
+  **Teste prático, antes de gerar:** escrever a segunda linha do bloco em caixa alta e procurar qualquer maiúscula
+  acentuada nela; se houver, reescrever a linha. Na zx-48 a correção foi trocar a manchete por "Abra a lista / dos
+  projetos.", que não tem acento nenhum na segunda linha. Vale para os 3 blocos que aceitam `hl`: `title` do
+  `poster-close`, `accentLine` do `poster-cover` e `accent` do `poster-turn`.
 - **Foto de arquivo, biblioteca e mesa de trabalho quase sempre traz texto legível, e a maioria é descartável por
   isso.** Aprendido na zx-34, em que 4 candidatas caíram na mesma regra: prateleira de pastas com rótulos manuscritos
   e a data 1360 nas lombadas, mesa com uma placa "DESIGNER OF THE YEAR 2020 2022" em primeiro plano, estante de
