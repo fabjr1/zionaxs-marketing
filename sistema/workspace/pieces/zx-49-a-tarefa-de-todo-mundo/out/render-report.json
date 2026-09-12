@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-49-a-tarefa-de-todo-mundo",
+  "generatedAt": "2026-09-12T13:50:04+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-49-a-tarefa-de-todo-mundo-slide-01.png",
+    "zx-49-a-tarefa-de-todo-mundo-slide-02.png",
+    "zx-49-a-tarefa-de-todo-mundo-slide-03.png",
+    "zx-49-a-tarefa-de-todo-mundo-slide-04.png",
+    "zx-49-a-tarefa-de-todo-mundo-slide-05.png",
+    "zx-49-a-tarefa-de-todo-mundo-slide-06.png",
+    "zx-49-a-tarefa-de-todo-mundo-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A tarefa de todo mundo 01/07 Puxou sozinho. Fez 85%. Em 1974, psicólogos vendaram os olhos de cada participante e mediram a força dele puxando uma corda sozinho. Quando ele acreditava que 2 a 6 outras pessoas puxavam junto, a força caía para 85%. Não havia mais ninguém na corda. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3 · foto: Declan Sun"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Ninguém atende. O telefone toca na recepção. 4 pessoas ouvem. Ninguém atende, porque cada uma acha que outra vai atender. Na quinta chamada alguém pega, e do outro lado já desligaram. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3 · foto: Wendy Scofield"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Em 6, cada um fez 78%. O psicólogo Alan Ingham e 3 colegas repetiram com cuidado o teste da corda. Em dupla, o grupo fez 91% da soma do que cada um fazia sozinho. Em trio, 82%. Em grupo de 6, apenas 78%. Quanto mais gente na corda, menos força por pessoa. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Não é preguiça. Ninguém mede. Quando o esforço de todos vira 1 resultado só, a parte de cada um deixa de ser separável, e ninguém recebe crédito nem cobrança pelo que fez. Os autores escreveram isso no artigo: sem distinguir a entrada de cada pessoa, não há crédito preciso nem cobrança adequada. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O dono em 4 passos. 1Toda tarefa sai da reunião com 1 nome, não com o nome da equipe. Grupo não executa, pessoa executa. 2No grupo de mensagens, dirija o pedido a 1 pessoa pelo nome. Pedido sem destinatário é pedido de ninguém. 3Deixe visível o que cada um entregou. O efeito encolhe quando a contribuição dá para identificar. 4Em tarefa de várias mãos, escreva quem faz cada parte antes de começar, não depois do atraso. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 A corda não é o serviço. O limite conta. Puxar corda e gritar são tarefas de esforço bruto, que se somam. Trabalho de serviço não é assim. E no grito os próprios autores mediram que metade da perda veio de falta de sincronia, não de esforço menor. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Abra o grupo da equipe. Ponha 1 nome. Volte ao último pedido que ficou sem resposta e escreva de novo, com 1 nome e 1 prazo. Depois combine a regra com a equipe: tarefa que chegar sem dono volta para quem pediu, para ganhar 1 nome. Temas: Equipe / Tarefas / Esforço @zionaxs_ · ref d1dec0a3 · foto: Armando Suárez Cueto"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "9 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.9,
+  "digest": "0a9a82f6be4148003fca0598e17478aada545953b3cd4808430b938bba0eab41"
+}

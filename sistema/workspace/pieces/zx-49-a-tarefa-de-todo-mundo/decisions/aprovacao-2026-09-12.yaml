@@ -1,0 +1,196 @@
+decisao: aprovar e publicar a zx-49, slot da manhã de fim de semana
+data: 2026-09-12
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca.
+  registro_anterior: pieces/zx-48-o-que-ja-foi-gasto/decisions/aprovacao-2026-09-11.yaml
+
+slot_editorial:
+  horario: "10:30 BRT, sábado"
+  papel: "repertório, cultura, comportamento, curiosidade e conteúdo visualmente experimental"
+  leitura: >
+    O slot de fim de semana pede a peça mais aberta e menos tática que a de dia
+    útil, sem deixar de ser útil. O leitor não está no meio da operação, então a
+    peça pode entrar por um experimento de laboratório contraintuitivo e ainda
+    sair com um passo que cabe em 2 minutos. Esta peça faz isso: o achado que
+    surpreende na capa, a cena universal do telefone no slide 2, os 3 números da
+    repetição no slide 3, o mecanismo no slide 4, 4 passos no slide 5, o limite
+    honesto no slide 6 e o passo de hoje no slide 7. A curiosidade de fim de
+    semana mora na legenda, no parágrafo sobre a origem perdida do achado.
+  nao_repete_o_dia_anterior: >
+    A zx-48, publicada na sexta à tarde, trata do projeto que já custou caro e
+    do que puxa recurso novo para uma escolha já feita, ou seja, de decisão
+    individual sobre investimento passado. Esta peça trata de esforço presente
+    que cai quando a contribuição de cada um deixa de ser distinguível, e a
+    unidade é a equipe, não o projeto. Fonte diferente, mecanismo diferente,
+    cena diferente e correção diferente.
+
+tema:
+  escolhido: >
+    a tarefa que é de todo mundo é de ninguém; em repetição cuidadosa do teste
+    de puxar corda, grupos de 6 fizeram 78% da soma do que cada um fazia
+    sozinho, e quando a pessoa foi vendada e puxou sempre sozinha acreditando
+    que havia gente junto, a força ainda caiu para 85%, sem ninguém para
+    atrapalhar a sincronia
+  matriz: nenhuma declarada
+  jtbd: [JO1, JS1]
+  repertorio: nenhum declarado
+  por_que: >
+    O papel do slot é repertório, cultura e comportamento, e o tema é um
+    experimento clássico de psicologia social que nenhuma das 29 peças
+    anteriores tocou. Ele não repete nenhuma delas. A zx-21 trata de decisão
+    que espera o dono, ou seja, responsabilidade concentrada demais; esta trata
+    do oposto, responsabilidade difusa demais. A zx-34 trata da média por
+    pessoa como medida de capacidade, que é aritmética de carteira, não esforço.
+    A zx-40 trata do trabalho que trava ao mudar de mão, que é passagem entre
+    2 pessoas com dono definido nas 2 pontas. A zx-41 trata de fila e ocupação.
+    Nenhuma trata da tarefa endereçada a um grupo em vez de a uma pessoa, que é
+    onde esta peça mora. A ponte do laboratório para a equipe de negócio de
+    serviço brasileiro é declarada como leitura da Zionaxs, no slide 6 e na
+    legenda, e não atribuída aos autores.
+
+evidencia:
+  fontes_conferidas_nesta_execucao:
+    - >
+      Bibb Latané, Kipling Williams e Stephen Harkins, Many Hands Make Light the
+      Work: The Causes and Consequences of Social Loafing, Journal of Personality
+      and Social Psychology, volume 37, número 6, 1979, páginas 822 a 832. O PDF
+      foi baixado e o texto extraído diretamente nesta execução, com os trechos
+      lidos nas páginas 822, 825, 826, 828, 829 e 830, e a lista de referências
+      lida nas páginas 831 e 832.
+    - >
+      Alan G. Ingham, George Levinger, James Graves e Vaughn Peckham, The
+      Ringelmann effect: Studies of group size and group performance, Journal of
+      Experimental Social Psychology, volume 10, 1974, páginas 371 a 384.
+      Referência conferida nesta execução na lista de referências do artigo de
+      1979; os resultados usados são os que o artigo de 1979 relata.
+    - >
+      David A. Kravitz e Barbara Martin, Ringelmann rediscovered: The original
+      article, Journal of Personality and Social Psychology, volume 50, 1986,
+      páginas 936 a 941. Citação e resumo conferidos nesta execução na página de
+      publicações do próprio David Kravitz na George Mason University.
+  numeros_e_recorte:
+    - "repetição de 1974: duplas a 91% da soma das capacidades individuais, trios a 82%, grupos de 6 a 78%"
+    - "segundo experimento de 1974: participantes vendados que sempre puxaram sozinhos, a 90% da própria taxa quando acreditavam haver mais 1 pessoa e a 85% quando acreditavam haver de 2 a 6"
+    - "grito, pseudogrupos de 1979: 82% da intensidade ao acreditar em mais 1 pessoa e 74% ao acreditar em mais 5"
+    - "grito, conclusão dos autores: metade da perda é falta de sincronia e metade é esforço menor"
+    - "frase da página 830: sem entrada identificável, ninguém recebe crédito preciso nem cobrança adequada"
+  limites_declarados_na_peca:
+    - puxar corda e gritar são tarefas de esforço bruto, unitárias e somáveis, e trabalho de serviço não é assim
+    - no grito, metade da perda veio de falta de sincronia e não de esforço menor, o que impede tratar o efeito como preguiça pura
+    - os participantes eram estudantes em laboratório, nos Estados Unidos, e não equipes de trabalho reais
+    - os 4 passos são adaptação editorial da Zionaxs a partir das fontes
+  nota_de_apuracao: >
+    A decisão de apuração mais importante desta peça foi NÃO usar os números de
+    Ringelmann que circulam em toda a literatura de divulgação, entre eles os
+    63 quilos individuais, os 248 quilos em grupo de 8 e os 49%. O artigo de
+    1979, lido diretamente, registra na página 822 que o estudo original nunca
+    foi publicado e que o que se conhecia vinha de um resumo em alemão feito por
+    Moede em 1927; o original só foi reencontrado em 1986 por Kravitz e Martin.
+    Ou seja, o número mais vendável da área atravessou décadas de segunda mão.
+    A peça usa em seu lugar os resultados da repetição cuidadosa de 1974, que
+    foram medidos e publicados em primeira mão, e transforma a procedência
+    duvidosa em curiosidade declarada na legenda, que é justamente o que o slot
+    de fim de semana pede. Nenhuma afirmação E da peça depende do resumo de 1927.
+
+producao:
+  gates: 14/14
+  digest_da_geracao: 0a9a82f6be414800
+  geracoes: 1
+  o_que_nao_custou_geracao: >
+    As 3 correções que custaram geração em peças anteriores foram feitas antes
+    de gerar, por checagem no contrato: o teto de 2.200 caracteres do corpo da
+    legenda, medido e ajustado de 2.471 para 2.199 sem mover nenhuma fonte para
+    caption_sources; a regra do realce da zx-32 e da zx-48, conferida escrevendo
+    a segunda linha de cada bloco com hl em caixa alta e procurando maiúscula
+    acentuada, com resultado limpo nos 3 blocos; e os limites de comprimento de
+    corpo do poster-turn, do poster-scene e do poster-statement, medidos contra
+    os números que a direção visual registra. Resultado: 14 gates verdes na
+    primeira geração.
+  erro_corrigido_antes_do_render: >
+    A validação do contrato recusou a primeira tentativa porque a
+    approved_visible_copy do slide 2 listava as 2 linhas do display separadas,
+    e o poster-scene junta um único elemento de lines em 1 string. Corrigido no
+    contrato, sem render gasto.
+
+verificacao_do_passo_6:
+  metodo: >
+    Os 7 PNG foram olhados um a um, e 2 blocos de realce foram ampliados a 140%
+    para conferir no pixel se a caixa comia acento ou topo de maiúscula da linha
+    seguinte. As candidatas de campo escuro foram medidas antes de escrever o
+    contrato, com luminância média, desvio e percentual de pixel claro na banda
+    de texto de 46 a 93 por cento e, separadamente, na caixa de paginação.
+  resultado_dos_realces: >
+    No slide 4 a cedilha de PREGUIÇA aparece inteira acima da caixa de NINGUÉM
+    MEDE. No slide 7 as maiúsculas de DA EQUIPE aparecem inteiras abaixo da
+    caixa de ABRA O GRUPO, que não tem maiúscula acentuada sob a largura dela.
+  folha_de_contato: >
+    A medida decidiu 3 descartes de campo escuro, todos pela regra da zx-45, que
+    manda trocar a foto em vez de insistir no recorte quando o assunto claro
+    atravessa a banda de texto. Uma corda clara pendurada sobre fundo preto
+    media 6,8% de pixel claro na banda em qualquer recorte, e o único recorte
+    que limpava a banda tirava a corda inteira do quadro, deixando preto puro.
+    Uma corda clara amarrada em um vagão media 42,6% na caixa de paginação no
+    recorte padrão e continuava acima de 9% em todas as alternativas. Uma
+    poltrona clara em sala escura, além de ficar dentro da banda, trazia um
+    porta-retratos com texto legível, que a regra da zx-23 proíbe.
+    A capa escolhida mede 18,2 de luminância e 0,1% de pixel claro na banda, com
+    a caixa de paginação em 10,7, usando scale 1,35 e origin 50% 100%. O
+    fechamento mede 14,1 de luminância e 0,1% de pixel claro na banda, com a
+    caixa em 11,1, usando scale 1,8 e origin 50% 100%, que levou a corda e o
+    poste inteiros para o terço superior.
+  teste_da_zx_46: >
+    Depois de aprovar pela banda, cada foto foi olhada no quadro de 1080x1350
+    para responder que objeto ela mostra. A capa mostra cordas grossas enroladas
+    sobre convés, nomeáveis sem ajuda da legenda. O fechamento mostra uma corda
+    amarrada em volta de um poste de amarração, igualmente nomeável. Nenhuma das
+    3 tem rosto, e nenhuma tem ano nem frase legível: o telefone do slide 2 traz
+    apenas os algarismos do disco, que não formam data nem afirmação.
+  foto_do_campo_de_papel: >
+    A foto do poster-scene foi conferida no recorte central de 380 por 440, que
+    é a proporção 0,864 do quadro, porque o layout ignora pos, scale e origin,
+    como a nota da zx-44 registra. O telefone de disco cai inteiro no recorte
+    central do arquivo, então não foi preciso recortar o arquivo.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso leve e regular, percussão seca e harmonia aberta,
+    intensidade estável e sem virada
+  por_que: >
+    o slot é o da manhã de fim de semana e a peça é de repertório e curiosidade,
+    então cabe faixa mais leve e mais arejada que a da tarde de dia útil. O
+    assunto é comportamento em grupo, não perda de dinheiro, então a trilha pode
+    ser curiosa sem ser tensa. Há um cuidado específico: trilha de tensão ou de
+    suspense transformaria diagnóstico em acusação, e o texto justamente defende
+    que não se trata de preguiça. O pedido também evita o pulso grave e escuro
+    da zx-48, para as 2 peças não soarem iguais no feed.
+  origem_obrigatoria: Meta Sound Collection
+  observacao: >
+    a sessão em nuvem não tem acesso ao índice do acervo de trilhas, então o nome
+    no contrato é perfil, não faixa confirmada; a escolha final é do Fabiano no
+    app, depois de publicado
+
+memory:
+  propostas_para_inbox:
+    - >
+      linha de matriz editorial própria para tarefa sem dono e difusão de
+      responsabilidade; nenhuma linha de M01 a M20 cobre o caso, e M19 trata de
+      dependência de pessoa-chave, que é o problema inverso
+    - >
+      linha de repertório para esforço em grupo e identificabilidade da
+      contribuição individual, com Ingham, Levinger, Graves e Peckham em 1974 e
+      Latané, Williams e Harkins em 1979
+    - >
+      regra de apuração nova, aprendida aqui: achado clássico muito citado pode
+      ter procedência de segunda mão, e vale procurar quem repetiu o experimento
+      em primeira mão antes de usar o número famoso. No caso desta peça, os
+      números de Ringelmann vieram de um resumo de 1927 e o original só foi
+      reencontrado em 1986; usar a repetição de 1974 saiu mais barato e mais
+      honesto, e ainda rendeu o parágrafo de curiosidade da legenda
