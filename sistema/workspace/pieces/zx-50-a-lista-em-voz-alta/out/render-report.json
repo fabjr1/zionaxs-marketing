@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-50-a-lista-em-voz-alta",
+  "generatedAt": "2026-09-12T18:25:08+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-50-a-lista-em-voz-alta-slide-01.png",
+    "zx-50-a-lista-em-voz-alta-slide-02.png",
+    "zx-50-a-lista-em-voz-alta-slide-03.png",
+    "zx-50-a-lista-em-voz-alta-slide-04.png",
+    "zx-50-a-lista-em-voz-alta-slide-05.png",
+    "zx-50-a-lista-em-voz-alta-slide-06.png",
+    "zx-50-a-lista-em-voz-alta-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A lista de 19 itens 01/07 Escrever venceu lembrar. 1,5% virou 0,8%. Em 8 hospitais de 8 cidades, a equipe de cirurgia passou a conferir 19 itens em voz alta antes de operar. A morte durante a internação caiu de 1,5% para 0,8%, e as complicações de 11% para 7%. Nenhuma técnica nova entrou na sala de cirurgia. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441 · foto: Ajay Deewan"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Param e leem. Antes da anestesia, antes do primeiro corte e antes de a pessoa deixar a sala, a equipe inteira para o que está fazendo e confere os itens em voz alta. A regra da Organização Mundial da Saúde é essa: conferir falando, nunca de memória. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441 · foto: Jonathan Borba"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Em 103 UTIs, 2,7 virou 0. O médico Peter Pronovost e colegas, da Universidade Johns Hopkins, levaram a 103 unidades de terapia intensiva de Michigan práticas que a equipe já conhecia, agora conferidas item por item. A mediana de infecção ligada a cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses, e a queda se manteve ao longo de 18 meses. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 A lista não ensina nada. Ela faz parar. As práticas dos 2 estudos já eram conhecidas pelas equipes. O que a lista acrescenta não é conteúdo, é a parada: interromper o resto, conferir falando e só então seguir. O ganho aparece bem onde a pressa costuma comer 1 passo da rotina. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 A lista em 4 regras. 1Escolha 1 tarefa que já deu problema 2 vezes. Lista é para etapa crítica, não para o dia inteiro. 2Escreva no máximo 7 itens, cada um conferível em 1 olhada. Item que pede julgamento não entra. 3Marque o momento: antes de enviar, antes de assinar, antes de encerrar o atendimento. 4Leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 A lista não fez sozinha. O programa era maior. Nos 2 casos ela veio junto com treinamento e mudança de rotina. E os 2 estudos compararam antes e depois, sem grupo de controle. Medem o conjunto, não a folha de papel. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Pegue a entrega que mais volta. Escreva 5 itens. Liste o que não pode faltar nela, marque a conferência antes do envio e leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada e mantenha o resto. Temas: Lista / Erro / Equipe @zionaxs_ · ref 29fcd441 · foto: Fumiaki Hayashi"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2,
+  "digest": "c27989aa867852ddd96d4f281e8b64d78fdf45c0c860b47a7e7da620d107a654"
+}

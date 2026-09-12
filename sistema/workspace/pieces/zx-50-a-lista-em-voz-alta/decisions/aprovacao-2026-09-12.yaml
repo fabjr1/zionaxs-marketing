@@ -1,0 +1,214 @@
+decisao: aprovar e publicar a zx-50, slot da tarde de fim de semana
+data: 2026-09-12
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro reprovou 1 vez, por legenda acima do teto, e a correção foi encurtar
+    o corpo da legenda, não afrouxar a trava.
+  registro_anterior: pieces/zx-49-a-tarefa-de-todo-mundo/decisions/aprovacao-2026-09-12.yaml
+
+slot_editorial:
+  horario: "15:00 BRT, sábado"
+  papel: "guia salvável, análise longa, biblioteca e aplicação prática"
+  leitura: >
+    O slot da tarde de fim de semana pede a peça que a pessoa salva para aplicar
+    depois, então o roteiro precisa bastar-se sozinho. A unidade salvável desta
+    peça é o slide 5, com 4 regras que cabem em 1 print e não dependem da legenda
+    nem dos slides anteriores para serem executadas na segunda. Os slides 1 a 4
+    existem para que a pessoa acredite na regra antes de aplicá-la, e o slide 6
+    para que ela não a aplique esperando o número do hospital.
+  nao_repete_a_peca_da_manha: >
+    A zx-49, publicada hoje às 13:55 UTC, trata de esforço que cai quando a
+    contribuição de cada um deixa de ser distinguível, com o teste de puxar
+    corda, e a correção é endereçar tarefa a pessoa em vez de a grupo. Esta peça
+    trata de etapa crítica esquecida na execução de uma tarefa que já tem dono, e
+    a correção é uma lista escrita conferida em voz alta em 1 momento marcado.
+    Fonte diferente, mecanismo diferente, cena diferente, correção diferente. A
+    peça da manhã é sobre quem faz; esta é sobre o que se confere antes de
+    entregar.
+
+tema:
+  escolhido: >
+    lista de verificação escrita não é burocracia; em 8 hospitais de 8 cidades a
+    lista de 19 itens da Organização Mundial da Saúde acompanhou a morte cair de
+    1,5% para 0,8% e as complicações de 11% para 7%, e em 103 unidades de terapia
+    intensiva de Michigan a mediana de infecção ligada a cateter caiu de 2,7 por
+    1.000 dias de cateter para 0 em 3 meses. Nos 2 casos as práticas já eram
+    conhecidas das equipes, então o que a lista acrescentou foi a parada para
+    conferir, não conteúdo novo.
+  matriz: nenhuma declarada
+  jtbd: [JO1, JF4]
+  repertorio: nenhum declarado
+  por_que: >
+    O JO1 da nota 19b é literalmente "quero um checklist que a recepção/equipe
+    consiga executar sem mim", e nenhuma das 30 peças anteriores entregou esse
+    job. O tema também serve ao papel do slot melhor que qualquer outro candidato
+    avaliado, porque o produto da peça é um quadro de 4 regras que sobrevive ao
+    print. Não repete nenhuma peça anterior: a zx-26 trata de mudar o desenho da
+    tarefa para que o erro não possa acontecer, que é impedir, avisar ou separar
+    no sistema; esta trata do que fazer nas etapas que não dá para tornar
+    impossíveis, que é conferir em voz alta em 1 ponto fixo. A zx-40 trata do
+    trabalho que trava ao mudar de mão, a zx-23 trata de definição de indicador e
+    a zx-36 de retrabalho não registrado. Nenhuma trata do procedimento escrito
+    nem do momento da conferência.
+
+evidencia:
+  fontes_conferidas_nesta_execucao:
+    - >
+      Alex B. Haynes, Thomas G. Weiser, William R. Berry, Stuart R. Lipsitz e
+      colegas, A Surgical Safety Checklist to Reduce Morbidity and Mortality in a
+      Global Population, The New England Journal of Medicine, volume 360, número
+      5, 29 de janeiro de 2009, páginas 491 a 499. Resumo completo lido nesta
+      execução no registro do PubMed, PMID 19144931, obtido pela API eutils da
+      National Library of Medicine, com os números conferidos palavra por palavra
+      na seção de resultados.
+    - >
+      Peter Pronovost, Dale Needham, Sean Berenholtz, David Sinopoli e colegas,
+      An Intervention to Decrease Catheter-Related Bloodstream Infections in the
+      ICU, The New England Journal of Medicine, volume 355, número 26, 28 de
+      dezembro de 2006, páginas 2725 a 2732. Resumo completo lido nesta execução
+      no mesmo registro do PubMed, PMID 17192537, com a afiliação do primeiro
+      autor lida no campo Affiliation do próprio registro.
+    - >
+      Página oficial de ferramentas e recursos de cirurgia segura da Organização
+      Mundial da Saúde, lida nesta execução, de onde saem os 19 itens e os 3
+      pontos de conferência, com a equipe inteira parando as demais atividades e
+      confirmando os itens em voz alta em vez de depender da memória.
+  numeros_e_recorte:
+    - "2009: 8 hospitais em 8 cidades, 3.733 pacientes antes e 3.955 depois, cirurgia não cardíaca, pacientes de 16 anos ou mais"
+    - "2009: morte de 1,5% para 0,8% (P=0,003) e complicações de internação de 11,0% para 7,0% (P<0,001), no período de 30 dias após a operação"
+    - "2006: 108 unidades aceitaram participar e 103 reportaram dados, somando 1.981 meses de unidade e 375.757 dias de cateter"
+    - "2006: mediana de 2,7 por 1.000 dias de cateter para 0 em 3 meses; média de 7,7 para 1,4 entre 16 e 18 meses; redução de até 66% mantida por 18 meses"
+  limites_declarados_na_peca:
+    - a lista não veio sozinha nos 2 casos, e sim dentro de um programa com treinamento e mudança de rotina
+    - os 2 estudos compararam antes e depois, sem grupo de controle sorteado, então medem queda e não provam causa
+    - desfecho clínico de hospital não se transfere para entrega de escritório, e a peça não afirma percentual nenhum sobre negócio de serviço
+    - o teto de 7 itens e a revisão de 1 mês são adaptação editorial da Zionaxs, não recomendação dos autores
+  nota_de_apuracao: >
+    A decisão de apuração mais importante foi não usar o número de redução
+    relativa que a divulgação costuma tirar destes 2 artigos, do tipo "a morte
+    caiu quase pela metade". Dividir 0,8 por 1,5 é conta feita pela sessão, e o
+    gate de evidência da nota 19c proíbe percentual criado, somado, arredondado
+    ou extrapolado. A peça publica apenas os pares que os autores publicaram,
+    1,5% e 0,8%, 11% e 7%, 2,7 e 0, e o único percentual de redução que aparece,
+    os 66%, está no resumo de 2006 com essas palavras. A segunda decisão foi não
+    afirmar que a lista sozinha causou a queda: os 2 desenhos são antes e depois,
+    e por isso a copy diz "acompanhou", "caiu" e "medem o conjunto", nunca
+    "causou". O slide 6 existe para isso.
+
+producao:
+  gates: 14/14
+  digest_da_geracao: c27989aa867852dd
+  geracoes: 3
+  o_que_custou_geracao: >
+    A segunda geração foi gasta com o G6, que reprovou 3 parágrafos com última
+    linha abaixo de 18% da linha mais larga, nos slides 1, 3 e 4. A correção
+    seguiu a regra da direção visual, que manda reescrever a frase final em vez
+    de enfiar quebra autoral, porque quebra em parágrafo longo troca G6 por G7:
+    "na sala" virou "na sala de cirurgia", "por 18 meses" virou "ao longo de 18
+    meses" e "comer 1 passo" virou "comer 1 passo da rotina". A terceira geração
+    foi consequência do corte da legenda pelo porteiro.
+  erro_corrigido_antes_do_render: >
+    A validação do contrato recusou a primeira tentativa porque a
+    approved_visible_copy do slide 2 listava as 2 linhas do display separadas, e
+    o poster-scene junta um único elemento de lines em 1 string. É exatamente o
+    erro que a zx-49 registrou no mesmo lugar, e ele voltou porque a nota estava
+    no arquivo de decisão da peça anterior, onde uma sessão nova não olha. Vai
+    como proposta de gate para a Inbox da Memory.
+  reprovacao_do_porteiro: >
+    O porteiro reprovou a primeira tentativa com corpo de legenda em 2.429
+    caracteres, acima do teto de 2.200 do Instagram. A correção foi encurtar o
+    corpo mantendo autor, revista e ano das 2 fontes dentro dele, sem mover uma
+    linha sequer para caption_sources, porque a nota 19c §14 exige que a fonte de
+    afirmação E continue visível ao leitor. O corpo final tem 2.115 caracteres.
+
+verificacao_do_passo_6:
+  metodo: >
+    Os 7 PNG foram olhados um a um em 1080x1350. As candidatas de campo escuro
+    foram medidas antes de escrever o contrato, com luminância média, desvio e
+    percentual de pixel claro na banda de texto de 46 a 93 por cento e,
+    separadamente, no retângulo de 84 por 84 da caixa de paginação, conforme a
+    regra da zx-47, que manda conferir a caixa antes da manchete.
+  resultado_dos_realces: >
+    No slide 4 o realce ELA FAZ PARAR ocupa 1 linha só e a linha seguinte começa
+    em "As práticas", sem maiúscula acentuada sob a largura da caixa. No slide 7
+    o realce PEGUE A ENTREGA está na primeira linha e a segunda, QUE MAIS VOLTA,
+    não tem maiúscula acentuada em nenhuma posição. As 2 foram escritas assim de
+    propósito, aplicando o teste de 10 segundos da zx-48 antes de gerar.
+  folha_de_contato: >
+    Foram medidas 11 candidatas em 4 recortes cada. A regra da zx-45 decidiu 6
+    descartes de campo escuro por banda clara demais, entre elas uma folha de
+    papel sobre fundo preto, que media 143,1 de luminância na banda, e 3 fotos de
+    instrumentos cirúrgicos sobre campo azul, todas acima de 124. A regra da
+    zx-46 decidiu 2 descartes por objeto irreconhecível no quadro: uma lâmina em
+    close virava uma forma vertical abstrata e uma fileira de pontas de aço não
+    se deixava nomear. A regra da zx-23 decidiu 1 descarte por idioma legível: um
+    caderno com anotação manuscrita em inglês, que continuava legível mesmo com
+    scale 2,2 e origem no rodapé, porque a escrita fica no terço superior.
+    A capa escolhida mede 55,2 de luminância e 0% de pixel acima de 140 na banda,
+    com a caixa de paginação em 5,0, usando scale 1,35 e origin 50% 100%. O
+    fechamento mede 35,1 na banda e 4,2 na caixa, com os mesmos parâmetros.
+  teste_da_zx_46: >
+    A capa mostra um bloco de papel pautado em branco ao lado de uma máquina de
+    escrever, nomeável sem ajuda da legenda, e as únicas letras visíveis são
+    teclas isoladas, que não formam data nem frase. O slide 2 mostra tesouras e
+    pinças de aço sobre campo de tecido, ao lado de uma cuba: instrumento
+    cirúrgico é reconhecível mesmo em preto e branco. O fechamento mostra uma
+    escrivaninha antiga de madeira com o tampo vazio ocupando a metade de baixo.
+    Nenhuma das 3 tem rosto e nenhuma tem ano legível.
+  foto_do_campo_de_papel: >
+    A foto do poster-scene foi conferida no recorte central de 380 por 440, que é
+    a proporção 0,864, porque o layout ignora pos, scale e origin, como a nota da
+    zx-44 registra. Os instrumentos e a cuba caem inteiros no recorte central do
+    arquivo, então não foi preciso recortar o arquivo.
+
+trilha:
+  perfil_pedido: >
+    instrumental, pulso contido e regular, percussão discreta e harmonia parada,
+    intensidade estável e sem virada
+  por_que: >
+    o slot é o da tarde de fim de semana e o papel é de guia salvável, então a
+    peça é lida devagar e a trilha precisa sustentar leitura longa sem chamar
+    atenção para si. O pedido evita de propósito o pulso leve e arejado da zx-49,
+    publicada hoje de manhã, para as 2 peças do mesmo dia não soarem iguais no
+    feed. Há um cuidado específico desta peça: o texto fala de hospital, de morte
+    e de infecção, e trilha de tensão, suspense ou contagem regressiva
+    transformaria uma peça de método em peça de medo, o que o gate ético da nota
+    19c proíbe.
+  origem_obrigatoria: Meta Sound Collection
+  observacao: >
+    a sessão em nuvem não tem acesso ao índice do acervo de trilhas, então o nome
+    no contrato é perfil, não faixa confirmada; a escolha final é do Fabiano no
+    app, depois de publicado
+
+memory:
+  propostas_para_inbox:
+    - >
+      linha de matriz editorial própria para procedimento escrito e ponto de
+      conferência; nenhuma linha de M01 a M20 cobre o caso, e a mais próxima,
+      M19, trata de limites de decisão, que é quem decide e não o que se confere
+    - >
+      linha de repertório para lista de verificação e parada programada, com
+      Haynes e colegas em 2009 e Pronovost e colegas em 2006. R8, do Sistema
+      Toyota de Produção, é parente mas descreve parada disparada por sinal de
+      risco, e não parada agendada que acontece sempre
+    - >
+      proposta de gate, nascida de um erro que se repetiu: a
+      approved_visible_copy de um slide poster-scene precisa trazer o elemento de
+      lines como 1 string única, com a quebra autoral dentro dela, e listar as
+      linhas separadas derruba a validação. A zx-49 registrou isso no arquivo de
+      decisão dela, que é o lugar onde uma sessão nova não olha, e por isso o
+      erro voltou nesta peça. Regra binária, logo é gate, não documento
+    - >
+      regra de apuração nova: em estudo de antes e depois, publicar apenas os
+      pares de números que os autores publicaram e nunca a redução relativa
+      calculada pela sessão, mesmo quando ela é a manchete mais vendável. Dividir
+      0,8 por 1,5 seria percentual criado, que o gate de evidência da nota 19c
+      proíbe, e a copy precisa dizer "acompanhou" e "caiu", nunca "causou"

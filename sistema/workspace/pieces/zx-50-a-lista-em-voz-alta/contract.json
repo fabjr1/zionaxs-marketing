@@ -1,0 +1,335 @@
+{
+  "id": "zx-50-a-lista-em-voz-alta",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e entrega em etapas: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a entrega sai no prazo e volta porque faltou 1 etapa que todo mundo conhece e ninguém conferiu, sempre a mesma. Slot editorial: tarde de fim de semana, papel de guia salvável e aplicação prática, então o roteiro do slide 5 precisa bastar-se sozinho, ser aplicável na segunda sem nenhum pré-requisito e sobreviver ao print sem a legenda.",
+    "decisao": "Parar de responder a etapa esquecida com pedido de atenção, e escrever 1 lista curta de conferência para a tarefa que mais falha, lida em voz alta em 1 momento marcado, antes de a entrega sair da mão.",
+    "tensao": "Escrever procedimento parece burocracia de empresa grande, e quem toca equipe pequena costuma tratar lista como desconfiança da competência de quem já sabe fazer. O que foi medido contraria essa leitura por um caminho inesperado: as listas que mudaram números de morte e de infecção em hospital não ensinaram nada novo às equipes, porque as práticas já eram conhecidas. O que elas acrescentaram foi a parada para conferir em voz alta, em 1 momento fixo, e isso bastou.",
+    "evidencia": [
+      {
+        "claim": "no programa Safe Surgery Saves Lives da Organização Mundial da Saúde, 8 hospitais de 8 cidades adotaram uma lista de verificação de 19 itens, com 3.733 pacientes acompanhados antes e 3.955 depois",
+        "status": "E",
+        "fonte": "Alex B. Haynes, Thomas G. Weiser, William R. Berry, Stuart R. Lipsitz e colegas, A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population, The New England Journal of Medicine, volume 360, número 5, 29 de janeiro de 2009, páginas 491 a 499. Resumo lido nesta execução no registro do PubMed, PMID 19144931: We hypothesized that a program to implement a 19-item surgical safety checklist designed to improve team communication and consistency of care would reduce complications and deaths associated with surgery. Between October 2007 and September 2008, eight hospitals in eight cities... We prospectively collected data on clinical processes and outcomes from 3733 consecutively enrolled patients 16 years of age or older who were undergoing noncardiac surgery. We subsequently collected data on 3955 consecutively enrolled patients after the introduction of the Surgical Safety Checklist."
+      },
+      {
+        "claim": "depois da lista, a taxa de morte caiu de 1,5% para 0,8% e as complicações de internação de 11,0% para 7,0%",
+        "status": "E",
+        "fonte": "Mesmo artigo de 2009, seção de resultados do resumo, lida nesta execução no PubMed: The rate of death was 1.5% before the checklist was introduced and declined to 0.8% afterward (P=0.003). Inpatient complications occurred in 11.0% of patients at baseline and in 7.0% after introduction of the checklist (P<0.001). O desfecho primário declarado no mesmo resumo é a taxa de complicações, morte incluída, durante a internação dentro dos primeiros 30 dias após a operação."
+      },
+      {
+        "claim": "a lista da Organização Mundial da Saúde tem 19 itens e é conferida com a equipe parando o resto em 3 momentos, antes da anestesia, antes do corte e antes de a pessoa deixar a sala, falando os itens em vez de confiar na memória",
+        "status": "E",
+        "fonte": "Página oficial de ferramentas e recursos de cirurgia segura da Organização Mundial da Saúde, lida nesta execução: o texto registra que a lista foi desenvolvida após ampla consulta para diminuir erros e eventos adversos e aumentar trabalho de equipe e comunicação, que the 19-item checklist has gone on to show significant reduction in both morbidity and mortality, e pergunta, entre os pontos de implantação, Does the entire team stop all other activity for a few moments at three critical points, i.e., pre-anesthesia, pre-incision and before the patient leaves the OR?, com cada integrante confirmando os itens em voz alta em vez de depender da memória."
+      },
+      {
+        "claim": "em 103 unidades de terapia intensiva, quase todas em Michigan, a mediana de infecção de corrente sanguínea ligada a cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses, e a redução chegou a 66% mantida por 18 meses",
+        "status": "E",
+        "fonte": "Peter Pronovost, Dale Needham, Sean Berenholtz, David Sinopoli e colegas, An Intervention to Decrease Catheter-Related Bloodstream Infections in the ICU, The New England Journal of Medicine, volume 355, número 26, 28 de dezembro de 2006, páginas 2725 a 2732. Resumo lido nesta execução no PubMed, PMID 17192537: A total of 108 ICUs agreed to participate in the study, and 103 reported data. The median rate of catheter-related bloodstream infection per 1000 catheter-days decreased from 2.7 infections at baseline to 0 at 3 months after implementation of the study intervention, and the mean rate per 1000 catheter-days decreased from 7.7 at baseline to 1.4 at 16 to 18 months of follow-up. An evidence-based intervention resulted in a large and sustained reduction (up to 66%) in rates of catheter-related bloodstream infection that was maintained throughout the 18-month study period. A afiliação declarada do primeiro autor no mesmo registro é School of Medicine, Johns Hopkins University, Baltimore, USA."
+      },
+      {
+        "claim": "as práticas cobradas pelas 2 listas já eram conhecidas das equipes, e nenhuma técnica nova foi introduzida junto",
+        "status": "E",
+        "fonte": "Nos 2 resumos lidos nesta execução, os próprios autores descrevem a natureza da intervenção. Em 2006 o resumo diz An evidence-based intervention was used to reduce the incidence of catheter-related bloodstream infections, ou seja, práticas que já tinham evidência publicada antes do estudo. Em 2009 a lista é descrita como designed to improve team communication and consistency of care, isto é, voltada a comunicação e consistência, e não a técnica cirúrgica nova."
+      },
+      {
+        "claim": "o mesmo desenho funciona na entrega de uma clínica, de um escritório contábil ou de uma agência no Brasil",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. Os 2 estudos mediram desfecho clínico em hospital, com equipes de saúde e protocolo próprio. Nenhum deles mediu entrega de negócio de serviço brasileiro. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      },
+      {
+        "claim": "as 4 regras do slide 5, entre elas o teto de 7 itens e o corte do item que nunca pegou nada",
+        "status": "NC",
+        "fonte": "Adaptação editorial da Zionaxs a partir das fontes. Os autores não prescrevem tamanho de lista para trabalho de escritório nem rotina de revisão mensal. O teto de 7 itens é escolha da Zionaxs, orientada pelo fato de a lista da Organização Mundial da Saúde dividir os 19 itens em 3 momentos de conferência, e não por um número recomendado pelos autores. A peça declara isso na legenda."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 8 hospitais de 8 cidades, os 3.733 pacientes antes e os 3.955 depois, e os 19 itens da lista de cirurgia segura",
+        "a morte de 1,5% para 0,8% e as complicações de 11,0% para 7,0% após a lista",
+        "os 3 momentos de conferência da lista da Organização Mundial da Saúde e a orientação de confirmar em voz alta, sem depender da memória",
+        "as 103 unidades de terapia intensiva que reportaram dados, a mediana de 2,7 para 0 em 3 meses e a redução de até 66% mantida por 18 meses",
+        "a descrição, pelos próprios autores, de intervenção baseada em evidência já existente e de lista voltada a comunicação e consistência"
+      ],
+      "I": [
+        "a passagem do achado hospitalar para a entrega de um negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "as 4 regras do slide 5, que são adaptação editorial da Zionaxs, incluindo o teto de 7 itens e a revisão de 1 mês"
+      ]
+    },
+    "limites": [
+      "Nos 2 estudos a lista não veio sozinha: ela fazia parte de um programa com treinamento e mudança de rotina. Os números medem o conjunto, não a folha de papel isolada, e a peça declara isso no slide 6.",
+      "Os 2 estudos compararam antes e depois, sem grupo de controle sorteado. Comparação desse tipo não separa o efeito da lista de outras mudanças do período, e por isso a peça fala em queda medida, e não em causa provada.",
+      "Cirurgia e terapia intensiva têm desfecho binário, medido e auditado, e o trabalho de serviço não tem nada parecido. A peça não transfere os percentuais para o escritório.",
+      "O teto de 7 itens e a revisão mensal não saem dos artigos: são escolha editorial da Zionaxs para caber na rotina de equipe pequena, declarada como tal na legenda."
+    ]
+  },
+  "tese": "Lista escrita não é burocracia, e o que foi medido em hospital mostra por quê. Em 8 hospitais de 8 países, uma lista de 19 itens conferida em voz alta acompanhou a morte cair de 1,5% para 0,8%; em 103 unidades de terapia intensiva, a mediana de infecção por cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses. As práticas já eram conhecidas pelas equipes nos 2 casos, então o que a lista acrescentou não foi conhecimento, foi a parada para conferir em 1 momento marcado. Consequência prática: para a tarefa que mais falha, escrever poucos itens e lê-los em voz alta antes de a entrega sair da mão vale mais do que pedir atenção.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de lista de verificação escrita nem de etapa crítica esquecida na hora da entrega. As 3 mais próximas não servem: M19 é dependência de pessoa-chave, resolvida com limites de decisão e cadência de gestão, ou seja, quem decide, e não o que se confere antes de entregar, além de ter sido território da zx-21; M08 é retrabalho invisível não cobrado, que trata de nomear, medir e cobrar refação depois que ela acontece, e foi território da zx-36; M18 é dicionário de métricas, que é definição de indicador e foi território da zx-23. Declarar qualquer uma delas porque todas falam de operação seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para procedimento escrito e ponto de conferência vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado, e aqui a decisão é mais apertada que o normal. R8, do Sistema Toyota de Produção, é parente próximo: a ideia de parar a linha descreve o mesmo gesto que esta peça defende, que é interromper o fluxo em vez de seguir com dúvida. Mas R8 está registrada no ledger para o caso de parar diante de dado duvidoso, de teste falho ou de escopo ambíguo, ou seja, uma parada disparada por um sinal de risco que aparece, enquanto esta peça trata de parada agendada, que acontece sempre, mesmo quando nada parece errado, e cujo conteúdo é uma lista escrita de antemão. São mecanismos diferentes, e forçar R8 faria a peça parecer ancorada em repertório que ela não usa: a fonte desta peça é externa ao ledger e nenhum slide cita Toyota. A proposta de acrescentar ao ledger uma linha de lista de verificação e parada programada, com Haynes e colegas em 2009 e Pronovost e colegas em 2006, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JO1",
+    "JF4"
+  ],
+  "cta": "Pegar hoje a entrega que mais volta com correção, escrever os 5 itens que não podem faltar nela e marcar a conferência antes do envio.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura de que lista é burocracia; ver a cena concreta da conferência, que é a equipe inteira parando e falando; receber a segunda evidência, de outro cenário e outro desfecho, para que o efeito não pareça de um estudo só; virar para o mecanismo, que é a parada e não o conteúdo da lista; receber as 4 regras aplicáveis, que são a unidade salvável desta peça e o motivo do slot de tarde de fim de semana; ouvir o limite que impede a peça de virar promessa; e sair com o passo de hoje. A unidade de evidência existe e são os slides 1 e 3, com os 2 estudos separados para respeitar a regra de no máximo 1 ideia-fonte por slide.",
+  "internal_metadata": [
+    "zx-50",
+    "JO1",
+    "JF4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Ledger",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa de pulso contido e passo regular, com percussão discreta e harmonia parada, do tipo que soa como uma sala concentrada no meio da tarde. O slot é o da tarde de fim de semana e o papel é de guia salvável, então a trilha precisa sustentar leitura longa sem chamar atenção para si, ao contrário da peça da manhã, que podia ser mais arejada e curiosa. O assunto é conferência e cuidado, não urgência, então a música não pode soar como contagem regressiva.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça o cuidado extra é com trilha de tensão, suspense ou batida de contagem regressiva, porque o texto fala de hospital, de morte e de infecção, e música tensa transformaria uma peça de método em peça de medo, o que o gate ético da nota 19c proíbe. Evitar também o pulso leve e arejado pedido na zx-49, para as 2 peças do mesmo dia não soarem iguais no feed.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso contido e regular, intensidade estável e sem virada, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-49 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques, pulso metronômico de textura seca, final que decai, pulso audível o tempo todo, nota longa por baixo, pulso grave com harmonia parada e pulso leve de sala clara."
+  },
+  "caption": [
+    "Escrever uma lista de conferência parece burocracia de empresa grande. Em 2 estudos de hospital, ela apareceu ligada a queda de morte e de infecção.",
+    "Em 2009, Alex Haynes e colegas publicaram no New England Journal of Medicine o resultado de um programa da Organização Mundial da Saúde em 8 hospitais de 8 cidades. Foram 3.733 pacientes antes da lista e 3.955 depois. A morte nos 30 dias após a cirurgia caiu de 1,5% para 0,8%, e as complicações de 11% para 7%.",
+    "A lista tem 19 itens e é conferida em 3 momentos: antes da anestesia, antes do primeiro corte e antes de a pessoa deixar a sala. A orientação é que a equipe inteira pare o resto e confirme os itens falando, em vez de confiar na memória.",
+    "Em 2006, o médico Peter Pronovost e colegas, da Universidade Johns Hopkins, publicaram na mesma revista o resultado de 103 unidades de terapia intensiva de Michigan. A mediana de infecção ligada a cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses, e a redução chegou a 66% ao longo de 18 meses.",
+    "O interessante é o que essas listas não fazem. Elas não ensinam nada: os autores descrevem práticas que já tinham evidência publicada e uma lista feita para melhorar comunicação, não técnica. O que ela acrescenta é a parada para conferir, bem onde a pressa costuma comer 1 passo.",
+    "Na prática, 4 regras. 1: escolha 1 tarefa que já deu problema 2 vezes, porque lista é para etapa crítica, não para o dia inteiro. 2: escreva no máximo 7 itens, cada um conferível em 1 olhada. 3: marque o momento, antes de enviar, antes de assinar ou antes de encerrar o atendimento. 4: leia em voz alta com quem participa, e depois de 1 mês corte o item que nunca pegou nada.",
+    "Um cuidado. Nos 2 casos a lista veio dentro de um programa maior, com treinamento e mudança de rotina, e os 2 estudos compararam antes e depois, sem grupo de controle. Medem o conjunto, não a folha de papel. Hospital também não é escritório: as 4 regras são adaptação da Zionaxs, não recomendação dos autores.",
+    "Comece hoje. Pegue a entrega que mais volta com correção, escreva os 5 itens que não podem faltar e ponha a conferência antes do envio."
+  ],
+  "caption_sources": [
+    "Fonte dos 19 itens, dos 8 hospitais, dos 3.733 e 3.955 pacientes e da queda de 1,5% para 0,8% e de 11,0% para 7,0%: Alex B. Haynes, Thomas G. Weiser, William R. Berry, Stuart R. Lipsitz e colegas, A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population, The New England Journal of Medicine, volume 360, número 5, 29 de janeiro de 2009, páginas 491 a 499. Resumo lido nesta execução no registro do PubMed, PMID 19144931.",
+    "Recorte do estudo de 2009: dados coletados entre outubro de 2007 e setembro de 2008, em pacientes de 16 anos ou mais submetidos a cirurgia não cardíaca, nas cidades de Toronto, Nova Délhi, Amã, Auckland, Manila, Ifakara, Londres e Seattle. O desfecho primário declarado é a taxa de complicações, morte incluída, durante a internação nos primeiros 30 dias após a operação.",
+    "Fonte dos 3 momentos de conferência e da orientação de confirmar em voz alta: página oficial de ferramentas e recursos de cirurgia segura da Organização Mundial da Saúde, lida nesta execução, que descreve a lista de 19 itens e pergunta se a equipe inteira interrompe as demais atividades por alguns instantes em 3 pontos críticos, antes da anestesia, antes da incisão e antes de o paciente deixar a sala de cirurgia.",
+    "Fonte da mediana de 2,7 para 0 e da redução de até 66% em 18 meses: Peter Pronovost, Dale Needham, Sean Berenholtz, David Sinopoli e colegas, An Intervention to Decrease Catheter-Related Bloodstream Infections in the ICU, The New England Journal of Medicine, volume 355, número 26, 28 de dezembro de 2006, páginas 2725 a 2732. Resumo lido nesta execução no registro do PubMed, PMID 17192537. A afiliação declarada do primeiro autor no mesmo registro é School of Medicine, Johns Hopkins University, Baltimore, USA.",
+    "Recorte do estudo de 2006: 108 unidades aceitaram participar e 103 reportaram dados, somando 1.981 meses de unidade e 375.757 dias de cateter. A média por 1.000 dias de cateter caiu de 7,7 no início para 1,4 entre 16 e 18 meses de acompanhamento.",
+    "Fonte da afirmação de que as práticas já eram conhecidas: os 2 resumos descrevem a natureza da intervenção. Em 2006, intervenção baseada em evidência já publicada. Em 2009, lista desenhada para melhorar a comunicação da equipe e a consistência do cuidado, e não para introduzir técnica cirúrgica nova.",
+    "Limitação de desenho: os 2 estudos compararam antes e depois, sem grupo de controle sorteado, então a queda medida não separa o efeito da lista de outras mudanças ocorridas no mesmo período. A peça fala em queda medida, e não em causa provada.",
+    "Limitação de programa: nos 2 casos a lista fazia parte de um conjunto maior, com treinamento e mudança de rotina. Os números medem o conjunto, e a peça declara isso no slide 6.",
+    "Limitação de universo: os desfechos são clínicos, medidos e auditados em hospital. Nenhum dos 2 estudos mediu entrega de negócio de serviço brasileiro, então a peça não afirma percentual nenhum sobre esses setores e trata a passagem para esse contexto como leitura da Zionaxs.",
+    "As 4 regras do slide 5 são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. O teto de 7 itens é escolha da Zionaxs, orientada pelo fato de a lista da Organização Mundial da Saúde dividir 19 itens em 3 momentos de conferência, e não por um número recomendado nos artigos.",
+    "Matriz: a nota 19c da Zionaxs não tem linha para lista de verificação escrita e ponto de conferência, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Repertório: o ledger da nota 19c não tem linha para parada programada de conferência. R8, do Sistema Toyota de Produção, trata de parar diante de sinal de risco, que é mecanismo diferente da parada agendada desta peça, e nenhum slide cita Toyota. A proposta de acrescentar a linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Ajay Deewan, Jonathan Borba e Fumiaki Hayashi, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A lista de 19 itens",
+      "copy": {
+        "title": "Escrever\nvenceu lembrar.",
+        "accentLine": "1,5% virou 0,8%.",
+        "hl": "1,5% virou 0,8%.",
+        "sub": "Em 8 hospitais de 8 cidades, a equipe de cirurgia passou a conferir 19 itens em voz alta antes de operar. A morte durante a internação caiu de 1,5% para 0,8%, e as complicações de 11% para 7%. Nenhuma técnica nova entrou na sala de cirurgia.",
+        "year": "2026",
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441 · foto: Ajay Deewan"
+      },
+      "approved_visible_copy": [
+        "A lista de 19 itens",
+        "01/07",
+        "Escrever venceu lembrar.",
+        "1,5% virou 0,8%.",
+        "Em 8 hospitais de 8 cidades, a equipe de cirurgia passou a conferir 19 itens em voz alta antes de operar. A morte durante a internação caiu de 1,5% para 0,8%, e as complicações de 11% para 7%. Nenhuma técnica nova entrou na sala de cirurgia.",
+        "2026",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441 · foto: Ajay Deewan"
+      ],
+      "alt": "Slide 1 de 7. Escrever venceu lembrar, 1,5% virou 0,8%. Em 8 hospitais de 8 cidades, a equipe de cirurgia passou a conferir 19 itens em voz alta antes de operar. A morte durante a internação caiu de 1,5% para 0,8%, e as complicações de 11% para 7%. Nenhuma técnica nova entrou na sala de cirurgia. Fotografia escura de um bloco de papel pautado em branco, ainda sem nada escrito, apoiado sobre uma mesa ao lado de uma máquina de escrever antiga, com a metade de baixo do quadro em sombra e sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-bloco-pautado.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Param\ne leem."
+        ],
+        "closing": "Antes da anestesia, antes do primeiro corte e antes de a pessoa deixar a sala, a equipe inteira para o que está fazendo e confere os itens em voz alta. A regra da Organização Mundial da Saúde é essa: conferir falando, nunca de memória.",
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441 · foto: Jonathan Borba"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Param e leem.",
+        "Antes da anestesia, antes do primeiro corte e antes de a pessoa deixar a sala, a equipe inteira para o que está fazendo e confere os itens em voz alta. A regra da Organização Mundial da Saúde é essa: conferir falando, nunca de memória.",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441 · foto: Jonathan Borba"
+      ],
+      "alt": "Slide 2 de 7. Param e leem. Antes da anestesia, antes do primeiro corte e antes de a pessoa deixar a sala, a equipe inteira para o que está fazendo e confere os itens em voz alta. A regra da Organização Mundial da Saúde é essa: conferir falando, nunca de memória. Papel claro com fotografia em preto e branco de instrumentos cirúrgicos de aço, tesouras e pinças, alinhados sobre um campo de tecido ao lado de uma cuba redonda, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-instrumentos-cirurgicos.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Em 103 UTIs,",
+          "2,7 virou 0."
+        ],
+        "closing": "O médico Peter Pronovost e colegas, da Universidade Johns Hopkins, levaram a 103 unidades de terapia intensiva de Michigan práticas que a equipe já conhecia, agora conferidas item por item. A mediana de infecção ligada a cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses, e a queda se manteve ao longo de 18 meses.",
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Em 103 UTIs,",
+        "2,7 virou 0.",
+        "O médico Peter Pronovost e colegas, da Universidade Johns Hopkins, levaram a 103 unidades de terapia intensiva de Michigan práticas que a equipe já conhecia, agora conferidas item por item. A mediana de infecção ligada a cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses, e a queda se manteve ao longo de 18 meses.",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441"
+      ],
+      "alt": "Slide 3 de 7. Em 103 UTIs, 2,7 virou 0. O médico Peter Pronovost e colegas, da Universidade Johns Hopkins, levaram a 103 unidades de terapia intensiva de Michigan práticas que a equipe já conhecia, agora conferidas item por item. A mediana de infecção ligada a cateter caiu de 2,7 por 1.000 dias de cateter para 0 em 3 meses, e a queda se manteve ao longo de 18 meses."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "A lista não\nensina nada.",
+        "accent": "Ela faz parar.",
+        "hl": "Ela faz parar.",
+        "ghost": "19",
+        "year": "2026",
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441",
+        "body": "As práticas dos 2 estudos já eram conhecidas pelas equipes. O que a lista acrescenta não é conteúdo, é a parada: interromper o resto, conferir falando e só então seguir. O ganho aparece bem onde a pressa costuma comer 1 passo da rotina."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "A lista não ensina nada.",
+        "Ela faz parar.",
+        "2026",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441",
+        "As práticas dos 2 estudos já eram conhecidas pelas equipes. O que a lista acrescenta não é conteúdo, é a parada: interromper o resto, conferir falando e só então seguir. O ganho aparece bem onde a pressa costuma comer 1 passo da rotina."
+      ],
+      "alt": "Slide 4 de 7. A lista não ensina nada, ela faz parar. As práticas dos 2 estudos já eram conhecidas pelas equipes. O que a lista acrescenta não é conteúdo, é a parada: interromper o resto, conferir falando e só então seguir. O ganho aparece bem onde a pressa costuma comer 1 passo da rotina. Campo laranja chapado com o número 19 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "A lista em\n4 regras.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Escolha 1 tarefa que já deu problema 2 vezes. Lista é para etapa crítica, não para o dia inteiro."
+          },
+          {
+            "num": "2",
+            "label": "Escreva no máximo 7 itens, cada um conferível em 1 olhada. Item que pede julgamento não entra."
+          },
+          {
+            "num": "3",
+            "label": "Marque o momento: antes de enviar, antes de assinar, antes de encerrar o atendimento."
+          },
+          {
+            "num": "4",
+            "label": "Leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada."
+          }
+        ],
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "A lista em 4 regras.",
+        "1",
+        "Escolha 1 tarefa que já deu problema 2 vezes. Lista é para etapa crítica, não para o dia inteiro.",
+        "2",
+        "Escreva no máximo 7 itens, cada um conferível em 1 olhada. Item que pede julgamento não entra.",
+        "3",
+        "Marque o momento: antes de enviar, antes de assinar, antes de encerrar o atendimento.",
+        "4",
+        "Leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada.",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441"
+      ],
+      "alt": "Slide 5 de 7. A lista em 4 regras. 1: escolha 1 tarefa que já deu problema 2 vezes, porque lista é para etapa crítica, não para o dia inteiro. 2: escreva no máximo 7 itens, cada um conferível em 1 olhada, e item que pede julgamento não entra. 3: marque o momento, antes de enviar, antes de assinar, antes de encerrar o atendimento. 4: leia em voz alta com quem participa e, depois de 1 mês, corte o item que nunca pegou nada. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "A lista não\nfez sozinha.",
+        "accent": "O programa era maior.",
+        "body": "Nos 2 casos ela veio junto com treinamento e mudança de rotina. E os 2 estudos compararam antes e depois, sem grupo de controle. Medem o conjunto, não a folha de papel.",
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "A lista não fez sozinha.",
+        "O programa era maior.",
+        "Nos 2 casos ela veio junto com treinamento e mudança de rotina. E os 2 estudos compararam antes e depois, sem grupo de controle. Medem o conjunto, não a folha de papel.",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441"
+      ],
+      "alt": "Slide 6 de 7. A lista não fez sozinha, o programa era maior. Nos 2 casos ela veio junto com treinamento e mudança de rotina. E os 2 estudos compararam antes e depois, sem grupo de controle. Medem o conjunto, não a folha de papel."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Pegue a entrega\nque mais volta.",
+        "hl": "Pegue a entrega",
+        "accent": "Escreva 5 itens.",
+        "body": "Liste o que não pode faltar nela, marque a conferência antes do envio e leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada e mantenha o resto.",
+        "year": "2026",
+        "temas": "Temas: Lista / Erro / Equipe",
+        "micro": "@zionaxs_ · ref 29fcd441 · foto: Fumiaki Hayashi"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Pegue a entrega que mais volta.",
+        "Escreva 5 itens.",
+        "Liste o que não pode faltar nela, marque a conferência antes do envio e leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada e mantenha o resto.",
+        "2026",
+        "Temas: Lista / Erro / Equipe",
+        "@zionaxs_ · ref 29fcd441 · foto: Fumiaki Hayashi"
+      ],
+      "alt": "Slide 7 de 7. Pegue a entrega que mais volta, escreva 5 itens. Liste o que não pode faltar nela, marque a conferência antes do envio e leia em voz alta com quem participa. Depois de 1 mês, corte o item que nunca pegou nada e mantenha o resto. Fotografia escura de uma escrivaninha antiga de madeira, com um telefone de disco apoiado em um canto e o tampo vazio ocupando a metade de baixo do quadro, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-escrivaninha-escura.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}
