@@ -228,6 +228,14 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   desta família é que o ano é o **conteúdo** do objeto, não um rótulo de fundo: agenda existe para marcar data, então
   procurar agenda sem data é procurar a exceção. Regra prática: para o campo de papel, quando a cena pede papel de
   anotação, buscar **caderno fechado ou página em branco** em vez de agenda datada; foi o que resolveu a zx-47.
+- **Elemento de `lines` com quebra autoral é 1 string só na `approved_visible_copy`.** Aprendido na zx-49 e repetido na
+  zx-50, 12/09/2026, nas 2 no slide 2 e no mesmo dia. Nos layouts `poster-scene` e `poster-lines` cada elemento de
+  `copy.lines` vira 1 parágrafo, e `"Param\ne leem."` continua sendo 1 string: na copy aprovada ele entra inteiro, com a
+  quebra virando espaço, e listar `"Param"` e `"e leem."` separados derruba a validação com 3 erros de uma vez. A trava
+  pega antes de gastar render, então o custo é 1 rodada de validação, não 1 geração. **O motivo de estar escrito aqui, e
+  não só no `decisions/` da peça:** a zx-49 registrou a lição no arquivo de decisão dela, que é o lugar onde uma sessão
+  nova não olha, e por isso o erro voltou na peça seguinte, no mesmo slide, horas depois. A proposta de a própria
+  mensagem de erro explicar o caso está na Inbox da Memory.
 - **Alt text não é medido contra o texto renderizado, então reescrita de copy exige reescrita do alt.** Aprendido na
   zx-46. Os 2 blocos reescritos para resolver o G6 deixaram o `alt` dos slides 3 e 5 com a redação anterior, e a peça
   passou nos 14 gates assim: o **G12 cobra presença** de alt por unidade, e o G9 e o G10 comparam a

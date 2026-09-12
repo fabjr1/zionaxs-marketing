@@ -1,0 +1,68 @@
+{
+  "postId": "18133221370709484",
+  "permalink": "https://www.instagram.com/p/DdMoVz-HUsx/",
+  "shortcode": "DdMoVz-HUsx",
+  "digest": "c27989aa867852dd",
+  "publishedAt": "2026-09-12T18:28:47+0000",
+  "publishedAtFortaleza": "2026-09-12 15:28 BRT",
+  "slot": "tarde-fim-de-semana-15:00-BRT",
+  "papelEditorial": "guia salvável, análise longa, biblioteca e aplicação prática",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "INSTAGRAM_GET_USER_INFO antes de criar qualquer contêiner: username zionaxs_, id 37965311306447572, conta MEDIA_CREATOR, 4.825 seguidores, 114 mídias, site zionaxs.com",
+  "notaDeConta": "Toda chamada desta publicação declarou account @zionaxs_ de forma explícita. A primeira tentativa de INSTAGRAM_GET_USER_INFO saiu sem o campo e o Composio recusou pedindo desambiguação entre @fabjr1, @zionaxs_ e @base3br, exatamente como registrado da zx-46 em diante. Falha de desambiguação acontece antes de tocar a API da Meta, então nada foi criado e não houve o que reconciliar.",
+  "notaDeParametros": "Nesta execução nenhuma chamada falhou por nome de campo, porque as 2 correções aprendidas na zx-49 foram aplicadas de saída: ig_user_id em toda chamada de criação e de publicação, e creation_id, não ig_container_id, no INSTAGRAM_GET_POST_STATUS. O INSTAGRAM_GET_IG_MEDIA foi chamado já com fields explícito, como manda a nota da zx-40.",
+  "containerId": "17908184169501214",
+  "containerStatusAntesDePublicar": "FINISHED, conferido com INSTAGRAM_GET_POST_STATUS antes de mandar publicar",
+  "childContainers": [
+    "17908184025501214",
+    "17908184022501214",
+    "17908184028501214",
+    "17908184031501214",
+    "17908184094501214",
+    "17908184097501214",
+    "17908184100501214"
+  ],
+  "childMediaIds": [
+    "18086882231482717",
+    "17983832331097603",
+    "18065939159756849",
+    "18068914814725282",
+    "18623885917060707",
+    "18004702230003108",
+    "18146949475530319"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-50-a-lista-em-voz-alta/out/jpg/zx-50-a-lista-em-voz-alta-slide-07.jpg"
+  ],
+  "urlsConferidas": "HTTP 200 e content-type image/jpeg nas 7 URLs antes de entregar a lista à Meta, com o tamanho em bytes de cada resposta batendo com o arquivo em disco",
+  "commit": "ef49a6e",
+  "trilha_sugerida": {
+    "faixa": "Quiet Ledger",
+    "artista": "Meta Sound Collection",
+    "estado": "perfil pedido, não faixa confirmada no acervo; a sessão em nuvem não tem acesso ao índice de trilhas, e a escolha final é do Fabiano no app",
+    "perfil": "instrumental, pulso contido e regular, percussão discreta e harmonia parada, intensidade estável e sem virada; evitar tensão, suspense e contagem regressiva, porque o texto fala de hospital, de morte e de infecção; evitar também o pulso leve e arejado da zx-49, publicada hoje de manhã"
+  },
+  "reconciliacao": {
+    "ferramentas": "INSTAGRAM_GET_IG_MEDIA com fields explícito (id,caption,media_type,permalink,shortcode,timestamp,username,owner) e INSTAGRAM_GET_IG_MEDIA_CHILDREN",
+    "username": "zionaxs_",
+    "ownerId": "37965311306447572",
+    "mediaType": "CAROUSEL_ALBUM",
+    "slides": 7,
+    "legendaConferida": "o corpo da legenda no ar bate caractere a caractere com o campo caption do contrato, 2115 caracteres, e o caption_sources não foi ao ar, como manda o padrão de copy",
+    "duplicidade": "nenhuma. A publicação saiu na primeira tentativa, sem erro de transporte e sem pai em ERROR, então não houve recriação de filhos"
+  },
+  "cadencia": {
+    "politica": "brands/zionaxs/politica-de-publicacao.json",
+    "consumoNoDia": "2 de 2, esta às 15:28 BRT; o porteiro contou 1 de 2 antes de liberar, já com a zx-49 da manhã",
+    "excecao": "nenhuma. O porteiro reprovou 1 vez por legenda acima do teto de 2.200, a legenda foi encurtada e a segunda passagem liberou; --excecao não foi usado e a política da marca não foi tocada"
+  }
+}
