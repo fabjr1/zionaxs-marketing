@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-51-o-que-voce-mesmo-montou",
+  "generatedAt": "2026-09-13T13:54:09+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-51-o-que-voce-mesmo-montou-slide-01.png",
+    "zx-51-o-que-voce-mesmo-montou-slide-02.png",
+    "zx-51-o-que-voce-mesmo-montou-slide-03.png",
+    "zx-51-o-que-voce-mesmo-montou-slide-04.png",
+    "zx-51-o-que-voce-mesmo-montou-slide-05.png",
+    "zx-51-o-que-voce-mesmo-montou-slide-06.png",
+    "zx-51-o-que-voce-mesmo-montou-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O efeito IKEA 01/07 O mesmo papel, 2 preços. 23 para quem dobrou. Em um experimento com 106 pessoas, quem dobrou um passarinho ou um sapo de papel ofereceu 23 centavos pela própria dobradura. Quem só olhou a mesma dobradura ofereceu 5 centavos. Para quem não dobrou, aquilo era papel amassado. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124 · foto: Joshua Reddekopp"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Montar muda. Em outro experimento, 52 pessoas receberam a mesma caixa de guardar objetos. Metade montou a caixa, metade recebeu pronta. Quem montou ofereceu 78 centavos por ela. Quem recebeu pronta ofereceu 48 centavos. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124 · foto: Zero"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 23 do amador, 27 do mestre. Um terceiro grupo ofereceu 27 centavos por dobraduras feitas por especialistas em origami. Ou seja, quem dobrou sozinho pagava quase o mesmo pela própria obra amadora. E não era apego de leilão: perguntados quanto um colega da universidade pagaria pela dobradura deles, responderam 21 centavos, bem perto dos 19 que eles mesmos ofereciam. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 A peça não fica melhor. Você é que muda. Depois de montar, ninguém olha mais a peça sem enxergar o próprio esforço junto. E o efeito tem fronteira medida: ele só aparece quando o trabalho termina. Quem montou a caixa até o fim ofereceu 146 centavos. Quem foi interrompido no meio ofereceu 59. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O teste do olhar de fora. 1Mande a proposta, o site ou o contrato que você escreveu para 1 pessoa que não participou. 2Peça que ela conte o que entendeu, com as palavras dela. Não pergunte se ficou bom. 3Anote cada trecho em que ela parou para reler. Ali está o que só é claro para quem escreveu. 4Reescreva esses trechos no mesmo dia. Depois de 1 semana, o texto já parece seu de novo. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 O estudo não mediu proposta. Mediu caixa e papel. As 4 rodadas usaram objetos montados com a mão, em laboratório, com estudantes, e os valores estão em centavos de dólar. O que se transporta daqui é o mecanismo, não o número. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Pegue a proposta mais recente. Mande para 1 leitor de fora. Peça que ele conte o que entendeu com as palavras dele, anote onde ele parou para reler e reescreva esses trechos hoje mesmo. Quem escreveu já perdeu o olhar de quem recebe pela primeira vez. Temas: Esforço / Valor / Leitura @zionaxs_ · ref e8c24124 · foto: Akshar Dave"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "9 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.5,
+  "digest": "18672c715c5bb89c3bb6509af74731556bc12486a82b143ce298c6fd333a0f9f"
+}

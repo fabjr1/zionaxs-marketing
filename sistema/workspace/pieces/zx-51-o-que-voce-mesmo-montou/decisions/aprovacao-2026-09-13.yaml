@@ -1,0 +1,160 @@
+decisao: aprovar e publicar a zx-51, slot da manhã de fim de semana
+data: 2026-09-13
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro reprovou 1 vez, por legenda com 2.210 caracteres, e a correção foi
+    encurtar o corpo da legenda, não afrouxar a trava. Nenhuma fonte de afirmação
+    E saiu do corpo: o que caiu foi a frase interpretativa "Eles acreditavam
+    naquele valor", redundante com "E não era apego de leilão" que a precede.
+  registro_anterior: pieces/zx-50-a-lista-em-voz-alta/decisions/aprovacao-2026-09-12.yaml
+
+slot_editorial:
+  horario: "10:30 BRT, domingo"
+  papel: "repertório, cultura, comportamento, curiosidade e conteúdo visualmente experimental"
+  leitura: >
+    O slot da manhã de fim de semana pede a peça mais aberta e menos tática, com
+    o leitor fora do meio da operação. Por isso o centro desta peça é um achado
+    de laboratório divertido, com papel dobrado e caixa de montar, e não um
+    diagnóstico de processo. A obrigação de utilidade continua de pé, e ela mora
+    no slide 5, que entrega 1 rotina de 4 passos aplicável na segunda sem nenhum
+    pré-requisito.
+  nao_repete_a_peca_anterior: >
+    A zx-50, publicada em 12/09/2026 às 15:28 BRT, trata de etapa crítica
+    esquecida na entrega e a correção é uma lista escrita conferida em voz alta.
+    Esta peça trata de uma distorção de julgamento de quem produziu o material, e
+    a correção é submeter o material a 1 leitor de fora. Fonte diferente, autores
+    diferentes, mecanismo diferente. A zx-50 é sobre o que se confere antes de
+    entregar; esta é sobre quem tem condição de conferir.
+
+tema:
+  escolhido: >
+    o efeito IKEA: o que você mesmo montou parece valer mais do que vale. Em
+    laboratório, quem montou uma caixa de guardar objetos ofereceu 78 centavos
+    por ela e quem recebeu a mesma caixa pronta ofereceu 48; quem dobrou um
+    passarinho ou um sapo de papel ofereceu 23 centavos pela própria dobradura,
+    contra 5 de quem só olhou, e quase igualou os 27 pagos por dobraduras de
+    especialistas. O efeito desaparece quando o trabalho é interrompido, o que
+    mostra que o que gruda no objeto é o esforço concluído.
+  por_que: >
+    Papel de repertório e curiosidade no slot da manhã de fim de semana, e o
+    assunto entrega isso sem esforço: papel dobrado, caixa de montar e um nome de
+    efeito que o leitor nunca ouviu. A tradução para quem toca um negócio de
+    serviço é direta e ainda não saiu na conta: a proposta, o site e o contrato
+    que o dono escreveu parecem claros para ele porque ele os montou, e o silêncio
+    do cliente é lido como falta de interesse quando pode ser falta de clareza.
+  nao_repete: >
+    Conferido contra as 31 peças em sistema/workspace/pieces e contra
+    library.json. Nenhuma peça de zx-20 a zx-50 tratou de valoração do próprio
+    trabalho. A vizinha mais próxima é a zx-48, sobre custo afundado, e o
+    mecanismo é outro: a zx-48 trata de seguir investindo pelo que já se gastou,
+    e esta trata do preço e da clareza que se atribui ao que já se produziu,
+    mesmo sem decisão de continuar nenhuma em jogo.
+
+evidencia:
+  fonte_unica: >
+    Michael I. Norton, Daniel Mochon e Dan Ariely, The IKEA effect: When labor
+    leads to love, Journal of Consumer Psychology, volume 22, número 3, julho de
+    2012, páginas 453 a 460. O texto integral foi lido nesta execução na versão
+    de trabalho pública da Harvard Business School, working paper 11-091, baixada
+    em PDF e convertida para texto, e não apenas em resumo indexado.
+  numeros_conferidos_no_texto_integral:
+    - "experimento 1A, a caixa: N = 52, lance de quem montou M = $0,78 (SD 0,63) contra M = $0,48 (SD 0,40) de quem recebeu pronta, t(50) = 2,12, p < 0,05"
+    - "experimento 1B, a dobradura: N = 106, M = $0,23 (SD 0,25) do próprio contra M = $0,05 (SD 0,07) de quem só olhou, e M = $0,27 (SD 0,26) pelas dobraduras de especialistas"
+    - "controle de crença, no 1B: N = 14, próprio lance $0,19 contra estimativa de $0,21 para o colega, t(13) = 0,45, p > 0,65"
+    - "experimento 3, a fronteira: N = 39, M = $1,46 (SD 1,46) de quem completou contra M = $0,59 (SD 0,70) de quem foi interrompido, t(37) = 2,35, p < 0,05"
+  o_que_ficou_de_fora:
+    - >
+      A história da mistura de bolo dos anos 1950 que passou a pedir 1 ovo.
+      Aparece na abertura do artigo, atribuída a Laura Shapiro, e os próprios
+      autores ressalvam que há provavelmente várias razões para a adoção ter
+      crescido. Classificada H e não usada em slide nenhum nem na legenda,
+      justamente porque é a parte mais contável da história e a menos sustentada.
+  limite_declarado_na_peca: >
+    O slide 6 e a legenda declaram que os experimentos mediram objetos montados
+    com a mão, em laboratório, com estudantes, e que os valores estão em centavos
+    de dólar. A passagem para proposta comercial é declarada como leitura da
+    Zionaxs, classificada I no contrato.
+  direcao_do_efeito: >
+    Os autores registram que o efeito é retrospectivo: perguntadas antes, 92% de
+    51 pessoas disseram que pagariam mais por produto já montado. Por isso a peça
+    NÃO recomenda pôr o cliente para trabalhar para ele valorizar mais o serviço,
+    que seria a leitura de manipulação. Ela usa o achado no sentido inverso, para
+    o leitor desconfiar do próprio julgamento sobre o que produziu. Isso é
+    decisão editorial e atende o gate ético da nota 19c, item 21.4.
+
+codigos_editoriais:
+  matriz: nenhum declarado
+  repertorio: nenhum declarado
+  jtbd: nenhum declarado
+  motivo: >
+    A verificação A9 mede existência do código nas notas 19b e 19c, não
+    pertinência, então declarar um código próximo porém errado passa na máquina e
+    estraga a análise depois. Os 3 campos foram deixados em branco de propósito,
+    com a justificativa escrita em matriz_nota, repertorio_nota e jtbd_nota do
+    contrato. As 3 propostas de linha nova vão para a Inbox da Zionaxs Memory,
+    para promoção humana.
+
+fotos:
+  criterio: >
+    As 3 fotos foram escolhidas em folha de contato que reproduz o campo escuro
+    com gradê, scrim, a banda de texto real de 46% a 93% e a caixa de paginação a
+    47%, antes de gastar geração. 14 recortes foram comparados.
+  descartes:
+    - >
+      Tsuru de papel branco sobre fundo magenta, de Daniel Álvasd. Foi gerado e
+      olhado no PNG: o passarinho é branco e vai do meio do quadro até a borda de
+      baixo do arquivo, então nenhum scale com origem no rodapé o tira da banda
+      de texto. É exatamente o caso da zx-45, e o custo foi 1 geração.
+    - >
+      Tsuru vermelho sobre preto, de Ismail Hadine. Foto paisagem com o pássaro
+      ocupando quase toda a largura: no recorte 4x5 o bicho perde cabeça e asas e
+      vira uma mancha vermelha. Caso da zx-46, o objeto deixa de ser nomeável.
+    - >
+      Livro aberto em contraluz, de Benedikt Zinn. Duas páginas de texto legível
+      em alemão dentro do quadro. Regra da zx-23 sobre texto legível na foto.
+  escolhidas:
+    - "capa: folha de papel clara sobre tampo escuro, de Joshua Reddekopp, com scale 2.2 e origem no rodapé, que leva a folha inteira para cima de 45% e deixa a banda de texto limpa"
+    - "cena: peças de madeira de um móvel por montar, de Zero, recortada por mim na proporção 0,864 do quadro do poster-scene, porque o layout ignora photo.pos e photo.scale (zx-44). O recorte também tirou de quadro a etiqueta com texto em inglês que havia no canto inferior esquerdo do arquivo"
+    - "fechamento: mão sobre a tela acesa de um celular no escuro, de Akshar Dave, com scale 1.65 e origem no rodapé. A 1.4 a caixa de paginação encostava na tela acesa, que é o alvo que a zx-47 manda conferir ANTES da manchete"
+
+geracao:
+  gates: 14/14
+  digest: 18672c715c5b
+  correcoes_de_contrato:
+    - >
+      G6 reprovou na primeira geração, com órfã no corpo do slide 7: a última
+      linha era só "recebe.", com 12% da largura. A correção foi reescrever a
+      frase final, não inserir quebra autoral, porque quebra em parágrafo longo
+      troca G6 por G7 (registrado na direção visual desde a zx-28).
+  o_que_nenhum_gate_pegou:
+    - >
+      Na capa da primeira versão, o kicker em laranja e o "2026" caíam sobre a
+      asa branca do passarinho. Os 14 gates ficaram verdes, porque o G5 mede
+      contraste contra o fundo declarado no CSS e não contra os pixels da foto.
+      Quem pegou foi o passo 6.
+    - >
+      No fechamento com scale 1.4, a caixa de paginação encostava na tela acesa
+      do celular. Mesma causa, mesmo gate cego, mesma correção de crop.
+
+trilha:
+  perfil: "instrumental, textura clara e leve, corda dedilhada ou teclado macio, percussão quase ausente, pulso constante"
+  origem_obrigatoria: "Meta Sound Collection, banco licenciado ou música original. Nunca o catálogo popular do app."
+  motivo: >
+    O slot da manhã de fim de semana e o papel de repertório pedem ar, não o
+    pulso operacional de dia útil. O assunto é papel dobrado e objeto feito à
+    mão, então a trilha deve soar artesanal e pequena. O cuidado específico desta
+    peça é evitar trilha de caixinha de música, que infantilizaria uma peça que
+    fala de preço e de proposta, e evitar o pulso contido da zx-50, para as 2
+    peças seguidas não soarem iguais no feed.
+  nota: >
+    A sessão em nuvem não enxerga o índice do acervo de trilhas, que vive fora do
+    repositório. O nome "Paper Light" no contrato é indicação de perfil, não faixa
+    confirmada. A escolha final é do Fabiano, no app, depois de publicado.
