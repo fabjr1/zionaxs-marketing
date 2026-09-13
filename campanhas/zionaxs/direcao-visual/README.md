@@ -259,6 +259,34 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   vaga de foto e olhar a imagem antes de escrever o contrato, não depois. Rótulo pequeno de catálogo, sem data e sem
   frase, passa; qualquer ano legível ao lado do `2026` do chrome não passa.
 
+- **Foto paisagem cujo assunto ocupa quase toda a largura é descarte para campo escuro, e o motivo é o eixo do
+  recorte.** Aprendido na zx-51, 13/09/2026. A nota da zx-23 já ensina que, em foto paisagem dentro do campo 4x5, o Y
+  de `pos` não faz nada porque a altura preenche exata e **só o X move o quadro**. A consequência que faltava dizer é
+  que o quadro 4x5 então **corta os lados**: uma foto 3x2 perde cerca de 43% da largura. Se o assunto é largo, ele
+  perde as bordas e deixa de ser nomeável, que é a regra da zx-46. Na zx-51 um tsuru vermelho sobre fundo preto, com
+  a envergadura ocupando de x 20% a x 89% do arquivo, virou uma mancha vermelha sem cabeça nem asas em todos os
+  recortes testados, e nenhum valor de `pos` resolve, porque o problema é de largura e não de posição. Regra prática:
+  para campo escuro, **assunto largo pede arquivo retrato ou quadrado**; em arquivo paisagem, o assunto precisa caber
+  na metade central da largura.
+- **A folha de contato barata inclui a CAIXA DE PAGINAÇÃO, e é isso que a torna barata.** Aprendido na zx-51. O README
+  já recomenda montar uma folha que reproduza a banda de texto real, de 46% a 93%, por cima de cada candidata. Faltava
+  1 elemento: desenhar também a caixa de 84x84 a 47% da altura, à direita, que é o alvo que a zx-47 identificou como
+  **o primeiro a ser engolido**, muito antes da manchete. Com a caixa desenhada, a folha responde de uma vez as 2
+  perguntas que custam geração, e o julgamento vira comparação visual em vez de aritmética de `scale`. Na zx-51 a
+  folha comparou 14 recortes em 2 rodadas de Playwright, com Chromium reproduzindo gradê em `soft-light`, scrim,
+  banda e caixa, e produziu 3 descartes que não gastaram geração nenhuma. O único descarte que custou 1 geração foi
+  justamente o que entrou no contrato antes de passar pela folha.
+  A ferramenta ficou versionada em `sistema/app/bin/folha-de-contato.mjs`, para não ser reescrita a cada sessão:
+  `ZX_CAND_DIR=<pasta> node bin/folha-de-contato.mjs casos.json saida.png`, com `casos.json` sendo uma lista de
+  `{ f, scale, origin, pos, nota }`, os mesmos campos do `photo` do contrato.
+- **A correção de crop também serve para um alvo que não é texto nem chrome: o objeto que dá sentido à cena.**
+  Aprendido na zx-51, e é o par prático da regra da zx-46. No fechamento, a foto de uma mão sobre a tela acesa de um
+  celular precisou de `scale: 1.65` com `origin: "50% 100%"` em vez de `1.4`: a 1.4 a tinta da manchete estava
+  perfeita e a caixa de paginação encostava na tela acesa. A mesma alavanca, o mesmo gate cego, e o alvo mudando de
+  slide para slide. Ao olhar capa e fechamento, a ordem que economiza rodada é: **caixa de paginação, depois o ano à
+  esquerda, depois o kicker, e só então a manchete** — do elemento mais fino para o mais grosso, porque o fino
+  reprova primeiro e o grosso quase nunca reprova sozinho.
+
 ## Como o padrão se sustenta sozinho
 
 Três camadas, da mais fraca para a mais forte:

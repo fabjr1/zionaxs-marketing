@@ -74,7 +74,8 @@ Ele confere gates, status, padrão de copy e estilo, presença de trilha, e a **
 
 Registre a aprovação e a autorização permanente em `decisions/`, depois publique pela rota Composio:
 
-1. **Verifique a identidade da conta ao vivo** com `INSTAGRAM_GET_USER_INFO`. Há duas contas conectadas e só `zionaxs_` (id `37965311306447572`, account `instagram_ascent-utick`) é a certa. Conta divergente aborta tudo.
+1. **Verifique a identidade da conta ao vivo** com `INSTAGRAM_GET_USER_INFO`. Há três contas conectadas e só `zionaxs_` (id `37965311306447572`, account `instagram_ascent-utick`) é a certa. Conta divergente aborta tudo.
+   **O `account` do Composio é o apelido da conexão, e o apelido tem arroba: `@zionaxs_`.** Passar `zionaxs_` sem arroba volta `No account found matching "zionaxs_"`. Aprendido na zx-51, 13/09/2026, e custou 1 rodada. Quando houver dúvida, leia os apelidos ao vivo com `COMPOSIO_MANAGE_CONNECTIONS` em modo `list` sobre o toolkit `instagram`: hoje devolve `@fabjr1`, `@zionaxs_` e `@base3br`. Vale para **todas** as chamadas do fluxo, não só a primeira.
 2. Converta os PNG em JPEG, commite e empurre, e **confirme que a URL pública responde 200** antes de entregá-la à Meta.
 3. Crie um contêiner filho por slide com `is_carousel_item` e `alt_text`. **Passe `ig_user_id` em toda chamada de criação e de publicação**: o `account` identifica a conexão no Composio, não o alvo na Meta, e sem o campo a chamada volta HTTP 400 dizendo `Following fields are missing: {'ig_user_id'}`. Aprendido na zx-49, 12/09/2026.
 4. Crie o carrossel pai com a legenda, **sem `share_to_feed`** (inválido para carrossel). Confira o status dele com `INSTAGRAM_GET_POST_STATUS` antes de mandar publicar, e **o campo do contêiner ali se chama `creation_id`**, não `ig_container_id`, que é como ele aparece em outras ferramentas do mesmo toolkit. Aprendido na zx-49.

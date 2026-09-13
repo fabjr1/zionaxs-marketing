@@ -1,0 +1,70 @@
+{
+  "postId": "18102633713631909",
+  "permalink": "https://www.instagram.com/p/DdOuHtCoEyY/",
+  "shortcode": "DdOuHtCoEyY",
+  "digest": "18672c715c5b",
+  "publishedAt": "2026-09-13T13:57:50+0000",
+  "publishedAtFortaleza": "2026-09-13 10:57 BRT",
+  "slot": "manha-fim-de-semana-10:30-BRT",
+  "papelEditorial": "repertório, cultura, comportamento, curiosidade e conteúdo visualmente experimental",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "composioConnectionId": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "INSTAGRAM_GET_USER_INFO antes de criar qualquer contêiner: username zionaxs_, id 37965311306447572, conta MEDIA_CREATOR, 4.814 seguidores, 115 mídias, site zionaxs.com",
+  "notaDeConta": "A primeira chamada saiu com account \"zionaxs_\", sem o arroba, e o Composio recusou com \"No account found matching\". O alias registrado na conexão é \"@zionaxs_\", COM arroba, e foi lido ao vivo com COMPOSIO_MANAGE_CONNECTIONS em modo list, que devolveu as 3 contas conectadas: @fabjr1 (38039865875659488), @zionaxs_ (37965311306447572) e @base3br (28260020683635617). Falha de resolução de alias acontece antes de tocar a API da Meta, então nada foi criado e não houve o que reconciliar.",
+  "notaDeParametros": "Nenhuma chamada falhou por nome de campo. As 2 correções aprendidas na zx-49 foram aplicadas de saída: ig_user_id em toda chamada de criação e de publicação, e creation_id, não ig_container_id, no INSTAGRAM_GET_POST_STATUS. O INSTAGRAM_GET_IG_MEDIA foi chamado já com fields explícito, como manda a nota da zx-40. O contêiner pai foi criado sem share_to_feed.",
+  "containerId": "17908295847501214",
+  "containerStatusAntesDePublicar": "FINISHED, conferido com INSTAGRAM_GET_POST_STATUS antes de mandar publicar",
+  "childContainers": [
+    "17908295685501214",
+    "17908295694501214",
+    "17908295688501214",
+    "17908295691501214",
+    "17908295772501214",
+    "17908295778501214",
+    "17908295775501214"
+  ],
+  "childMediaIds": [
+    "18357023428222977",
+    "17949975573270125",
+    "18084737552299942",
+    "18059782523526586",
+    "18113775586805115",
+    "18116933596993387",
+    "17945364756321824"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-51-o-que-voce-mesmo-montou/out/jpg/zx-51-o-que-voce-mesmo-montou-slide-07.jpg"
+  ],
+  "mediaUrlsConferidas": "as 7 URLs responderam HTTP 200 com content-type image/jpeg antes de serem entregues à Meta, conferidas com curl depois do push do commit 4cd21d4",
+  "reconciliacao": {
+    "ferramentas": [
+      "INSTAGRAM_GET_IG_MEDIA com fields id,caption,media_type,permalink,shortcode,timestamp,username,owner",
+      "INSTAGRAM_GET_IG_MEDIA_CHILDREN"
+    ],
+    "conta": "username zionaxs_, owner id 37965311306447572, igual ao id conferido ao vivo antes de publicar",
+    "tipo": "CAROUSEL_ALBUM",
+    "slides": 7,
+    "legenda": "o corpo lido no post é idêntico ao campo caption do contrato, 2.178 caracteres, abaixo do teto de 2.200. O caption_sources não foi ao ar, como manda o padrão de copy",
+    "resultado": "publicação única, sem duplicata, sem necessidade de recriar filhos"
+  },
+  "cadencia": {
+    "politica": "sistema/workspace/brands/zionaxs/politica-de-publicacao.json, 2 posts por dia, fuso America/Fortaleza",
+    "contagemNoMomentoDaPublicacao": "0 de 2 no dia 2026-09-13",
+    "excecao": "nenhuma. O porteiro liberou sem --excecao e a política não foi tocada"
+  },
+  "trilha": {
+    "estado": "pendente, a ser adicionada à mão pelo Fabiano no app",
+    "perfil": "instrumental, textura clara e leve, corda dedilhada ou teclado macio, percussão quase ausente, pulso constante",
+    "origemObrigatoria": "Meta Sound Collection, banco licenciado ou música original. Nunca o catálogo popular do app",
+    "indicacaoNoContrato": "Paper Light, nome de perfil e não faixa confirmada no acervo, porque a sessão em nuvem não enxerga o índice de trilhas"
+  }
+}
