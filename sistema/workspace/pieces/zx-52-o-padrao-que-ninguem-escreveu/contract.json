@@ -1,0 +1,336 @@
+{
+  "id": "zx-52-o-padrao-que-ninguem-escreveu",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e decisões que se repetem toda semana: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a mesma decisão volta toda semana, ninguém para para decidir, e alguma coisa acontece assim mesmo, sempre a mesma. Slot editorial: tarde de fim de semana, papel de guia salvável e aplicação prática, então o roteiro do slide 5 precisa bastar-se sozinho, ser aplicável na segunda sem nenhum pré-requisito e sobreviver ao print sem a legenda.",
+    "decisao": "Parar de tratar decisão repetida como escolha a ser feita toda vez, e escrever o padrão dela no lugar onde a decisão nasce, mantendo a troca a 1 gesto de distância.",
+    "tensao": "Escrever o padrão de uma decisão parece burocracia ou parece tirar autonomia da equipe, e quem toca time pequeno prefere decidir caso a caso, porque acha que assim decide melhor. O que foi medido contraria essa leitura por um caminho inesperado: nos 2 estudos ninguém foi impedido de escolher, a saída continuava a 1 gesto, e mesmo assim a opção que valia quando a pessoa não fazia nada levou a maioria. Ou seja, o padrão não substitui a decisão da equipe, ele decide as vezes em que ninguém decidiu, que são a maioria.",
+    "evidencia": [
+      {
+        "claim": "uma grande empresa americana de saúde e seguros trocou, em 1 de abril de 1998, a inscrição no plano de aposentadoria: antes o funcionário tinha de preencher formulário, escolher o percentual e escolher o fundo; depois ele já era inscrito automaticamente e só ficava de fora se pedisse",
+        "status": "E",
+        "fonte": "Brigitte C. Madrian e Dennis F. Shea, The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior, The Quarterly Journal of Economics, volume 116, número 4, 2001, páginas 1149 a 1187. Texto integral da versão de trabalho NBER 7682 lido nesta execução: a large, publicly-traded Fortune 500 company in the health care and insurance industry; In order to participate, individuals had to fill out an enrollment form or call the 401(k) record keeper to (1) authorize payroll deduction of their employee contributions, (2) select a contribution rate, and (3) choose the investment allocation; The second change that took effect on April 1, 1998 was that all newly hired employees were automatically enrolled in the 401(k) plan unless they affirmatively elected to opt-out."
+      },
+      {
+        "claim": "entre 3 e 15 meses de casa, a participação no plano passou de 37% para 86%",
+        "status": "E",
+        "fonte": "Mesmo estudo, seção de resultados lida nesta execução: The 401(k) participation rate of the WINDOW cohort at 3-15 months of tenure was 37%. This is less than half the 86% participation rate of the NEW cohort with a similar amount of tenure. Os próprios autores repetem o recorte em retrospectiva publicada pelo NBER Reporter em 2024: we analyzed the rollout of automatic enrollment at a large US corporation and found that it increased the percentage of employees who were participating in the 401(k) plan in tenure months 3-15 from 37 percent to 86 percent."
+      },
+      {
+        "claim": "nenhuma condição econômica do plano mudou junto: a contrapartida da empresa, os fundos disponíveis, a carência e as regras de empréstimo continuaram iguais",
+        "status": "E",
+        "fonte": "Mesmo estudo. Resumo: Although none of the economic features of the plan changed, this switch to automatic enrollment dramatically changed the savings behavior of employees. Corpo do texto: The employer-matching provisions, vesting of employer contributions, investment options, and the conditions for loans and hardship withdrawals remained the same both before and after April 1, 1998."
+      },
+      {
+        "claim": "o padrão da inscrição automática era guardar 3% aplicados 100% no fundo de menor risco, e 61% dos inscritos por ele ficaram exatamente nessa combinação, que só 1% escolhia quando tinha de escolher",
+        "status": "E",
+        "fonte": "Mesmo estudo. Corpo do texto: Employees who did not decline 401(k) participation were automatically enrolled in the 401(k) plan with a 3% contribution rate allocated entirely to the money market fund; The overall default rate for the NEW cohort is 61%: six out of ten employees do nothing to change their savings behavior from the default specified by the company if no other action is taken; For the sake of comparison, only 1% of the WINDOW, OLD and 3+ cohorts are participating in the 401(k) plan at a 3% contribution rate invested 100% in the money market fund."
+      },
+      {
+        "claim": "em experimento com 277 pessoas de um painel on-line, sorteadas entre formatos da mesma pergunta, 96,3% aceitaram ser contatadas quando a resposta já vinha marcada e 48,2% aceitaram quando precisavam marcar, e só 3,7% desmarcaram",
+        "status": "E",
+        "fonte": "Eric J. Johnson, Steven Bellman e Gerald L. Lohse, Defaults, Framing and Privacy: Why Opting In, Opting Out, Marketing Letters, volume 13, número 1, 2002, páginas 5 a 15. Texto integral da versão dos autores, hospedada pela Columbia Business School, lido nesta execução: we asked a total of 277 participants in an on-line panel if we could contact them with further opportunities to participate in on-line surveys about health. These respondents were randomly assigned to each receive one of the four question formats; Almost twice as many people (96.3%) agree to be contacted for future research when the question is posed with an opt-out format than an opt-in format (48.2%); Here only 3.7% of respondents chose to take an action, in this case to opt-out."
+      },
+      {
+        "claim": "nos 2 casos a saída continuava disponível, e o que mudou foi apenas qual opção valia quando a pessoa não agia",
+        "status": "E",
+        "fonte": "Nos 2 textos lidos nesta execução. Em 2001: as with all 401(k) participants hired prior to automatic enrollment, these employees had the option at any time to change both their contribution rate and their fund allocation. Em 2002, os autores definem o mecanismo como the default option, the response that would be recorded if the respondent subject takes no action, e registram que 48,2% agiram de fato no formato de marcar, o que afasta a leitura de que as pessoas simplesmente não leram."
+      },
+      {
+        "claim": "o mesmo desenho vale para as decisões repetidas de uma clínica, de um escritório contábil ou de uma agência no Brasil",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. Os 2 estudos mediram inscrição em plano de aposentadoria nos Estados Unidos e resposta a convite de pesquisa on-line. Nenhum deles mediu proposta comercial, duração de reunião ou prazo de resposta em negócio de serviço brasileiro. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      },
+      {
+        "claim": "os 4 passos do slide 5, entre eles a regra de manter a troca a 1 minuto de distância",
+        "status": "NC",
+        "fonte": "Adaptação editorial da Zionaxs a partir das fontes. Os autores não prescrevem método de escrita de padrão para trabalho de escritório, nem número de decisões a revisar, nem prazo de troca. O limite de 1 minuto é escolha da Zionaxs, orientada pelo fato de que nos 2 estudos a saída custava 1 gesto, e não por um número recomendado pelos autores. A peça declara isso na legenda."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a troca de inscrição por formulário para inscrição automática em 1 de abril de 1998, na empresa de saúde e seguros do estudo",
+        "a participação de 37% para 86% entre 3 e 15 meses de casa",
+        "a permanência de todas as condições econômicas do plano, contrapartida, fundos, carência e empréstimos",
+        "o padrão de 3% no fundo de menor risco, os 61% que ficaram nele e o 1% que o escolhia quando precisava escolher",
+        "as 277 pessoas sorteadas entre formatos, os 96,3% com a resposta marcada, os 48,2% com ela vazia e os 3,7% que desmarcaram",
+        "a permanência da saída nos 2 casos, com troca disponível a qualquer momento"
+      ],
+      "I": [
+        "a passagem do achado para as decisões repetidas de um negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos do slide 5, que são adaptação editorial da Zionaxs, incluindo o teto de 3 decisões e a troca em 1 minuto"
+      ]
+    },
+    "limites": [
+      "Os 2 estudos mediram uma escolha única e pontual, entrar no plano e aceitar ser contatado, e não uma decisão que se repete toda semana com as mesmas pessoas. A transferência é de mecanismo, não de percentual, e a peça não afirma número nenhum sobre escritório.",
+      "O estudo da empresa comparou coortes antes e depois da mudança, sem sorteio. Comparação desse tipo não separa o efeito do padrão de outras mudanças do período, e por isso a peça fala em participação que passou de 37% para 86%, e não em causa provada. O experimento das 277 pessoas sorteou os formatos, mas mediu 1 clique, não meses de trabalho.",
+      "O padrão carrega o que estiver dentro dele, e isso foi medido: 61% dos inscritos automaticamente ficaram nos 3% e no fundo de menor risco, combinação que quase ninguém escolhia sozinho. Padrão ruim gruda com a mesma força do bom, e a peça declara isso no slide 6.",
+      "Os 4 passos e o limite de 1 minuto para trocar não saem dos artigos: são escolha editorial da Zionaxs para caber na rotina de equipe pequena, declarada como tal na legenda."
+    ]
+  },
+  "tese": "Toda decisão que se repete já tem um padrão, escrito ou não, e ele é o que acontece quando ninguém decide. Em uma empresa americana, trocar a inscrição no plano de aposentadoria de preencher formulário para já estar inscrito levou a participação de 37% para 86% sem mudar 1 condição do plano; em experimento com 277 pessoas, a mesma pergunta teve 96,3% de sim com a resposta já marcada e 48,2% com ela vazia. Nos 2 casos a saída continuava a 1 gesto de distância, então o que decidiu não foi obrigação, foi qual opção valia na ausência de ação. Consequência prática: escrever o padrão das decisões repetidas do negócio, no lugar onde elas nascem, vale mais do que decidir cada uma de novo toda semana.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de opção padrão, de arquitetura de escolha nem de decisão repetida que acontece por ausência de ação. As 3 mais próximas não servem: M19 é dependência de pessoa-chave, resolvida com limites de decisão e cadência de gestão, ou seja, quem tem alçada para decidir, e não o que vale quando ninguém exerce alçada nenhuma, além de ter sido território da zx-21 e da zx-22; M17 é automatizar o processo errado, que trata de eliminar ou simplificar antes de acelerar, e foi território da zx-28 e da zx-35; M04 é o que perguntar antes de comprar software, que é decisão de compra pontual, e não o padrão de uma decisão recorrente. Declarar qualquer uma delas porque todas falam de operação seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para opção padrão e arquitetura de escolha interna vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e não tem linha de arquitetura de escolha. R9, de W. Edwards Deming, é o parente mais próximo, porque a oposição registrada nele, culpa individual contra desenho do sistema, descreve de fato o que esta peça defende: a equipe não deixou de decidir por desatenção, o desenho é que decidiu por ela. Mas R9 está registrada para o caso de olhar entrada, dependência, variação e incentivo antes de responsabilizar uma pessoa por um indicador, que é diagnóstico de causa depois do resultado ruim, enquanto esta peça trata de escrever de antemão a opção que vale na ausência de ação. E nenhum slide cita Deming: as fontes são Madrian e Shea em 2001 e Johnson, Bellman e Lohse em 2002, externas ao ledger. Forçar R9 faria a peça parecer ancorada em repertório que ela não usa. A proposta de acrescentar ao ledger uma linha de arquitetura de escolha, com essas 2 fontes, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JE1",
+    "JF4"
+  ],
+  "cta": "Abrir hoje o modelo de proposta mais usado, escolher o item que mais se renegocia e escrever ali o que vale quando ninguém pede diferente.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura de que padrão escrito é burocracia; ver a cena concreta da inscrição que acontecia sozinha; receber a segunda evidência, de outro cenário e com sorteio, para que o efeito não pareça de um estudo só; virar para o mecanismo, que é a ausência de ação e não a obrigação; receber os 4 passos aplicáveis, que são a unidade salvável desta peça e o motivo do slot de tarde de fim de semana; ouvir o limite, que aqui é medido e não retórico, porque o mesmo estudo mostra o padrão ruim grudando igual; e sair com o passo de hoje. A unidade de evidência existe e são os slides 1 e 3, com os 2 estudos separados para respeitar a regra de no máximo 1 ideia-fonte por slide.",
+  "internal_metadata": [
+    "zx-52",
+    "JE1",
+    "JF4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Hand",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa de pulso contínuo e quase automático, com pouca variação de intensidade e sem ataque marcado, do tipo que parece seguir andando por conta própria: é literalmente o que o texto descreve, algo que continua acontecendo enquanto ninguém age. O slot é o da tarde de fim de semana e o papel é de guia salvável, então a trilha precisa sustentar leitura longa sem chamar atenção para si. O assunto é escolha e desenho, não urgência, então a música não pode soar como contagem regressiva nem como trilha de decisão dramática.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça o cuidado extra é com trilha de suspense ou de tensão crescente, porque o texto fala de dinheiro de aposentadoria e de gente que ficou presa em uma escolha ruim, e música tensa transformaria uma peça de método em peça de alarme, o que o gate ético da nota 19c proíbe. Evitar também o perfil de pulso contido e sala concentrada pedido na zx-50 e o perfil arejado da zx-51, para as peças vizinhas no feed não soarem iguais.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de pulso contínuo e uniforme, intensidade estável e sem ponto de virada, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-51 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques, pulso metronômico de textura seca, final que decai, pulso audível o tempo todo, nota longa por baixo, pulso grave com harmonia parada, pulso leve de sala clara e pulso contido de sala concentrada."
+  },
+  "caption": [
+    "Existe uma decisão que o seu negócio toma toda semana sem ninguém decidir: a opção que vale quando a pessoa não faz nada. Em 2 estudos, ela pesou mais que o conteúdo da oferta.",
+    "Em 2001, a economista Brigitte Madrian e Dennis Shea publicaram no Quarterly Journal of Economics o caso de uma grande empresa americana de saúde e seguros. Até abril de 1998, para entrar no plano de aposentadoria o funcionário precisava preencher formulário, escolher quanto guardar e onde aplicar. Depois, ele já entrava guardando 3% e só ficava de fora se pedisse.",
+    "Nenhuma condição do plano mudou junto: mesma contrapartida da empresa, mesmos fundos, mesmas regras. Entre 3 e 15 meses de casa, a participação passou de 37% para 86%.",
+    "Em 2002, Eric Johnson, professor de negócios na Universidade Columbia, com Steven Bellman e Gerald Lohse, publicou na revista Marketing Letters um experimento com 277 pessoas de um painel on-line. A pergunta era a mesma e o formato foi sorteado. Com a resposta vazia, 48,2% aceitaram ser contatadas. Com ela já marcada, 96,3%. Só 3,7% desmarcaram.",
+    "O que os 2 mostram não é preguiça. Nos 2 casos a saída estava a 1 gesto, e no formato de marcar quase metade marcou. O ponto é outro: alguma opção precisa valer quando ninguém age, e esse caso é a maioria.",
+    "Na prática, 4 passos. 1: liste 3 decisões que sua equipe repete toda semana, como duração de reunião, prazo de resposta e o que entra na proposta. 2: escreva o que acontece hoje quando ninguém decide, porque esse já é o seu padrão. 3: troque pelo que você quer e ponha no lugar onde a decisão nasce, o modelo, o convite, o formulário. 4: deixe a saída fácil, porque padrão que não se muda em 1 minuto virou regra.",
+    "Um cuidado, e ele foi medido. O padrão carrega o que estiver dentro dele: no mesmo estudo, 61% dos inscritos automaticamente seguiram guardando 3% no fundo de menor risco, combinação que só 1% escolhia quando tinha de escolher. E os 2 casos mediram plano de aposentadoria e convite de pesquisa, não proposta de serviço. Os 4 passos são adaptação da Zionaxs, não recomendação dos autores.",
+    "Comece hoje. Abra o modelo de proposta que você mais usa e escreva o padrão de 1 item que você renegocia toda vez."
+  ],
+  "caption_sources": [
+    "Fonte da troca de inscrição, da participação de 37% para 86%, do padrão de 3% no fundo de menor risco, dos 61% que ficaram nele e do 1% que o escolhia: Brigitte C. Madrian e Dennis F. Shea, The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior, The Quarterly Journal of Economics, volume 116, número 4, 2001, páginas 1149 a 1187. Texto integral da versão de trabalho NBER 7682 lido nesta execução.",
+    "Recorte do estudo de 2001: empresa da lista Fortune 500, do setor de saúde e seguros, com unidades em 38 estados americanos, no Distrito de Columbia e em Porto Rico. Os dados cobrem de junho de 1997 a junho de 1999, e a mudança de inscrição entrou em vigor em 1 de abril de 1998. O recorte de 37% contra 86% compara funcionários com 3 a 15 meses de casa, contratados antes e depois da mudança.",
+    "Os próprios autores repetem esse recorte em retrospectiva publicada pelo NBER Reporter em 2024, número 3, lida nesta execução, na qual registram que a inscrição automática aumentou a participação de 37% para 86% nos meses 3 a 15 de casa.",
+    "Fonte da permanência das condições econômicas: o resumo do mesmo artigo registra que nenhuma característica econômica do plano mudou, e o corpo do texto lista contrapartida da empresa, aquisição de direito sobre a contribuição do empregador, opções de investimento e condições de empréstimo e saque por dificuldade como inalteradas antes e depois de 1 de abril de 1998.",
+    "Fonte dos 96,3%, dos 48,2%, dos 3,7% e das 277 pessoas: Eric J. Johnson, Steven Bellman e Gerald L. Lohse, Defaults, Framing and Privacy: Why Opting In, Opting Out, Marketing Letters, volume 13, número 1, 2002, páginas 5 a 15. Texto integral da versão dos autores, hospedada pela Columbia Business School, lido nesta execução.",
+    "Recorte do estudo de 2002: as 277 pessoas vinham de um painel on-line de mais de 25 mil pessoas e foram sorteadas entre 4 formatos da mesma pergunta, sobre autorizar contato para novas pesquisas de saúde. Em um quarto formato, com a caixa pré-marcada invertendo o padrão, cerca de 70% aceitaram, o que os autores leem como sinal de que a marca visível faz parte da amostra prestar atenção na escolha.",
+    "Limitação de desenho: o estudo de 2001 compara coortes antes e depois da mudança, sem sorteio, então a diferença medida não separa o efeito do padrão de outras mudanças do mesmo período. O estudo de 2002 sorteou os formatos, mas mediu 1 resposta em 1 formulário, não meses de trabalho.",
+    "Limitação de universo: os desfechos são inscrição em plano de aposentadoria nos Estados Unidos e aceite de convite de pesquisa on-line. Nenhum dos 2 mediu proposta comercial, duração de reunião ou prazo de resposta em negócio de serviço brasileiro, então a peça não afirma percentual nenhum sobre esses setores e trata a passagem para esse contexto como leitura da Zionaxs.",
+    "Os 4 passos do slide 5 são adaptação editorial da Zionaxs a partir das fontes, não recomendação dos autores. O limite de 1 minuto para trocar o padrão é escolha da Zionaxs, orientada pelo fato de que nos 2 estudos a saída custava 1 gesto, e não por um número recomendado nos artigos.",
+    "Matriz: a nota 19c da Zionaxs não tem linha para opção padrão nem arquitetura de escolha, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Repertório: o ledger da nota 19c não tem linha de arquitetura de escolha. R9, de W. Edwards Deming, trata de olhar o desenho do sistema antes de responsabilizar a pessoa, que é diagnóstico depois do resultado, e não escrita prévia da opção padrão, e nenhum slide cita Deming. A proposta de acrescentar a linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Hans, Maksym Kaharlytskyi e Beth Stevenson, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A inscrição automática",
+      "copy": {
+        "title": "Ninguém\npreencheu nada.",
+        "accentLine": "37% virou 86%.",
+        "hl": "37% virou 86%.",
+        "sub": "Uma empresa trocou 1 detalhe do plano de aposentadoria: em vez de preencher formulário para entrar, o funcionário já entrava e só ficava de fora se pedisse. A participação passou de 37% para 86%, e nenhuma condição do plano mudou junto: mesma contrapartida, mesmos fundos.",
+        "year": "2026",
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3 · foto: Hans"
+      },
+      "approved_visible_copy": [
+        "A inscrição automática",
+        "01/07",
+        "Ninguém preencheu nada.",
+        "37% virou 86%.",
+        "Uma empresa trocou 1 detalhe do plano de aposentadoria: em vez de preencher formulário para entrar, o funcionário já entrava e só ficava de fora se pedisse. A participação passou de 37% para 86%, e nenhuma condição do plano mudou junto: mesma contrapartida, mesmos fundos.",
+        "2026",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3 · foto: Hans"
+      ],
+      "alt": "Slide 1 de 7. Ninguém preencheu nada, 37% virou 86%. Uma empresa trocou 1 detalhe do plano de aposentadoria: em vez de preencher formulário para entrar, o funcionário já entrava e só ficava de fora se pedisse. A participação passou de 37% para 86%, e nenhuma condição do plano mudou junto: mesma contrapartida, mesmos fundos. Fotografia escura de uma escrivaninha vazia à noite, com um computador portátil fechado sobre o tampo e uma luminária de teto acesa no alto do quadro, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-mesa-vazia-noite.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Entrava\nsozinho."
+        ],
+        "closing": "Antes de abril de 1998, para entrar no plano o funcionário tinha de preencher formulário, escolher quanto guardar e escolher onde aplicar. Depois, ele já entrava guardando 3%, e só ficava de fora se pedisse.",
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3 · foto: Maksym Kaharlytskyi"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Entrava sozinho.",
+        "Antes de abril de 1998, para entrar no plano o funcionário tinha de preencher formulário, escolher quanto guardar e escolher onde aplicar. Depois, ele já entrava guardando 3%, e só ficava de fora se pedisse.",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3 · foto: Maksym Kaharlytskyi"
+      ],
+      "alt": "Slide 2 de 7. Entrava sozinho. Antes de abril de 1998, para entrar no plano o funcionário tinha de preencher formulário, escolher quanto guardar e escolher onde aplicar. Depois, ele já entrava guardando 3%, e só ficava de fora se pedisse. Papel claro com fotografia em preto e branco de uma gaveta de arquivo de metal aberta, cheia de fichas de papel enfileiradas, diante de um armário de gavetas fechadas, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-gaveta-de-fichas.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Vazia: 48,2%.",
+          "Marcada: 96,3%."
+        ],
+        "closing": "Em 2002, Eric Johnson, professor de negócios na Universidade Columbia, com Steven Bellman e Gerald Lohse, perguntou a 277 pessoas se podia contatá-las para novas pesquisas. A pergunta era a mesma e o formato foi sorteado. Com a resposta vazia, 48,2% aceitaram. Com ela já marcada, 96,3%, e só 3,7% desmarcaram.",
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Vazia: 48,2%.",
+        "Marcada: 96,3%.",
+        "Em 2002, Eric Johnson, professor de negócios na Universidade Columbia, com Steven Bellman e Gerald Lohse, perguntou a 277 pessoas se podia contatá-las para novas pesquisas. A pergunta era a mesma e o formato foi sorteado. Com a resposta vazia, 48,2% aceitaram. Com ela já marcada, 96,3%, e só 3,7% desmarcaram.",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3"
+      ],
+      "alt": "Slide 3 de 7. Vazia: 48,2%. Marcada: 96,3%. Em 2002, Eric Johnson, professor de negócios na Universidade Columbia, com Steven Bellman e Gerald Lohse, perguntou a 277 pessoas se podia contatá-las para novas pesquisas. A pergunta era a mesma e o formato foi sorteado. Com a resposta vazia, 48,2% aceitaram. Com ela já marcada, 96,3%, e só 3,7% desmarcaram."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "Toda decisão\njá tem padrão.",
+        "accent": "Escrito ou não.",
+        "hl": "Escrito ou não.",
+        "ghost": "86",
+        "year": "2026",
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3",
+        "body": "Nos 2 casos ninguém ficou obrigado a nada: dava para entrar, sair ou marcar outra coisa em 1 gesto. O que mudou foi qual opção valia quando a pessoa não fazia nada. Isso já existe em toda decisão que se repete no seu negócio."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Toda decisão já tem padrão.",
+        "Escrito ou não.",
+        "2026",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3",
+        "Nos 2 casos ninguém ficou obrigado a nada: dava para entrar, sair ou marcar outra coisa em 1 gesto. O que mudou foi qual opção valia quando a pessoa não fazia nada. Isso já existe em toda decisão que se repete no seu negócio."
+      ],
+      "alt": "Slide 4 de 7. Toda decisão já tem padrão, escrito ou não. Nos 2 casos ninguém ficou obrigado a nada: dava para entrar, sair ou marcar outra coisa em 1 gesto. O que mudou foi qual opção valia quando a pessoa não fazia nada. Isso já existe em toda decisão que se repete no seu negócio. Campo laranja chapado com o número 86 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O padrão em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Liste 3 decisões que se repetem toda semana: duração de reunião, prazo de resposta, o que entra na proposta."
+          },
+          {
+            "num": "2",
+            "label": "Escreva o que acontece hoje quando ninguém decide. Esse já é o seu padrão, e ele está rodando."
+          },
+          {
+            "num": "3",
+            "label": "Troque pelo que você quer e ponha no lugar onde a decisão nasce: o modelo, o convite, o formulário."
+          },
+          {
+            "num": "4",
+            "label": "Deixe a saída fácil. Padrão que não se muda em 1 minuto virou regra, e regra cansa a equipe."
+          }
+        ],
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O padrão em 4 passos.",
+        "1",
+        "Liste 3 decisões que se repetem toda semana: duração de reunião, prazo de resposta, o que entra na proposta.",
+        "2",
+        "Escreva o que acontece hoje quando ninguém decide. Esse já é o seu padrão, e ele está rodando.",
+        "3",
+        "Troque pelo que você quer e ponha no lugar onde a decisão nasce: o modelo, o convite, o formulário.",
+        "4",
+        "Deixe a saída fácil. Padrão que não se muda em 1 minuto virou regra, e regra cansa a equipe.",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3"
+      ],
+      "alt": "Slide 5 de 7. O padrão em 4 passos. 1: liste 3 decisões que se repetem toda semana, como duração de reunião, prazo de resposta e o que entra na proposta. 2: escreva o que acontece hoje quando ninguém decide, porque esse já é o seu padrão e ele está rodando. 3: troque pelo que você quer e ponha no lugar onde a decisão nasce, o modelo, o convite, o formulário. 4: deixe a saída fácil, porque padrão que não se muda em 1 minuto virou regra e regra cansa a equipe. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "O padrão ruim\ngruda igual.",
+        "accent": "61% ficaram nele.",
+        "body": "No mesmo estudo, 61% seguiram guardando 3% no fundo de menor risco, combinação que só 1% escolhia sozinho. E os 2 casos mediram plano e pesquisa, não proposta de serviço.",
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "O padrão ruim gruda igual.",
+        "61% ficaram nele.",
+        "No mesmo estudo, 61% seguiram guardando 3% no fundo de menor risco, combinação que só 1% escolhia sozinho. E os 2 casos mediram plano e pesquisa, não proposta de serviço.",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3"
+      ],
+      "alt": "Slide 6 de 7. O padrão ruim gruda igual, 61% ficaram nele. No mesmo estudo, 61% seguiram guardando 3% no fundo de menor risco, combinação que só 1% escolhia sozinho. E os 2 casos mediram plano e pesquisa, não proposta de serviço."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Abra o modelo\nde proposta.",
+        "hl": "Abra o modelo",
+        "accent": "Escreva 1 padrão.",
+        "body": "Escolha o item que você mais renegocia, escreva ali o que vale quando ninguém pede diferente e deixe a troca a 1 clique. Na próxima proposta, veja quantas vezes o padrão passou intacto.",
+        "year": "2026",
+        "temas": "Temas: Padrão / Decisão / Rotina",
+        "micro": "@zionaxs_ · ref b60f18a3 · foto: Beth Stevenson"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Abra o modelo de proposta.",
+        "Escreva 1 padrão.",
+        "Escolha o item que você mais renegocia, escreva ali o que vale quando ninguém pede diferente e deixe a troca a 1 clique. Na próxima proposta, veja quantas vezes o padrão passou intacto.",
+        "2026",
+        "Temas: Padrão / Decisão / Rotina",
+        "@zionaxs_ · ref b60f18a3 · foto: Beth Stevenson"
+      ],
+      "alt": "Slide 7 de 7. Abra o modelo de proposta, escreva 1 padrão. Escolha o item que você mais renegocia, escreva ali o que vale quando ninguém pede diferente e deixe a troca a 1 clique. Na próxima proposta, veja quantas vezes o padrão passou intacto. Fotografia escura de uma luminária de mesa acesa sobre uma escrivaninha de madeira, com um porta-lápis e um computador portátil fechado embaixo da luz, sem ninguém presente.",
+      "photo": {
+        "src": "../assets/foto-luminaria-acesa.jpg",
+        "pos": "30% 50%"
+      }
+    }
+  ]
+}

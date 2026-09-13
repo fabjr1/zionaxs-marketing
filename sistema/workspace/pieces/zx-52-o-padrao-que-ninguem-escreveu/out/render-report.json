@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-52-o-padrao-que-ninguem-escreveu",
+  "generatedAt": "2026-09-13T18:22:38+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-01.png",
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-02.png",
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-03.png",
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-04.png",
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-05.png",
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-06.png",
+    "zx-52-o-padrao-que-ninguem-escreveu-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A inscrição automática 01/07 Ninguém preencheu nada. 37% virou 86%. Uma empresa trocou 1 detalhe do plano de aposentadoria: em vez de preencher formulário para entrar, o funcionário já entrava e só ficava de fora se pedisse. A participação passou de 37% para 86%, e nenhuma condição do plano mudou junto: mesma contrapartida, mesmos fundos. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3 · foto: Hans"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Entrava sozinho. Antes de abril de 1998, para entrar no plano o funcionário tinha de preencher formulário, escolher quanto guardar e escolher onde aplicar. Depois, ele já entrava guardando 3%, e só ficava de fora se pedisse. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3 · foto: Maksym Kaharlytskyi"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Vazia: 48,2%. Marcada: 96,3%. Em 2002, Eric Johnson, professor de negócios na Universidade Columbia, com Steven Bellman e Gerald Lohse, perguntou a 277 pessoas se podia contatá-las para novas pesquisas. A pergunta era a mesma e o formato foi sorteado. Com a resposta vazia, 48,2% aceitaram. Com ela já marcada, 96,3%, e só 3,7% desmarcaram. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Toda decisão já tem padrão. Escrito ou não. Nos 2 casos ninguém ficou obrigado a nada: dava para entrar, sair ou marcar outra coisa em 1 gesto. O que mudou foi qual opção valia quando a pessoa não fazia nada. Isso já existe em toda decisão que se repete no seu negócio. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O padrão em 4 passos. 1Liste 3 decisões que se repetem toda semana: duração de reunião, prazo de resposta, o que entra na proposta. 2Escreva o que acontece hoje quando ninguém decide. Esse já é o seu padrão, e ele está rodando. 3Troque pelo que você quer e ponha no lugar onde a decisão nasce: o modelo, o convite, o formulário. 4Deixe a saída fácil. Padrão que não se muda em 1 minuto virou regra, e regra cansa a equipe. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 O padrão ruim gruda igual. 61% ficaram nele. No mesmo estudo, 61% seguiram guardando 3% no fundo de menor risco, combinação que só 1% escolhia sozinho. E os 2 casos mediram plano e pesquisa, não proposta de serviço. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Abra o modelo de proposta. Escreva 1 padrão. Escolha o item que você mais renegocia, escreva ali o que vale quando ninguém pede diferente e deixe a troca a 1 clique. Na próxima proposta, veja quantas vezes o padrão passou intacto. Temas: Padrão / Decisão / Rotina @zionaxs_ · ref b60f18a3 · foto: Beth Stevenson"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "8 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 1.7,
+  "digest": "b96c503c313bcade8f6990770b190b53975bee722f185271bbc7dbec3ec115a5"
+}

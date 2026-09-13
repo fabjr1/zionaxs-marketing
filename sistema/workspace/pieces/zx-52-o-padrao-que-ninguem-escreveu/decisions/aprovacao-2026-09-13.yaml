@@ -1,0 +1,112 @@
+decisao: aprovar e publicar a zx-52, slot da tarde de fim de semana
+data: 2026-09-13
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira chamada, com 14/14 gates verdes e 1 de 2 posts
+    do dia já usados.
+  registro_anterior: pieces/zx-51-o-que-voce-mesmo-montou/decisions/aprovacao-2026-09-13.yaml
+
+slot_editorial:
+  horario: "15:00 BRT, domingo"
+  papel: "guia salvável, análise longa, biblioteca ou aplicação prática"
+  leitura: >
+    O slot da tarde de fim de semana pede a peça que a pessoa salva para aplicar
+    depois, então o roteiro precisa bastar-se sozinho. Aqui isso mora no slide 5,
+    com 4 passos aplicáveis na segunda sem nenhum pré-requisito, e sobrevive ao
+    print sem a legenda: listar 3 decisões repetidas, escrever o que hoje
+    acontece quando ninguém decide, trocar pelo que se quer no lugar onde a
+    decisão nasce, e manter a saída a 1 minuto.
+  nao_repete_a_peca_anterior: >
+    A zx-51, publicada hoje de manhã às 10:57 BRT, trata do efeito IKEA, ou seja,
+    de quem produziu o material superestimar o próprio trabalho, e a correção é
+    entregar o texto a 1 leitor de fora. Esta peça trata da opção que vale quando
+    ninguém age, e a correção é escrever essa opção de antemão no lugar onde a
+    decisão nasce. Fontes diferentes, autores diferentes, mecanismo diferente: a
+    zx-51 é sobre o julgamento de quem fez, esta é sobre o que acontece quando
+    ninguém julga nada. Também não repete a zx-50, sobre lista de conferência
+    lida em voz alta, porque lista é um ato deliberado em 1 momento marcado e o
+    padrão desta peça é justamente o que roda sem ato nenhum.
+
+tema:
+  escolhido: >
+    a opção padrão: toda decisão que se repete já tem uma opção que vale quando
+    ninguém decide, escrita ou não, e ela decide a maioria dos casos. Em uma
+    grande empresa americana de saúde e seguros, trocar a inscrição no plano de
+    aposentadoria de preencher formulário para já estar inscrito levou a
+    participação de 37% para 86% entre 3 e 15 meses de casa, sem que 1 condição
+    econômica do plano mudasse. Em experimento com 277 pessoas sorteadas entre
+    formatos da mesma pergunta, 96,3% aceitaram com a resposta já marcada contra
+    48,2% com ela vazia, e só 3,7% desmarcaram.
+  por_que: >
+    Critério de desejo primeiro: é dica prática de organização da rotina de quem
+    toca um negócio, e o dado entra como tempero dentro da dica. O assunto não
+    aparece em nenhuma das 33 peças anteriores, que cobriram capacidade, métrica,
+    retrabalho, preço, interrupção, memória de julgamento e viés de quem produziu,
+    mas nunca arquitetura de escolha. E ele fecha bem o par do dia: de manhã, o
+    julgamento distorcido de quem fez; à tarde, o que acontece quando ninguém
+    julga.
+
+fontes:
+  - Brigitte C. Madrian e Dennis F. Shea, The Power of Suggestion, The Quarterly
+    Journal of Economics, 116(4), 2001, p. 1149-1187. Texto integral da versão
+    NBER 7682 lido nesta execução, com os trechos citados no contrato.
+  - Eric J. Johnson, Steven Bellman e Gerald L. Lohse, Defaults, Framing and
+    Privacy, Marketing Letters, 13(1), 2002, p. 5-15. Texto integral da versão
+    dos autores, hospedada pela Columbia Business School, lido nesta execução.
+  - NBER Reporter 2024, número 3, retrospectiva dos próprios autores, que repete
+    o recorte de 37% para 86% nos meses 3 a 15 de casa.
+
+producao:
+  geracoes: 3
+  gates_finais: "14/14 · digest b96c503c313b"
+  o_que_custou_geracao: >
+    O G6 reprovou 2 vezes no `sub` da capa, com a última linha em 16% e depois em
+    11% da largura. A primeira correção trocou a ordem das 2 orações mantendo o
+    comprimento igual, e não resolveu: com o mesmo número de caracteres a quebra
+    caiu quase no mesmo lugar. O que resolveu foi mudar o COMPRIMENTO, acrescentando
+    ao fim "junto: mesma contrapartida, mesmos fundos", que é informação verdadeira
+    do estudo e enche a última linha. Lição registrada no README de direção visual.
+  folha_de_contato: >
+    14 recortes comparados em 2 rodadas com bin/folha-de-contato.mjs, antes de
+    escrever o contrato. 3 candidatas foram descartadas sem gastar geração: um
+    bloco pautado iluminado ocupando a metade de baixo do quadro (regra da zx-45),
+    um caderno preto com a palavra NOTES gravada em inglês e assunto ocupando toda
+    a largura em arquivo paisagem (regras da zx-23 e da zx-51), e uma mesa de
+    papéis antigos com a banda de texto inteira coberta de papel claro. Descartadas
+    ainda antes da folha, na leitura das candidatas: cédulas eleitorais alemãs com
+    ano e partido legíveis, e uma bandeja de jornais com rostos impressos.
+
+fotos:
+  capa: >
+    Escrivaninha vazia à noite sob luminária acesa, de Hans, via Unsplash. Escolhida
+    com a manchete: "Ninguém preencheu nada" pede a cena de quem não agiu, e não a
+    metáfora de um interruptor. Banda de texto escura e quieta, caixa de paginação
+    sobre a cortina em tom médio-escuro, sem rosto e sem texto legível.
+  cena: >
+    Gaveta de arquivo aberta com fichas, de Maksym Kaharlytskyi, via Unsplash.
+    Pré-recortada no arquivo para 0,864, a proporção do quadro do poster-scene,
+    porque o template ignora pos, scale e origin nesse layout (regra da zx-44). O
+    recorte também deixou de fora a ficha manuscrita com ano legível.
+  fechamento: >
+    Luminária de mesa acesa, de Beth Stevenson, via Unsplash, com pos "30% 50%"
+    escolhido na folha de contato: desloca o quadro para a esquerda e tira a caixa
+    de paginação de cima do trecho claro da parede.
+
+codigos_editoriais:
+  jtbd: [JE1, JF4]
+  matriz: nenhum, ver campo matriz_nota do contrato
+  repertorio: nenhum, ver campo repertorio_nota do contrato
+  nota: >
+    A matriz da 19c (M01 a M20) não tem linha de opção padrão nem de arquitetura
+    de escolha, e o ledger (R1 a R9) também não. Declarar M19 ou R9 por parentesco
+    seria copiar código que a máquina aceita e a análise não sustenta, que é o erro
+    que a verificação A9 existe para conter. As 2 propostas de inclusão vão para a
+    Inbox da Zionaxs Memory, para promoção humana.
