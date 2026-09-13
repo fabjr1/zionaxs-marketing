@@ -287,6 +287,18 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   esquerda, depois o kicker, e só então a manchete** — do elemento mais fino para o mais grosso, porque o fino
   reprova primeiro e o grosso quase nunca reprova sozinho.
 
+- **Contra órfã do G6, o que move a quebra é o COMPRIMENTO, não a ordem das palavras.** Aprendido na zx-52,
+  13/09/2026, e é o complemento prático da regra da zx-28, que já ensina a reescrever a frase final em vez de
+  enfiar quebra autoral. O que faltava dizer é **qual** reescrita funciona. No `sub` da capa da zx-52 o G6 reprovou
+  com a última linha em 16% da largura, terminando em "86%."; a primeira correção inverteu as 2 orações da frase
+  final mantendo o comprimento idêntico, 73 caracteres contra 73, e o gate reprovou de novo, agora em 11%, porque
+  a quebra gulosa caiu quase no mesmo ponto e só trocou a palavra órfã. O que resolveu foi acrescentar 42
+  caracteres ao fim, "junto: mesma contrapartida, mesmos fundos", que encheu a última linha e ainda é informação
+  verdadeira do estudo. **Regra prática: ao ver o G6 em parágrafo que quebra sozinho, conte os caracteres da
+  reescrita. Se ela mantém o comprimento, a órfã volta.** Acrescentar costuma ser mais barato que cortar, porque
+  cortar tende a criar uma órfã nova 1 linha acima. E vale o aviso da zx-32 ao acrescentar em corpo de layout com
+  pilha ancorada embaixo: texto que cresce empurra o chrome, e o G4 reprova em cima.
+
 ## Como o padrão se sustenta sozinho
 
 Três camadas, da mais fraca para a mais forte:

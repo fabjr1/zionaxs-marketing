@@ -1,0 +1,71 @@
+{
+  "postId": "18109449152149214",
+  "permalink": "https://www.instagram.com/p/DdPM6h4myyo/",
+  "shortcode": "DdPM6h4myyo",
+  "digest": "b96c503c313b",
+  "publishedAt": "2026-09-13T18:26:49+0000",
+  "publishedAtFortaleza": "2026-09-13 15:26 BRT",
+  "slot": "tarde-fim-de-semana-15:00-BRT",
+  "papelEditorial": "guia salvável, análise longa, biblioteca ou aplicação prática",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_GET_POST_STATUS + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "composioConnectionId": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "INSTAGRAM_GET_USER_INFO com ig_user_id=me antes de criar qualquer contêiner: devolveu id 37965311306447572, username zionaxs_, name zionaxs, 4.799 seguidores e 116 mídias. Confere com a conta certa. Antes disso, COMPOSIO_MANAGE_CONNECTIONS em modo list sobre o toolkit instagram devolveu os 3 apelidos vivos, @fabjr1, @zionaxs_ e @base3br, e só @zionaxs_ foi usado em todas as chamadas do fluxo.",
+  "notaDeConta": "O campo `account` do Composio é o apelido da conexão e leva arroba: @zionaxs_. Passar zionaxs_ sem arroba volta `No account found matching \"zionaxs_\"`, aprendido na zx-51. Nesta execução o apelido com arroba foi usado nas 6 chamadas do fluxo e nenhuma reclamou.",
+  "notaDeParametros": "`ig_user_id` foi passado em toda chamada de criação e de publicação, conforme a zx-49: o `account` identifica a conexão no Composio, não o alvo na Meta. O contêiner pai foi criado sem `share_to_feed`, que é inválido para carrossel, e o status dele foi conferido com INSTAGRAM_GET_POST_STATUS, cujo campo é `creation_id` e não `ig_container_id`. A reconciliação chamou INSTAGRAM_GET_IG_MEDIA com `fields` explícito, conforme a zx-40, porque a lista padrão do Composio pede total_views_count e o nó Media não suporta.",
+  "containerId": "17908332408501214",
+  "containerStatusAntesDePublicar": "FINISHED",
+  "childContainers": [
+    "17908332261501214",
+    "17908332258501214",
+    "17908332267501214",
+    "17908332264501214",
+    "17908332342501214",
+    "17908332339501214",
+    "17908332336501214"
+  ],
+  "childMediaIds": [
+    "18144371485494109",
+    "18364647073246528",
+    "18616166821040143",
+    "18085332869277026",
+    "18125803513856236",
+    "18118554622733428",
+    "18119863103476861"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-52-o-padrao-que-ninguem-escreveu/out/jpg/zx-52-o-padrao-que-ninguem-escreveu-slide-07.jpg"
+  ],
+  "mediaUrlsConferidas": "As 7 URLs foram conferidas com curl antes de irem para a Meta, e as 7 responderam HTTP 200 com content-type image/jpeg. Commit que as tornou públicas: fc32c6db1f8857c4492490b7b97f6e1a1b7e21ab, empurrado para main.",
+  "reconciliacao": {
+    "ferramentas": "INSTAGRAM_GET_IG_MEDIA com fields explícito e INSTAGRAM_GET_IG_MEDIA_CHILDREN",
+    "conta": "username zionaxs_, owner.id 37965311306447572, igual ao alvo declarado",
+    "tipo": "CAROUSEL_ALBUM",
+    "slides": 7,
+    "permalink": "https://www.instagram.com/p/DdPM6h4myyo/",
+    "legenda": "o corpo publicado bate caractere a caractere com o campo `caption` do contrato, 2.190 caracteres, abaixo do teto de 2.200 do Instagram. O `caption_sources` ficou no contrato e não entrou no post, como manda o padrão de copy.",
+    "duplicidade": "nenhuma. A publicação saiu na primeira chamada, sem erro de transporte e sem pai em ERROR, então não houve o que reconciliar antes de repetir e nenhum contêiner filho foi recriado."
+  },
+  "cadencia": {
+    "politica": "2 posts por dia, override declarado em 29/08/2026 na política da marca",
+    "posicaoNoDia": "2 de 2",
+    "outroPostDoDia": "zx-51, publicada às 10:57 BRT no slot da manhã de fim de semana",
+    "porteiro": "node bin/pode-publicar.js zx-52-o-padrao-que-ninguem-escreveu --root ../workspace, liberado na primeira chamada, sem --excecao e sem tocar na política"
+  },
+  "trilha": {
+    "estado": "pendente de adição manual pelo Fabiano, editando o post no app",
+    "faixa": "Steady Hand",
+    "artista": "Meta Sound Collection",
+    "porque": "Instrumental de pulso contínuo e quase automático, intensidade estável e sem ponto de virada: é o que o próprio texto descreve, algo que segue acontecendo enquanto ninguém age. Sustenta leitura longa sem disputar atenção com o texto, que é o que o slot de guia salvável pede.",
+    "evitar": "catálogo popular do app, cuja licença é de uso pessoal e não vale para marca; trilha com letra, principalmente em português; faixa épica de superação; e, nesta peça, trilha de suspense ou tensão crescente, porque o texto fala de dinheiro de aposentadoria e de gente presa em uma escolha ruim, e música tensa transformaria peça de método em peça de alarme.",
+    "nota": "O índice do acervo de trilhas vive fora do repositório e não estava disponível nesta sessão em nuvem, então o nome acima é indicação de perfil, não faixa confirmada."
+  }
+}
