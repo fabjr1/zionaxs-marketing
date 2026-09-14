@@ -299,6 +299,25 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   cortar tende a criar uma órfã nova 1 linha acima. E vale o aviso da zx-32 ao acrescentar em corpo de layout com
   pilha ancorada embaixo: texto que cresce empurra o chrome, e o G4 reprova em cima.
 
+- **O dano da zx-33 não é exclusivo do `poster-turn` com `big`: o `title` do `poster-close` faz igual, e ali a linha de
+  baixo não precisa de acento nenhum para ser comida.** Aprendido na zx-53, 14/09/2026, e é o quarto degrau da regra que
+  começou na zx-29. O fechamento saiu com "Leia em voz / alta.", o realce em "Leia em voz" na primeira linha como manda a
+  zx-29, e a segunda linha sem 1 maiúscula acentuada, como manda a zx-32: mesmo assim a caixa laranja encostou no topo das
+  maiúsculas de "ALTA.". A zx-33 já tinha descrito esse dano maior, o corte da linha inteira e não só do acento, mas
+  registrou a regra como sendo do `accent` do `poster-turn` com `big`, e por isso ela não foi aplicada ao outro bloco de
+  display grande. **Regra final, agora válida para os 3 blocos que aceitam `hl`: realce em bloco de 2 linhas só é seguro
+  fora do display grande. No `title` do `poster-close` e no `accent` do `poster-turn` com `big`, o realce pede bloco de 1
+  linha.** Os 14 gates ficaram verdes na geração que saiu com o corte, porque nenhum gate mede isso; quem pegou foi o
+  passo 6.
+  **E a saída barata é mais larga do que a zx-33 sugeria.** A nota de lá dá 2 opções, encurtar ou publicar sem `hl`, e
+  estima cerca de 20 caracteres como limite prático de 1 linha, número medido no display de 78px do `poster-turn`. No
+  display do `poster-close` a largura útil é de 936px e "LEIA EM VOZ ALTA.", com 17 caracteres, coube com folga em 1
+  linha, porque a conta que importa não é de caracteres e sim de largura: as 11 letras de "LEIA EM VOZ" mediram 480px, ou
+  seja cerca de 44px por caractere em texto cheio de letras estreitas, contra os 52px por caractere da manchete da capa na
+  mesma peça. **Antes de encurtar a manchete ou desistir do realce, junte as 2 linhas e meça**: em frase de letras
+  estreitas cabem perto de 20 caracteres, e o realce de 1 linha só, ocupando quase toda a largura, é o resultado mais
+  forte dos 3.
+
 ## Como o padrão se sustenta sozinho
 
 Três camadas, da mais fraca para a mais forte:
