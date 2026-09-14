@@ -1,0 +1,156 @@
+decisao: aprovar e publicar a zx-54, slot da tarde de dia útil
+data: 2026-09-14
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro liberou na primeira chamada, com 14/14 gates verdes e 1 de 2 posts
+    do dia já usados pela zx-53, publicada de manhã.
+  registro_anterior: pieces/zx-53-o-tom-que-voce-ouviu/decisions/aprovacao-2026-09-14.yaml
+
+slot_editorial:
+  horario: "13:00 BRT, segunda-feira"
+  papel: "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório"
+  leitura: >
+    O slot da tarde pede conteúdo principal, então a peça precisa entregar
+    evidência medida e um método aplicável, e não apenas uma tensão. A evidência
+    é um estudo econômico com 2 pontos de virada numéricos, 49 horas para a
+    produção por hora e 63 para a produção total, e o método é o quadro de 4
+    passos do slide 5, que é a unidade salvável. A peça também carrega o limite
+    de forma explícita no slide 6, porque o dado é de fábrica e o leitor é de
+    escritório, e omitir isso seria esticar a evidência além do que ela mede.
+  nao_repete_a_peca_anterior: >
+    A zx-53, publicada nesta mesma manhã, trata do tom que não viaja no texto
+    escrito, com fonte em psicologia da comunicação. Esta peça trata da relação
+    entre horas trabalhadas e produção, com fonte em economia do trabalho.
+    Assunto, mecanismo, fonte e CTA diferentes. Também não repete a zx-35, sobre
+    o trabalho que se espalha até ocupar o prazo reservado: lá o mecanismo é o
+    prazo que dita o esforço, e aqui é a hora que deixa de render por cansaço,
+    com a curva medida. E não repete a zx-41, sobre agenda cheia que atrasa, que
+    é custo de fila por ocupação alta, nem a zx-43, sobre o resíduo de atenção
+    depois da interrupção.
+
+tema:
+  escolhido: >
+    a hora que não rende: depois de certo ponto, a hora acrescentada não vira
+    entrega. Em dados de fábricas de munição britânicas da Primeira Guerra,
+    reanalisados por John Pencavel em 2015, a produção é proporcional às horas
+    abaixo de 49 horas semanais, a produção por hora atinge o ponto mais alto
+    ali e cai depois, e o total produzido em 70 horas é quase igual ao produzido
+    em 56. A correção proposta não é esforço, é um teto escrito para a semana
+    mais medição da entrega no lugar da medição das horas.
+  por_que: >
+    Serve ao papel do slot porque é evidência dura com consequência prática
+    imediata, e ataca uma crença que quase todo dono de negócio de serviço
+    carrega sem nunca ter testado: a de que a hora extra é a alavanca mais
+    barata que ele tem, porque não custa contratar nem comprar nada. O achado
+    não diz que a alavanca é menos eficiente, diz que ela para de funcionar em
+    um ponto identificável, o que é mais forte e mais acionável. O assunto
+    também estava livre: nenhuma das 34 peças anteriores tratou de jornada.
+
+fonte:
+  principal: >
+    John Pencavel, The Productivity of Working Hours, The Economic Journal,
+    volume 125, número 589, 2015, páginas 2052 a 2076. Reanálise dos dados do
+    Health of Munition Workers Committee britânico, coletados entre 1915 e 1918.
+  conferencia: >
+    O texto do artigo foi lido nesta sessão, na versão de working paper do IZA
+    (Discussion Paper 8129), e os 4 recortes usados na peça foram conferidos
+    diretamente no corpo do artigo: a proporcionalidade abaixo de 49 horas e o
+    crescimento a taxas decrescentes acima; o máximo da produção total perto de
+    63 horas; a frase de que a produção de 70 horas difere pouco da de 56; e o
+    coeficiente negativo do trabalho aos domingos, com a citação do comitê de
+    que 7 dias de trabalho produzem apenas 6 dias de produção.
+  o_que_nao_veio_do_estudo: >
+    Os 4 passos do slide 5, incluindo o teto de exemplo de 45 horas e a
+    comparação de 4 semanas, são adaptação editorial da Zionaxs e estão
+    declarados como tal no slide 6 e na legenda.
+
+fotos:
+  metodo: >
+    As 3 fotos passaram pela folha de contato versionada em
+    sistema/app/bin/folha-de-contato.mjs, com a banda de texto real de 46% a 93%
+    e a caixa de paginação de 84x84 desenhadas por cima, antes de qualquer
+    geração. Foram 12 recortes comparados em 2 rodadas, com 5 descartes que não
+    custaram geração nenhuma.
+  descartes: >
+    Descartadas na folha: a fachada alternativa, com 1 janela acesa exatamente
+    atrás da caixa de paginação; a mesa com abajur aceso, cujo campo inteiro de
+    texto ficava claro; a silhueta na porta, em que o vão branco engolia a caixa
+    de paginação e metade da banda; e os 2 abajures de quarto, com a cama clara
+    atravessando a banda. Todas caem na mesma regra da zx-45, de que a metade de
+    baixo do arquivo precisa ser escura e quieta.
+  escolhas:
+    capa: >
+      fachada de edifício à noite com 1 faixa de janelas acesas no alto, de
+      Matthew Dlr. A faixa acesa cai dentro da banda de texto no recorte neutro,
+      e a correção foi a alavanca da zx-34, scale com origin no rodapé, que
+      empurra o claro para o terço superior. Ficou em scale 1.9.
+    cena: >
+      relógio de parede marcando 9 horas e 40 minutos, de Debby Hudson, com um
+      pequeno indicador de lua mostrando que é noite. Escolhido porque o mostrador
+      coincide com a copy do slide, que diz "Sexta, 21h40", e porque o
+      poster-scene recorta sempre pelo centro do arquivo, conforme a zx-44, então
+      um relógio centralizado em arquivo quadrado sobrevive ao recorte inteiro.
+    fechamento: >
+      silhueta de cadeira de escritório vazia diante de janela com cortina, ao
+      fim do dia, de Kartabya Aryal. Em scale 1.35 com origin no rodapé e pos
+      65% no X, que tira a cama do quadro e deixa a banda de texto sobre a
+      silhueta escura.
+
+revisao_visual:
+  o_que_os_gates_nao_pegaram: >
+    Os 14 gates ficaram verdes já na primeira geração, e mesmo assim a peça tinha
+    2 defeitos reais, os 2 pegos no passo 6, olhando os PNG. Primeiro: no slide 4,
+    a caixa do realce de "O cansaço cobra." cortava a cedilha do Ç de "PRODUÇÃO.",
+    que é a última linha do título logo acima. É a regra da zx-29 aparecendo em
+    uma forma que as notas ainda não tinham nomeado, porque até aqui o dano estava
+    descrito para acento de maiúscula, e neste caso o que entrou embaixo da caixa
+    foi um descendente, a cedilha. Corrigido trocando o título para "Hora não é /
+    entrega.", cuja segunda linha não tem descendente nenhum, e a troca ainda
+    deixou a peça mais coerente, porque "entrega" é a palavra que a peça usa do
+    começo ao fim. Segundo: na capa, o kicker "A HORA QUE SOME", em laranja, caía
+    sobre as janelas acesas e ficava ilegível da metade em diante, com a manchete
+    logo abaixo perfeitamente legível sobre o escuro. Corrigido subindo o scale de
+    1.6 para 1.9, o que levou a faixa acesa inteira para cima do kicker.
+  o_que_foi_conferido_e_estava_bom: >
+    O anel do poster-statement no slide 6 não encosta no texto: a linha mais larga
+    do corpo termina em x 900 e a borda do anel naquela altura começa em x 945,
+    com 45px de folga, medidos em recorte ampliado. O corredor do poster-scene e o
+    do poster-lines estão livres. O realce do slide 7, "Conte as horas.", cabe em
+    1 linha, como manda a regra da zx-53 para o title do poster-close.
+
+trilha:
+  faixa: "Steady Ground"
+  origem: "Meta Sound Collection"
+  por_que: >
+    Instrumental, sem letra, porque a peça se lê. Pulso regular e baixo firme,
+    do tipo que soa como um relógio andando sem pressa, para sustentar leitura de
+    método e de número ao longo de 7 slides. Evitar qualquer faixa de andamento
+    acelerado ou crescente, que contradiria o argumento da peça, e evitar o
+    catálogo popular do app, cuja licença é de uso pessoal e não vale para marca.
+  quem_adiciona: >
+    O Fabiano, à mão, editando o post no app depois de publicado. A API não
+    escolhe faixa.
+
+aprendizado_para_promocao_humana:
+  - >
+    A regra do realce, que começou na zx-29 e chegou ao quarto degrau na zx-53,
+    está escrita inteira em termos de acento de maiúscula na linha vizinha. A
+    zx-54 mostra que o alvo é mais largo: o que a caixa come é qualquer coisa
+    que ocupe a faixa vertical dela, e na linha DE CIMA isso inclui descendente
+    de caixa alta, como a cedilha do Ç. Proposta de reformular a regra em termos
+    de faixa vertical ocupada, e não de tipo de caractere, para a Inbox da
+    Memory.
+  - >
+    Proposta de linha nova na matriz editorial da nota 19c para jornada, teto de
+    semana e produtividade da hora, e de linha nova no ledger de repertório da
+    mesma nota para a curva de produtividade das horas, com Pencavel em 2015.
+    Nenhum dos 2 códigos foi declarado nesta peça, de propósito, e o motivo está
+    no matriz_nota e no repertorio_nota do contrato.

@@ -1,0 +1,300 @@
+{
+  "id": "zx-54-a-hora-que-nao-rende",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e sente que a semana só fecha se virar a noite: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: sexta à noite, você fica mais 2 horas para adiantar a entrega, e na segunda o trabalho continua do mesmo tamanho. Slot editorial: tarde de dia útil, papel de conteúdo principal, então a peça precisa entregar evidência medida e um método aplicável, e não apenas uma tensão.",
+    "decisao": "Parar de tratar hora trabalhada como sinônimo de entrega, escrever um teto para a semana e passar a medir o que sai, em vez de medir quanto tempo se ficou.",
+    "tensao": "Quem toca o negócio trata a hora extra como a alavanca mais barata que tem: não custa contratar, não custa comprar nada, basta ficar. A conta parece aritmética, hora a mais é entrega a mais. O que foi medido contraria isso em um ponto específico e verificável: abaixo de 49 horas semanais a produção de fato acompanha as horas, mas dali em diante a produção por hora cai, e o total produzido em 70 horas é quase igual ao produzido em 56. Ou seja, a alavanca não fica menos eficiente aos poucos, ela simplesmente para de funcionar, e a partir de certo ponto a hora acrescentada só gera correção para o dia seguinte.",
+    "evidencia": [
+      {
+        "claim": "em fábricas de munição britânicas da Primeira Guerra, com jornadas observadas de 24 a 72,5 horas semanais, a produção é proporcional às horas abaixo de 49 horas por semana e passa a crescer a taxas decrescentes a partir daí, com a produção por hora atingindo o ponto mais alto em 49 horas",
+        "status": "E",
+        "fonte": "John Pencavel, The Productivity of Working Hours, The Economic Journal, volume 125, número 589, 2015, páginas 2052 a 2076, reanálise dos dados do Health of Munition Workers Committee britânico"
+      },
+      {
+        "claim": "nos mesmos dados, a produção total atinge o máximo perto de 63 horas semanais e a produção de 70 horas difere pouco da produção de 56 horas",
+        "status": "E",
+        "fonte": "John Pencavel, The Productivity of Working Hours, The Economic Journal, 2015, seção IV"
+      },
+      {
+        "claim": "o trabalho aos domingos teve efeito estimado negativo sobre a produção, e o próprio comitê britânico registrou na época que 7 dias de trabalho produzem apenas 6 dias de produção",
+        "status": "E",
+        "fonte": "John Pencavel, The Productivity of Working Hours, The Economic Journal, 2015, com citação do Health of Munition Workers Committee, Final Report, 1918"
+      },
+      {
+        "claim": "os 4 passos de teto de semana e medição de entrega são adaptação da Zionaxs para negócio de serviço, e não resultado do estudo",
+        "status": "NC",
+        "fonte": "leitura editorial da Zionaxs, declarada no slide 6 e na legenda"
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a proporcionalidade entre produção e horas abaixo de 49 horas semanais, e o crescimento a taxas decrescentes a partir daí, nos dados britânicos de munição",
+        "o ponto mais alto da produção por hora em 49 horas semanais, com queda depois disso",
+        "o máximo da produção total perto de 63 horas semanais",
+        "a produção de 70 horas semanais diferir pouco da produção de 56 horas",
+        "o efeito estimado negativo do trabalho aos domingos sobre a produção",
+        "a faixa de jornadas observadas no estudo, de 24 a 72,5 horas por semana"
+      ],
+      "I": [
+        "a passagem do achado, medido em trabalho manual de fábrica, para a semana de quem toca um negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos do slide 5, que são adaptação editorial da Zionaxs, incluindo o teto de exemplo de 45 horas e a comparação de 4 semanas"
+      ]
+    },
+    "limites": [
+      "As medições são de fábricas de munição britânicas entre 1915 e 1918, com trabalho manual repetitivo e produção contada em peças. Não medem trabalho de escritório, atendimento nem trabalho de conhecimento, e a peça não afirma percentual nenhum sobre clínica, contabilidade, advocacia ou agência.",
+      "O contexto do estudo é de guerra, com jornadas extremas por decisão de Estado: o próprio material registra que jornadas de 70 a 90 horas semanais eram comuns e que havia casos acima de 100 horas. Esse regime não descreve a rotina de um negócio de serviço hoje, e serve como caso extremo em que o efeito aparece com clareza, não como espelho da semana do leitor.",
+      "Os pontos de 49 e de 63 horas são estimativas de um modelo ajustado àqueles dados, e não constantes universais. O que se transporta é a forma da curva, ou seja, a existência de um ponto em que a hora acrescentada deixa de compensar, e não o número exato.",
+      "O teto de 45 horas do slide 5 é exemplo editorial da Zionaxs para dar forma ao passo, não recomendação extraída do estudo, e está declarado como tal na legenda."
+    ]
+  },
+  "tese": "Depois de certo ponto, a hora a mais não vira entrega. Em dados de fábricas britânicas da Primeira Guerra reanalisados pelo economista John Pencavel em 2015, a produção por hora para de subir em 49 horas semanais e cai a partir dali, e o total produzido em 70 horas é quase igual ao produzido em 56. A saída não é mais uma noite de trabalho: é escrever um teto para a semana e medir a entrega, não as horas.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata da relação entre horas trabalhadas e produção, nem de teto de jornada. As 3 mais próximas não servem: M01 é agenda cheia sem produção, resolvida com denominador certo para ler capacidade, portanto ocupação de agenda medida errado, que foi território da zx-41, e não o rendimento decrescente da hora acrescentada; M10 é clientes por FTE sem autoengano, que é composição de carteira e foi território da zx-34; M17 é automatizar o processo errado, que trata de escolher o processo antes de acelerá-lo, e foi território da zx-28 e da zx-35. Declarar M01 porque as 2 falam de agenda e de produção seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. Vale registrar a vizinhança com a zx-35, que tratou do trabalho que se espalha até ocupar o prazo reservado: lá o mecanismo é o prazo que dita o esforço, aqui é a hora que deixa de render por cansaço, e as 2 leituras convivem. A proposta de acrescentar à matriz uma linha própria para jornada, teto de semana e produtividade da hora vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e não tem linha sobre jornada, fadiga ou produtividade das horas. R9, de W. Edwards Deming, é o parente mais próximo, porque a oposição registrada nele, culpa individual contra desenho do sistema, descreve de fato a virada desta peça: a entrega não some por falta de empenho de quem ficou até tarde, o desenho da semana é que deixou de render. Mas R9 está registrada para o caso de mapear entrada, dependência, variação e incentivo antes de responsabilizar uma pessoa por um indicador, que é diagnóstico de causa diante de um resultado ruim, enquanto esta peça mede o rendimento decrescente de um insumo, que é outro mecanismo. R8, do Sistema Toyota de Produção, trata de parar a linha diante de defeito ou dado duvidoso, que é parada disparada por sinal de risco, e não teto agendado de jornada. E nenhum slide cita Deming ou Toyota: a fonte é John Pencavel em 2015, externa ao ledger. Forçar R9 faria a peça parecer ancorada em repertório que ela não usa. A proposta de acrescentar ao ledger uma linha de jornada e produtividade das horas, com essa fonte, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": ["JE4", "JO2"],
+  "cta": "Somar as horas realmente trabalhadas em 1 semana, escrever um teto para a semana seguinte e cortar a primeira hora que não virou entrega.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a conta intuitiva de que hora a mais é entrega a mais; ver a cena concreta da noite de sexta que não adiantou a segunda; receber a evidência com os 2 pontos de virada, 49 horas para a produção por hora e 63 para o total, que é a unidade de evidência da peça; virar para o mecanismo, que é a hora acrescentada render menos porque o cansaço cobra; receber os 4 passos aplicáveis, que são a unidade salvável; ouvir o limite, que aqui é forte e precisa ser dito, porque o dado é de fábrica e não de escritório; e sair com o passo de hoje. A unidade de evidência está concentrada nos slides 1 e 3, com os 2 recortes separados para respeitar a regra de no máximo 1 ideia-fonte por slide.",
+  "internal_metadata": ["zx-54", "JE4", "JO2", "acquisition"],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Ground",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa de pulso regular e baixo firme, do tipo que soa como um relógio andando sem pressa: o slot é o da tarde de dia útil e o papel é de conteúdo principal, então a trilha precisa sustentar leitura de método e de número, com groove constante que segura a atenção por 7 slides sem chamar atenção para si. Evitar qualquer coisa que soe como corrida contra o tempo, porque a peça defende exatamente o contrário.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia, e faixa de andamento acelerado ou crescente, que contradiria o argumento da peça."
+  },
+  "caption": [
+    "Você já ficou até tarde para adiantar a semana e, na segunda, o trabalho continuava do mesmo tamanho. Isso tem medida, e ela é antiga.",
+    "Em 2015, John Pencavel, economista da Universidade Stanford, publicou no The Economic Journal um estudo sobre a produtividade das horas de trabalho. Ele reanalisou um material raro: as medições do Comitê de Saúde dos Trabalhadores de Munição, criado pelo governo britânico durante a Primeira Guerra, que acompanhou a produção de grupos de operários semana a semana, com jornadas que iam de 24 a 72 horas.",
+    "O resultado tem 2 partes. Enquanto a semana é curta, a produção acompanha as horas de perto. A partir de 49 horas semanais isso se quebra: a produção por hora chega ao ponto mais alto ali e cai daí em diante, e o total produzido atinge o máximo perto de 63 horas. O número que resume a história é este: quem fazia 70 horas por semana produzia quase o mesmo que quem fazia 56.",
+    "O estudo também mediu o trabalho aos domingos, e o efeito estimado foi negativo. O próprio comitê britânico já havia escrito, na época, que 7 dias de trabalho produzem apenas 6 dias de produção.",
+    "Na prática, 4 passos. 1: conte as horas reais de 1 semana sua, incluindo a noite e o fim de semana. 2: escreva um teto para a semana, por exemplo 45 horas, e deixe o número visível para a equipe. 3: meça a entrega, quantas saíram e quantas voltaram para correção, em vez de medir as horas. 4: compare 4 semanas. Se a entrega não cair com o teto, a hora extra estava pagando correção, e não produção.",
+    "Um cuidado importante. As medidas vêm de fábricas de munição entre 1915 e 1918, com trabalho manual e peças contadas uma a uma. Ninguém mediu ali advogado, contador ou dentista, então a passagem para o seu escritório é leitura da Zionaxs, e os 4 passos são adaptação nossa.",
+    "Comece hoje. Abra a agenda desta semana e some as horas que você realmente trabalhou."
+  ],
+  "caption_sources": [
+    "John Pencavel, The Productivity of Working Hours, The Economic Journal, volume 125, número 589, 2015, páginas 2052 a 2076. Reanálise dos dados coletados pelo Health of Munition Workers Committee britânico entre 1915 e 1918.",
+    "Health of Munition Workers Committee, Final Report, Reino Unido, 1918, seção sobre trabalho aos domingos, citado por Pencavel em 2015."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A hora que some",
+      "copy": {
+        "title": "A hora a mais\nnão apareceu.",
+        "accentLine": "70 horas rendem 56.",
+        "hl": "70 horas rendem 56.",
+        "sub": "Em fábricas de munição britânicas da Primeira Guerra, inspetores mediram a produção de cada grupo semana a semana, com jornadas de 24 a 72 horas. O economista John Pencavel, da Universidade Stanford, reanalisou esses números em 2015: quem fazia 70 horas produzia quase o mesmo que quem fazia 56.",
+        "year": "2026",
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125 · foto: Matthew Dlr"
+      },
+      "approved_visible_copy": [
+        "A hora que some",
+        "01/07",
+        "A hora a mais não apareceu.",
+        "70 horas rendem 56.",
+        "Em fábricas de munição britânicas da Primeira Guerra, inspetores mediram a produção de cada grupo semana a semana, com jornadas de 24 a 72 horas. O economista John Pencavel, da Universidade Stanford, reanalisou esses números em 2015: quem fazia 70 horas produzia quase o mesmo que quem fazia 56.",
+        "2026",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125 · foto: Matthew Dlr"
+      ],
+      "alt": "Slide 1 de 7. A hora a mais não apareceu, 70 horas rendem 56. Em fábricas de munição britânicas da Primeira Guerra, inspetores mediram a produção de cada grupo semana a semana, com jornadas de 24 a 72 horas. O economista John Pencavel, da Universidade Stanford, reanalisou esses números em 2015: quem fazia 70 horas produzia quase o mesmo que quem fazia 56. Fotografia noturna da fachada escura de um edifício, vista de baixo, com uma faixa de janelas ainda acesas no alto e o restante do prédio no escuro.",
+      "photo": {
+        "src": "../assets/foto-predio-aceso-noite.jpg",
+        "pos": "50% 50%",
+        "scale": 1.9,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Sexta,\n21h40."
+        ],
+        "closing": "Você ficou mais 2 horas para adiantar a entrega da semana. Na segunda, o trabalho não estava adiantado: estava do mesmo tamanho, com 3 correções pequenas para fazer. A conta parecia óbvia, hora a mais é entrega a mais.",
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125 · foto: Debby Hudson"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Sexta, 21h40.",
+        "Você ficou mais 2 horas para adiantar a entrega da semana. Na segunda, o trabalho não estava adiantado: estava do mesmo tamanho, com 3 correções pequenas para fazer. A conta parecia óbvia, hora a mais é entrega a mais.",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125 · foto: Debby Hudson"
+      ],
+      "alt": "Slide 2 de 7. Sexta, 21h40. Você ficou mais 2 horas para adiantar a entrega da semana. Na segunda, o trabalho não estava adiantado: estava do mesmo tamanho, com 3 correções pequenas para fazer. A conta parecia óbvia, hora a mais é entrega a mais. Papel claro com fotografia em preto e branco de um relógio de parede redondo marcando 9 horas e 40 minutos, com um pequeno indicador de lua apontando que é noite.",
+      "photo": {
+        "src": "../assets/foto-relogio-2140.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Sobe até 49.",
+          "Cai depois."
+        ],
+        "closing": "Nos mesmos dados, a produção por hora sobe enquanto a semana é curta, chega ao ponto mais alto em 49 horas e cai a partir dali. O total ainda cresce um pouco, porque cada hora nova rende menos que a anterior, e o máximo aparece perto de 63 horas. Passar disso reduz o que sai.",
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Sobe até 49.",
+        "Cai depois.",
+        "Nos mesmos dados, a produção por hora sobe enquanto a semana é curta, chega ao ponto mais alto em 49 horas e cai a partir dali. O total ainda cresce um pouco, porque cada hora nova rende menos que a anterior, e o máximo aparece perto de 63 horas. Passar disso reduz o que sai.",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125"
+      ],
+      "alt": "Slide 3 de 7. Sobe até 49. Cai depois. Nos mesmos dados, a produção por hora sobe enquanto a semana é curta, chega ao ponto mais alto em 49 horas e cai a partir dali. O total ainda cresce um pouco, porque cada hora nova rende menos que a anterior, e o máximo aparece perto de 63 horas. Passar disso reduz o que sai."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "Hora não é\nentrega.",
+        "accent": "O cansaço cobra.",
+        "hl": "O cansaço cobra.",
+        "ghost": "56",
+        "year": "2026",
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125",
+        "body": "A hora 1 do dia e a hora 12 não rendem igual. Cansaço, erro e retrabalho crescem junto com a jornada, então a hora acrescentada no fim da noite entrega menos do que entregou a do começo. Em algum ponto ela passa a custar mais do que traz, porque o erro dela volta como correção no dia seguinte."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Hora não é entrega.",
+        "O cansaço cobra.",
+        "2026",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125",
+        "A hora 1 do dia e a hora 12 não rendem igual. Cansaço, erro e retrabalho crescem junto com a jornada, então a hora acrescentada no fim da noite entrega menos do que entregou a do começo. Em algum ponto ela passa a custar mais do que traz, porque o erro dela volta como correção no dia seguinte."
+      ],
+      "alt": "Slide 4 de 7. Hora não é entrega. O cansaço cobra. A hora 1 do dia e a hora 12 não rendem igual. Cansaço, erro e retrabalho crescem junto com a jornada, então a hora acrescentada no fim da noite entrega menos do que entregou a do começo. Em algum ponto ela passa a custar mais do que traz, porque o erro dela volta como correção no dia seguinte. Campo laranja chapado com o número 56 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O teto em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Conte as horas reais de 1 semana sua, incluindo a noite e o fim de semana."
+          },
+          {
+            "num": "2",
+            "label": "Escreva um teto para a semana, por exemplo 45 horas, e deixe o número visível."
+          },
+          {
+            "num": "3",
+            "label": "Meça a entrega, não as horas: quantas saíram e quantas voltaram para correção."
+          },
+          {
+            "num": "4",
+            "label": "Compare 4 semanas. Se a entrega não cair com o teto, a hora extra pagava correção."
+          }
+        ],
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O teto em 4 passos.",
+        "1",
+        "Conte as horas reais de 1 semana sua, incluindo a noite e o fim de semana.",
+        "2",
+        "Escreva um teto para a semana, por exemplo 45 horas, e deixe o número visível.",
+        "3",
+        "Meça a entrega, não as horas: quantas saíram e quantas voltaram para correção.",
+        "4",
+        "Compare 4 semanas. Se a entrega não cair com o teto, a hora extra pagava correção.",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125"
+      ],
+      "alt": "Slide 5 de 7. O teto em 4 passos. 1: conte as horas reais de 1 semana sua, incluindo a noite e o fim de semana. 2: escreva um teto para a semana, por exemplo 45 horas, e deixe o número visível. 3: meça a entrega, não as horas, ou seja, quantas saíram e quantas voltaram para correção. 4: compare 4 semanas, e se a entrega não cair com o teto, a hora extra pagava correção. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "O dado é\nde fábrica.",
+        "accent": "Não de escritório.",
+        "body": "As medidas vêm de fábricas de munição entre 1915 e 1918, com trabalho manual e peças contadas. Ninguém mediu escritório ali, e a passagem para a sua semana é leitura da Zionaxs.",
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "O dado é de fábrica.",
+        "Não de escritório.",
+        "As medidas vêm de fábricas de munição entre 1915 e 1918, com trabalho manual e peças contadas. Ninguém mediu escritório ali, e a passagem para a sua semana é leitura da Zionaxs.",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125"
+      ],
+      "alt": "Slide 6 de 7. O dado é de fábrica, não de escritório. As medidas vêm de fábricas de munição entre 1915 e 1918, com trabalho manual e peças contadas. Ninguém mediu escritório ali, e a passagem para a sua semana é leitura da Zionaxs."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Conte as horas.",
+        "hl": "Conte as horas.",
+        "accent": "De 1 semana sua.",
+        "body": "Abra a agenda desta semana e some as horas que você realmente trabalhou, incluindo noite e sábado. Escreva o número. Na semana que vem, corte a primeira hora que você já sabe que não virou entrega.",
+        "year": "2026",
+        "temas": "Temas: Jornada / Produção / Equipe",
+        "micro": "@zionaxs_ · ref d4eac125 · foto: Kartabya Aryal"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Conte as horas.",
+        "De 1 semana sua.",
+        "Abra a agenda desta semana e some as horas que você realmente trabalhou, incluindo noite e sábado. Escreva o número. Na semana que vem, corte a primeira hora que você já sabe que não virou entrega.",
+        "2026",
+        "Temas: Jornada / Produção / Equipe",
+        "@zionaxs_ · ref d4eac125 · foto: Kartabya Aryal"
+      ],
+      "alt": "Slide 7 de 7. Conte as horas, de 1 semana sua. Abra a agenda desta semana e some as horas que você realmente trabalhou, incluindo noite e sábado. Escreva o número. Na semana que vem, corte a primeira hora que você já sabe que não virou entrega. Fotografia escura da silhueta de uma cadeira de escritório vazia diante de uma janela com cortina, com a luz rosada do fim do dia atrás.",
+      "photo": {
+        "src": "../assets/foto-cadeira-fim-do-dia.jpg",
+        "pos": "65% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}
