@@ -1,0 +1,333 @@
+{
+  "id": "zx-53-o-tom-que-voce-ouviu",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e decide por escrito o dia inteiro: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: a mensagem que você mandou para o cliente ou para a equipe chegou com outro tom, e a conversa seguinte começou torta. Slot editorial: manhã de dia útil, papel de descoberta e curiosidade, então a peça precisa entrar por um achado que contraria a intuição e sair com 1 teste aplicável antes do almoço.",
+    "decisao": "Parar de confiar no tom que você ouve enquanto escreve e conferir a mensagem difícil em voz alta, no tom contrário, antes de mandar.",
+    "tensao": "Quem escreve acha que a mensagem está clara, porque ouve a própria entonação na cabeça enquanto digita, e por isso lê a confusão do outro como desatenção ou má vontade. O que foi medido contraria essa leitura: o autor não escreve mal, ele avalia o próprio texto ouvindo um tom que não está escrito em lugar nenhum. E o conserto medido não é escrever melhor, é mudar o que o autor ouve: quem foi obrigado a ler a própria frase no tom contrário parou de se achar mais claro do que era.",
+    "evidencia": [
+      {
+        "claim": "em experimento com 12 estudantes universitários em pares, cada um escreveu 2 frases sobre cada um de 10 assuntos, metade sérias e metade irônicas, mandou por e-mail e previu quanto o colega acertaria; eles esperavam 97% de acerto e o colega acertou 84%",
+        "status": "E",
+        "fonte": "Justin Kruger, Nicholas Epley, Jason Parker e Zhi-Wen Ng, Egocentrism Over E-Mail: Can We Communicate as Well as We Think?, Journal of Personality and Social Psychology, volume 89, número 6, 2005, páginas 925 a 936. Texto integral hospedado pela Stern School of Business da Universidade de Nova York lido nesta execução. Estudo 1: Twelve Cornell University students participated in exchange for extra credit; Each participant was given a list of 10 topics and asked to e-mail two one-sentence statements about each one; participants were instructed to make half of the sentences serious and the other half sarcastic; On average, participants expected 97% of their topics to be correctly decoded, compared with the 84% that actually were."
+      },
+      {
+        "claim": "no mesmo artigo, quando as mesmas frases foram sorteadas entre e-mail e voz, quem ouviu decifrou perto de 3 em cada 4, quem leu ficou em um acerto indistinguível do palpite de 50%, e a confiança de quem mandou foi igual nos 2 casos",
+        "status": "E",
+        "fonte": "Mesmo artigo, estudo 2, com 60 estudantes da Cornell, analisado em 29 duplas. Corpo do texto lido nesta execução: participants who listened to the statements decoded nearly three-quarters of them, compared with an accuracy rate indistinguishable from chance (50%) among participants who read them on e-mail; Although participants' actual ability to communicate sarcasm varied considerably depending on whether they used e-mail or their voice, their confidence in their ability did not."
+      },
+      {
+        "claim": "em estudo com 154 duplas, com 5 frases combinadas com 4 tons, ironia, seriedade, raiva e tristeza, em e-mail, voz e cara a cara, entre amigos e entre estranhos, os participantes previram acertar 88,8% e acertaram 70,4%",
+        "status": "E",
+        "fonte": "Mesmo artigo, estudo 3. Método lido nesta execução: One hundred fifty-four pairs of University of Illinois students participated on a volunteer basis; the study would involve constructing, and then communicating, a series of five statements, each of which would be paired with one of four emotions or tones; Each topic was matched to one of four emotions or tones (sarcasm, seriousness, anger, or sadness). Resultado: Participants predicted that they would successfully communicate more emotions or tones (M = 88.8%) than they actually did (M = 70.4%)."
+      },
+      {
+        "claim": "no mesmo estudo das 154 duplas, ser amigo em vez de estranho não melhorou o acerto",
+        "status": "E",
+        "fonte": "Mesmo artigo, estudo 3. Corpo do texto lido nesta execução: An interesting result was that familiarity also had no influence on the results; it suggests increased familiarity does not necessarily translate into increased communication accuracy, contrary to what one might expect."
+      },
+      {
+        "claim": "a causa apontada pelos autores é que quem escreve ouve a própria entonação enquanto digita, e um experimento com 54 estudantes testou isso: metade leu as próprias frases em voz alta no tom pretendido e metade no tom contrário, e no grupo do tom contrário o excesso de confiança desapareceu",
+        "status": "E",
+        "fonte": "Mesmo artigo, estudo 4. Método lido nesta execução: Fifty-four University of Illinois students participated in pairs; Half of the participants were asked to intonate in a manner consistent with the intended meaning and the other half in a manner inconsistent with the intended meaning. Resultado: the phenomenology manipulation completely erased participants' overconfidence; Whereas participants in the same-phenomenology condition overestimated the number of sentences their partner in the experiment would be able to correctly identify, there was no difference in anticipated and actual communication among participants in the opposite-phenomenology condition."
+      },
+      {
+        "claim": "o mesmo desenho vale para a mensagem que um escritório manda ao cliente ou à equipe no Brasil",
+        "status": "I",
+        "fonte": "Inferência editorial da Zionaxs. Os 4 estudos mediram frases curtas sobre assuntos do campus, escritas por estudantes americanos em laboratório. Nenhum deles mediu proposta comercial, cobrança de prazo ou devolutiva de equipe em negócio de serviço brasileiro. A peça declara essa passagem como leitura, no slide 6 e na legenda, e não a atribui aos autores."
+      },
+      {
+        "claim": "os 4 passos do slide 5, entre eles dizer a intenção na primeira linha e o limite de 30 segundos de áudio",
+        "status": "NC",
+        "fonte": "Adaptação editorial da Zionaxs a partir das fontes. O passo de ler no tom contrário vem direto do estudo 4 e o de trocar texto por voz vem dos estudos 2 e 3, mas os autores não prescrevem método de escrita para trabalho de escritório, não recomendam declarar intenção na primeira linha e não citam duração de áudio. Os números e a redação dos passos são escolha da Zionaxs, declarada na legenda."
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 97% previstos contra os 84% acertados, com 12 estudantes em pares e 10 assuntos por pessoa",
+        "o acerto perto de 3 em cada 4 na voz contra o acerto indistinguível de 50% no e-mail, com a mesma confiança nos 2 casos",
+        "os 88,8% previstos contra os 70,4% acertados, com 154 duplas, 5 frases e 4 tons",
+        "a ausência de efeito da familiaridade no acerto, entre amigos e estranhos",
+        "o desaparecimento do excesso de confiança no grupo que leu as próprias frases no tom contrário, com 54 estudantes"
+      ],
+      "I": [
+        "a passagem do achado para a mensagem de trabalho de um negócio de serviço brasileiro"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos do slide 5, que são adaptação editorial da Zionaxs, incluindo declarar a intenção na primeira linha e o limite de 30 segundos de áudio"
+      ]
+    },
+    "limites": [
+      "Os 4 estudos mediram frases curtas sobre assuntos de campus, escritas em laboratório por estudantes americanos entre 2002 e 2005, e o desfecho era acertar 1 tom em uma lista fechada. Não mediram proposta comercial, cobrança de prazo nem devolutiva de equipe, e a peça não afirma percentual nenhum sobre escritório.",
+      "O recorte de 50% no e-mail vem do estudo 2, em que a tarefa era distinguir irônico de sério, ou seja, 2 opções. Em uma tarefa de 2 opções, 50% é o resultado de quem chuta, e é por isso que os autores usam a palavra chance. Não quer dizer que metade de toda mensagem escrita seja mal entendida.",
+      "O estudo 1 tem 12 participantes e o estudo 4 tem 54, amostras pequenas. O estudo 3, com 154 duplas, é o maior e o que sustenta o número de 88,8% contra 70,4%. A peça usa os 2 primeiros para entrada e mecanismo, e o terceiro para tamanho.",
+      "Os 4 passos e o limite de 30 segundos de áudio não saem dos artigos: são escolha editorial da Zionaxs para caber na rotina de equipe pequena, declarada como tal na legenda."
+    ]
+  },
+  "tese": "Quem escreve ouve a própria entonação enquanto digita e avalia o texto por ela, então acha a mensagem mais clara do que ela é. Em 1 experimento, os autores esperavam que o colega decifrasse 97% dos assuntos por e-mail e ele decifrou 84%; em outro, com 154 duplas, a previsão foi 88,8% e o acerto 70,4%, e ser amigo do destinatário não melhorou nada. O conserto medido não foi escrever melhor: quem foi obrigado a ler a própria frase em voz alta no tom contrário parou de se superestimar. Consequência prática: antes de mandar a mensagem difícil, leia em voz alta no tom contrário, e se ela funcionar nos 2 tons, reescreva ou ligue.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de clareza de comunicação escrita nem de escolha de canal para uma mensagem. As 3 mais próximas não servem: M18 é número que ninguém confia, resolvido com dicionário de métricas, ou seja, definição de dado, e não interpretação de tom, além de ter sido território da zx-23; M19 é dependência de pessoa-chave, resolvida com limites de decisão, que é quem decide, e não como a decisão é comunicada, e foi território da zx-21; M12 é máquina mínima de comercial, que trata de ritual de prospecção e não de redação de mensagem. Declarar qualquer uma porque todas tocam a rotina seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. A proposta de acrescentar à matriz uma linha própria para clareza de comunicação escrita e escolha de canal vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e não tem linha de comunicação nem de perspectiva do outro. R5, de Amy Edmondson, é o parente mais próximo, porque trata do que a equipe consegue dizer, mas ela descreve o custo de esconder dúvida por medo, que é escolha de falar ou calar, enquanto esta peça trata de quem falou, achou que foi entendido e não foi. R9, de W. Edwards Deming, também não serve: ela manda olhar o desenho do sistema antes de responsabilizar a pessoa, e aqui não há indicador ruim a diagnosticar. E nenhum slide cita Edmondson ou Deming: as fontes são Kruger, Epley, Parker e Ng em 2005, externas ao ledger. A proposta de acrescentar ao ledger uma linha de comunicação e egocentrismo de perspectiva, com essa fonte, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF4",
+    "JE4"
+  ],
+  "cta": "Pegar a última mensagem difícil da semana, ler em voz alta no tom contrário e reescrever se ela se sustentar nos 2 tons.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura de que a confusão é desatenção do outro; ver a cena concreta do texto que chega sem entonação; receber a segunda evidência, com amostra maior e 4 tons, para que o efeito não pareça de um estudo só; virar para o mecanismo, que é ouvir a própria voz enquanto escreve; receber os 4 passos aplicáveis, que são a unidade salvável desta peça; ouvir o limite, que aqui é medido e desconfortável, porque conhecer a pessoa não ajudou; e sair com o passo de hoje. A unidade de evidência existe e são os slides 1 e 3, com os 2 recortes separados para respeitar a regra de no máximo 1 ideia-fonte por slide.",
+  "internal_metadata": [
+    "zx-53",
+    "JF4",
+    "JE4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Quiet Signal",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso, e aqui o problema é ainda maior, porque a peça fala justamente de voz e de tom, e uma voz cantando dentro do post competiria com o argumento. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo. A nota específica desta peça é procurar uma faixa de textura calma e clara, com som de sala aberta e pouca percussão, do tipo que soa como alguém falando baixo em um ambiente silencioso: o slot é o da manhã de dia útil e o papel é de descoberta, então a trilha precisa soar como quem conta uma coisa curiosa, não como quem avisa de um problema.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, e faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia. Nesta peça o cuidado extra é com trilha tensa ou de suspense, porque o texto fala de mensagem mal entendida e de conversa que começa torta, e música tensa transformaria uma peça de método em peça de conflito, o que o gate ético da nota 19c proíbe. Evitar também o perfil de pulso contido e sala concentrada pedido na zx-50, o arejado da zx-51 e o pulso contínuo e quase automático da zx-52, para as peças vizinhas no feed não soarem iguais.",
+    "nota_de_execucao": "Esta sessão em nuvem não teve acesso ao índice da coleção de trilhas, que vive fora do repositório, em ZX_TRILHAS ou em C:/dev/sound-collection, e a variável está vazia neste ambiente. O nome acima é indicação de perfil, não faixa confirmada no acervo. Na hora de postar, escolha na Meta Sound Collection qualquer faixa instrumental de textura calma e clara, arranjo esparso, percussão discreta e intensidade estável, atendendo aos 4 critérios do padrão de copy, e prefira uma que ainda não tenha sido usada nas últimas peças: Groove in Bloom saiu na zx-25 e na zx-26, e da zx-27 à zx-52 o perfil pedido variou entre pulso seco, textura quente, som discreto sem ataque marcado, baixo presente com harmonia parada, pulso regular quase mecânico, arranjo esparso com espaço audível, pulso uniforme sem ponto de virada, textura contínua sem ataques, pulso metronômico de textura seca, final que decai, pulso audível o tempo todo, nota longa por baixo, pulso grave com harmonia parada, pulso leve de sala clara, pulso contido de sala concentrada e pulso contínuo quase automático."
+  },
+  "caption": [
+    "Você já mandou uma mensagem certíssima e recebeu de volta uma resposta atravessada. A explicação não é desatenção do outro, e ela foi medida.",
+    "Em 2005, Justin Kruger, professor de marketing na Universidade de Nova York, com Nicholas Epley, Jason Parker e Zhi-Wen Ng, publicou no Journal of Personality and Social Psychology 5 experimentos sobre isso. No primeiro, 12 estudantes escreveram 20 frases cada um, metade sérias e metade irônicas, e mandaram por e-mail para um colega. Eles esperavam que o colega acertasse o tom em 97% dos assuntos. O colega acertou 84%.",
+    "No terceiro experimento a conta ficou maior e pior. Foram 154 duplas, 5 frases combinadas com 4 tons, ironia, seriedade, raiva e tristeza, por e-mail, por voz e cara a cara. Todo mundo previu acertar 88,8% das vezes. O acerto real foi 70,4%. E ser amigo do destinatário não melhorou nada.",
+    "A causa que os autores apontam é simples de reconhecer. Quando você digita, você ouve a sua própria entonação, com a pausa e a ênfase que quis dar, e julga o texto por ela. O leitor recebe só as palavras e monta o tom com o que tem na hora.",
+    "A prova está no quarto experimento. 54 estudantes leram as próprias frases em voz alta antes de prever o acerto do colega: metade no tom que pretendia, metade no tom contrário. No grupo do tom contrário, o excesso de confiança sumiu. Mudar o que o autor ouve mudou o que ele esperava.",
+    "Na prática, 4 passos. 1: antes de mandar, leia a mensagem em voz alta com o tom contrário ao que você quis dar. 2: se ela funcionar nos 2 tons, o leitor pode escolher o errado, então reescreva até sobrar 1. 3: diga a intenção na primeira linha, se é urgente, se é só aviso, se é elogio. 4: se o sentido ainda depender do tom, não escreva, ligue ou grave 30 segundos de áudio.",
+    "Um cuidado. Os estudos usaram frases curtas de laboratório, com estudantes americanos, e a tarefa era escolher 1 tom em uma lista fechada. Nenhum mediu proposta de cliente nem cobrança de prazo, então a passagem para o seu escritório é leitura da Zionaxs, e os 4 passos são adaptação nossa.",
+    "Comece hoje. Abra a última mensagem difícil que você mandou esta semana e leia em voz alta, como se fosse ironia."
+  ],
+  "caption_sources": [
+    "Fonte dos 97% contra 84%, do acerto por voz contra o acerto por e-mail, dos 88,8% contra 70,4%, da ausência de efeito da familiaridade e do experimento do tom contrário: Justin Kruger, Nicholas Epley, Jason Parker e Zhi-Wen Ng, Egocentrism Over E-Mail: Can We Communicate as Well as We Think?, Journal of Personality and Social Psychology, volume 89, número 6, 2005, páginas 925 a 936. Texto integral hospedado pela Stern School of Business da Universidade de Nova York lido nesta execução.",
+    "Recorte do estudo 1: 12 estudantes da Universidade Cornell, em duplas, cada um com 10 assuntos e 2 frases por assunto, metade sérias e metade irônicas, enviadas por e-mail, sem emoticons. A análise foi feita por dupla, e os 97% e os 84% são médias de assuntos decifrados.",
+    "Recorte do estudo 2: 60 estudantes da Cornell, analisados em 29 duplas, com 10 frases escolhidas por participante e sorteio entre e-mail e voz. Quem ouviu decifrou perto de 3 em cada 4; quem leu ficou em acerto indistinguível de 50%. A confiança de quem mandou foi a mesma nos 2 canais. Nesse desenho a escolha era entre 2 opções, irônico ou sério, então 50% é o resultado esperado de quem chuta, e não uma taxa geral de falha de mensagem escrita.",
+    "Recorte do estudo 3: 154 duplas da Universidade de Illinois, recrutadas de porta em porta como amigos ou como estranhos, com 5 frases por pessoa, cada uma combinada com 1 de 4 tons, ironia, seriedade, raiva ou tristeza, comunicadas por e-mail, por voz sem ver o outro ou cara a cara. Previsão média de 88,8% contra acerto médio de 70,4%.",
+    "Recorte do estudo 4: 54 estudantes da Universidade de Illinois, em duplas, todos comunicando por e-mail, com 5 frases irônicas e 5 sérias. Antes de prever o acerto do colega, metade gravou as próprias frases no tom pretendido e metade no tom contrário. No segundo grupo a diferença entre previsão e acerto desapareceu.",
+    "Limitação de universo: os desfechos são identificação de tom em frases curtas sobre assuntos de campus, escritas por estudantes americanos em laboratório. Nenhum dos estudos mediu proposta comercial, cobrança de prazo ou devolutiva de equipe em negócio de serviço brasileiro, então a peça não afirma percentual nenhum sobre esses contextos e trata a passagem como leitura da Zionaxs.",
+    "Limitação de amostra: o estudo 1 tem 12 participantes e o estudo 4 tem 54. O estudo 3, com 154 duplas, é o maior e é o que sustenta os 88,8% contra 70,4%.",
+    "Os 4 passos do slide 5 são adaptação editorial da Zionaxs. O passo de ler no tom contrário vem do estudo 4 e o de trocar texto por voz vem dos estudos 2 e 3, mas declarar a intenção na primeira linha e o limite de 30 segundos de áudio são escolha da Zionaxs, não recomendação dos autores.",
+    "Matriz: a nota 19c da Zionaxs não tem linha para clareza de comunicação escrita nem para escolha de canal, então esta peça não declara código de matriz. A proposta de acrescentar essa linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Repertório: o ledger da nota 19c não tem linha de comunicação nem de perspectiva do outro. R5, de Amy Edmondson, trata do que a equipe consegue dizer por segurança psicológica, e não de quem falou e não foi entendido, e nenhum slide a cita. A proposta de acrescentar a linha está na Inbox da Zionaxs Memory, para promoção humana.",
+    "Fotos: Harry Prabowo, Markus Winkler e Alicia Petresc, via Unsplash."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O tom invisível",
+      "copy": {
+        "title": "Você ouviu\no seu tom.",
+        "accentLine": "97% viraram 84%.",
+        "hl": "97% viraram 84%.",
+        "sub": "Em um experimento, cada participante escreveu 20 frases por e-mail, metade sérias e metade irônicas, e apostou quanto o colega acertaria. Eles esperavam que o colega decifrasse 97% dos assuntos. O colega decifrou 84%. Ninguém escreveu mal: o tom que o autor ouvia na cabeça não foi junto com as palavras.",
+        "year": "2026",
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86 · foto: Harry Prabowo"
+      },
+      "approved_visible_copy": [
+        "O tom invisível",
+        "01/07",
+        "Você ouviu o seu tom.",
+        "97% viraram 84%.",
+        "Em um experimento, cada participante escreveu 20 frases por e-mail, metade sérias e metade irônicas, e apostou quanto o colega acertaria. Eles esperavam que o colega decifrasse 97% dos assuntos. O colega decifrou 84%. Ninguém escreveu mal: o tom que o autor ouvia na cabeça não foi junto com as palavras.",
+        "2026",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86 · foto: Harry Prabowo"
+      ],
+      "alt": "Slide 1 de 7. Você ouviu o seu tom, 97% viraram 84%. Em um experimento, cada participante escreveu 20 frases por e-mail, metade sérias e metade irônicas, e apostou quanto o colega acertaria. Eles esperavam que o colega decifrasse 97% dos assuntos. O colega decifrou 84%. Ninguém escreveu mal: o tom que o autor ouvia na cabeça não foi junto com as palavras. Fotografia escura da silhueta de uma pessoa sentada diante de uma janela clara, de perfil, segurando um celular na mão erguida, com o rosto inteiramente em sombra.",
+      "photo": {
+        "src": "../assets/foto-silhueta-mensagem.jpg",
+        "pos": "50% 50%",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Sem voz\nnenhuma."
+        ],
+        "closing": "No experimento, a frase saía por e-mail, sem entonação, sem pausa e sem gesto. O autor sabia muito bem o que quis dizer. Quem leu tinha só as palavras na tela, e escolheu o tom sozinho.",
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86 · foto: Markus Winkler"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Sem voz nenhuma.",
+        "No experimento, a frase saía por e-mail, sem entonação, sem pausa e sem gesto. O autor sabia muito bem o que quis dizer. Quem leu tinha só as palavras na tela, e escolheu o tom sozinho.",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86 · foto: Markus Winkler"
+      ],
+      "alt": "Slide 2 de 7. Sem voz nenhuma. No experimento, a frase saía por e-mail, sem entonação, sem pausa e sem gesto. O autor sabia muito bem o que quis dizer. Quem leu tinha só as palavras na tela, e escolheu o tom sozinho. Papel claro com fotografia em preto e branco de uma máquina de escrever antiga vista de cima, com uma folha em branco presa no rolo e o teclado de teclas redondas embaixo.",
+      "photo": {
+        "src": "../assets/foto-maquina-folha-branca.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Previram 88,8%.",
+          "Acertaram 70,4%."
+        ],
+        "closing": "Em outro experimento do mesmo estudo, 154 duplas montaram 5 frases, cada uma com 1 de 4 tons: ironia, seriedade, raiva e tristeza. Mandaram por e-mail, por voz e cara a cara, entre amigos e entre estranhos. Todos previram acertar 88,8% das vezes, e acertaram 70,4%.",
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Previram 88,8%.",
+        "Acertaram 70,4%.",
+        "Em outro experimento do mesmo estudo, 154 duplas montaram 5 frases, cada uma com 1 de 4 tons: ironia, seriedade, raiva e tristeza. Mandaram por e-mail, por voz e cara a cara, entre amigos e entre estranhos. Todos previram acertar 88,8% das vezes, e acertaram 70,4%.",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86"
+      ],
+      "alt": "Slide 3 de 7. Previram 88,8%. Acertaram 70,4%. Em outro experimento do mesmo estudo, 154 duplas montaram 5 frases, cada uma com 1 de 4 tons: ironia, seriedade, raiva e tristeza. Mandaram por e-mail, por voz e cara a cara, entre amigos e entre estranhos. Todos previram acertar 88,8% das vezes, e acertaram 70,4%."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "Quem escreve\njá ouviu.",
+        "accent": "Quem lê, não.",
+        "hl": "Quem lê, não.",
+        "ghost": "84",
+        "year": "2026",
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86",
+        "body": "Você ouve a sua frase enquanto digita, com a pausa e a ênfase que quis dar, e julga o texto por essa voz. O leitor recebe as palavras sem nada disso e monta o tom com o que tem na hora: o humor do dia, a conversa anterior, a pressa."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Quem escreve já ouviu.",
+        "Quem lê, não.",
+        "2026",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86",
+        "Você ouve a sua frase enquanto digita, com a pausa e a ênfase que quis dar, e julga o texto por essa voz. O leitor recebe as palavras sem nada disso e monta o tom com o que tem na hora: o humor do dia, a conversa anterior, a pressa."
+      ],
+      "alt": "Slide 4 de 7. Quem escreve já ouviu. Quem lê, não. Você ouve a sua frase enquanto digita, com a pausa e a ênfase que quis dar, e julga o texto por essa voz. O leitor recebe as palavras sem nada disso e monta o tom com o que tem na hora: o humor do dia, a conversa anterior, a pressa. Campo laranja chapado com o número 84 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O teste em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Antes de mandar, leia a mensagem em voz alta com o tom contrário ao que você quis dar."
+          },
+          {
+            "num": "2",
+            "label": "Se ela funcionar nos 2 tons, o leitor pode escolher o errado. Reescreva até sobrar 1."
+          },
+          {
+            "num": "3",
+            "label": "Diga a intenção na primeira linha: se é urgente, se é só aviso, se é elogio."
+          },
+          {
+            "num": "4",
+            "label": "Se o sentido ainda depender do tom, não escreva. Ligue, ou grave 30 segundos de áudio."
+          }
+        ],
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O teste em 4 passos.",
+        "1",
+        "Antes de mandar, leia a mensagem em voz alta com o tom contrário ao que você quis dar.",
+        "2",
+        "Se ela funcionar nos 2 tons, o leitor pode escolher o errado. Reescreva até sobrar 1.",
+        "3",
+        "Diga a intenção na primeira linha: se é urgente, se é só aviso, se é elogio.",
+        "4",
+        "Se o sentido ainda depender do tom, não escreva. Ligue, ou grave 30 segundos de áudio.",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86"
+      ],
+      "alt": "Slide 5 de 7. O teste em 4 passos. 1: antes de mandar, leia a mensagem em voz alta com o tom contrário ao que você quis dar. 2: se ela funcionar nos 2 tons, o leitor pode escolher o errado, então reescreva até sobrar 1. 3: diga a intenção na primeira linha, se é urgente, se é só aviso, se é elogio. 4: se o sentido ainda depender do tom, não escreva, ligue ou grave 30 segundos de áudio. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "Conhecer não\najudou.",
+        "accent": "Amigo ou estranho.",
+        "body": "No estudo das 154 duplas, quem era amigo acertou tanto quanto quem era estranho. E os experimentos mediram frases de laboratório, não proposta de cliente nem cobrança de prazo.",
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "Conhecer não ajudou.",
+        "Amigo ou estranho.",
+        "No estudo das 154 duplas, quem era amigo acertou tanto quanto quem era estranho. E os experimentos mediram frases de laboratório, não proposta de cliente nem cobrança de prazo.",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86"
+      ],
+      "alt": "Slide 6 de 7. Conhecer não ajudou, amigo ou estranho. No estudo das 154 duplas, quem era amigo acertou tanto quanto quem era estranho. E os experimentos mediram frases de laboratório, não proposta de cliente nem cobrança de prazo."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Leia em voz alta.",
+        "hl": "Leia em voz alta.",
+        "accent": "No tom contrário.",
+        "body": "Pegue a última mensagem difícil que você mandou esta semana e leia em voz alta como se fosse ironia. Se ela ainda se sustentar assim, o seu leitor também pode ler assim. Reescreva antes de mandar a próxima.",
+        "year": "2026",
+        "temas": "Temas: Tom / Mensagem / Equipe",
+        "micro": "@zionaxs_ · ref 545cbf86 · foto: Alicia Petresc"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Leia em voz alta.",
+        "No tom contrário.",
+        "Pegue a última mensagem difícil que você mandou esta semana e leia em voz alta como se fosse ironia. Se ela ainda se sustentar assim, o seu leitor também pode ler assim. Reescreva antes de mandar a próxima.",
+        "2026",
+        "Temas: Tom / Mensagem / Equipe",
+        "@zionaxs_ · ref 545cbf86 · foto: Alicia Petresc"
+      ],
+      "alt": "Slide 7 de 7. Leia em voz alta, no tom contrário. Pegue a última mensagem difícil que você mandou esta semana e leia em voz alta como se fosse ironia. Se ela ainda se sustentar assim, o seu leitor também pode ler assim. Reescreva antes de mandar a próxima. Fotografia escura da silhueta de uma pessoa de pé diante de uma janela ao anoitecer, com o celular encostado no ouvido, o rosto inteiramente em sombra.",
+      "photo": {
+        "src": "../assets/foto-silhueta-ligacao.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

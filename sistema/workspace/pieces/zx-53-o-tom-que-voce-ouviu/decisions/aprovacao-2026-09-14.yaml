@@ -1,0 +1,124 @@
+decisao: aprovar e publicar a zx-53, slot da manhã de dia útil
+data: 2026-09-14
+autor: fabiano (autorização permanente de 29/08/2026)
+registrado_por: Marketing OS
+
+autorizacao:
+  tipo: permanente
+  origem: >
+    O Fabiano autorizou em 29/08/2026 que o comando /carrossel-zionaxs publique
+    sem aprovação peça a peça. A autorização vale para o fluxo inteiro, incluindo
+    as travas: trava que reprova não se contorna. Esta execução não contornou
+    nada, não usou --excecao e não tocou na política de publicação da marca. O
+    porteiro reprovou na primeira chamada por legenda de 2238 caracteres, acima
+    do teto de 2200 do Instagram, e a correção foi encurtar o corpo da legenda
+    sem mover 1 fonte para caption_sources. Liberou na segunda chamada, com
+    14/14 gates verdes e 0 de 2 posts do dia usados.
+  registro_anterior: pieces/zx-52-o-padrao-que-ninguem-escreveu/decisions/aprovacao-2026-09-13.yaml
+
+slot_editorial:
+  horario: "08:30 BRT, segunda-feira"
+  papel: "descoberta, tensão atual, curiosidade ou pauta encaminhável"
+  leitura: >
+    O slot da manhã de dia útil pede entrada por achado que contraria a intuição
+    e saída com 1 passo aplicável antes do almoço. A entrada é o número que nega
+    a leitura instintiva de que a confusão é desatenção do outro: quem escreveu
+    esperava 97% de acerto e teve 84%. A saída é um teste de 10 segundos, ler a
+    mensagem em voz alta no tom contrário, que não é conselho genérico e sim a
+    manipulação exata que apagou o excesso de confiança no quarto experimento.
+  nao_repete_a_peca_anterior: >
+    A zx-52, publicada ontem à tarde, trata da opção que vale quando ninguém
+    decide, e a correção é escrever essa opção no lugar onde a decisão nasce.
+    Esta peça trata de quem decidiu, escreveu e achou que foi entendido. Fonte
+    diferente, autores diferentes, mecanismo diferente. Também não repete a
+    zx-50, sobre lista de conferência lida em voz alta: lá a voz alta serve para
+    conferir itens em equipe, aqui serve para o autor ouvir a própria frase com
+    um tom que não é o dele. E não repete a zx-47, sobre combinado sem dia e
+    hora, porque lá falta o dado (quando) e aqui o dado está na mensagem e o que
+    falta é o tom.
+
+tema:
+  escolhido: >
+    o tom que não viaja no texto: quem escreve ouve a própria entonação enquanto
+    digita e julga o texto por ela, então se acha mais claro do que é. Em
+    experimento com 12 estudantes em pares, os autores esperavam que o colega
+    decifrasse 97% dos assuntos por e-mail e ele decifrou 84%. Em outro, com 154
+    duplas, 5 frases e 4 tons, a previsão foi 88,8% e o acerto 70,4%, e ser amigo
+    do destinatário não melhorou nada. O conserto medido não foi escrever melhor:
+    quem foi obrigado a ler a própria frase no tom contrário parou de se
+    superestimar.
+  por_que: >
+    Critério de desejo primeiro: é dica prática sobre a mensagem que sai do
+    escritório todo dia, e o dado entra como tempero dentro da dica. O assunto
+    não aparece em nenhuma das 34 peças anteriores, que cobriram capacidade,
+    métrica, retrabalho, preço, interrupção, memória de julgamento, viés de quem
+    produziu e opção padrão, mas nunca clareza de comunicação escrita nem escolha
+    de canal. E serve ao papel de descoberta porque o achado contraria a leitura
+    corrente sobre mensagem mal entendida, que costuma culpar o leitor.
+
+fontes:
+  - Justin Kruger, Nicholas Epley, Jason Parker e Zhi-Wen Ng, Egocentrism Over
+    E-Mail: Can We Communicate as Well as We Think?, Journal of Personality and
+    Social Psychology, 89(6), 2005, p. 925-936. Texto integral hospedado pela
+    Stern School of Business da Universidade de Nova York lido nesta execução,
+    com os trechos citados no contrato, dos estudos 1, 2, 3 e 4.
+
+producao:
+  geracoes: 3
+  gates_finais: "14/14 · digest 6cdc38ab88dc"
+  o_que_custou_geracao: >
+    Os 14 gates ficaram verdes já na primeira geração. A segunda geração veio da
+    revisão humana do passo 6, não de gate: o realce do título do poster-close
+    estava em "Leia em voz" na primeira de 2 linhas, como manda a regra da zx-29,
+    e a caixa laranja encostou no topo de "ALTA." na linha de baixo, que não tem
+    acento nenhum. É o caso da zx-33, o dano maior no display grande, e a saída
+    registrada lá é encurtar para 1 linha ou publicar sem hl. Escolhida a
+    primeira: o título virou 1 linha só, "Leia em voz alta.", com 17 caracteres,
+    que coube com folga nos 936px úteis. A terceira geração veio do porteiro, por
+    legenda acima do teto de 2200.
+  folha_de_contato: >
+    13 recortes comparados em 2 rodadas com bin/folha-de-contato.mjs, antes de
+    escrever o contrato. A folha decidiu os 2 campos escuros sem gastar geração
+    nenhuma: na capa, o recorte neutro deixava a borda inferior da janela clara
+    encostando na caixa de paginação a 47% da altura, e scale 1.3 com origem no
+    rodapé levou a janela inteira para o terço superior; no fechamento, o recorte
+    neutro e o de 1.2 deixavam a caixa sobre o vidro roxo iluminado, e só o 1.35
+    limpou a banda. Descartadas ainda antes da folha, na leitura das candidatas:
+    um celular em mesa escura com letra de música legível em inglês (regra da
+    zx-23), uma silhueta em janela alaranjada com a faixa clara ocupando de 38% a
+    92% da altura, ou seja, a banda de texto inteira (regra da zx-45), e uma
+    pessoa com celular aceso encostada na borda de baixo do arquivo, sem outra
+    região para trazer à banda (regra da zx-45).
+
+fotos:
+  capa: >
+    Silhueta de pessoa sentada diante de janela clara, de perfil, com celular na
+    mão erguida, de Harry Prabowo, via Unsplash. Escolhida com a manchete: "Você
+    ouviu o seu tom" pede a cena de quem está escrevendo, e não a metáfora de um
+    ruído. Rosto inteiramente em sombra, que é o caso mais seguro da regra de
+    rosto. scale 1.3 com origin "50% 100%", decidido na folha de contato.
+  cena: >
+    Máquina de escrever com folha em branco no rolo, de Markus Winkler, via
+    Unsplash. Pré-recortada no arquivo para 0,864, a proporção do quadro do
+    poster-scene, porque o template ignora pos, scale e origin nesse layout
+    (regra da zx-44). É a cena literal da manchete "Sem voz nenhuma": as palavras
+    saem e o tom fica para trás. A folha em branco também elimina o risco de
+    texto legível na foto.
+  fechamento: >
+    Silhueta de pessoa de pé diante de janela ao anoitecer, com o celular
+    encostado no ouvido, de Alicia Petresc, via Unsplash. É a correção que a peça
+    recomenda, em imagem: a mesma postura da capa, com o gesto trocado de digitar
+    para falar. scale 1.35 com origin "50% 100%", decidido na folha de contato.
+
+codigos_editoriais:
+  jtbd: [JF4, JE4]
+  matriz: nenhum, ver campo matriz_nota do contrato
+  repertorio: nenhum, ver campo repertorio_nota do contrato
+  nota: >
+    A matriz da 19c (M01 a M20) não tem linha de clareza de comunicação escrita
+    nem de escolha de canal, e o ledger (R1 a R9) não tem linha de comunicação
+    nem de perspectiva do outro. Declarar M18, M19 ou R5 por parentesco seria
+    copiar código que a máquina aceita e a análise não sustenta, que é o erro que
+    a verificação A9 existe para conter, já que ela mede existência e não
+    pertinência. As 2 propostas de inclusão vão para a Inbox da Zionaxs Memory,
+    para promoção humana.
