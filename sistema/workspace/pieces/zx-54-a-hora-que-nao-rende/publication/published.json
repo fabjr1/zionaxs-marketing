@@ -1,0 +1,68 @@
+{
+  "postId": "18114523429805179",
+  "permalink": "https://www.instagram.com/p/DdRj3MBoDAj/",
+  "shortcode": "DdRj3MBoDAj",
+  "digest": "7b5006dda8e5",
+  "publishedAt": "2026-09-14T16:25:48+0000",
+  "publishedAtFortaleza": "2026-09-14 13:25 BRT",
+  "slot": "tarde-dia-util-13:00-BRT",
+  "papelEditorial": "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_GET_POST_STATUS + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "composioConnectionId": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "Antes de criar qualquer contêiner, COMPOSIO_MANAGE_CONNECTIONS em modo list sobre o toolkit instagram devolveu as 4 conexões vivas: @clubegarimpai (id 28127464676879982, is_default true), @fabjr1 (38039865875659488), @zionaxs_ (37965311306447572) e @base3br (28260020683635617). A conexão padrão continua sendo @clubegarimpai, e não a Zionaxs, então omitir o `account` publicaria na conta errada sem erro nenhum. Em seguida, INSTAGRAM_GET_USER_INFO com account @zionaxs_ devolveu id 37965311306447572, username zionaxs_, name zionaxs, 4.794 seguidores e 118 mídias. Confere com a conta certa.",
+  "notaDeConta": "O campo `account` do Composio é o apelido da conexão e leva arroba: @zionaxs_. Passar zionaxs_ sem arroba volta `No account found matching \"zionaxs_\"`, aprendido na zx-51. Nesta execução o apelido com arroba foi usado nas 12 chamadas do fluxo, inclusive nas de leitura, e nenhuma reclamou.",
+  "notaDeParametros": "`ig_user_id` foi passado em toda chamada de criação e de publicação, conforme a zx-49. O contêiner pai foi criado sem `share_to_feed`, que é inválido para carrossel, e o status dele foi conferido com INSTAGRAM_GET_POST_STATUS, cujo campo é `creation_id` e não `ig_container_id`. A reconciliação chamou INSTAGRAM_GET_IG_MEDIA com `fields` explícito, conforme a zx-40, porque a lista padrão do Composio pede total_views_count e o nó Media não suporta.",
+  "containerId": "17908465215501214",
+  "containerStatusAntesDePublicar": "FINISHED",
+  "childContainers": [
+    "17908465011501214",
+    "17908465008501214",
+    "17908465002501214",
+    "17908465005501214",
+    "17908465140501214",
+    "17908465137501214",
+    "17908465134501214"
+  ],
+  "childMediaIds": [
+    "17947157418316310",
+    "18116275408755537",
+    "18431820082194317",
+    "18114628208087427",
+    "18438435580133477",
+    "18063924710771924",
+    "17882628039622516"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-54-a-hora-que-nao-rende/out/jpg/zx-54-a-hora-que-nao-rende-slide-07.jpg"
+  ],
+  "mediaUrlsConferidas": "As 7 URLs foram conferidas com curl antes de irem para a Meta, e as 7 responderam HTTP 200 com content-type image/jpeg, com tamanhos de 127 KB a 283 KB. Commit que as tornou públicas: 95cbed6, empurrado para main.",
+  "reconciliacao": {
+    "ferramentas": "INSTAGRAM_GET_IG_MEDIA com fields explícito e INSTAGRAM_GET_IG_MEDIA_CHILDREN",
+    "conta": "username zionaxs_, owner.id 37965311306447572, igual ao alvo declarado",
+    "tipo": "CAROUSEL_ALBUM",
+    "slides": 7,
+    "permalink": "https://www.instagram.com/p/DdRj3MBoDAj/",
+    "legenda": "o corpo publicado bate caractere a caractere com o campo `caption` do contrato, 1.876 caracteres, bem abaixo do teto de 2.200 do Instagram. O `caption_sources` ficou no contrato e não entrou no post, como manda o padrão de copy.",
+    "duplicidade": "nenhuma. A publicação saiu na primeira chamada, sem erro de transporte e sem pai em ERROR, então não houve o que reconciliar antes de repetir e nenhum contêiner filho foi recriado."
+  },
+  "cadencia": {
+    "politica": "sistema/workspace/brands/zionaxs/politica-de-publicacao.json, 2 posts por dia, override declarado em 29/08/2026",
+    "usoNoDia": "2 de 2. O primeiro foi a zx-53, publicada às 08:51 BRT no slot da manhã; este é o segundo, no slot da tarde.",
+    "porteiro": "liberado na primeira chamada, sem --excecao e sem alterar a política da marca"
+  },
+  "trilha": {
+    "faixa": "Steady Ground",
+    "artista": "Meta Sound Collection",
+    "estado": "pendente de adição manual pelo Fabiano, editando o post no app",
+    "porque": "instrumental de pulso regular e baixo firme, que sustenta leitura de método e de número ao longo de 7 slides sem chamar atenção para si. Evitar andamento acelerado ou crescente, que contradiria o argumento da peça, e evitar o catálogo popular do app, cuja licença é de uso pessoal e não vale para marca."
+  }
+}

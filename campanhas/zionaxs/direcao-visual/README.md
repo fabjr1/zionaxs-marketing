@@ -318,6 +318,39 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   estreitas cabem perto de 20 caracteres, e o realce de 1 linha só, ocupando quase toda a largura, é o resultado mais
   forte dos 3.
 
+- **O que a caixa do realce come na linha DE CIMA não é "acento", é qualquer coisa que desça até a faixa dela, e isso
+  inclui descendente de caixa alta, como a cedilha do Ç.** Aprendido na zx-54, 14/09/2026, e corrige a formulação de
+  todas as notas acima, da zx-29 à zx-53. Essas 5 notas descrevem o dano sempre em termos de **acento de maiúscula**,
+  porque foi assim que ele apareceu nas peças anteriores, e por isso o teste de 10 segundos da zx-48, "escrever a linha
+  vizinha em caixa alta e procurar maiúscula acentuada", passa limpo em um caso que estraga a peça do mesmo jeito. No
+  `poster-turn` da zx-54 o título era "Hora não é / produção." e o `accent` com `hl` era "O cansaço cobra.", 1 linha só,
+  portanto dentro de todas as regras já escritas: o realce estava na primeira linha do bloco (zx-29), o bloco tinha 1
+  linha só (zx-33, zx-53) e a linha seguinte não tinha maiúscula acentuada (zx-32). Mesmo assim a borda de cima da caixa
+  cortou a cedilha de "PRODUÇÃO.", que não é acento e sim descendente, e que cai abaixo da linha de base, justamente onde
+  a caixa começa.
+  **Regra final, que substitui a formulação por tipo de caractere:** a caixa do `hl` ocupa uma faixa vertical que
+  ultrapassa a altura da própria linha, para cima e para baixo, dentro da largura dela. Nada da linha de cima pode
+  descer até essa faixa e nada da linha de baixo pode subir até ela, **seja acento, cedilha, til ou qualquer
+  descendente** (Ç, Q, J e, em caixa baixa, g, p, q, y). Em português o caso mais provável é a cedilha de Ç em palavra
+  terminada em ÇÃO, que é justamente o que copy de gestão produz o tempo todo: PRODUÇÃO, CORREÇÃO, ATENÇÃO, OPERAÇÃO.
+  Atenção para não confundir com as terminações em SÃO, como DECISÃO e REVISÃO, que não têm cedilha e passam limpas.
+  **Teste prático, antes de gerar:** escreva em caixa alta a linha imediatamente acima do bloco com `hl` e procure Ç, Q
+  ou J; se houver, reescreva a linha. Na zx-54 a correção foi trocar o título por "Hora não é / entrega.", cuja segunda
+  linha não tem descendente nenhum, e a troca ainda melhorou a copy, porque "entrega" é a palavra que a peça usa do
+  começo ao fim. **Os 14 gates ficaram verdes na geração que saiu com a cedilha cortada**, como nas 5 vezes anteriores.
+  A proposta de virar isto um gate, medindo o retângulo do span do `hl` contra o retângulo das linhas vizinhas, está na
+  Inbox da Zionaxs Memory: é regra binária e mensurável, mas acrescentar o gate 15 mexe no núcleo do pipeline e pode
+  reprovar peça antiga na regeração, então é decisão de governança e nenhuma sessão deve tomá-la sozinha.
+
+- **Para conferir esses defeitos de poucos pixels existe ferramenta versionada.** O passo 6 manda olhar os PNG, mas os
+  defeitos que aparecem ali são pequenos: a cedilha comida pela caixa, o acento escondido, a caixa de paginação de 84x84
+  sumindo em trecho claro, a linha do corpo encostando no anel do `poster-statement`. Em um quadro de 1080x1350 visto
+  inteiro, a diferença entre "encostou" e "passou perto" não se decide no olho por cima: na zx-54 a dúvida do anel do
+  slide 6 só se resolveu ampliando, e a resposta foi 45px de folga, ou seja, estava bom. A ferramenta é
+  `sistema/app/bin/recorte-de-slide.mjs`, que amplia 2x um pedaço de um slide já renderizado:
+  `node bin/recorte-de-slide.mjs <slide.png> <saida.png> <x> <y> <w> <h>`, em coordenadas do quadro de 1080x1350. Ela é o
+  par da `folha-de-contato.mjs`: a folha decide a foto **antes** de gerar, o recorte confere o pixel **depois**.
+
 ## Como o padrão se sustenta sozinho
 
 Três camadas, da mais fraca para a mais forte:
