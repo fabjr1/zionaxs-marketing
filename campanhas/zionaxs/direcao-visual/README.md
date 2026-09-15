@@ -342,6 +342,22 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   Inbox da Zionaxs Memory: é regra binária e mensurável, mas acrescentar o gate 15 mexe no núcleo do pipeline e pode
   reprovar peça antiga na regeração, então é decisão de governança e nenhuma sessão deve tomá-la sozinha.
 
+- **O primeiro elemento a ser engolido não é a caixa de paginação, é o KICKER, e até hoje a folha de contato não
+  desenhava nenhum dos dois no lugar certo.** Aprendido na zx-56, 15/09/2026, e corrige a nota da zx-47 e a da zx-51.
+  A zx-47 identificou a caixa de 84x84 como o alvo mais frágil e a zx-51 mandou desenhá-la na folha, "a 47% da altura",
+  número que veio da descrição da receita e não de medição. Medindo o `compiled.html` do `poster-cover` com Playwright,
+  o chrome real está bem mais alto: o bloco do ano ocupa de 35.1% a 40.2%, a caixa de paginação de 35.1% a 41.4%, e o
+  kicker de 41.9% a 44.0%. A banda de texto só começa em 46%. Ou seja, **toda a faixa de 35% a 44% ficava fora da
+  folha**, e a caixa era desenhada cerca de 160px abaixo de onde ela está, dentro da banda, onde não há caixa nenhuma.
+  Na capa da zx-56 os 14 gates ficaram verdes e o kicker, em laranja sobre o reflexo de uma luminária no piso, saiu
+  lavado a 43% da altura, exatamente no ponto cego. A manchete logo abaixo estava perfeita, o que confirma a ordem da
+  zx-51 e acrescenta um degrau: **kicker primeiro, depois a caixa de paginação, depois o ano, depois a manchete**, do
+  elemento mais fino para o mais grosso. A correção de crop é a mesma alavanca da zx-34, `scale` com
+  `origin: "50% 100%"`, levada de 1.55 a 2.0.
+  **A ferramenta foi corrigida junto**, que é o que a regra de autoprogramação pede: `folha-de-contato.mjs` agora
+  desenha as 3 marcas nas posições medidas, e não estimadas, e o cabeçalho dela guarda os números. Rodando a folha
+  corrigida sobre os mesmos 3 recortes da zx-56, o retângulo do kicker cai visivelmente sobre o reflexo em 1.55 e sai
+  limpo em 2.0, ou seja, a folha passou a reprovar antes de gerar o caso que custou 1 geração.
 - **Para conferir esses defeitos de poucos pixels existe ferramenta versionada.** O passo 6 manda olhar os PNG, mas os
   defeitos que aparecem ali são pequenos: a cedilha comida pela caixa, o acento escondido, a caixa de paginação de 84x84
   sumindo em trecho claro, a linha do corpo encostando no anel do `poster-statement`. Em um quadro de 1080x1350 visto

@@ -1,0 +1,66 @@
+{
+  "postId": "17892670908427722",
+  "permalink": "https://www.instagram.com/p/DdUIe0bIJrH/",
+  "shortcode": "DdUIe0bIJrH",
+  "digest": "f1c3f5870cd9",
+  "publishedAt": "2026-09-15T16:24:18+0000",
+  "publishedAtFortaleza": "2026-09-15 13:24 BRT",
+  "slot": "tarde-dia-util-13:00-BRT",
+  "papelEditorial": "conteúdo principal: diagnóstico, framework, método, evidência ou tutorial decisório",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_GET_POST_STATUS + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "composioConnectionId": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "Antes de criar qualquer contêiner, COMPOSIO_MANAGE_CONNECTIONS em modo list sobre o toolkit instagram devolveu as 4 conexões vivas: @clubegarimpai (id 28127464676879982, is_default true), @fabjr1 (38039865875659488), @zionaxs_ (37965311306447572) e @base3br (28260020683635617). A conexão padrão continua sendo @clubegarimpai, e não a Zionaxs, confirmando a nota da zx-53: omitir o account publicaria na conta errada sem erro nenhum. Em seguida, INSTAGRAM_GET_USER_INFO com account @zionaxs_ devolveu id 37965311306447572, username zionaxs_, name zionaxs, 4.775 seguidores e 120 mídias. Confere com a conta certa.",
+  "notaDeConta": "O campo account do Composio é o apelido da conexão e leva arroba: @zionaxs_. Passar zionaxs_ sem arroba volta No account found matching \"zionaxs_\", aprendido na zx-51. Nesta execução o apelido com arroba foi usado em todas as chamadas do fluxo, inclusive nas de leitura, e nenhuma reclamou.",
+  "notaDeParametros": "ig_user_id foi passado em toda chamada de criação e de publicação, conforme a zx-49. O contêiner pai foi criado com INSTAGRAM_CREATE_CAROUSEL_CONTAINER e sem share_to_feed, que é inválido para carrossel, e o status dele foi conferido com INSTAGRAM_GET_POST_STATUS, cujo campo é creation_id e não ig_container_id. O slug de criar filho é INSTAGRAM_POST_IG_USER_MEDIA e o de publicar é INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, conforme a zx-55. A reconciliação chamou INSTAGRAM_GET_IG_MEDIA com fields explícito, conforme a zx-40.",
+  "containerId": "17908607031501214",
+  "containerStatusAntesDePublicar": "FINISHED",
+  "childContainers": [
+    "17908606800501214",
+    "17908606809501214",
+    "17908606803501214",
+    "17908606806501214",
+    "17908606878501214",
+    "17908606872501214",
+    "17908606875501214"
+  ],
+  "childMediaIds": [
+    "18127485601622393",
+    "17952179295038146",
+    "18108249527245120",
+    "18115377425049982",
+    "18150084838548936",
+    "18099311204527182",
+    "18087949694484900"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-56-o-projeto-que-ja-falhou/out/jpg/zx-56-o-projeto-que-ja-falhou-slide-07.jpg"
+  ],
+  "mediaUrlsConferidas": "Os 7 endereços responderam HTTP 200 com corpo não vazio antes de qualquer chamada à Meta, depois do push do commit a292df4 para main.",
+  "erroDeValidacaoAntesDeTocarAMeta": "Nenhum nesta execução. As 7 criações de filho, a criação do pai e a publicação passaram de primeira.",
+  "reconciliacao": {
+    "ferramenta": "INSTAGRAM_GET_IG_MEDIA com fields explícito + INSTAGRAM_GET_IG_MEDIA_CHILDREN",
+    "owner": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "filhosConfirmados": 7,
+    "legendaConferida": "O caption devolvido pela Meta bate com o corpo do campo caption do contrato, 2189 caracteres, sem o caption_sources.",
+    "resultado": "confere: conta certa, tipo certo, 7 slides, legenda certa"
+  },
+  "cadencia": "2/2 no dia, dentro do limite da política da marca. A peça da manhã foi a zx-55, publicada às 08:51 BRT.",
+  "trilha": {
+    "faixa": "Steady Ground",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar faixa de pulso baixo e regular, com textura grave e sóbria: o assunto é olhar para o fracasso de frente, sem drama, então trilha tensa transformaria método em suspense e trilha alegre desmentiria o tema. O slot é o da tarde e o papel é de conteúdo principal, então a trilha precisa soar concentrada e de trabalho, sustentando 7 slides de leitura sem cansar.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia, e trilha de tensão ou suspense, com cordas em crescendo, que transformaria um método calmo em alarme."
+  }
+}
