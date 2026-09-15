@@ -1,0 +1,69 @@
+{
+  "postId": "18628887409047429",
+  "permalink": "https://www.instagram.com/p/DdTpSlSGw1b/",
+  "shortcode": "DdTpSlSGw1b",
+  "digest": "2c572d5ef7b9",
+  "publishedAt": "2026-09-15T11:51:45+0000",
+  "publishedAtFortaleza": "2026-09-15 08:51 BRT",
+  "slot": "manha-dia-util-08:30-BRT",
+  "papelEditorial": "descoberta, tensão atual, curiosidade ou pauta encaminhável",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_GET_POST_STATUS + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "composioConnectionId": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "Antes de criar qualquer contêiner, COMPOSIO_MANAGE_CONNECTIONS em modo list sobre o toolkit instagram devolveu as 4 conexões vivas: @clubegarimpai (id 28127464676879982, is_default true), @fabjr1 (38039865875659488), @zionaxs_ (37965311306447572) e @base3br (28260020683635617). A conexão padrão continua sendo @clubegarimpai, e não a Zionaxs, então omitir o `account` publicaria na conta errada sem erro nenhum. Em seguida, INSTAGRAM_GET_USER_INFO com account @zionaxs_ devolveu id 37965311306447572, username zionaxs_, name zionaxs, 4.791 seguidores e 119 mídias. Confere com a conta certa.",
+  "notaDeConta": "O campo `account` do Composio é o apelido da conexão e leva arroba: @zionaxs_. Passar zionaxs_ sem arroba volta `No account found matching \"zionaxs_\"`, aprendido na zx-51. Nesta execução o apelido com arroba foi usado em todas as chamadas do fluxo, inclusive nas de leitura, e nenhuma reclamou.",
+  "notaDeParametros": "`ig_user_id` foi passado em toda chamada de criação e de publicação, conforme a zx-49. O contêiner pai foi criado sem `share_to_feed`, que é inválido para carrossel, e o status dele foi conferido com INSTAGRAM_GET_POST_STATUS, cujo campo é `creation_id` e não `ig_container_id`. A reconciliação chamou INSTAGRAM_GET_IG_MEDIA com `fields` explícito, conforme a zx-40, porque a lista padrão do Composio pede total_views_count e o nó Media não suporta.",
+  "containerId": "17908572084501214",
+  "containerStatusAntesDePublicar": "FINISHED",
+  "childContainers": [
+    "17908571928501214",
+    "17908571925501214",
+    "17908571922501214",
+    "17908571919501214",
+    "17908571997501214",
+    "17908572003501214",
+    "17908572000501214"
+  ],
+  "childMediaIds": [
+    "18095149787426984",
+    "17904799548557928",
+    "18093359030126479",
+    "18132681592677714",
+    "18114990575093748",
+    "18036625001833123",
+    "17885854449684683"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-55-a-opcao-a-mais/out/jpg/zx-55-a-opcao-a-mais-slide-07.jpg"
+  ],
+  "mediaUrlsConferidas": "As 7 URLs foram conferidas com curl antes de irem para a Meta, e as 7 responderam HTTP 200, com tamanhos de 131 KB a 214 KB. Commit que as tornou públicas: 7e79f2b, empurrado para main.",
+  "reconciliacao": {
+    "ferramentas": "INSTAGRAM_GET_IG_MEDIA com fields explícito e INSTAGRAM_GET_IG_MEDIA_CHILDREN",
+    "conta": "username zionaxs_, owner.id 37965311306447572, igual ao alvo declarado",
+    "tipo": "CAROUSEL_ALBUM",
+    "slides": 7,
+    "permalink": "https://www.instagram.com/p/DdTpSlSGw1b/",
+    "legenda": "o corpo publicado bate caractere a caractere com o campo `caption` do contrato, 2.161 caracteres, abaixo do teto de 2.200 do Instagram. O `caption_sources` ficou no contrato e não entrou no post, como manda o padrão de copy.",
+    "duplicidade": "nenhuma. A publicação saiu na primeira chamada, sem erro de transporte e sem pai em ERROR, então não houve o que reconciliar antes de repetir e nenhum contêiner filho foi recriado."
+  },
+  "erroDeValidacaoAntesDeTocarAMeta": "A primeira tentativa de criar os 7 filhos usou o slug INSTAGRAM_CREATE_POST e voltou HTTP 400 dizendo `Following fields are missing: {'creation_id'}` nas 7 chamadas. É erro de validação do Composio, que acontece antes de a chamada tocar a API da Meta: nada foi criado e não houve o que reconciliar. O slug certo para criar contêiner é INSTAGRAM_POST_IG_USER_MEDIA, e INSTAGRAM_CREATE_POST é a etapa de publicar, que por isso cobra `creation_id`. Custou 1 rodada.",
+  "cadencia": {
+    "politica": "sistema/workspace/brands/zionaxs/politica-de-publicacao.json, 2 posts por dia, override declarado em 29/08/2026",
+    "usoNoDia": "1 de 2. Este é o primeiro do dia, no slot da manhã; resta 1 vaga para o slot da tarde.",
+    "porteiro": "liberado sem --excecao e sem alterar a política da marca. Reprovou 1 vez antes, por legenda de 2.235 caracteres acima do teto de 2.200, e a legenda foi encurtada para 2.161 sem mover fonte para caption_sources."
+  },
+  "trilha": {
+    "faixa": "Slow Pulse",
+    "artista": "Meta Sound Collection",
+    "estado": "pendente de adição manual pelo Fabiano, editando o post no app",
+    "porque": "instrumental de pulso regular e textura limpa, com poucos elementos tocando ao mesmo tempo: a peça argumenta que excesso de alternativas cansa, então arranjo denso contradiria o texto no ouvido. Slot da manhã e papel de descoberta pedem som acordado e curioso, sem pressa. Evitar o catálogo popular do app, cuja licença é de uso pessoal e não vale para marca."
+  }
+}
