@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-56-o-projeto-que-ja-falhou",
+  "generatedAt": "2026-09-15T16:21:29+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-56-o-projeto-que-ja-falhou-slide-01.png",
+    "zx-56-o-projeto-que-ja-falhou-slide-02.png",
+    "zx-56-o-projeto-que-ja-falhou-slide-03.png",
+    "zx-56-o-projeto-que-ja-falhou-slide-04.png",
+    "zx-56-o-projeto-que-ja-falhou-slide-05.png",
+    "zx-56-o-projeto-que-ja-falhou-slide-06.png",
+    "zx-56-o-projeto-que-ja-falhou-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O risco que ninguém diz 01/07 Finja que deu errado. 30% mais razões. Em 1989, os pesquisadores Deborah Mitchell, J. Edward Russo e Nancy Pennington testaram uma troca de pergunta. Em vez de pensar no que pode dar errado, as pessoas explicavam o resultado ruim como se ele já tivesse acontecido. Assim elas apontaram cerca de 30% mais razões corretas para o desfecho. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a · foto: David Vives"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Ninguém anotou. Você apresentou o plano na reunião de início e perguntou se alguém via algum risco. Todo mundo concordou e o bloco ficou em branco. 3 meses depois, 2 pessoas contaram que já desconfiavam daquele prazo desde o primeiro dia. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a · foto: Cinthya González"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Calar parece mais seguro. Em 1999, Amy Edmondson, professora de gestão da Universidade Harvard, estudou 51 equipes de uma empresa industrial. Onde as pessoas achavam que levantar problema pegaria mal, elas guardavam a dúvida, e a equipe aprendia menos com os próprios erros, o que aparecia depois no resultado do time. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Alerta vira análise. A dúvida vira dado. Perguntar o que pode dar errado soa como falta de confiança no plano, e quem tem uma ressalva prefere engolir. Perguntar por que deu errado inverte o jogo: a ressalva vira demonstração de competência, e quem levanta o problema maior sai bem da reunião. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O pré-mortem em 4 passos. 1Junte quem vai tocar o projeto e leia o plano em voz alta para o grupo. 2Diga a frase: este projeto fracassou. Cada um escreve por quê, em silêncio. 3Dê 2 minutos de escrita, depois a volta na mesa, 1 motivo por pessoa. 4Escolha os 3 motivos mais prováveis e mude o plano hoje por causa deles. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 A conta é de razões. Não de projetos. Os 30% vêm de um experimento de 1989 e medem quantas razões corretas as pessoas levantam, não quantos projetos foram salvos. Não há medida de campo mostrando que o pré-mortem reduz fracasso. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O passo de hoje 07/07 Marque 30 minutos. Com a equipe na sala. No próximo projeto que você abrir, reserve 30 minutos antes de começar. Diga que ele fracassou e peça que cada um escreva por quê, em silêncio. Leia a lista em voz alta e mude no plano o que der para mudar hoje. Temas: Projetos / Risco / Decisão @zionaxs_ · ref 0421de9a · foto: Eugene Chystiakov"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.5,
+  "digest": "f1c3f5870cd9bb1bb43b1b4670a45a55ad3e80743dec5fda940cd52bfc3186a0"
+}

@@ -1,0 +1,147 @@
+peca: zx-56-o-projeto-que-ja-falhou
+data: 2026-09-15
+autor: sessão automática do /carrossel-zionaxs (slot da tarde, 13:00 BRT)
+decisao: aprovada para publicação
+digest_da_geracao: f1c3f5870cd9bb1b
+gates: 14/14 verdes
+porteiro: liberado, cadência 1/2 no dia
+
+autorizacao:
+  tipo: permanente
+  origem: Fabiano, 29/08/2026, registrada em .claude/commands/carrossel-zionaxs.md
+  escopo: >
+    O comando publica sem aprovação peça a peça, e a autorização vale para o fluxo
+    inteiro incluindo as travas. Nenhuma trava foi contornada nesta execução: não
+    houve uso de --excecao e a política de publicação da marca não foi tocada.
+
+tema:
+  escolhido: >
+    O pré-mortem. O silêncio na reunião de início não mede ausência de risco, mede a
+    pergunta. Trocar "o que pode dar errado" por "por que deu errado" faz aparecer
+    cerca de 30% mais razões corretas.
+  papel_editorial: >
+    Slot da tarde pede conteúdo principal: diagnóstico, framework, método, evidência
+    ou tutorial decisório. O tema entrega método nomeado e datado (o pré-mortem de
+    Gary Klein, 2007), evidência de 2 estudos independentes (Mitchell, Russo e
+    Pennington em 1989 para o efeito, Edmondson em 1999 para o mecanismo), um
+    procedimento de 4 passos executável em 30 minutos, e um limite declarado na
+    própria peça. É tutorial decisório, não achado curioso.
+  nao_repete: >
+    Conferido contra as 37 peças de zx-20 a zx-55. A peça da manhã de hoje, a zx-55,
+    tratou de excesso de opções travando a decisão do cliente na proposta: assunto,
+    fontes e momento diferentes, sem sobreposição. As vizinhas mais próximas são a
+    zx-42, sobre o prazo estimado pelo dia perfeito, e a zx-50, sobre a lista lida em
+    voz alta: as 3 vivem no começo do trabalho, mas ali o mecanismo é a estimativa
+    otimista e a memória que falha, e aqui é a ressalva que existe e não é dita.
+
+correcoes_desta_sessao:
+  - gate: G6
+    onde: slide 3, closing
+    o_que: >
+      Órfã com a última linha em 11%, última palavra "erros.". Corrigido pelo
+      comprimento, como manda a nota da zx-52: acrescentados 38 caracteres ao fim,
+      ", o que aparecia depois no resultado do time", que enchem a última linha e
+      ainda são informação verdadeira do estudo, porque Edmondson mede o
+      comportamento de aprendizagem como mediador do desempenho da equipe. Não foi
+      reordenação de palavras, que a zx-52 registra como ineficaz. A troca foi
+      aplicada nos 3 lugares que a nota da zx-46 exige: copy, approved_visible_copy
+      e alt.
+  - tipo: enquadramento, sem gate
+    onde: slide 1, capa
+    o_que: >
+      Com scale 1.55 e origem no rodapé os 14 gates ficaram verdes, e mesmo assim o
+      kicker "O RISCO QUE NINGUÉM DIZ", em laranja, caía sobre o reflexo claro da
+      luminária no piso e ficava lavado. É a família de defeito que a zx-47
+      identificou na caixa de paginação, agora um degrau acima: o kicker vive logo
+      ACIMA da banda de texto, em 43% da altura, então a folha de contato, que
+      desenha a banda a partir de 46% e a caixa a 47%, não o cobre. A correção é a
+      mesma alavanca da zx-34, scale com origem no rodapé, levada de 1.55 a 2.0, que
+      empurrou o reflexo para cima de 37% e deixou kicker, ano, caixa e manchete
+      inteiros sobre piso escuro. As cadeiras continuam nomeáveis, como pede a
+      zx-46. O alt foi reescrito junto, porque o trilho de luzes do teto saiu de
+      quadro no recorte novo e a descrição anterior passaria a ser falsa.
+  - tipo: porteiro
+    onde: legenda
+    o_que: >
+      Corpo da legenda em 2369 caracteres, acima do teto de 2200 do Instagram. Reduzido
+      a 2189 cortando redundância em 4 parágrafos, sem mover fonte nenhuma para
+      caption_sources: afirmação E precisa ter a fonte visível ao leitor na peça ou na
+      legenda [19c §14], e as 3 fontes seguem nomeadas no corpo com autor, veículo e ano.
+
+passo_6_revisao_humana_das_fotos:
+  metodo: >
+    folha-de-contato.mjs com a banda de texto real (46% a 93%) e a caixa de paginação
+    de 84x84 a 47%, em 3 rodadas e 21 recortes comparados, mais recorte-de-slide.mjs
+    para conferir no pixel os 3 pontos que a folha não mede.
+  descartes_sem_gastar_geracao:
+    - foto: sala de reunião com cortina clara ao fundo
+      motivo: >
+        A cortina iluminada corre pela banda inteira e a caixa de paginação cai na
+        borda dela. Regra da zx-47.
+    - foto: sala de aula com mesa redonda e janelas
+      motivo: >
+        Tampo claro dentro da banda e janelas na altura da caixa. Regra da zx-45,
+        metade de baixo precisa ser escura e quieta.
+    - foto: caderno preto com fones
+      motivo: >
+        Traz "My Magic NoTe" manuscrito e legível na capa. Regra da zx-23, texto
+        legível na foto entra na peça como afirmação. O objeto irrelevante, os fones,
+        agravava.
+    - foto: livro aberto com desenho de flor
+      motivo: >
+        O objeto que dá sentido à imagem não é nomeável como caderno de anotação no
+        recorte de 4x5. Regra da zx-46.
+  conferencias_no_pixel:
+    - onde: slide 4, junção de "ANÁLISE." com a caixa do realce "A DÚVIDA VIRA DADO."
+      resultado: >
+        Limpo, com folga clara. O accent tem 1 linha só, como exige a regra final da
+        zx-53, e a linha de cima não tem descendente nenhum (Ç, Q ou J), como exige a
+        regra final da zx-54.
+    - onde: slide 6, corpo contra o anel do poster-statement
+      resultado: >
+        A linha mais larga dentro da faixa vertical do anel termina em 900, e o anel
+        começa em 915 naquela altura. 15 de folga, apertado mas livre. Corpo em 189
+        caracteres, dentro do limite prático de 236 que a zx-38 mediu.
+    - onde: slide 7, caixa do realce "MARQUE 30 MINUTOS."
+      resultado: >
+        1 linha, 18 caracteres, sem cortar o kicker acima nem o accent abaixo.
+
+fotos:
+  - slide: 1
+    arquivo: assets/foto-sala-cadeiras.jpg
+    autor: David Vives
+    photo: { scale: 2.0, origin: "50% 100%" }
+  - slide: 2
+    arquivo: assets/foto-bloco-em-branco.jpg
+    autor: Cinthya González
+    nota: >
+      Campo de papel. O poster-scene ignora pos, scale e origin, como a zx-44
+      registrou, então a foto foi escolhida para funcionar no recorte central: o
+      arquivo é quadrado e o bloco pautado com a caneta sobrevive inteiro ao corte de
+      0,864.
+  - slide: 7
+    arquivo: assets/foto-mao-escrevendo.jpg
+    autor: Eugene Chystiakov
+    nota: >
+      Sem rosto, só a mão. A escrita no caderno é rabisco ilegível, então não entra
+      como afirmação. Banda de texto inteira escura no recorte natural, sem
+      necessidade de scale.
+
+codigos_editoriais:
+  matriz: nenhum, com justificativa em matriz_nota do contrato
+  repertorio: R5, Amy Edmondson, usado no slide 3 em paráfrase
+  jtbd: [JE5, JS1]
+  nota: >
+    Conferido ao vivo contra as notas 19b e 19c da Zionaxs Memory, clonada nesta
+    sessão porque a rotina em nuvem sobe com 1 repositório só. A verificação A9 mede
+    existência e não pertinência, então a escolha foi feita lendo as notas, e não
+    copiando o código da peça anterior.
+
+propostas_para_a_inbox_da_memory:
+  - acrescentar à matriz editorial da 19c uma linha para abertura de projeto e
+    levantamento de risco, que hoje não existe entre M01 e M20
+  - acrescentar ao ledger de repertório da 19c uma linha sobre prospecção de risco
+    antes da decisão, com Gary Klein e com Mitchell, Russo e Pennington
+  - estender a folha-de-contato.mjs para desenhar também o kicker e o bloco de ano,
+    que vivem ACIMA da banda de 46% e por isso escapam da folha de hoje, como custou
+    1 geração nesta peça

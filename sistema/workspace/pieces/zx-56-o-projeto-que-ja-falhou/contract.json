@@ -1,0 +1,302 @@
+{
+  "id": "zx-56-o-projeto-que-ja-falhou",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e abre projeto com prazo combinado: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: você apresenta o plano na reunião de início, pergunta se alguém vê risco, todo mundo concorda, e 3 meses depois 2 pessoas contam que já desconfiavam daquele prazo desde o primeiro dia. Slot editorial: tarde de dia útil, papel de conteúdo principal, então a peça precisa entregar método aplicável com evidência declarada e limite honesto, e não apenas um achado curioso.",
+    "decisao": "Parar de abrir projeto perguntando o que pode dar errado e passar a abrir com a pergunta invertida, tratando o fracasso como fato consumado, em uma reunião de 30 minutos com escrita em silêncio antes da conversa.",
+    "tensao": "Quem lidera acha que já pediu as ressalvas: a pergunta foi feita na reunião e ninguém levantou nada. A leitura natural é que não havia risco a levantar. O que foi medido contraria isso em 2 pontos verificáveis. Primeiro, o tempo verbal da pergunta muda o quanto as pessoas conseguem enxergar: em um experimento de 1989, escrever como se o resultado já tivesse acontecido levou a cerca de 30% mais razões corretas identificadas. Segundo, o silêncio da sala não mede ausência de risco: o estudo de 51 equipes de Amy Edmondson mostra que, onde levantar problema pega mal, a dúvida fica guardada. Ou seja, a ressalva existia e a pergunta é que não a alcançou.",
+    "evidencia": [
+      {
+        "claim": "em pesquisa de 1989 sobre perspectiva temporal na explicação de eventos, imaginar que um evento já aconteceu, em vez de considerar que ele pode acontecer, aumentou em cerca de 30% a capacidade de identificar corretamente razões para o desfecho futuro",
+        "status": "E",
+        "fonte": "Deborah J. Mitchell, J. Edward Russo e Nancy Pennington, Back to the Future: Temporal Perspective in the Explanation of Events, Journal of Behavioral Decision Making, volume 2, número 1, 1989, páginas 25 a 38. O recorte de 30% é o que Gary Klein reporta desse estudo em Performing a Project Premortem, Harvard Business Review, setembro de 2007"
+      },
+      {
+        "claim": "o pré-mortem é um procedimento descrito por Gary Klein em 2007: a equipe parte do princípio de que o projeto já fracassou e gera razões plausíveis para o fracasso, cada um escrevendo primeiro por cerca de 2 minutos e depois dizendo 1 motivo por vez em volta da mesa",
+        "status": "E",
+        "fonte": "Gary Klein, Performing a Project Premortem, Harvard Business Review, setembro de 2007, páginas 18 a 19"
+      },
+      {
+        "claim": "em estudo de 51 equipes de trabalho de uma empresa industrial, a crença compartilhada de que a equipe é um lugar seguro para correr risco interpessoal variou de equipe para equipe e previu o comportamento de aprendizagem, ou seja, o quanto as pessoas levantavam problema, pediam ajuda e falavam de erro",
+        "status": "E",
+        "fonte": "Amy C. Edmondson, Psychological Safety and Learning Behavior in Work Teams, Administrative Science Quarterly, volume 44, número 2, 1999, páginas 350 a 383"
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "o aumento de cerca de 30% na identificação correta de razões quando o evento é imaginado como já ocorrido, na pesquisa de 1989",
+        "o procedimento do pré-mortem como descrito por Gary Klein em 2007, incluindo a escrita individual de cerca de 2 minutos e a volta na mesa com 1 motivo por pessoa",
+        "a variação da segurança psicológica entre as 51 equipes estudadas por Amy Edmondson e a relação dela com o comportamento de aprendizagem"
+      ],
+      "I": [
+        "a passagem do achado, medido em explicação de eventos em laboratório e em equipes de uma indústria, para a reunião de início de projeto de um negócio de serviço brasileiro",
+        "a leitura de que o silêncio na reunião de início é sinal fraco de ausência de risco, e não sinal forte de plano sólido"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos do slide 5, que são a adaptação editorial da Zionaxs do procedimento de Klein para uma reunião de 30 minutos, incluindo o recorte de escolher os 3 motivos mais prováveis"
+      ]
+    },
+    "limites": [
+      "Os 30% vêm de experimento de laboratório sobre explicação de eventos, medindo quantas razões corretas as pessoas identificam. Não é medida de projeto salvo, e a peça diz isso no slide 6 em vez de deixar o número solto.",
+      "Não foi localizada medida de campo mostrando que rodar pré-mortem reduz a taxa de fracasso de projetos. O que a peça afirma é que a pergunta invertida faz aparecer mais razões, e não que ela salva o projeto.",
+      "O estudo de Edmondson é de 51 equipes de uma única empresa industrial e mede comportamento de aprendizagem, não reunião de início de projeto. O que se transporta é o mecanismo do silêncio, e não número nenhum sobre equipes de serviço.",
+      "Os 30 minutos e o recorte dos 3 motivos mais prováveis são forma editorial da Zionaxs para o passo caber na agenda, não números tirados de Klein nem dos estudos, e estão declarados como tal na legenda."
+    ]
+  },
+  "tese": "O silêncio na reunião de início não mede ausência de risco, mede a pergunta errada. Em pesquisa de 1989 de Deborah Mitchell, J. Edward Russo e Nancy Pennington, imaginar que o resultado já aconteceu aumentou em cerca de 30% as razões corretas identificadas para o desfecho. Gary Klein transformou isso em procedimento em 2007: abrir o projeto declarando que ele já fracassou e pedir que cada um escreva por quê. A saída não é cobrar mais atenção da equipe, é trocar o tempo verbal da pergunta.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de levantamento de risco no início de projeto, nem do desenho da reunião que abre o trabalho. As 3 mais próximas não servem: M19 é dependência de pessoa-chave, resolvida com limites de decisão e cadência de gestão, ou seja, quem pode decidir sem o dono, e esta peça não trata de alçada e sim do que a sala consegue enxergar antes de começar; M17 é automatizar o processo errado, resolvida com eliminar, simplificar ou escalar, que é decisão sobre a existência do processo e não sobre o risco do plano; M18 é número que ninguém confia, resolvida com dicionário de métricas, e foi território declarado da zx-42. Declarar M19 porque as 2 citam Edmondson seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. Vale registrar a vizinhança com a zx-50, que tratou da lista lida em voz alta, e com a zx-42, que tratou do prazo estimado pelo dia perfeito: as 3 vivem no mesmo momento, que é o começo do trabalho, mas ali o mecanismo é a memória que falha e a estimativa otimista, e aqui é a ressalva que existe e não é dita. A proposta de acrescentar à matriz uma linha própria para abertura de projeto e levantamento de risco vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Código de repertório declarado: R5, Amy Edmondson, cuja tensão registrada na nota 19c é cobrança contra segurança para dizer a verdade, com o uso descrito como time que esconde dúvida preserva aparência e acumula risco operacional. É exatamente o mecanismo do slide 3, e a peça usa a fonte no modo paráfrase da §12.1, sem aspas, apresentando a autora ao leitor e declarando o recorte de 51 equipes de uma empresa industrial. A regra de no máximo 1 ideia-fonte por slide está respeitada: Mitchell, Russo e Pennington ficam na capa, Edmondson no slide 3, Klein no slide 4 e no 5, e o limite dos 30% no slide 6. R6, de Chris Argyris, foi considerada e recusada: a tensão dela é explicação contra revisão de premissa, e o uso registrado é de retrospectiva madura, ou seja, olhar para trás depois do fato, enquanto o pré-mortem olha para a frente antes de começar. Gary Klein não está no ledger R1 a R9 e entra como fonte externa, com obra, veículo e ano na legenda. A proposta de acrescentar ao ledger uma linha sobre prospecção de risco antes da decisão, com Klein e com Mitchell, Russo e Pennington, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JE5",
+    "JS1"
+  ],
+  "jtbd_nota": "JE5, querer admitir uma dúvida técnica sem parecer incompetente diante da equipe, é a job central da peça e a nota 19b já a ancora no mesmo repertório usado no slide 3. O pré-mortem existe para resolver exatamente isso: ele troca o custo social de levantar problema, que passa de deslealdade com o plano para demonstração de competência. A nota 19b descreve a job na primeira pessoa de quem tem a dúvida, e a peça fala com quem conduz a reunião: o que se transporta é a job, porque quem lidera também engole ressalva, e porque o leitor precisa reconhecer o silêncio da própria equipe para querer o método. JS1, querer ser visto pela equipe como alguém que decide com critério e não por humor, é servida pelo slide 5, que entrega um ritual visível e repetível em vez de uma recomendação de atitude.",
+  "cta": "Antes de começar o próximo projeto, reunir a equipe por 30 minutos, declarar que o projeto fracassou, pedir que cada um escreva por quê em silêncio e mudar no plano o que der para mudar hoje.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura intuitiva de que perguntar já basta; ver a cena concreta da reunião de início em que ninguém anotou nada; receber a evidência do mecanismo do silêncio, que é unidade separada do experimento da capa para respeitar a regra de no máximo 1 ideia-fonte por slide; virar para o porquê de o tempo verbal mudar o que a sala diz; receber os 4 passos aplicáveis, que são a unidade salvável; ouvir o limite, que aqui é forte e precisa ser dito, porque os 30% medem razões levantadas e não projetos salvos; e sair com o passo de hoje. A unidade de evidência está dividida entre os slides 1 e 3, com a pesquisa de 1989 na capa e o estudo das 51 equipes na evidência.",
+  "internal_metadata": [
+    "zx-56",
+    "JE5",
+    "JS1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Steady Ground",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar faixa de pulso baixo e regular, com textura grave e sóbria: o assunto é olhar para o fracasso de frente, sem drama, então trilha tensa transformaria método em suspense e trilha alegre desmentiria o tema. O slot é o da tarde e o papel é de conteúdo principal, então a trilha precisa soar concentrada e de trabalho, sustentando 7 slides de leitura sem cansar.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia, e trilha de tensão ou suspense, com cordas em crescendo, que transformaria um método calmo em alarme."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O risco que ninguém diz",
+      "copy": {
+        "title": "Finja que\ndeu errado.",
+        "accentLine": "30% mais razões.",
+        "hl": "30% mais razões.",
+        "sub": "Em 1989, os pesquisadores Deborah Mitchell, J. Edward Russo e Nancy Pennington testaram uma troca de pergunta. Em vez de pensar no que pode dar errado, as pessoas explicavam o resultado ruim como se ele já tivesse acontecido. Assim elas apontaram cerca de 30% mais razões corretas para o desfecho.",
+        "year": "2026",
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a · foto: David Vives"
+      },
+      "approved_visible_copy": [
+        "O risco que ninguém diz",
+        "01/07",
+        "Finja que deu errado.",
+        "30% mais razões.",
+        "Em 1989, os pesquisadores Deborah Mitchell, J. Edward Russo e Nancy Pennington testaram uma troca de pergunta. Em vez de pensar no que pode dar errado, as pessoas explicavam o resultado ruim como se ele já tivesse acontecido. Assim elas apontaram cerca de 30% mais razões corretas para o desfecho.",
+        "2026",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a · foto: David Vives"
+      ],
+      "alt": "Slide 1 de 7. Finja que deu errado: 30% mais razões. Em 1989, os pesquisadores Deborah Mitchell, J. Edward Russo e Nancy Pennington testaram uma troca de pergunta. Em vez de pensar no que pode dar errado, as pessoas explicavam o resultado ruim como se ele já tivesse acontecido. Assim elas apontaram cerca de 30% mais razões corretas para o desfecho. Fotografia escura de um salão vazio, com uma fileira longa de cadeiras encostada na parede e uma luminária de pé acesa ao fundo.",
+      "photo": {
+        "src": "../assets/foto-sala-cadeiras.jpg",
+        "pos": "50% 50%",
+        "scale": 2,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Ninguém\nanotou."
+        ],
+        "closing": "Você apresentou o plano na reunião de início e perguntou se alguém via algum risco. Todo mundo concordou e o bloco ficou em branco. 3 meses depois, 2 pessoas contaram que já desconfiavam daquele prazo desde o primeiro dia.",
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a · foto: Cinthya González"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Ninguém anotou.",
+        "Você apresentou o plano na reunião de início e perguntou se alguém via algum risco. Todo mundo concordou e o bloco ficou em branco. 3 meses depois, 2 pessoas contaram que já desconfiavam daquele prazo desde o primeiro dia.",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a · foto: Cinthya González"
+      ],
+      "alt": "Slide 2 de 7. Ninguém anotou. Você apresentou o plano na reunião de início e perguntou se alguém via algum risco. Todo mundo concordou e o bloco ficou em branco. 3 meses depois, 2 pessoas contaram que já desconfiavam daquele prazo desde o primeiro dia. Papel claro com fotografia em preto e branco de um bloco de anotações pautado e em branco, com uma caneta apoiada em cima.",
+      "photo": {
+        "src": "../assets/foto-bloco-em-branco.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Calar parece",
+          "mais seguro."
+        ],
+        "closing": "Em 1999, Amy Edmondson, professora de gestão da Universidade Harvard, estudou 51 equipes de uma empresa industrial. Onde as pessoas achavam que levantar problema pegaria mal, elas guardavam a dúvida, e a equipe aprendia menos com os próprios erros, o que aparecia depois no resultado do time.",
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Calar parece",
+        "mais seguro.",
+        "Em 1999, Amy Edmondson, professora de gestão da Universidade Harvard, estudou 51 equipes de uma empresa industrial. Onde as pessoas achavam que levantar problema pegaria mal, elas guardavam a dúvida, e a equipe aprendia menos com os próprios erros, o que aparecia depois no resultado do time.",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a"
+      ],
+      "alt": "Slide 3 de 7. Calar parece mais seguro. Em 1999, Amy Edmondson, professora de gestão da Universidade Harvard, estudou 51 equipes de uma empresa industrial. Onde as pessoas achavam que levantar problema pegaria mal, elas guardavam a dúvida, e a equipe aprendia menos com os próprios erros, o que aparecia depois no resultado do time."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "Alerta vira\nanálise.",
+        "accent": "A dúvida vira dado.",
+        "hl": "A dúvida vira dado.",
+        "ghost": "30",
+        "year": "2026",
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a",
+        "body": "Perguntar o que pode dar errado soa como falta de confiança no plano, e quem tem uma ressalva prefere engolir. Perguntar por que deu errado inverte o jogo: a ressalva vira demonstração de competência, e quem levanta o problema maior sai bem da reunião.",
+        "state": "laranja"
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Alerta vira análise.",
+        "A dúvida vira dado.",
+        "2026",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a",
+        "Perguntar o que pode dar errado soa como falta de confiança no plano, e quem tem uma ressalva prefere engolir. Perguntar por que deu errado inverte o jogo: a ressalva vira demonstração de competência, e quem levanta o problema maior sai bem da reunião."
+      ],
+      "alt": "Slide 4 de 7. Alerta vira análise. A dúvida vira dado. Perguntar o que pode dar errado soa como falta de confiança no plano, e quem tem uma ressalva prefere engolir. Perguntar por que deu errado inverte o jogo: a ressalva vira demonstração de competência, e quem levanta o problema maior sai bem da reunião."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O pré-mortem\nem 4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Junte quem vai tocar o projeto e leia o plano em voz alta para o grupo."
+          },
+          {
+            "num": "2",
+            "label": "Diga a frase: este projeto fracassou. Cada um escreve por quê, em silêncio."
+          },
+          {
+            "num": "3",
+            "label": "Dê 2 minutos de escrita, depois a volta na mesa, 1 motivo por pessoa."
+          },
+          {
+            "num": "4",
+            "label": "Escolha os 3 motivos mais prováveis e mude o plano hoje por causa deles."
+          }
+        ],
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O pré-mortem em 4 passos.",
+        "1",
+        "Junte quem vai tocar o projeto e leia o plano em voz alta para o grupo.",
+        "2",
+        "Diga a frase: este projeto fracassou. Cada um escreve por quê, em silêncio.",
+        "3",
+        "Dê 2 minutos de escrita, depois a volta na mesa, 1 motivo por pessoa.",
+        "4",
+        "Escolha os 3 motivos mais prováveis e mude o plano hoje por causa deles.",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a"
+      ],
+      "alt": "Slide 5 de 7. O pré-mortem em 4 passos. 1: junte quem vai tocar o projeto e leia o plano em voz alta para o grupo. 2: diga a frase, este projeto fracassou, e cada um escreve por quê, em silêncio. 3: dê 2 minutos de escrita, depois a volta na mesa, 1 motivo por pessoa. 4: escolha os 3 motivos mais prováveis e mude o plano hoje por causa deles."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "A conta é\nde razões.",
+        "accent": "Não de projetos.",
+        "body": "Os 30% vêm de um experimento de 1989 e medem quantas razões corretas as pessoas levantam, não quantos projetos foram salvos. Não há medida de campo mostrando que o pré-mortem reduz fracasso.",
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "A conta é de razões.",
+        "Não de projetos.",
+        "Os 30% vêm de um experimento de 1989 e medem quantas razões corretas as pessoas levantam, não quantos projetos foram salvos. Não há medida de campo mostrando que o pré-mortem reduz fracasso.",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a"
+      ],
+      "alt": "Slide 6 de 7. A conta é de razões, não de projetos. Os 30% vêm de um experimento de 1989 e medem quantas razões corretas as pessoas levantam, não quantos projetos foram salvos. Não há medida de campo mostrando que o pré-mortem reduz fracasso."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "O passo de hoje",
+      "copy": {
+        "title": "Marque 30 minutos.",
+        "hl": "Marque 30 minutos.",
+        "accent": "Com a equipe na sala.",
+        "body": "No próximo projeto que você abrir, reserve 30 minutos antes de começar. Diga que ele fracassou e peça que cada um escreva por quê, em silêncio. Leia a lista em voz alta e mude no plano o que der para mudar hoje.",
+        "year": "2026",
+        "temas": "Temas: Projetos / Risco / Decisão",
+        "micro": "@zionaxs_ · ref 0421de9a · foto: Eugene Chystiakov"
+      },
+      "approved_visible_copy": [
+        "O passo de hoje",
+        "07/07",
+        "Marque 30 minutos.",
+        "Com a equipe na sala.",
+        "No próximo projeto que você abrir, reserve 30 minutos antes de começar. Diga que ele fracassou e peça que cada um escreva por quê, em silêncio. Leia a lista em voz alta e mude no plano o que der para mudar hoje.",
+        "2026",
+        "Temas: Projetos / Risco / Decisão",
+        "@zionaxs_ · ref 0421de9a · foto: Eugene Chystiakov"
+      ],
+      "alt": "Slide 7 de 7. Marque 30 minutos, com a equipe na sala. No próximo projeto que você abrir, reserve 30 minutos antes de começar. Diga que ele fracassou e peça que cada um escreva por quê, em silêncio. Leia a lista em voz alta e mude no plano o que der para mudar hoje. Fotografia escura de uma mão escrevendo com caneta tinteiro em um caderno pautado aberto, iluminado por um foco de luz em meio à penumbra.",
+      "photo": {
+        "src": "../assets/foto-mao-escrevendo.jpg",
+        "pos": "50% 50%"
+      }
+    }
+  ],
+  "caption": [
+    "Você apresentou o plano na reunião de início, perguntou se alguém via risco e ninguém levantou nada. 3 meses depois, 2 pessoas contam que já desconfiavam daquele prazo desde o primeiro dia. O silêncio da sala não mediu ausência de risco, mediu a pergunta.",
+    "Em 1989, os pesquisadores Deborah Mitchell, J. Edward Russo e Nancy Pennington publicaram no Journal of Behavioral Decision Making um estudo sobre perspectiva temporal. Eles compararam 2 formas de explicar um evento: pensar que ele pode acontecer, ou explicá-lo como se já tivesse acontecido. Na segunda, as pessoas identificaram corretamente cerca de 30% mais razões para o desfecho.",
+    "Por que calar parece mais seguro. Em 1999, Amy Edmondson, professora de gestão da Universidade Harvard, estudou 51 equipes de uma empresa industrial. Onde as pessoas achavam que levantar problema pegaria mal, elas guardavam a dúvida para si, e a equipe aprendia menos com os próprios erros. A ressalva já existe antes da reunião; falta um jeito de dizê-la sem parecer deslealdade com o plano.",
+    "Gary Klein transformou isso em procedimento, em artigo na Harvard Business Review de setembro de 2007. Ele chamou de pré-mortem: a equipe parte do princípio de que o projeto já fracassou e gera as razões disso. O tempo verbal muda o custo social da fala. Perguntar o que pode dar errado soa como desconfiança; perguntar por que deu errado vira demonstração de competência.",
+    "Na prática, 4 passos. 1: junte quem vai tocar o projeto e leia o plano em voz alta. 2: diga a frase, este projeto fracassou, e peça que cada um escreva por quê, em silêncio. 3: dê 2 minutos de escrita, depois a volta na mesa, 1 motivo por pessoa. 4: escolha os 3 motivos mais prováveis e mude o plano hoje por causa deles.",
+    "Um cuidado importante. Os 30% saem de um experimento de laboratório sobre explicação de eventos, e medem quantas razões corretas as pessoas identificam, não quantos projetos foram salvos. Não localizamos medida de campo mostrando que ele reduz a taxa de fracasso. Os 30 minutos e o corte nos 3 motivos são adaptação nossa, não números de Klein nem dos estudos.",
+    "Comece pelo próximo. Antes de abrir o projeto, marque 30 minutos e peça a lista do fracasso."
+  ],
+  "caption_sources": [
+    "Deborah J. Mitchell, J. Edward Russo e Nancy Pennington, Back to the Future: Temporal Perspective in the Explanation of Events, Journal of Behavioral Decision Making, volume 2, número 1, 1989, páginas 25 a 38. O recorte de cerca de 30% a mais na identificação correta de razões é o que Gary Klein reporta desse estudo.",
+    "Gary Klein, Performing a Project Premortem, Harvard Business Review, setembro de 2007, páginas 18 a 19. Descrição do procedimento e da pesquisa de 1989 que o embasa.",
+    "Amy C. Edmondson, Psychological Safety and Learning Behavior in Work Teams, Administrative Science Quarterly, volume 44, número 2, 1999, páginas 350 a 383. Estudo multimétodo de 51 equipes de uma empresa industrial."
+  ]
+}
