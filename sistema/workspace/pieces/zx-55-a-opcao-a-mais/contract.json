@@ -1,0 +1,310 @@
+{
+  "id": "zx-55-a-opcao-a-mais",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e manda proposta para fechar trabalho: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: você monta a proposta com 6 planos para o cliente escolher com liberdade, e passam 2 semanas sem resposta nenhuma. Slot editorial: manhã de dia útil, papel de descoberta e pauta encaminhável, então a peça precisa entrar por um achado que surpreende e sair com um passo que cabe no mesmo dia.",
+    "decisao": "Parar de tratar variedade de opções como generosidade com o cliente, cortar a proposta para 3 opções no momento da decisão e guardar o resto para quando ele pedir.",
+    "tensao": "Quem vende serviço acha que oferecer mais caminhos é atender melhor: cada opção a mais parece aumentar a chance de alguma agradar. A conta parece aritmética, mais portas é mais chance de entrar por alguma. O que foi medido contraria isso em um ponto específico e verificável: em uma banca de degustação, a mesa com 24 sabores parou mais gente que a de 6 e vendeu muito menos, 3% contra 30% dos que pararam. E o achado não ficou só no experimento de laboratório: em dados reais de 800 mil pessoas escolhendo plano de aposentadoria, quanto mais fundos o plano oferecia, menos gente aderia. Ou seja, a opção a mais não soma chance, ela soma trabalho de comparar, e o trabalho de comparar empurra a decisão para depois.",
+    "evidencia": [
+      {
+        "claim": "em uma banca de degustação montada em um mercado da Califórnia, a mesa com 24 sabores de geleia atraiu mais gente para parar do que a mesa com 6, mas entre quem parou apenas 3% compraram na condição de 24 sabores, contra 30% na condição de 6",
+        "status": "E",
+        "fonte": "Sheena S. Iyengar e Mark R. Lepper, When Choice is Demotivating: Can One Desire Too Much of a Good Thing?, Journal of Personality and Social Psychology, volume 79, número 6, 2000, páginas 995 a 1006, estudo 1, realizado no mercado Draeger's em Menlo Park"
+      },
+      {
+        "claim": "em dados de planos de aposentadoria dos Estados Unidos, com cerca de 800 mil trabalhadores e 647 planos, a adesão caiu conforme o número de fundos oferecidos aumentou, na ordem de 2 pontos percentuais a cada 10 fundos acrescentados",
+        "status": "E",
+        "fonte": "Sheena S. Iyengar, Gur Huberman e Wei Jiang, How Much Choice is Too Much? Contributions to 401(k) Retirement Plans, em Pension Design and Structure: New Lessons from Behavioral Finance, Oxford University Press, 2004, páginas 83 a 95, com dados da administradora Vanguard"
+      },
+      {
+        "claim": "uma revisão que juntou cerca de 50 experimentos publicados e não publicados sobre excesso de opções encontrou efeito médio próximo de zero, com variação grande entre os estudos, e apontou que o efeito depende de condições como a familiaridade de quem escolhe e a existência de uma preferência prévia",
+        "status": "E",
+        "fonte": "Benjamin Scheibehenne, Rainer Greifeneder e Peter M. Todd, Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload, Journal of Consumer Research, volume 37, número 3, 2010, páginas 409 a 425"
+      },
+      {
+        "claim": "os 4 passos de cortar a proposta para 3 opções, nomear para quem cada uma serve, guardar as demais e comparar 10 propostas antes e 10 depois são adaptação da Zionaxs para negócio de serviço, e não resultado dos estudos",
+        "status": "NC",
+        "fonte": "leitura editorial da Zionaxs, declarada no slide 6 e na legenda"
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "a diferença de 3% contra 30% de compra entre as bancas de 24 e de 6 sabores, entre quem parou na banca",
+        "a banca de 24 sabores ter atraído mais gente para parar do que a de 6",
+        "a queda de adesão conforme cresce o número de fundos oferecidos, nos dados de 800 mil trabalhadores e 647 planos",
+        "a ordem de grandeza de 2 pontos percentuais de queda de adesão a cada 10 fundos acrescentados",
+        "o efeito médio próximo de zero na revisão de cerca de 50 experimentos, com variação grande entre eles"
+      ],
+      "I": [
+        "a passagem do achado, medido em compra de geleia e em escolha de fundo de aposentadoria, para a proposta comercial de um negócio de serviço brasileiro",
+        "a leitura de que a proposta de serviço é justamente o caso em que as condições do efeito se juntam, porque as opções são parecidas entre si e o cliente costuma não ter preferência prévia"
+      ],
+      "H": [],
+      "NC": [
+        "os 4 passos do slide 5, que são adaptação editorial da Zionaxs, incluindo o corte para 3 opções e a comparação de 10 propostas antes e 10 depois"
+      ]
+    },
+    "limites": [
+      "O experimento das geleias mede compra de um produto barato em um mercado, com decisão de segundos e sem conversa com vendedor. Proposta de serviço é decisão cara, demorada e conversada, e a peça não afirma percentual nenhum sobre proposta comercial.",
+      "Os dados de aposentadoria são de trabalhadores dos Estados Unidos escolhendo fundo dentro de um plano de empresa, não de clientes escolhendo fornecedor. O que se transporta é a direção do efeito, ou seja, mais opções derrubando a taxa de decisão, e não o tamanho exato da queda.",
+      "A revisão de 2010 é o limite mais importante e está dita na própria peça: o efeito médio dos cerca de 50 experimentos ficou perto de zero, então excesso de opções não é lei que valha sempre. Ele aparece em condições específicas, e a peça declara que aposta nessas condições em vez de esconder o resultado contrário.",
+      "O corte para 3 opções do slide 5 é exemplo editorial da Zionaxs para dar forma ao passo, não número extraído de estudo nenhum, e está declarado como tal na legenda."
+    ]
+  },
+  "tese": "A opção a mais não soma chance de fechar, soma trabalho de comparar. Em experimento das psicólogas Sheena Iyengar e Mark Lepper, publicado em 2000, a banca com 24 sabores de geleia parou mais gente que a de 6 e vendeu para 3% dos que pararam, contra 30% na de 6; em dados reais de 800 mil pessoas escolhendo plano de aposentadoria, quanto mais fundos, menos adesão. A saída não é caprichar em mais um pacote: é cortar a proposta para 3 opções e guardar o resto para quando o cliente pedir.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata de excesso de opções na hora da decisão, nem do desenho da proposta comercial. As 3 mais próximas não servem: M12 é aquisição só por indicação, resolvida com máquina mínima de indicação previsível, portanto origem de demanda, e foi território da zx-30, e não o formato da proposta depois que a demanda chegou; M14 é aceitar caso que destrói margem, resolvida com intake e critério de recusa, ou seja, escolher qual trabalho entra, que foi território da zx-33, enquanto esta peça trata de como a oferta é apresentada a um cliente que já se quer atender; M09 é margem por cliente antes do reajuste, que é leitura de carteira existente e foi território da zx-29. Declarar M12 porque as 2 falam de conseguir cliente seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. Vale registrar a vizinhança com a zx-39, que tratou do desconto que vira o novo ponto de partida do preço: lá o mecanismo é o número aceito uma vez virando âncora da próxima conversa, aqui é a quantidade de caminhos apresentados travando a decisão, e as 2 leituras convivem dentro do mesmo momento, que é a proposta. A proposta de acrescentar à matriz uma linha própria para desenho de proposta comercial e apresentação de opções vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger da nota 19c vai de R1 a R9 e não tem linha sobre decisão sob excesso de alternativas. R3, de Michael Porter, é o parente mais próximo, porque a ideia registrada nele, de que estratégia é escolher o que não fazer, descreve de fato o gesto que esta peça pede, que é tirar opções da mesa. Mas R3 está registrada para a escolha de posicionamento do próprio negócio, que é decisão de quem vende sobre onde competir, enquanto esta peça mede o custo cognitivo que a lista comprida impõe a quem compra, que é outro mecanismo e outro sujeito. R1, de Peter Drucker, trata de medir antes de decidir, e não de quantas alternativas apresentar. E nenhum slide cita Porter ou Drucker: as fontes são Sheena Iyengar com Mark Lepper em 2000, Iyengar com Gur Huberman e Wei Jiang em 2004, e a revisão de Benjamin Scheibehenne em 2010, todas externas ao ledger. Forçar R3 faria a peça parecer ancorada em repertório que ela não usa. A proposta de acrescentar ao ledger uma linha sobre excesso de opções e custo de comparação, com essas fontes, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF6",
+    "JS4"
+  ],
+  "jtbd_nota": "JF6 é declarada pelo resultado que ela pede, converter o pedido do cliente em oferta clara, que é exatamente o que os 4 passos entregam. O gatilho descrito na nota 19b para essa job é mudança regulatória, e este não é o gatilho da peça: o que se transporta é a job de chegar a uma oferta clara, não o caminho normativo até ela. JS4, querer compartilhar algo que faz parecer bem informado e não crédulo, é servida de propósito pelo slide 6, que entrega a revisão de 2010 com efeito médio perto de zero em vez de esconder o resultado contrário ao da peça.",
+  "cta": "Abrir a última proposta enviada, contar quantas opções ela oferecia e reescrevê-la com 3, dizendo em 1 linha para quem cada uma serve.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a conta intuitiva de que mais opções é mais chance; ver a cena concreta da proposta com 6 planos que não recebeu resposta; receber a evidência de campo, que é a unidade de evidência separada do experimento da capa para respeitar a regra de no máximo 1 ideia-fonte por slide; virar para o mecanismo, que é o trabalho de comparar crescendo a cada opção; receber os 4 passos aplicáveis, que são a unidade salvável; ouvir o limite, que aqui é forte e precisa ser dito, porque uma revisão de cerca de 50 experimentos achou efeito médio perto de zero; e sair com o passo de hoje. A unidade de evidência está dividida entre os slides 1 e 3, com o experimento das geleias na capa e os dados de aposentadoria na evidência.",
+  "internal_metadata": [
+    "zx-55",
+    "JF6",
+    "JS4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Slow Pulse",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar uma faixa de pulso regular e textura limpa, com poucos elementos tocando ao mesmo tempo: o argumento é que excesso de alternativas cansa, então uma trilha cheia de camadas contradiria a peça no ouvido enquanto o texto a defende no olho. O slot é o da manhã e o papel é de descoberta, então a trilha precisa soar acordada e curiosa, sem pressa.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia, e arranjo denso, com muitas camadas empilhadas, que contradiria o argumento da peça."
+  },
+  "caption": [
+    "Você montou a proposta com 6 planos para o cliente escolher com liberdade, e passaram 2 semanas sem resposta nenhuma. A liberdade que você deu virou trabalho para ele.",
+    "Em 2000, as psicólogas Sheena Iyengar, da Universidade Columbia, e Mark Lepper, da Universidade Stanford, publicaram no Journal of Personality and Social Psychology um experimento simples. Em um mercado da Califórnia elas montaram uma banca de degustação de geleia: em alguns momentos com 24 sabores, em outros com 6. A banca grande parou mais gente. Na hora de comprar a conta virou: 3% dos que pararam na banca de 24 levaram um pote, contra 30% na banca de 6.",
+    "Em 2004, Iyengar voltou ao tema com Gur Huberman e Wei Jiang, agora com dados reais: cerca de 800 mil trabalhadores e 647 planos de aposentadoria nos Estados Unidos. O padrão se repetiu fora do laboratório. Quanto mais fundos o plano oferecia, menos gente aderia, na ordem de 2 pontos percentuais a cada 10 fundos acrescentados.",
+    "O mecanismo é simples. Cada opção nova obriga quem decide a comparar de novo tudo o que já viu, e o trabalho de comparar cresce mais rápido que a lista. Junto com ele cresce o medo de escolher errado. Em algum ponto adiar fica mais confortável que decidir, e o pedido fica parado sem que ninguém tenha dito não.",
+    "Na prática, 4 passos. 1: abra a última proposta que você enviou e conte quantas opções ela oferecia. 2: escolha 3 e diga em 1 linha para quem cada uma serve. 3: guarde as outras para quando o cliente pedir, em vez de apresentar todas. 4: compare 10 propostas antes e 10 depois, e conte quantas viraram sim.",
+    "Um cuidado importante, e ele é grande. Em 2010, uma revisão liderada por Benjamin Scheibehenne juntou cerca de 50 experimentos sobre o assunto e encontrou efeito médio perto de zero, com variação grande entre os estudos. Ou seja, excesso de opções não é lei que valha sempre. Ele aparece quando as alternativas são parecidas entre si e quem escolhe ainda não sabe o que quer, que é justamente a situação da maioria das propostas de serviço. Os 4 passos acima são adaptação nossa, não resultado dos estudos.",
+    "Comece hoje. Abra a última proposta que você enviou e conte as opções."
+  ],
+  "caption_sources": [
+    "Sheena S. Iyengar e Mark R. Lepper, When Choice is Demotivating: Can One Desire Too Much of a Good Thing?, Journal of Personality and Social Psychology, volume 79, número 6, 2000, páginas 995 a 1006. Estudo 1, banca de degustação no mercado Draeger's, em Menlo Park, Califórnia.",
+    "Sheena S. Iyengar, Gur Huberman e Wei Jiang, How Much Choice is Too Much? Contributions to 401(k) Retirement Plans, em Pension Design and Structure: New Lessons from Behavioral Finance, Oxford University Press, 2004, páginas 83 a 95. Dados da administradora Vanguard, cerca de 800 mil trabalhadores e 647 planos.",
+    "Benjamin Scheibehenne, Rainer Greifeneder e Peter M. Todd, Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload, Journal of Consumer Research, volume 37, número 3, 2010, páginas 409 a 425."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "A escolha que trava",
+      "copy": {
+        "title": "Menos opções,\nmais vendas.",
+        "accentLine": "3% contra 30%.",
+        "hl": "3% contra 30%.",
+        "sub": "Em 2000, as psicólogas Sheena Iyengar e Mark Lepper montaram uma banca de degustação em um mercado da Califórnia. Em alguns momentos ofereceram 24 sabores de geleia, em outros apenas 6. A banca grande parou mais gente. Na hora de comprar, 3% dos que pararam na de 24 levaram um pote, contra 30% na de 6.",
+        "year": "2026",
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29 · foto: byVlado"
+      },
+      "approved_visible_copy": [
+        "A escolha que trava",
+        "01/07",
+        "Menos opções, mais vendas.",
+        "3% contra 30%.",
+        "Em 2000, as psicólogas Sheena Iyengar e Mark Lepper montaram uma banca de degustação em um mercado da Califórnia. Em alguns momentos ofereceram 24 sabores de geleia, em outros apenas 6. A banca grande parou mais gente. Na hora de comprar, 3% dos que pararam na de 24 levaram um pote, contra 30% na de 6.",
+        "2026",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29 · foto: byVlado"
+      ],
+      "alt": "Slide 1 de 7. Menos opções, mais vendas: 3% contra 30%. Em 2000, as psicólogas Sheena Iyengar e Mark Lepper montaram uma banca de degustação em um mercado da Califórnia. Em alguns momentos ofereceram 24 sabores de geleia, em outros apenas 6. A banca grande parou mais gente. Na hora de comprar, 3% dos que pararam na de 24 levaram um pote, contra 30% na de 6. Fotografia escura de um caderno aberto com as páginas abertas em leque, iluminadas de lado por uma luz quente, sobre uma mesa no escuro.",
+      "photo": {
+        "src": "../assets/foto-paginas-em-leque.jpg",
+        "pos": "50% 0%",
+        "scale": 1.8,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "6 planos.\nSilêncio."
+        ],
+        "closing": "Você mandou a proposta com 6 planos, cada um com escopo e preço diferentes, para o cliente escolher com liberdade. Passaram 2 semanas sem resposta nenhuma, nem mesmo um não. A liberdade virou trabalho.",
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29 · foto: Brandi Redd"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "6 planos. Silêncio.",
+        "Você mandou a proposta com 6 planos, cada um com escopo e preço diferentes, para o cliente escolher com liberdade. Passaram 2 semanas sem resposta nenhuma, nem mesmo um não. A liberdade virou trabalho.",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29 · foto: Brandi Redd"
+      ],
+      "alt": "Slide 2 de 7. 6 planos. Silêncio. Você mandou a proposta com 6 planos, cada um com escopo e preço diferentes, para o cliente escolher com liberdade. Passaram 2 semanas sem resposta nenhuma, nem mesmo um não. A liberdade virou trabalho. Papel claro com fotografia em preto e branco de várias folhas de papel em branco espalhadas e sobrepostas umas sobre as outras.",
+      "photo": {
+        "src": "../assets/foto-folhas-em-branco.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Mais fundos.",
+          "Menos gente."
+        ],
+        "closing": "Sheena Iyengar voltou ao tema em 2004, agora com dados reais e grandes: cerca de 800 mil trabalhadores e 647 planos de aposentadoria nos Estados Unidos. Quanto mais fundos o plano oferecia, menos gente aderia, na ordem de 2 pontos percentuais a cada 10 fundos acrescentados à lista.",
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Mais fundos.",
+        "Menos gente.",
+        "Sheena Iyengar voltou ao tema em 2004, agora com dados reais e grandes: cerca de 800 mil trabalhadores e 647 planos de aposentadoria nos Estados Unidos. Quanto mais fundos o plano oferecia, menos gente aderia, na ordem de 2 pontos percentuais a cada 10 fundos acrescentados à lista.",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29"
+      ],
+      "alt": "Slide 3 de 7. Mais fundos. Menos gente. Sheena Iyengar voltou ao tema em 2004, agora com dados reais e grandes: cerca de 800 mil trabalhadores e 647 planos de aposentadoria nos Estados Unidos. Quanto mais fundos o plano oferecia, menos gente aderia, na ordem de 2 pontos percentuais a cada 10 fundos acrescentados à lista."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "Escolher\ndá trabalho.",
+        "accent": "Comparar cansa.",
+        "hl": "Comparar cansa.",
+        "ghost": "30",
+        "year": "2026",
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29",
+        "body": "Cada opção nova obriga o cliente a comparar de novo tudo o que já viu, e o trabalho de comparar cresce mais rápido que a lista. Junto com ele cresce o medo de escolher errado. Em algum ponto adiar fica mais confortável que decidir, e o pedido fica parado sem que ninguém tenha dito não, nem você nem o cliente."
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "Escolher dá trabalho.",
+        "Comparar cansa.",
+        "2026",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29",
+        "Cada opção nova obriga o cliente a comparar de novo tudo o que já viu, e o trabalho de comparar cresce mais rápido que a lista. Junto com ele cresce o medo de escolher errado. Em algum ponto adiar fica mais confortável que decidir, e o pedido fica parado sem que ninguém tenha dito não, nem você nem o cliente."
+      ],
+      "alt": "Slide 4 de 7. Escolher dá trabalho. Comparar cansa. Cada opção nova obriga o cliente a comparar de novo tudo o que já viu, e o trabalho de comparar cresce mais rápido que a lista. Junto com ele cresce o medo de escolher errado. Em algum ponto adiar fica mais confortável que decidir, e o pedido fica parado sem que ninguém tenha dito não, nem você nem o cliente. Campo laranja chapado com o número 30 gigante em marca d'água."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O corte em\n4 passos.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Abra a última proposta que você enviou e conte quantas opções ela oferecia."
+          },
+          {
+            "num": "2",
+            "label": "Escolha 3 opções e diga em 1 linha para quem cada uma delas serve melhor."
+          },
+          {
+            "num": "3",
+            "label": "Guarde as outras para quando o cliente pedir, em vez de apresentar todas."
+          },
+          {
+            "num": "4",
+            "label": "Compare 10 propostas antes e 10 depois, e conte quantas viraram sim."
+          }
+        ],
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O corte em 4 passos.",
+        "1",
+        "Abra a última proposta que você enviou e conte quantas opções ela oferecia.",
+        "2",
+        "Escolha 3 opções e diga em 1 linha para quem cada uma delas serve melhor.",
+        "3",
+        "Guarde as outras para quando o cliente pedir, em vez de apresentar todas.",
+        "4",
+        "Compare 10 propostas antes e 10 depois, e conte quantas viraram sim.",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29"
+      ],
+      "alt": "Slide 5 de 7. O corte em 4 passos. 1: abra a última proposta que você enviou e conte quantas opções ela oferecia. 2: escolha 3 opções e diga em 1 linha para quem cada uma delas serve melhor. 3: guarde as outras para quando o cliente pedir, em vez de apresentar todas. 4: compare 10 propostas antes e 10 depois, e conte quantas viraram sim. Este é o quadro para salvar."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "O efeito\nnão é lei.",
+        "accent": "Depende do caso.",
+        "body": "Em 2010, uma revisão de cerca de 50 experimentos liderada por Benjamin Scheibehenne achou efeito médio perto de zero. Ele aparece quando as opções são parecidas e o cliente ainda não sabe o que quer.",
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "O efeito não é lei.",
+        "Depende do caso.",
+        "Em 2010, uma revisão de cerca de 50 experimentos liderada por Benjamin Scheibehenne achou efeito médio perto de zero. Ele aparece quando as opções são parecidas e o cliente ainda não sabe o que quer.",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29"
+      ],
+      "alt": "Slide 6 de 7. O efeito não é lei, depende do caso. Em 2010, uma revisão de cerca de 50 experimentos liderada por Benjamin Scheibehenne achou efeito médio perto de zero. Ele aparece quando as opções são parecidas e o cliente ainda não sabe o que quer."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "Hoje ainda",
+      "copy": {
+        "title": "Conte as opções.",
+        "hl": "Conte as opções.",
+        "accent": "Da proposta que enviou.",
+        "body": "Abra a última proposta que você mandou e conte quantas opções ela oferecia. Se passar de 3, escolha as 3 que melhor servem esse cliente e reescreva. Mande assim na próxima e veja o que muda na resposta.",
+        "year": "2026",
+        "temas": "Temas: Proposta / Decisão / Cliente",
+        "micro": "@zionaxs_ · ref b3c93e29 · foto: Muhammad Fauzan Azhima"
+      },
+      "approved_visible_copy": [
+        "Hoje ainda",
+        "07/07",
+        "Conte as opções.",
+        "Da proposta que enviou.",
+        "Abra a última proposta que você mandou e conte quantas opções ela oferecia. Se passar de 3, escolha as 3 que melhor servem esse cliente e reescreva. Mande assim na próxima e veja o que muda na resposta.",
+        "2026",
+        "Temas: Proposta / Decisão / Cliente",
+        "@zionaxs_ · ref b3c93e29 · foto: Muhammad Fauzan Azhima"
+      ],
+      "alt": "Slide 7 de 7. Conte as opções, da proposta que enviou. Abra a última proposta que você mandou e conte quantas opções ela oferecia. Se passar de 3, escolha as 3 que melhor servem esse cliente e reescreva. Mande assim na próxima e veja o que muda na resposta. Fotografia escura de uma mesa de trabalho à noite, com uma luminária acesa iluminando o teclado e a tela de um computador.",
+      "photo": {
+        "src": "../assets/foto-mesa-luminaria-noite.jpg",
+        "pos": "50% 25%",
+        "scale": 1.15,
+        "origin": "50% 100%"
+      }
+    }
+  ]
+}

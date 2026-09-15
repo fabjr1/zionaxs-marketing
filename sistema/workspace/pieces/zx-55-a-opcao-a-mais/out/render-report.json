@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-55-a-opcao-a-mais",
+  "generatedAt": "2026-09-15T11:48:12+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-55-a-opcao-a-mais-slide-01.png",
+    "zx-55-a-opcao-a-mais-slide-02.png",
+    "zx-55-a-opcao-a-mais-slide-03.png",
+    "zx-55-a-opcao-a-mais-slide-04.png",
+    "zx-55-a-opcao-a-mais-slide-05.png",
+    "zx-55-a-opcao-a-mais-slide-06.png",
+    "zx-55-a-opcao-a-mais-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A escolha que trava 01/07 Menos opções, mais vendas. 3% contra 30%. Em 2000, as psicólogas Sheena Iyengar e Mark Lepper montaram uma banca de degustação em um mercado da Califórnia. Em alguns momentos ofereceram 24 sabores de geleia, em outros apenas 6. A banca grande parou mais gente. Na hora de comprar, 3% dos que pararam na de 24 levaram um pote, contra 30% na de 6. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29 · foto: byVlado"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 6 planos. Silêncio. Você mandou a proposta com 6 planos, cada um com escopo e preço diferentes, para o cliente escolher com liberdade. Passaram 2 semanas sem resposta nenhuma, nem mesmo um não. A liberdade virou trabalho. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29 · foto: Brandi Redd"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Mais fundos. Menos gente. Sheena Iyengar voltou ao tema em 2004, agora com dados reais e grandes: cerca de 800 mil trabalhadores e 647 planos de aposentadoria nos Estados Unidos. Quanto mais fundos o plano oferecia, menos gente aderia, na ordem de 2 pontos percentuais a cada 10 fundos acrescentados à lista. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 Escolher dá trabalho. Comparar cansa. Cada opção nova obriga o cliente a comparar de novo tudo o que já viu, e o trabalho de comparar cresce mais rápido que a lista. Junto com ele cresce o medo de escolher errado. Em algum ponto adiar fica mais confortável que decidir, e o pedido fica parado sem que ninguém tenha dito não, nem você nem o cliente. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O corte em 4 passos. 1Abra a última proposta que você enviou e conte quantas opções ela oferecia. 2Escolha 3 opções e diga em 1 linha para quem cada uma delas serve melhor. 3Guarde as outras para quando o cliente pedir, em vez de apresentar todas. 4Compare 10 propostas antes e 10 depois, e conte quantas viraram sim. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 O efeito não é lei. Depende do caso. Em 2010, uma revisão de cerca de 50 experimentos liderada por Benjamin Scheibehenne achou efeito médio perto de zero. Ele aparece quando as opções são parecidas e o cliente ainda não sabe o que quer. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026Hoje ainda 07/07 Conte as opções. Da proposta que enviou. Abra a última proposta que você mandou e conte quantas opções ela oferecia. Se passar de 3, escolha as 3 que melhor servem esse cliente e reescreva. Mande assim na próxima e veja o que muda na resposta. Temas: Proposta / Decisão / Cliente @zionaxs_ · ref b3c93e29 · foto: Muhammad Fauzan Azhima"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2,
+  "digest": "2c572d5ef7b910225a68ac0f7bae3fe44b6f137c7152ebfb53fbf749d9a174ff"
+}

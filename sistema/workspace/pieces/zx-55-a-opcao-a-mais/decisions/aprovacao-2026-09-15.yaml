@@ -1,0 +1,75 @@
+peca: zx-55-a-opcao-a-mais
+data: 2026-09-15
+autor: sessão automática do /carrossel-zionaxs (slot da manhã, 08:30 BRT)
+decisao: aprovada para publicação
+digest_da_geracao: 2c572d5ef7b91022
+gates: 14/14 verdes
+porteiro: liberado, cadência 0/2 no dia
+
+autorizacao:
+  tipo: permanente
+  origem: Fabiano, 29/08/2026, registrada em .claude/commands/carrossel-zionaxs.md
+  escopo: >
+    O comando publica sem aprovação peça a peça, e a autorização vale para o fluxo
+    inteiro incluindo as travas. Nenhuma trava foi contornada nesta execução: não
+    houve uso de --excecao e a política de publicação da marca não foi tocada.
+
+tema:
+  escolhido: excesso de opções na proposta trava a decisão do cliente
+  papel_editorial: >
+    Slot da manhã pede descoberta, tensão atual, curiosidade ou pauta encaminhável.
+    Este tema entrega os 4: entra por um achado contraintuitivo e verificável
+    (3% contra 30% na banca de geleia), tem dado de campo grande (800 mil pessoas),
+    e sai com um passo que cabe no mesmo dia (contar as opções da última proposta).
+  nao_repete: >
+    Conferido contra as 36 peças de zx-20 a zx-54. A vizinha mais próxima é a zx-39,
+    sobre o desconto que vira o novo ponto de partida do preço: lá o mecanismo é a
+    âncora do número aceito, aqui é o custo de comparar alternativas. Convivem.
+
+correcoes_desta_sessao:
+  - gate: G6
+    onde: slide 5, item 2
+    o_que: >
+      Órfã com a última linha em 12%. Corrigido pelo comprimento, como manda a nota
+      da zx-52: o item tinha 56 caracteres contra 68 a 74 dos irmãos, e foi levado a
+      73. Não foi reordenação de palavras, que a zx-52 registra como ineficaz.
+  - gate: G6
+    onde: slide 4, corpo
+    o_que: >
+      A correção de copy abaixo acrescentou 7 caracteres e criou uma órfã nova, com a
+      última linha em 9%. Resolvida acrescentando ", nem você nem o cliente" ao fim,
+      que enche a última linha e ainda fecha o argumento. Corpo final em 310
+      caracteres, dentro do limite prático de 340 do poster-turn.
+  - tipo: copy, sem gate
+    onde: slide 4 e legenda
+    o_que: >
+      "e o pedido para sem que ninguém tenha dito não" lia como preposição e não como
+      o verbo parar. Virou "o pedido fica parado". Nenhum gate mede ambiguidade; quem
+      pegou foi o passo 6.
+  - tipo: porteiro
+    onde: legenda
+    o_que: >
+      Corpo da legenda em 2235 caracteres, acima do teto de 2200 do Instagram.
+      Reduzido a 2161 cortando redundância, sem mover fonte nenhuma para
+      caption_sources, porque afirmação E precisa ter a fonte visível ao leitor
+      (19c §14).
+
+passo_6_revisao_humana_das_fotos:
+  metodo: >
+    folha-de-contato.mjs com a banda de texto real (46% a 93%) e a caixa de paginação
+    de 84x84 a 47%, em 2 rodadas e 12 recortes comparados.
+  descartes_sem_gastar_geracao:
+    - >
+      Gôndola de supermercado e prateleira de bar: 6 candidatas descartadas por texto
+      legível na foto (marcas, preços e a palavra "Iogurte"), pela regra da zx-23.
+      Confirma o custo previsto pela zx-34, de 3 a 4 descartes por vaga.
+    - >
+      Capa com recorte neutro: o leque de páginas cruzava a banda de texto inteira.
+      Resolvido com scale 1.8 e origin "50% 100%", a alavanca da zx-34 para assunto
+      claro dentro do texto, que levou o leque para o terço superior e deixou a caixa
+      de paginação sobre preto.
+  conferencia_no_pixel: >
+    recorte-de-slide.mjs nos 2 blocos com hl. Capa: "MAIS VENDAS." inteiro acima da
+    caixa de "3% CONTRA 30%.". Slide 4: "DÁ TRABALHO." inteiro acima da caixa de
+    "COMPARAR CANSA.", e a cedilha de "opção" e o til de "não" da linha de baixo
+    intactos. Os 2 blocos com hl têm 1 linha só, como manda a regra final da zx-53.
