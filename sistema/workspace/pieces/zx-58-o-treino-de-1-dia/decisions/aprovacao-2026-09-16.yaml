@@ -1,0 +1,119 @@
+peca: zx-58-o-treino-de-1-dia
+data: 2026-09-16
+autor: sessão automática do /carrossel-zionaxs (slot da tarde, 13:00 BRT)
+decisao: aprovada para publicação
+digest_da_geracao: 65ff99c3843a0bd6
+gates: 14/14 verdes
+porteiro: liberado, cadência 1/2 no dia
+
+autorizacao:
+  tipo: permanente
+  origem: Fabiano, 29/08/2026, registrada em .claude/commands/carrossel-zionaxs.md
+  escopo: >
+    O comando publica sem aprovação peça a peça, e a autorização vale para o fluxo
+    inteiro incluindo as travas. Nenhuma trava foi contornada nesta execução: não
+    houve uso de --excecao e a política de publicação da marca não foi tocada.
+
+tema:
+  escolhido: >
+    O treino de 1 dia. Em ensaio clínico randomizado de 2006 de Carol-Anne Moulton,
+    Adam Dubrowski, Helen MacRae, Brent Graham, Ethan Grober e Richard Reznick,
+    publicado na Annals of Surgery, 38 residentes de cirurgia foram sorteados para
+    aprender anastomose microvascular em 1 dia só ou em sessões semanais, com o
+    mesmo tempo total de prática. A virada que a peça carrega é o desenho temporal
+    da medida: logo depois do treino os 2 grupos tinham melhorado, e a diferença
+    só apareceu no teste de retenção de 1 mês, em tempo, movimentos de mão e nota
+    de especialistas, e também na anastomose em tecido vivo.
+  papel_editorial: >
+    Slot da tarde pede conteúdo principal, ou seja, diagnóstico, framework, método,
+    evidência ou tutorial decisório. O tema entrega um critério de cronograma
+    sustentado em ensaio randomizado e um artefato marcável na agenda, que são as
+    4 partes do slide 5, em vez de parar na curiosidade. A igualdade dos 2 grupos
+    logo depois do treino é o que impede a peça de virar elogio genérico a treinar
+    mais: ela mostra que o momento em que o dono avalia se o treinamento funcionou
+    é justamente o momento em que a medida não separa os 2 regimes.
+  nao_repete: >
+    Conferido contra as 39 peças de zx-20 a zx-57, inclusive a peça da manhã de
+    hoje. A zx-57, sobre o pedido sem motivo, foi checada de propósito: ela trata
+    do desenho da mensagem que delega, e esta trata do desenho do cronograma que
+    forma habilidade, então o objeto é outro. As vizinhas seguintes são a zx-50,
+    sobre lista escrita vencendo a memória, e a zx-22, sobre o rito de 30 minutos:
+    as 3 tratam de desenho de rotina, mas ali o mecanismo é o artefato escrito e a
+    cadência de reunião, e aqui é o intervalo entre as horas de prática. Nenhuma
+    peça anterior tratou de formação de equipe, retenção de habilidade ou prática
+    distribuída, e Moulton não foi citada em nenhuma delas.
+
+codigos_editoriais:
+  matriz: >
+    Nenhum código declarado, de propósito. M01 a M20 da nota 19c não têm linha
+    sobre formação de equipe, retenção de habilidade ou desenho de cronograma de
+    treino. O raciocínio completo está no campo matriz_nota do contrato, com o
+    descarte justificado de M19, M17 e M04.
+  repertorio: >
+    Nenhum código declarado. Moulton não está no ledger R1 a R9. R9, de Deming, e
+    R7, de March, foram consideradas e recusadas: a tensão desta peça é sobre
+    QUANDO a medida é feita, o que você mediu no fim do dia contra o que sobrou 1
+    mês depois, e nenhuma linha do ledger carrega isso. O raciocínio está no campo
+    repertorio_nota.
+  jtbd: JF4 e JE4, os 2 conferidos contra a nota 19b pela verificação A9.
+
+correcoes_desta_sessao:
+  - gate: G6
+    onde: slide 1, sub
+    o_que: >
+      A última linha terminava em "apareceu." ocupando 16% da largura. Seguindo a
+      regra da zx-52, o que move a quebra gulosa é o comprimento e não a ordem das
+      palavras, e acrescentar sai mais barato que cortar: a frase final passou de
+      "e foi 1 mês depois que a conta apareceu." para "e a distância entre eles só
+      apareceu no teste de retenção, feito 1 mês mais tarde.", 42 caracteres a
+      mais, que é quase exatamente o delta de 42 que resolveu a zx-52. A órfã
+      sumiu na geração seguinte. A mesma mudança entrou nos 3 lugares, copy, copy
+      aprovada e alt, conforme a regra da zx-46.
+  - passo: 4
+    onde: slide 1, foto
+    o_que: >
+      Nenhuma geração foi gasta com foto nesta peça, e 5 candidatas foram
+      descartadas antes de gerar. Duas caíram na regra da zx-23 sobre texto
+      legível na imagem: uma mesa com "SAN ISIDRO 2018" impresso na parede, que é
+      ano legível ao lado do 2026 do chrome, e um estúdio com quadros e cartazes
+      na parede. Duas caíram na folha de contato, com chrome sobre área clara:
+      uma sala de auditório com teto de madeira iluminado exatamente na faixa de
+      35% a 44%, e uma arquibancada. A quinta é o caso que vale registrar, abaixo.
+  - passo: 4
+    onde: candidata de capa descartada por medição, e não por palpite
+    o_que: >
+      A melhor candidata de capa pela folha de contato era uma mesa de treinamento
+      escura cujo recorte a scale 2.0 com origem no rodapé deixava as 3 marcas do
+      chrome sobre área escura e a banda de texto inteira limpa. O problema era um
+      bloco de anotação claro no terço superior com uma frase impressa em inglês.
+      Em vez de decidir no olho, o recorte foi renderizado em 1080x1350 com o
+      mesmo gradê e scrim do campo escuro e ampliado: a frase saiu perfeitamente
+      legível, ou seja, uma manchete concorrente em inglês na capa da marca. A
+      candidata foi descartada sem gastar geração. Detalhe que importa: o zoom que
+      salvava a tinta era justamente o que tornava a frase legível, então as 2
+      correções brigavam entre si e não havia recorte bom.
+
+aprendizado_desta_sessao:
+  titulo: >
+    Texto pequeno dentro da foto se mede renderizando o recorte em 1080x1350, e a
+    conta piora com o zoom que a folha de contato recomenda.
+  detalhe: >
+    A nota da zx-23 proíbe texto legível na foto e a da zx-34 diz que isso custa
+    de 3 a 4 descartes por vaga. O que faltava é o que fazer com a candidata em
+    que o texto é pequeno e a dúvida é real, porque a folha de contato trabalha em
+    miniaturas de cerca de 360 pixels e nessa escala qualquer frase impressa vira
+    borrão, do mesmo jeito que a zx-57 descobriu que qualquer pessoa vira
+    silhueta. A folha responde sobre luminância, não sobre legibilidade. E há um
+    agravante específico: a alavanca padrão para limpar o chrome, que é scale alto
+    com origem no rodapé, AMPLIA o que está no terço superior, que é exatamente
+    onde a folha manda pôr o interesse visual. Ou seja, quanto melhor o recorte
+    fica para a tinta, mais legível fica o texto impresso na imagem, e as 2
+    correções não convergem. Regra prática: quando a candidata tem qualquer texto
+    impresso, renderizar o recorte escolhido em 1080x1350 com gradê e scrim e
+    ampliar a região do texto antes de escrever o contrato. É a mesma ferramenta
+    do passo 6, a recorte-de-slide.mjs, usada antes de gerar em vez de depois, e
+    custa 1 rodada de Chromium contra 1 geração completa.
+  onde_mora: >
+    campanhas/zionaxs/direcao-visual/README.md, na seção de enquadramento, junto
+    das outras notas de foto. Não vira gate porque medir legibilidade de texto
+    dentro de uma fotografia não é regra binária que este pipeline saiba cobrar.

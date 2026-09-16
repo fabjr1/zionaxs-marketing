@@ -1,0 +1,314 @@
+{
+  "id": "zx-58-o-treino-de-1-dia",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e treina a própria equipe sem área de treinamento: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: você para a equipe 1 dia inteiro, paga alguém de fora, todo mundo gosta, e 2 semanas depois a recepção atende do jeito antigo. Slot editorial: almoço de dia útil, papel de conteúdo principal, ou seja, método com evidência e tutorial decisório, então a peça precisa entregar um critério aplicável e sustentado em medida, e não apenas uma curiosidade.",
+    "decisao": "Parar de comprar e marcar treinamento em bloco de 1 dia, e passar a dividir as mesmas horas em encontros semanais, com a tarefa real acontecendo entre eles.",
+    "tensao": "Quem contrata acha que o problema do treinamento que não pega é conteúdo ruim, professor ruim ou falta de interesse da equipe. O que foi medido contraria isso em um ponto verificável: com o mesmo conteúdo, o mesmo professor e a mesma quantidade de horas, o resultado 1 mês depois muda conforme as horas ficam juntas ou espalhadas. E há uma segunda camada, que é onde a leitura fácil quebra: logo depois do treino os 2 grupos tinham melhorado, ou seja, o dia único parece ter funcionado exatamente no momento em que todo mundo avalia se funcionou. A diferença só aparece 1 mês depois, quando ninguém está mais medindo.",
+    "evidencia": [
+      {
+        "claim": "em ensaio clínico randomizado publicado em 2006, 38 residentes de cirurgia foram sorteados entre treinar anastomose microvascular em regime concentrado, 1 dia só, ou em regime distribuído, em sessões semanais, e os 2 grupos passaram a mesma quantidade de tempo em prática",
+        "status": "E",
+        "fonte": "Carol-Anne E. Moulton, Adam Dubrowski, Helen MacRae, Brent Graham, Ethan Grober e Richard Reznick, Teaching Surgical Skills: What Kind of Practice Makes Perfect? A Randomized, Controlled Trial, Annals of Surgery, volume 244, número 3, setembro de 2006, páginas 400 a 409"
+      },
+      {
+        "claim": "os 2 grupos melhoraram logo depois do treino, e no teste de retenção de 1 mês o grupo distribuído foi significativamente melhor na maioria das medidas, entre elas tempo, número de movimentos de mão e a nota global de avaliadores especialistas, com p menor que 0,05",
+        "status": "E",
+        "fonte": "Moulton, Dubrowski, MacRae, Graham, Grober e Reznick, Annals of Surgery, volume 244, número 3, 2006, páginas 400 a 409, seção de resultados, teste de retenção de 1 mês"
+      },
+      {
+        "claim": "o grupo distribuído também superou o concentrado na anastomose em tecido vivo em todas as medidas feitas por especialistas, entre elas nota global, checklist, análise do produto final e aptidão para centro cirúrgico, com p menor que 0,05",
+        "status": "E",
+        "fonte": "Moulton, Dubrowski, MacRae, Graham, Grober e Reznick, Annals of Surgery, volume 244, número 3, 2006, páginas 400 a 409, seção de resultados, anastomose em tecido vivo"
+      },
+      {
+        "claim": "a avaliação foi feita 3 vezes, antes do treino, logo depois do treino e 1 mês depois",
+        "status": "E",
+        "fonte": "Moulton, Dubrowski, MacRae, Graham, Grober e Reznick, Annals of Surgery, volume 244, número 3, 2006, páginas 400 a 409, seção de método"
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 38 residentes de cirurgia sorteados entre regime concentrado de 1 dia e regime distribuído semanal",
+        "a igualdade da quantidade total de horas de prática entre os 2 grupos",
+        "a melhora dos 2 grupos logo depois do treino e a vantagem do grupo distribuído no teste de 1 mês em tempo, movimentos de mão e nota global de especialistas",
+        "a vantagem do grupo distribuído na anastomose em tecido vivo em todas as medidas de especialista",
+        "as 3 avaliações, antes, logo depois e 1 mês depois"
+      ],
+      "I": [
+        "a passagem do achado, medido em habilidade manual de cirurgia com avaliador especialista, para o treinamento de equipe de um negócio de serviço brasileiro",
+        "a leitura de que o momento em que o dono avalia se o treinamento funcionou, que é o fim do dia de treino, é justamente o momento em que a medida não separa os 2 regimes",
+        "a explicação de que o intervalo obriga a busca do que foi parcialmente esquecido, que é mecanismo descrito na literatura de prática distribuída e não medido neste ensaio"
+      ],
+      "H": [],
+      "NC": [
+        "as 4 partes do treino no slide 5, que são a forma editorial da Zionaxs para o achado virar procedimento marcável na agenda, e não estão no artigo de 2006",
+        "a recomendação de 3 encontros, que é escolha de aplicação: o ensaio compara 1 dia contra sessões semanais, sem fixar para o leitor um número de encontros"
+      ]
+    },
+    "limites": [
+      "O ensaio mede habilidade manual de médicos em formação, avaliada por especialistas em anastomose microvascular, com 38 pessoas no total. Não é medida de atendimento de recepção, de uso de software nem de procedimento administrativo, e a peça diz isso no slide 6 em vez de deixar o achado solto.",
+      "A comparação do ensaio é entre 1 dia único e sessões semanais. Ela não autoriza afirmar qual é o intervalo ótimo, nem que mais encontros sejam sempre melhores: a peça recomenda 3 encontros como aplicação, e declara isso como escolha nossa, não como resultado medido.",
+      "A vantagem do regime distribuído apareceu no teste de 1 mês, e não logo depois do treino, quando os 2 grupos tinham melhorado. A peça faz disso a virada do slide 3 justamente para que o achado não seja lido como se o dia único não ensinasse nada.",
+      "Espalhar tem custo real que o ensaio não paga: 3 encontros ocupam 3 semanas de agenda, o que não serve para quem precisa da pessoa operando amanhã. A peça registra esse limite no slide 6 e na legenda.",
+      "As 4 partes do treino são forma editorial da Zionaxs para o achado virar item de agenda, não passos do artigo de 2006, e estão declaradas como tal na legenda."
+    ]
+  },
+  "tese": "Treinamento que não pega raramente é conteúdo ruim: muitas vezes é cronograma. Em ensaio randomizado de 2006 de Carol-Anne Moulton e colegas, 38 residentes de cirurgia treinaram a mesma técnica pelo mesmo número de horas, metade em 1 dia só e metade em sessões semanais. Logo depois do treino os 2 grupos tinham melhorado, e é por isso que o dia único parece funcionar. 1 mês depois o grupo semanal estava na frente em tempo, em movimentos de mão e na nota de especialistas, e também quando a tarefa virou procedimento em tecido vivo. O que muda o resultado não é a hora a mais, é o intervalo entre as horas.",
+  "categoria_editorial": "educacional",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz da nota 19c vai de M01 a M20 e nenhuma linha trata de formação de equipe, retenção de habilidade ou desenho de cronograma de treino, que é o objeto desta peça. As 3 mais próximas foram consideradas e recusadas. M19 é dependência de pessoa-chave, e a solução declarada ali é limites de decisão e cadência de gestão, ou seja, quem pode decidir sem o dono: aqui não se discute alçada e sim por que a habilidade não ficou. M17 é automatizar o processo errado, que é decisão sobre a existência do processo, e a peça não questiona se o treinamento deve existir, e sim como ele é distribuído no calendário. M04 é o que perguntar antes de comprar mais um software, e a vizinhança com a compra de um treinamento é só de formato, porque a pergunta de M04 é de integração de dado. Declarar M19 porque as 2 falam de equipe seria copiar código que a máquina aceita e a análise posterior não sustenta, que é exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. Vale registrar a vizinhança com a zx-50, sobre lista escrita vencendo a memória, e com a zx-22, sobre o rito de 30 minutos: as 3 tratam de desenho de rotina, mas ali o mecanismo é o artefato escrito e a cadência de reunião, e aqui é o intervalo entre as horas de prática. A proposta de acrescentar à matriz uma linha própria para formação de equipe e retenção de habilidade vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger R1 a R9 da nota 19c não tem nenhuma linha sobre aprendizagem de habilidade, e as 2 tensões mais próximas foram consideradas e recusadas. R9, de W. Edwards Deming, é culpa individual contra desenho do sistema, e a peça de fato diz que a culpa não é da atenção da equipe e sim do desenho do cronograma; foi recusada porque a tensão desta peça não é sobre a quem atribuir a falha, e sim sobre quando a medida é feita, ou seja, o que você mediu no fim do dia contra o que sobrou 1 mês depois, e nenhuma linha do ledger carrega isso. R7, de James March, é eficiência presente contra aprendizagem futura, e o encaixe é tentador, porque o dia único otimiza a agenda de hoje e perde a habilidade de depois; foi recusada porque a aplicação declarada de R7 é não cobrar de experimento nascente o ROI de operação madura, ou seja, orçamento, métrica e cadência de experimento, e usá-la aqui obrigaria a apresentar March ao leitor e a abrir uma segunda ideia-fonte em uma peça que se sustenta em 1 ensaio só. Moulton e colegas entram como fonte externa, com obra, veículo, volume, número, ano e páginas na legenda, no modo paráfrase da §12.1, sem aspas e apresentando a autora ao leitor. A regra de no máximo 1 ideia-fonte por slide está respeitada: a fonte é 1 só, com o desenho do ensaio na capa, a virada do resultado no slide 3 e o recorte no slide 6. A proposta de acrescentar ao ledger uma linha sobre prática distribuída e retenção de habilidade, com Moulton, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF4",
+    "JE4"
+  ],
+  "jtbd_nota": "JF4, querer transformar a operação em rotina visível e delegável quando prazos, solicitações e dúvidas se acumulam, é a job funcional central: treinamento que não fica não vira rotina, e o dono continua sendo a única pessoa que sabe fazer. O artefato salvável da peça, que são os 3 encontros marcados com data e hora, é a unidade mínima dessa rotina. JE4, querer sentir que está construindo um negócio e não sobrevivendo a uma agenda, é a job emocional que explica a escolha errada: o dia único é escolhido justamente porque a agenda não parece permitir outra coisa, e a peça mostra que essa economia de agenda é a causa do desperdício. As outras 3 consideradas foram recusadas. JE1, parar de sentir que a operação anda porque eu empurro, é vizinha e foi a job emocional da zx-57 desta manhã, mas a tensão dela é sobre o empurrão diário; aqui o incômodo é o dia de treino que já foi pago e não virou nada, que é agenda gasta e não empurrão. JO1 é checklist que a equipe executa sem o dono, e aqui o artefato é o calendário do próprio dono. JF5 é capacidade, SLA e exceção mensuráveis, que é medida de carteira e não formação de pessoa.",
+  "cta": "Abrir a agenda, pegar o próximo treinamento que já está marcado e, em vez de 1 dia inteiro, dividir as mesmas horas em 3 encontros semanais, marcando os 3 hoje com data e hora.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura de que o treinamento falhou por conteúdo ou por interesse da equipe; ver a cena concreta do dia de treino que todo mundo elogiou e que não mudou a rotina; receber a virada do próprio ensaio, que é a igualdade dos 2 grupos logo depois do treino contra a diferença 1 mês depois, e que é a unidade que impede a leitura errada do achado; entender por que o intervalo faz o trabalho, para que a regra não vire superstição de calendário; receber as 4 partes aplicáveis, que são a unidade salvável; ouvir o limite, que aqui é forte porque o ensaio mede habilidade manual de cirurgia e o formato espalhado tem custo real de agenda; e sair com o passo de hoje. A unidade de evidência está dividida entre os slides 1 e 3, com o desenho do ensaio na capa e a virada do resultado no slide 3, para respeitar a regra de no máximo 1 ideia-fonte por slide.",
+  "internal_metadata": [
+    "zx-58",
+    "JF4",
+    "JE4",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Slow Build",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar faixa de pulso regular e paciente, com textura limpa e repetição audível, do tipo que soa como trabalho que volta toda semana: o slot é o das 13:00 e o papel é de conteúdo principal, então a trilha precisa sustentar 7 slides de leitura mais densa sem empurrar o leitor. A repetição é o argumento da peça, então trilha que repete o mesmo motivo com pequena variação combina com o que o texto diz. Se Slow Build não estiver disponível na conta, o critério vale mais que o nome da faixa: pulso regular, textura limpa, motivo que repete, nada de crescendo.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia, e trilha de urgência, com percussão acelerada, que contraria o próprio conteúdo: a peça defende espalhar no tempo, então som de pressa desmente o texto."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O treino de 1 dia",
+      "copy": {
+        "title": "Mesmas horas,\noutro resultado.",
+        "accentLine": "38 médicos, 1 mês.",
+        "hl": "38 médicos, 1 mês.",
+        "sub": "Em 2006, 38 médicos em formação aprenderam a mesma técnica de sutura, com o mesmo total de horas de prática. Metade treinou tudo em 1 dia. A outra metade treinou em sessões semanais. Logo depois do treino, os 2 grupos tinham melhorado igual, e a distância entre eles só apareceu no teste de retenção, feito 1 mês mais tarde.",
+        "year": "2026",
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078 · foto: Firas Wardhana"
+      },
+      "approved_visible_copy": [
+        "O treino de 1 dia",
+        "01/07",
+        "Mesmas horas, outro resultado.",
+        "38 médicos, 1 mês.",
+        "Em 2006, 38 médicos em formação aprenderam a mesma técnica de sutura, com o mesmo total de horas de prática. Metade treinou tudo em 1 dia. A outra metade treinou em sessões semanais. Logo depois do treino, os 2 grupos tinham melhorado igual, e a distância entre eles só apareceu no teste de retenção, feito 1 mês mais tarde.",
+        "2026",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078 · foto: Firas Wardhana"
+      ],
+      "alt": "Slide 1 de 7. Mesmas horas, outro resultado: 38 médicos, 1 mês. Em 2006, 38 médicos em formação aprenderam a mesma técnica de sutura, com o mesmo total de horas de prática. Metade treinou tudo em 1 dia. A outra metade treinou em sessões semanais. Logo depois do treino, os 2 grupos tinham melhorado igual, e a distância entre eles só apareceu no teste de retenção, feito 1 mês mais tarde. Fotografia escura de uma sala de treinamento vazia, com mesas compridas e cadeiras enfileiradas em penumbra e uma cortina clara ao fundo.",
+      "photo": {
+        "src": "../assets/foto-sala-de-treinamento.jpg",
+        "pos": "50% 75%",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Todos",
+          "gostam."
+        ],
+        "closing": "Você parou a equipe 1 dia inteiro, pagou alguém de fora e todo mundo saiu elogiando. 2 semanas depois, a recepção atende do jeito antigo e você repete na mão o que era para ter ficado combinado.",
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078 · foto: Quilia"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Todos",
+        "gostam.",
+        "Você parou a equipe 1 dia inteiro, pagou alguém de fora e todo mundo saiu elogiando. 2 semanas depois, a recepção atende do jeito antigo e você repete na mão o que era para ter ficado combinado.",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078 · foto: Quilia"
+      ],
+      "alt": "Slide 2 de 7. Todos gostam. Você parou a equipe 1 dia inteiro, pagou alguém de fora e todo mundo saiu elogiando. 2 semanas depois, a recepção atende do jeito antigo e você repete na mão o que era para ter ficado combinado. Papel claro com fotografia em preto e branco de uma pilha de apostilas encadernadas fechadas, apoiada em um balcão de madeira.",
+      "photo": {
+        "src": "../assets/foto-apostilas.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Iguais no dia.",
+          "Depois, não."
+        ],
+        "closing": "A diferença não estava no professor, no conteúdo nem no total de horas, que foram os mesmos. Estava no intervalo. No teste de 1 mês o grupo semanal levou vantagem em tempo, em movimentos de mão e na nota dos avaliadores, e também quando a tarefa saiu do simulador e virou procedimento em tecido vivo.",
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Iguais no dia.",
+        "Depois, não.",
+        "A diferença não estava no professor, no conteúdo nem no total de horas, que foram os mesmos. Estava no intervalo. No teste de 1 mês o grupo semanal levou vantagem em tempo, em movimentos de mão e na nota dos avaliadores, e também quando a tarefa saiu do simulador e virou procedimento em tecido vivo.",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078"
+      ],
+      "alt": "Slide 3 de 7. Iguais no dia. Depois, não. A diferença não estava no professor, no conteúdo nem no total de horas, que foram os mesmos. Estava no intervalo. No teste de 1 mês o grupo semanal levou vantagem em tempo, em movimentos de mão e na nota dos avaliadores, e também quando a tarefa saiu do simulador e virou procedimento em tecido vivo."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "O intervalo\nensina.",
+        "accent": "Esquecer faz parte.",
+        "hl": "Esquecer faz parte.",
+        "ghost": "38",
+        "year": "2026",
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078",
+        "body": "Com as horas todas juntas, tudo parece fácil na hora, porque a informação ainda está fresca. O intervalo obriga a pessoa a buscar de novo o que já tinha esquecido um pouco, e é essa busca que fixa. Treino confortável no dia costuma ser o que some depois.",
+        "state": "laranja"
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O intervalo ensina.",
+        "Esquecer faz parte.",
+        "2026",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078",
+        "Com as horas todas juntas, tudo parece fácil na hora, porque a informação ainda está fresca. O intervalo obriga a pessoa a buscar de novo o que já tinha esquecido um pouco, e é essa busca que fixa. Treino confortável no dia costuma ser o que some depois."
+      ],
+      "alt": "Slide 4 de 7. O intervalo ensina. Esquecer faz parte. Com as horas todas juntas, tudo parece fácil na hora, porque a informação ainda está fresca. O intervalo obriga a pessoa a buscar de novo o que já tinha esquecido um pouco, e é essa busca que fixa. Treino confortável no dia costuma ser o que some depois."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O treino em\n4 partes.",
+        "items": [
+          {
+            "num": "1",
+            "label": "Some as horas que você já ia gastar. Não acrescente hora nenhuma."
+          },
+          {
+            "num": "2",
+            "label": "Divida em 3 encontros, com 1 semana de intervalo entre eles."
+          },
+          {
+            "num": "3",
+            "label": "Entre um encontro e outro, a pessoa faz a tarefa de verdade no trabalho."
+          },
+          {
+            "num": "4",
+            "label": "Comece o encontro seguinte pedindo que ela mostre o que fez, não revisando o material."
+          }
+        ],
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O treino em 4 partes.",
+        "1",
+        "Some as horas que você já ia gastar. Não acrescente hora nenhuma.",
+        "2",
+        "Divida em 3 encontros, com 1 semana de intervalo entre eles.",
+        "3",
+        "Entre um encontro e outro, a pessoa faz a tarefa de verdade no trabalho.",
+        "4",
+        "Comece o encontro seguinte pedindo que ela mostre o que fez, não revisando o material.",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078"
+      ],
+      "alt": "Slide 5 de 7. O treino em 4 partes. 1: some as horas que você já ia gastar, não acrescente hora nenhuma. 2: divida em 3 encontros, com 1 semana de intervalo entre eles. 3: entre um encontro e outro, a pessoa faz a tarefa de verdade no trabalho. 4: comece o encontro seguinte pedindo que ela mostre o que fez, não revisando o material."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "São 38\npessoas.",
+        "accent": "Em 1 ensaio.",
+        "body": "O estudo mede habilidade manual de médicos em formação, com avaliador especialista, e não atendimento de escritório. E espalhar tem custo: 3 encontros ocupam 3 semanas de agenda, e para quem entra amanhã o dia único ainda resolve.",
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "São 38 pessoas.",
+        "Em 1 ensaio.",
+        "O estudo mede habilidade manual de médicos em formação, com avaliador especialista, e não atendimento de escritório. E espalhar tem custo: 3 encontros ocupam 3 semanas de agenda, e para quem entra amanhã o dia único ainda resolve.",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078"
+      ],
+      "alt": "Slide 6 de 7. São 38 pessoas, em 1 ensaio. O estudo mede habilidade manual de médicos em formação, com avaliador especialista, e não atendimento de escritório. E espalhar tem custo: 3 encontros ocupam 3 semanas de agenda, e para quem entra amanhã o dia único ainda resolve."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "O passo de hoje",
+      "copy": {
+        "title": "Quebre o treino.",
+        "hl": "Quebre o treino.",
+        "accent": "Antes de marcar o dia.",
+        "body": "Abra a agenda e pegue o próximo treinamento que já está marcado. Em vez de 1 dia inteiro, divida as mesmas horas em 3 encontros semanais e marque os 3 hoje, com data e hora. No segundo encontro, comece perguntando o que cada um já usou.",
+        "year": "2026",
+        "temas": "Temas: Equipe / Treino / Rotina",
+        "micro": "@zionaxs_ · ref a4fd7078 · foto: Eugene Chystiakov"
+      },
+      "approved_visible_copy": [
+        "O passo de hoje",
+        "07/07",
+        "Quebre o treino.",
+        "Antes de marcar o dia.",
+        "Abra a agenda e pegue o próximo treinamento que já está marcado. Em vez de 1 dia inteiro, divida as mesmas horas em 3 encontros semanais e marque os 3 hoje, com data e hora. No segundo encontro, comece perguntando o que cada um já usou.",
+        "2026",
+        "Temas: Equipe / Treino / Rotina",
+        "@zionaxs_ · ref a4fd7078 · foto: Eugene Chystiakov"
+      ],
+      "alt": "Slide 7 de 7. Quebre o treino, antes de marcar o dia. Abra a agenda e pegue o próximo treinamento que já está marcado. Em vez de 1 dia inteiro, divida as mesmas horas em 3 encontros semanais e marque os 3 hoje, com data e hora. No segundo encontro, comece perguntando o que cada um já usou. Fotografia escura de um caderno aberto com uma caneta apoiada sobre a página, em penumbra, com um teclado desfocado na parte de baixo do quadro.",
+      "photo": {
+        "src": "../assets/foto-caderno-caneta.jpg",
+        "pos": "50% 50%",
+        "scale": 1.35,
+        "origin": "50% 100%"
+      }
+    }
+  ],
+  "caption": [
+    "Você parou a equipe 1 dia inteiro, pagou alguém de fora e todo mundo elogiou. 2 semanas depois, nada mudou na rotina. Antes de culpar o conteúdo ou o interesse da equipe, vale olhar o calendário.",
+    "Em 2006, a cirurgiã e pesquisadora Carol-Anne Moulton publicou com Adam Dubrowski, Helen MacRae, Brent Graham, Ethan Grober e Richard Reznick um ensaio clínico randomizado na revista Annals of Surgery, volume 244, número 3, páginas 400 a 409. Foram 38 residentes de cirurgia, sorteados para aprender uma técnica de sutura de vasos em 2 regimes: 1 dia só, ou sessões semanais. Os 2 grupos passaram exatamente o mesmo tempo praticando.",
+    "A parte que quase ninguém conta vem depois. Logo após o treino, os 2 grupos tinham melhorado. Ou seja: no fim do dia, o treinamento concentrado parece ter funcionado, e é justamente nesse momento que a maioria das empresas avalia se valeu a pena. A diferença apareceu no teste de 1 mês, quando o grupo das sessões semanais levou vantagem em tempo, em número de movimentos de mão e na nota de avaliadores especialistas. E venceu também quando a tarefa saiu do simulador e virou procedimento em tecido vivo.",
+    "Por que o intervalo funciona: com as horas todas juntas, a informação ainda está fresca e tudo parece fácil. Quando existe intervalo, a pessoa precisa buscar de novo o que já tinha esquecido um pouco, e é essa busca que fixa. O treino que parece mais confortável no dia costuma ser o que some depois.",
+    "Na prática, 4 partes. 1: some as horas que você já ia gastar, sem acrescentar nenhuma. 2: divida em 3 encontros, com 1 semana de intervalo. 3: entre um encontro e outro, a pessoa faz a tarefa de verdade no trabalho. 4: comece o encontro seguinte pedindo que ela mostre o que fez, em vez de revisar o material.",
+    "Um cuidado importante. O ensaio tem 38 pessoas e mede habilidade manual de médicos em formação, avaliada por especialistas, não atendimento de escritório. E espalhar custa agenda: 3 encontros ocupam 3 semanas, então para quem começa amanhã o dia único ainda resolve. As 4 partes são forma nossa de aplicar o achado, não estão no artigo.",
+    "Comece hoje. Abra a agenda, pegue o treinamento que já está marcado e quebre em 3 encontros semanais."
+  ],
+  "caption_sources": [
+    "Carol-Anne E. Moulton, Adam Dubrowski, Helen MacRae, Brent Graham, Ethan Grober e Richard Reznick, Teaching Surgical Skills: What Kind of Practice Makes Perfect? A Randomized, Controlled Trial, Annals of Surgery, volume 244, número 3, setembro de 2006, páginas 400 a 409. Ensaio clínico randomizado com 38 residentes de cirurgia, sorteados entre prática concentrada em 1 dia e prática distribuída em sessões semanais, com o mesmo tempo total de prática, e avaliação antes do treino, logo depois e 1 mês depois."
+  ]
+}
