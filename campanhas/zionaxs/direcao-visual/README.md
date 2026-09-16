@@ -380,6 +380,23 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   `sistema/app/bin/recorte-de-slide.mjs`, que amplia 2x um pedaço de um slide já renderizado:
   `node bin/recorte-de-slide.mjs <slide.png> <saida.png> <x> <y> <w> <h>`, em coordenadas do quadro de 1080x1350. Ela é o
   par da `folha-de-contato.mjs`: a folha decide a foto **antes** de gerar, o recorte confere o pixel **depois**.
+- **Texto pequeno dentro da foto se MEDE, renderizando o recorte em 1080x1350, e a conta piora com o zoom que a própria
+  folha recomenda.** Aprendido na zx-58, 16/09/2026. A nota da zx-23 proíbe texto legível na imagem e a da zx-34 diz que
+  isso custa de 3 a 4 descartes por vaga, mas as 2 tratam do caso fácil, em que a data está grande e a decisão é óbvia.
+  O caso caro é a candidata em que o texto é pequeno e a dúvida é real: a folha de contato trabalha em miniaturas de
+  cerca de 360px e nessa escala qualquer frase impressa vira borrão, do mesmo jeito que a zx-57 descobriu que qualquer
+  pessoa vira silhueta. **A folha responde sobre luminância, nunca sobre legibilidade.** E há um agravante que inverte a
+  intuição: a alavanca padrão para limpar o chrome, `scale` alto com `origin: "50% 100%"`, **amplia** o que está no terço
+  superior, que é justamente onde este README manda pôr o interesse visual. Ou seja, quanto melhor o recorte fica para a
+  tinta, mais legível fica o texto impresso na foto, e as 2 correções não convergem: na zx-58 a melhor capa pela folha
+  era uma mesa de treinamento cujo recorte a `scale: 2.0` com origem no rodapé deixava as 3 marcas do chrome sobre área
+  escura e a banda de texto perfeita, e era exatamente esse recorte que tornava a frase "GREAT IDEAS COME FROM SMALL
+  DETAILS" legível de ponta a ponta no quadro de 1080x1350. Não havia recorte bom, e a candidata caiu.
+  **Regra prática: candidata com qualquer texto impresso não entra no contrato antes de o recorte escolhido ser
+  renderizado em 1080x1350 com gradê e scrim e a região do texto ser ampliada.** É a `recorte-de-slide.mjs` usada
+  **antes** de gerar em vez de depois, e custa 1 rodada de Chromium contra 1 geração completa. Junto com a regra da
+  zx-57, isso fecha a lista do que a folha de contato **não** mede: rosto e legibilidade de texto, as 2 anteriores a ela.
+  Nenhuma das 2 vira gate, porque nem rosto nem legibilidade são regra binária que este pipeline saiba cobrar.
 
 ## Como o padrão se sustenta sozinho
 
