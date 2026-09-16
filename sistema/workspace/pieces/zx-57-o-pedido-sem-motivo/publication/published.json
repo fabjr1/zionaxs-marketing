@@ -1,0 +1,71 @@
+{
+  "postId": "17907914631513442",
+  "permalink": "https://www.instagram.com/p/DdWODmmIHea/",
+  "shortcode": "DdWODmmIHea",
+  "digest": "f0be3e91fe73",
+  "publishedAt": "2026-09-16T11:51:30+0000",
+  "publishedAtFortaleza": "2026-09-16 08:51 BRT",
+  "slot": "manha-dia-util-08:30-BRT",
+  "papelEditorial": "descoberta, tensão atual, curiosidade ou pauta encaminhável",
+  "route": "composio INSTAGRAM_POST_IG_USER_MEDIA (7 filhos) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_GET_POST_STATUS + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+  "composioAccount": "@zionaxs_",
+  "composioConnectionId": "instagram_ascent-utick",
+  "igUserId": "37965311306447572",
+  "accountUsername": "zionaxs_",
+  "identidadeConferidaAoVivo": "Antes de criar qualquer contêiner, COMPOSIO_MANAGE_CONNECTIONS em modo list sobre o toolkit instagram devolveu as 4 conexões vivas: @clubegarimpai (id 28127464676879982, is_default true), @fabjr1 (38039865875659488), @zionaxs_ (37965311306447572) e @base3br (28260020683635617). A conexão padrão continua sendo @clubegarimpai, e não a Zionaxs, confirmando a nota da zx-53: omitir o account publicaria na conta errada sem erro nenhum. Em seguida, INSTAGRAM_GET_USER_INFO com account @zionaxs_ devolveu id 37965311306447572, username zionaxs_, name zionaxs, 4.774 seguidores e 121 mídias. Confere com a conta certa.",
+  "notaDeConta": "O campo account do Composio é o apelido da conexão e leva arroba: @zionaxs_. Passar zionaxs_ sem arroba volta No account found matching \"zionaxs_\", aprendido na zx-51. Nesta execução o apelido com arroba foi usado em todas as chamadas do fluxo, inclusive nas de leitura, e nenhuma reclamou.",
+  "notaDeParametros": "ig_user_id foi passado em toda chamada de criação e de publicação, conforme a zx-49. O contêiner pai foi criado com INSTAGRAM_CREATE_CAROUSEL_CONTAINER e sem share_to_feed, que é inválido para carrossel, e o status dele foi conferido com INSTAGRAM_GET_POST_STATUS, cujo campo é creation_id e não ig_container_id. O slug de criar filho é INSTAGRAM_POST_IG_USER_MEDIA e o de publicar é INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, conforme a zx-55. A reconciliação chamou INSTAGRAM_GET_IG_MEDIA com fields explícito, conforme a zx-40. Nenhuma chamada desta execução voltou erro: 7 filhos, 1 pai, 1 status, 1 publicação e 2 leituras de reconciliação, todas na primeira tentativa.",
+  "containerId": "17908708746501214",
+  "containerStatusAntesDePublicar": "FINISHED",
+  "childContainers": [
+    "17908708614501214",
+    "17908708608501214",
+    "17908708605501214",
+    "17908708611501214",
+    "17908708683501214",
+    "17908708689501214",
+    "17908708686501214"
+  ],
+  "childMediaIds": [
+    "17968521183153009",
+    "18145070167488982",
+    "18070647428725828",
+    "18628096873059624",
+    "18194153989382934",
+    "18442648003125268",
+    "18114173564093804"
+  ],
+  "mediaUrls": [
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-01.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-02.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-03.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-04.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-05.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-06.jpg",
+    "https://raw.githubusercontent.com/fabjr1/zionaxs-marketing/main/sistema/workspace/pieces/zx-57-o-pedido-sem-motivo/out/jpg/zx-57-o-pedido-sem-motivo-slide-07.jpg"
+  ],
+  "mediaUrlsConferidas": "Os 7 endereços responderam HTTP 200 com corpo não vazio antes de qualquer chamada à Meta, depois do push do commit 99fb2ea para main.",
+  "reconciliacao": {
+    "ferramenta": "INSTAGRAM_GET_IG_MEDIA com fields explícito + INSTAGRAM_GET_IG_MEDIA_CHILDREN",
+    "owner": "37965311306447572",
+    "username": "zionaxs_",
+    "mediaType": "CAROUSEL_ALBUM",
+    "filhosConfirmados": 7,
+    "legendaConferida": "O caption devolvido pela Meta bate com o corpo do campo caption do contrato, 1892 caracteres, sem o caption_sources.",
+    "resultado": "confere: conta certa, tipo certo, 7 slides, legenda certa"
+  },
+  "cadencia": {
+    "politica": "sistema/workspace/brands/zionaxs/politica-de-publicacao.json",
+    "limiteDoDia": 2,
+    "antesDestaPublicacao": 0,
+    "depoisDestaPublicacao": 1,
+    "excecao": "nenhuma. O porteiro liberou sem --excecao e a política da marca não foi tocada."
+  },
+  "trilha": {
+    "campo": "trilha_sugerida",
+    "faixa": "Paper Trail",
+    "origem": "Meta Sound Collection",
+    "status": "pendente de inclusão manual pelo Fabiano, editando o post no app depois de publicado",
+    "nota": "Carrossel recebe a música pelo app depois de publicado; a API não escolhe faixa. Se a faixa nomeada não estiver disponível na conta, vale o critério: instrumental, pulso médio e regular, textura limpa e seca, sem crescendo, obrigatoriamente da Meta Sound Collection."
+  }
+}
