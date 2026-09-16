@@ -358,6 +358,20 @@ O estilo está implementado como família de layouts `poster-*` em `sistema/app/
   desenha as 3 marcas nas posições medidas, e não estimadas, e o cabeçalho dela guarda os números. Rodando a folha
   corrigida sobre os mesmos 3 recortes da zx-56, o retângulo do kicker cai visivelmente sobre o reflexo em 1.55 e sai
   limpo em 2.0, ou seja, a folha passou a reprovar antes de gerar o caso que custou 1 geração.
+- **A folha de contato não responde a pergunta do ROSTO, e por isso a regra da zx-37 tem de ser aplicada antes
+  dela, e não depois de gerar.** Aprendido na zx-57, 16/09/2026. A folha corrigida na zx-56 cumpriu o papel dela
+  aqui e reprovou 3 recortes sem gastar geração nenhuma, mas ela mede **tinta e chrome contra luminância**, em
+  miniaturas de cerca de 360px de largura, e nessa escala qualquer pessoa vira silhueta. A capa escolhida tinha um
+  grupo de pessoas diante de uma janela panorâmica, com a banda de texto inteira escura e as 3 marcas do chrome
+  limpas na folha; no PNG de 1080x1350 uma das pessoas aparecia de frente, com o rosto lit e reconhecível. **Os 14
+  gates ficaram verdes**, como nas outras vezes. E as alavancas de crop não resolviam: o arquivo é retrato mais alto
+  que 0.8, então o X de `pos` não move nada (regra da zx-23), e o `scale` que tirava o rosto de quadro, testado a
+  2.2, deixava só o piso vazio, sem assunto nomeável (regra da zx-46). A saída foi trocar a foto na primeira
+  tentativa, que é o que a zx-45 já ensinava, e custou 1 geração.
+  **Regra prática, que é de método e não de ferramenta:** a pergunta do rosto é ANTERIOR à folha de contato.
+  Candidata com pessoas só entra na folha depois de ser olhada em tamanho grande, e entre 2 candidatas igualmente
+  boas na banda, **a sem pessoa ganha**. Isso não vira gate porque medir rosto no pixel não é regra binária que
+  este pipeline saiba cobrar.
 - **Para conferir esses defeitos de poucos pixels existe ferramenta versionada.** O passo 6 manda olhar os PNG, mas os
   defeitos que aparecem ali são pequenos: a cedilha comida pela caixa, o acento escondido, a caixa de paginação de 84x84
   sumindo em trecho claro, a linha do corpo encostando no anel do `poster-statement`. Em um quadro de 1080x1350 visto

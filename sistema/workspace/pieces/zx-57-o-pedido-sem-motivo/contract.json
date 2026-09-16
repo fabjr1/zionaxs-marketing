@@ -1,0 +1,304 @@
+{
+  "id": "zx-57-o-pedido-sem-motivo",
+  "brand": "Zionaxs",
+  "campaign": "Avulso",
+  "piece": "Avulso",
+  "format": "carousel-4x5",
+  "research_brief": {
+    "publico": "Primário Transversal, quem toca um negócio de serviço com equipe pequena e delega por mensagem ao longo do dia: clínica, escritório contábil, banca de advocacia, agência. Secundário nenhum: a cena é escrita para que qualquer um desses se reconheça sem que a peça afirme número nenhum sobre esses setores. Cena concreta: você manda no grupo que precisa do relatório até quinta, quinta chega e o relatório não, e só depois aparece que ninguém sabia que aquele arquivo travava a reunião com o cliente na sexta. Slot editorial: manhã de dia útil, papel de descoberta, tensão atual, curiosidade ou pauta encaminhável, então a peça precisa entrar por um achado que contraria a leitura intuitiva e sair com 1 passo aplicável no mesmo dia, sem virar tutorial longo.",
+    "decisao": "Parar de mandar pedido com o que e para quando, e passar a mandar sempre com o motivo real junto, aquele que diz o que trava se a coisa não chegar na hora.",
+    "tensao": "Quem pede acha que já foi claro: a mensagem tinha a tarefa e tinha o prazo, então o que falta é atenção do outro lado. O que foi medido contraria isso em 2 pontos verificáveis. Primeiro, o motivo dito junto ao pedido muda muito a taxa de aceitação: em um experimento de 1978 em fila de copiadora, pedir sem motivo convenceu 60% das pessoas e pedir com o motivo convenceu 94%. Segundo, e é aqui que a leitura fácil quebra, quando o pedido ficou grande o motivo de fachada parou de funcionar e só o motivo real manteve vantagem. Ou seja, no trabalho, onde todo pedido é caro para quem recebe, não basta escrever a palavra porque: tem de entrar a consequência verdadeira.",
+    "evidencia": [
+      {
+        "claim": "em experimento de campo de 1978 em uma fila de copiadora, o pedido para passar na frente com 5 páginas obteve 60% de aceitação sem motivo, 94% com um motivo real (estou com pressa) e 93% com um motivo vazio que apenas repetia o pedido (preciso tirar cópias)",
+        "status": "E",
+        "fonte": "Ellen J. Langer, Arthur Blank e Benzion Chanowitz, The Mindlessness of Ostensibly Thoughtful Action: The Role of Placebic Information in Interpersonal Interaction, Journal of Personality and Social Psychology, volume 36, número 6, 1978, páginas 635 a 642, experimento 1"
+      },
+      {
+        "claim": "no mesmo experimento, quando o pedido subiu de 5 para 20 páginas o motivo vazio deixou de fazer diferença, ficando em cerca de 24%, o mesmo patamar do pedido sem motivo nenhum, enquanto o motivo real ficou em cerca de 42%",
+        "status": "E",
+        "fonte": "Ellen J. Langer, Arthur Blank e Benzion Chanowitz, The Mindlessness of Ostensibly Thoughtful Action, Journal of Personality and Social Psychology, volume 36, número 6, 1978, páginas 635 a 642, experimento 1, condição de favor grande"
+      },
+      {
+        "claim": "o experimento 1 usou cerca de 120 adultos que estavam usando a copiadora da biblioteca, distribuídos entre as condições de tamanho do pedido e tipo de informação",
+        "status": "E",
+        "fonte": "Ellen J. Langer, Arthur Blank e Benzion Chanowitz, The Mindlessness of Ostensibly Thoughtful Action, Journal of Personality and Social Psychology, volume 36, número 6, 1978, páginas 635 a 642, seção de método do experimento 1"
+      }
+    ],
+    "classificacao": {
+      "E": [
+        "os 60%, 94% e 93% do pedido de 5 páginas no experimento de 1978",
+        "os cerca de 24% do motivo vazio e do pedido sem motivo, e os cerca de 42% do motivo real, no pedido de 20 páginas",
+        "o universo de cerca de 120 pessoas em 1 fila de copiadora de universidade"
+      ],
+      "I": [
+        "a passagem do achado, medido em fila de copiadora de universidade nos Estados Unidos em 1978, para a mensagem de trabalho de um negócio de serviço brasileiro",
+        "a leitura de que, no trabalho, todo pedido se comporta como o pedido grande do experimento, porque quem recebe já tem fila própria e o custo de atender nunca é trivial"
+      ],
+      "H": [],
+      "NC": [
+        "as 4 partes do pedido no slide 5, que são a forma editorial da Zionaxs para o achado virar mensagem escrita, e não estão no artigo de 1978"
+      ]
+    },
+    "limites": [
+      "O estudo mede quem cede a vez em 1 fila de copiadora, com cerca de 120 pessoas e cerca de 20 por grupo. Não é medida de prazo de equipe, de entrega de cliente nem de tarefa cumprida, e a peça diz isso no slide 6 em vez de deixar os números soltos.",
+      "A diferença do pedido grande, de 24% para 42%, se apoia em poucos casos por grupo, então ela indica direção e não magnitude transportável.",
+      "O achado do motivo vazio não é permissão para inventar justificativa. A própria medida mostra que ele deixa de funcionar assim que o pedido custa caro, e o único motivo que se sustenta no trabalho é o verdadeiro. A peça diz isso no slide 4.",
+      "As 4 partes do pedido são forma editorial da Zionaxs para o passo caber na rotina, não passos do artigo de 1978, e estão declaradas como tal na legenda."
+    ]
+  },
+  "tese": "Pedido sem motivo não é pedido claro, é pedido sem prioridade. Em experimento de 1978 de Ellen Langer, Arthur Blank e Benzion Chanowitz, em uma fila de copiadora, pedir para passar na frente convenceu 60% das pessoas sem motivo e 94% com o motivo dito junto. E quando o pedido ficou grande, o motivo de fachada parou de funcionar: só o motivo real manteve vantagem. No trabalho todo pedido é do tipo grande, então o que destrava é a consequência verdadeira, escrita junto com o prazo.",
+  "categoria_editorial": "descoberta",
+  "estagio_aarrr": "acquisition",
+  "matriz_nota": "Nenhum código de matriz foi declarado, de propósito. A matriz editorial da nota 19c vai de M01 a M20 e nenhuma linha trata do desenho da mensagem que delega, que é o objeto desta peça. As 3 mais próximas não servem: M19 é dependência de pessoa-chave, resolvida com limites de decisão e cadência de gestão, ou seja, quem pode decidir sem o dono, e aqui não se discute alçada e sim o que a mensagem carrega; M18 é número que ninguém confia, resolvida com dicionário de métricas, e foi território declarado da zx-42; M17 é automatizar o processo errado, que é decisão sobre a existência do processo. Declarar M19 porque as 2 falam de equipe seria copiar código que a máquina aceita e a análise posterior não sustenta, exatamente o erro que a verificação A9 existe para conter, já que ela mede existência e não pertinência. Vale registrar a vizinhança com a zx-40, sobre o trabalho que trava ao trocar de mão, e com a zx-47, sobre o combinado que sai sem dia e sem hora: as 3 vivem no mesmo momento, que é a passagem de trabalho entre pessoas, mas ali o mecanismo é o que se perde na entrega e o combinado sem data, e aqui é a prioridade que quem recebe não consegue calcular. A proposta de acrescentar à matriz uma linha própria para delegação escrita e desenho de pedido vai para a Inbox da Zionaxs Memory, para promoção humana.",
+  "repertorio_nota": "Nenhum código de repertório foi declarado. O ledger R1 a R9 da nota 19c não tem Ellen Langer, e nenhuma das 9 tensões registradas descreve o mecanismo desta peça. R9, de W. Edwards Deming, foi considerada e recusada: a tensão dela é culpa individual contra desenho do sistema, e a peça de fato diz que o problema está no desenho do pedido e não na atenção de quem recebe, mas usar R9 obrigaria a apresentar Deming ao leitor e a abrir uma segunda ideia-fonte, quando a peça inteira se sustenta em 1 experimento só e o slot da manhã pede entrada rápida. R5, de Amy Edmondson, foi recusada porque a tensão dela é cobrança contra segurança para dizer a verdade, que é sobre o que a pessoa não fala, e aqui o assunto é o que a pessoa não consegue priorizar. Langer, Blank e Chanowitz entram como fonte externa, com obra, veículo, volume, número, ano e páginas na legenda, no modo paráfrase da §12.1, sem aspas e apresentando a autora ao leitor. A regra de no máximo 1 ideia-fonte por slide está respeitada: a fonte é 1 só, com o resultado do pedido pequeno na capa, o do pedido grande no slide 3 e o recorte no slide 6. A proposta de acrescentar ao ledger uma linha sobre a forma do pedido e a justificativa na delegação, com Langer, fica na Inbox da Zionaxs Memory, para promoção humana.",
+  "jtbd": [
+    "JF4",
+    "JE1"
+  ],
+  "jtbd_nota": "JF4, querer transformar a operação em rotina visível e delegável quando prazos, solicitações e dúvidas se acumulam, é a job central da peça: o pedido escrito com as 4 partes é a unidade mínima dessa rotina, e é o que a peça entrega como passo salvável. JE1, querer parar de sentir que a operação anda porque eu empurro, é a job emocional que explica por que o leitor fica com a peça: cobrar de novo é empurrar, e a peça mostra que parte do empurrão nasce da própria mensagem, não da equipe. As outras 2 consideradas foram recusadas: JO1 é checklist que a equipe executa sem o dono, e aqui o artefato é do próprio dono na hora de pedir; JO5 é script de conversa com cliente sobre reajuste, exceção ou retrabalho, que é outro interlocutor.",
+  "cta": "Abrir a última mensagem em que você pediu alguma coisa e ainda não teve retorno, reescrever com o motivo real junto, o que trava se aquilo não chegar, e mandar de novo hoje chamando a pessoa pelo nome.",
+  "comprimento_justificado": "7 unidades porque a narrativa tem 7 tarefas cognitivas: entrar pelo achado que contraria a leitura de que a mensagem já estava clara; ver a cena concreta do pedido que voltou sem resposta; receber a virada do próprio experimento, que é o motivo de fachada caindo quando o pedido fica grande, e que é a unidade que impede a leitura errada do achado; entender por que o motivo ordena a fila de quem recebe; receber as 4 partes aplicáveis, que são a unidade salvável; ouvir o limite, que aqui é forte porque o estudo mede fila de copiadora e não entrega de trabalho; e sair com o passo de hoje. A unidade de evidência está dividida entre os slides 1 e 3, com o pedido pequeno na capa e o pedido grande na evidência, para respeitar a regra de no máximo 1 ideia-fonte por slide.",
+  "internal_metadata": [
+    "zx-57",
+    "JF4",
+    "JE1",
+    "acquisition"
+  ],
+  "allowlist_editorial": [],
+  "trilha_sugerida": {
+    "faixa": "Paper Trail",
+    "artista": "Meta Sound Collection",
+    "versao": "instrumental, biblioteca da Meta Sound Collection",
+    "porque": "Instrumental puro, sem letra, porque a peça se lê e letra disputa a atenção com o texto; letra em português é o pior caso. Andamento constante, sem virada dramática, porque cada leitor passa no próprio ritmo e ninguém está sincronizado com a música. A nota específica desta peça é procurar faixa de pulso médio e claro, com textura leve e seca, do tipo que soa como escritório de manhã: o slot é o das 08:30 e o papel é de descoberta, então a trilha precisa acordar sem acelerar, sustentando 7 slides curtos de leitura. Se Paper Trail não estiver disponível na conta, o critério vale mais que o nome da faixa: pulso regular, textura limpa, nada de crescendo.",
+    "evitar": "Qualquer faixa do catálogo popular do app, mesmo aparecendo disponível na hora de postar: a licença da Meta para esse catálogo é de uso pessoal e não vale para conteúdo de marca. Também evitar trilha com letra, principalmente em português, faixa épica de superação, que empurraria a peça para o tom de coach motivacional e brigaria com o posicionamento de engenharia, e trilha de urgência, com percussão acelerada, que transformaria um ajuste de escrita em alarme de prazo."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "papel_interno": "capa",
+      "layout": "poster-cover",
+      "kicker": "O pedido sem motivo",
+      "copy": {
+        "title": "Peça com\nmotivo.",
+        "accentLine": "De 60% para 94%.",
+        "hl": "De 60% para 94%.",
+        "sub": "Em 1978, a psicóloga Ellen Langer testou um pedido em uma fila de copiadora, em uma universidade de Nova York. Pedir para passar na frente sem explicar nada convenceu 60% das pessoas. O mesmo pedido, com o motivo dito junto, convenceu 94% delas.",
+        "year": "2026",
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515 · foto: Meatball Overexposure"
+      },
+      "approved_visible_copy": [
+        "O pedido sem motivo",
+        "01/07",
+        "Peça com motivo.",
+        "De 60% para 94%.",
+        "Em 1978, a psicóloga Ellen Langer testou um pedido em uma fila de copiadora, em uma universidade de Nova York. Pedir para passar na frente sem explicar nada convenceu 60% das pessoas. O mesmo pedido, com o motivo dito junto, convenceu 94% delas.",
+        "2026",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515 · foto: Meatball Overexposure"
+      ],
+      "alt": "Slide 1 de 7. Peça com motivo: de 60% para 94%. Em 1978, a psicóloga Ellen Langer testou um pedido em uma fila de copiadora, em uma universidade de Nova York. Pedir para passar na frente sem explicar nada convenceu 60% das pessoas. O mesmo pedido, com o motivo dito junto, convenceu 94% delas. Fotografia escura de uma impressora de escritório apoiada em uma bancada, em penumbra, com a bancada e o cabo ocupando toda a parte de baixo do quadro.",
+      "photo": {
+        "src": "../assets/foto-copiadora.jpg",
+        "pos": "50% 50%",
+        "scale": 1.3,
+        "origin": "50% 100%"
+      }
+    },
+    {
+      "n": 2,
+      "papel_interno": "cena",
+      "layout": "poster-scene",
+      "kicker": "A cena",
+      "copy": {
+        "lines": [
+          "Só o",
+          "prazo."
+        ],
+        "closing": "Você mandou no grupo que precisava do relatório até quinta. Quinta chegou e o relatório não. Ninguém sabia que aquele arquivo travava a reunião com o cliente na sexta, porque essa parte ficou só na sua cabeça.",
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515 · foto: Giorgio Trovato"
+      },
+      "approved_visible_copy": [
+        "A cena",
+        "02/07",
+        "Só o",
+        "prazo.",
+        "Você mandou no grupo que precisava do relatório até quinta. Quinta chegou e o relatório não. Ninguém sabia que aquele arquivo travava a reunião com o cliente na sexta, porque essa parte ficou só na sua cabeça.",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515 · foto: Giorgio Trovato"
+      ],
+      "alt": "Slide 2 de 7. Só o prazo. Você mandou no grupo que precisava do relatório até quinta. Quinta chegou e o relatório não. Ninguém sabia que aquele arquivo travava a reunião com o cliente na sexta, porque essa parte ficou só na sua cabeça. Papel claro com fotografia em preto e branco de um celular de tela apagada apoiado sobre um caderno fechado, com uma caneta ao lado.",
+      "photo": {
+        "src": "../assets/foto-celular-caderno.jpg",
+        "pos": "50% 50%"
+      }
+    },
+    {
+      "n": 3,
+      "papel_interno": "evidência",
+      "layout": "poster-lines",
+      "kicker": "A evidência",
+      "copy": {
+        "lines": [
+          "Fachada não",
+          "sustenta."
+        ],
+        "closing": "No estudo havia 2 motivos. Um real, estou com pressa, e um vazio, preciso tirar cópias, que só repetia o pedido em outras palavras. No pedido de 5 páginas os 2 funcionaram igual. No de 20 páginas o vazio caiu para 24%, o mesmo de quem não deu motivo, e só o real ficou em 42%.",
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515"
+      },
+      "approved_visible_copy": [
+        "A evidência",
+        "03/07",
+        "Fachada não",
+        "sustenta.",
+        "No estudo havia 2 motivos. Um real, estou com pressa, e um vazio, preciso tirar cópias, que só repetia o pedido em outras palavras. No pedido de 5 páginas os 2 funcionaram igual. No de 20 páginas o vazio caiu para 24%, o mesmo de quem não deu motivo, e só o real ficou em 42%.",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515"
+      ],
+      "alt": "Slide 3 de 7. Fachada não sustenta. No estudo havia 2 motivos. Um real, estou com pressa, e um vazio, preciso tirar cópias, que só repetia o pedido em outras palavras. No pedido de 5 páginas os 2 funcionaram igual. No de 20 páginas o vazio caiu para 24%, o mesmo de quem não deu motivo, e só o real ficou em 42%."
+    },
+    {
+      "n": 4,
+      "papel_interno": "virada",
+      "layout": "poster-turn",
+      "kicker": "A chave",
+      "copy": {
+        "title": "O porquê\nordena.",
+        "accent": "Sem ele, vira fila.",
+        "hl": "Sem ele, vira fila.",
+        "ghost": "94",
+        "year": "2026",
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515",
+        "body": "Quem recebe já tem outros pedidos na frente. Sem o motivo, o jeito de ordenar é adivinhar, e o que não mostra consequência cai para o fim. Com o motivo junto, a pessoa vê o que trava o quê e coloca no lugar certo, sem precisar perguntar.",
+        "state": "laranja"
+      },
+      "approved_visible_copy": [
+        "A chave",
+        "04/07",
+        "O porquê ordena.",
+        "Sem ele, vira fila.",
+        "2026",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515",
+        "Quem recebe já tem outros pedidos na frente. Sem o motivo, o jeito de ordenar é adivinhar, e o que não mostra consequência cai para o fim. Com o motivo junto, a pessoa vê o que trava o quê e coloca no lugar certo, sem precisar perguntar."
+      ],
+      "alt": "Slide 4 de 7. O porquê ordena. Sem ele, vira fila. Quem recebe já tem outros pedidos na frente. Sem o motivo, o jeito de ordenar é adivinhar, e o que não mostra consequência cai para o fim. Com o motivo junto, a pessoa vê o que trava o quê e coloca no lugar certo, sem precisar perguntar."
+    },
+    {
+      "n": 5,
+      "papel_interno": "método",
+      "layout": "poster-fields",
+      "kicker": "O que fazer",
+      "copy": {
+        "title": "O pedido em\n4 partes.",
+        "items": [
+          {
+            "num": "1",
+            "label": "O que você precisa, em 1 frase, com o nome do arquivo ou do documento."
+          },
+          {
+            "num": "2",
+            "label": "Para quando, com dia e hora, e não apenas até quinta."
+          },
+          {
+            "num": "3",
+            "label": "O motivo real: o que trava ou atrasa se aquilo não chegar na hora."
+          },
+          {
+            "num": "4",
+            "label": "Para quem, pelo nome, e a confirmação de que a pessoa viu."
+          }
+        ],
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515"
+      },
+      "approved_visible_copy": [
+        "O que fazer",
+        "05/07",
+        "O pedido em 4 partes.",
+        "1",
+        "O que você precisa, em 1 frase, com o nome do arquivo ou do documento.",
+        "2",
+        "Para quando, com dia e hora, e não apenas até quinta.",
+        "3",
+        "O motivo real: o que trava ou atrasa se aquilo não chegar na hora.",
+        "4",
+        "Para quem, pelo nome, e a confirmação de que a pessoa viu.",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515"
+      ],
+      "alt": "Slide 5 de 7. O pedido em 4 partes. 1: o que você precisa, em 1 frase, com o nome do arquivo ou do documento. 2: para quando, com dia e hora, e não apenas até quinta. 3: o motivo real, o que trava ou atrasa se aquilo não chegar na hora. 4: para quem, pelo nome, e a confirmação de que a pessoa viu."
+    },
+    {
+      "n": 6,
+      "papel_interno": "limite",
+      "layout": "poster-statement",
+      "kicker": "Até onde vai",
+      "copy": {
+        "title": "São 120\npessoas.",
+        "accent": "Em 1 fila.",
+        "body": "O estudo é de 1978, com cerca de 120 pessoas em 1 fila de copiadora e cerca de 20 por grupo. Ele mede quem cede a vez, não prazo de equipe nem entrega de cliente.",
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515"
+      },
+      "approved_visible_copy": [
+        "Até onde vai",
+        "06/07",
+        "São 120 pessoas.",
+        "Em 1 fila.",
+        "O estudo é de 1978, com cerca de 120 pessoas em 1 fila de copiadora e cerca de 20 por grupo. Ele mede quem cede a vez, não prazo de equipe nem entrega de cliente.",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515"
+      ],
+      "alt": "Slide 6 de 7. São 120 pessoas, em 1 fila. O estudo é de 1978, com cerca de 120 pessoas em 1 fila de copiadora e cerca de 20 por grupo. Ele mede quem cede a vez, não prazo de equipe nem entrega de cliente."
+    },
+    {
+      "n": 7,
+      "papel_interno": "fechamento",
+      "layout": "poster-close",
+      "kicker": "O passo de hoje",
+      "copy": {
+        "title": "Reveja 1 pedido.",
+        "hl": "Reveja 1 pedido.",
+        "accent": "Aquele que ficou sem resposta.",
+        "body": "Abra a última mensagem em que você pediu alguma coisa e ainda não teve retorno. Reescreva a mensagem com o motivo real junto: o que trava se aquilo não chegar. Mande de novo agora, chamando a pessoa pelo nome.",
+        "year": "2026",
+        "temas": "Temas: Pedidos / Equipe / Prazo",
+        "micro": "@zionaxs_ · ref c169e515 · foto: Jaykumar Bherwani"
+      },
+      "approved_visible_copy": [
+        "O passo de hoje",
+        "07/07",
+        "Reveja 1 pedido.",
+        "Aquele que ficou sem resposta.",
+        "Abra a última mensagem em que você pediu alguma coisa e ainda não teve retorno. Reescreva a mensagem com o motivo real junto: o que trava se aquilo não chegar. Mande de novo agora, chamando a pessoa pelo nome.",
+        "2026",
+        "Temas: Pedidos / Equipe / Prazo",
+        "@zionaxs_ · ref c169e515 · foto: Jaykumar Bherwani"
+      ],
+      "alt": "Slide 7 de 7. Reveja 1 pedido, aquele que ficou sem resposta. Abra a última mensagem em que você pediu alguma coisa e ainda não teve retorno. Reescreva a mensagem com o motivo real junto: o que trava se aquilo não chegar. Mande de novo agora, chamando a pessoa pelo nome. Fotografia escura de uma mão segurando um celular em penumbra, com a tela apagada e o restante do quadro em sombra.",
+      "photo": {
+        "src": "../assets/foto-mao-celular.jpg",
+        "pos": "50% 50%",
+        "scale": 1.6,
+        "origin": "50% 100%"
+      }
+    }
+  ],
+  "caption": [
+    "Você mandou no grupo que precisava do relatório até quinta. Quinta chegou e o relatório não. Antes de cobrar atenção, vale olhar o que a mensagem carregava: ela tinha a tarefa e tinha o prazo, e não tinha o motivo.",
+    "Em 1978, a psicóloga Ellen Langer publicou com Arthur Blank e Benzion Chanowitz um experimento feito em uma fila de copiadora, em uma universidade de Nova York. Alguém pedia para passar na frente com 5 páginas. Sem motivo, 60% das pessoas deixavam. Com o motivo dito junto, porque estou com pressa, 94% deixavam.",
+    "A parte que quase ninguém conta vem depois. O estudo testou também um motivo vazio, porque preciso tirar cópias, que só repetia o pedido em outras palavras. No pedido pequeno ele funcionou igual ao real, com 93%. Quando o pedido subiu para 20 páginas, o vazio caiu para cerca de 24%, o mesmo de quem não deu motivo nenhum, e só o real se manteve à frente, com cerca de 42%.",
+    "Ou seja: para o que custa pouco, quase qualquer explicação destrava. Para o que custa caro, e no trabalho tudo custa caro para quem recebe, o único motivo que move é o verdadeiro. Quem recebe seu pedido já tem outros na frente e precisa ordenar. Sem a consequência declarada, ordenar vira adivinhação, e o seu cai para o fim.",
+    "Na prática, 4 partes em cada pedido. 1: o que você precisa, em 1 frase, com o nome do arquivo. 2: para quando, com dia e hora. 3: o motivo real, o que trava se aquilo não chegar. 4: para quem, pelo nome, com confirmação de que a pessoa viu.",
+    "Um cuidado importante. O estudo é de 1978, com cerca de 120 pessoas em 1 fila de copiadora e cerca de 20 por grupo, então a diferença do pedido grande se apoia em poucos casos. Ele mede quem cede a vez em 1 fila, não prazo de equipe nem entrega de cliente. E as 4 partes são forma nossa de aplicar o achado, não estão no artigo.",
+    "Comece hoje. Abra o último pedido que ficou sem resposta e reescreva com o motivo junto."
+  ],
+  "caption_sources": [
+    "Ellen J. Langer, Arthur Blank e Benzion Chanowitz, The Mindlessness of Ostensibly Thoughtful Action: The Role of Placebic Information in Interpersonal Interaction, Journal of Personality and Social Psychology, volume 36, número 6, 1978, páginas 635 a 642. Experimento 1, em fila de copiadora de uma universidade de Nova York, com cerca de 120 adultos distribuídos entre as condições de tamanho do pedido e tipo de informação."
+  ]
+}

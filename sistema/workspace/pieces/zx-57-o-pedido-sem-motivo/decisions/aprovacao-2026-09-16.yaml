@@ -1,0 +1,97 @@
+peca: zx-57-o-pedido-sem-motivo
+data: 2026-09-16
+autor: sessão automática do /carrossel-zionaxs (slot da manhã, 08:30 BRT)
+decisao: aprovada para publicação
+digest_da_geracao: f0be3e91fe735f0e
+gates: 14/14 verdes
+porteiro: liberado, cadência 0/2 no dia
+
+autorizacao:
+  tipo: permanente
+  origem: Fabiano, 29/08/2026, registrada em .claude/commands/carrossel-zionaxs.md
+  escopo: >
+    O comando publica sem aprovação peça a peça, e a autorização vale para o fluxo
+    inteiro incluindo as travas. Nenhuma trava foi contornada nesta execução: não
+    houve uso de --excecao e a política de publicação da marca não foi tocada.
+
+tema:
+  escolhido: >
+    O pedido sem motivo. Em experimento de 1978 de Ellen Langer, Arthur Blank e
+    Benzion Chanowitz, em fila de copiadora, pedir para passar na frente com 5
+    páginas convenceu 60% das pessoas sem motivo e 94% com o motivo dito junto. A
+    virada que a peça carrega é a segunda metade do mesmo estudo: quando o pedido
+    subiu para 20 páginas, o motivo de fachada caiu para cerca de 24%, o mesmo de
+    quem não deu motivo nenhum, e só o motivo real ficou em cerca de 42%.
+  papel_editorial: >
+    Slot da manhã pede descoberta, tensão atual, curiosidade ou pauta encaminhável.
+    O tema entra por um achado contraintuitivo e encaminhável, sai com 1 passo
+    aplicável no mesmo dia, e não vira tutorial longo, que é o papel do slot da
+    tarde. A segunda metade do estudo é o que impede a peça de virar truque de
+    persuasão: ela mostra que motivo de fachada para de funcionar assim que o
+    pedido custa caro, o que é o caso de todo pedido de trabalho.
+  nao_repete: >
+    Conferido contra as 38 peças de zx-20 a zx-56. As vizinhas mais próximas são a
+    zx-40, sobre o trabalho que trava ao trocar de mão, e a zx-47, sobre o
+    combinado que sai de reunião sem dia e sem hora: as 3 vivem na passagem de
+    trabalho entre pessoas, mas ali o mecanismo é o que se perde na entrega e o
+    combinado sem data, e aqui é a prioridade que quem recebe não consegue
+    calcular porque a mensagem não carrega a consequência. Ellen Langer não foi
+    citada em nenhuma peça anterior.
+
+codigos_editoriais:
+  matriz: >
+    Nenhum código declarado, de propósito. M01 a M20 da nota 19c não têm linha
+    sobre desenho da mensagem que delega. O raciocínio completo está no campo
+    matriz_nota do contrato, com o descarte justificado de M19, M18 e M17.
+  repertorio: >
+    Nenhum código declarado. Langer não está no ledger R1 a R9. R9, de Deming, foi
+    considerada e recusada para não abrir uma segunda ideia-fonte em peça que se
+    sustenta em 1 experimento só. O raciocínio está no campo repertorio_nota.
+  jtbd: JF4 e JE1, os 2 conferidos contra a nota 19b pela verificação A9.
+
+correcoes_desta_sessao:
+  - gate: G6
+    onde: slide 5, item 3
+    o_que: >
+      "O motivo real: o que trava se aquilo não chegar na hora." deixava órfã de
+      11% na última linha. Seguindo a regra da zx-52, o que move a quebra é o
+      comprimento, não a ordem das palavras: a frase passou a "O motivo real: o
+      que trava ou atrasa se aquilo não chegar na hora.", 10 caracteres a mais, e
+      a órfã sumiu. A mesma mudança entrou nos 3 lugares, copy, copy aprovada e
+      alt, conforme a regra da zx-46.
+  - passo: 6
+    onde: slide 1, foto
+    o_que: >
+      A primeira escolha de capa era uma fotografia de pessoas em silhueta diante
+      de uma janela panorâmica, aprovada na folha de contato com a banda de texto
+      inteira escura e todo o chrome legível. Os 14 gates ficaram verdes. No PNG
+      de 1080x1350, porém, uma das pessoas aparecia de frente, com o rosto lit e
+      reconhecível, o que é exatamente o caso da zx-37. As alavancas de crop não
+      resolviam: a foto é retrato mais alta que 0.8, então o X de pos não move
+      nada, e o scale que tirava o rosto de quadro, testado a 2.2, deixava só o
+      piso vazio, sem assunto nomeável, que é o descarte da zx-46. Seguindo a
+      lição da zx-45, a foto foi trocada em vez de insistir no recorte: entrou
+      uma impressora de escritório em penumbra, que é a cena literal do estudo
+      citado na capa, não tem pessoa nenhuma e tem a metade de baixo escura e
+      quieta. Custou 1 geração.
+
+aprendizado_desta_sessao:
+  titulo: >
+    A folha de contato não mede rosto, e a regra da zx-37 precisa ser aplicada
+    antes de escolher a foto, e não depois de gerar.
+  detalhe: >
+    A folha de contato foi corrigida na zx-56 para desenhar kicker, caixa de
+    paginação e ano nas posições medidas, e ela cumpriu esse papel aqui: reprovou
+    3 recortes antes de gerar. O que ela não faz, e não tem como fazer, é dizer
+    se um rosto vai aparecer lit no quadro de 1080x1350, porque as miniaturas de
+    360 pixels de largura mostram qualquer pessoa como silhueta. A zx-37 já
+    registrou isso, e mesmo assim a foto entrou no contrato. O par que faltava é
+    de método, não de ferramenta: quando a candidata tem pessoas, olhar o arquivo
+    em tamanho grande ANTES de montar a folha, porque a folha responde sobre
+    tinta e chrome, e a pergunta do rosto é anterior a ela. Regra prática barata:
+    candidata com pessoa de frente entra na folha só depois de passar no olho, e
+    na dúvida entre 2 candidatas igualmente boas, a sem pessoa ganha.
+  onde_mora: >
+    campanhas/zionaxs/direcao-visual/README.md, na seção de enquadramento, junto
+    das outras notas de foto. Não vira gate porque medir rosto no pixel não é
+    regra binária que este pipeline saiba cobrar.

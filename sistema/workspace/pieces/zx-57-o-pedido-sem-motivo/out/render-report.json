@@ -1,0 +1,265 @@
+{
+  "pieceId": "zx-57-o-pedido-sem-motivo",
+  "generatedAt": "2026-09-16T11:46:49+00:00",
+  "chromium": "151.0.7922.34",
+  "format": "carousel-4x5",
+  "canvas": {
+    "w": 1080,
+    "h": 1350,
+    "safe": {
+      "x": 80,
+      "y": 88
+    }
+  },
+  "fonts": [
+    {
+      "face": "700 80px Poppins",
+      "loaded": true
+    },
+    {
+      "face": "400 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 46px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "600 34px Archivo",
+      "loaded": true
+    },
+    {
+      "face": "500 26px \"JetBrains Mono\"",
+      "loaded": true
+    },
+    {
+      "face": "700 232px \"JetBrains Mono\"",
+      "loaded": true
+    }
+  ],
+  "slides": [
+    "zx-57-o-pedido-sem-motivo-slide-01.png",
+    "zx-57-o-pedido-sem-motivo-slide-02.png",
+    "zx-57-o-pedido-sem-motivo-slide-03.png",
+    "zx-57-o-pedido-sem-motivo-slide-04.png",
+    "zx-57-o-pedido-sem-motivo-slide-05.png",
+    "zx-57-o-pedido-sem-motivo-slide-06.png",
+    "zx-57-o-pedido-sem-motivo-slide-07.png"
+  ],
+  "perSlide": [
+    {
+      "n": 1,
+      "minContrast": 3.38,
+      "levels": [
+        86,
+        54,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O pedido sem motivo 01/07 Peça com motivo. De 60% para 94%. Em 1978, a psicóloga Ellen Langer testou um pedido em uma fila de copiadora, em uma universidade de Nova York. Pedir para passar na frente sem explicar nada convenceu 60% das pessoas. O mesmo pedido, com o motivo dito junto, convenceu 94% delas. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515 · foto: Meatball Overexposure"
+    },
+    {
+      "n": 2,
+      "minContrast": 5.68,
+      "levels": [
+        80,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A cena02/07 Só o prazo. Você mandou no grupo que precisava do relatório até quinta. Quinta chegou e o relatório não. Ninguém sabia que aquele arquivo travava a reunião com o cliente na sexta, porque essa parte ficou só na sua cabeça. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515 · foto: Giorgio Trovato"
+    },
+    {
+      "n": 3,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "A evidência03/07 Fachada não sustenta. No estudo havia 2 motivos. Um real, estou com pressa, e um vazio, preciso tirar cópias, que só repetia o pedido em outras palavras. No pedido de 5 páginas os 2 funcionaram igual. No de 20 páginas o vazio caiu para 24%, o mesmo de quem não deu motivo, e só o real ficou em 42%. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515"
+    },
+    {
+      "n": 4,
+      "minContrast": 3.38,
+      "levels": [
+        78,
+        40
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026A chave 04/07 O porquê ordena. Sem ele, vira fila. Quem recebe já tem outros pedidos na frente. Sem o motivo, o jeito de ordenar é adivinhar, e o que não mostra consequência cai para o fim. Com o motivo junto, a pessoa vê o que trava o quê e coloca no lugar certo, sem precisar perguntar. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515"
+    },
+    {
+      "n": 5,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        34,
+        32
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "O que fazer05/07 O pedido em 4 partes. 1O que você precisa, em 1 frase, com o nome do arquivo ou do documento. 2Para quando, com dia e hora, e não apenas até quinta. 3O motivo real: o que trava ou atrasa se aquilo não chegar na hora. 4Para quem, pelo nome, e a confirmação de que a pessoa viu. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515"
+    },
+    {
+      "n": 6,
+      "minContrast": 5.68,
+      "levels": [
+        64,
+        40
+      ],
+      "chromeLevels": [
+        26,
+        24,
+        17,
+        15
+      ],
+      "renderedText": "Até onde vai06/07 São 120 pessoas. Em 1 fila. O estudo é de 1978, com cerca de 120 pessoas em 1 fila de copiadora e cerca de 20 por grupo. Ele mede quem cede a vez, não prazo de equipe nem entrega de cliente. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515"
+    },
+    {
+      "n": 7,
+      "minContrast": 3.38,
+      "levels": [
+        76,
+        40,
+        26
+      ],
+      "chromeLevels": [
+        46,
+        24,
+        22,
+        17,
+        15
+      ],
+      "renderedText": "2026O passo de hoje 07/07 Reveja 1 pedido. Aquele que ficou sem resposta. Abra a última mensagem em que você pediu alguma coisa e ainda não teve retorno. Reescreva a mensagem com o motivo real junto: o que trava se aquilo não chegar. Mande de novo agora, chamando a pessoa pelo nome. Temas: Pedidos / Equipe / Prazo @zionaxs_ · ref c169e515 · foto: Jaykumar Bherwani"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "canvas",
+      "pass": true,
+      "failures": [],
+      "detail": "1080x1350 · 7 unidades"
+    },
+    {
+      "id": "G2",
+      "name": "fallback de fonte",
+      "pass": true,
+      "failures": [],
+      "detail": "6/6 faces"
+    },
+    {
+      "id": "G3",
+      "name": "overflow",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G4",
+      "name": "área segura",
+      "pass": true,
+      "failures": [],
+      "detail": "80/88px"
+    },
+    {
+      "id": "G5",
+      "name": "contraste WCAG 2.2",
+      "pass": true,
+      "failures": [],
+      "detail": "mínimo medido 3.38:1"
+    },
+    {
+      "id": "G6",
+      "name": "runt lines",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G7",
+      "name": "quebra não autoral",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "name": "máx. 3 níveis por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "chrome medido à parte"
+    },
+    {
+      "id": "G9",
+      "name": "strings não aprovadas",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G10",
+      "name": "strings faltando",
+      "pass": true,
+      "failures": [],
+      "detail": ""
+    },
+    {
+      "id": "G11",
+      "name": "rótulo interno vazado",
+      "pass": true,
+      "failures": [],
+      "detail": "0 allowlist"
+    },
+    {
+      "id": "G12",
+      "name": "alt text por unidade",
+      "pass": true,
+      "failures": [],
+      "detail": "7 unidades"
+    },
+    {
+      "id": "G13",
+      "name": "padrão de copy da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "7 parágrafos de legenda"
+    },
+    {
+      "id": "G14",
+      "name": "direção visual da marca",
+      "pass": true,
+      "failures": [],
+      "detail": "família poster-*"
+    }
+  ],
+  "pass": true,
+  "durationSeconds": 2.5,
+  "digest": "f0be3e91fe735f0ef5973437a4aaefc1caad193d15ee21e872c8e0a2f6c52ad6"
+}
